@@ -1,0 +1,23 @@
+[
+  {
+    "id": "breeze",
+    "active": 30,
+    "newInWindow": 17,
+    "landings": 2,
+    "errors": 0
+  },
+  {
+    "id": "smartyme",
+    "active": 170,
+    "newInWindow": 50,
+    "landings": 2,
+    "errors": 0
+  },
+  {
+    "id": "simply-draw",
+    "active": 6,
+    "newInWindow": 0,
+    "landings": 1,
+    "errors": 0
+  }
+]

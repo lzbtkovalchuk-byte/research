@@ -1,0 +1,39 @@
+{
+  "url": "https://join-draw.hellosimply.com/start?flow=baw&utm_source=facebook&utm_medium={{adset.id}}&utm_campaign={{campaign.id}}&utm_content={{ad.name}}&placement={{placement}}&sitesource={{site_source_name}}&ad_id={{ad.id}}",
+  "key": "join-draw.hellosimply.com/start?flow=baw",
+  "why": "ad",
+  "ads": 6,
+  "adShot": "simply-draw-ae1631c99eb6.webp",
+  "adId": "4572313796335873",
+  "dir": "funnels/simply-draw/ae1631c99eb6",
+  "stop": "payment_form",
+  "proxied": false,
+  "steps": [
+    {
+      "n": 1,
+      "file": "01.webp",
+      "url": "https://join-draw.hellosimply.com/start/drawOnePagerIntro?flow=baw&utm_source=facebook&utm_medium={{adset.id}}&utm_campaign={{campaign.id}}&utm_content={{ad.name}}&placement={{placement}}&sitesource={{site_source_name}}&ad_id={{ad.id}}",
+      "path": "/start/drawOnePagerIntro",
+      "title": "Creativity that helps your child grow",
+      "kind": "payment",
+      "text": "Step 1 of 4\nCreativity that helps your child grow\nEasy, step-by-step lessons kids love\nChild safe with no ads\nLearn to draw with a real pencil and paper\nCreated with love by teachers & artists\nGrow Your Child’s Skills",
+      "textHash": "a18d5dac8729",
+      "dhash": "0000011000001111011011110101101100111100110011100101011111001101",
+      "prices": []
+    }
+  ],
+  "features": {
+    "totalSteps": 1,
+    "stop": "payment_form",
+    "emailStep": null,
+    "paywallStep": null,
+    "questions": 0,
+    "socialProof": 0,
+    "loader": false,
+    "prices": [],
+    "discount": null,
+    "timer": false,
+    "trial": false,
+    "moneyBack": false
+  }
+}

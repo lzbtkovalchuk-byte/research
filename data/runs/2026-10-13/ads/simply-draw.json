@@ -1,0 +1,89 @@
+{
+  "id": "simply-draw",
+  "name": "Simply Draw",
+  "geo": "US",
+  "collected": "2026-10-13",
+  "windowStart": "2026-09-29",
+  "sources": [
+    {
+      "type": "page",
+      "value": "103572289088360",
+      "url": "https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=US&media_type=all&search_type=page&view_all_page_id=103572289088360",
+      "results": 6,
+      "parsed": 3,
+      "kept": 3
+    }
+  ],
+  "ads": [
+    {
+      "id": "4572313796335873",
+      "started": "Jun 9, 2026",
+      "versions": 2,
+      "page": "Simply Draw",
+      "body": "🎨 What if screen time made your kids excited to create instead of scroll?",
+      "caption": null,
+      "headline": "",
+      "cta": "",
+      "video": false,
+      "link": "https://join-draw.hellosimply.com/start?flow=baw&utm_source=facebook&utm_medium={{adset.id}}&utm_campaign={{campaign.id}}&utm_content={{ad.name}}&placement={{placement}}&sitesource={{site_source_name}}&ad_id={{ad.id}}",
+      "startedISO": "2026-06-09",
+      "key": "join-draw.hellosimply.com/start?flow=baw",
+      "store": false
+    },
+    {
+      "id": "1946074639422216",
+      "started": "Jun 9, 2026",
+      "versions": 2,
+      "page": "Simply Draw",
+      "body": "🎨 What if screen time made your kids excited to create instead of scroll?",
+      "caption": null,
+      "headline": "",
+      "cta": "",
+      "video": false,
+      "link": "https://join-draw.hellosimply.com/start?flow=baw&utm_source=facebook&utm_medium={{adset.id}}&utm_campaign={{campaign.id}}&utm_content={{ad.name}}&placement={{placement}}&sitesource={{site_source_name}}&ad_id={{ad.id}}",
+      "startedISO": "2026-06-09",
+      "key": "join-draw.hellosimply.com/start?flow=baw",
+      "store": false
+    },
+    {
+      "id": "1734593691027616",
+      "started": "Jun 9, 2026",
+      "versions": 2,
+      "page": "Simply Draw",
+      "body": "🎨 What if screen time made your kids excited to create instead of scroll?",
+      "caption": null,
+      "headline": "",
+      "cta": "",
+      "video": false,
+      "link": "https://join-draw.hellosimply.com/start?flow=baw&utm_source=facebook&utm_medium={{adset.id}}&utm_campaign={{campaign.id}}&utm_content={{ad.name}}&placement={{placement}}&sitesource={{site_source_name}}&ad_id={{ad.id}}",
+      "startedISO": "2026-06-09",
+      "key": "join-draw.hellosimply.com/start?flow=baw",
+      "store": false
+    }
+  ],
+  "landing": {
+    "join-draw.hellosimply.com/start?flow=baw": {
+      "key": "join-draw.hellosimply.com/start?flow=baw",
+      "sample": "https://join-draw.hellosimply.com/start?flow=baw&utm_source=facebook&utm_medium={{adset.id}}&utm_campaign={{campaign.id}}&utm_content={{ad.name}}&placement={{placement}}&sitesource={{site_source_name}}&ad_id={{ad.id}}",
+      "store": false,
+      "ads": 6,
+      "creatives": 3,
+      "first": "2026-06-09",
+      "last": "2026-06-09",
+      "adIds": [
+        "4572313796335873",
+        "1946074639422216",
+        "1734593691027616"
+      ],
+      "shot": "simply-draw-ae1631c99eb6.webp",
+      "shotAd": "4572313796335873"
+    }
+  },
+  "pageIds": {
+    "Simply Draw": "103572289088360"
+  },
+  "activeEstimate": 6,
+  "parsedCreatives": 3,
+  "newInWindow": 0,
+  "newCreativesInWindow": 0
+}

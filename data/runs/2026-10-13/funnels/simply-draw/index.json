@@ -1,0 +1,17 @@
+{
+  "id": "simply-draw",
+  "name": "Simply Draw",
+  "geo": "US",
+  "skillsta": false,
+  "storeOnly": false,
+  "funnels": [
+    {
+      "key": "join-draw.hellosimply.com/start?flow=baw",
+      "dir": "funnels/simply-draw/ae1631c99eb6",
+      "stop": "payment_form",
+      "steps": 1,
+      "why": "ad",
+      "ads": 6
+    }
+  ]
+}

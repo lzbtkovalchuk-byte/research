@@ -1,0 +1,25 @@
+{
+  "id": "breeze",
+  "name": "Breeze",
+  "geo": "GB",
+  "skillsta": false,
+  "storeOnly": false,
+  "funnels": [
+    {
+      "key": "try-breeze.com/funnel/childhood",
+      "dir": "funnels/breeze/1e1f86ca9474",
+      "stop": "stuck",
+      "steps": 9,
+      "why": "ad",
+      "ads": 39
+    },
+    {
+      "key": "try-breeze.com/funnel/childhood_nontrial",
+      "dir": "funnels/breeze/21c8661d13b0",
+      "stop": "stuck",
+      "steps": 9,
+      "why": "ad",
+      "ads": 1
+    }
+  ]
+}
