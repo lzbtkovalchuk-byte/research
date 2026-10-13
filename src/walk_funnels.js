@@ -66,7 +66,7 @@ async function inspect(page) {
     }
     const inputs = [...document.querySelectorAll('input,textarea,select')].filter(vis).filter(i => !['hidden', 'submit', 'button', 'radio'].includes(i.type)).map((i, n) => {
       i.setAttribute('data-cfw', 'in' + n);
-      const lab = (i.labels?.[0]?.innerText || i.closest('label')?.innerText || '').trim();
+      const lab = ([...(i.labels || [])].map(l => l.innerText).join(' ') || i.closest('label')?.innerText || i.parentElement?.parentElement?.innerText || '').trim();
       return { sel: `[data-cfw="in${n}"]`, tag: i.tagName.toLowerCase(), type: i.type, name: i.name, ph: i.placeholder || '', label: lab.slice(0, 120), min: i.min, max: i.max, value: i.type === 'checkbox' ? i.checked : i.value, required: i.required };
     });
     const hasPassword = inputs.some(i => i.type === 'password');
