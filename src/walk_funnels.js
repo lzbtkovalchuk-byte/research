@@ -68,7 +68,7 @@ async function inspect(page) {
     const cand = [...document.querySelectorAll('button,[role=button],[role=radio],[role=checkbox],[role=option],label,a,li,div,span')].filter(el => {
       if (!vis(el)) return false;
       const s = getComputedStyle(el);
-      const clickable = ['BUTTON', 'A', 'LABEL'].includes(el.tagName) || el.getAttribute('role') || s.cursor === 'pointer' || el.onclick;
+      const clickable = ['BUTTON', 'A', 'LABEL'].includes(el.tagName) || el.getAttribute('role') || s.cursor === 'pointer' || el.onclick || /^\d{1,2}:\d{2}(\s?[ap]m)?$/i.test((el.innerText || '').trim());
       if (!clickable) return false;
       const t = (el.innerText || el.getAttribute('aria-label') || '').trim();
       if (!t && !el.querySelector('img,svg')) return false;
@@ -147,7 +147,7 @@ function pickOption(s) {
   if (o.some(x => !x.icon)) o = o.filter(x => !x.icon);
   if (!o.length) return null;
   // Voice/mic tests can't run headless → skip them.
-  if (/(record|microphone|\bmic\b|sing a note|glide)/i.test(s.text)) { const sk = o.find(x => /^(skip|finish|not now|later|continue without)/i.test(x.text)); if (sk) return sk; }
+  if (/(couldn.t access your mic|microphone (is )?blocked|allow (access to )?(your )?microphone)/i.test(s.text)) { const sk = o.find(x => /^(skip|finish|not now|later|continue without)/i.test(x.text)); if (sk) return sk; }
   const yes = o.find(x => /^(yes|👍\s*yes|yes,? .{0,20})$/i.test(x.text)); if (yes && o.length <= 4) return yes;
   // Age ranges: pick the bracket containing 30 (adult, neutral).
   const ages = o.filter(x => AGE.test(x.text));
@@ -172,6 +172,7 @@ async function shot(page, file) {
 async function walk(browser, app, entry, dir) {
   const proxy = proxyFor(app.geo);
   const ctx = await browser.newContext({
+    permissions: ['microphone', 'camera'],
     ...devices['iPhone 13'], viewport: { width: 390, height: 844 }, deviceScaleFactor: 2,
     locale: app.geo === 'GB' ? 'en-GB' : 'en-US', timezoneId: app.geo === 'GB' ? 'Europe/London' : 'America/New_York',
     ...(proxy ? { proxy } : {}),
@@ -231,14 +232,18 @@ async function walk(browser, app, entry, dir) {
       const changed = async () => (await page.evaluate(() => location.href + '|' + document.body.innerText).catch(() => '')) !== before;
       const snap = () => page.evaluate(() => location.href + '|' + document.body.innerText).catch(() => '');
       // Click; if nothing happens, retry as a touch tap and then a raw mouse click at the element's centre.
+      // State = page text + the clicked element's markup, so a checkbox that only changes style still counts as a change.
+      const state = async loc => (await snap()) + '|' + (await loc.evaluate(e => e.outerHTML.slice(0, 3000) + (e.closest('form,ul,div')?.innerHTML || '').length).catch(() => ''));
       const click = async (sel, toggle = false) => {
         const loc = page.locator(sel).first();
-        const b = await snap();
+        const b = await state(loc);
         await loc.click({ timeout: 4000 }).catch(() => loc.click({ force: true }).catch(() => {}));
         if (toggle) return;
-        await sleep(600); if ((await snap()) !== b) return;
+        await sleep(700); if ((await state(loc)) !== b) return;
         await loc.tap({ timeout: 3000 }).catch(() => {});
-        await sleep(600); if ((await snap()) !== b) return;
+        await sleep(700); if ((await state(loc)) !== b) return;
+        await loc.evaluate(e => { for (const t of ['pointerdown', 'mousedown', 'pointerup', 'mouseup']) e.dispatchEvent(new PointerEvent(t, { bubbles: true })); e.click(); }).catch(() => {});
+        await sleep(700); if ((await state(loc)) !== b) return;
         const bb = await loc.boundingBox().catch(() => null);
         if (bb) await page.mouse.click(bb.x + bb.width / 2, bb.y + bb.height / 2).catch(() => {});
       };
@@ -345,7 +350,8 @@ function features(steps, stop) {
 async function main() {
   const only = process.env.ONLY ? process.env.ONLY.split(',') : null;
   const apps = allApps(cfg);
-  const browser = await chromium.launch();
+  // Fake mic/camera so voice and drawing tests in funnels can run (they hear a test tone).
+  const browser = await chromium.launch({ args: ['--use-fake-ui-for-media-stream', '--use-fake-device-for-media-stream', '--autoplay-policy=no-user-gesture-required'] });
   for (const app of apps) {
     if (only && !only.includes(app.id)) continue;
     const ads = readJSON(path.join(RUN, 'ads', `${app.id}.json`), null);
