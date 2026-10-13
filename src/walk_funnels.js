@@ -88,7 +88,18 @@ async function inspect(page) {
       const item = { sel: `[data-cfw="c${n}"]`, text: t.slice(0, 80), top: Math.round(r.top), disabled };
       if (CTA.test(t)) ctas.push(item); else opts.push(item);
     });
-    return { url: location.href, title, text: text.slice(0, 4000), inputs, hasPassword, hasCard, ctas, opts };
+    // Primary button: the widest visible button-like element (usually the full-width CTA at the bottom).
+    let primary = null, pw = 0;
+    for (const el of document.querySelectorAll('button,[role=button],input[type=submit],a')) {
+      if (!vis(el)) continue;
+      const t = (el.innerText || el.value || el.getAttribute('aria-label') || '').trim().replace(/\s+/g, ' ');
+      if (!t || t.length > 40 || NEVER.test(t)) continue;
+      const r = el.getBoundingClientRect();
+      if (r.width < innerWidth * 0.55 || r.top < innerHeight * 0.25) continue;
+      const w = r.width + r.top / 10;
+      if (w > pw) { pw = w; if (!el.getAttribute('data-cfw')) el.setAttribute('data-cfw', 'p0'); primary = { sel: `[data-cfw="${el.getAttribute('data-cfw')}"]`, text: t.slice(0, 40), disabled: el.disabled || el.getAttribute('aria-disabled') === 'true' }; }
+    }
+    return { url: location.href, title, text: text.slice(0, 4000), inputs, hasPassword, hasCard, ctas, opts, primary };
   }, { ctaSrc: CTA.source, neverSrc: NEVER.source });
 }
 
@@ -119,9 +130,23 @@ function classify(s) {
   return 'info';
 }
 
+const AGE = /^(under\s?\d+|\d{1,2}\s?[-–]\s?\d{1,2}|\d{1,2}\+|\d{1,2} or (older|more))/i;
+/** How many options a multi-select screen needs (e.g. "Choose your top 3"). 0 = single choice. */
+function multiCount(text) {
+  const m = text.match(/(?:choose|select|pick)\s+(?:your\s+)?(?:top\s+|at least\s+|up to\s+)?(\d)/i);
+  if (m) return Number(m[1]);
+  return /(all that apply|select all|choose all|multiple answers|select one or more|choose one or more)/i.test(text) ? 1 : 0;
+}
+
 function pickOption(s) {
   const o = s.opts.filter(x => !x.disabled);
   if (!o.length) return null;
+  // Age ranges: pick the bracket containing 30 (adult, neutral).
+  const ages = o.filter(x => AGE.test(x.text));
+  if (ages.length >= 3) {
+    const hit = ages.find(x => { const m = x.text.match(/(\d{1,2})\s?[-–]\s?(\d{1,2})/); return m && Number(m[1]) <= 30 && 30 <= Number(m[2]); });
+    if (hit) return hit;
+  }
   if (/(e-?mails?|newsletter|updates|offers|promotions)/i.test(s.text)) { const d = o.find(x => DECLINE.test(x.text)); if (d) return d; }
   const r3 = o.find(x => x.text === '3'); if (r3 && o.some(x => x.text === '5')) return r3; // 1–5 scale → middle
   const good = o.filter(x => !/prefer not|^other$|^none|^skip/i.test(x.text) && !DECLINE.test(x.text));
@@ -147,7 +172,7 @@ async function walk(browser, app, entry, dir) {
   page.setDefaultTimeout(15000);
   const steps = [];
   const seen = new Map();
-  let stop = 'max_steps', lastKey = '';
+  let stop = 'max_steps', lastKey = '', prevScreen = null;
   const t0 = Date.now();
   try {
     await page.goto(entry, { waitUntil: 'domcontentloaded', timeout: 60000 });
@@ -172,7 +197,7 @@ async function walk(browser, app, entry, dir) {
       seen.set(nkey, (seen.get(nkey) || 0) + 1);
       if (seen.get(nkey) > 4) { stop = 'stuck'; break; }
       if (isStoreOrSocial(host)) { stop = 'app_store'; break; }
-      if (kind === 'paywall') { stop = 'paywall'; break; }
+      if (kind === 'paywall' && steps.length > 1) { stop = 'paywall'; break; }
       if (kind === 'payment') { stop = 'payment_form'; break; }
       if (kind === 'account') { stop = 'account_creation'; break; }
 
@@ -195,25 +220,37 @@ async function walk(browser, app, entry, dir) {
 
       const before = await page.evaluate(() => location.href + '|' + document.body.innerText).catch(() => '');
       const changed = async () => (await page.evaluate(() => location.href + '|' + document.body.innerText).catch(() => '')) !== before;
-
-      if (!filled) {
-        const opt = pickOption(s);
-        if (opt) {
-          await page.locator(opt.sel).click({ timeout: 4000 }).catch(() => page.locator(opt.sel).click({ force: true }).catch(() => {}));
-          await sleep(900);
-          const after = await inspect(page);
-          const cta = after.ctas.filter(c => !c.disabled).sort((a, b) => b.top - a.top)[0];
-          if (cta && after.url === s.url && after.text.slice(0, 160) === s.text.slice(0, 160)) { // same question still showing (multi-select or feedback)
-            await page.locator(cta.sel).click({ timeout: 4000 }).catch(() => page.locator(cta.sel).click({ force: true }).catch(() => {}));
-            await sleep(1000);
+      const click = async sel => { await page.locator(sel).first().click({ timeout: 4000 }).catch(() => page.locator(sel).first().click({ force: true }).catch(() => {})); };
+      const pressCTA = async st => {
+        const c = st.ctas.filter(c => !c.disabled).sort((a, b) => b.top - a.top)[0] || (st.primary && !st.primary.disabled ? st.primary : null);
+        if (c) { await click(c.sel); act.cta = c.text; await sleep(1100); }
+        return !!c;
+      };
+      const act = {};
+      // Re-visiting a question we already answered (answer feedback, multi-select) → continue instead of toggling the answer.
+      const same = prevScreen && prevScreen.url === s.url && prevScreen.title === s.title && prevScreen.answered;
+      let answered = false;
+      if (filled) { act.filled = true; await pressCTA(s); answered = true; }
+      else {
+        let moved = false;
+        if (same) moved = await pressCTA(s) && await changed();
+        if (!moved) {
+          const multi = multiCount(s.text);
+          if (multi) {
+            const picks = s.opts.filter(x => !x.disabled && !/prefer not|^other$|^none/i.test(x.text)).slice(0, multi);
+            for (const p of picks) { await click(p.sel); await sleep(350); }
+            act.opt = picks.map(p => p.text).join(' + ');
+          } else {
+            const opt = pickOption(s);
+            if (opt) { await click(opt.sel); act.opt = opt.text; await sleep(900); }
           }
+          answered = !!act.opt;
+          const after = await inspect(page);
+          if (multi || !(await changed()) || (after.url === s.url && after.title === s.title)) await pressCTA(after);
         }
       }
-      if (!(await changed())) {
-        s = await inspect(page);
-        const cta = s.ctas.filter(c => !c.disabled).sort((a, b) => b.top - a.top)[0];
-        if (cta) { await page.locator(cta.sel).click({ timeout: 4000 }).catch(() => page.locator(cta.sel).click({ force: true }).catch(() => {})); await sleep(1200); }
-      }
+      if (steps.length) steps[steps.length - 1].action = act;
+      prevScreen = { url: s.url, title: s.title, answered };
       if (!(await changed())) {
         // Loader or animated screen: wait for it to move on by itself.
         let moved = false;

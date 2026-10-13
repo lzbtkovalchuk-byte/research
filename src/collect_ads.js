@@ -17,7 +17,7 @@ const libUrl = (geo, src) => {
   const base = `https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=${geo}&media_type=all`;
   return src.type === 'page'
     ? `${base}&search_type=page&view_all_page_id=${src.value}`
-    : `${base}&search_type=keyword_exact_phrase&q=${encodeURIComponent('"' + src.value + '"')}`;
+    : `${base}&search_type=keyword_unordered&q=${encodeURIComponent(src.value)}`;
 };
 
 async function dismissCookies(page) {
@@ -33,12 +33,13 @@ async function scrape(page, url) {
   await sleep(3000);
   await dismissCookies(page);
   let last = -1;
-  for (let i = 0; i < 25; i++) {
+  let flat = 0;
+  for (let i = 0; i < 60 && flat < 3; i++) {
     const n = await page.evaluate(() => document.body.innerText.split('Library ID: ').length - 1);
-    if (n === last && i > 2) break;
+    flat = n === last ? flat + 1 : 0;
     last = n;
-    await page.mouse.wheel(0, 6000);
-    await sleep(1500);
+    await page.evaluate(() => window.scrollTo(0, document.body.scrollHeight));
+    await sleep(2200);
   }
   return page.evaluate(() => {
     const txt = document.body.innerText;
@@ -140,7 +141,8 @@ async function main() {
       }
     }
     // Page result counts are Meta's estimates; for domain searches use the filtered count.
-    out.activeEstimate = out.sources.reduce((s, x) => s + (x.type === 'page' ? (x.results || 0) : (x.kept || 0)), 0);
+    // Domain searches can match other advertisers; trust Meta's total only when nearly all parsed ads were the app's own.
+    out.activeEstimate = out.sources.reduce((s, x) => s + (x.type === 'page' ? (x.results || 0) : (x.parsed && x.kept / x.parsed >= 0.8 ? (x.results || x.kept) : (x.kept || 0))), 0);
     out.parsedCreatives = out.ads.length;
     out.newInWindow = out.ads.filter(a => a.startedISO && a.startedISO >= windowStart).reduce((s, a) => s + a.versions, 0);
     out.newCreativesInWindow = out.ads.filter(a => a.startedISO && a.startedISO >= windowStart).length;
