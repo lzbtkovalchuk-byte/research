@@ -9,7 +9,7 @@
       "type": "domain",
       "value": "get-chillio.app",
       "url": "https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=US&media_type=all&search_type=keyword_unordered&q=get-chillio.app",
-      "results": 570,
+      "results": 590,
       "parsed": 29,
       "kept": 25
     }
@@ -331,21 +331,6 @@
       "store": false
     },
     {
-      "id": "1458090419469881",
-      "started": "Oct 3, 2026",
-      "versions": 1,
-      "page": "The Home Glow Up",
-      "body": "Waking up to yesterday's mess. Promising today would be different. My day, starting with evidence of my failure before coffee. The cycle felt permanent. Until it wasn't...",
-      "caption": null,
-      "headline": "",
-      "cta": "",
-      "video": false,
-      "link": "https://quiz.get-chillio.app/qs/cleaning-game?utm_source=CHI_web_fb&utm_campaign={{campaign.name}}&utm_content={{adset.name}}&utm_ad={{ad.name}}&utm_id={{campaign.id}}&utm_term={{adset.id}}&ad_id={{ad.id}}",
-      "startedISO": "2026-10-03",
-      "key": "quiz.get-chillio.app/qs/cleaning-game",
-      "store": false
-    },
-    {
       "id": "1853832565980311",
       "started": "Sep 6, 2026",
       "versions": 1,
@@ -358,6 +343,21 @@
       "link": "https://quiz.get-chillio.app/qs/house-ai?utm_source=CHI_web_fb&utm_campaign={{campaign.name}}&utm_content={{adset.name}}&utm_ad={{ad.name}}&utm_id={{campaign.id}}&utm_term={{adset.id}}&ad_id={{ad.id}}",
       "startedISO": "2026-09-06",
       "key": "quiz.get-chillio.app/qs/house-ai",
+      "store": false
+    },
+    {
+      "id": "1458090419469881",
+      "started": "Oct 3, 2026",
+      "versions": 1,
+      "page": "The Home Glow Up",
+      "body": "Waking up to yesterday's mess. Promising today would be different. My day, starting with evidence of my failure before coffee. The cycle felt permanent. Until it wasn't...",
+      "caption": null,
+      "headline": "",
+      "cta": "",
+      "video": false,
+      "link": "https://quiz.get-chillio.app/qs/cleaning-game?utm_source=CHI_web_fb&utm_campaign={{campaign.name}}&utm_content={{adset.name}}&utm_ad={{ad.name}}&utm_id={{campaign.id}}&utm_term={{adset.id}}&ad_id={{ad.id}}",
+      "startedISO": "2026-10-03",
+      "key": "quiz.get-chillio.app/qs/cleaning-game",
       "store": false
     },
     {

@@ -46,9 +46,9 @@
       "path": "/start/conversation/why_do_you_sing",
       "title": "Why do you sing?",
       "kind": "question",
-      "text": "Why do you sing?\nYou can pick more than one\nIts helps me express myself\nIt makes me feel good\nIt helps me relax\nOther\nCONTINUE",
-      "textHash": "d3e4e4dacfba",
-      "dhash": "0110100100101011100001101001110010010100000000010000000000001101",
+      "text": "Why do you sing?\nYou can pick more than one\nIt makes me feel good\nIt helps me relax\nIts helps me express myself\nOther\nCONTINUE",
+      "textHash": "5b6a71d617da",
+      "dhash": "0110100100101011100001001001110010010000000000010000000000001101",
       "prices": [],
       "action": {
         "opt": "It makes me feel good",
@@ -77,12 +77,12 @@
       "path": "/start/conversation/song_generes",
       "title": "What kinds of songs do you like to sing?",
       "kind": "question",
-      "text": "What kinds of songs do you like to sing?\nChoose your top 3 genres\nRock\nDisney\nHip Hop & Rap\nPop\nR&B & Soul\nCountry & Folk\nMusicals\nChristian & Gospel\nTV & Movies\nJazz & Blues\nCONTINUE",
-      "textHash": "1ad160525b62",
-      "dhash": "0011101100000111100001101011100010001100100110001001100001010101",
+      "text": "What kinds of songs do you like to sing?\nChoose your top 3 genres\nTV & Movies\nR&B & Soul\nDisney\nPop\nHip Hop & Rap\nChristian & Gospel\nRock\nJazz & Blues\nMusicals\nCountry & Folk\nCONTINUE",
+      "textHash": "268e0b6a894e",
+      "dhash": "0011101100000111100001101001100010110000100011001001110000000101",
       "prices": [],
       "action": {
-        "opt": "Rock + Disney + Hip Hop & Rap",
+        "opt": "TV & Movies + R&B & Soul + Disney",
         "cta": "CONTINUE"
       }
     },
@@ -95,7 +95,7 @@
       "kind": "info",
       "text": "All genres, made to fit your voice\nPacked with your favorites, our library adjusts every song to your range so you hit every note\nCONTINUE",
       "textHash": "ea979e6a3c47",
-      "dhash": "0011001100110011000100110010010011101100110110001100100100000011",
+      "dhash": "0011001100110011000110110010010011101100010111001100100100000011",
       "prices": [],
       "action": {
         "cta": "CONTINUE"
