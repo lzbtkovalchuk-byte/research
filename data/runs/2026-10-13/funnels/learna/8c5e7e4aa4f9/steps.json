@@ -92,12 +92,12 @@
       "path": "/onboarding",
       "title": "What kind of work do you do?",
       "kind": "question",
-      "text": "Master English with AI: Personalized Language Tutoring by Learna\nWhat kind of work do you do?\n💼\nFinance & Business\n🧑‍💻\nTechnology & Engineering\n🎓\nEducation & Academia\n🎨\nCreative, Media & Design\n🧰\nSkilled Trades & Technical\n🧹\nService & Hospitality\n⚕\nHealthcare & Science\n🏛️\nGovernment & Public Services\n📈\nMarketing & Sales\n🚚\nTransportation & Logistics\n🚀\nEntrepreneurship & Freelance\n🌍\nOther\nContinue\nDigital Park, Dubai Silicon Oasis, Dubai 341041, UAE\nPrivacy Policy • Terms & Conditions • Subscription Policy\nWe value your privacy\nWe use cookies to enhance your browsing experience, serve personalised ads or content, and analyse our traffic. By clicking \"Accept All\", you consent to our use of cookies.\nCustomize\nReject All\nAccept All\nCustomise Consent Preferences\n×\nWe use cookies to help you navigate efficiently and perform certain functions. You will find detailed information about all cookies under each consent category below. The cookies that are categorised as \"Necessary\" are stored on your browser as they are essential for enabling the basic functionalities of the site. We also use third-party cookies that help us analyse how you use this website, store your preferences, and provide the content and advertisements that are relevant to you. These cookies will only be stored in your browser with your prior consent. You can choose to enable or disable some or all of these cookies but disabling some of them may affect your browsing experience.\nNecessary\n4 cookies\nAlways ",
-      "textHash": "d5a1c31f9b21",
+      "text": "Master English with AI: Personalized Language Tutoring by Learna\nWhat kind of work do you do?\n🎨\nCreative, Media & Design\n🎓\nEducation & Academia\n💼\nFinance & Business\n🧑‍💻\nTechnology & Engineering\n⚕\nHealthcare & Science\n📈\nMarketing & Sales\n🚚\nTransportation & Logistics\n🧰\nSkilled Trades & Technical\n🧹\nService & Hospitality\n🚀\nEntrepreneurship & Freelance\n🏛️\nGovernment & Public Services\n🌍\nOther\nContinue\nDigital Park, Dubai Silicon Oasis, Dubai 341041, UAE\nPrivacy Policy • Terms & Conditions • Subscription Policy\nWe value your privacy\nWe use cookies to enhance your browsing experience, serve personalised ads or content, and analyse our traffic. By clicking \"Accept All\", you consent to our use of cookies.\nCustomize\nReject All\nAccept All\nCustomise Consent Preferences\n×\nWe use cookies to help you navigate efficiently and perform certain functions. You will find detailed information about all cookies under each consent category below. The cookies that are categorised as \"Necessary\" are stored on your browser as they are essential for enabling the basic functionalities of the site. We also use third-party cookies that help us analyse how you use this website, store your preferences, and provide the content and advertisements that are relevant to you. These cookies will only be stored in your browser with your prior consent. You can choose to enable or disable some or all of these cookies but disabling some of them may affect your browsing experience.\nNecessary\n4 cookies\nAlways ",
+      "textHash": "069e15e98c58",
       "dhash": "1000100010000100100101001001100010000100110001101100011010010110",
       "prices": [],
       "action": {
-        "opt": "💼",
+        "opt": "🎨",
         "cta": "Continue"
       }
     },
@@ -106,14 +106,14 @@
       "file": "07.webp",
       "url": "https://onboarding.ailearna.com/onboarding",
       "path": "/onboarding",
-      "title": "What's your main area in business or management?",
+      "title": "What type of creative work do you do?",
       "kind": "question",
-      "text": "Master English with AI: Personalized Language Tutoring by Learna\nWhat's your main area in business or management?\nWe ask this to tailor your plan to your needs.\n💰\nAccounting / Finance\n💬\nHuman Resources\n🗓️\nProject / Operations Management\n🧠\nConsulting / Strategy\n🗃️\nAdministration\n❓\nOther\nDigital Park, Dubai Silicon Oasis, Dubai 341041, UAE\nPrivacy Policy • Terms & Conditions • Subscription Policy\nWe value your privacy\nWe use cookies to enhance your browsing experience, serve personalised ads or content, and analyse our traffic. By clicking \"Accept All\", you consent to our use of cookies.\nCustomize\nReject All\nAccept All\nCustomise Consent Preferences\n×\nWe use cookies to help you navigate efficiently and perform certain functions. You will find detailed information about all cookies under each consent category below. The cookies that are categorised as \"Necessary\" are stored on your browser as they are essential for enabling the basic functionalities of the site. We also use third-party cookies that help us analyse how you use this website, store your preferences, and provide the content and advertisements that are relevant to you. These cookies will only be stored in your browser with your prior consent. You can choose to enable or disable some or all of these cookies but disabling some of them may affect your browsing experience.\nNecessary\n4 cookies\nAlways Active\nEssential cookies for basic site functions.\nFunctional\n1 cookie\nCookies for enhanced functionality.\nAnalytics\n2 ",
-      "textHash": "e0720f7b4d8f",
+      "text": "Master English with AI: Personalized Language Tutoring by Learna\nWhat type of creative work do you do?\nWe ask this to tailor your plan to your needs.\n🖌️\nGraphic Design / UI-UX\n📹\nVideo / Animation\n📝\nWriting / Content Creation\n📸\nPhotography / Visual Arts\n🎵\nMusic / Audio Production\n❓\nOther\nDigital Park, Dubai Silicon Oasis, Dubai 341041, UAE\nPrivacy Policy • Terms & Conditions • Subscription Policy\nWe value your privacy\nWe use cookies to enhance your browsing experience, serve personalised ads or content, and analyse our traffic. By clicking \"Accept All\", you consent to our use of cookies.\nCustomize\nReject All\nAccept All\nCustomise Consent Preferences\n×\nWe use cookies to help you navigate efficiently and perform certain functions. You will find detailed information about all cookies under each consent category below. The cookies that are categorised as \"Necessary\" are stored on your browser as they are essential for enabling the basic functionalities of the site. We also use third-party cookies that help us analyse how you use this website, store your preferences, and provide the content and advertisements that are relevant to you. These cookies will only be stored in your browser with your prior consent. You can choose to enable or disable some or all of these cookies but disabling some of them may affect your browsing experience.\nNecessary\n4 cookies\nAlways Active\nEssential cookies for basic site functions.\nFunctional\n1 cookie\nCookies for enhanced functionality.\nAnalytics\n2",
+      "textHash": "2eab7995bafd",
       "dhash": "1000100010000100100101001001100010000100110001101100011010010110",
       "prices": [],
       "action": {
-        "opt": "💰 Accounting / Finance"
+        "opt": "🖌️ Graphic Design / UI-UX"
       }
     },
     {
@@ -471,16 +471,15 @@
       "file": "31.webp",
       "url": "https://onboarding.ailearna.com/onboarding",
       "path": "/onboarding",
-      "title": "When is the event planned?",
+      "title": "”",
       "kind": "loader",
-      "text": "Master English with AI: Personalized Language Tutoring by Learna\nWhen is the event planned?\nWe will consider this date when preparing your personalized plan.\nEvent Starts\nContinue\nDigital Park, Dubai Silicon Oasis, Dubai 341041, UAE\nPrivacy Policy • Terms & Conditions • Subscription Policy\nWe value your privacy\nWe use cookies to enhance your browsing experience, serve personalised ads or content, and analyse our traffic. By clicking \"Accept All\", you consent to our use of cookies.\nCustomize\nReject All\nAccept All\nCustomise Consent Preferences\n×\nWe use cookies to help you navigate efficiently and perform certain functions. You will find detailed information about all cookies under each consent category below. The cookies that are categorised as \"Necessary\" are stored on your browser as they are essential for enabling the basic functionalities of the site. We also use third-party cookies that help us analyse how you use this website, store your preferences, and provide the content and advertisements that are relevant to you. These cookies will only be stored in your browser with your prior consent. You can choose to enable or disable some or all of these cookies but disabling some of them may affect your browsing experience.\nNecessary\n4 cookies\nAlways Active\nEssential cookies for basic site functions.\nFunctional\n1 cookie\nCookies for enhanced functionality.\nAnalytics\n2 cookies\nCookies to understand site usage.\nPerformance\n2 cookies\nCookies to improve site performance.\nAdvertiseme",
-      "textHash": "818ec96c3bb3",
+      "text": "Master English with AI: Personalized Language Tutoring by Learna\n%35\nCreating your personal experience...\n✨\nCreating diverse topics\nDone\n💬\nPreparing interactive dialogues\nLoading...\n👩🏻‍🏫\nOptimizing your learning path\nLoading...\n🏁\nFinalizing your plan\nLoading...\n”\nLearna customized just for me. It feels like a personal tutor in my pocket.\nFig Nelson\nWe value your privacy\nWe use cookies to enhance your browsing experience, serve personalised ads or content, and analyse our traffic. By clicking \"Accept All\", you consent to our use of cookies.\nCustomize\nReject All\nAccept All\nCustomise Consent Preferences\n×\nWe use cookies to help you navigate efficiently and perform certain functions. You will find detailed information about all cookies under each consent category below. The cookies that are categorised as \"Necessary\" are stored on your browser as they are essential for enabling the basic functionalities of the site. We also use third-party cookies that help us analyse how you use this website, store your preferences, and provide the content and advertisements that are relevant to you. These cookies will only be stored in your browser with your prior consent. You can choose to enable or disable some or all of these cookies but disabling some of them may affect your browsing experience.\nNecessary\n4 cookies\nAlways Active\nEssential cookies for basic site functions.\nFunctional\n1 cookie\nCookies for enhanced functionality.\nAnalytics\n2 cookies\nCookies to understand site usage.\nPerfo",
+      "textHash": "fd2feb8a0b36",
       "dhash": "1000100010000100100101001001100010000100110001101100011010010110",
       "prices": [],
       "action": {
-        "opt": "Event Starts",
-        "cta": "Continue",
-        "fallback": "Event Starts"
+        "opt": "Customize",
+        "fallback": "Save My Preferences"
       }
     },
     {
@@ -488,14 +487,14 @@
       "file": "32.webp",
       "url": "https://onboarding.ailearna.com/onboarding",
       "path": "/onboarding",
-      "title": "When is the event planned?",
+      "title": "”",
       "kind": "loader",
-      "text": "Master English with AI: Personalized Language Tutoring by Learna\nWhen is the event planned?\nWe will consider this date when preparing your personalized plan.\nEvent Starts\nOct\n2026\nMo\nTu\nWe\nTh\nFr\nSa\nSu\n28\n29\n30\n1\n2\n3\n4\n5\n6\n7\n8\n9\n10\n11\n12\n13\n14\n15\n16\n17\n18\n19\n20\n21\n22\n23\n24\n25\n26\n27\n28\n29\n30\n31\n1\nContinue\nDigital Park, Dubai Silicon Oasis, Dubai 341041, UAE\nPrivacy Policy • Terms & Conditions • Subscription Policy\nWe value your privacy\nWe use cookies to enhance your browsing experience, serve personalised ads or content, and analyse our traffic. By clicking \"Accept All\", you consent to our use of cookies.\nCustomize\nReject All\nAccept All\nCustomise Consent Preferences\n×\nWe use cookies to help you navigate efficiently and perform certain functions. You will find detailed information about all cookies under each consent category below. The cookies that are categorised as \"Necessary\" are stored on your browser as they are essential for enabling the basic functionalities of the site. We also use third-party cookies that help us analyse how you use this website, store your preferences, and provide the content and advertisements that are relevant to you. These cookies will only be stored in your browser with your prior consent. You can choose to enable or disable some or all of these cookies but disabling some of them may affect your browsing experience.\nNecessary\n4 cookies\nAlways Active\nEssential cookies for basic site functions.\nFunctional\n1 cookie\nCookies for enhanced functionality.",
-      "textHash": "2abccb3daded",
-      "dhash": "1000100010000100100101001001100010000100110001101100011010010110",
+      "text": "Master English with AI: Personalized Language Tutoring by Learna\n%35\nCreating your personal experience...\n✨\nCreating diverse topics\nDone\n💬\nPreparing interactive dialogues\nLoading...\n👩🏻‍🏫\nOptimizing your learning path\nLoading...\n🏁\nFinalizing your plan\nLoading...\n”\nLearna customized just for me. It feels like a personal tutor in my pocket.\nFig Nelson\nWe value your privacy\nWe use cookies to enhance your browsing experience, serve personalised ads or content, and analyse our traffic. By clicking \"Accept All\", you consent to our use of cookies.\nCustomize\nReject All\nAccept All\nTO MAKE PROGRESS, PLEASE CLARIFY\nWhat is your daily practice goal?\n5 min/day\n10 min/day\n15 min/day",
+      "textHash": "832b52d6ab0b",
+      "dhash": "0011001011110000010001010110100101010101010101011110000000100001",
       "prices": [],
       "action": {
-        "cta": "Continue"
+        "opt": "Customize"
       }
     },
     {
@@ -503,16 +502,15 @@
       "file": "33.webp",
       "url": "https://onboarding.ailearna.com/onboarding",
       "path": "/onboarding",
-      "title": "When is the event planned?",
+      "title": "”",
       "kind": "loader",
-      "text": "Master English with AI: Personalized Language Tutoring by Learna\nWhen is the event planned?\nWe will consider this date when preparing your personalized plan.\nEvent Starts\nContinue\nDigital Park, Dubai Silicon Oasis, Dubai 341041, UAE\nPrivacy Policy • Terms & Conditions • Subscription Policy\nWe value your privacy\nWe use cookies to enhance your browsing experience, serve personalised ads or content, and analyse our traffic. By clicking \"Accept All\", you consent to our use of cookies.\nCustomize\nReject All\nAccept All\nCustomise Consent Preferences\n×\nWe use cookies to help you navigate efficiently and perform certain functions. You will find detailed information about all cookies under each consent category below. The cookies that are categorised as \"Necessary\" are stored on your browser as they are essential for enabling the basic functionalities of the site. We also use third-party cookies that help us analyse how you use this website, store your preferences, and provide the content and advertisements that are relevant to you. These cookies will only be stored in your browser with your prior consent. You can choose to enable or disable some or all of these cookies but disabling some of them may affect your browsing experience.\nNecessary\n4 cookies\nAlways Active\nEssential cookies for basic site functions.\nFunctional\n1 cookie\nCookies for enhanced functionality.\nAnalytics\n2 cookies\nCookies to understand site usage.\nPerformance\n2 cookies\nCookies to improve site performance.\nAdvertiseme",
-      "textHash": "818ec96c3bb3",
+      "text": "Master English with AI: Personalized Language Tutoring by Learna\n%35\nCreating your personal experience...\n✨\nCreating diverse topics\nDone\n💬\nPreparing interactive dialogues\nLoading...\n👩🏻‍🏫\nOptimizing your learning path\nLoading...\n🏁\nFinalizing your plan\nLoading...\n”\nLearna customized just for me. It feels like a personal tutor in my pocket.\nFig Nelson\nWe value your privacy\nWe use cookies to enhance your browsing experience, serve personalised ads or content, and analyse our traffic. By clicking \"Accept All\", you consent to our use of cookies.\nCustomize\nReject All\nAccept All\nCustomise Consent Preferences\n×\nWe use cookies to help you navigate efficiently and perform certain functions. You will find detailed information about all cookies under each consent category below. The cookies that are categorised as \"Necessary\" are stored on your browser as they are essential for enabling the basic functionalities of the site. We also use third-party cookies that help us analyse how you use this website, store your preferences, and provide the content and advertisements that are relevant to you. These cookies will only be stored in your browser with your prior consent. You can choose to enable or disable some or all of these cookies but disabling some of them may affect your browsing experience.\nNecessary\n4 cookies\nAlways Active\nEssential cookies for basic site functions.\nFunctional\n1 cookie\nCookies for enhanced functionality.\nAnalytics\n2 cookies\nCookies to understand site usage.\nPerfo",
+      "textHash": "fd2feb8a0b36",
       "dhash": "1000100010000100100101001001100010000100110001101100011010010110",
       "prices": [],
       "action": {
-        "opt": "Event Starts",
-        "cta": "Continue",
-        "fallback": "Event Starts"
+        "opt": "Customize",
+        "fallback": "Save My Preferences"
       }
     },
     {
@@ -520,14 +518,14 @@
       "file": "34.webp",
       "url": "https://onboarding.ailearna.com/onboarding",
       "path": "/onboarding",
-      "title": "When is the event planned?",
+      "title": "”",
       "kind": "loader",
-      "text": "Master English with AI: Personalized Language Tutoring by Learna\nWhen is the event planned?\nWe will consider this date when preparing your personalized plan.\nEvent Starts\nOct\n2026\nMo\nTu\nWe\nTh\nFr\nSa\nSu\n28\n29\n30\n1\n2\n3\n4\n5\n6\n7\n8\n9\n10\n11\n12\n13\n14\n15\n16\n17\n18\n19\n20\n21\n22\n23\n24\n25\n26\n27\n28\n29\n30\n31\n1\nContinue\nDigital Park, Dubai Silicon Oasis, Dubai 341041, UAE\nPrivacy Policy • Terms & Conditions • Subscription Policy\nWe value your privacy\nWe use cookies to enhance your browsing experience, serve personalised ads or content, and analyse our traffic. By clicking \"Accept All\", you consent to our use of cookies.\nCustomize\nReject All\nAccept All\nCustomise Consent Preferences\n×\nWe use cookies to help you navigate efficiently and perform certain functions. You will find detailed information about all cookies under each consent category below. The cookies that are categorised as \"Necessary\" are stored on your browser as they are essential for enabling the basic functionalities of the site. We also use third-party cookies that help us analyse how you use this website, store your preferences, and provide the content and advertisements that are relevant to you. These cookies will only be stored in your browser with your prior consent. You can choose to enable or disable some or all of these cookies but disabling some of them may affect your browsing experience.\nNecessary\n4 cookies\nAlways Active\nEssential cookies for basic site functions.\nFunctional\n1 cookie\nCookies for enhanced functionality.",
-      "textHash": "2abccb3daded",
-      "dhash": "1000100010000100100101001001100010000100110001101100011010010110",
+      "text": "Master English with AI: Personalized Language Tutoring by Learna\n%35\nCreating your personal experience...\n✨\nCreating diverse topics\nDone\n💬\nPreparing interactive dialogues\nLoading...\n👩🏻‍🏫\nOptimizing your learning path\nLoading...\n🏁\nFinalizing your plan\nLoading...\n”\nLearna customized just for me. It feels like a personal tutor in my pocket.\nFig Nelson\nWe value your privacy\nWe use cookies to enhance your browsing experience, serve personalised ads or content, and analyse our traffic. By clicking \"Accept All\", you consent to our use of cookies.\nCustomize\nReject All\nAccept All\nTO MAKE PROGRESS, PLEASE CLARIFY\nWhat is your daily practice goal?\n5 min/day\n10 min/day\n15 min/day",
+      "textHash": "832b52d6ab0b",
+      "dhash": "0011001011110000010001010110100101010101010101011110000000100001",
       "prices": [],
       "action": {
-        "cta": "Continue"
+        "opt": "Customize"
       }
     },
     {
@@ -535,16 +533,15 @@
       "file": "35.webp",
       "url": "https://onboarding.ailearna.com/onboarding",
       "path": "/onboarding",
-      "title": "When is the event planned?",
+      "title": "”",
       "kind": "loader",
-      "text": "Master English with AI: Personalized Language Tutoring by Learna\nWhen is the event planned?\nWe will consider this date when preparing your personalized plan.\nEvent Starts\nContinue\nDigital Park, Dubai Silicon Oasis, Dubai 341041, UAE\nPrivacy Policy • Terms & Conditions • Subscription Policy\nWe value your privacy\nWe use cookies to enhance your browsing experience, serve personalised ads or content, and analyse our traffic. By clicking \"Accept All\", you consent to our use of cookies.\nCustomize\nReject All\nAccept All\nCustomise Consent Preferences\n×\nWe use cookies to help you navigate efficiently and perform certain functions. You will find detailed information about all cookies under each consent category below. The cookies that are categorised as \"Necessary\" are stored on your browser as they are essential for enabling the basic functionalities of the site. We also use third-party cookies that help us analyse how you use this website, store your preferences, and provide the content and advertisements that are relevant to you. These cookies will only be stored in your browser with your prior consent. You can choose to enable or disable some or all of these cookies but disabling some of them may affect your browsing experience.\nNecessary\n4 cookies\nAlways Active\nEssential cookies for basic site functions.\nFunctional\n1 cookie\nCookies for enhanced functionality.\nAnalytics\n2 cookies\nCookies to understand site usage.\nPerformance\n2 cookies\nCookies to improve site performance.\nAdvertiseme",
-      "textHash": "818ec96c3bb3",
+      "text": "Master English with AI: Personalized Language Tutoring by Learna\n%35\nCreating your personal experience...\n✨\nCreating diverse topics\nDone\n💬\nPreparing interactive dialogues\nLoading...\n👩🏻‍🏫\nOptimizing your learning path\nLoading...\n🏁\nFinalizing your plan\nLoading...\n”\nLearna customized just for me. It feels like a personal tutor in my pocket.\nFig Nelson\nWe value your privacy\nWe use cookies to enhance your browsing experience, serve personalised ads or content, and analyse our traffic. By clicking \"Accept All\", you consent to our use of cookies.\nCustomize\nReject All\nAccept All\nCustomise Consent Preferences\n×\nWe use cookies to help you navigate efficiently and perform certain functions. You will find detailed information about all cookies under each consent category below. The cookies that are categorised as \"Necessary\" are stored on your browser as they are essential for enabling the basic functionalities of the site. We also use third-party cookies that help us analyse how you use this website, store your preferences, and provide the content and advertisements that are relevant to you. These cookies will only be stored in your browser with your prior consent. You can choose to enable or disable some or all of these cookies but disabling some of them may affect your browsing experience.\nNecessary\n4 cookies\nAlways Active\nEssential cookies for basic site functions.\nFunctional\n1 cookie\nCookies for enhanced functionality.\nAnalytics\n2 cookies\nCookies to understand site usage.\nPerfo",
+      "textHash": "fd2feb8a0b36",
       "dhash": "1000100010000100100101001001100010000100110001101100011010010110",
       "prices": [],
       "action": {
-        "opt": "Event Starts",
-        "cta": "Continue",
-        "fallback": "Event Starts"
+        "opt": "Customize",
+        "fallback": "Save My Preferences"
       }
     },
     {
@@ -552,14 +549,14 @@
       "file": "36.webp",
       "url": "https://onboarding.ailearna.com/onboarding",
       "path": "/onboarding",
-      "title": "When is the event planned?",
+      "title": "”",
       "kind": "loader",
-      "text": "Master English with AI: Personalized Language Tutoring by Learna\nWhen is the event planned?\nWe will consider this date when preparing your personalized plan.\nEvent Starts\nOct\n2026\nMo\nTu\nWe\nTh\nFr\nSa\nSu\n28\n29\n30\n1\n2\n3\n4\n5\n6\n7\n8\n9\n10\n11\n12\n13\n14\n15\n16\n17\n18\n19\n20\n21\n22\n23\n24\n25\n26\n27\n28\n29\n30\n31\n1\nContinue\nDigital Park, Dubai Silicon Oasis, Dubai 341041, UAE\nPrivacy Policy • Terms & Conditions • Subscription Policy\nWe value your privacy\nWe use cookies to enhance your browsing experience, serve personalised ads or content, and analyse our traffic. By clicking \"Accept All\", you consent to our use of cookies.\nCustomize\nReject All\nAccept All\nCustomise Consent Preferences\n×\nWe use cookies to help you navigate efficiently and perform certain functions. You will find detailed information about all cookies under each consent category below. The cookies that are categorised as \"Necessary\" are stored on your browser as they are essential for enabling the basic functionalities of the site. We also use third-party cookies that help us analyse how you use this website, store your preferences, and provide the content and advertisements that are relevant to you. These cookies will only be stored in your browser with your prior consent. You can choose to enable or disable some or all of these cookies but disabling some of them may affect your browsing experience.\nNecessary\n4 cookies\nAlways Active\nEssential cookies for basic site functions.\nFunctional\n1 cookie\nCookies for enhanced functionality.",
-      "textHash": "2abccb3daded",
-      "dhash": "1000100010000100100101001001100010000100110001101100011010010110",
+      "text": "Master English with AI: Personalized Language Tutoring by Learna\n%35\nCreating your personal experience...\n✨\nCreating diverse topics\nDone\n💬\nPreparing interactive dialogues\nLoading...\n👩🏻‍🏫\nOptimizing your learning path\nLoading...\n🏁\nFinalizing your plan\nLoading...\n”\nLearna customized just for me. It feels like a personal tutor in my pocket.\nFig Nelson\nWe value your privacy\nWe use cookies to enhance your browsing experience, serve personalised ads or content, and analyse our traffic. By clicking \"Accept All\", you consent to our use of cookies.\nCustomize\nReject All\nAccept All\nTO MAKE PROGRESS, PLEASE CLARIFY\nWhat is your daily practice goal?\n5 min/day\n10 min/day\n15 min/day",
+      "textHash": "832b52d6ab0b",
+      "dhash": "0011001011110000010001010110100101010101010101011110000000100001",
       "prices": [],
       "action": {
-        "cta": "Continue"
+        "opt": "Customize"
       }
     },
     {
@@ -567,16 +564,47 @@
       "file": "37.webp",
       "url": "https://onboarding.ailearna.com/onboarding",
       "path": "/onboarding",
-      "title": "When is the event planned?",
+      "title": "”",
       "kind": "loader",
-      "text": "Master English with AI: Personalized Language Tutoring by Learna\nWhen is the event planned?\nWe will consider this date when preparing your personalized plan.\nEvent Starts\nContinue\nDigital Park, Dubai Silicon Oasis, Dubai 341041, UAE\nPrivacy Policy • Terms & Conditions • Subscription Policy\nWe value your privacy\nWe use cookies to enhance your browsing experience, serve personalised ads or content, and analyse our traffic. By clicking \"Accept All\", you consent to our use of cookies.\nCustomize\nReject All\nAccept All\nCustomise Consent Preferences\n×\nWe use cookies to help you navigate efficiently and perform certain functions. You will find detailed information about all cookies under each consent category below. The cookies that are categorised as \"Necessary\" are stored on your browser as they are essential for enabling the basic functionalities of the site. We also use third-party cookies that help us analyse how you use this website, store your preferences, and provide the content and advertisements that are relevant to you. These cookies will only be stored in your browser with your prior consent. You can choose to enable or disable some or all of these cookies but disabling some of them may affect your browsing experience.\nNecessary\n4 cookies\nAlways Active\nEssential cookies for basic site functions.\nFunctional\n1 cookie\nCookies for enhanced functionality.\nAnalytics\n2 cookies\nCookies to understand site usage.\nPerformance\n2 cookies\nCookies to improve site performance.\nAdvertiseme",
-      "textHash": "818ec96c3bb3",
+      "text": "Master English with AI: Personalized Language Tutoring by Learna\n%35\nCreating your personal experience...\n✨\nCreating diverse topics\nDone\n💬\nPreparing interactive dialogues\nLoading...\n👩🏻‍🏫\nOptimizing your learning path\nLoading...\n🏁\nFinalizing your plan\nLoading...\n”\nLearna customized just for me. It feels like a personal tutor in my pocket.\nFig Nelson\nWe value your privacy\nWe use cookies to enhance your browsing experience, serve personalised ads or content, and analyse our traffic. By clicking \"Accept All\", you consent to our use of cookies.\nCustomize\nReject All\nAccept All\nCustomise Consent Preferences\n×\nWe use cookies to help you navigate efficiently and perform certain functions. You will find detailed information about all cookies under each consent category below. The cookies that are categorised as \"Necessary\" are stored on your browser as they are essential for enabling the basic functionalities of the site. We also use third-party cookies that help us analyse how you use this website, store your preferences, and provide the content and advertisements that are relevant to you. These cookies will only be stored in your browser with your prior consent. You can choose to enable or disable some or all of these cookies but disabling some of them may affect your browsing experience.\nNecessary\n4 cookies\nAlways Active\nEssential cookies for basic site functions.\nFunctional\n1 cookie\nCookies for enhanced functionality.\nAnalytics\n2 cookies\nCookies to understand site usage.\nPerfo",
+      "textHash": "fd2feb8a0b36",
+      "dhash": "1000100010000100100101001001100010000100110001101100011010010110",
+      "prices": [],
+      "action": {
+        "opt": "Customize",
+        "fallback": "Save My Preferences"
+      }
+    },
+    {
+      "n": 38,
+      "file": "38.webp",
+      "url": "https://onboarding.ailearna.com/onboarding",
+      "path": "/onboarding",
+      "title": "”",
+      "kind": "loader",
+      "text": "Master English with AI: Personalized Language Tutoring by Learna\n%35\nCreating your personal experience...\n✨\nCreating diverse topics\nDone\n💬\nPreparing interactive dialogues\nLoading...\n👩🏻‍🏫\nOptimizing your learning path\nLoading...\n🏁\nFinalizing your plan\nLoading...\n”\nLearna customized just for me. It feels like a personal tutor in my pocket.\nFig Nelson\nWe value your privacy\nWe use cookies to enhance your browsing experience, serve personalised ads or content, and analyse our traffic. By clicking \"Accept All\", you consent to our use of cookies.\nCustomize\nReject All\nAccept All\nTO MAKE PROGRESS, PLEASE CLARIFY\nWhat is your daily practice goal?\n5 min/day\n10 min/day\n15 min/day",
+      "textHash": "832b52d6ab0b",
+      "dhash": "0011001011110000010001010110100101010101010101011110000000100001",
+      "prices": [],
+      "action": {
+        "opt": "Customize"
+      }
+    },
+    {
+      "n": 39,
+      "file": "39.webp",
+      "url": "https://onboarding.ailearna.com/onboarding",
+      "path": "/onboarding",
+      "title": "”",
+      "kind": "loader",
+      "text": "Master English with AI: Personalized Language Tutoring by Learna\n%35\nCreating your personal experience...\n✨\nCreating diverse topics\nDone\n💬\nPreparing interactive dialogues\nLoading...\n👩🏻‍🏫\nOptimizing your learning path\nLoading...\n🏁\nFinalizing your plan\nLoading...\n”\nLearna customized just for me. It feels like a personal tutor in my pocket.\nFig Nelson\nWe value your privacy\nWe use cookies to enhance your browsing experience, serve personalised ads or content, and analyse our traffic. By clicking \"Accept All\", you consent to our use of cookies.\nCustomize\nReject All\nAccept All\nCustomise Consent Preferences\n×\nWe use cookies to help you navigate efficiently and perform certain functions. You will find detailed information about all cookies under each consent category below. The cookies that are categorised as \"Necessary\" are stored on your browser as they are essential for enabling the basic functionalities of the site. We also use third-party cookies that help us analyse how you use this website, store your preferences, and provide the content and advertisements that are relevant to you. These cookies will only be stored in your browser with your prior consent. You can choose to enable or disable some or all of these cookies but disabling some of them may affect your browsing experience.\nNecessary\n4 cookies\nAlways Active\nEssential cookies for basic site functions.\nFunctional\n1 cookie\nCookies for enhanced functionality.\nAnalytics\n2 cookies\nCookies to understand site usage.\nPerfo",
+      "textHash": "fd2feb8a0b36",
       "dhash": "1000100010000100100101001001100010000100110001101100011010010110",
       "prices": []
     }
   ],
   "features": {
-    "totalSteps": 37,
+    "totalSteps": 39,
     "stop": "stuck",
     "emailStep": null,
     "paywallStep": null,
