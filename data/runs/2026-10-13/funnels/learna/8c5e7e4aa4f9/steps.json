@@ -92,12 +92,12 @@
       "path": "/onboarding",
       "title": "What kind of work do you do?",
       "kind": "question",
-      "text": "Master English with AI: Personalized Language Tutoring by Learna\nWhat kind of work do you do?\n🧑‍💻\nTechnology & Engineering\n🎨\nCreative, Media & Design\n💼\nFinance & Business\n🎓\nEducation & Academia\n🏛️\nGovernment & Public Services\n⚕\nHealthcare & Science\n📈\nMarketing & Sales\n🚚\nTransportation & Logistics\n🧹\nService & Hospitality\n🚀\nEntrepreneurship & Freelance\n🧰\nSkilled Trades & Technical\n🌍\nOther\nContinue\nDigital Park, Dubai Silicon Oasis, Dubai 341041, UAE\nPrivacy Policy • Terms & Conditions • Subscription Policy\nWe value your privacy\nWe use cookies to enhance your browsing experience, serve personalised ads or content, and analyse our traffic. By clicking \"Accept All\", you consent to our use of cookies.\nCustomize\nReject All\nAccept All",
-      "textHash": "44653b0d6c5e",
-      "dhash": "1001001010110100110011001100110011001100110011001100111010001100",
+      "text": "Master English with AI: Personalized Language Tutoring by Learna\nWhat kind of work do you do?\n🎓\nEducation & Academia\n🧑‍💻\nTechnology & Engineering\n💼\nFinance & Business\n🎨\nCreative, Media & Design\n🧹\nService & Hospitality\n🧰\nSkilled Trades & Technical\n🚀\nEntrepreneurship & Freelance\n⚕\nHealthcare & Science\n📈\nMarketing & Sales\n🏛️\nGovernment & Public Services\n🚚\nTransportation & Logistics\n🌍\nOther\nContinue\nDigital Park, Dubai Silicon Oasis, Dubai 341041, UAE\nPrivacy Policy • Terms & Conditions • Subscription Policy\nWe value your privacy\nWe use cookies to enhance your browsing experience, serve personalised ads or content, and analyse our traffic. By clicking \"Accept All\", you consent to our use of cookies.\nCustomize\nReject All\nAccept All",
+      "textHash": "42cc480f931b",
+      "dhash": "1001010011010100100011001100110011001100110011001000110010001110",
       "prices": [],
       "action": {
-        "opt": "🧑‍💻",
+        "opt": "🎓",
         "cta": "Continue"
       }
     },
@@ -106,14 +106,14 @@
       "file": "07.webp",
       "url": "https://onboarding.ailearna.com/onboarding",
       "path": "/onboarding",
-      "title": "What kind of technical work do you do?",
+      "title": "What best describes your current role in education?",
       "kind": "question",
-      "text": "Master English with AI: Personalized Language Tutoring by Learna\nWhat kind of technical work do you do?\nWe ask this to tailor your plan to your needs.\n💻\nSoftware Developer / Engineer\n📊\nData Analyst / Data Scientist\n🗂️\nProduct Manager / Designer\n🔍\nQA / Tester\n🔧\nIT Support / SysAdmin / DevOps\n🧰\nHardware / Embedded Engineer\n❓\nOther\nDigital Park, Dubai Silicon Oasis, Dubai 341041, UAE\nPrivacy Policy • Terms & Conditions • Subscription Policy\nWe value your privacy\nWe use cookies to enhance your browsing experience, serve personalised ads or content, and analyse our traffic. By clicking \"Accept All\", you consent to our use of cookies.\nCustomize\nReject All\nAccept All",
-      "textHash": "782a3a2e7f1e",
-      "dhash": "1100010011100100100010001100100111001001100100001000000110100100",
+      "text": "Master English with AI: Personalized Language Tutoring by Learna\nWhat best describes your current role in education?\nWe ask this to tailor your plan to your needs.\n🎓‍\nStudent\n👩🏻‍🏫\nTeacher / Instructor\n🔬\nResearcher / Academic\n🏫‍\nEducation Administrator\n💡\nTrainer / Tutor\n❓\nOther\nDigital Park, Dubai Silicon Oasis, Dubai 341041, UAE\nPrivacy Policy • Terms & Conditions • Subscription Policy\nWe value your privacy\nWe use cookies to enhance your browsing experience, serve personalised ads or content, and analyse our traffic. By clicking \"Accept All\", you consent to our use of cookies.\nCustomize\nReject All\nAccept All",
+      "textHash": "1bba04fbc7e6",
+      "dhash": "1000101010101010100000001001000011000001100010001000000010000100",
       "prices": [],
       "action": {
-        "opt": "💻 Software Developer / Engineer"
+        "opt": "🎓‍ Student"
       }
     },
     {
@@ -492,7 +492,7 @@
       "dhash": "0011001010110010011001010101010101010101010010011110100100100000",
       "prices": [],
       "action": {
-        "opt": "Choose start time"
+        "opt": "00:30"
       }
     },
     {
@@ -500,108 +500,21 @@
       "file": "33.webp",
       "url": "https://onboarding.ailearna.com/onboarding",
       "path": "/onboarding",
-      "title": "”",
-      "kind": "loader",
-      "text": "Master English with AI: Personalized Language Tutoring by Learna\n%70\nCreating your personal experience...\n✨\nCreating diverse topics\nDone\n💬\nPreparing interactive dialogues\nDone\n👩🏻‍🏫\nOptimizing your learning path\nLoading...\n🏁\nFinalizing your plan\nLoading...\n”\nLearna customized just for me. It feels like a personal tutor in my pocket.\nFig Nelson\nWe value your privacy\nWe use cookies to enhance your browsing experience, serve personalised ads or content, and analyse our traffic. By clicking \"Accept All\", you consent to our use of cookies.\nCustomize\nReject All\nAccept All\nTO MAKE PROGRESS, PLEASE CLARIFY\nWhen would you like to start your daily practice?\nChoose start time",
-      "textHash": "faf2e0bf836b",
-      "dhash": "0011001010110010011001010101010101010101011100011110000000100001",
+      "title": "Achieve your goals with Learna",
+      "kind": "email",
+      "text": "Master English with AI: Personalized Language Tutoring by Learna\nAchieve your goals with\nLearna\nEnter your email to learn your english level\nEmail Address\nI agree to receive the latest Learna news and updates via email.\nI accept the Learna Terms & Conditions and Privacy Policy\nJoin over 80M+ people\n#1\nin Top Charts\nEducation Category\nMost Downloaded App\nContinue\nDigital Park, Dubai Silicon Oasis, Dubai 341041, UAE\nPrivacy Policy • Terms & Conditions • Subscription Policy\nWe value your privacy\nWe use cookies to enhance your browsing experience, serve personalised ads or content, and analyse our traffic. By clicking \"Accept All\", you consent to our use of cookies.\nCustomize\nReject All\nAccept All",
+      "textHash": "3a427fd64b1e",
+      "dhash": "1011001010000100100010001101010001010100011100011001000010001100",
       "prices": [],
       "action": {
-        "opt": "Choose start time"
+        "filled": true
       }
-    },
-    {
-      "n": 34,
-      "file": "34.webp",
-      "url": "https://onboarding.ailearna.com/onboarding",
-      "path": "/onboarding",
-      "title": "”",
-      "kind": "loader",
-      "text": "Master English with AI: Personalized Language Tutoring by Learna\n%70\nCreating your personal experience...\n✨\nCreating diverse topics\nDone\n💬\nPreparing interactive dialogues\nDone\n👩🏻‍🏫\nOptimizing your learning path\nLoading...\n🏁\nFinalizing your plan\nLoading...\n”\nLearna customized just for me. It feels like a personal tutor in my pocket.\nFig Nelson\nWe value your privacy\nWe use cookies to enhance your browsing experience, serve personalised ads or content, and analyse our traffic. By clicking \"Accept All\", you consent to our use of cookies.\nCustomize\nReject All\nAccept All\nTO MAKE PROGRESS, PLEASE CLARIFY\nWhen would you like to start your daily practice?\nChoose start time\n19:30\n20:00\n20:30\n21:00\n21:30\n22:00\n22:30\n23:00\n23:30\n00:00\n00:30\n01:00\n01:30\n02:00\n02:30\n03:00\n03:30\n04:00\n04:30\n05:00\n05:30\n06:00\n06:30\n07:00\n07:30\n08:00\n08:30\n09:00\n09:30\n10:00\n10:30\n11:00\n11:30\n12:00\n12:30\n13:00\n13:30\n14:00\n14:30\n15:00\n15:30\n16:00\n16:30\n17:00\n17:30\n18:00\n18:30\n19:00",
-      "textHash": "0e91241c1e04",
-      "dhash": "0011001010110010011001010101010101010101010010011110100100100000",
-      "prices": [],
-      "action": {
-        "opt": "Choose start time"
-      }
-    },
-    {
-      "n": 35,
-      "file": "35.webp",
-      "url": "https://onboarding.ailearna.com/onboarding",
-      "path": "/onboarding",
-      "title": "”",
-      "kind": "loader",
-      "text": "Master English with AI: Personalized Language Tutoring by Learna\n%70\nCreating your personal experience...\n✨\nCreating diverse topics\nDone\n💬\nPreparing interactive dialogues\nDone\n👩🏻‍🏫\nOptimizing your learning path\nLoading...\n🏁\nFinalizing your plan\nLoading...\n”\nLearna customized just for me. It feels like a personal tutor in my pocket.\nFig Nelson\nWe value your privacy\nWe use cookies to enhance your browsing experience, serve personalised ads or content, and analyse our traffic. By clicking \"Accept All\", you consent to our use of cookies.\nCustomize\nReject All\nAccept All\nTO MAKE PROGRESS, PLEASE CLARIFY\nWhen would you like to start your daily practice?\nChoose start time",
-      "textHash": "faf2e0bf836b",
-      "dhash": "0011001010110010011001010101010101010101011100011110000000100001",
-      "prices": [],
-      "action": {
-        "opt": "Choose start time"
-      }
-    },
-    {
-      "n": 36,
-      "file": "36.webp",
-      "url": "https://onboarding.ailearna.com/onboarding",
-      "path": "/onboarding",
-      "title": "”",
-      "kind": "loader",
-      "text": "Master English with AI: Personalized Language Tutoring by Learna\n%70\nCreating your personal experience...\n✨\nCreating diverse topics\nDone\n💬\nPreparing interactive dialogues\nDone\n👩🏻‍🏫\nOptimizing your learning path\nLoading...\n🏁\nFinalizing your plan\nLoading...\n”\nLearna customized just for me. It feels like a personal tutor in my pocket.\nFig Nelson\nWe value your privacy\nWe use cookies to enhance your browsing experience, serve personalised ads or content, and analyse our traffic. By clicking \"Accept All\", you consent to our use of cookies.\nCustomize\nReject All\nAccept All\nTO MAKE PROGRESS, PLEASE CLARIFY\nWhen would you like to start your daily practice?\nChoose start time\n19:30\n20:00\n20:30\n21:00\n21:30\n22:00\n22:30\n23:00\n23:30\n00:00\n00:30\n01:00\n01:30\n02:00\n02:30\n03:00\n03:30\n04:00\n04:30\n05:00\n05:30\n06:00\n06:30\n07:00\n07:30\n08:00\n08:30\n09:00\n09:30\n10:00\n10:30\n11:00\n11:30\n12:00\n12:30\n13:00\n13:30\n14:00\n14:30\n15:00\n15:30\n16:00\n16:30\n17:00\n17:30\n18:00\n18:30\n19:00",
-      "textHash": "0e91241c1e04",
-      "dhash": "0011001010110010011001010101010101010101010010011110100100100000",
-      "prices": [],
-      "action": {
-        "opt": "Choose start time"
-      }
-    },
-    {
-      "n": 37,
-      "file": "37.webp",
-      "url": "https://onboarding.ailearna.com/onboarding",
-      "path": "/onboarding",
-      "title": "”",
-      "kind": "loader",
-      "text": "Master English with AI: Personalized Language Tutoring by Learna\n%70\nCreating your personal experience...\n✨\nCreating diverse topics\nDone\n💬\nPreparing interactive dialogues\nDone\n👩🏻‍🏫\nOptimizing your learning path\nLoading...\n🏁\nFinalizing your plan\nLoading...\n”\nLearna customized just for me. It feels like a personal tutor in my pocket.\nFig Nelson\nWe value your privacy\nWe use cookies to enhance your browsing experience, serve personalised ads or content, and analyse our traffic. By clicking \"Accept All\", you consent to our use of cookies.\nCustomize\nReject All\nAccept All\nTO MAKE PROGRESS, PLEASE CLARIFY\nWhen would you like to start your daily practice?\nChoose start time",
-      "textHash": "faf2e0bf836b",
-      "dhash": "0011001010110010011001010101010101010101011100011110000000100001",
-      "prices": [],
-      "action": {
-        "opt": "Choose start time"
-      }
-    },
-    {
-      "n": 38,
-      "file": "38.webp",
-      "url": "https://onboarding.ailearna.com/onboarding",
-      "path": "/onboarding",
-      "title": "”",
-      "kind": "loader",
-      "text": "Master English with AI: Personalized Language Tutoring by Learna\n%70\nCreating your personal experience...\n✨\nCreating diverse topics\nDone\n💬\nPreparing interactive dialogues\nDone\n👩🏻‍🏫\nOptimizing your learning path\nLoading...\n🏁\nFinalizing your plan\nLoading...\n”\nLearna customized just for me. It feels like a personal tutor in my pocket.\nFig Nelson\nWe value your privacy\nWe use cookies to enhance your browsing experience, serve personalised ads or content, and analyse our traffic. By clicking \"Accept All\", you consent to our use of cookies.\nCustomize\nReject All\nAccept All\nTO MAKE PROGRESS, PLEASE CLARIFY\nWhen would you like to start your daily practice?\nChoose start time\n19:30\n20:00\n20:30\n21:00\n21:30\n22:00\n22:30\n23:00\n23:30\n00:00\n00:30\n01:00\n01:30\n02:00\n02:30\n03:00\n03:30\n04:00\n04:30\n05:00\n05:30\n06:00\n06:30\n07:00\n07:30\n08:00\n08:30\n09:00\n09:30\n10:00\n10:30\n11:00\n11:30\n12:00\n12:30\n13:00\n13:30\n14:00\n14:30\n15:00\n15:30\n16:00\n16:30\n17:00\n17:30\n18:00\n18:30\n19:00",
-      "textHash": "0e91241c1e04",
-      "dhash": "0011001010110010011001010101010101010101010010011110100100100000",
-      "prices": [],
-      "action": {
-        "opt": "Choose start time"
-      }
-    },
-    {
-      "n": 39,
-      "file": "39.webp",
-      "url": "https://onboarding.ailearna.com/onboarding",
-      "path": "/onboarding",
-      "title": "”",
-      "kind": "loader",
-      "text": "Master English with AI: Personalized Language Tutoring by Learna\n%70\nCreating your personal experience...\n✨\nCreating diverse topics\nDone\n💬\nPreparing interactive dialogues\nDone\n👩🏻‍🏫\nOptimizing your learning path\nLoading...\n🏁\nFinalizing your plan\nLoading...\n”\nLearna customized just for me. It feels like a personal tutor in my pocket.\nFig Nelson\nWe value your privacy\nWe use cookies to enhance your browsing experience, serve personalised ads or content, and analyse our traffic. By clicking \"Accept All\", you consent to our use of cookies.\nCustomize\nReject All\nAccept All\nTO MAKE PROGRESS, PLEASE CLARIFY\nWhen would you like to start your daily practice?\nChoose start time",
-      "textHash": "faf2e0bf836b",
-      "dhash": "0011001010110010011001010101010101010101011100011110000000100001",
-      "prices": []
     }
   ],
   "features": {
-    "totalSteps": 39,
+    "totalSteps": 33,
     "stop": "stuck",
-    "emailStep": null,
+    "emailStep": 33,
     "paywallStep": null,
     "questions": 23,
     "socialProof": 1,
