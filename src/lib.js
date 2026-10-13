@@ -58,7 +58,7 @@ export function normalizeUrl(raw) {
   return { key: host + p + (qs ? '?' + qs : ''), host, path: p, params: Object.fromEntries(params) };
 }
 
-export const STORE_HOSTS = /(^|\.)(apps\.apple\.com|itunes\.apple\.com|play\.google\.com|onelink\.me|go\.link|app\.adjust\.com|adj\.st|app\.link|instagram\.com|facebook\.com|fb\.me|oculus\.com|meta\.com)$/i;
+export const STORE_HOSTS = /(^|\.)(apps\.apple\.com|itunes\.apple\.com|play\.google\.com|onelink\.me|go\.link|app\.adjust\.com|adj\.st|app\.link|instagram\.com|facebook\.com|fb\.me|oculus\.com|meta\.com|apps\.codeway\.co)$/i;
 export const isStoreOrSocial = host => STORE_HOSTS.test(host);
 
 /** Text normalisation for change detection: ignore timers, countdowns, loader %, dates. */

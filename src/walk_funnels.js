@@ -215,6 +215,12 @@ async function walk(browser, app, entry, dir) {
         const dhash = await shot(page, path.join(dir, file));
         steps.push({ n, file, url: s.url, path: new URL(s.url).pathname, title: s.title, kind, text: s.text.slice(0, 1500), textHash: sha(normText(s.text).slice(0, 2000) + '|' + s.alts), dhash, prices: [...new Set(s.text.match(PRICE) || [])].slice(0, 12) });
         lastKey = nkey;
+        // Funnel sent us back to its start (e.g. after sign-up): drop that screen and stop.
+        const early = new Set(steps.slice(0, 3).map(x => x.path));
+        if (steps.length > 8 && (early.has(steps[n - 1].path) || steps[n - 1].path === '/') && !early.has(steps[n - 2].path)) {
+          try { fs.unlinkSync(path.join(dir, file)); } catch {}
+          steps.pop(); stop = 'looped_to_start'; break;
+        }
       }
       seen.set(nkey, (seen.get(nkey) || 0) + 1);
       if (seen.get(nkey) > 4) { stop = 'stuck'; break; }
