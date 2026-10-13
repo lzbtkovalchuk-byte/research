@@ -136,7 +136,7 @@ async function main() {
           await loc.evaluate(c => c.querySelectorAll('video').forEach(v => {
             if (!v.poster) return;
             const img = document.createElement('img'); img.src = v.poster; img.style.cssText = 'width:100%;height:auto;display:block';
-            const box = v.closest('div[class]') || v.parentElement; box.replaceChildren(img);
+            v.replaceWith(img);
           })).catch(() => {});
           await sleep(1500);
           const buf = await loc.screenshot({ timeout: 15000 });
