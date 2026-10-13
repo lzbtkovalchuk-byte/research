@@ -158,6 +158,9 @@ function pickOption(s) {
   // Voice/mic tests can't run headless → skip them.
   if (/(couldn.t access your mic|microphone (is )?blocked|allow (access to )?(your )?microphone)/i.test(s.text)) { const sk = o.find(x => /^(skip|finish|not now|later|continue without)/i.test(x.text)); if (sk) return sk; }
   const yes = o.find(x => /^(yes|👍\s*yes|yes,? .{0,20})$/i.test(x.text)); if (yes && o.length <= 4) return yes;
+  // Time pickers: pick a time from the open list.
+  const times = o.filter(x => /^\d{1,2}:\d{2}(\s?[ap]m)?$/i.test(x.text));
+  if (times.length) return times[Math.floor(times.length / 2)];
   // Age ranges: pick the bracket containing 30 (adult, neutral).
   const ages = o.filter(x => AGE.test(x.text));
   if (ages.length >= 3) {

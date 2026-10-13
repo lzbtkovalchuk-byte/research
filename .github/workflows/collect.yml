@@ -7,6 +7,7 @@ on:
     inputs:
       force: { description: "Run even if the last run was less than 13 days ago", type: boolean, default: true }
       only:  { description: "Comma-separated app ids to test (empty = all)", required: false, default: "" }
+      run_date: { description: "Write into an existing run folder (YYYY-MM-DD) instead of today's", required: false, default: "" }
 permissions:
   contents: write
 concurrency: { group: collect, cancel-in-progress: false }
@@ -32,18 +33,20 @@ jobs:
         run: npm ci || npm install && npx playwright install --with-deps chromium
       - name: Meta ads
         if: steps.due.outputs.run == 'true'
-        env: { ONLY: "${{ inputs.only }}" }
+        env: { ONLY: "${{ inputs.only }}", RUN_DATE: "${{ inputs.run_date }}" }
         run: node src/collect_ads.js
       - name: Walk funnels
         if: steps.due.outputs.run == 'true'
         env:
           ONLY: "${{ inputs.only }}"
+          RUN_DATE: "${{ inputs.run_date }}"
           TEST_EMAIL: ${{ secrets.TEST_EMAIL }}
           PROXY_UK: ${{ secrets.PROXY_UK }}
           PROXY_US: ${{ secrets.PROXY_US }}
         run: node src/walk_funnels.js
       - name: Diff + draft reports
         if: steps.due.outputs.run == 'true'
+        env: { RUN_DATE: "${{ inputs.run_date }}" }
         run: node src/diff.js && node src/build_report.js
       - name: Keep draft reports as a downloadable artifact
         if: steps.due.outputs.run == 'true'
