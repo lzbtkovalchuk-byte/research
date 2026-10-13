@@ -1,0 +1,24 @@
+{
+  "id": "chillio",
+  "name": "Chillio",
+  "geo": "US",
+  "collected": "2026-10-13",
+  "windowStart": "2026-09-29",
+  "sources": [
+    {
+      "type": "domain",
+      "value": "get-chillio.app",
+      "url": "https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=US&media_type=all&search_type=keyword_exact_phrase&q=%22get-chillio.app%22",
+      "results": null,
+      "parsed": 0,
+      "kept": 0
+    }
+  ],
+  "ads": [],
+  "landing": {},
+  "pageIds": {},
+  "activeEstimate": 0,
+  "parsedCreatives": 0,
+  "newInWindow": 0,
+  "newCreativesInWindow": 0
+}

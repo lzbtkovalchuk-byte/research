@@ -1,0 +1,25 @@
+{
+  "id": "simply-piano",
+  "name": "Simply Piano",
+  "geo": "US",
+  "skillsta": false,
+  "storeOnly": false,
+  "funnels": [
+    {
+      "key": "join-piano.hellosimply.com/start",
+      "dir": "funnels/simply-piano/81a94aaa84e1",
+      "stop": "stuck",
+      "steps": 11,
+      "why": "ad",
+      "ads": 18
+    },
+    {
+      "key": "hellosimply.com/family/esa",
+      "dir": "funnels/simply-piano/684145bcfb5c",
+      "stop": "stuck",
+      "steps": 13,
+      "why": "ad",
+      "ads": 5
+    }
+  ]
+}

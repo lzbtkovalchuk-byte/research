@@ -1,0 +1,17 @@
+{
+  "id": "skillsta-vocal-2",
+  "name": "Skillsta · Vocal funnel 2.0",
+  "geo": "US",
+  "skillsta": true,
+  "storeOnly": null,
+  "funnels": [
+    {
+      "key": "getskillnow.com/quiz",
+      "dir": "funnels/skillsta-vocal-2/4ad23ce9af85",
+      "stop": "stuck",
+      "steps": 16,
+      "why": "seed",
+      "ads": 0
+    }
+  ]
+}

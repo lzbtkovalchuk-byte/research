@@ -1,0 +1,25 @@
+{
+  "id": "simply-sing",
+  "name": "Simply Sing",
+  "geo": "US",
+  "skillsta": false,
+  "storeOnly": false,
+  "funnels": [
+    {
+      "key": "join-sing.hellosimply.com/welcome?campaign_type=web_to_app&platform=iOS",
+      "dir": "funnels/simply-sing/6f241d946bf3",
+      "stop": "stuck",
+      "steps": 1,
+      "why": "ad",
+      "ads": 37
+    },
+    {
+      "key": "join-sing.hellosimply.com/start",
+      "dir": "funnels/simply-sing/228524b7bc31",
+      "stop": "stuck",
+      "steps": 5,
+      "why": "seed",
+      "ads": 0
+    }
+  ]
+}

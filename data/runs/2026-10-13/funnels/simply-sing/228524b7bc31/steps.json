@@ -1,0 +1,87 @@
+{
+  "url": "https://join-sing.hellosimply.com/start",
+  "key": "join-sing.hellosimply.com/start",
+  "why": "seed",
+  "ads": 0,
+  "adShot": null,
+  "adId": null,
+  "dir": "funnels/simply-sing/228524b7bc31",
+  "stop": "stuck",
+  "proxied": false,
+  "steps": [
+    {
+      "n": 1,
+      "file": "01.webp",
+      "url": "https://join-sing.hellosimply.com/start/messagingIntroB",
+      "path": "/start/messagingIntroB",
+      "title": "No song is out of reach",
+      "kind": "info",
+      "text": "No song is out of reach\nEnjoy singing your favorite songs adjusted to your voice\nGET STARTED\n4.7 stars from over 200k singers",
+      "textHash": "437688eeda8c",
+      "dhash": "0000101000001100000001001011001000111101000111100000011100000111",
+      "prices": []
+    },
+    {
+      "n": 2,
+      "file": "02.webp",
+      "url": "https://join-sing.hellosimply.com/start/conversation/conversation_start",
+      "path": "/start/conversation/conversation_start",
+      "title": "Let’s customize your experience",
+      "kind": "info",
+      "text": "Let’s customize your experience\nSimply Sing is tailored to your unique voice and singing preferences\nLet’s go",
+      "textHash": "9427dde278ce",
+      "dhash": "0110001100101011010100111000110000000111100100111101110000001111",
+      "prices": []
+    },
+    {
+      "n": 3,
+      "file": "03.webp",
+      "url": "https://join-sing.hellosimply.com/start/conversation/why_do_you_sing",
+      "path": "/start/conversation/why_do_you_sing",
+      "title": "Why do you sing?",
+      "kind": "question",
+      "text": "Why do you sing?\nYou can pick more than one\nIt helps me relax\nIt makes me feel good\nIts helps me express myself\nOther\nCONTINUE",
+      "textHash": "6b359a1f854e",
+      "dhash": "0110100100101011100011001001011010010000000000010000000000001101",
+      "prices": []
+    },
+    {
+      "n": 4,
+      "file": "04.webp",
+      "url": "https://join-sing.hellosimply.com/start/conversation/singin_benefit",
+      "path": "/start/conversation/singin_benefit",
+      "title": "Singing activates feel-good boosters",
+      "kind": "info",
+      "text": "Singing activates feel-good boosters\nEndorphins lift your mood by 30% and cut stress by 25%. Ready to make it even more fun?\nCONTINUE",
+      "textHash": "ec52b63d5da8",
+      "dhash": "1011001001001100000011010011001100001111000001000110001000001101",
+      "prices": []
+    },
+    {
+      "n": 5,
+      "file": "05.webp",
+      "url": "https://join-sing.hellosimply.com/start/conversation/song_generes",
+      "path": "/start/conversation/song_generes",
+      "title": "What kinds of songs do you like to sing?",
+      "kind": "question",
+      "text": "What kinds of songs do you like to sing?\nChoose your top 3 genres\nPop\nCountry & Folk\nTV & Movies\nRock\nJazz & Blues\nDisney\nHip Hop & Rap\nR&B & Soul\nMusicals\nChristian & Gospel\nCONTINUE",
+      "textHash": "4351bb751fe0",
+      "dhash": "0011101100000111100101101001100010011000100110001001100001001101",
+      "prices": []
+    }
+  ],
+  "features": {
+    "totalSteps": 5,
+    "stop": "stuck",
+    "emailStep": null,
+    "paywallStep": null,
+    "questions": 2,
+    "socialProof": 0,
+    "loader": false,
+    "prices": [],
+    "discount": null,
+    "timer": false,
+    "trial": false,
+    "moneyBack": false
+  }
+}

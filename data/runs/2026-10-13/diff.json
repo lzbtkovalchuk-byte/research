@@ -5,22 +5,314 @@
     "skillsta-vocal-2": {
       "ads": null,
       "links": [],
-      "funnels": {}
+      "funnels": {
+        "getskillnow.com/quiz": {
+          "firstRun": true,
+          "status": [
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            }
+          ],
+          "removed": []
+        }
+      }
     },
     "skillsta-vocal-scanner": {
       "ads": null,
       "links": [],
-      "funnels": {}
+      "funnels": {
+        "getskillnow.com/quiz/voice_assessment/voice_assessment": {
+          "firstRun": true,
+          "status": [
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            }
+          ],
+          "removed": []
+        }
+      }
     },
     "skillsta-drawing": {
       "ads": null,
       "links": [],
-      "funnels": {}
+      "funnels": {
+        "start.getskillnow.com/quiz": {
+          "firstRun": true,
+          "status": [
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            }
+          ],
+          "removed": []
+        }
+      }
     },
     "imprint": {
-      "ads": null,
-      "links": [],
-      "funnels": {}
+      "ads": {
+        "active": 590,
+        "prevActive": null,
+        "delta": null,
+        "newInWindow": 6,
+        "newCreatives": 3
+      },
+      "links": [
+        {
+          "status": "current",
+          "key": "itunes.apple.com/app/id1482780647",
+          "ads": 36,
+          "first": "2026-09-24",
+          "store": true
+        },
+        {
+          "status": "current",
+          "key": "imprintapp.com/start-buddhism",
+          "ads": 1,
+          "first": "2026-07-29",
+          "store": false
+        },
+        {
+          "status": "current",
+          "key": "imprintapp.com/start-history",
+          "ads": 4,
+          "first": "2026-06-30",
+          "store": false
+        },
+        {
+          "status": "current",
+          "key": "imprintapp.com/start-art",
+          "ads": 2,
+          "first": "2026-07-11",
+          "store": false
+        },
+        {
+          "status": "current",
+          "key": "play.google.com/store/apps/details?id=com.polywise.lucid",
+          "ads": 1,
+          "first": "2026-09-24",
+          "store": true
+        }
+      ],
+      "funnels": {
+        "imprintapp.com/start-history": {
+          "firstRun": true,
+          "status": [
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            }
+          ],
+          "removed": []
+        },
+        "imprintapp.com/start-art": {
+          "firstRun": true,
+          "status": [
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            }
+          ],
+          "removed": []
+        }
+      }
     },
     "breeze": {
       "ads": {
@@ -50,6 +342,87 @@
         "try-breeze.com/funnel/childhood": {
           "firstRun": true,
           "status": [
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
             {
               "s": "baseline"
             },
@@ -109,6 +482,78 @@
             },
             {
               "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
             }
           ],
           "removed": []
@@ -116,39 +561,666 @@
       }
     },
     "simply-piano": {
-      "ads": null,
-      "links": [],
-      "funnels": {}
+      "ads": {
+        "active": 430,
+        "prevActive": null,
+        "delta": null,
+        "newInWindow": 2,
+        "newCreatives": 2
+      },
+      "links": [
+        {
+          "status": "current",
+          "key": "itunes.apple.com/app/id1019442026",
+          "ads": 12,
+          "first": "2026-08-03",
+          "store": true
+        },
+        {
+          "status": "current",
+          "key": "join-piano.hellosimply.com/start",
+          "ads": 18,
+          "first": "2026-06-09",
+          "store": false
+        },
+        {
+          "status": "current",
+          "key": "hellosimply.com/family/esa",
+          "ads": 5,
+          "first": "2026-09-14",
+          "store": false
+        },
+        {
+          "status": "current",
+          "key": "join-piano.hellosimply.com/start?flow=tea",
+          "ads": 1,
+          "first": "2026-08-10",
+          "store": false
+        }
+      ],
+      "funnels": {
+        "join-piano.hellosimply.com/start": {
+          "firstRun": true,
+          "status": [
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            }
+          ],
+          "removed": []
+        },
+        "hellosimply.com/family/esa": {
+          "firstRun": true,
+          "status": [
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            }
+          ],
+          "removed": []
+        }
+      }
     },
     "memoryos": {
-      "ads": null,
-      "links": [],
-      "funnels": {}
+      "ads": {
+        "active": 16,
+        "prevActive": null,
+        "delta": null,
+        "newInWindow": 22,
+        "newCreatives": 8
+      },
+      "links": [
+        {
+          "status": "current",
+          "key": "start.memoryos.com/new-h?mos_cfg=seniors_s",
+          "ads": 10,
+          "first": "2026-09-10",
+          "store": false
+        },
+        {
+          "status": "current",
+          "key": "start.memoryos.com/new-h?mos_cfg=seniors_o",
+          "ads": 4,
+          "first": "2026-09-10",
+          "store": false
+        },
+        {
+          "status": "current",
+          "key": "start.memoryos.com/new-s",
+          "ads": 21,
+          "first": "2026-10-08",
+          "store": false
+        },
+        {
+          "status": "current",
+          "key": "start.memoryos.com/new-h",
+          "ads": 1,
+          "first": "2026-10-10",
+          "store": false
+        }
+      ],
+      "funnels": {
+        "start.memoryos.com/new-s": {
+          "firstRun": true,
+          "status": [
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            }
+          ],
+          "removed": []
+        },
+        "start.memoryos.com/new-h?mos_cfg=seniors_s": {
+          "firstRun": true,
+          "status": [
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            }
+          ],
+          "removed": []
+        }
+      }
     },
     "chillio": {
-      "ads": null,
+      "ads": {
+        "active": 0,
+        "prevActive": null,
+        "delta": null,
+        "newInWindow": 0,
+        "newCreatives": 0
+      },
       "links": [],
       "funnels": {}
     },
     "learna": {
-      "ads": null,
+      "ads": {
+        "active": 0,
+        "prevActive": null,
+        "delta": null,
+        "newInWindow": 0,
+        "newCreatives": 0
+      },
       "links": [],
-      "funnels": {}
+      "funnels": {
+        "onboarding.ailearna.com/onboarding": {
+          "firstRun": true,
+          "status": [
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            }
+          ],
+          "removed": []
+        }
+      }
     },
     "copymind": {
-      "ads": null,
+      "ads": {
+        "active": 0,
+        "prevActive": null,
+        "delta": null,
+        "newInWindow": 0,
+        "newCreatives": 0
+      },
       "links": [],
-      "funnels": {}
+      "funnels": {
+        "app.copymind.me/welcome-quiz/gender": {
+          "firstRun": true,
+          "status": [
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            }
+          ],
+          "removed": []
+        }
+      }
     },
     "simply-sing": {
-      "ads": null,
-      "links": [],
-      "funnels": {}
+      "ads": {
+        "active": 110,
+        "prevActive": null,
+        "delta": null,
+        "newInWindow": 8,
+        "newCreatives": 8
+      },
+      "links": [
+        {
+          "status": "current",
+          "key": "join-sing.hellosimply.com/welcome?campaign_type=web_to_app&platform=iOS",
+          "ads": 37,
+          "first": "2026-02-15",
+          "store": false
+        }
+      ],
+      "funnels": {
+        "join-sing.hellosimply.com/welcome?campaign_type=web_to_app&platform=iOS": {
+          "firstRun": true,
+          "status": [
+            {
+              "s": "baseline"
+            }
+          ],
+          "removed": []
+        },
+        "join-sing.hellosimply.com/start": {
+          "firstRun": true,
+          "status": [
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            }
+          ],
+          "removed": []
+        }
+      }
     },
     "yousician": {
-      "ads": null,
-      "links": [],
-      "funnels": {}
+      "ads": {
+        "active": 16,
+        "prevActive": null,
+        "delta": null,
+        "newInWindow": 5,
+        "newCreatives": 5
+      },
+      "links": [
+        {
+          "status": "current",
+          "key": "play.google.com/store/apps/details?id=com.yousician.yousician",
+          "ads": 11,
+          "first": "2026-07-17",
+          "store": true
+        },
+        {
+          "status": "current",
+          "key": "itunes.apple.com/app/id959883039",
+          "ads": 5,
+          "first": "2026-07-20",
+          "store": true
+        }
+      ],
+      "funnels": {
+        "yousician.com/": {
+          "firstRun": true,
+          "status": [
+            {
+              "s": "baseline"
+            }
+          ],
+          "removed": []
+        }
+      }
     },
     "smartyme": {
       "ads": {
@@ -264,6 +1336,12 @@
         "join-draw.hellosimply.com/start?flow=baw": {
           "firstRun": true,
           "status": [
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
             {
               "s": "baseline"
             }
