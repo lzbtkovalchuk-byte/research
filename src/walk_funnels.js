@@ -14,8 +14,8 @@ const NAME = S.test_name || 'Alex';
 const MAX_STEPS = S.max_steps || 90;
 const MAX_FUNNELS = S.max_funnels_per_app || 2;
 
-const CTA = /^(continue|next|next step|get started|start|start now|start quiz|take the quiz|take quiz|begin|let'?s go|let'?s start|go|got it|ok(ay)?|i'?m ready|ready|submit|done|proceed|i agree|agree|accept|see (my )?(results?|plan)|show (my )?(results?|plan)|get (my )?(results?)|reveal (my )?results?|check (my )?results?|continue with email|sounds good|awesome|great|yes,? let'?s do it|grow your child.s skills|discover more|tap to continue|skip for now)\b/i;
-const NEVER = /(sign in|log ?in|with google|with apple|with facebook|terms|privacy|cookie|policy|back|close|menu|help|faq|contact|download the app|app store|google play|why we ask|why do we ask|learn more|read more|more info|^why\??$|all rights reserved|©)/i;
+const CTA = /^(continue|next|next step|get started|let'?s get started|start|start now|start quiz|take the quiz|take quiz|begin|let'?s go|let'?s start|go|got it|ok(ay)?|i'?m ready|ready|submit|done|proceed|i agree|agree|see (my )?(results?|plan)|show (my )?(results?|plan)|get (my )?(results?)|reveal (my )?results?|check (my )?results?|continue with email|sounds good|awesome|great|yes,? let'?s do it|grow your child.s skills|discover more|tap to continue|skip for now|explore( my)? results|view( my)? results|unlock( my)? results|get( my)? results|claim( my)? (plan|results)|continue to results)\b/i;
+const NEVER = /(sign in|log ?in|with google|with apple|with facebook|terms|privacy|cookie|policy|back|close|menu|help|faq|contact|download the app|app store|google play|why we ask|why do we ask|learn more|read more|more info|^why\??$|all rights reserved|©|accept( all)?( cookies)?$|allow( all)?( cookies)?$|reject|^home$|home$|^blog$|^instruments$|^languages?$|family plan|log ?out)/i;
 const DECLINE = /(don.?t want|do not want|no,? thanks|not now|not interested|i.?ll pass|no thank you|maybe later|skip)/i;
 const PRICE = /(?:[$£€]\s?\d+[.,]?\d*|\d+[.,]\d{2}\s?(?:usd|gbp|eur|[$£€]))/gi;
 
@@ -77,7 +77,9 @@ async function inspect(page) {
       if (r.top < 64 && r.width < 80) return false; // header icons (back arrow)
       return true;
     });
-    const leaf = cand.filter(el => !cand.some(o => o !== el && el.contains(o) && (o.innerText || '').trim()));
+    let leaf = cand.filter(el => !cand.some(o => o !== el && el.contains(o) && (o.innerText || '').trim()));
+    // If a leaf sits inside a real button/label/link, click that instead (handlers live there).
+    leaf = [...new Set(leaf.map(el => el.closest('button,[role=button],[role=radio],[role=checkbox],[role=option],label,a') || el))];
     const ctas = [], opts = [];
     leaf.forEach((el, n) => {
       const t = (el.innerText || el.getAttribute('aria-label') || '').trim().replace(/\s+/g, ' ');
@@ -86,7 +88,9 @@ async function inspect(page) {
       const r = el.getBoundingClientRect();
       const disabled = el.disabled || el.getAttribute('aria-disabled') === 'true' || getComputedStyle(el).opacity < 0.5;
       const item = { sel: `[data-cfw="c${n}"]`, text: t.slice(0, 80), top: Math.round(r.top), disabled };
-      if (CTA.test(t)) ctas.push(item); else opts.push(item);
+      if (CTA.test(t)) ctas.push(item);
+      else if (t && t.length <= 60) opts.push(item);
+      else if (!t) opts.push({ ...item, icon: true });
     });
     // Primary button: the widest visible button-like element (usually the full-width CTA at the bottom).
     let primary = null, pw = 0;
@@ -139,8 +143,12 @@ function multiCount(text) {
 }
 
 function pickOption(s) {
-  const o = s.opts.filter(x => !x.disabled);
+  let o = s.opts.filter(x => !x.disabled && x.text !== s.title);
+  if (o.some(x => !x.icon)) o = o.filter(x => !x.icon);
   if (!o.length) return null;
+  // Voice/mic tests can't run headless → skip them.
+  if (/(record|microphone|\bmic\b|sing a note|glide)/i.test(s.text)) { const sk = o.find(x => /^(skip|finish|not now|later|continue without)/i.test(x.text)); if (sk) return sk; }
+  const yes = o.find(x => /^(yes|👍\s*yes|yes,? .{0,20})$/i.test(x.text)); if (yes && o.length <= 4) return yes;
   // Age ranges: pick the bracket containing 30 (adult, neutral).
   const ages = o.filter(x => AGE.test(x.text));
   if (ages.length >= 3) {
@@ -200,6 +208,7 @@ async function walk(browser, app, entry, dir) {
       if (kind === 'paywall' && steps.length > 1) { stop = 'paywall'; break; }
       if (kind === 'payment') { stop = 'payment_form'; break; }
       if (kind === 'account') { stop = 'account_creation'; break; }
+      if (/(one-time code|verification code|enter (the )?code|\botp\b|verify your email|check your (e-?mail|inbox))/i.test(s.text)) { stop = 'email_verification'; break; }
 
       // Fill inputs.
       let filled = false, gate = null;
@@ -230,10 +239,11 @@ async function walk(browser, app, entry, dir) {
       // Re-visiting a question we already answered (answer feedback, multi-select) → continue instead of toggling the answer.
       const same = prevScreen && prevScreen.url === s.url && prevScreen.title === s.title && prevScreen.answered;
       let answered = false;
-      if (filled) { act.filled = true; await pressCTA(s); answered = true; }
+      if (filled) { act.filled = true; await sleep(500); await pressCTA(await inspect(page)); answered = true; }
       else {
         let moved = false;
         if (same) moved = await pressCTA(s) && await changed();
+        if (!moved && !same && !/\?/.test(s.title + ' ' + s.text.slice(0, 300)) && !multiCount(s.text) && s.ctas.some(c => !c.disabled)) moved = await pressCTA(s) && await changed();
         if (!moved) {
           const multi = multiCount(s.text);
           if (multi) {

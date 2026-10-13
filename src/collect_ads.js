@@ -142,7 +142,7 @@ async function main() {
     }
     // Page result counts are Meta's estimates; for domain searches use the filtered count.
     // Domain searches can match other advertisers; trust Meta's total only when nearly all parsed ads were the app's own.
-    out.activeEstimate = out.sources.reduce((s, x) => s + (x.type === 'page' ? (x.results || 0) : (x.parsed && x.kept / x.parsed >= 0.8 ? (x.results || x.kept) : (x.kept || 0))), 0);
+    out.activeEstimate = out.sources.reduce((s, x) => s + (x.type === 'page' ? (x.results || 0) : (x.kept || 0)), 0);
     out.parsedCreatives = out.ads.length;
     out.newInWindow = out.ads.filter(a => a.startedISO && a.startedISO >= windowStart).reduce((s, a) => s + a.versions, 0);
     out.newCreativesInWindow = out.ads.filter(a => a.startedISO && a.startedISO >= windowStart).length;

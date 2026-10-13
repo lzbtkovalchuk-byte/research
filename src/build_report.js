@@ -17,7 +17,7 @@ const img = p => { try { return 'data:image/webp;base64,' + fs.readFileSync(p).t
 const geoChip = g => g === 'GB' ? '<span class="chip uk">UK</span>' : '<span class="chip us">US</span>';
 const fmtDate = d => d ? new Date(d + 'T00:00:00Z').toLocaleDateString('en-GB', { day: 'numeric', month: 'short', timeZone: 'UTC' }) : '—';
 const KIND = { question: 'Question', info: 'Info', social_proof: 'Social proof', loader: 'Loader', email: 'Email gate', paywall: 'Paywall', account: 'Create account', payment: 'Payment' };
-const STOP = { paywall: 'stopped at paywall (screenshot only)', account_creation: 'stopped at account creation (not submitted)', payment_form: 'stopped at payment form', email_gate: 'stopped at email gate (no test email set)', app_store: 'goes to the app store', stuck: 'auto-walk got stuck here — review', timeout: 'walk timed out', max_steps: 'step limit reached' };
+const STOP = { paywall: 'stopped at paywall (screenshot only)', account_creation: 'stopped at account creation (not submitted)', payment_form: 'stopped at payment form', email_gate: 'stopped at email gate (no test email set)', email_verification: 'stopped at email code verification', app_store: 'goes to the app store', stuck: 'auto-walk got stuck here — review', timeout: 'walk timed out', max_steps: 'step limit reached' };
 
 function loadFunnels(id) {
   const idx = readJSON(path.join(RUN, 'funnels', id, 'index.json'));
