@@ -19,7 +19,11 @@
       "text": "Start singing like you always wanted\nDiscover your voice type and adjust all songs to fit you\nFind My Voice Type\nDownload Now",
       "textHash": "c680a2302ed0",
       "dhash": "0101011100001111000011110001001100010111000011110000111000100001",
-      "prices": []
+      "prices": [],
+      "action": {
+        "opt": "Find My Voice Type",
+        "cta": "Find My Voice Type"
+      }
     }
   ],
   "features": {

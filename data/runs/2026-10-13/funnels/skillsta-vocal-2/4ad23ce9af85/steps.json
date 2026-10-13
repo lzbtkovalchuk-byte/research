@@ -19,7 +19,10 @@
       "text": "First, how old are you?\n18-24\n25-34\n35-44\n45-54\n55+\nTerms & Conditions • Privacy Policy • Subscription Policy",
       "textHash": "3963fd23592d",
       "dhash": "0000001101001101010011010100100100010000000000001000000000100011",
-      "prices": []
+      "prices": [],
+      "action": {
+        "opt": "25-34"
+      }
     },
     {
       "n": 2,
@@ -31,7 +34,10 @@
       "text": "What’s your gender?\n👨\nMale\n👩\nFemale\n🧑\nOther\nTerms & Conditions • Privacy Policy • Subscription Policy",
       "textHash": "cc4de96b5c5e",
       "dhash": "0010001101100111011010010110000110000000010000001000000000100011",
-      "prices": []
+      "prices": [],
+      "action": {
+        "opt": "👨 Male"
+      }
     },
     {
       "n": 3,
@@ -43,7 +49,10 @@
       "text": "Over 1,000,000 people\nfound their voice with our guided plans\nContinue\nTerms & Conditions • Privacy Policy • Subscription Policy",
       "textHash": "b80682c769d1",
       "dhash": "0000101101001101001111010011011000110111110010000101000101110001",
-      "prices": []
+      "prices": [],
+      "action": {
+        "cta": "Continue"
+      }
     },
     {
       "n": 4,
@@ -55,7 +64,11 @@
       "text": "I’ll feel like I nailed it when I finally…\nChoose all that apply\n🎤\nSing without freezing up\n🗣\nExpress myself freely\n😎\nFeel proud of my voice\n🎯\nHit notes with control\n💗\nFeel music more deeply\n🤩\nSing confidently in front of others\n📣\nTrain my voice like an instrument\n🔊\nShare my voice with the world\n✍️\nOther\nTerms & Conditions • Privacy Policy • Subscription Policy",
       "textHash": "4f09a8c46114",
       "dhash": "0010110100001101010111010100110101001101010011110101011101000111",
-      "prices": []
+      "prices": [],
+      "action": {
+        "opt": "🎤 Sing without freezing up",
+        "cta": "Continue"
+      }
     },
     {
       "n": 5,
@@ -67,7 +80,11 @@
       "text": "Why do you want to sing?\nChoose all that apply\n🥰\nIt just feels good\n🤯\nTo cope with overwhelm\n💞\nTo connect with my emotions\n🧘\nTo relax and unwind\n💭\nTo break the overthinking cycle\n✍️\nOther\nTerms & Conditions • Privacy Policy • Subscription Policy",
       "textHash": "36482a5aa345",
       "dhash": "0010010101011101010111010101110101001101011001011000000000100011",
-      "prices": []
+      "prices": [],
+      "action": {
+        "opt": "🥰 It just feels good",
+        "cta": "Continue"
+      }
     },
     {
       "n": 6,
@@ -79,7 +96,10 @@
       "text": "Now that your goal is clear, you’re 3x more likely to nail it\nYour answers will help us build a vocal training plan tailored to your goals\nContinue\nTerms & Conditions • Privacy Policy • Subscription Policy",
       "textHash": "6285613fbf47",
       "dhash": "0100010100011001010011010110110101111001000100110110010101110001",
-      "prices": []
+      "prices": [],
+      "action": {
+        "cta": "Continue"
+      }
     },
     {
       "n": 7,
@@ -91,7 +111,11 @@
       "text": "What gets in the way when you want to sing?\nChoose all that apply\n😬\nMy voice isn't good enough\n👀\nBeing heard, even by me\n🌀\nMy own overthinking\n💬\nSomething someone once said\n⏳\nFeeling like it's too late\n✍️\nOther\nTerms & Conditions • Privacy Policy • Subscription Policy",
       "textHash": "d776532f80c1",
       "dhash": "0011001100010111010011010100110101011111011011010110000100100011",
-      "prices": []
+      "prices": [],
+      "action": {
+        "opt": "😬 My voice isn't good enough",
+        "cta": "Continue"
+      }
     },
     {
       "n": 8,
@@ -103,112 +127,341 @@
       "text": "Whose voice impresses you the most?\nAdele\nBruno Mars\nBeyoncé\nThe Weeknd\nLady Gaga\nBad Bunny\nTaylor Swift\nEd Sheeran\nOther\nTerms & Conditions • Privacy Policy • Subscription Policy",
       "textHash": "1a0523363a5e",
       "dhash": "0001011101001101011010010100110101001001011010011011011000101011",
-      "prices": []
+      "prices": [],
+      "action": {
+        "opt": "Adele",
+        "cta": "Continue"
+      }
     },
     {
       "n": 9,
       "file": "09.webp",
-      "url": "https://www.getskillnow.com/quiz/standard-rate/new_vocal?utm_adname=cf_new_vocal&funnel-state=stepNumber:8",
+      "url": "https://www.getskillnow.com/quiz/standard-rate/new_vocal?utm_adname=cf_new_vocal&funnel-state=stepNumber:9",
       "path": "/quiz/standard-rate/new_vocal",
-      "title": "Whose voice impresses you the most?",
+      "title": "Have you ever tried working on your voice?",
       "kind": "question",
-      "text": "Whose voice impresses you the most?\nAdele\nBruno Mars\nBeyoncé\nThe Weeknd\nLady Gaga\nBad Bunny\nTaylor Swift\nEd Sheeran\nOther\nContinue\nTerms & Conditions • Privacy Policy • Subscription Policy",
-      "textHash": "de995a341ec8",
-      "dhash": "0001011100101101001010010100110101001001011010010011001101110001",
-      "prices": []
+      "text": "Have you ever tried working on your voice?\n🎹\nYes, with a teacher\n📺\nJust YouTube and guesswork\n🎤\nChoir or school growing up\n🫢\nLooked into it, never started\n😌\nNever tried it\nTerms & Conditions • Privacy Policy • Subscription Policy",
+      "textHash": "e2eaa64067c0",
+      "dhash": "0001010100011111010011110100010101110101000100011000000000100011",
+      "prices": [],
+      "action": {
+        "opt": "🎹 Yes, with a teacher"
+      }
     },
     {
       "n": 10,
       "file": "10.webp",
-      "url": "https://www.getskillnow.com/quiz/standard-rate/new_vocal?utm_adname=cf_new_vocal&funnel-state=stepNumber:8",
+      "url": "https://www.getskillnow.com/quiz/standard-rate/new_vocal?utm_adname=cf_new_vocal&funnel-state=stepNumber:10",
       "path": "/quiz/standard-rate/new_vocal",
-      "title": "Whose voice impresses you the most?",
-      "kind": "question",
-      "text": "Whose voice impresses you the most?\nAdele\nBruno Mars\nBeyoncé\nThe Weeknd\nLady Gaga\nBad Bunny\nTaylor Swift\nEd Sheeran\nOther\nTerms & Conditions • Privacy Policy • Subscription Policy",
-      "textHash": "1a0523363a5e",
-      "dhash": "0001011101001101011010010100110101001001011010011011011000101011",
-      "prices": []
+      "title": "Singing is a skill, not a gift",
+      "kind": "info",
+      "text": "Singing is a skill, not a gift\nYour voice can improve at any age. You just need the right practice and consistency. Your plan covers both.\nContinue\nTerms & Conditions • Privacy Policy • Subscription Policy",
+      "textHash": "6d5992f7dca1",
+      "dhash": "0010110101010101010101010101100101010101100001000111000101110001",
+      "prices": [],
+      "action": {
+        "cta": "Continue"
+      }
     },
     {
       "n": 11,
       "file": "11.webp",
-      "url": "https://www.getskillnow.com/quiz/standard-rate/new_vocal?utm_adname=cf_new_vocal&funnel-state=stepNumber:8",
+      "url": "https://www.getskillnow.com/quiz/standard-rate/new_vocal?utm_adname=cf_new_vocal&funnel-state=stepNumber:11",
       "path": "/quiz/standard-rate/new_vocal",
-      "title": "Whose voice impresses you the most?",
+      "title": "Where do you actually let yourself sing?",
       "kind": "question",
-      "text": "Whose voice impresses you the most?\nAdele\nBruno Mars\nBeyoncé\nThe Weeknd\nLady Gaga\nBad Bunny\nTaylor Swift\nEd Sheeran\nOther\nContinue\nTerms & Conditions • Privacy Policy • Subscription Policy",
-      "textHash": "de995a341ec8",
-      "dhash": "0001011100101101001010010100110101001001011010010011001101110001",
-      "prices": []
+      "text": "Where do you actually let yourself sing?\n🤐\nI barely sing at all\n🫣\nOnly when I'm alone\n🫶\nAround people I trust\n🌟\nIn any setting\nTerms & Conditions • Privacy Policy • Subscription Policy",
+      "textHash": "8e9aef0fd9c9",
+      "dhash": "0001011100010111010110010101110101010001100000000000000000100011",
+      "prices": [],
+      "action": {
+        "opt": "🤐 I barely sing at all"
+      }
     },
     {
       "n": 12,
       "file": "12.webp",
-      "url": "https://www.getskillnow.com/quiz/standard-rate/new_vocal?utm_adname=cf_new_vocal&funnel-state=stepNumber:8",
+      "url": "https://www.getskillnow.com/quiz/standard-rate/new_vocal?utm_adname=cf_new_vocal&funnel-state=stepNumber:12",
       "path": "/quiz/standard-rate/new_vocal",
-      "title": "Whose voice impresses you the most?",
+      "title": "When do you usually feel the urge to sing?",
       "kind": "question",
-      "text": "Whose voice impresses you the most?\nAdele\nBruno Mars\nBeyoncé\nThe Weeknd\nLady Gaga\nBad Bunny\nTaylor Swift\nEd Sheeran\nOther\nTerms & Conditions • Privacy Policy • Subscription Policy",
-      "textHash": "1a0523363a5e",
-      "dhash": "0001011101001101011010010100110101001001011010011011011000101011",
-      "prices": []
+      "text": "When do you usually feel the urge to sing?\nChoose all that apply\n🎧\nHearing a song I love\n🚗\nDriving the car\n🚿\nIn the shower\n💖\nWhen emotions are running high\n🎉\nAt karaoke or parties\n🧽\nWhile cleaning up\n✍️\nOther\nTerms & Conditions • Privacy Policy • Subscription Policy",
+      "textHash": "60339275de53",
+      "dhash": "0001010100010111001110010101010101011111010111010111010100100011",
+      "prices": [],
+      "action": {
+        "opt": "🎧 Hearing a song I love",
+        "cta": "Continue"
+      }
     },
     {
       "n": 13,
       "file": "13.webp",
-      "url": "https://www.getskillnow.com/quiz/standard-rate/new_vocal?utm_adname=cf_new_vocal&funnel-state=stepNumber:8",
+      "url": "https://www.getskillnow.com/quiz/standard-rate/new_vocal?utm_adname=cf_new_vocal&funnel-state=stepNumber:13",
       "path": "/quiz/standard-rate/new_vocal",
-      "title": "Whose voice impresses you the most?",
+      "title": "Do you ever catch yourself doing any of these?",
       "kind": "question",
-      "text": "Whose voice impresses you the most?\nAdele\nBruno Mars\nBeyoncé\nThe Weeknd\nLady Gaga\nBad Bunny\nTaylor Swift\nEd Sheeran\nOther\nContinue\nTerms & Conditions • Privacy Policy • Subscription Policy",
-      "textHash": "de995a341ec8",
-      "dhash": "0001011100101101001010010100110101001001011010010011001101110001",
-      "prices": []
+      "text": "Do you ever catch yourself doing any of these?\nChoose all that apply\n🤫\nGo quiet when someone walks in\n👄\nLipsync or whisper sing\n🫢\nApologize for singing\n🎧\nSing only with headphones on\n🎹\nStruggle to hit difficult notes\n🥱\nGet out of breath while singing\n🎙️\nSay no to karaoke\n🚫\nNone of the above\nTerms & Conditions • Privacy Policy • Subscription Policy",
+      "textHash": "221bd0c0431c",
+      "dhash": "0001101100010111010011010100110101001101010001110101100100011001",
+      "prices": [],
+      "action": {
+        "opt": "🤫 Go quiet when someone walks in",
+        "cta": "Continue"
+      }
     },
     {
       "n": 14,
       "file": "14.webp",
-      "url": "https://www.getskillnow.com/quiz/standard-rate/new_vocal?utm_adname=cf_new_vocal&funnel-state=stepNumber:8",
+      "url": "https://www.getskillnow.com/quiz/standard-rate/new_vocal?utm_adname=cf_new_vocal&funnel-state=stepNumber:14",
       "path": "/quiz/standard-rate/new_vocal",
-      "title": "Whose voice impresses you the most?",
-      "kind": "question",
-      "text": "Whose voice impresses you the most?\nAdele\nBruno Mars\nBeyoncé\nThe Weeknd\nLady Gaga\nBad Bunny\nTaylor Swift\nEd Sheeran\nOther\nTerms & Conditions • Privacy Policy • Subscription Policy",
-      "textHash": "1a0523363a5e",
-      "dhash": "0001011101001101011010010100110101001001011010011011011000101011",
-      "prices": []
+      "title": "You’ve never been bad at singing. You just haven’t practiced the right way",
+      "kind": "info",
+      "text": "You’ve never been bad at singing. You just haven’t practiced the right way\n83% of our users say they sing with more confidence and freedom after just three weeks of following their plan. Let’s get you there, too.\nContinue\nTerms & Conditions • Privacy Policy • Subscription Policy",
+      "textHash": "60b19e90831b",
+      "dhash": "0010001100110111011000010101001101001101100000000111000101110001",
+      "prices": [],
+      "action": {
+        "cta": "Continue"
+      }
     },
     {
       "n": 15,
       "file": "15.webp",
-      "url": "https://www.getskillnow.com/quiz/standard-rate/new_vocal?utm_adname=cf_new_vocal&funnel-state=stepNumber:8",
+      "url": "https://www.getskillnow.com/quiz/standard-rate/new_vocal?utm_adname=cf_new_vocal&funnel-state=stepNumber:15",
       "path": "/quiz/standard-rate/new_vocal",
-      "title": "Whose voice impresses you the most?",
+      "title": "“I want to sing freely, but I feel like my voice just doesn’t work like it should”",
       "kind": "question",
-      "text": "Whose voice impresses you the most?\nAdele\nBruno Mars\nBeyoncé\nThe Weeknd\nLady Gaga\nBad Bunny\nTaylor Swift\nEd Sheeran\nOther\nContinue\nTerms & Conditions • Privacy Policy • Subscription Policy",
-      "textHash": "de995a341ec8",
-      "dhash": "0001011100101101001010010100110101001001011010010011001101110001",
-      "prices": []
+      "text": "“I want to sing freely, but I feel like my voice just doesn’t work like it should”\nDoes this seem like you?\n👎\n👎\n🤷\n👍\n👍\nTerms & Conditions • Privacy Policy • Subscription Policy",
+      "textHash": "22a949f5ad5c",
+      "dhash": "0100110100000111010011010100100100010100000000001000000000100011",
+      "prices": [],
+      "action": {
+        "opt": "👎"
+      }
     },
     {
       "n": 16,
       "file": "16.webp",
-      "url": "https://www.getskillnow.com/quiz/standard-rate/new_vocal?utm_adname=cf_new_vocal&funnel-state=stepNumber:8",
+      "url": "https://www.getskillnow.com/quiz/standard-rate/new_vocal?utm_adname=cf_new_vocal&funnel-state=stepNumber:16",
       "path": "/quiz/standard-rate/new_vocal",
-      "title": "Whose voice impresses you the most?",
+      "title": "“I can feel the music, but my voice often comes out flat and weak”",
       "kind": "question",
-      "text": "Whose voice impresses you the most?\nAdele\nBruno Mars\nBeyoncé\nThe Weeknd\nLady Gaga\nBad Bunny\nTaylor Swift\nEd Sheeran\nOther\nTerms & Conditions • Privacy Policy • Subscription Policy",
-      "textHash": "1a0523363a5e",
-      "dhash": "0001011101001101011010010100110101001001011010011011011000101011",
-      "prices": []
+      "text": "“I can feel the music, but my voice often comes out flat and weak”\nDoes this seem like you?\n👎\n👎\n🤷\n👍\n👍\nTerms & Conditions • Privacy Policy • Subscription Policy",
+      "textHash": "df83e02361e2",
+      "dhash": "0001110100001111010011010100100100010100000000001000000000100011",
+      "prices": [],
+      "action": {
+        "opt": "👎"
+      }
+    },
+    {
+      "n": 17,
+      "file": "17.webp",
+      "url": "https://www.getskillnow.com/quiz/standard-rate/new_vocal?utm_adname=cf_new_vocal&funnel-state=stepNumber:17",
+      "path": "/quiz/standard-rate/new_vocal",
+      "title": "“I stop singing the moment the note gets too high or low”",
+      "kind": "question",
+      "text": "“I stop singing the moment the note gets too high or low”\nDoes this seem like you?\n👎\n👎\n🤷\n👍\n👍\nTerms & Conditions • Privacy Policy • Subscription Policy",
+      "textHash": "0734d2ec6d23",
+      "dhash": "0001110101001101010010011011001000001000000000001000000000100011",
+      "prices": [],
+      "action": {
+        "opt": "👎"
+      }
+    },
+    {
+      "n": 18,
+      "file": "18.webp",
+      "url": "https://www.getskillnow.com/quiz/standard-rate/new_vocal?utm_adname=cf_new_vocal&funnel-state=stepNumber:18",
+      "path": "/quiz/standard-rate/new_vocal",
+      "title": "Your voice has more range than you think",
+      "kind": "info",
+      "text": "Your voice has more range than you think\nThe jump between your chest voice and your high notes has a bridge. Your plan will walk you across it.\nContinue\nTerms & Conditions • Privacy Policy • Subscription Policy",
+      "textHash": "8d709861d40e",
+      "dhash": "0000011101011100011011010100110110011100111100000101000101110001",
+      "prices": [],
+      "action": {
+        "cta": "Continue"
+      }
+    },
+    {
+      "n": 19,
+      "file": "19.webp",
+      "url": "https://www.getskillnow.com/quiz/standard-rate/new_vocal?utm_adname=cf_new_vocal&funnel-state=stepNumber:19",
+      "path": "/quiz/standard-rate/new_vocal",
+      "title": "\"The moment someone might hear me, my voice does the exact wrong thing\"",
+      "kind": "question",
+      "text": "\"The moment someone might hear me, my voice does the exact wrong thing\"\nDoes this seem like you?\n👎\n👎\n🤷\n👍\n👍\nTerms & Conditions • Privacy Policy • Subscription Policy",
+      "textHash": "578c6211d62d",
+      "dhash": "0001010100010111010011010100100100010100000000001000000000100011",
+      "prices": [],
+      "action": {
+        "opt": "👎"
+      }
+    },
+    {
+      "n": 20,
+      "file": "20.webp",
+      "url": "https://www.getskillnow.com/quiz/standard-rate/new_vocal?utm_adname=cf_new_vocal&funnel-state=stepNumber:20",
+      "path": "/quiz/standard-rate/new_vocal",
+      "title": "\"I feel too exposed and vulnerable when I sing in front of others\"",
+      "kind": "question",
+      "text": "\"I feel too exposed and vulnerable when I sing in front of others\"\nDoes this seem like you?\n👎\n👎\n🤷\n👍\n👍\nTerms & Conditions • Privacy Policy • Subscription Policy",
+      "textHash": "89761c004281",
+      "dhash": "0011011100001111010011010110100100010100000000001000000000100011",
+      "prices": [],
+      "action": {
+        "opt": "👎"
+      }
+    },
+    {
+      "n": 21,
+      "file": "21.webp",
+      "url": "https://www.getskillnow.com/quiz/standard-rate/new_vocal?utm_adname=cf_new_vocal&funnel-state=stepNumber:21",
+      "path": "/quiz/standard-rate/new_vocal",
+      "title": "“I overthink how I sound so much that I forget to enjoy the song”",
+      "kind": "question",
+      "text": "“I overthink how I sound so much that I forget to enjoy the song”\nDoes this seem like you?\n👎\n👎\n🤷\n👍\n👍\nTerms & Conditions • Privacy Policy • Subscription Policy",
+      "textHash": "e9807b03706c",
+      "dhash": "0001011100001111010011010100100100010100000000001000000000100011",
+      "prices": [],
+      "action": {
+        "opt": "👎"
+      }
+    },
+    {
+      "n": 22,
+      "file": "22.webp",
+      "url": "https://www.getskillnow.com/quiz/standard-rate/new_vocal?utm_adname=cf_new_vocal&funnel-state=stepNumber:22",
+      "path": "/quiz/standard-rate/new_vocal",
+      "title": "Training your voice quiets the overthinking",
+      "kind": "info",
+      "text": "Training your voice quiets the overthinking\nThe more you avoid singing, the louder the nerves get. Regular practice makes them fade, not through motivation, but repetition.\nContinue\nTerms & Conditions • Privacy Policy • Subscription Policy",
+      "textHash": "bd95224dee88",
+      "dhash": "0001011101010101100111111000111100001111100110010111000101110001",
+      "prices": [],
+      "action": {
+        "cta": "Continue"
+      }
+    },
+    {
+      "n": 23,
+      "file": "23.webp",
+      "url": "https://www.getskillnow.com/quiz/standard-rate/new_vocal?utm_adname=cf_new_vocal&funnel-state=stepNumber:23",
+      "path": "/quiz/standard-rate/new_vocal",
+      "title": "What stops you from working on your singing?",
+      "kind": "question",
+      "text": "What stops you from working on your singing?\nChoose all that apply\nBusy schedule\nUnstable routine\nDoomscrolling\nNot knowing where to start\nFear of judgment\nProcrastination\nLack of time\nFear of failure\nSelf-criticism\nLack of privacy\nOther\nTerms & Conditions • Privacy Policy • Subscription Policy",
+      "textHash": "88d44cf26dcb",
+      "dhash": "0001011100010110011001110110111101101001000000000000100000100011",
+      "prices": [],
+      "action": {
+        "opt": "Busy schedule",
+        "cta": "Continue"
+      }
+    },
+    {
+      "n": 24,
+      "file": "24.webp",
+      "url": "https://www.getskillnow.com/quiz/standard-rate/new_vocal?utm_adname=cf_new_vocal&funnel-state=stepNumber:24",
+      "path": "/quiz/standard-rate/new_vocal",
+      "title": "What feels the hardest about singing?",
+      "kind": "question",
+      "text": "What feels the hardest about singing?\nChoose all that apply\n🥊\nHit the right notes\n🕹️\nControl my voice\n🥱\nBreath support\n💞\nExpress emotions\n🥁\nKeep rhythm and timing\n🎙️\nSing for the audience\n✍️\nOther\nTerms & Conditions • Privacy Policy • Subscription Policy",
+      "textHash": "6dba4362a236",
+      "dhash": "0000011101001101010110010101110101011101010011010110110100100011",
+      "prices": [],
+      "action": {
+        "opt": "🥊 Hit the right notes",
+        "cta": "Continue"
+      }
+    },
+    {
+      "n": 25,
+      "file": "25.webp",
+      "url": "https://www.getskillnow.com/quiz/standard-rate/new_vocal?utm_adname=cf_new_vocal&funnel-state=stepNumber:25",
+      "path": "/quiz/standard-rate/new_vocal",
+      "title": "My singing journey will feel worth it when I…",
+      "kind": "question",
+      "text": "My singing journey will feel worth it when I…\nChoose all that apply\n🌟\nFeel proud of my singing\n🎙️\nSing freely in front of others\n😎\nMake my favorite songs my own\n💖\nConnect with my emotions\n🧑‍🎤\nBecome a creator or singer\n🙌\nFeel confident expressing myself\n✍️\nOther\nTerms & Conditions • Privacy Policy • Subscription Policy",
+      "textHash": "8357e2f7e96d",
+      "dhash": "0001011100010111010011010100010101001101010101010110000100100011",
+      "prices": [],
+      "action": {
+        "opt": "🌟 Feel proud of my singing",
+        "cta": "Continue"
+      }
+    },
+    {
+      "n": 26,
+      "file": "26.webp",
+      "url": "https://www.getskillnow.com/quiz/standard-rate/new_vocal?utm_adname=cf_new_vocal&funnel-state=stepNumber:26",
+      "path": "/quiz/standard-rate/new_vocal",
+      "title": "Is there a specific moment you're working toward?",
+      "kind": "question",
+      "text": "Is there a specific moment you're working toward?\nChoose all that apply\n💍\nWedding coming up\n🎉\nParty with my friends\n🎸\nMy favorite artist’s concert\n💝\nSurprising my special someone\n👶\nSinging to my kid\n🙌\nJust for me, no occasion\n✍️\nOther\nTerms & Conditions • Privacy Policy • Subscription Policy",
+      "textHash": "b67ad43e2a30",
+      "dhash": "0010101100001111010111010100110101011101010111010110010100100011",
+      "prices": [],
+      "action": {
+        "opt": "💍 Wedding coming up",
+        "cta": "Continue"
+      }
+    },
+    {
+      "n": 27,
+      "file": "27.webp",
+      "url": "https://www.getskillnow.com/quiz/standard-rate/new_vocal?utm_adname=cf_new_vocal&funnel-state=stepNumber:27",
+      "path": "/quiz/standard-rate/new_vocal",
+      "title": "Thanks for being honest!",
+      "kind": "social_proof",
+      "text": "Thanks for being honest!\nOver 1,000,000 singers started right where you are. Their journeys helped us build a plan that meets you at your current level and grows with you.\nContinue\nTerms & Conditions • Privacy Policy • Subscription Policy",
+      "textHash": "7a99fa954968",
+      "dhash": "0010011101001101010010110100001100000111001101010101000101110001",
+      "prices": [],
+      "action": {
+        "cta": "Continue"
+      }
+    },
+    {
+      "n": 28,
+      "file": "28.webp",
+      "url": "https://www.getskillnow.com/quiz/standard-rate/new_vocal?utm_adname=cf_new_vocal&funnel-state=stepNumber:28",
+      "path": "/quiz/standard-rate/new_vocal",
+      "title": "How much time can you carve out daily to achieve your goal?",
+      "kind": "question",
+      "text": "How much time can you carve out daily to achieve your goal?\n✌️\nCasual\n5 min/day\n✌️\nBold\n10 min/day\n✌️\nSerious\n15 min/day\n✌️\nAmbitious\n20+ min/day\nTerms & Conditions • Privacy Policy • Subscription Policy",
+      "textHash": "9247873d24e2",
+      "dhash": "0000101101101001011000010111000101110001100000000000000000100011",
+      "prices": [],
+      "action": {
+        "opt": "✌️ Casual 5 min/day"
+      }
+    },
+    {
+      "n": 29,
+      "file": "29.webp",
+      "url": "https://www.getskillnow.com/quiz/standard-rate/new_vocal?utm_adname=cf_new_vocal&funnel-state=stepNumber:29",
+      "path": "/quiz/standard-rate/new_vocal",
+      "title": "We’re tailoring your personal confident singing plan...",
+      "kind": "question",
+      "text": "We’re tailoring your personal confident singing plan...\nSetting goals...\n49%\nTo improve recommendations, specify\nDo you need short daily drills you can do anywhere?\nYes\nNo\nTerms & Conditions • Privacy Policy • Subscription Policy",
+      "textHash": "2fc2ba5d9a40",
+      "dhash": "0001001100111001001000000000000010000000010010110100101100110001",
+      "prices": [],
+      "action": {
+        "opt": "We’re tailoring your personal confident singing plan..."
+      }
     }
   ],
   "features": {
-    "totalSteps": 16,
+    "totalSteps": 29,
     "stop": "stuck",
     "emailStep": null,
     "paywallStep": null,
-    "questions": 14,
-    "socialProof": 1,
+    "questions": 22,
+    "socialProof": 2,
     "loader": false,
     "prices": [],
     "discount": null,

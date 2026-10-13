@@ -1,0 +1,226 @@
+{
+  "url": "https://quiz.get-chillio.app/qs/house-ai?utm_source=CHI_web_fb&utm_campaign={{campaign.name}}&utm_content={{adset.name}}&utm_ad={{ad.name}}&utm_id={{campaign.id}}&utm_term={{adset.id}}&ad_id={{ad.id}}",
+  "key": "quiz.get-chillio.app/qs/house-ai",
+  "why": "ad",
+  "ads": 11,
+  "adShot": "chillio-7b6db541533d.webp",
+  "adId": "1313799237423184",
+  "dir": "funnels/chillio/7b6db541533d",
+  "stop": "stuck",
+  "proxied": false,
+  "steps": [
+    {
+      "n": 1,
+      "file": "01.webp",
+      "url": "https://your-chillio.com/qs/house-ai-g?utm_source=CHI_web_fb&utm_campaign=%7B%7Bcampaign.name%7D%7D&utm_content=%7B%7Badset.name%7D%7D&utm_ad=%7B%7Bad.name%7D%7D&utm_id=%7B%7Bcampaign.id%7D%7D&utm_term=%7B%7Badset.id%7D%7D&ad_id=%7B%7Bad.id%7D%7D&quizName=house-ai-g&customToken=eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiIxMDk3NDg1Mzk4ODkwLWNvbXB1dGVAZGV2ZWxvcGVyLmdzZXJ2aWNlYWNjb3VudC5jb20iLCJhdWQiOiJodHRwczovL2lkZW50aXR5dG9vbGtpdC5nb29nbGVhcGlzLmNvbS9nb29nbGUuaWRlbnRpdHkuaWRlbnRpdHl0b29sa2l0LnYxLklkZW50aXR5VG9vbGtpdCIsImV4cCI6MTc5MTg5ODk3OCwiaWF0IjoxNzkxODk1Mzc4LCJzdWIiOiIxMDk3NDg1Mzk4ODkwLWNvbXB1dGVAZGV2ZWxvcGVyLmdzZXJ2aWNlYWNjb3VudC5jb20iLCJ1aWQiOiJzTkU3UEpSc1NxZjhNVDVpeXZYNHVzNUpOYkUzIn0.FER6x77LmzwmjTYmjbA_FvfJCB_VD_1hWq3oPAjWh_LzxZNDs-TV49NaE2YcRyg0LBbgwzDZqgJH3oOZHXgomnzkLXZsGsW5AfPweKQWHh4WWIuYYUu8ZHvg_HxRlP1aJd9t5Y57hpWmFgQeHIF3OJdrUNn7Tfx6OUhAp0_vJ2zWKeirAvFegY6OF2FQ-redG8Iy4NOun54huE2dpKd7p_DD1HyVC6WJkhG7s-eBvRwKA9gD8g7VmaHMenfZdJSo0E_ZF6-XEoRGP6-RTNa1194ocz4Mm8Rlw7-H9Y4N9pMTF4z10WYICs-biV6zpzJGLtRTGpSU-tNSHF3t67vstA#profile",
+      "path": "/qs/house-ai-g",
+      "title": "Let AI run your house",
+      "kind": "question",
+      "text": "Let AI run your house\nAccording to your type and triggers\n⏳ 3 minute quiz\nMale\nFemale\nOther\nBy continuing, I agree with Terms of Use, Privacy Policy and Refund Policy.",
+      "textHash": "42f3167f3c03",
+      "dhash": "1011001011011100110011001010101010110000000000010000000000000000",
+      "prices": [],
+      "action": {
+        "opt": ""
+      }
+    },
+    {
+      "n": 2,
+      "file": "02.webp",
+      "url": "https://your-chillio.com/qs/house-ai-g?utm_source=CHI_web_fb&utm_campaign=%7B%7Bcampaign.name%7D%7D&utm_content=%7B%7Badset.name%7D%7D&utm_ad=%7B%7Bad.name%7D%7D&utm_id=%7B%7Bcampaign.id%7D%7D&utm_term=%7B%7Badset.id%7D%7D&ad_id=%7B%7Bad.id%7D%7D&quizName=house-ai-g&customToken=eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiIxMDk3NDg1Mzk4ODkwLWNvbXB1dGVAZGV2ZWxvcGVyLmdzZXJ2aWNlYWNjb3VudC5jb20iLCJhdWQiOiJodHRwczovL2lkZW50aXR5dG9vbGtpdC5nb29nbGVhcGlzLmNvbS9nb29nbGUuaWRlbnRpdHkuaWRlbnRpdHl0b29sa2l0LnYxLklkZW50aXR5VG9vbGtpdCIsImV4cCI6MTc5MTg5ODk3OCwiaWF0IjoxNzkxODk1Mzc4LCJzdWIiOiIxMDk3NDg1Mzk4ODkwLWNvbXB1dGVAZGV2ZWxvcGVyLmdzZXJ2aWNlYWNjb3VudC5jb20iLCJ1aWQiOiJzTkU3UEpSc1NxZjhNVDVpeXZYNHVzNUpOYkUzIn0.FER6x77LmzwmjTYmjbA_FvfJCB_VD_1hWq3oPAjWh_LzxZNDs-TV49NaE2YcRyg0LBbgwzDZqgJH3oOZHXgomnzkLXZsGsW5AfPweKQWHh4WWIuYYUu8ZHvg_HxRlP1aJd9t5Y57hpWmFgQeHIF3OJdrUNn7Tfx6OUhAp0_vJ2zWKeirAvFegY6OF2FQ-redG8Iy4NOun54huE2dpKd7p_DD1HyVC6WJkhG7s-eBvRwKA9gD8g7VmaHMenfZdJSo0E_ZF6-XEoRGP6-RTNa1194ocz4Mm8Rlw7-H9Y4N9pMTF4z10WYICs-biV6zpzJGLtRTGpSU-tNSHF3t67vstA&profile=male#age",
+      "path": "/qs/house-ai-g",
+      "title": "What is your age?",
+      "kind": "question",
+      "text": "What is your age?\nYour answers will help us create your profile summary and personalized plan\n18-25 years\n26-35 years\n36-45 years\n46-55 years\n55+ years",
+      "textHash": "b418f7619bd3",
+      "dhash": "0111000011001000100000011000000110000001010000000000000000000000",
+      "prices": [],
+      "action": {
+        "opt": "26-35 years"
+      }
+    },
+    {
+      "n": 3,
+      "file": "03.webp",
+      "url": "https://your-chillio.com/qs/house-ai-g?utm_source=CHI_web_fb&utm_campaign=%7B%7Bcampaign.name%7D%7D&utm_content=%7B%7Badset.name%7D%7D&utm_ad=%7B%7Bad.name%7D%7D&utm_id=%7B%7Bcampaign.id%7D%7D&utm_term=%7B%7Badset.id%7D%7D&ad_id=%7B%7Bad.id%7D%7D&quizName=house-ai-g&customToken=eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiIxMDk3NDg1Mzk4ODkwLWNvbXB1dGVAZGV2ZWxvcGVyLmdzZXJ2aWNlYWNjb3VudC5jb20iLCJhdWQiOiJodHRwczovL2lkZW50aXR5dG9vbGtpdC5nb29nbGVhcGlzLmNvbS9nb29nbGUuaWRlbnRpdHkuaWRlbnRpdHl0b29sa2l0LnYxLklkZW50aXR5VG9vbGtpdCIsImV4cCI6MTc5MTg5ODk3OCwiaWF0IjoxNzkxODk1Mzc4LCJzdWIiOiIxMDk3NDg1Mzk4ODkwLWNvbXB1dGVAZGV2ZWxvcGVyLmdzZXJ2aWNlYWNjb3VudC5jb20iLCJ1aWQiOiJzTkU3UEpSc1NxZjhNVDVpeXZYNHVzNUpOYkUzIn0.FER6x77LmzwmjTYmjbA_FvfJCB_VD_1hWq3oPAjWh_LzxZNDs-TV49NaE2YcRyg0LBbgwzDZqgJH3oOZHXgomnzkLXZsGsW5AfPweKQWHh4WWIuYYUu8ZHvg_HxRlP1aJd9t5Y57hpWmFgQeHIF3OJdrUNn7Tfx6OUhAp0_vJ2zWKeirAvFegY6OF2FQ-redG8Iy4NOun54huE2dpKd7p_DD1HyVC6WJkhG7s-eBvRwKA9gD8g7VmaHMenfZdJSo0E_ZF6-XEoRGP6-RTNa1194ocz4Mm8Rlw7-H9Y4N9pMTF4z10WYICs-biV6zpzJGLtRTGpSU-tNSHF3t67vstA&profile=male#over_people_have_chosen",
+      "path": "/qs/house-ai-g",
+      "title": "Over 250,000 people have chosen Chillio",
+      "kind": "social_proof",
+      "text": "Over 250,000 people\nhave chosen Chillio\nContinue",
+      "textHash": "8b6f683d1e9c",
+      "dhash": "0111000011001100111100001111000011001000111100001000101010001110",
+      "prices": [],
+      "action": {
+        "cta": "Continue"
+      }
+    },
+    {
+      "n": 4,
+      "file": "04.webp",
+      "url": "https://your-chillio.com/qs/house-ai-g?utm_source=CHI_web_fb&utm_campaign=%7B%7Bcampaign.name%7D%7D&utm_content=%7B%7Badset.name%7D%7D&utm_ad=%7B%7Bad.name%7D%7D&utm_id=%7B%7Bcampaign.id%7D%7D&utm_term=%7B%7Badset.id%7D%7D&ad_id=%7B%7Bad.id%7D%7D&quizName=house-ai-g&customToken=eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiIxMDk3NDg1Mzk4ODkwLWNvbXB1dGVAZGV2ZWxvcGVyLmdzZXJ2aWNlYWNjb3VudC5jb20iLCJhdWQiOiJodHRwczovL2lkZW50aXR5dG9vbGtpdC5nb29nbGVhcGlzLmNvbS9nb29nbGUuaWRlbnRpdHkuaWRlbnRpdHl0b29sa2l0LnYxLklkZW50aXR5VG9vbGtpdCIsImV4cCI6MTc5MTg5ODk3OCwiaWF0IjoxNzkxODk1Mzc4LCJzdWIiOiIxMDk3NDg1Mzk4ODkwLWNvbXB1dGVAZGV2ZWxvcGVyLmdzZXJ2aWNlYWNjb3VudC5jb20iLCJ1aWQiOiJzTkU3UEpSc1NxZjhNVDVpeXZYNHVzNUpOYkUzIn0.FER6x77LmzwmjTYmjbA_FvfJCB_VD_1hWq3oPAjWh_LzxZNDs-TV49NaE2YcRyg0LBbgwzDZqgJH3oOZHXgomnzkLXZsGsW5AfPweKQWHh4WWIuYYUu8ZHvg_HxRlP1aJd9t5Y57hpWmFgQeHIF3OJdrUNn7Tfx6OUhAp0_vJ2zWKeirAvFegY6OF2FQ-redG8Iy4NOun54huE2dpKd7p_DD1HyVC6WJkhG7s-eBvRwKA9gD8g7VmaHMenfZdJSo0E_ZF6-XEoRGP6-RTNa1194ocz4Mm8Rlw7-H9Y4N9pMTF4z10WYICs-biV6zpzJGLtRTGpSU-tNSHF3t67vstA&profile=male#goal",
+      "path": "/qs/house-ai-g",
+      "title": "What's your main goal to achieve with AI assistant?",
+      "kind": "question",
+      "text": "What's your main goal to achieve with AI assistant?\n🔄 Stop procrastinating\n🪄 Reduce clutter\n🌱 Stay consistent\n✅ Get more done\n🏠 Manage household\n😊 Other\nContinue",
+      "textHash": "1029d05e65d0",
+      "dhash": "1011001011100000100001011010000110010001100010000001000010110010",
+      "prices": [],
+      "action": {
+        "opt": "🔄 Stop procrastinating",
+        "cta": "Continue"
+      }
+    },
+    {
+      "n": 5,
+      "file": "05.webp",
+      "url": "https://your-chillio.com/qs/house-ai-g?utm_source=CHI_web_fb&utm_campaign=%7B%7Bcampaign.name%7D%7D&utm_content=%7B%7Badset.name%7D%7D&utm_ad=%7B%7Bad.name%7D%7D&utm_id=%7B%7Bcampaign.id%7D%7D&utm_term=%7B%7Badset.id%7D%7D&ad_id=%7B%7Bad.id%7D%7D&quizName=house-ai-g&customToken=eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiIxMDk3NDg1Mzk4ODkwLWNvbXB1dGVAZGV2ZWxvcGVyLmdzZXJ2aWNlYWNjb3VudC5jb20iLCJhdWQiOiJodHRwczovL2lkZW50aXR5dG9vbGtpdC5nb29nbGVhcGlzLmNvbS9nb29nbGUuaWRlbnRpdHkuaWRlbnRpdHl0b29sa2l0LnYxLklkZW50aXR5VG9vbGtpdCIsImV4cCI6MTc5MTg5ODk3OCwiaWF0IjoxNzkxODk1Mzc4LCJzdWIiOiIxMDk3NDg1Mzk4ODkwLWNvbXB1dGVAZGV2ZWxvcGVyLmdzZXJ2aWNlYWNjb3VudC5jb20iLCJ1aWQiOiJzTkU3UEpSc1NxZjhNVDVpeXZYNHVzNUpOYkUzIn0.FER6x77LmzwmjTYmjbA_FvfJCB_VD_1hWq3oPAjWh_LzxZNDs-TV49NaE2YcRyg0LBbgwzDZqgJH3oOZHXgomnzkLXZsGsW5AfPweKQWHh4WWIuYYUu8ZHvg_HxRlP1aJd9t5Y57hpWmFgQeHIF3OJdrUNn7Tfx6OUhAp0_vJ2zWKeirAvFegY6OF2FQ-redG8Iy4NOun54huE2dpKd7p_DD1HyVC6WJkhG7s-eBvRwKA9gD8g7VmaHMenfZdJSo0E_ZF6-XEoRGP6-RTNa1194ocz4Mm8Rlw7-H9Y4N9pMTF4z10WYICs-biV6zpzJGLtRTGpSU-tNSHF3t67vstA&profile=male#yourFirstGoal",
+      "path": "/qs/house-ai-g",
+      "title": "Great, you just set your first goal! We'll help you beat procrastination step by step",
+      "kind": "info",
+      "text": "Great, you just set your first goal! We'll help you beat procrastination step by step\nContinue",
+      "textHash": "9cdd799bdfdd",
+      "dhash": "0011001010001100110100000111000011100000000011001000001010001110",
+      "prices": [],
+      "action": {
+        "cta": "Continue"
+      }
+    },
+    {
+      "n": 6,
+      "file": "06.webp",
+      "url": "https://your-chillio.com/qs/house-ai-g?utm_source=CHI_web_fb&utm_campaign=%7B%7Bcampaign.name%7D%7D&utm_content=%7B%7Badset.name%7D%7D&utm_ad=%7B%7Bad.name%7D%7D&utm_id=%7B%7Bcampaign.id%7D%7D&utm_term=%7B%7Badset.id%7D%7D&ad_id=%7B%7Bad.id%7D%7D&quizName=house-ai-g&customToken=eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiIxMDk3NDg1Mzk4ODkwLWNvbXB1dGVAZGV2ZWxvcGVyLmdzZXJ2aWNlYWNjb3VudC5jb20iLCJhdWQiOiJodHRwczovL2lkZW50aXR5dG9vbGtpdC5nb29nbGVhcGlzLmNvbS9nb29nbGUuaWRlbnRpdHkuaWRlbnRpdHl0b29sa2l0LnYxLklkZW50aXR5VG9vbGtpdCIsImV4cCI6MTc5MTg5ODk3OCwiaWF0IjoxNzkxODk1Mzc4LCJzdWIiOiIxMDk3NDg1Mzk4ODkwLWNvbXB1dGVAZGV2ZWxvcGVyLmdzZXJ2aWNlYWNjb3VudC5jb20iLCJ1aWQiOiJzTkU3UEpSc1NxZjhNVDVpeXZYNHVzNUpOYkUzIn0.FER6x77LmzwmjTYmjbA_FvfJCB_VD_1hWq3oPAjWh_LzxZNDs-TV49NaE2YcRyg0LBbgwzDZqgJH3oOZHXgomnzkLXZsGsW5AfPweKQWHh4WWIuYYUu8ZHvg_HxRlP1aJd9t5Y57hpWmFgQeHIF3OJdrUNn7Tfx6OUhAp0_vJ2zWKeirAvFegY6OF2FQ-redG8Iy4NOun54huE2dpKd7p_DD1HyVC6WJkhG7s-eBvRwKA9gD8g7VmaHMenfZdJSo0E_ZF6-XEoRGP6-RTNa1194ocz4Mm8Rlw7-H9Y4N9pMTF4z10WYICs-biV6zpzJGLtRTGpSU-tNSHF3t67vstA&profile=male#what_your_current_living_situation",
+      "path": "/qs/house-ai-g",
+      "title": "What’s your current living situation?",
+      "kind": "question",
+      "text": "What’s your current living situation?\n🧑 Living alone\n🏡 Living with family\n👩‍❤️‍👨 Living with a partner\n👭 Shared space (e.g. roommates)",
+      "textHash": "60e3ca4155ad",
+      "dhash": "1011000010100000100001011001000000001010000000000000000000000000",
+      "prices": [],
+      "action": {
+        "opt": "🧑 Living alone"
+      }
+    },
+    {
+      "n": 7,
+      "file": "07.webp",
+      "url": "https://your-chillio.com/qs/house-ai-g?utm_source=CHI_web_fb&utm_campaign=%7B%7Bcampaign.name%7D%7D&utm_content=%7B%7Badset.name%7D%7D&utm_ad=%7B%7Bad.name%7D%7D&utm_id=%7B%7Bcampaign.id%7D%7D&utm_term=%7B%7Badset.id%7D%7D&ad_id=%7B%7Bad.id%7D%7D&quizName=house-ai-g&customToken=eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiIxMDk3NDg1Mzk4ODkwLWNvbXB1dGVAZGV2ZWxvcGVyLmdzZXJ2aWNlYWNjb3VudC5jb20iLCJhdWQiOiJodHRwczovL2lkZW50aXR5dG9vbGtpdC5nb29nbGVhcGlzLmNvbS9nb29nbGUuaWRlbnRpdHkuaWRlbnRpdHl0b29sa2l0LnYxLklkZW50aXR5VG9vbGtpdCIsImV4cCI6MTc5MTg5ODk3OCwiaWF0IjoxNzkxODk1Mzc4LCJzdWIiOiIxMDk3NDg1Mzk4ODkwLWNvbXB1dGVAZGV2ZWxvcGVyLmdzZXJ2aWNlYWNjb3VudC5jb20iLCJ1aWQiOiJzTkU3UEpSc1NxZjhNVDVpeXZYNHVzNUpOYkUzIn0.FER6x77LmzwmjTYmjbA_FvfJCB_VD_1hWq3oPAjWh_LzxZNDs-TV49NaE2YcRyg0LBbgwzDZqgJH3oOZHXgomnzkLXZsGsW5AfPweKQWHh4WWIuYYUu8ZHvg_HxRlP1aJd9t5Y57hpWmFgQeHIF3OJdrUNn7Tfx6OUhAp0_vJ2zWKeirAvFegY6OF2FQ-redG8Iy4NOun54huE2dpKd7p_DD1HyVC6WJkhG7s-eBvRwKA9gD8g7VmaHMenfZdJSo0E_ZF6-XEoRGP6-RTNa1194ocz4Mm8Rlw7-H9Y4N9pMTF4z10WYICs-biV6zpzJGLtRTGpSU-tNSHF3t67vstA&profile=male#how_clean_is_your_space_right_now",
+      "path": "/qs/house-ai-g",
+      "title": "How clean is your space right now?",
+      "kind": "question",
+      "text": "How clean is your space right now?\n🚨 It's chaotic\n🌀 It's a bit messy\n😌 Fairly tidy\n🌟 Super organized",
+      "textHash": "cf0b02c1eb2f",
+      "dhash": "1011001010010010110000011100000100100000000000000000000000000000",
+      "prices": [],
+      "action": {
+        "opt": "🚨 It's chaotic"
+      }
+    },
+    {
+      "n": 8,
+      "file": "08.webp",
+      "url": "https://your-chillio.com/qs/house-ai-g?utm_source=CHI_web_fb&utm_campaign=%7B%7Bcampaign.name%7D%7D&utm_content=%7B%7Badset.name%7D%7D&utm_ad=%7B%7Bad.name%7D%7D&utm_id=%7B%7Bcampaign.id%7D%7D&utm_term=%7B%7Badset.id%7D%7D&ad_id=%7B%7Bad.id%7D%7D&quizName=house-ai-g&customToken=eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiIxMDk3NDg1Mzk4ODkwLWNvbXB1dGVAZGV2ZWxvcGVyLmdzZXJ2aWNlYWNjb3VudC5jb20iLCJhdWQiOiJodHRwczovL2lkZW50aXR5dG9vbGtpdC5nb29nbGVhcGlzLmNvbS9nb29nbGUuaWRlbnRpdHkuaWRlbnRpdHl0b29sa2l0LnYxLklkZW50aXR5VG9vbGtpdCIsImV4cCI6MTc5MTg5ODk3OCwiaWF0IjoxNzkxODk1Mzc4LCJzdWIiOiIxMDk3NDg1Mzk4ODkwLWNvbXB1dGVAZGV2ZWxvcGVyLmdzZXJ2aWNlYWNjb3VudC5jb20iLCJ1aWQiOiJzTkU3UEpSc1NxZjhNVDVpeXZYNHVzNUpOYkUzIn0.FER6x77LmzwmjTYmjbA_FvfJCB_VD_1hWq3oPAjWh_LzxZNDs-TV49NaE2YcRyg0LBbgwzDZqgJH3oOZHXgomnzkLXZsGsW5AfPweKQWHh4WWIuYYUu8ZHvg_HxRlP1aJd9t5Y57hpWmFgQeHIF3OJdrUNn7Tfx6OUhAp0_vJ2zWKeirAvFegY6OF2FQ-redG8Iy4NOun54huE2dpKd7p_DD1HyVC6WJkhG7s-eBvRwKA9gD8g7VmaHMenfZdJSo0E_ZF6-XEoRGP6-RTNa1194ocz4Mm8Rlw7-H9Y4N9pMTF4z10WYICs-biV6zpzJGLtRTGpSU-tNSHF3t67vstA&profile=male#how_often_do_you_feel_overwhelmed_by_cleaning_tasks",
+      "path": "/qs/house-ai-g",
+      "title": "How often do you feel overwhelmed by household tasks?",
+      "kind": "question",
+      "text": "How often do you feel overwhelmed by household tasks?\n🥴 Every day\n‍‍😵‍💫 A few times a week\n🤷 Sometimes\n💪 Rarely or never",
+      "textHash": "7b5922aaa6c5",
+      "dhash": "1111000011001100100000111000000100100000000000000000000000000000",
+      "prices": [],
+      "action": {
+        "opt": "🥴 Every day"
+      }
+    },
+    {
+      "n": 9,
+      "file": "09.webp",
+      "url": "https://your-chillio.com/qs/house-ai-g?utm_source=CHI_web_fb&utm_campaign=%7B%7Bcampaign.name%7D%7D&utm_content=%7B%7Badset.name%7D%7D&utm_ad=%7B%7Bad.name%7D%7D&utm_id=%7B%7Bcampaign.id%7D%7D&utm_term=%7B%7Badset.id%7D%7D&ad_id=%7B%7Bad.id%7D%7D&quizName=house-ai-g&customToken=eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiIxMDk3NDg1Mzk4ODkwLWNvbXB1dGVAZGV2ZWxvcGVyLmdzZXJ2aWNlYWNjb3VudC5jb20iLCJhdWQiOiJodHRwczovL2lkZW50aXR5dG9vbGtpdC5nb29nbGVhcGlzLmNvbS9nb29nbGUuaWRlbnRpdHkuaWRlbnRpdHl0b29sa2l0LnYxLklkZW50aXR5VG9vbGtpdCIsImV4cCI6MTc5MTg5ODk3OCwiaWF0IjoxNzkxODk1Mzc4LCJzdWIiOiIxMDk3NDg1Mzk4ODkwLWNvbXB1dGVAZGV2ZWxvcGVyLmdzZXJ2aWNlYWNjb3VudC5jb20iLCJ1aWQiOiJzTkU3UEpSc1NxZjhNVDVpeXZYNHVzNUpOYkUzIn0.FER6x77LmzwmjTYmjbA_FvfJCB_VD_1hWq3oPAjWh_LzxZNDs-TV49NaE2YcRyg0LBbgwzDZqgJH3oOZHXgomnzkLXZsGsW5AfPweKQWHh4WWIuYYUu8ZHvg_HxRlP1aJd9t5Y57hpWmFgQeHIF3OJdrUNn7Tfx6OUhAp0_vJ2zWKeirAvFegY6OF2FQ-redG8Iy4NOun54huE2dpKd7p_DD1HyVC6WJkhG7s-eBvRwKA9gD8g7VmaHMenfZdJSo0E_ZF6-XEoRGP6-RTNa1194ocz4Mm8Rlw7-H9Y4N9pMTF4z10WYICs-biV6zpzJGLtRTGpSU-tNSHF3t67vstA&profile=male#which_areas_stress_you_out_most",
+      "path": "/qs/house-ai-g",
+      "title": "Which parts of running your home stress you out most?",
+      "kind": "question",
+      "text": "Which parts of running your home stress you out most?\nChoose all that apply\n🧹 Cleaning\n🍳 Cooking\n🛒 Groceries shopping\n🧺 Laundry\n📋 Daily planning\n💸 Bills & errands\nContinue",
+      "textHash": "0bad666d1274",
+      "dhash": "1001000011001000110000011000000110000001100000000000000010110010",
+      "prices": [],
+      "action": {
+        "opt": "🧹 Cleaning",
+        "cta": "Continue"
+      }
+    },
+    {
+      "n": 10,
+      "file": "10.webp",
+      "url": "https://your-chillio.com/qs/house-ai-g?utm_source=CHI_web_fb&utm_campaign=%7B%7Bcampaign.name%7D%7D&utm_content=%7B%7Badset.name%7D%7D&utm_ad=%7B%7Bad.name%7D%7D&utm_id=%7B%7Bcampaign.id%7D%7D&utm_term=%7B%7Badset.id%7D%7D&ad_id=%7B%7Bad.id%7D%7D&quizName=house-ai-g&customToken=eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiIxMDk3NDg1Mzk4ODkwLWNvbXB1dGVAZGV2ZWxvcGVyLmdzZXJ2aWNlYWNjb3VudC5jb20iLCJhdWQiOiJodHRwczovL2lkZW50aXR5dG9vbGtpdC5nb29nbGVhcGlzLmNvbS9nb29nbGUuaWRlbnRpdHkuaWRlbnRpdHl0b29sa2l0LnYxLklkZW50aXR5VG9vbGtpdCIsImV4cCI6MTc5MTg5ODk3OCwiaWF0IjoxNzkxODk1Mzc4LCJzdWIiOiIxMDk3NDg1Mzk4ODkwLWNvbXB1dGVAZGV2ZWxvcGVyLmdzZXJ2aWNlYWNjb3VudC5jb20iLCJ1aWQiOiJzTkU3UEpSc1NxZjhNVDVpeXZYNHVzNUpOYkUzIn0.FER6x77LmzwmjTYmjbA_FvfJCB_VD_1hWq3oPAjWh_LzxZNDs-TV49NaE2YcRyg0LBbgwzDZqgJH3oOZHXgomnzkLXZsGsW5AfPweKQWHh4WWIuYYUu8ZHvg_HxRlP1aJd9t5Y57hpWmFgQeHIF3OJdrUNn7Tfx6OUhAp0_vJ2zWKeirAvFegY6OF2FQ-redG8Iy4NOun54huE2dpKd7p_DD1HyVC6WJkhG7s-eBvRwKA9gD8g7VmaHMenfZdJSo0E_ZF6-XEoRGP6-RTNa1194ocz4Mm8Rlw7-H9Y4N9pMTF4z10WYICs-biV6zpzJGLtRTGpSU-tNSHF3t67vstA&profile=male#what_makes_it_hard_for_you_to_clean",
+      "path": "/qs/house-ai-g",
+      "title": "What makes it hard for you to get started?",
+      "kind": "question",
+      "text": "What makes it hard for you to get started?\nChoose all that apply\n😩 I feel too tired\n🧠 I get overwhelmed\n⏰ I don’t have time\n🧽 I don’t enjoy it\nContinue",
+      "textHash": "69d96ddee9b8",
+      "dhash": "1011001011110000101000011100010101000000000000000000000010110010",
+      "prices": [],
+      "action": {
+        "opt": "😩 I feel too tired",
+        "cta": "Continue"
+      }
+    },
+    {
+      "n": 11,
+      "file": "11.webp",
+      "url": "https://your-chillio.com/qs/house-ai-g?utm_source=CHI_web_fb&utm_campaign=%7B%7Bcampaign.name%7D%7D&utm_content=%7B%7Badset.name%7D%7D&utm_ad=%7B%7Bad.name%7D%7D&utm_id=%7B%7Bcampaign.id%7D%7D&utm_term=%7B%7Badset.id%7D%7D&ad_id=%7B%7Bad.id%7D%7D&quizName=house-ai-g&customToken=eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiIxMDk3NDg1Mzk4ODkwLWNvbXB1dGVAZGV2ZWxvcGVyLmdzZXJ2aWNlYWNjb3VudC5jb20iLCJhdWQiOiJodHRwczovL2lkZW50aXR5dG9vbGtpdC5nb29nbGVhcGlzLmNvbS9nb29nbGUuaWRlbnRpdHkuaWRlbnRpdHl0b29sa2l0LnYxLklkZW50aXR5VG9vbGtpdCIsImV4cCI6MTc5MTg5ODk3OCwiaWF0IjoxNzkxODk1Mzc4LCJzdWIiOiIxMDk3NDg1Mzk4ODkwLWNvbXB1dGVAZGV2ZWxvcGVyLmdzZXJ2aWNlYWNjb3VudC5jb20iLCJ1aWQiOiJzTkU3UEpSc1NxZjhNVDVpeXZYNHVzNUpOYkUzIn0.FER6x77LmzwmjTYmjbA_FvfJCB_VD_1hWq3oPAjWh_LzxZNDs-TV49NaE2YcRyg0LBbgwzDZqgJH3oOZHXgomnzkLXZsGsW5AfPweKQWHh4WWIuYYUu8ZHvg_HxRlP1aJd9t5Y57hpWmFgQeHIF3OJdrUNn7Tfx6OUhAp0_vJ2zWKeirAvFegY6OF2FQ-redG8Iy4NOun54huE2dpKd7p_DD1HyVC6WJkhG7s-eBvRwKA9gD8g7VmaHMenfZdJSo0E_ZF6-XEoRGP6-RTNa1194ocz4Mm8Rlw7-H9Y4N9pMTF4z10WYICs-biV6zpzJGLtRTGpSU-tNSHF3t67vstA&profile=male#challenge",
+      "path": "/qs/house-ai-g",
+      "title": "What’s the toughest part about keeping your home tidy?",
+      "kind": "question",
+      "text": "What’s the toughest part about keeping your home tidy?\nChoose all that apply to you\n🔁 Sticking to routines\n🗑 Dealing with clutter\n👫 Managing messes from others\n⚖️ Balancing work and chores\n🧸 Keeping up with kids' stuff\n✨ Other\nContinue",
+      "textHash": "8a01f8f44cb9",
+      "dhash": "1011001011000100110000011100000110010001100001000001000010110010",
+      "prices": [],
+      "action": {
+        "opt": "🔁 Sticking to routines",
+        "cta": "Continue"
+      }
+    },
+    {
+      "n": 12,
+      "file": "12.webp",
+      "url": "https://your-chillio.com/qs/house-ai-g?utm_source=CHI_web_fb&utm_campaign=%7B%7Bcampaign.name%7D%7D&utm_content=%7B%7Badset.name%7D%7D&utm_ad=%7B%7Bad.name%7D%7D&utm_id=%7B%7Bcampaign.id%7D%7D&utm_term=%7B%7Badset.id%7D%7D&ad_id=%7B%7Bad.id%7D%7D&quizName=house-ai-g&customToken=eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiIxMDk3NDg1Mzk4ODkwLWNvbXB1dGVAZGV2ZWxvcGVyLmdzZXJ2aWNlYWNjb3VudC5jb20iLCJhdWQiOiJodHRwczovL2lkZW50aXR5dG9vbGtpdC5nb29nbGVhcGlzLmNvbS9nb29nbGUuaWRlbnRpdHkuaWRlbnRpdHl0b29sa2l0LnYxLklkZW50aXR5VG9vbGtpdCIsImV4cCI6MTc5MTg5ODk3OCwiaWF0IjoxNzkxODk1Mzc4LCJzdWIiOiIxMDk3NDg1Mzk4ODkwLWNvbXB1dGVAZGV2ZWxvcGVyLmdzZXJ2aWNlYWNjb3VudC5jb20iLCJ1aWQiOiJzTkU3UEpSc1NxZjhNVDVpeXZYNHVzNUpOYkUzIn0.FER6x77LmzwmjTYmjbA_FvfJCB_VD_1hWq3oPAjWh_LzxZNDs-TV49NaE2YcRyg0LBbgwzDZqgJH3oOZHXgomnzkLXZsGsW5AfPweKQWHh4WWIuYYUu8ZHvg_HxRlP1aJd9t5Y57hpWmFgQeHIF3OJdrUNn7Tfx6OUhAp0_vJ2zWKeirAvFegY6OF2FQ-redG8Iy4NOun54huE2dpKd7p_DD1HyVC6WJkhG7s-eBvRwKA9gD8g7VmaHMenfZdJSo0E_ZF6-XEoRGP6-RTNa1194ocz4Mm8Rlw7-H9Y4N9pMTF4z10WYICs-biV6zpzJGLtRTGpSU-tNSHF3t67vstA&profile=male#scientifically_proven_tools_to_get_a_more_organized_life",
+      "path": "/qs/house-ai-g",
+      "title": "Chillio is built on evidence-based productivity methods",
+      "kind": "info",
+      "text": "Chillio is built on evidence-based productivity methods\nYour plan draws on CBT techniques from peer-reviewed behavioral research.\nChillio is not affiliated with, endorsed by, or sponsored by these institutions. References reflect published research that informed our approach\nContinue",
+      "textHash": "e6b0c6846645",
+      "dhash": "1011000011001100111100001111000011110000100101001000001010001110",
+      "prices": [],
+      "action": {
+        "cta": "Continue"
+      }
+    },
+    {
+      "n": 13,
+      "file": "13.webp",
+      "url": "https://your-chillio.com/qs/house-ai-g?utm_source=CHI_web_fb&utm_campaign=%7B%7Bcampaign.name%7D%7D&utm_content=%7B%7Badset.name%7D%7D&utm_ad=%7B%7Bad.name%7D%7D&utm_id=%7B%7Bcampaign.id%7D%7D&utm_term=%7B%7Badset.id%7D%7D&ad_id=%7B%7Bad.id%7D%7D&quizName=house-ai-g&customToken=eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiIxMDk3NDg1Mzk4ODkwLWNvbXB1dGVAZGV2ZWxvcGVyLmdzZXJ2aWNlYWNjb3VudC5jb20iLCJhdWQiOiJodHRwczovL2lkZW50aXR5dG9vbGtpdC5nb29nbGVhcGlzLmNvbS9nb29nbGUuaWRlbnRpdHkuaWRlbnRpdHl0b29sa2l0LnYxLklkZW50aXR5VG9vbGtpdCIsImV4cCI6MTc5MTg5ODk3OCwiaWF0IjoxNzkxODk1Mzc4LCJzdWIiOiIxMDk3NDg1Mzk4ODkwLWNvbXB1dGVAZGV2ZWxvcGVyLmdzZXJ2aWNlYWNjb3VudC5jb20iLCJ1aWQiOiJzTkU3UEpSc1NxZjhNVDVpeXZYNHVzNUpOYkUzIn0.FER6x77LmzwmjTYmjbA_FvfJCB_VD_1hWq3oPAjWh_LzxZNDs-TV49NaE2YcRyg0LBbgwzDZqgJH3oOZHXgomnzkLXZsGsW5AfPweKQWHh4WWIuYYUu8ZHvg_HxRlP1aJd9t5Y57hpWmFgQeHIF3OJdrUNn7Tfx6OUhAp0_vJ2zWKeirAvFegY6OF2FQ-redG8Iy4NOun54huE2dpKd7p_DD1HyVC6WJkhG7s-eBvRwKA9gD8g7VmaHMenfZdJSo0E_ZF6-XEoRGP6-RTNa1194ocz4Mm8Rlw7-H9Y4N9pMTF4z10WYICs-biV6zpzJGLtRTGpSU-tNSHF3t67vstA&profile=male#i_avoid_starting_tasks_if_i_feel_i_wont_do_them_perfectly",
+      "path": "/qs/house-ai-g",
+      "title": "Do you relate to the statement below?",
+      "kind": "question",
+      "text": "Do you relate to the statement below?\n👎\nNo\n🤷\nNeutral\n👍\nYes",
+      "textHash": "e343e07f280e",
+      "dhash": "1011001011110000111000001110100011100000000011001011001010110010",
+      "prices": [],
+      "action": {
+        "opt": "👎"
+      }
+    }
+  ],
+  "features": {
+    "totalSteps": 13,
+    "stop": "stuck",
+    "emailStep": null,
+    "paywallStep": null,
+    "questions": 10,
+    "socialProof": 1,
+    "loader": false,
+    "prices": [],
+    "discount": null,
+    "timer": false,
+    "trial": false,
+    "moneyBack": false
+  }
+}

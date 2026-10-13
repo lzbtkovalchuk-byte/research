@@ -19,7 +19,10 @@
       "text": "What is your gender\nidentity?\nWhy we ask\nMale\nFemale\n2026 © All Rights Reserved.\nTerms of Service\n|\nPrivacy Policy\n|\nSubscription Terms\nCookie Policy",
       "textHash": "7fcc1ae81220",
       "dhash": "1000010000100011010011110011001100110011001100111000110000001111",
-      "prices": []
+      "prices": [],
+      "action": {
+        "opt": "Male"
+      }
     },
     {
       "n": 2,
@@ -31,7 +34,10 @@
       "text": "Choose your age\n18-24\n25-34\n35-44\n45+",
       "textHash": "b42730117680",
       "dhash": "0100001000000010000100110100110101001101000000010000000000000000",
-      "prices": []
+      "prices": [],
+      "action": {
+        "opt": "25-34"
+      }
     },
     {
       "n": 3,
@@ -43,7 +49,10 @@
       "text": "Your history\n2\n3\n4\nIn your childhood, your parents were...\nHappily married\nUnhappily married\nDivorced\nI had only one parent\nI had no parents",
       "textHash": "1ef2888e0098",
       "dhash": "0101000101011001010011110000110101000101000001000000000000000000",
-      "prices": []
+      "prices": [],
+      "action": {
+        "opt": "Happily married"
+      }
     },
     {
       "n": 4,
@@ -55,7 +64,11 @@
       "text": "Your history\n2\n3\n4\nHow can you describe the environment you were growing up in?\nChoose as many as you like\nNurturing and supportive\nChaotic and unpredictable\nUnstable and unsafe\nChallenging and demanding\nEconomic hardship and scarcity\nNeglectful and lonely\nNext",
       "textHash": "e5b943344503",
       "dhash": "0110010001011101010110010101110101101101010111010001000101001001",
-      "prices": []
+      "prices": [],
+      "action": {
+        "opt": "Nurturing and supportive",
+        "cta": "Next"
+      }
     },
     {
       "n": 5,
@@ -67,7 +80,11 @@
       "text": "Your history\n2\n3\n4\nYou’re about to hear a short sound. It may feel unusual or slightly uncomfortable.\nWhat do you hear first?\nPlease stop\nBreeze mom\nContinue without sound",
       "textHash": "264b70fa377d",
       "dhash": "0111001111001100110011000011001101001101010011011010000000000110",
-      "prices": []
+      "prices": [],
+      "action": {
+        "opt": "Play audio",
+        "cta": "Continue without sound"
+      }
     },
     {
       "n": 6,
@@ -79,7 +96,10 @@
       "text": "Your history\n2\n3\n4\nWhat do you see first?\nEvil eyes\nFire",
       "textHash": "0c665f947aa2",
       "dhash": "0010111100001111000011110000111100101011010011010001000000000000",
-      "prices": []
+      "prices": [],
+      "action": {
+        "opt": "Evil eyes"
+      }
     },
     {
       "n": 7,
@@ -91,7 +111,10 @@
       "text": "Your history\n2\n3\n4\nWhat do you see first?\nYoung woman\nSkull",
       "textHash": "e0fe339a2221",
       "dhash": "0100111100000111000101110000001100101111010011010001000000000000",
-      "prices": []
+      "prices": [],
+      "action": {
+        "opt": "Young woman"
+      }
     },
     {
       "n": 8,
@@ -103,7 +126,10 @@
       "text": "Your history\n2\n3\n4\nCan you relate to this statement?\n\"I tend to cope with difficult emotions or memories in non-constructive ways\"\nStrongly relate\nSomewhat relate\nHardly relate\nCan't relate",
       "textHash": "9aa0e63cd5bf",
       "dhash": "0111010001111111001110110011001100110011001100111100010000100000",
-      "prices": []
+      "prices": [],
+      "action": {
+        "opt": "Strongly relate"
+      }
     },
     {
       "n": 9,
@@ -115,7 +141,10 @@
       "text": "Your history\n2\n3\n4\nDo you see depression or low mood as \"normal\" or just a part of who you are?\nYes\nNo\nNot sure",
       "textHash": "08fde9c0a08f",
       "dhash": "0111011001011101010010010100110100001001000100000000000000000000",
-      "prices": []
+      "prices": [],
+      "action": {
+        "opt": "Yes"
+      }
     },
     {
       "n": 10,
@@ -127,7 +156,10 @@
       "text": "Your history\n2\n3\n4\nHow long have you been feeling this way?\nThe last few weeks\nIn recent months\nA few years\nMy whole life\nI'm not sure",
       "textHash": "4dedcce93a4e",
       "dhash": "0111110100011101010001110100110101001101000001000000000000000000",
-      "prices": []
+      "prices": [],
+      "action": {
+        "opt": "The last few weeks"
+      }
     },
     {
       "n": 11,
@@ -138,8 +170,11 @@
       "kind": "info",
       "text": "Let's take a moment\nTake one slow breath before we\ncontinue\nBreathe in\nBreathe out\nNext",
       "textHash": "f1d296b99124",
-      "dhash": "0000001100101011110001000000011100001111000011111001010001001101",
-      "prices": []
+      "dhash": "0000001100101011110001000000011100001111000011111101010001001101",
+      "prices": [],
+      "action": {
+        "cta": "Next"
+      }
     },
     {
       "n": 12,
@@ -151,7 +186,10 @@
       "text": "Your history\n2\n3\n4\nWhat do you see first?\nShark\nLeg",
       "textHash": "aa1d5df048f6",
       "dhash": "0011000101101101100001101001011001101001000011010001000000000000",
-      "prices": []
+      "prices": [],
+      "action": {
+        "opt": "Shark"
+      }
     },
     {
       "n": 13,
@@ -163,7 +201,10 @@
       "text": "Did you know?\nChildhood trauma has different lasting mental effects on each gender.\nThat's why creating a tailored treatment plan is key to addressing individual’s unique challenges.\nNext",
       "textHash": "8132aeaaa866",
       "dhash": "0100110001001100010101110110011101100000000000011010000001001101",
-      "prices": []
+      "prices": [],
+      "action": {
+        "cta": "Next"
+      }
     },
     {
       "n": 14,
@@ -175,7 +216,10 @@
       "text": "Tendencies\n3\n4\nWhat do you see first?\nMysterious woman\nEvil woman",
       "textHash": "b98b4abc77a2",
       "dhash": "1001110000001111000011110000101100111101010011010010000000000000",
-      "prices": []
+      "prices": [],
+      "action": {
+        "opt": "Mysterious woman"
+      }
     },
     {
       "n": 15,
@@ -187,7 +231,11 @@
       "text": "Tendencies\n3\n4\nWhat do you feel when being in the spotlight?\nChoose as many as you like\nSatisfaction\nStress\nDisconnection\nShyness\nNext",
       "textHash": "206c42da93fb",
       "dhash": "0101010101001101011010010111010101100001100000000000000000011001",
-      "prices": []
+      "prices": [],
+      "action": {
+        "opt": "Satisfaction",
+        "cta": "Next"
+      }
     },
     {
       "n": 16,
@@ -199,7 +247,10 @@
       "text": "Tendencies\n3\n4\nWhat do you see first?\nChild\nEye",
       "textHash": "4fb055ef32cf",
       "dhash": "0101110000110111000011110101110100101011010011010000000000000000",
-      "prices": []
+      "prices": [],
+      "action": {
+        "opt": "Child"
+      }
     },
     {
       "n": 17,
@@ -208,10 +259,13 @@
       "path": "/funnel/childhood/feedback_screen_childhood/",
       "title": "With Breeze, I finally embraced my past",
       "kind": "info",
-      "text": "With Breeze, I finally embraced my past\nLiam\n4.9\n\"Breeze provided me with a safe space to explore and understand my true self.\"\nLiam is among many individuals who have overcome the barriers of childhood experiences and are now living free from its effects.\nNext",
-      "textHash": "6c6f767e3976",
-      "dhash": "0011101100011101000011010110001100011111000010111010000001001101",
-      "prices": []
+      "text": "With Breeze, I finally embraced my past\nOliver\n4.9\n“Breeze showed me a safe way to express my anger. Now the emotional balance is an integral part of me!”\nOliver is among many individuals who have overcome the barriers of childhood experiences and are now living free from its effects.\nNext",
+      "textHash": "f48120856652",
+      "dhash": "0011101101011001010010010110001100010111000000011010000001001101",
+      "prices": [],
+      "action": {
+        "cta": "Next"
+      }
     },
     {
       "n": 18,
@@ -223,7 +277,10 @@
       "text": "Tendencies\n3\n4\nWhat do you see first?\nWoman\nTree",
       "textHash": "49d08d84ecea",
       "dhash": "0101110100011111000011110000011100101011010011010001000000000000",
-      "prices": []
+      "prices": [],
+      "action": {
+        "opt": "Woman"
+      }
     },
     {
       "n": 19,
@@ -235,7 +292,11 @@
       "text": "Tendencies\n3\n4\nIn your relationships with others you often...\nChoose as many as you like\nKeep the distance\nEasily open after knowing someone\nTry not to get attached\nAttach too quickly\nStruggle to express your feelings\nAvoid conflict at all costs\nStruggle to trust\nOther\nNext",
       "textHash": "ee84cb6b0f40",
       "dhash": "0101110101001101011101010101110101110101010111010111100101001001",
-      "prices": []
+      "prices": [],
+      "action": {
+        "opt": "Keep the distance",
+        "cta": "Next"
+      }
     },
     {
       "n": 20,
@@ -247,7 +308,10 @@
       "text": "Tendencies\n3\n4\nCan you relate to this statement?\n\"I'm repeatedly drawn to people who treat me poorly.\"\nStrongly relate\nSomewhat relate\nHardly relate\nCan't relate",
       "textHash": "f5c2788e8f78",
       "dhash": "0101110001110111001100110011001100110011001100111100110000100010",
-      "prices": []
+      "prices": [],
+      "action": {
+        "opt": "Strongly relate"
+      }
     },
     {
       "n": 21,
@@ -258,8 +322,11 @@
       "kind": "info",
       "text": "We understand that each childhood experience is unique.\nSo we use an approach, sensitive to each person's specific needs and experiences.\nNext",
       "textHash": "8c4f936c560f",
-      "dhash": "0100110001001100010101110101011100101000000000011010000001000101",
-      "prices": []
+      "dhash": "0100110001001100010101110101011100101000000000011010000001001101",
+      "prices": [],
+      "action": {
+        "cta": "Next"
+      }
     },
     {
       "n": 22,
@@ -271,7 +338,10 @@
       "text": "Struggles signs\n4\nWhat do you see first?\nHome\nHorse",
       "textHash": "21ffa107eaeb",
       "dhash": "0111000100001111000011010111001100101011010010010001000000000000",
-      "prices": []
+      "prices": [],
+      "action": {
+        "opt": "Home"
+      }
     },
     {
       "n": 23,
@@ -283,7 +353,10 @@
       "text": "Struggles signs\n4\nHave you ever struggled with a fear of being judged or rejected by others?\nYes\nNo\nNot sure",
       "textHash": "f3f49479ae22",
       "dhash": "0101011001111001010010010100111100001001000100000000000000000000",
-      "prices": []
+      "prices": [],
+      "action": {
+        "opt": "Yes"
+      }
     },
     {
       "n": 24,
@@ -295,7 +368,10 @@
       "text": "Struggles signs\n4\nCan you relate to this statement?\n\"I feel like there is a delay between my feelings and my ability to articulate them.\"\nStrongly relate\nSomewhat relate\nHardly relate\nCan't relate",
       "textHash": "e6fa1011f793",
       "dhash": "0101011101110111001100110011001100110011001100111100010000100000",
-      "prices": []
+      "prices": [],
+      "action": {
+        "opt": "Strongly relate"
+      }
     },
     {
       "n": 25,
@@ -307,7 +383,10 @@
       "text": "Struggles signs\n4\nWhat do you see first?\nTwo people\nMonster face",
       "textHash": "c9655df298e3",
       "dhash": "0101001100010111000101110101010100101011010011010010000000000000",
-      "prices": []
+      "prices": [],
+      "action": {
+        "opt": "Two people"
+      }
     },
     {
       "n": 26,
@@ -319,7 +398,10 @@
       "text": "Struggles signs\n4\nDo you struggle with low self-worth or self-esteem?\nYes\nNo\nNot sure",
       "textHash": "c67b3f1b2d1c",
       "dhash": "0101010101111101011010110100110100001100000000000000000000000000",
-      "prices": []
+      "prices": [],
+      "action": {
+        "opt": "Yes"
+      }
     },
     {
       "n": 27,
@@ -331,7 +413,11 @@
       "text": "Struggles signs\n4\nWhat do you hope to gain from working through your childhood experiences?\nChoose as many as you like\nImprove my love life\nEnhance overall happiness\nLearn to express myself\nImprove my career\nReconnect with my parents\nLearn to set boundaries\nAccept myself as I am\nNext",
       "textHash": "ee51bb6067c2",
       "dhash": "0101011101101101011110010101110101011001010011010101100101101101",
-      "prices": []
+      "prices": [],
+      "action": {
+        "opt": "Improve my love life",
+        "cta": "Next"
+      }
     },
     {
       "n": 28,
@@ -343,7 +429,10 @@
       "text": "Final question\nHow much time are you willing to dedicate to a personalized plan for exploring your childhood experiences?\n2 weeks\n1 month\n2-3 months\n6 months",
       "textHash": "8baa124f7684",
       "dhash": "0101011001111101010010010100111101001101000010010000000000000000",
-      "prices": []
+      "prices": [],
+      "action": {
+        "opt": "2 weeks"
+      }
     },
     {
       "n": 29,
@@ -355,7 +444,11 @@
       "text": "Hey there, what should we call you?\nContinue",
       "textHash": "4487be1ee3ff",
       "dhash": "0100110000001101000101010100110100000001000000000000000000000000",
-      "prices": []
+      "prices": [],
+      "action": {
+        "filled": true,
+        "cta": "Continue"
+      }
     },
     {
       "n": 30,
@@ -367,7 +460,10 @@
       "text": "Breeze Effect\nBefore processing\nchildhood experiences\nAfter processing\nchildhood experiences\nQuality\nSleep\nRelationships\nHealth\nSelf-acceptance\nResults shown are for illustrative purposes only.\nIndividual results may vary.\nNext",
       "textHash": "de8426823afd",
       "dhash": "0110000000010110000101110010010101100101000110111010001001001101",
-      "prices": []
+      "prices": [],
+      "action": {
+        "cta": "Next"
+      }
     },
     {
       "n": 31,
@@ -379,7 +475,10 @@
       "text": "You did something beautiful for yourself\nYour courage to reflect and grow is the first step toward real change.\nNext",
       "textHash": "1175885fee5f",
       "dhash": "0000000000001100010011000100110001001011011001010010010001001001",
-      "prices": []
+      "prices": [],
+      "action": {
+        "cta": "Next"
+      }
     },
     {
       "n": 32,
@@ -388,10 +487,13 @@
       "path": "/funnel/childhood/calculating_results_childhood/",
       "title": "Calculating your results...",
       "kind": "loader",
-      "text": "Calculating your results...\nAnalyzing your childhood environment\n51%\nIdentifying your most prominent patterns\nUnderstanding the impact of past experiences\nPreparing insights and detailed results\nDeveloping a personalized supporting plan\nExcellent\n4.8 based on 27 000 reviews\n5.0\n“With college and extracurricular activities, I want to be able to manage my stress levels, so that I can stay productive and motivated. Breeze has helped me with that!”\nMia, 23, New York\n5.0\n“I am still figuring myself out, and I feel like Breeze's tests have helped me a lot!”\nEthan, 22, Dallas\n5.0\n“As I deal with daily work stress, Breeze helps me maintain my mental well-being”\nLauren, 31, Los Angeles\n5.0\n“Breeze's tests have helped me discover the strengths I never knew about, and I am now tapping into them”\nDavid, 30, New York\nDo you find yourself frequently avoiding places, people, or activities that remind you of your past?\nNo\nYes",
-      "textHash": "6f320dcd46b1",
-      "dhash": "0001101101011101011001010001011100110011010011011000000000000000",
-      "prices": []
+      "text": "Calculating your results...\nAnalyzing your childhood environment\n51%\nIdentifying your most prominent patterns\nUnderstanding the impact of past experiences\nPreparing insights and detailed results\nDeveloping a personalized supporting plan\nExcellent\n4.8 based on 27 000 reviews\n5.0\n“As I deal with daily work stress, Breeze helps me maintain my mental well-being”\nLauren, 31, Los Angeles\n5.0\n“Breeze's tests have helped me discover the strengths I never knew about, and I am now tapping into them”\nDavid, 30, New York\n5.0\n“I am 36 years old, and I used to think I knew myself completely, but Breeze's tests helped me uncover my curious sides, which I am now exploring.”\nHeather, 36, Dallas\n5.0\n“Breeze is my compass in mental well-being. Their tests help me get to know myself better, and with daily mood checks, I keep track of my mental state”\nMatthew, 42, Los Angeles\nDo you find yourself frequently avoiding places, people, or activities that remind you of your past?\nNo\nYes",
+      "textHash": "04e275396301",
+      "dhash": "0001101101011101011001010001011100110011011100010000110000000000",
+      "prices": [],
+      "action": {
+        "opt": "No"
+      }
     },
     {
       "n": 33,
@@ -400,10 +502,13 @@
       "path": "/funnel/childhood/calculating_results_childhood/",
       "title": "Calculating your results...",
       "kind": "loader",
-      "text": "Calculating your results...\nAnalyzing your childhood environment\nIdentifying your most prominent patterns\n32%\nUnderstanding the impact of past experiences\nPreparing insights and detailed results\nDeveloping a personalized supporting plan\nExcellent\n4.8 based on 27 000 reviews\n5.0\n“With college and extracurricular activities, I want to be able to manage my stress levels, so that I can stay productive and motivated. Breeze has helped me with that!”\nMia, 23, New York\n5.0\n“I am still figuring myself out, and I feel like Breeze's tests have helped me a lot!”\nEthan, 22, Dallas\n5.0\n“As I deal with daily work stress, Breeze helps me maintain my mental well-being”\nLauren, 31, Los Angeles\n5.0\n“Breeze's tests have helped me discover the strengths I never knew about, and I am now tapping into them”\nDavid, 30, New York\nDo you often feel a sense of being constantly on edge?\nNo\nYes",
-      "textHash": "f45fa775a7a2",
-      "dhash": "0000111001110101011011010001011100010011010011010000000000000000",
-      "prices": []
+      "text": "Calculating your results...\nAnalyzing your childhood environment\nIdentifying your most prominent patterns\n32%\nUnderstanding the impact of past experiences\nPreparing insights and detailed results\nDeveloping a personalized supporting plan\nExcellent\n4.8 based on 27 000 reviews\n5.0\n“As I deal with daily work stress, Breeze helps me maintain my mental well-being”\nLauren, 31, Los Angeles\n5.0\n“Breeze's tests have helped me discover the strengths I never knew about, and I am now tapping into them”\nDavid, 30, New York\n5.0\n“I am 36 years old, and I used to think I knew myself completely, but Breeze's tests helped me uncover my curious sides, which I am now exploring.”\nHeather, 36, Dallas\n5.0\n“Breeze is my compass in mental well-being. Their tests help me get to know myself better, and with daily mood checks, I keep track of my mental state”\nMatthew, 42, Los Angeles\nDo you often feel a sense of being constantly on edge?\nNo\nYes",
+      "textHash": "90f4d0e4bdfa",
+      "dhash": "0000111001110101011011010001011100110011010011011000000000000000",
+      "prices": [],
+      "action": {
+        "opt": "No"
+      }
     },
     {
       "n": 34,
@@ -412,10 +517,13 @@
       "path": "/funnel/childhood/calculating_results_childhood/",
       "title": "Calculating your results...",
       "kind": "loader",
-      "text": "Calculating your results...\nAnalyzing your childhood environment\nIdentifying your most prominent patterns\nUnderstanding the impact of past experiences\n17%\nPreparing insights and detailed results\nDeveloping a personalized supporting plan\nExcellent\n4.8 based on 27 000 reviews\n5.0\n“With college and extracurricular activities, I want to be able to manage my stress levels, so that I can stay productive and motivated. Breeze has helped me with that!”\nMia, 23, New York\n5.0\n“I am still figuring myself out, and I feel like Breeze's tests have helped me a lot!”\nEthan, 22, Dallas\n5.0\n“As I deal with daily work stress, Breeze helps me maintain my mental well-being”\nLauren, 31, Los Angeles\n5.0\n“Breeze's tests have helped me discover the strengths I never knew about, and I am now tapping into them”\nDavid, 30, New York\nHave you noticed significant changes in your eating habits as a response to stress?\nNo\nYes",
-      "textHash": "284d72d2e697",
-      "dhash": "0001111001001101010001010000111100110011010101011000000000000000",
-      "prices": []
+      "text": "Calculating your results...\nAnalyzing your childhood environment\nIdentifying your most prominent patterns\nUnderstanding the impact of past experiences\n17%\nPreparing insights and detailed results\nDeveloping a personalized supporting plan\nExcellent\n4.8 based on 27 000 reviews\n5.0\n“As I deal with daily work stress, Breeze helps me maintain my mental well-being”\nLauren, 31, Los Angeles\n5.0\n“Breeze's tests have helped me discover the strengths I never knew about, and I am now tapping into them”\nDavid, 30, New York\n5.0\n“I am 36 years old, and I used to think I knew myself completely, but Breeze's tests helped me uncover my curious sides, which I am now exploring.”\nHeather, 36, Dallas\n5.0\n“Breeze is my compass in mental well-being. Their tests help me get to know myself better, and with daily mood checks, I keep track of my mental state”\nMatthew, 42, Los Angeles\nHave you noticed significant changes in your eating habits as a response to stress?\nNo\nYes",
+      "textHash": "b191976f2824",
+      "dhash": "0001111001001101010001010000101100100011010001010001000000000000",
+      "prices": [],
+      "action": {
+        "opt": "No"
+      }
     },
     {
       "n": 35,
@@ -424,10 +532,11 @@
       "path": "/funnel/childhood/calculating_results_childhood/",
       "title": "Calculating your results...",
       "kind": "loader",
-      "text": "Calculating your results...\nAnalyzing your childhood environment\nIdentifying your most prominent patterns\nUnderstanding the impact of past experiences\nPreparing insights and detailed results\n90%\nDeveloping a personalized supporting plan\nExcellent\n4.8 based on 27 000 reviews\n5.0\n“With college and extracurricular activities, I want to be able to manage my stress levels, so that I can stay productive and motivated. Breeze has helped me with that!”\nMia, 23, New York\n5.0\n“I am still figuring myself out, and I feel like Breeze's tests have helped me a lot!”\nEthan, 22, Dallas\n5.0\n“As I deal with daily work stress, Breeze helps me maintain my mental well-being”\nLauren, 31, Los Angeles\n5.0\n“Breeze's tests have helped me discover the strengths I never knew about, and I am now tapping into them”\nDavid, 30, New York",
-      "textHash": "7686edab4f05",
-      "dhash": "0011111001001101010011110001011100001111000001111000010000000000",
-      "prices": []
+      "text": "Calculating your results...\nAnalyzing your childhood environment\nIdentifying your most prominent patterns\nUnderstanding the impact of past experiences\nPreparing insights and detailed results\n89%\nDeveloping a personalized supporting plan\nExcellent\n4.8 based on 27 000 reviews\n5.0\n“As I deal with daily work stress, Breeze helps me maintain my mental well-being”\nLauren, 31, Los Angeles\n5.0\n“Breeze's tests have helped me discover the strengths I never knew about, and I am now tapping into them”\nDavid, 30, New York\n5.0\n“I am 36 years old, and I used to think I knew myself completely, but Breeze's tests helped me uncover my curious sides, which I am now exploring.”\nHeather, 36, Dallas\n5.0\n“Breeze is my compass in mental well-being. Their tests help me get to know myself better, and with daily mood checks, I keep track of my mental state”\nMatthew, 42, Los Angeles",
+      "textHash": "d774284b23fb",
+      "dhash": "0011111001001101011011110001011100011101001011011100110000000000",
+      "prices": [],
+      "action": {}
     },
     {
       "n": 36,
@@ -439,7 +548,10 @@
       "text": "Your results are ready\nWe promise not to use your email for any activities, and we guarantee its 100% safety and privacy.\nExplore results",
       "textHash": "a146a15a3cab",
       "dhash": "0001101100110111010001010000000100100000000000000000000000000000",
-      "prices": []
+      "prices": [],
+      "action": {
+        "filled": true
+      }
     }
   ],
   "features": {

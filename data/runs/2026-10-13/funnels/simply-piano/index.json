@@ -8,16 +8,16 @@
     {
       "key": "join-piano.hellosimply.com/start",
       "dir": "funnels/simply-piano/81a94aaa84e1",
-      "stop": "stuck",
-      "steps": 11,
+      "stop": "paywall",
+      "steps": 28,
       "why": "ad",
       "ads": 18
     },
     {
       "key": "hellosimply.com/family/esa",
       "dir": "funnels/simply-piano/684145bcfb5c",
-      "stop": "stuck",
-      "steps": 13,
+      "stop": "paywall",
+      "steps": 34,
       "why": "ad",
       "ads": 5
     }

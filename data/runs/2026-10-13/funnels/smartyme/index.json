@@ -9,9 +9,9 @@
       "key": "start.smartymeapp.com/quiz",
       "dir": "funnels/smartyme/5353a564ba54",
       "stop": "stuck",
-      "steps": 20,
+      "steps": 44,
       "why": "ad",
-      "ads": 40
+      "ads": 209
     }
   ]
 }

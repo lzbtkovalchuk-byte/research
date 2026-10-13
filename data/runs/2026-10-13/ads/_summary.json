@@ -8,7 +8,7 @@
   },
   {
     "id": "breeze",
-    "active": 30,
+    "active": 2600,
     "newInWindow": 17,
     "landings": 2,
     "errors": 0
@@ -21,17 +21,10 @@
     "errors": 0
   },
   {
-    "id": "memoryos",
-    "active": 16,
-    "newInWindow": 22,
-    "landings": 4,
-    "errors": 0
-  },
-  {
     "id": "chillio",
-    "active": 0,
-    "newInWindow": 0,
-    "landings": 0,
+    "active": 370,
+    "newInWindow": 8,
+    "landings": 2,
     "errors": 0
   },
   {
@@ -64,16 +57,9 @@
   },
   {
     "id": "smartyme",
-    "active": 170,
-    "newInWindow": 50,
+    "active": 2170,
+    "newInWindow": 124,
     "landings": 2,
-    "errors": 0
-  },
-  {
-    "id": "simply-draw",
-    "active": 6,
-    "newInWindow": 0,
-    "landings": 1,
     "errors": 0
   }
 ]

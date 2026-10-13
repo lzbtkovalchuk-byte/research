@@ -19,7 +19,10 @@
       "text": "Replace scrolling withHistory\nTake our 2-minute quiz to get started.\nBy clicking \"Get Started\", you agree to our\nTerms of Service and Privacy Policy.\nGet Started",
       "textHash": "4aee7a45f446",
       "dhash": "1011001011001000110011000011001010110010000000000111000011001100",
-      "prices": []
+      "prices": [],
+      "action": {
+        "cta": "Get Started"
+      }
     },
     {
       "n": 2,
@@ -31,23 +34,15 @@
       "text": "What is your age?\n18-24\n25-34\n35-44\n45 or older\nWhat best describes you?\nMale\nFemale\nNon-binary\nPrefer not to say",
       "textHash": "ceba9bdade1c",
       "dhash": "0110100101101000000010000000000000001000001100010011000100110001",
-      "prices": []
+      "prices": [],
+      "action": {
+        "opt": "25-34",
+        "cta": "45 or older"
+      }
     },
     {
       "n": 3,
       "file": "03.webp",
-      "url": "https://www.imprintapp.com/quiz/start-history",
-      "path": "/quiz/start-history",
-      "title": "What is your age?",
-      "kind": "social_proof",
-      "text": "What is your age?\n18-24\n25-34\n35-44\n45 or older\nWhat best describes you?\nMale\nFemale\nNon-binary\nPrefer not to say\nOver 5 million people are already learning History with us.\nJoin our community to explore the moments, people, and turning points that shaped the world.",
-      "textHash": "509e34d7c638",
-      "dhash": "1101000011010100000000100000000000001000001100010011001100110001",
-      "prices": []
-    },
-    {
-      "n": 4,
-      "file": "04.webp",
       "url": "https://www.imprintapp.com/quiz/start-history",
       "path": "/quiz/start-history",
       "title": "What best describes you?",
@@ -55,11 +50,15 @@
       "text": "What best describes you?\nMale\nFemale\nNon-binary\nPrefer not to say\nOver 5 million people are already learning History with us.\nJoin our community to explore the moments, people, and turning points that shaped the world.\nWhy are you interested in learning about History?\nUnderstand world events\nLearn from the past\nDeepen my knowledge\nFeed my curiosity\nReplace social media\nSomething else\nContinue",
       "textHash": "9cb218b615ab",
       "dhash": "0000100111110100110111000010100000110011101000001100010010001110",
-      "prices": []
+      "prices": [],
+      "action": {
+        "opt": "Male",
+        "cta": "Continue"
+      }
     },
     {
-      "n": 5,
-      "file": "05.webp",
+      "n": 4,
+      "file": "04.webp",
       "url": "https://www.imprintapp.com/quiz/start-history",
       "path": "/quiz/start-history",
       "title": "Why are you interested in learning about History?",
@@ -67,11 +66,15 @@
       "text": "Over 5 million people are already learning History with us.\nJoin our community to explore the moments, people, and turning points that shaped the world.\nWhy are you interested in learning about History?\nUnderstand world events\nLearn from the past\nDeepen my knowledge\nFeed my curiosity\nReplace social media\nSomething else\nWe're here to help you achieve your goals!\nFrom ancient civilizations to modern movements, you'll learn to connect the dots across history.\nContinue",
       "textHash": "2fda47b38333",
       "dhash": "1101100011001000000001101100100111010001011000011100000110110010",
-      "prices": []
+      "prices": [],
+      "action": {
+        "opt": "",
+        "cta": "Continue"
+      }
     },
     {
-      "n": 6,
-      "file": "06.webp",
+      "n": 5,
+      "file": "05.webp",
       "url": "https://www.imprintapp.com/quiz/start-history",
       "path": "/quiz/start-history",
       "title": "Why are you interested in learning about History?",
@@ -79,7 +82,27 @@
       "text": "Why are you interested in learning about History?\nUnderstand world events\nLearn from the past\nDeepen my knowledge\nFeed my curiosity\nReplace social media\nSomething else\nWe're here to help you achieve your goals!\nFrom ancient civilizations to modern movements, you'll learn to connect the dots across history.\nWhich periods of History interest you most?\nModern history\nEarly Modern history\nMedieval history\nAncient history\nOther\nContinue",
       "textHash": "884e2214550e",
       "dhash": "0001001111001010110010100111000110110000110001001010001010001110",
-      "prices": []
+      "prices": [],
+      "action": {
+        "opt": "",
+        "cta": "Continue"
+      }
+    },
+    {
+      "n": 6,
+      "file": "06.webp",
+      "url": "https://www.imprintapp.com/quiz/start-history",
+      "path": "/quiz/start-history",
+      "title": "Which periods of History interest you most?",
+      "kind": "question",
+      "text": "We're here to help you achieve your goals!\nFrom ancient civilizations to modern movements, you'll learn to connect the dots across history.\nWhich periods of History interest you most?\nModern history\nEarly Modern history\nMedieval history\nAncient history\nOther\nDoes this topic interest you?\nAncient Rome\nHow Rome rose, ruled and unraveled.\nContinue",
+      "textHash": "7d5b6623a8aa",
+      "dhash": "1101010011101000000001100100010001000001110000010100000110110010",
+      "prices": [],
+      "action": {
+        "opt": "",
+        "cta": "Continue"
+      }
     },
     {
       "n": 7,
@@ -88,31 +111,23 @@
       "path": "/quiz/start-history",
       "title": "Which periods of History interest you most?",
       "kind": "question",
-      "text": "We're here to help you achieve your goals!\nFrom ancient civilizations to modern movements, you'll learn to connect the dots across history.\nWhich periods of History interest you most?\nModern history\nEarly Modern history\nMedieval history\nAncient history\nOther\nDoes this topic interest you?\nAncient Rome\nHow Rome rose, ruled and unraveled.\nContinue",
-      "textHash": "7d5b6623a8aa",
-      "dhash": "1101010011101000000001100100010001000001110000010100000110110010",
-      "prices": []
-    },
-    {
-      "n": 8,
-      "file": "08.webp",
-      "url": "https://www.imprintapp.com/quiz/start-history",
-      "path": "/quiz/start-history",
-      "title": "Which periods of History interest you most?",
-      "kind": "question",
       "text": "Which periods of History interest you most?\nModern history\nEarly Modern history\nMedieval history\nAncient history\nOther\nDoes this topic interest you?\nAncient Rome\nHow Rome rose, ruled and unraveled.\nDoes this topic interest you?\nPower and Politics\nDiscover what shapes power and influence behind the scenes.\nNo\nYes",
       "textHash": "a476faed2479",
       "dhash": "1100100011000000011010001110100011110000010001000101010011010100",
-      "prices": []
+      "prices": [],
+      "action": {
+        "opt": "",
+        "cta": "Other"
+      }
     }
   ],
   "features": {
-    "totalSteps": 8,
+    "totalSteps": 7,
     "stop": "stuck",
     "emailStep": null,
     "paywallStep": null,
     "questions": 4,
-    "socialProof": 3,
+    "socialProof": 2,
     "loader": false,
     "prices": [],
     "discount": null,

@@ -6,7 +6,7 @@
   "adShot": null,
   "adId": null,
   "dir": "funnels/yousician/1c0c131f25e6",
-  "stop": "paywall",
+  "stop": "stuck",
   "proxied": false,
   "steps": [
     {
@@ -22,12 +22,16 @@
       "prices": [
         "$28",
         "$50"
-      ]
+      ],
+      "action": {
+        "opt": "Yousician home",
+        "cta": "Let's get started"
+      }
     }
   ],
   "features": {
     "totalSteps": 1,
-    "stop": "paywall",
+    "stop": "stuck",
     "emailStep": null,
     "paywallStep": 1,
     "questions": 0,

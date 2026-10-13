@@ -8,7 +8,7 @@
     {
       "type": "domain",
       "value": "ailearna.com",
-      "url": "https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=GB&media_type=all&search_type=keyword_exact_phrase&q=%22ailearna.com%22",
+      "url": "https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=GB&media_type=all&search_type=keyword_unordered&q=ailearna.com",
       "results": null,
       "parsed": 0,
       "kept": 0

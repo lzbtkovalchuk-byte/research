@@ -8,8 +8,8 @@
     {
       "type": "domain",
       "value": "try-breeze.com",
-      "url": "https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=GB&media_type=all&search_type=keyword_exact_phrase&q=%22try-breeze.com%22",
-      "results": 260,
+      "url": "https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=GB&media_type=all&search_type=keyword_unordered&q=try-breeze.com",
+      "results": 2600,
       "parsed": 30,
       "kept": 30
     }
@@ -530,7 +530,7 @@
     "Survive and Thrive": "105423825920694",
     "Olivia Miller": "988778000975639"
   },
-  "activeEstimate": 30,
+  "activeEstimate": 2600,
   "parsedCreatives": 30,
   "newInWindow": 17,
   "newCreativesInWindow": 12

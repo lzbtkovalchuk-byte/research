@@ -19,7 +19,10 @@
       "text": "First, how old are you?\n18-24\n25-34\n35-44\n45-54\n55+\nTerms & Conditions • Privacy Policy • Subscription Policy",
       "textHash": "3963fd23592d",
       "dhash": "0000001101001101010011010100100100010000000000001000000000100011",
-      "prices": []
+      "prices": [],
+      "action": {
+        "opt": "25-34"
+      }
     },
     {
       "n": 2,
@@ -31,7 +34,10 @@
       "text": "What's your gender?\n👨 \nMale\n👩 \nFemale\n🧑 \nOther\nTerms & Conditions • Privacy Policy • Subscription Policy",
       "textHash": "5e37e2ab0940",
       "dhash": "0010001101100111011010010110000110000000010000001000000000100011",
-      "prices": []
+      "prices": [],
+      "action": {
+        "opt": "👨 Male"
+      }
     },
     {
       "n": 3,
@@ -43,7 +49,10 @@
       "text": "Over 850,000 people\nstarted drawing confidently with\nour guided plans\nContinue\nTerms & Conditions • Privacy Policy • Subscription Policy",
       "textHash": "1d0e63d67b2c",
       "dhash": "0000111100110011001100110010101100001111100100000111000101110001",
-      "prices": []
+      "prices": [],
+      "action": {
+        "cta": "Continue"
+      }
     },
     {
       "n": 4,
@@ -55,7 +64,11 @@
       "text": "What would you like to\nachieve with us?\nThe choice won’t limit your experience\n✏️\nLearn to draw from scratch\n🧘\nMake drawing my stress relief\n🖌️\nUpgrade my drawing technique\n👁️\nFind my own drawing style\n🎨\nImprove my imagination\n🖼️\nFinish pieces I'm proud of\n📱\nShare my art online\n✍️\nOther\nTerms & Conditions • Privacy Policy • Subscription Policy",
       "textHash": "9d2b36693ce1",
       "dhash": "0010001100000111010101010100011101001101010011010111110101100001",
-      "prices": []
+      "prices": [],
+      "action": {
+        "opt": "✏️ Learn to draw from scratch",
+        "cta": "Continue"
+      }
     },
     {
       "n": 5,
@@ -67,7 +80,10 @@
       "text": "Now that your goal is clear, \nyou’re 3x more likely to nail it\nYour answers will help us build a personalized \nplan tailored to your goals\nContinue\nTerms & Conditions • Privacy Policy • Subscription Policy",
       "textHash": "262a562811fb",
       "dhash": "0100010100000101010101010101110101010101010001100111000101110001",
-      "prices": []
+      "prices": [],
+      "action": {
+        "cta": "Continue"
+      }
     },
     {
       "n": 6,
@@ -79,7 +95,11 @@
       "text": "Why do you draw?\nChoose all that apply\n🥰\nBecause it feels good\n😮‍💨\nTo cope with overwhelm\n💖\nTo express my emotions\n🧘\nTo relax and unwind\n💭\nTo get the ideas out of my head\n✍️\nOther\nTerms & Conditions • Privacy Policy • Subscription Policy",
       "textHash": "0b917fffcb4a",
       "dhash": "0011011100011111010011010100110101011101011001011000000000100011",
-      "prices": []
+      "prices": [],
+      "action": {
+        "opt": "🥰 Because it feels good",
+        "cta": "Continue"
+      }
     },
     {
       "n": 7,
@@ -91,7 +111,10 @@
       "text": "Which sounds most like you?\n🤩\nExtrovert\n🤫\nIntrovert\n😌\nA bit of both\nTerms & Conditions • Privacy Policy • Subscription Policy",
       "textHash": "3b61a4a6bd6f",
       "dhash": "0011001101110001011101010011000111000000001000001000000000100011",
-      "prices": []
+      "prices": [],
+      "action": {
+        "opt": "🤩 Extrovert"
+      }
     },
     {
       "n": 8,
@@ -103,112 +126,358 @@
       "text": "What do you dream of drawing?\nChoose all that apply\nPortraits\nNature\nFantasy\nAnimals\nAnime\nFlowers\nEyes\nFood\nOther\nTerms & Conditions • Privacy Policy • Subscription Policy",
       "textHash": "c99ddf6615f0",
       "dhash": "0011011101001111010010010100110101001101011011010100110100110011",
-      "prices": []
+      "prices": [],
+      "action": {
+        "opt": "Portraits",
+        "cta": "Continue"
+      }
     },
     {
       "n": 9,
       "file": "09.webp",
-      "url": "https://start.getskillnow.com/quiz/standard-rate/drawing?utm_adname=cf_drawing&funnel-state=stepNumber:8",
+      "url": "https://start.getskillnow.com/quiz/standard-rate/drawing?utm_adname=cf_drawing&funnel-state=stepNumber:9",
       "path": "/quiz/standard-rate/drawing",
-      "title": "What do you dream of drawing?",
+      "title": "How would you describe your drawing experience?",
       "kind": "question",
-      "text": "What do you dream of drawing?\nChoose all that apply\nPortraits\nNature\nFantasy\nAnimals\nAnime\nFlowers\nEyes\nFood\nOther\nContinue\nTerms & Conditions • Privacy Policy • Subscription Policy",
-      "textHash": "ad7fd635bcc1",
-      "dhash": "0011011101001111010010010100110101001101011011010100110101110001",
-      "prices": []
+      "text": "How would you describe your drawing experience?\n🌱\nComplete beginner\n✏️\nCasual doodler\n🎨\nUsed to draw a lot, then stopped\n🔁\nDraw regularly but feel stuck\nTerms & Conditions • Privacy Policy • Subscription Policy",
+      "textHash": "5a4d027e7328",
+      "dhash": "0011001100011011010110010101011101001101100000000000000000100011",
+      "prices": [],
+      "action": {
+        "opt": "🌱 Complete beginner"
+      }
     },
     {
       "n": 10,
       "file": "10.webp",
-      "url": "https://start.getskillnow.com/quiz/standard-rate/drawing?utm_adname=cf_drawing&funnel-state=stepNumber:8",
+      "url": "https://start.getskillnow.com/quiz/standard-rate/drawing?utm_adname=cf_drawing&funnel-state=stepNumber:10",
       "path": "/quiz/standard-rate/drawing",
-      "title": "What do you dream of drawing?",
+      "title": "When do you usually feel the urge to draw?",
       "kind": "question",
-      "text": "What do you dream of drawing?\nChoose all that apply\nPortraits\nNature\nFantasy\nAnimals\nAnime\nFlowers\nEyes\nFood\nOther\nTerms & Conditions • Privacy Policy • Subscription Policy",
-      "textHash": "c99ddf6615f0",
-      "dhash": "0011011101001111010010010100110101001101011011010100110100110011",
-      "prices": []
+      "text": "When do you usually feel the urge to draw?\nChoose all that apply\n👀\nSeeing art I love\n☕\nDuring my coffee break\n✈️\nWhile traveling\n💖\nWhen emotions run high\n😌\nWhen I want to relax\n📓\nAnytime, in my sketchbook\n✍️\nOther\nTerms & Conditions • Privacy Policy • Subscription Policy",
+      "textHash": "aa05fe8e94a5",
+      "dhash": "0001010100010111010111010101110101011101010011010110010100100011",
+      "prices": [],
+      "action": {
+        "opt": "👀 Seeing art I love",
+        "cta": "Continue"
+      }
     },
     {
       "n": 11,
       "file": "11.webp",
-      "url": "https://start.getskillnow.com/quiz/standard-rate/drawing?utm_adname=cf_drawing&funnel-state=stepNumber:8",
+      "url": "https://start.getskillnow.com/quiz/standard-rate/drawing?utm_adname=cf_drawing&funnel-state=stepNumber:11",
       "path": "/quiz/standard-rate/drawing",
-      "title": "What do you dream of drawing?",
+      "title": "Do you ever catch yourself doing any of these?",
       "kind": "question",
-      "text": "What do you dream of drawing?\nChoose all that apply\nPortraits\nNature\nFantasy\nAnimals\nAnime\nFlowers\nEyes\nFood\nOther\nContinue\nTerms & Conditions • Privacy Policy • Subscription Policy",
-      "textHash": "ad7fd635bcc1",
-      "dhash": "0011011101001111010010010100110101001101011011010100110101110001",
-      "prices": []
+      "text": "Do you ever catch yourself doing any of these?\nChoose all that apply\n🙈\nHide my art from others\n🗑️\nTrash drawings I don't like\n🔁\nRedraw the same line ten times\n✏️\nStruggle to draw from imagination\n⏳\nNever finish a piece\n📌\nSave tutorials I never open\n😣\nCompare myself to artists online\n🚫\nNone of the above\nTerms & Conditions • Privacy Policy • Subscription Policy",
+      "textHash": "f902f46bef4d",
+      "dhash": "0001001100010111010011010101011101010111010111010101011100011001",
+      "prices": [],
+      "action": {
+        "opt": "🙈 Hide my art from others",
+        "cta": "Continue"
+      }
     },
     {
       "n": 12,
       "file": "12.webp",
-      "url": "https://start.getskillnow.com/quiz/standard-rate/drawing?utm_adname=cf_drawing&funnel-state=stepNumber:8",
+      "url": "https://start.getskillnow.com/quiz/standard-rate/drawing?utm_adname=cf_drawing&funnel-state=stepNumber:12",
       "path": "/quiz/standard-rate/drawing",
-      "title": "What do you dream of drawing?",
-      "kind": "question",
-      "text": "What do you dream of drawing?\nChoose all that apply\nPortraits\nNature\nFantasy\nAnimals\nAnime\nFlowers\nEyes\nFood\nOther\nTerms & Conditions • Privacy Policy • Subscription Policy",
-      "textHash": "c99ddf6615f0",
-      "dhash": "0011011101001111010010010100110101001101011011010100110100110011",
-      "prices": []
+      "title": "You're in the right place",
+      "kind": "info",
+      "text": "You're in the right place\nWith our guided plan, you'll steady your hand, learn techniques that actually work, and make progress towards your goals\nContinue\nTerms & Conditions • Privacy Policy • Subscription Policy",
+      "textHash": "caf2c5e3cf18",
+      "dhash": "0010001101000111000110010011100101001111101100000101000101110001",
+      "prices": [],
+      "action": {
+        "cta": "Continue"
+      }
     },
     {
       "n": 13,
       "file": "13.webp",
-      "url": "https://start.getskillnow.com/quiz/standard-rate/drawing?utm_adname=cf_drawing&funnel-state=stepNumber:8",
+      "url": "https://start.getskillnow.com/quiz/standard-rate/drawing?utm_adname=cf_drawing&funnel-state=stepNumber:13",
       "path": "/quiz/standard-rate/drawing",
-      "title": "What do you dream of drawing?",
+      "title": "“Sometimes I stare at the blank page with no idea where to even begin”",
       "kind": "question",
-      "text": "What do you dream of drawing?\nChoose all that apply\nPortraits\nNature\nFantasy\nAnimals\nAnime\nFlowers\nEyes\nFood\nOther\nContinue\nTerms & Conditions • Privacy Policy • Subscription Policy",
-      "textHash": "ad7fd635bcc1",
-      "dhash": "0011011101001111010010010100110101001101011011010100110101110001",
-      "prices": []
+      "text": "“Sometimes I stare at the blank page with no idea where to even begin”\nDoes this seem like you?\n👎\n👎\n🤷\n👍\n👍\nTerms & Conditions • Privacy Policy • Subscription Policy",
+      "textHash": "13bbea9369c3",
+      "dhash": "0011100100010111010011010100100100010100000000001000000000100011",
+      "prices": [],
+      "action": {
+        "opt": "👎"
+      }
     },
     {
       "n": 14,
       "file": "14.webp",
-      "url": "https://start.getskillnow.com/quiz/standard-rate/drawing?utm_adname=cf_drawing&funnel-state=stepNumber:8",
+      "url": "https://start.getskillnow.com/quiz/standard-rate/drawing?utm_adname=cf_drawing&funnel-state=stepNumber:14",
       "path": "/quiz/standard-rate/drawing",
-      "title": "What do you dream of drawing?",
+      "title": "“The picture in my head often doesn’t match what ends up on the page”",
       "kind": "question",
-      "text": "What do you dream of drawing?\nChoose all that apply\nPortraits\nNature\nFantasy\nAnimals\nAnime\nFlowers\nEyes\nFood\nOther\nTerms & Conditions • Privacy Policy • Subscription Policy",
-      "textHash": "c99ddf6615f0",
-      "dhash": "0011011101001111010010010100110101001101011011010100110100110011",
-      "prices": []
+      "text": "“The picture in my head often doesn’t match what ends up on the page”\nDoes this seem like you?\n👎\n👎\n🤷\n👍\n👍\nTerms & Conditions • Privacy Policy • Subscription Policy",
+      "textHash": "49edfa45cd4e",
+      "dhash": "0011100100010111010011010100100100010100000000001000000000100011",
+      "prices": [],
+      "action": {
+        "opt": "👎"
+      }
     },
     {
       "n": 15,
       "file": "15.webp",
-      "url": "https://start.getskillnow.com/quiz/standard-rate/drawing?utm_adname=cf_drawing&funnel-state=stepNumber:8",
+      "url": "https://start.getskillnow.com/quiz/standard-rate/drawing?utm_adname=cf_drawing&funnel-state=stepNumber:15",
       "path": "/quiz/standard-rate/drawing",
-      "title": "What do you dream of drawing?",
+      "title": "“I feel exposed and vulnerable when someone sees my art”",
       "kind": "question",
-      "text": "What do you dream of drawing?\nChoose all that apply\nPortraits\nNature\nFantasy\nAnimals\nAnime\nFlowers\nEyes\nFood\nOther\nContinue\nTerms & Conditions • Privacy Policy • Subscription Policy",
-      "textHash": "ad7fd635bcc1",
-      "dhash": "0011011101001111010010010100110101001101011011010100110101110001",
-      "prices": []
+      "text": "“I feel exposed and vulnerable when someone sees my art”\nDoes this seem like you?\n👎\n👎\n🤷\n👍\n👍\nTerms & Conditions • Privacy Policy • Subscription Policy",
+      "textHash": "a2556454c072",
+      "dhash": "0101100101001101010010011011001000001000000000001000000000100011",
+      "prices": [],
+      "action": {
+        "opt": "👎"
+      }
     },
     {
       "n": 16,
       "file": "16.webp",
-      "url": "https://start.getskillnow.com/quiz/standard-rate/drawing?utm_adname=cf_drawing&funnel-state=stepNumber:8",
+      "url": "https://start.getskillnow.com/quiz/standard-rate/drawing?utm_adname=cf_drawing&funnel-state=stepNumber:16",
       "path": "/quiz/standard-rate/drawing",
-      "title": "What do you dream of drawing?",
+      "title": "“I compare my drawings to others and lose confidence”",
       "kind": "question",
-      "text": "What do you dream of drawing?\nChoose all that apply\nPortraits\nNature\nFantasy\nAnimals\nAnime\nFlowers\nEyes\nFood\nOther\nTerms & Conditions • Privacy Policy • Subscription Policy",
-      "textHash": "c99ddf6615f0",
-      "dhash": "0011011101001111010010010100110101001101011011010100110100110011",
-      "prices": []
+      "text": "“I compare my drawings to others and lose confidence”\nDoes this seem like you?\n👎\n👎\n🤷\n👍\n👍\nTerms & Conditions • Privacy Policy • Subscription Policy",
+      "textHash": "f04c95082d1e",
+      "dhash": "0001101101001011010011011011001000001000000000001000000000100011",
+      "prices": [],
+      "action": {
+        "opt": "👎"
+      }
+    },
+    {
+      "n": 17,
+      "file": "17.webp",
+      "url": "https://start.getskillnow.com/quiz/standard-rate/drawing?utm_adname=cf_drawing&funnel-state=stepNumber:17",
+      "path": "/quiz/standard-rate/drawing",
+      "title": "“It’s hard for me to finish paintings I started”",
+      "kind": "question",
+      "text": "“It’s hard for me to finish paintings I started”\nDoes this seem like you?\n👎\n👎\n🤷\n👍\n👍\nTerms & Conditions • Privacy Policy • Subscription Policy",
+      "textHash": "48ced9cd71d6",
+      "dhash": "0001101100001011010011011011001000001000000000001000000000100011",
+      "prices": [],
+      "action": {
+        "opt": "👎"
+      }
+    },
+    {
+      "n": 18,
+      "file": "18.webp",
+      "url": "https://start.getskillnow.com/quiz/standard-rate/drawing?utm_adname=cf_drawing&funnel-state=stepNumber:18",
+      "path": "/quiz/standard-rate/drawing",
+      "title": "“Sometimes I think it's too late for me to ever learn to draw”",
+      "kind": "question",
+      "text": "“Sometimes I think it's too late for me to ever learn to draw”\nDoes this seem like you?\n👎\n👎\n🤷\n👍\n👍\nTerms & Conditions • Privacy Policy • Subscription Policy",
+      "textHash": "434707b25309",
+      "dhash": "0010110101001101010010011011001000001000000000001000000000100011",
+      "prices": [],
+      "action": {
+        "opt": "👎"
+      }
+    },
+    {
+      "n": 19,
+      "file": "19.webp",
+      "url": "https://start.getskillnow.com/quiz/standard-rate/drawing?utm_adname=cf_drawing&funnel-state=stepNumber:19",
+      "path": "/quiz/standard-rate/drawing",
+      "title": "You're not alone",
+      "kind": "info",
+      "text": "You're not alone\nAll of this is learnable. When it's laid out step by step, it clicks fast. And once you master the fundamentals, you'll draw things you once thought were out of reach.\nContinue\nTerms & Conditions • Privacy Policy • Subscription Policy",
+      "textHash": "5b699bfe5c63",
+      "dhash": "1001011001001101010111010111010101000101010010010111000101110001",
+      "prices": [],
+      "action": {
+        "cta": "Continue"
+      }
+    },
+    {
+      "n": 20,
+      "file": "20.webp",
+      "url": "https://start.getskillnow.com/quiz/standard-rate/drawing?utm_adname=cf_drawing&funnel-state=stepNumber:20",
+      "path": "/quiz/standard-rate/drawing",
+      "title": "Have you ever tried to improve your drawing skills?",
+      "kind": "question",
+      "text": "Have you ever tried to improve your drawing skills?\n🎓\nYes, with a teacher\n📺\nJust YouTube and guesswork\n🖍️\nArt class growing up\n🤔\nLooked into it, never started\n😌\nNever tried it\nTerms & Conditions • Privacy Policy • Subscription Policy",
+      "textHash": "986c8c04e5ca",
+      "dhash": "0000011100011011010111010100110101110101000110011000000000100011",
+      "prices": [],
+      "action": {
+        "opt": "🎓 Yes, with a teacher"
+      }
+    },
+    {
+      "n": 21,
+      "file": "21.webp",
+      "url": "https://start.getskillnow.com/quiz/standard-rate/drawing?utm_adname=cf_drawing&funnel-state=stepNumber:21",
+      "path": "/quiz/standard-rate/drawing",
+      "title": "What stands in the way of your consistent progress?",
+      "kind": "question",
+      "text": "What stands in the way of your consistent progress?\nChoose all that apply\nBusy schedule\nUnstable routine\nDoomscrolling\nNot knowing where to start\nFear of judgment\nProcrastination\nLack of time\nFear of failure\nSelf-criticism\nBlank page anxiety\nOther\nTerms & Conditions • Privacy Policy • Subscription Policy",
+      "textHash": "6105ee21def4",
+      "dhash": "0001111101011011011001110110111101101101000000000000100000100011",
+      "prices": [],
+      "action": {
+        "opt": "Busy schedule",
+        "cta": "Continue"
+      }
+    },
+    {
+      "n": 22,
+      "file": "22.webp",
+      "url": "https://start.getskillnow.com/quiz/standard-rate/drawing?utm_adname=cf_drawing&funnel-state=stepNumber:22",
+      "path": "/quiz/standard-rate/drawing",
+      "title": "Whose art impresses you the most?",
+      "kind": "question",
+      "text": "Whose art impresses you the most?\nVan Gogh\nMichelangelo\nSalvador Dalí\nDa Vinci\nPicasso\nEdvard Munch\nBob Ross\nClaude Monet\nOther\nTerms & Conditions • Privacy Policy • Subscription Policy",
+      "textHash": "b0a8e798da9d",
+      "dhash": "0001111101001101010011010100100101001101011011011001000000100011",
+      "prices": [],
+      "action": {
+        "opt": "Van Gogh",
+        "cta": "Continue"
+      }
+    },
+    {
+      "n": 23,
+      "file": "23.webp",
+      "url": "https://start.getskillnow.com/quiz/standard-rate/drawing?utm_adname=cf_drawing&funnel-state=stepNumber:23",
+      "path": "/quiz/standard-rate/drawing",
+      "title": "Learn techniques inspired by your favorite artists!",
+      "kind": "info",
+      "text": "Learn techniques inspired by your favorite artists!\nYour plan will be inspired by the techniques and vision of iconic artists. We will give you the exact tools to take your drawing skills to the next level.\nContinue\nTerms & Conditions • Privacy Policy • Subscription Policy",
+      "textHash": "ec38e24e9e93",
+      "dhash": "0001101101001011011100010111000101100001011011010001001101110001",
+      "prices": [],
+      "action": {
+        "cta": "Continue"
+      }
+    },
+    {
+      "n": 24,
+      "file": "24.webp",
+      "url": "https://start.getskillnow.com/quiz/standard-rate/drawing?utm_adname=cf_drawing&funnel-state=stepNumber:24",
+      "path": "/quiz/standard-rate/drawing",
+      "title": "What feels the hardest about drawing?",
+      "kind": "question",
+      "text": "What feels the hardest about drawing?\nChoose all that apply\n🎯\nGetting proportions right\n✏️\nConfident line work\n🌗\nShading and light\n🧠\nDrawing without a reference\n🎨\nPicking colors that work\n🖼️\nPerspective and composition\n✍️\nOther\nTerms & Conditions • Privacy Policy • Subscription Policy",
+      "textHash": "d7f0942caa16",
+      "dhash": "0000011101001101010111010101110101011101010011010110010100100011",
+      "prices": [],
+      "action": {
+        "opt": "🎯 Getting proportions right",
+        "cta": "Continue"
+      }
+    },
+    {
+      "n": 25,
+      "file": "25.webp",
+      "url": "https://start.getskillnow.com/quiz/standard-rate/drawing?utm_adname=cf_drawing&funnel-state=stepNumber:25",
+      "path": "/quiz/standard-rate/drawing",
+      "title": "What's your motivation to improve your drawing skills?",
+      "kind": "question",
+      "text": "What's your motivation to improve your drawing skills?\nChoose all that apply\n😎\nProve to myself I can\n💖\nExpress what's hard to say\n✨\nFeel good about what I create\n🗑️\nStop hating my art\n🧑‍🎨\nFinally call myself an artist\n🧘\nHave a hobby that's mine\n✍️\nOther\nTerms & Conditions • Privacy Policy • Subscription Policy",
+      "textHash": "daf30f5b587d",
+      "dhash": "0100011101010101010111010101010101011101010111010110110100100011",
+      "prices": [],
+      "action": {
+        "opt": "😎 Prove to myself I can",
+        "cta": "Continue"
+      }
+    },
+    {
+      "n": 26,
+      "file": "26.webp",
+      "url": "https://start.getskillnow.com/quiz/standard-rate/drawing?utm_adname=cf_drawing&funnel-state=stepNumber:26",
+      "path": "/quiz/standard-rate/drawing",
+      "title": "Do you have a special reason for improving your drawing skills?",
+      "kind": "question",
+      "text": "Do you have a special reason for improving your drawing skills?\nChoose all that apply\n🎁\nA gift for someone I love\n👶\nDrawing with my kid\n📱\nPosting my art online\n🖋️\nDesigning my own tattoo\n💼\nWork or side projects\n🙌\nJust for me, no occasion\n✍️\nOther\nTerms & Conditions • Privacy Policy • Subscription Policy",
+      "textHash": "d4c7948d6c6c",
+      "dhash": "0011011100001101010011010101110100101101010011010110110100100011",
+      "prices": [],
+      "action": {
+        "opt": "🎁 A gift for someone I love",
+        "cta": "Continue"
+      }
+    },
+    {
+      "n": 27,
+      "file": "27.webp",
+      "url": "https://start.getskillnow.com/quiz/standard-rate/drawing?utm_adname=cf_drawing&funnel-state=stepNumber:27",
+      "path": "/quiz/standard-rate/drawing",
+      "title": "How do you want your drawing practice to feel?",
+      "kind": "question",
+      "text": "How do you want your drawing practice to feel?\nChoose all that apply\n😌\nCalm and relaxing\n🎈\nExciting and creative\n😎\nConfident and empowering\n🌊\nFocused and in flow\n⚡\nAlive and inspiring\n🫶\nFun and playful\n✍️\nOther\nTerms & Conditions • Privacy Policy • Subscription Policy",
+      "textHash": "22d43173f72a",
+      "dhash": "0011001100010111010110010100110101011101010110010111010100000011",
+      "prices": [],
+      "action": {
+        "opt": "😌 Calm and relaxing",
+        "cta": "Continue"
+      }
+    },
+    {
+      "n": 28,
+      "file": "28.webp",
+      "url": "https://start.getskillnow.com/quiz/standard-rate/drawing?utm_adname=cf_drawing&funnel-state=stepNumber:28",
+      "path": "/quiz/standard-rate/drawing",
+      "title": "Thanks for being honest!",
+      "kind": "social_proof",
+      "text": "Thanks for being honest!\nOver 850,000 people like you have started their drawing journey with our guided plans\nContinue\nTerms & Conditions • Privacy Policy • Subscription Policy",
+      "textHash": "36994786be5b",
+      "dhash": "0010011101011001010111010110110101110011100011000111000101110001",
+      "prices": [],
+      "action": {
+        "cta": "Continue"
+      }
+    },
+    {
+      "n": 29,
+      "file": "29.webp",
+      "url": "https://start.getskillnow.com/quiz/standard-rate/drawing?utm_adname=cf_drawing&funnel-state=stepNumber:29",
+      "path": "/quiz/standard-rate/drawing",
+      "title": "How much time can you carve out daily to achieve your goal?",
+      "kind": "question",
+      "text": "How much time can you carve out daily to achieve your goal?\n✌️ Casual\n5 min/day\n👌 Bold\n10 min/day\n🤘 Serious\n15 min/day\n💪 Ambitious\n20+ min/day\nTerms & Conditions • Privacy Policy • Subscription Policy",
+      "textHash": "541952e260be",
+      "dhash": "0000101101101001011000010110000100100001100000000000000000100011",
+      "prices": [],
+      "action": {
+        "opt": "✌️ Casual 5 min/day"
+      }
+    },
+    {
+      "n": 30,
+      "file": "30.webp",
+      "url": "https://start.getskillnow.com/quiz/standard-rate/drawing?utm_adname=cf_drawing&funnel-state=stepNumber:30",
+      "path": "/quiz/standard-rate/drawing",
+      "title": "We're tailoring your personal confident drawing plan…",
+      "kind": "question",
+      "text": "We're tailoring your personal confident drawing plan…\nSetting goals...\n49%\nTo improve recommendations, specify\nDo you want short drawing drills you can do anywhere?\nYes\nNo\nTerms & Conditions • Privacy Policy • Subscription Policy",
+      "textHash": "5af9aac9eab1",
+      "dhash": "0010101100111001001000000000000010000000010001010101001100110011",
+      "prices": [],
+      "action": {
+        "opt": "We're tailoring your personal confident drawing plan…"
+      }
     }
   ],
   "features": {
-    "totalSteps": 16,
+    "totalSteps": 30,
     "stop": "stuck",
     "emailStep": null,
     "paywallStep": null,
-    "questions": 14,
-    "socialProof": 1,
+    "questions": 24,
+    "socialProof": 2,
     "loader": false,
     "prices": [],
     "discount": null,

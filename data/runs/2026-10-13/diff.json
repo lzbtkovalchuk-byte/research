@@ -56,6 +56,45 @@
             },
             {
               "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
             }
           ],
           "removed": []
@@ -69,6 +108,30 @@
         "getskillnow.com/quiz/voice_assessment/voice_assessment": {
           "firstRun": true,
           "status": [
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
             {
               "s": "baseline"
             },
@@ -200,6 +263,48 @@
             },
             {
               "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
             }
           ],
           "removed": []
@@ -275,9 +380,6 @@
             },
             {
               "s": "baseline"
-            },
-            {
-              "s": "baseline"
             }
           ],
           "removed": []
@@ -285,9 +387,6 @@
         "imprintapp.com/start-art": {
           "firstRun": true,
           "status": [
-            {
-              "s": "baseline"
-            },
             {
               "s": "baseline"
             },
@@ -316,7 +415,7 @@
     },
     "breeze": {
       "ads": {
-        "active": 30,
+        "active": 2600,
         "prevActive": null,
         "delta": null,
         "newInWindow": 17,
@@ -634,6 +733,57 @@
             },
             {
               "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
             }
           ],
           "removed": []
@@ -641,6 +791,69 @@
         "hellosimply.com/family/esa": {
           "firstRun": true,
           "status": [
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
             {
               "s": "baseline"
             },
@@ -950,14 +1163,123 @@
     },
     "chillio": {
       "ads": {
-        "active": 0,
+        "active": 370,
         "prevActive": null,
         "delta": null,
-        "newInWindow": 0,
-        "newCreatives": 0
+        "newInWindow": 8,
+        "newCreatives": 8
       },
-      "links": [],
-      "funnels": {}
+      "links": [
+        {
+          "status": "current",
+          "key": "quiz.get-chillio.app/qs/cleaning-game",
+          "ads": 15,
+          "first": "2026-09-14",
+          "store": false
+        },
+        {
+          "status": "current",
+          "key": "quiz.get-chillio.app/qs/house-ai",
+          "ads": 11,
+          "first": "2026-09-06",
+          "store": false
+        }
+      ],
+      "funnels": {
+        "quiz.get-chillio.app/qs/cleaning-game": {
+          "firstRun": true,
+          "status": [
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            }
+          ],
+          "removed": []
+        },
+        "quiz.get-chillio.app/qs/house-ai": {
+          "firstRun": true,
+          "status": [
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            }
+          ],
+          "removed": []
+        }
+      }
     },
     "learna": {
       "ads": {
@@ -1130,6 +1452,165 @@
             },
             {
               "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
             }
           ],
           "removed": []
@@ -1166,6 +1647,12 @@
         "join-sing.hellosimply.com/start": {
           "firstRun": true,
           "status": [
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
             {
               "s": "baseline"
             },
@@ -1224,18 +1711,18 @@
     },
     "smartyme": {
       "ads": {
-        "active": 170,
+        "active": 2170,
         "prevActive": null,
         "delta": null,
-        "newInWindow": 50,
-        "newCreatives": 14
+        "newInWindow": 124,
+        "newCreatives": 30
       },
       "links": [
         {
           "status": "current",
           "key": "start.smartymeapp.com/quiz",
-          "ads": 40,
-          "first": "2026-09-18",
+          "ads": 209,
+          "first": "2026-09-13",
           "store": false
         },
         {
@@ -1250,6 +1737,78 @@
         "start.smartymeapp.com/quiz": {
           "firstRun": true,
           "status": [
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
             {
               "s": "baseline"
             },

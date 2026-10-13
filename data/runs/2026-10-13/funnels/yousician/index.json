@@ -8,7 +8,7 @@
     {
       "key": "yousician.com/",
       "dir": "funnels/yousician/1c0c131f25e6",
-      "stop": "paywall",
+      "stop": "stuck",
       "steps": 1,
       "why": "seed",
       "ads": 0

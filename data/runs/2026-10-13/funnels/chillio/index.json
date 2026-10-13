@@ -4,5 +4,22 @@
   "geo": "US",
   "skillsta": false,
   "storeOnly": false,
-  "funnels": []
+  "funnels": [
+    {
+      "key": "quiz.get-chillio.app/qs/cleaning-game",
+      "dir": "funnels/chillio/32c02a42bd3b",
+      "stop": "stuck",
+      "steps": 14,
+      "why": "ad",
+      "ads": 15
+    },
+    {
+      "key": "quiz.get-chillio.app/qs/house-ai",
+      "dir": "funnels/chillio/7b6db541533d",
+      "stop": "stuck",
+      "steps": 13,
+      "why": "ad",
+      "ads": 11
+    }
+  ]
 }

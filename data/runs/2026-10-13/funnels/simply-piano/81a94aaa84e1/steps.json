@@ -6,7 +6,7 @@
   "adShot": "simply-piano-81a94aaa84e1.webp",
   "adId": "2190177271926805",
   "dir": "funnels/simply-piano/81a94aaa84e1",
-  "stop": "stuck",
+  "stop": "paywall",
   "proxied": false,
   "steps": [
     {
@@ -16,10 +16,13 @@
       "path": "/start/motivationsIntro",
       "title": "What motivates you to play the piano?",
       "kind": "question",
-      "text": "What motivates you to play the piano?\nGrow my musical skills\nTry out something new\nHave fun\nIntroduce my child to the piano",
-      "textHash": "1effe544811d",
-      "dhash": "0001011100001111101100101011001010110010001100110010001000000000",
-      "prices": []
+      "text": "What motivates you to play the piano?\nTry out something new\nGrow my musical skills\nIntroduce my child to the piano\nHave fun",
+      "textHash": "22ad70db68ea",
+      "dhash": "0001011100001111101100101011001010110010001100110011001000000000",
+      "prices": [],
+      "action": {
+        "opt": ""
+      }
     },
     {
       "n": 2,
@@ -31,7 +34,10 @@
       "text": "You're in good hands!\nSimply Piano has helped millions start their musical journey\nThe #1 piano learning app\nDesigned by music educators.\nBuilt for real progress.\n10+ years\nExperience teaching piano\n4.7 Stars\nAverage rating on iOS & Google Play\nCONTINUE",
       "textHash": "2458e2bb1113",
       "dhash": "0010001000001111000011110001011100110011001100110000111100000111",
-      "prices": []
+      "prices": [],
+      "action": {
+        "cta": "CONTINUE"
+      }
     },
     {
       "n": 3,
@@ -43,117 +49,416 @@
       "text": "What is your age?\nSimply Piano will adapt according to your age and taste\nUnder 18\n18-30\n31-50\n51-66\n67+",
       "textHash": "53f2d1d0d601",
       "dhash": "0011001000000111101001001110000011000000000000000000000000000000",
-      "prices": []
+      "prices": [],
+      "action": {
+        "opt": "18-30"
+      }
     },
     {
       "n": 4,
       "file": "04.webp",
-      "url": "https://join-piano.hellosimply.com/start/conversation/your_age",
-      "path": "/start/conversation/your_age",
-      "title": "What is your age?",
+      "url": "https://join-piano.hellosimply.com/start/conversation/have_a_piano2",
+      "path": "/start/conversation/have_a_piano2",
+      "title": "Do you have a piano or keyboard?",
       "kind": "question",
-      "text": "What is your age?\nSimply Piano will adapt according to your age and taste\nUnder 18\n4-7\n8-12\n13-17\n18-30\n31-50\n51-66\n67+",
-      "textHash": "ebfa1e65d462",
-      "dhash": "1011001000001111010001011110010011100000111000001100000000000001",
-      "prices": []
+      "text": "Do you have a piano or keyboard?\nYes\nNo",
+      "textHash": "4073c01fe5a8",
+      "dhash": "0100011000011111000011101100011010110000001000000000000000000000",
+      "prices": [],
+      "action": {
+        "opt": "Yes"
+      }
     },
     {
       "n": 5,
       "file": "05.webp",
-      "url": "https://join-piano.hellosimply.com/start/conversation/your_age",
-      "path": "/start/conversation/your_age",
-      "title": "What is your age?",
+      "url": "https://join-piano.hellosimply.com/start/conversation/piano_duration",
+      "path": "/start/conversation/piano_duration",
+      "title": "For how long have you had a piano/keyboard?",
       "kind": "question",
-      "text": "What is your age?\nSimply Piano will adapt according to your age and taste\nUnder 18\n18-30\n31-50\n51-66\n67+",
-      "textHash": "53f2d1d0d601",
-      "dhash": "1011101000000111111001001110000011100000000000000000000000000000",
-      "prices": []
+      "text": "For how long have you had a piano/keyboard?\nLess than a month\nUp to one year\nOver one year",
+      "textHash": "94111e436b9a",
+      "dhash": "0000011100101111100110001001000001000001000000000000000000000000",
+      "prices": [],
+      "action": {
+        "opt": "Less than a month"
+      }
     },
     {
       "n": 6,
       "file": "06.webp",
-      "url": "https://join-piano.hellosimply.com/start/conversation/your_age",
-      "path": "/start/conversation/your_age",
-      "title": "What is your age?",
+      "url": "https://join-piano.hellosimply.com/start/conversation/your_experience2",
+      "path": "/start/conversation/your_experience2",
+      "title": "Have you played piano before?",
       "kind": "question",
-      "text": "What is your age?\nSimply Piano will adapt according to your age and taste\nUnder 18\n4-7\n8-12\n13-17\n18-30\n31-50\n51-66\n67+",
-      "textHash": "ebfa1e65d462",
-      "dhash": "1011001000001111010001011110010011100000111000001100000000000001",
-      "prices": []
+      "text": "Have you played piano before?\nWe will adjust to your level\nNever, I am starting from scratch\nA little, but I don't feel comfortable\nI used to, long ago\nYes, Regularly",
+      "textHash": "dfc524ed150f",
+      "dhash": "0000111000001111101011101011110010111000010000010001000000000000",
+      "prices": [],
+      "action": {
+        "opt": "Never, I am starting from scratch"
+      }
     },
     {
       "n": 7,
       "file": "07.webp",
-      "url": "https://join-piano.hellosimply.com/start/conversation/your_age",
-      "path": "/start/conversation/your_age",
-      "title": "What is your age?",
-      "kind": "question",
-      "text": "What is your age?\nSimply Piano will adapt according to your age and taste\nUnder 18\n18-30\n31-50\n51-66\n67+",
-      "textHash": "53f2d1d0d601",
-      "dhash": "1011101000000111111001001110000011100000000000000000000000000000",
-      "prices": []
+      "url": "https://join-piano.hellosimply.com/start/conversation/exp1",
+      "path": "/start/conversation/exp1",
+      "title": "No worries, you're in the right place!",
+      "kind": "social_proof",
+      "text": "No worries,\nyou're in the right place!\nThe Simply Method personalizes your path so you can learn at your own pace.\n800k learners started at this level - and went on to play their first songs confidently in 10 days.\nCONTINUE",
+      "textHash": "3ed1e7c5e5e3",
+      "dhash": "0000011000010111010011010010101100001011010101010000110100100000",
+      "prices": [],
+      "action": {
+        "cta": "CONTINUE"
+      }
     },
     {
       "n": 8,
       "file": "08.webp",
-      "url": "https://join-piano.hellosimply.com/start/conversation/your_age",
-      "path": "/start/conversation/your_age",
-      "title": "What is your age?",
+      "url": "https://join-piano.hellosimply.com/start/conversation/enjoy_learning_style",
+      "path": "/start/conversation/enjoy_learning_style",
+      "title": "What kind of learning style do you enjoy?",
       "kind": "question",
-      "text": "What is your age?\nSimply Piano will adapt according to your age and taste\nUnder 18\n4-7\n8-12\n13-17\n18-30\n31-50\n51-66\n67+",
-      "textHash": "ebfa1e65d462",
-      "dhash": "1011001000001111010001011110010011100000111000001100000000000001",
-      "prices": []
+      "text": "What kind of learning style do you enjoy?\nCalm and steady\nFun and energetic\nMotivational and uplifting\nFocus and serious",
+      "textHash": "1c3eb0bc023f",
+      "dhash": "0010001100101011111011001100111010000100000000010000000000000000",
+      "prices": [],
+      "action": {
+        "opt": "Calm and steady"
+      }
     },
     {
       "n": 9,
       "file": "09.webp",
-      "url": "https://join-piano.hellosimply.com/start/conversation/your_age",
-      "path": "/start/conversation/your_age",
-      "title": "What is your age?",
+      "url": "https://join-piano.hellosimply.com/start/conversation/practice_estimate",
+      "path": "/start/conversation/practice_estimate",
+      "title": "How often do you estimate you’ll practice?",
       "kind": "question",
-      "text": "What is your age?\nSimply Piano will adapt according to your age and taste\nUnder 18\n18-30\n31-50\n51-66\n67+",
-      "textHash": "53f2d1d0d601",
-      "dhash": "1011101000000111111001001110000011100000000000000000000000000000",
-      "prices": []
+      "text": "How often do you estimate you’ll practice?\nOnce in a while\nA few times a week\nEvery day\nNot sure yet\nPro Tip: Even 10 minutes, 2-3 times a week is enough to see results",
+      "textHash": "07766c0d5bb3",
+      "dhash": "0000101000101011010111001111110001100011010100111000000000000010",
+      "prices": [],
+      "action": {
+        "opt": "Once in a while"
+      }
     },
     {
       "n": 10,
       "file": "10.webp",
-      "url": "https://join-piano.hellosimply.com/start/conversation/your_age",
-      "path": "/start/conversation/your_age",
-      "title": "What is your age?",
-      "kind": "question",
-      "text": "What is your age?\nSimply Piano will adapt according to your age and taste\nUnder 18\n4-7\n8-12\n13-17\n18-30\n31-50\n51-66\n67+",
-      "textHash": "ebfa1e65d462",
-      "dhash": "1011001000001111010001011110010011100000111000001100000000000001",
-      "prices": []
+      "url": "https://join-piano.hellosimply.com/start/conversation/starting_point",
+      "path": "/start/conversation/starting_point",
+      "title": "Every learner starts somewhere different",
+      "kind": "info",
+      "text": "Every learner starts somewhere different\nYou are starting at the 'Beginner' level out of 4 stages (Beginner, Comfortable, Confident, Skilled).\nYour profile creates a starting point that's uniquely yours - tailored for the journey ahead.\nAGE\n18-30\nEXPERIENCE\nNo Experience\nFREQUENCY\nOnce in a while\nSTYLE\nCalm\nCONTINUE",
+      "textHash": "231809178cc1",
+      "dhash": "1000001001100011011001110000011110100110000011110000100110100000",
+      "prices": [],
+      "action": {
+        "cta": "CONTINUE"
+      }
     },
     {
       "n": 11,
       "file": "11.webp",
-      "url": "https://join-piano.hellosimply.com/start/conversation/your_age",
-      "path": "/start/conversation/your_age",
-      "title": "What is your age?",
+      "url": "https://join-piano.hellosimply.com/start/conversation/simply_method",
+      "path": "/start/conversation/simply_method",
+      "title": "Unlock new possibilities with the Simply Method",
+      "kind": "info",
+      "text": "Unlock new possibilities with the Simply Method\nWe teach piano in a clear, guided way with:\nStep-by-step lessons that match your pace\nSongs you love to keep you motivated\n5-minute workouts that keep you progressing\nCONTINUE",
+      "textHash": "463c74656483",
+      "dhash": "0010001100100011010011110101111101001101000011010100110100100000",
+      "prices": [],
+      "action": {
+        "cta": "CONTINUE"
+      }
+    },
+    {
+      "n": 12,
+      "file": "12.webp",
+      "url": "https://join-piano.hellosimply.com/start/conversation/your_goals",
+      "path": "/start/conversation/your_goals",
+      "title": "What would you like to achieve?",
       "kind": "question",
-      "text": "What is your age?\nSimply Piano will adapt according to your age and taste\nUnder 18\n18-30\n31-50\n51-66\n67+",
-      "textHash": "53f2d1d0d601",
-      "dhash": "1011101000000111111001001110000011100000000000000000000000000000",
-      "prices": []
+      "text": "What would you like to achieve?\nPick up to 3 goals\nAccompany myself singing\nLearn the basics\nRefresh my piano skills\nRead sheet music confidently\nLearn music theory & notation\nLearn how to play chords for pop or jazz music\nTrain my ear and play by ear\nPlay songs I love\nPlay with both hands together\nCONTINUE",
+      "textHash": "6d4b3e447224",
+      "dhash": "0000101000001111010111101110111000011110100111100100111001001101",
+      "prices": [],
+      "action": {
+        "opt": "Accompany myself singing + Learn the basics + Refresh my piano skills",
+        "cta": "CONTINUE"
+      }
+    },
+    {
+      "n": 13,
+      "file": "13.webp",
+      "url": "https://join-piano.hellosimply.com/start/conversation/your_goals_response",
+      "path": "/start/conversation/your_goals_response",
+      "title": "Awesome choices!",
+      "kind": "info",
+      "text": "Awesome choices!\nWe’ll help you reach your goals, one note at a time. And the best part? You’ve already started!\nCONTINUE",
+      "textHash": "640b660bb0e4",
+      "dhash": "0010001000010011011010010000011010001110011010010000110100001101",
+      "prices": [],
+      "action": {
+        "cta": "CONTINUE"
+      }
+    },
+    {
+      "n": 14,
+      "file": "14.webp",
+      "url": "https://join-piano.hellosimply.com/start/conversation/help_you_learn2",
+      "path": "/start/conversation/help_you_learn2",
+      "title": "What’s the best way to help you learn?",
+      "kind": "question",
+      "text": "What’s the best way to help you learn?\nEveryone’s motivation is unique, what works for you?\nHaving a practice routine\nPlaying music I enjoy\nSupportive guidance\nLearning in short sessions\nHaving a clear path to follow\nNot sure yet",
+      "textHash": "98d292297de8",
+      "dhash": "0000011000000111110001101101011011000110101100101010000000000001",
+      "prices": [],
+      "action": {
+        "opt": "Having a practice routine"
+      }
+    },
+    {
+      "n": 15,
+      "file": "15.webp",
+      "url": "https://join-piano.hellosimply.com/start/conversation/stay_motivated",
+      "path": "/start/conversation/stay_motivated",
+      "title": "We’ll help you stay motivated - your way!",
+      "kind": "info",
+      "text": "We’ll help you stay motivated - your way!\nWe adapt to what works for you, so staying motivated feels easier.\n92% of learners say Simply Piano helps them practice more consistently.\nCONTINUE",
+      "textHash": "d2c369047884",
+      "dhash": "0001001000111011010010110010010100100111000010110100110110100000",
+      "prices": [],
+      "action": {
+        "cta": "CONTINUE"
+      }
+    },
+    {
+      "n": 16,
+      "file": "16.webp",
+      "url": "https://join-piano.hellosimply.com/start/conversation/your_genres2",
+      "path": "/start/conversation/your_genres2",
+      "title": "What type of music are you most interested in playing?",
+      "kind": "question",
+      "text": "What type of music are you most interested in playing?\nPick as many as you want\nChristian & Gospel\nRock\nCountry & Folk\nRomantic\nJazz & Blues\nTV, Movie & Games\nPop\nKids\nDisney\nClassical\nMusicals\nR&B\nCONTINUE",
+      "textHash": "01d2db5f0e4a",
+      "dhash": "0111001100001111100011100111110001011000010011000111000000001101",
+      "prices": [],
+      "action": {
+        "opt": "Christian & Gospel",
+        "cta": "CONTINUE"
+      }
+    },
+    {
+      "n": 17,
+      "file": "17.webp",
+      "url": "https://join-piano.hellosimply.com/start/conversation/your_genres_response2",
+      "path": "/start/conversation/your_genres_response2",
+      "title": "Great choices! Our 5000+ song catalog is at your disposal",
+      "kind": "info",
+      "text": "Great choices! Our 5000+ song catalog is at your disposal\nNew songs are added weekly\nCONTINUE",
+      "textHash": "ca65d5881b6f",
+      "dhash": "0001101101001111001100110010011100010111001110110010001100001101",
+      "prices": [],
+      "action": {
+        "cta": "CONTINUE"
+      }
+    },
+    {
+      "n": 18,
+      "file": "18.webp",
+      "url": "https://join-piano.hellosimply.com/start/conversation/familiarity2",
+      "path": "/start/conversation/familiarity2",
+      "title": "How familiar is this feeling?",
+      "kind": "question",
+      "text": "How familiar is this feeling?\nI want guidance that feels supportive, so I don’t worry about mistakes.\n1\n2\n3\n4\n5\nNot at all\nVery much",
+      "textHash": "23406b0a82cb",
+      "dhash": "1000111000001111011010010010101111100000011000110000000000000000",
+      "prices": [],
+      "action": {
+        "opt": "3"
+      }
+    },
+    {
+      "n": 19,
+      "file": "19.webp",
+      "url": "https://join-piano.hellosimply.com/start/conversation/realtime_feedback",
+      "path": "/start/conversation/realtime_feedback",
+      "title": "Real-time feedback guides you as you learn",
+      "kind": "info",
+      "text": "Real-time feedback guides you as you learn\nWe use advanced note-recognition tech to show you what went well and what to work on - right in the moment!\nCONTINUE",
+      "textHash": "cef4badf20f1",
+      "dhash": "0010011000110001000001010000011100110001010011110000110100000000",
+      "prices": [],
+      "action": {
+        "cta": "CONTINUE"
+      }
+    },
+    {
+      "n": 20,
+      "file": "20.webp",
+      "url": "https://join-piano.hellosimply.com/start/conversation/your_plan_building",
+      "path": "/start/conversation/your_plan_building",
+      "title": "Based on your answers, We’re creating your personalized plan",
+      "kind": "loader",
+      "text": "Based on your answers, We’re creating your personalized plan\nYou can adjust it anytime\nAligning with your goals\n3 goals selected\nPersonalizing your songs\nChristian & Gospel\nAdjusting your course level\n18-30, Starting from scratch\nBuilding your workouts\nOnce in a while\n20%",
+      "textHash": "4e76bb27e4ff",
+      "dhash": "0010001100100111001111100111110100101101011111000100000000000000",
+      "prices": [],
+      "action": {}
+    },
+    {
+      "n": 21,
+      "file": "21.webp",
+      "url": "https://join-piano.hellosimply.com/start/conversation/your_plan_building",
+      "path": "/start/conversation/your_plan_building",
+      "title": "Based on your answers, We’re creating your personalized plan",
+      "kind": "loader",
+      "text": "Based on your answers, We’re creating your personalized plan\nYou can adjust it anytime\nAligning with your goals\n3 goals selected\nPersonalizing your songs\nChristian & Gospel\nAdjusting your course level\n18-30, Starting from scratch\nBuilding your workouts\nOnce in a while\nCONTINUE",
+      "textHash": "458fb33ecc89",
+      "dhash": "0010001100100111001111100111110101111101010011010000110110100000",
+      "prices": [],
+      "action": {
+        "cta": "CONTINUE"
+      }
+    },
+    {
+      "n": 22,
+      "file": "22.webp",
+      "url": "https://join-piano.hellosimply.com/start/conversation/timeline",
+      "path": "/start/conversation/timeline",
+      "title": "Read and play sheet music in 23 days",
+      "kind": "info",
+      "text": "Your personal plan is ready!\nRead and play sheet music in 23 days\nWithin 1 hour, you will be able to learn the first 5 notes.After 4 days, you will be able to play with both hands.Until Nov 5, you will read sheet music.\nv\nr\nT\no\nd\na\ny\nWe’ll make sure everything is in place to help you succeed!\nCONTINUE",
+      "textHash": "d43220e1e191",
+      "dhash": "1010101000100011000001100011000001110010000011110000110110100000",
+      "prices": [],
+      "action": {
+        "cta": "CONTINUE"
+      }
+    },
+    {
+      "n": 23,
+      "file": "23.webp",
+      "url": "https://join-piano.hellosimply.com/start/conversation/waiting_for_you",
+      "path": "/start/conversation/waiting_for_you",
+      "title": "Here’s what’s waiting for you",
+      "kind": "info",
+      "text": "Here’s what’s waiting for you\n450+ courses and mini lessons\nSkill-boosting piano challenges\nFresh content added weekly\nCore technical workouts\nCONTINUE",
+      "textHash": "0ba2d2433467",
+      "dhash": "0000101101001001101101011000011100010111000011110100000100000000",
+      "prices": [],
+      "action": {
+        "cta": "CONTINUE"
+      }
+    },
+    {
+      "n": 24,
+      "file": "24.webp",
+      "url": "https://join-piano.hellosimply.com/start/conversation/song_select",
+      "path": "/start/conversation/song_select",
+      "title": "Choose the first song you'll learn to play",
+      "kind": "question",
+      "text": "Choose the first song you'll learn to play\nYou can always switch it later in the app\nThe Scientist\nColdplay\nSymphony No. 40\nW. A. Mozart\nDo you want to build a snowman?\nFrozen\nBeliever\nImagine Dragons\nCan you feel the love tonight\nThe Lion King\nAnother Love\nTom Odell\nI don't have a preference",
+      "textHash": "90d920106d8a",
+      "dhash": "0010101000110111010110011100100100110101001100110011010100010101",
+      "prices": [],
+      "action": {
+        "opt": "The Scientist Coldplay",
+        "cta": "CONTINUE"
+      }
+    },
+    {
+      "n": 25,
+      "file": "25.webp",
+      "url": "https://join-piano.hellosimply.com/start/conversation/song_select_response",
+      "path": "/start/conversation/song_select_response",
+      "title": "Great choice!",
+      "kind": "info",
+      "text": "Great choice!\nIn 1 day you'll be able to play:\nThe Scientist\nEach song has several versions, matched to your skill level\nCONTINUE",
+      "textHash": "129147c7b6bb",
+      "dhash": "1010001010010110100101100010001000101111000011111010000000000001",
+      "prices": [],
+      "action": {
+        "cta": "CONTINUE"
+      }
+    },
+    {
+      "n": 26,
+      "file": "26.webp",
+      "url": "https://join-piano.hellosimply.com/start/conversation/create_account",
+      "path": "/start/conversation/create_account",
+      "title": "Achieve your goals with Simply Piano",
+      "kind": "email",
+      "text": "Achieve your goals with Simply Piano\nCreate your free account to save your preferences\nCREATE FREE ACCOUNT\nBy creating an account, you agree to our Terms of Use.\nTo learn how we process personal data, see our Privacy Policy.",
+      "textHash": "9c80200101a4",
+      "dhash": "0001011000001111001010110011011100110011001100110000001100001011",
+      "prices": [],
+      "action": {
+        "filled": true,
+        "cta": "CREATE FREE ACCOUNT"
+      }
+    },
+    {
+      "n": 27,
+      "file": "27.webp",
+      "url": "https://join-piano.hellosimply.com/start/conversation/guidance",
+      "path": "/start/conversation/guidance",
+      "title": "We’ll guide you every step of the way",
+      "kind": "info",
+      "text": "We’ll guide you every step of the way\nDesigned by Music Teachers\n24/7 Support\nGet help from real experts\nAcademic level\nRecognized by Trinity College London\nCONTINUE",
+      "textHash": "9ff67beb2e97",
+      "dhash": "0001010000001111000011110011001100110011001100110000111100000101",
+      "prices": [],
+      "action": {
+        "cta": "CONTINUE"
+      }
+    },
+    {
+      "n": 28,
+      "file": "28.webp",
+      "url": "https://join-piano.hellosimply.com/start/subscribe",
+      "path": "/start/subscribe",
+      "title": "Start your 7-day free trial",
+      "kind": "paywall",
+      "text": "Your 50% discount ends soon:\n14:58\nSave 50%\nStart your 7-day free trial\n12 months + 7 day free trial\n1 month\nFamily\n5 profiles\nSimply Piano\nSimply Draw\nSimply Guitar\nSimply Sing\nSave 50%\nPrice after discount\n$17.49/mo\nPrice before discount\n$34.99/mo\n$209.90 billed annually\nIndividual\n1 profile\nSimply Piano\nSave 43%\nPrice after discount\n$14.16/mo\nPrice before discount\n$24.99/mo\n$169.90 billed annually\nNeed more time to decide?\nExtend your free trial to 14 days\nTRY FOR $0.00\nNo commitment. Cancel anytime.\nor with credit card\nTRY FOR $0.00\nCancel AnytimeSecure Payment\nYour 50% discount ends soon: 14:58\nTRY FOR $0.00\nYou won’t be charged till Oct 20, 2026.\ncancel anytime before that date.\nAfter your free trial, the annual subscription is US$209.90 and automatically renews every year until you cancel.\nLearn piano fast, with songs you love\nBuild your skills with 5000+ songs\nReceive real-time feedback\nLearn with step-by-step tutorials\nAvailable on iOS and Android\nThe #1 Piano Learning App\nGrow together with the Family Plan\n5 profiles. 4 Simply apps.\nOne creative bundle for the whole family.\nShared learning keeps you growing.\nA creative toolkit to build new skills.\nUse across devices - easy access for all.\nWhy you'll love Simply Piano\nSee your progress with instant feedback\nSimply Piano listens to the notes you play and gives you real-time feedback.\nPlay your favorite songs\nChoose from over 5000 songs, including classical pieces, chart topping hits, and Disney favorites.\nLearn with s",
+      "textHash": "8cab3fef1edb",
+      "dhash": "1100100100110011000011110000001101100011011101010101000110100000",
+      "prices": [
+        "$17.49",
+        "$34.99",
+        "$209.90",
+        "$14.16",
+        "$24.99",
+        "$169.90",
+        "$0.00",
+        "$19.90"
+      ]
     }
   ],
   "features": {
-    "totalSteps": 11,
-    "stop": "stuck",
-    "emailStep": null,
-    "paywallStep": null,
-    "questions": 10,
-    "socialProof": 0,
-    "loader": false,
-    "prices": [],
-    "discount": null,
-    "timer": false,
-    "trial": false,
+    "totalSteps": 28,
+    "stop": "paywall",
+    "emailStep": 26,
+    "paywallStep": 28,
+    "questions": 12,
+    "socialProof": 1,
+    "loader": true,
+    "prices": [
+      "$17.49",
+      "$34.99",
+      "$209.90",
+      "$14.16",
+      "$24.99",
+      "$169.90",
+      "$0.00",
+      "$19.90"
+    ],
+    "discount": "50",
+    "timer": true,
+    "trial": true,
     "moneyBack": false
   }
 }
