@@ -1,0 +1,25 @@
+<!doctype html><html><head><meta name="viewport" content="width=device-width"><style>
+body{font-family:sans-serif;margin:0;padding:16px}.opt{border:1px solid #ccc;border-radius:10px;padding:14px;margin:8px 0;cursor:pointer}
+button{width:100%;padding:14px;background:#2a7;color:#fff;border:0;border-radius:10px;font-size:16px;margin-top:12px}h1{font-size:26px}
+.cards{display:flex;gap:10px}.card{flex:1;height:160px;background:#eee;border-radius:12px;cursor:pointer;display:flex;align-items:end;justify-content:center;padding:8px}
+#cookie{position:fixed;bottom:0;left:0;right:0;background:#333;color:#fff;padding:12px}
+</style></head><body><div id="app"></div>
+<div id="cookie">We use cookies <button onclick="this.parentNode.remove()">Accept all</button><button onclick="this.parentNode.remove()">Reject all</button></div>
+<script>
+let i=0, ver=new URLSearchParams(location.search).get('v')||'1';
+const S=[
+ ()=>`<h1>Become a better singer</h1><p>How do you identify?</p><div class="cards"><div class="card" onclick="go()"><img alt="" width=1 height=1><b>Male</b></div><div class="card" onclick="go()"><b>Female</b></div></div>`,
+ ()=>`<h1>Select your age</h1>${['18-24','25-34','35-44','45+'].map(a=>`<div class="opt" onclick="go()">${a}</div>`).join('')}`,
+ ()=>`<h1>You're in good company</h1><p>176,372 people already improved their voice with us</p><button onclick="go()">Continue</button>`,
+ ()=>`<h1>What do you want to improve?</h1><p>Select all that apply</p>${['Pitch','Range','Breath'].map(a=>`<div class="opt" onclick="this.style.background='#cfc'">${a}</div>`).join('')}<button onclick="go()">Continue</button>`,
+ ()=> ver==='2' ? `<h1>How often do you sing?</h1>${['Daily','Weekly','Rarely'].map(a=>`<div class="opt" onclick="go()">${a}</div>`).join('')}` : `<h1>Rate: "I sing in tune"</h1>${[1,2,3,4,5].map(a=>`<div class="opt" onclick="go()">${a}</div>`).join('')}`,
+ ()=>{ let p=0; setTimeout(function t(){if(document.getElementById('q').innerHTML) return setTimeout(t,300); p+=20; const el=document.getElementById('p'); if(!el)return; el.textContent=p+'%'; if(p===60){document.getElementById('q').innerHTML='<p>Quick question: do you sing in the shower?</p><div class="opt" onclick="document.getElementById(\'q\').innerHTML=\'\'">Yes</div><div class="opt" onclick="document.getElementById(\'q\').innerHTML=\'\'">No</div>';} if(p<100) setTimeout(function w(){ if(document.getElementById('q').innerHTML) return setTimeout(w,300); t(); },700); else go(); },700); return `<h1>Creating your plan...</h1><p id="p">0%</p><div id="q"></div>`},
+ ()=>`<h1>Enter your email to get your plan</h1><input type="email" placeholder="Your email"><button onclick="if(document.querySelector('input').value)go()">Continue</button>`,
+ ()=>`<h1>Do you want to receive emails with tips and special offers?</h1><div class="opt" onclick="go()">Sure, I'm in!</div><div class="opt" onclick="go()">I don't want to receive updates</div>`,
+ ()=>`<h1>What's your name?</h1><input placeholder="Name"><button onclick="go()">Continue</button>`,
+ ()=>`<h1>Your plan is ready! 60% off</h1><p>Offer ends in 09:59</p><div class="opt">4 week plan $15.19 then $38.99 per 4 weeks</div><div class="opt">12 week plan $31.99</div><p>28-day money-back guarantee</p><button>Get my plan</button>`
+];
+function go(){ i++; render(); }
+function render(){ document.getElementById('app').innerHTML=S[i](); }
+render();
+</script></body></html>

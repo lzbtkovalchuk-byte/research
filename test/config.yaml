@@ -1,0 +1,5 @@
+settings: { test_email_env: TEST_EMAIL, test_name: Alex, max_funnels_per_app: 2, max_steps: 40 }
+skillsta:
+  - { id: sk-test, name: Skillsta · Test, topic: vocal, geo: US, seeds: ["http://127.0.0.1:8765/index.html?v=1"] }
+competitors:
+  - { id: comp-test, name: Mock Competitor, topics: [vocal, drawing], geo: GB, seeds: ["http://127.0.0.1:8765/index.html?v=VER"] }

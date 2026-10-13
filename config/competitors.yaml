@@ -1,0 +1,107 @@
+# Competitor list for the biweekly report.
+# geo: GB = UK (Genesis products), US = everything else.
+# ads: where to find the app's Meta ads.
+#   page_ids  - Meta page ids (exact)
+#   domains   - search the Ad Library for this text and keep only ads whose link goes to this domain
+# seeds: funnel links to walk even if no ad currently points there.
+# max_funnels: how many distinct funnel variants (by link) to walk per run.
+
+settings:
+  test_email_env: TEST_EMAIL      # GitHub secret with the email typed into email gates
+  test_name: Alex
+  max_funnels_per_app: 2
+  max_steps: 90
+
+skillsta:
+  - id: skillsta-vocal-2
+    name: Skillsta · Vocal funnel 2.0
+    topic: vocal
+    geo: US
+    seeds: ["https://www.getskillnow.com/quiz?utm_adname=cf_new_vocal"]
+  - id: skillsta-vocal-scanner
+    name: Skillsta · Vocal Scanner funnel
+    topic: vocal
+    geo: US
+    seeds: ["https://www.getskillnow.com/quiz/voice_assessment/voice_assessment?utm_adname=CF_voice_assessment"]
+  - id: skillsta-drawing
+    name: Skillsta · Drawing funnel
+    topic: drawing
+    geo: US
+    seeds: ["https://start.getskillnow.com/quiz?utm_adname=cf_drawing"]
+
+competitors:
+  - id: imprint
+    name: Imprint
+    topics: [vocal, drawing]
+    geo: US
+    ads: { page_ids: ["2093351790978732"] }
+
+  - id: breeze
+    name: Breeze
+    genesis: true
+    topics: [vocal, drawing]
+    geo: GB
+    ads: { domains: ["try-breeze.com"] }
+
+  - id: simply-piano
+    name: Simply Piano
+    topics: [vocal, drawing]
+    geo: US
+    ads: { page_ids: ["130724596952924"] }
+    seeds: ["https://join-piano.hellosimply.com/start/motivationsIntro?exp=selfer&sitelink=rated&utm_source=facebook"]
+
+  - id: memoryos
+    name: MemoryOS
+    topics: [vocal, drawing]
+    geo: US
+    ads: { domains: ["memoryos.com"] }
+    seeds: ["https://start.memoryos.com/new-h?mos_cfg=seniors_s"]
+
+  - id: chillio
+    name: Chillio
+    topics: [vocal, drawing]
+    geo: US
+    ads: { domains: ["get-chillio.app"] }
+
+  - id: learna
+    name: Learna
+    genesis: true
+    topics: [vocal, drawing]
+    geo: GB
+    ads: { domains: ["ailearna.com"] }
+    seeds: ["https://onboarding.ailearna.com/onboarding"]
+
+  - id: copymind
+    name: Copymind
+    topics: [vocal, drawing]
+    geo: US
+    ads: { domains: ["copymind.me"] }
+    seeds: ["https://app.copymind.me/welcome-quiz/gender"]
+
+  - id: simply-sing
+    name: Simply Sing
+    topics: [vocal]
+    geo: US
+    ads: { page_ids: ["105597079032619"] }
+    seeds: ["https://join-sing.hellosimply.com/start"]
+
+  - id: yousician
+    name: Yousician
+    topics: [vocal]
+    geo: US
+    ads: { page_ids: ["245680685625507"] }
+    seeds: ["https://yousician.com/?utm_source=facebook"]
+
+  - id: smartyme
+    name: SmartyMe
+    topics: [drawing]
+    geo: US
+    ads: { page_ids: ["837158766142027"], domains: ["smartymeapp.com"] }
+    seeds: ["https://start.smartymeapp.com/quiz"]
+
+  - id: simply-draw
+    name: Simply Draw
+    topics: [drawing]
+    geo: US
+    ads: { page_ids: ["103572289088360"] }
+    seeds: ["https://join-draw.hellosimply.com/start?flow=baw"]

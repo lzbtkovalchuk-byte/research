@@ -1,0 +1,58 @@
+name: Collect ads & funnels
+# Every other Monday: Meta ads + funnel screenshots + diff. Runs weekly and skips the off-week.
+on:
+  schedule:
+    - cron: "0 3 * * 1"   # Mondays 03:00 UTC (06:00 Kyiv)
+  workflow_dispatch:
+    inputs:
+      force: { description: "Run even if the last run was less than 13 days ago", type: boolean, default: true }
+      only:  { description: "Comma-separated app ids to test (empty = all)", required: false, default: "" }
+permissions:
+  contents: write
+concurrency: { group: collect, cancel-in-progress: false }
+jobs:
+  collect:
+    runs-on: ubuntu-latest
+    timeout-minutes: 300
+    steps:
+      - uses: actions/checkout@v4
+      - name: Due?
+        id: due
+        run: |
+          last=$(ls data/runs 2>/dev/null | grep -E '^[0-9]{4}-' | sort | tail -1)
+          days=999; [ -n "$last" ] && days=$(( ( $(date +%s) - $(date -d "$last" +%s) ) / 86400 ))
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ] && [ "${{ inputs.force }}" = "true" ]; then echo "run=true" >> $GITHUB_OUTPUT;
+          elif [ "$days" -ge 13 ]; then echo "run=true" >> $GITHUB_OUTPUT; else echo "run=false" >> $GITHUB_OUTPUT; fi
+          echo "last=$last days=$days"
+      - uses: actions/setup-node@v4
+        if: steps.due.outputs.run == 'true'
+        with: { node-version: 22, cache: npm }
+      - name: Install
+        if: steps.due.outputs.run == 'true'
+        run: npm ci || npm install && npx playwright install --with-deps chromium
+      - name: Meta ads
+        if: steps.due.outputs.run == 'true'
+        env: { ONLY: "${{ inputs.only }}" }
+        run: node src/collect_ads.js
+      - name: Walk funnels
+        if: steps.due.outputs.run == 'true'
+        env:
+          ONLY: "${{ inputs.only }}"
+          TEST_EMAIL: ${{ secrets.TEST_EMAIL }}
+          PROXY_UK: ${{ secrets.PROXY_UK }}
+          PROXY_US: ${{ secrets.PROXY_US }}
+        run: node src/walk_funnels.js
+      - name: Diff + draft reports
+        if: steps.due.outputs.run == 'true'
+        run: node src/diff.js && node src/build_report.js
+      - name: Keep draft reports as a downloadable artifact
+        if: steps.due.outputs.run == 'true'
+        uses: actions/upload-artifact@v4
+        with: { name: draft-reports, path: "data/runs/*/report-*.html", retention-days: 30 }
+      - name: Commit run data
+        if: steps.due.outputs.run == 'true'
+        run: |
+          git config user.name "funnel-watch-bot"; git config user.email "actions@users.noreply.github.com"
+          git add data/runs
+          git reset -q -- 'data/runs/*/report-*.html' || true
+          git commit -qm "Run $(date -u +%F): ads + funnels" && git push || echo "nothing to commit"

@@ -1,0 +1,18 @@
+{
+  "name": "competitor-funnel-watch",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "ads": "node src/collect_ads.js",
+    "funnels": "node src/walk_funnels.js",
+    "diff": "node src/diff.js",
+    "report": "node src/build_report.js",
+    "slack": "node src/post_slack.js",
+    "run": "node src/run.js"
+  },
+  "dependencies": {
+    "js-yaml": "4.1.0",
+    "playwright": "1.56.0",
+    "sharp": "0.34.4"
+  }
+}
