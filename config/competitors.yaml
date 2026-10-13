@@ -69,7 +69,7 @@ competitors:
     genesis: true
     topics: [vocal, drawing]
     geo: GB
-    ads: { domains: ["ailearna.com"] }
+    ads: { page_ids: ["521600091028761", "905964375940334", "894891160380247", "1171046996083903"] }  # Learna runs one page per language
     seeds: ["https://onboarding.ailearna.com/onboarding"]
 
   - id: copymind
