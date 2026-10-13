@@ -2,9 +2,9 @@
   "url": "https://apps.codeway.co/learna-ai?cname={{campaign.name}}&cid={{campaign.id}}&aname={{adset.name}}&aid={{adset.id}}&crname={{ad.name}}&crid={{ad.id}}&placement={{placement}}&sitesource={{site_source_name}}",
   "key": "apps.codeway.co/learna-ai",
   "why": "ad",
-  "ads": 63,
+  "ads": 56,
   "adShot": "learna-fb57a9d29350.webp",
-  "adId": "1761232975162199",
+  "adId": "1039522889117162",
   "dir": "funnels/learna/fb57a9d29350",
   "stop": "stuck",
   "proxied": false,
@@ -21,8 +21,7 @@
       "dhash": "0011000000000000101100100111000001100000000010100000000000000000",
       "prices": [],
       "action": {
-        "opt": "Download & Start Learning",
-        "cta": "Download & Start Learning"
+        "opt": "Download & Start Learning"
       }
     }
   ],

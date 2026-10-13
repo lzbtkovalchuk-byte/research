@@ -92,12 +92,12 @@
       "path": "/onboarding",
       "title": "What kind of work do you do?",
       "kind": "question",
-      "text": "Master English with AI: Personalized Language Tutoring by Learna\nWhat kind of work do you do?\n🎨\nCreative, Media & Design\n🧑‍💻\nTechnology & Engineering\n💼\nFinance & Business\n🎓\nEducation & Academia\n🏛️\nGovernment & Public Services\n📈\nMarketing & Sales\n🚀\nEntrepreneurship & Freelance\n🧹\nService & Hospitality\n⚕\nHealthcare & Science\n🧰\nSkilled Trades & Technical\n🚚\nTransportation & Logistics\n🌍\nOther\nContinue\nDigital Park, Dubai Silicon Oasis, Dubai 341041, UAE\nPrivacy Policy • Terms & Conditions • Subscription Policy\nWe value your privacy\nWe use cookies to enhance your browsing experience, serve personalised ads or content, and analyse our traffic. By clicking \"Accept All\", you consent to our use of cookies.\nCustomize\nReject All\nAccept All",
-      "textHash": "0c9a114ce89c",
-      "dhash": "1011010011010000100111001100110011000100110011001000101010001110",
+      "text": "Master English with AI: Personalized Language Tutoring by Learna\nWhat kind of work do you do?\n🧑‍💻\nTechnology & Engineering\n🎓\nEducation & Academia\n💼\nFinance & Business\n🎨\nCreative, Media & Design\n🚀\nEntrepreneurship & Freelance\n📈\nMarketing & Sales\n🚚\nTransportation & Logistics\n🧰\nSkilled Trades & Technical\n🧹\nService & Hospitality\n⚕\nHealthcare & Science\n🏛️\nGovernment & Public Services\n🌍\nOther\nContinue\nDigital Park, Dubai Silicon Oasis, Dubai 341041, UAE\nPrivacy Policy • Terms & Conditions • Subscription Policy\nWe value your privacy\nWe use cookies to enhance your browsing experience, serve personalised ads or content, and analyse our traffic. By clicking \"Accept All\", you consent to our use of cookies.\nCustomize\nReject All\nAccept All",
+      "textHash": "fa45c2a65f1d",
+      "dhash": "1001010011010100100011001100110011001100110011001100101010000110",
       "prices": [],
       "action": {
-        "opt": "🎨",
+        "opt": "🧑‍💻",
         "cta": "Continue"
       }
     },
@@ -106,14 +106,14 @@
       "file": "07.webp",
       "url": "https://onboarding.ailearna.com/onboarding",
       "path": "/onboarding",
-      "title": "What type of creative work do you do?",
+      "title": "What kind of technical work do you do?",
       "kind": "question",
-      "text": "Master English with AI: Personalized Language Tutoring by Learna\nWhat type of creative work do you do?\nWe ask this to tailor your plan to your needs.\n🖌️\nGraphic Design / UI-UX\n📹\nVideo / Animation\n📝\nWriting / Content Creation\n📸\nPhotography / Visual Arts\n🎵\nMusic / Audio Production\n❓\nOther\nDigital Park, Dubai Silicon Oasis, Dubai 341041, UAE\nPrivacy Policy • Terms & Conditions • Subscription Policy\nWe value your privacy\nWe use cookies to enhance your browsing experience, serve personalised ads or content, and analyse our traffic. By clicking \"Accept All\", you consent to our use of cookies.\nCustomize\nReject All\nAccept All",
-      "textHash": "a8d9499139c3",
-      "dhash": "1100010011000100101000101000000010010001100100001000000010000100",
+      "text": "Master English with AI: Personalized Language Tutoring by Learna\nWhat kind of technical work do you do?\nWe ask this to tailor your plan to your needs.\n💻\nSoftware Developer / Engineer\n📊\nData Analyst / Data Scientist\n🗂️\nProduct Manager / Designer\n🔍\nQA / Tester\n🔧\nIT Support / SysAdmin / DevOps\n🧰\nHardware / Embedded Engineer\n❓\nOther\nDigital Park, Dubai Silicon Oasis, Dubai 341041, UAE\nPrivacy Policy • Terms & Conditions • Subscription Policy\nWe value your privacy\nWe use cookies to enhance your browsing experience, serve personalised ads or content, and analyse our traffic. By clicking \"Accept All\", you consent to our use of cookies.\nCustomize\nReject All\nAccept All",
+      "textHash": "705d5189659f",
+      "dhash": "1100010011100100100010001100100111001001100100001000000110100100",
       "prices": [],
       "action": {
-        "opt": "🖌️ Graphic Design / UI-UX"
+        "opt": "💻 Software Developer / Engineer"
       }
     },
     {
@@ -462,8 +462,7 @@
       "dhash": "0011001011110000010001010110100101010101010101011110000000100001",
       "prices": [],
       "action": {
-        "opt": "Customize",
-        "cta": "Customize"
+        "opt": "Customize"
       }
     }
   ],

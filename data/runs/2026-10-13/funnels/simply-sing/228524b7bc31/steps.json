@@ -46,9 +46,9 @@
       "path": "/start/conversation/why_do_you_sing",
       "title": "Why do you sing?",
       "kind": "question",
-      "text": "Why do you sing?\nYou can pick more than one\nIts helps me express myself\nIt helps me relax\nIt makes me feel good\nOther\nCONTINUE",
-      "textHash": "d69d2016511c",
-      "dhash": "0110100100101011100001101001110010010100000000010000000000001101",
+      "text": "Why do you sing?\nYou can pick more than one\nIt helps me relax\nIts helps me express myself\nIt makes me feel good\nOther\nCONTINUE",
+      "textHash": "f4da3d435c46",
+      "dhash": "0110100100101011100011001001011010010100000000010000000000001101",
       "prices": [],
       "action": {
         "opt": "It makes me feel good",
@@ -77,12 +77,12 @@
       "path": "/start/conversation/song_generes",
       "title": "What kinds of songs do you like to sing?",
       "kind": "question",
-      "text": "What kinds of songs do you like to sing?\nChoose your top 3 genres\nPop\nMusicals\nDisney\nTV & Movies\nJazz & Blues\nCountry & Folk\nRock\nHip Hop & Rap\nChristian & Gospel\nR&B & Soul\nCONTINUE",
-      "textHash": "2adce1ccbafd",
-      "dhash": "0011101100000111100001101011000010010000100110001001100000000101",
+      "text": "What kinds of songs do you like to sing?\nChoose your top 3 genres\nR&B & Soul\nDisney\nRock\nHip Hop & Rap\nJazz & Blues\nTV & Movies\nCountry & Folk\nChristian & Gospel\nPop\nMusicals\nCONTINUE",
+      "textHash": "f449a6ef4a4e",
+      "dhash": "0011101100000111100101101001100010110100100110001001100001001101",
       "prices": [],
       "action": {
-        "opt": "Pop + Musicals + Disney",
+        "opt": "R&B & Soul + Disney + Rock",
         "cta": "CONTINUE"
       }
     },
@@ -113,8 +113,7 @@
       "dhash": "1001001000001111010011011011001010110000010000010001000000000000",
       "prices": [],
       "action": {
-        "opt": "Female voice",
-        "cta": "Male voice"
+        "opt": "Female voice"
       }
     }
   ],

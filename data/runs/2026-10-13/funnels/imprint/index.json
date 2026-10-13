@@ -9,7 +9,7 @@
       "key": "imprintapp.com/start-history",
       "dir": "funnels/imprint/06cefd8c1237",
       "stop": "stuck",
-      "steps": 7,
+      "steps": 8,
       "why": "ad",
       "ads": 4
     },
@@ -17,7 +17,7 @@
       "key": "imprintapp.com/start-art",
       "dir": "funnels/imprint/96e2f59bf19c",
       "stop": "stuck",
-      "steps": 7,
+      "steps": 8,
       "why": "ad",
       "ads": 2
     }

@@ -8,10 +8,10 @@
     {
       "type": "domain",
       "value": "memoryos.com",
-      "url": "https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=US&media_type=all&search_type=keyword_exact_phrase&q=%22memoryos.com%22",
-      "results": 55,
-      "parsed": 16,
-      "kept": 16
+      "url": "https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=US&media_type=all&search_type=keyword_unordered&q=memoryos.com",
+      "results": 130,
+      "parsed": 28,
+      "kept": 6
     }
   ],
   "ads": [
@@ -104,156 +104,6 @@
       "startedISO": "2026-09-10",
       "key": "start.memoryos.com/new-h?mos_cfg=seniors_s",
       "store": false
-    },
-    {
-      "id": "2043815842927399",
-      "started": "Sep 10, 2026",
-      "versions": 2,
-      "page": "memoryOS",
-      "body": "A personal trainer for your memory – in 5 minutes a day 🧠💪🏻",
-      "caption": null,
-      "headline": "",
-      "cta": "",
-      "video": false,
-      "link": "https://start.memoryos.com/new-h/?mos_cfg=seniors_s",
-      "startedISO": "2026-09-10",
-      "key": "start.memoryos.com/new-h?mos_cfg=seniors_s",
-      "store": false
-    },
-    {
-      "id": "1361933192820347",
-      "started": "Oct 9, 2026",
-      "versions": 3,
-      "page": "memoryOS",
-      "body": "Forgot a name at the door? Learn the method a two-time World Memory Champion uses - just 10 minutes a day 🧠💪🏻",
-      "caption": null,
-      "headline": "",
-      "cta": "",
-      "video": false,
-      "link": "https://start.memoryos.com/new-s",
-      "startedISO": "2026-10-09",
-      "key": "start.memoryos.com/new-s",
-      "store": false
-    },
-    {
-      "id": "1543709240415674",
-      "started": "Sep 10, 2026",
-      "versions": 2,
-      "page": "memoryOS",
-      "body": "A personal trainer for your memory – in 5 minutes a day 🧠💪🏻",
-      "caption": null,
-      "headline": "",
-      "cta": "",
-      "video": false,
-      "link": "https://start.memoryos.com/new-h/?mos_cfg=seniors_s",
-      "startedISO": "2026-09-10",
-      "key": "start.memoryos.com/new-h?mos_cfg=seniors_s",
-      "store": false
-    },
-    {
-      "id": "2215608372354545",
-      "started": "Oct 8, 2026",
-      "versions": 3,
-      "page": "memoryOS",
-      "body": "Forgot a name at the door? Learn the method a two-time World Memory Champion uses - just 10 minutes a day 🧠💪🏻",
-      "caption": null,
-      "headline": "",
-      "cta": "",
-      "video": false,
-      "link": "https://start.memoryos.com/new-s",
-      "startedISO": "2026-10-08",
-      "key": "start.memoryos.com/new-s",
-      "store": false
-    },
-    {
-      "id": "28340656292300142",
-      "started": "Oct 10, 2026",
-      "versions": 1,
-      "page": "memoryOS",
-      "body": "memoryOS combines gamified micro lessons with pre-made virtual mind palaces to improve your memory skills drastically. Proprietary technology and scientifically proven methods. Co-founded by 2X World Memory Champion Jonas von Essen.",
-      "caption": "MEMORYOS.COM",
-      "headline": "Unlock Your Sharper Mind",
-      "cta": "Learn more",
-      "video": false,
-      "link": "https://start.memoryos.com/new-h",
-      "startedISO": "2026-10-10",
-      "key": "start.memoryos.com/new-h",
-      "store": false
-    },
-    {
-      "id": "3061975660801176",
-      "started": "Oct 9, 2026",
-      "versions": 3,
-      "page": "memoryOS",
-      "body": "Forgot a name at the door? Learn the method a two-time World Memory Champion uses - just 10 minutes a day 🧠💪🏻",
-      "caption": null,
-      "headline": "",
-      "cta": "",
-      "video": false,
-      "link": "https://start.memoryos.com/new-s",
-      "startedISO": "2026-10-09",
-      "key": "start.memoryos.com/new-s",
-      "store": false
-    },
-    {
-      "id": "931274333094938",
-      "started": "Oct 9, 2026",
-      "versions": 3,
-      "page": "memoryOS",
-      "body": "Forgot a name at the door? Learn the method a two-time World Memory Champion uses - just 10 minutes a day 🧠💪🏻",
-      "caption": null,
-      "headline": "",
-      "cta": "",
-      "video": false,
-      "link": "https://start.memoryos.com/new-s",
-      "startedISO": "2026-10-09",
-      "key": "start.memoryos.com/new-s",
-      "store": false
-    },
-    {
-      "id": "1100573772768733",
-      "started": "Sep 10, 2026",
-      "versions": 1,
-      "page": "memoryOS",
-      "body": "A personal trainer for your memory – in 5 minutes a day 🧠💪🏻",
-      "caption": "MEMORYOS.COM",
-      "headline": "Unlock Your Sharper Mind",
-      "cta": "Learn more",
-      "video": false,
-      "link": "https://start.memoryos.com/new-h/?mos_cfg=seniors_o",
-      "startedISO": "2026-09-10",
-      "key": "start.memoryos.com/new-h?mos_cfg=seniors_o",
-      "store": false
-    },
-    {
-      "id": "28940570598900536",
-      "started": "Oct 8, 2026",
-      "versions": 3,
-      "page": "memoryOS",
-      "body": "Forgot a name at the door? Learn the method a two-time World Memory Champion uses - just 10 minutes a day 🧠💪🏻",
-      "caption": null,
-      "headline": "",
-      "cta": "",
-      "video": false,
-      "link": "https://start.memoryos.com/new-s",
-      "startedISO": "2026-10-08",
-      "key": "start.memoryos.com/new-s",
-      "store": false
-    },
-    {
-      "id": "1110527674904397",
-      "started": "Oct 8, 2026",
-      "versions": 3,
-      "page": "memoryOS",
-      "body": "Forgot a name at the door? Learn the method a two-time World Memory Champion uses - just 10 minutes a day 🧠💪🏻",
-      "caption": null,
-      "headline": "",
-      "cta": "",
-      "video": false,
-      "link": "https://start.memoryos.com/new-s",
-      "startedISO": "2026-10-08",
-      "key": "start.memoryos.com/new-s",
-      "store": false
     }
   ],
   "landing": {
@@ -261,16 +111,14 @@
       "key": "start.memoryos.com/new-h?mos_cfg=seniors_s",
       "sample": "https://start.memoryos.com/new-h/?mos_cfg=seniors_s",
       "store": false,
-      "ads": 10,
-      "creatives": 5,
+      "ads": 6,
+      "creatives": 3,
       "first": "2026-09-10",
       "last": "2026-09-10",
       "adIds": [
         "2480648445751155",
         "1577271633888505",
-        "2896432967422242",
-        "2043815842927399",
-        "1543709240415674"
+        "2896432967422242"
       ],
       "shot": "memoryos-b49234f2d6c4.webp",
       "shotAd": "2480648445751155"
@@ -279,14 +127,13 @@
       "key": "start.memoryos.com/new-h?mos_cfg=seniors_o",
       "sample": "https://start.memoryos.com/new-h/?mos_cfg=seniors_o",
       "store": false,
-      "ads": 4,
-      "creatives": 3,
+      "ads": 3,
+      "creatives": 2,
       "first": "2026-09-10",
       "last": "2026-09-10",
       "adIds": [
         "1175854788458816",
-        "2130021291283441",
-        "1100573772768733"
+        "2130021291283441"
       ],
       "shot": "memoryos-510dbcb9782c.webp",
       "shotAd": "1175854788458816"
@@ -295,42 +142,23 @@
       "key": "start.memoryos.com/new-s",
       "sample": "https://start.memoryos.com/new-s",
       "store": false,
-      "ads": 21,
-      "creatives": 7,
+      "ads": 3,
+      "creatives": 1,
       "first": "2026-10-08",
-      "last": "2026-10-09",
+      "last": "2026-10-08",
       "adIds": [
-        "2842674516133144",
-        "1361933192820347",
-        "2215608372354545",
-        "3061975660801176",
-        "931274333094938",
-        "28940570598900536",
-        "1110527674904397"
+        "2842674516133144"
       ],
       "shot": "memoryos-8df162c3ae21.webp",
-      "shotAd": "1361933192820347"
-    },
-    "start.memoryos.com/new-h": {
-      "key": "start.memoryos.com/new-h",
-      "sample": "https://start.memoryos.com/new-h",
-      "store": false,
-      "ads": 1,
-      "creatives": 1,
-      "first": "2026-10-10",
-      "last": "2026-10-10",
-      "adIds": [
-        "28340656292300142"
-      ],
-      "shot": "memoryos-c4501cceecba.webp",
-      "shotAd": "28340656292300142"
+      "shotAd": "2842674516133144"
     }
   },
   "pageIds": {
-    "memoryOS": "107666117414750"
+    "memoryOS": "107666117414750",
+    "Brian Calloway": "1174831152374584"
   },
-  "activeEstimate": 16,
-  "parsedCreatives": 16,
-  "newInWindow": 22,
-  "newCreativesInWindow": 8
+  "activeEstimate": 6,
+  "parsedCreatives": 6,
+  "newInWindow": 3,
+  "newCreativesInWindow": 1
 }

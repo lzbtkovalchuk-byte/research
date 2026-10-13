@@ -36,13 +36,27 @@
       "dhash": "0110100101101000000010000000000000001000001100010011000100110001",
       "prices": [],
       "action": {
-        "opt": "25-34",
-        "cta": "45 or older"
+        "opt": "25-34"
       }
     },
     {
       "n": 3,
       "file": "03.webp",
+      "url": "https://www.imprintapp.com/quiz/start-art",
+      "path": "/quiz/start-art",
+      "title": "What is your age?",
+      "kind": "social_proof",
+      "text": "What is your age?\n18-24\n25-34\n35-44\n45 or older\nWhat best describes you?\nMale\nFemale\nNon-binary\nPrefer not to say\nOver 5 million people are already exploring Art with us\nJoin our community to explore the artists, movements, and masterpieces that shaped art into what it is today.",
+      "textHash": "a25d428e5ea5",
+      "dhash": "1101000011010100000000100000000000001000001100010011001100110001",
+      "prices": [],
+      "action": {
+        "opt": "25-34"
+      }
+    },
+    {
+      "n": 4,
+      "file": "04.webp",
       "url": "https://www.imprintapp.com/quiz/start-art",
       "path": "/quiz/start-art",
       "title": "What best describes you?",
@@ -57,8 +71,8 @@
       }
     },
     {
-      "n": 4,
-      "file": "04.webp",
+      "n": 5,
+      "file": "05.webp",
       "url": "https://www.imprintapp.com/quiz/start-art",
       "path": "/quiz/start-art",
       "title": "Why are you interested in learning about Art?",
@@ -73,8 +87,8 @@
       }
     },
     {
-      "n": 5,
-      "file": "05.webp",
+      "n": 6,
+      "file": "06.webp",
       "url": "https://www.imprintapp.com/quiz/start-art",
       "path": "/quiz/start-art",
       "title": "Why are you interested in learning about Art?",
@@ -88,8 +102,8 @@
       }
     },
     {
-      "n": 6,
-      "file": "06.webp",
+      "n": 7,
+      "file": "07.webp",
       "url": "https://www.imprintapp.com/quiz/start-art",
       "path": "/quiz/start-art",
       "title": "Which aspect of Art intrigues you most?",
@@ -104,8 +118,8 @@
       }
     },
     {
-      "n": 7,
-      "file": "07.webp",
+      "n": 8,
+      "file": "08.webp",
       "url": "https://www.imprintapp.com/quiz/start-art",
       "path": "/quiz/start-art",
       "title": "Which aspect of Art intrigues you most?",
@@ -121,12 +135,12 @@
     }
   ],
   "features": {
-    "totalSteps": 7,
+    "totalSteps": 8,
     "stop": "stuck",
     "emailStep": null,
     "paywallStep": null,
     "questions": 4,
-    "socialProof": 2,
+    "socialProof": 3,
     "loader": false,
     "prices": [],
     "discount": null,

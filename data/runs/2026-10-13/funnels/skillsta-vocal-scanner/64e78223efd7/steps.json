@@ -6,7 +6,7 @@
   "adShot": null,
   "adId": null,
   "dir": "funnels/skillsta-vocal-scanner/64e78223efd7",
-  "stop": "stuck",
+  "stop": "email_verification",
   "proxied": false,
   "steps": [
     {
@@ -450,8 +450,7 @@
       "text": "Building your result…\nAlmost there\nOver 850,000 people \nalready improved their voices with Skillsta\nI love this app!\nI love this app! The exercises are awesome because it's realistic examples of what you will deal with.\nejreilly • 18 hours ago\n1 review • US\nIt walks me thru each exercise using…\nIt walks me thru each exercise using practical methods. Just finished my first lesson and I feel I am on the right track.\nJustinS • 5 hours ago\n1 review • US\nLearned so much\nJust finished my first lesson and boy i thought i knew about singing. Apparently i was Completely ignorant.\nwalzork • 23 hours ago\n1 review • CA\nI am learning techniques in an interactive way that I never did in another app.\nI am learning techniques in an interactive way that I never did in another app.\nranjarama • 23 hours ago\n2 reviews • US\nTerms & Conditions • Privacy Policy • Subscription Policy",
       "textHash": "8e9c9c384620",
       "dhash": "0010001011001100000011110011001000000111001100110111101100100011",
-      "prices": [],
-      "action": {}
+      "prices": []
     },
     {
       "n": 31,
@@ -463,8 +462,7 @@
       "text": "Building your result…\nAlmost there\nOver 850,000 people \nalready improved their voices with Skillsta\nIt walks me thru each exercise using…\nIt walks me thru each exercise using practical methods. Just finished my first lesson and I feel I am on the right track.\nJustinS • 5 hours ago\n1 review • US\nLearned so much\nJust finished my first lesson and boy i thought i knew about singing. Apparently i was Completely ignorant.\nwalzork • 23 hours ago\n1 review • CA\nI am learning techniques in an interactive way that I never did in another app.\nI am learning techniques in an interactive way that I never did in another app.\nranjarama • 23 hours ago\n2 reviews • US\nI love this app!\nI love this app! The exercises are awesome because it's realistic examples of what you will deal with.\nejreilly • 18 hours ago\n1 review • US\nTerms & Conditions • Privacy Policy • Subscription Policy",
       "textHash": "2ee684f173de",
       "dhash": "0010001011001100000011110011001000000111001101110111101100101011",
-      "prices": [],
-      "action": {}
+      "prices": []
     },
     {
       "n": 32,
@@ -476,8 +474,7 @@
       "text": "Building your result…\nAlmost there\nOver 850,000 people \nalready improved their voices with Skillsta\nLearned so much\nJust finished my first lesson and boy i thought i knew about singing. Apparently i was Completely ignorant.\nwalzork • 23 hours ago\n1 review • CA\nI am learning techniques in an interactive way that I never did in another app.\nI am learning techniques in an interactive way that I never did in another app.\nranjarama • 23 hours ago\n2 reviews • US\nI love this app!\nI love this app! The exercises are awesome because it's realistic examples of what you will deal with.\nejreilly • 18 hours ago\n1 review • US\nIt walks me thru each exercise using…\nIt walks me thru each exercise using practical methods. Just finished my first lesson and I feel I am on the right track.\nJustinS • 5 hours ago\n1 review • US\nTerms & Conditions • Privacy Policy • Subscription Policy",
       "textHash": "7f5cf54f44a8",
       "dhash": "0010001011001100000011110011001000000111001101110111001100100011",
-      "prices": [],
-      "action": {}
+      "prices": []
     },
     {
       "n": 33,
@@ -491,14 +488,25 @@
       "dhash": "0001101100010111010010100100000101110001000000011000000000010011",
       "prices": [],
       "action": {
-        "filled": true,
-        "cta": "I agree to receive the latest news and updates via email"
+        "filled": true
       }
+    },
+    {
+      "n": 34,
+      "file": "34.webp",
+      "url": "https://www.getskillnow.com/quiz/voice_assessment/voice_assessment/sign-up?utm_adname=CF_voice_assessment&funnel-state=stepNumber:24",
+      "path": "/quiz/voice_assessment/voice_assessment/sign-up",
+      "title": "Enter verification code",
+      "kind": "info",
+      "text": "Enter verification code\nWe've sent the code to elza280204@gmail.com\nContinue\nCan’t find the code? Check your Spam folder\nTerms & Conditions • Privacy Policy • Subscription Policy",
+      "textHash": "dad1b789a96e",
+      "dhash": "0000111100010111011100011000101000000001000000001000000000100011",
+      "prices": []
     }
   ],
   "features": {
-    "totalSteps": 33,
-    "stop": "stuck",
+    "totalSteps": 34,
+    "stop": "email_verification",
     "emailStep": 33,
     "paywallStep": null,
     "questions": 18,

@@ -9,7 +9,7 @@
       "type": "page",
       "value": "521600091028761",
       "url": "https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=GB&media_type=all&search_type=page&view_all_page_id=521600091028761",
-      "results": 130,
+      "results": 110,
       "parsed": 30,
       "kept": 30
     },
@@ -17,17 +17,17 @@
       "type": "page",
       "value": "905964375940334",
       "url": "https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=GB&media_type=all&search_type=page&view_all_page_id=905964375940334",
-      "results": 7,
-      "parsed": 7,
-      "kept": 7
+      "results": null,
+      "parsed": 0,
+      "kept": 0
     },
     {
       "type": "page",
       "value": "894891160380247",
       "url": "https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=GB&media_type=all&search_type=page&view_all_page_id=894891160380247",
-      "results": 26,
-      "parsed": 26,
-      "kept": 26
+      "results": 27,
+      "parsed": 27,
+      "kept": 27
     },
     {
       "type": "page",
@@ -490,111 +490,6 @@
       "store": false
     },
     {
-      "id": "1653241156369402",
-      "started": "Oct 9, 2026",
-      "versions": 1,
-      "page": "Learna AI- Speak Like A Native",
-      "body": "Prata med AI-handledare, ladda ner Learna AI ✅",
-      "caption": "LEARNA.APP.APPSTORE",
-      "headline": "Prova nu och börja prata med självförtroende redan idag →",
-      "cta": "Download",
-      "video": false,
-      "link": "https://apps.codeway.co/learna-ai?cname={{campaign.name}}&cid={{campaign.id}}&aname={{adset.name}}&aid={{adset.id}}&crname={{ad.name}}&crid={{ad.id}}&placement={{placement}}&sitesource={{site_source_name}}",
-      "startedISO": "2026-10-09",
-      "key": "apps.codeway.co/learna-ai",
-      "store": false
-    },
-    {
-      "id": "1682790330085747",
-      "started": "Oct 9, 2026",
-      "versions": 1,
-      "page": "Learna AI- Speak Like A Native",
-      "body": "Prata med AI-handledare, ladda ner Learna AI ✅",
-      "caption": "LEARNA.APP.APPSTORE",
-      "headline": "Prova nu och börja prata med självförtroende redan idag →",
-      "cta": "Download",
-      "video": false,
-      "link": "https://apps.codeway.co/learna-ai?cname={{campaign.name}}&cid={{campaign.id}}&aname={{adset.name}}&aid={{adset.id}}&crname={{ad.name}}&crid={{ad.id}}&placement={{placement}}&sitesource={{site_source_name}}",
-      "startedISO": "2026-10-09",
-      "key": "apps.codeway.co/learna-ai",
-      "store": false
-    },
-    {
-      "id": "2335214100647000",
-      "started": "Oct 9, 2026",
-      "versions": 1,
-      "page": "Learna AI- Speak Like A Native",
-      "body": "Prata med AI-handledare, ladda ner Learna AI ✅",
-      "caption": "LEARNA.APP.APPSTORE",
-      "headline": "Prova nu och börja prata med självförtroende redan idag →",
-      "cta": "Download",
-      "video": false,
-      "link": "https://apps.codeway.co/learna-ai?cname={{campaign.name}}&cid={{campaign.id}}&aname={{adset.name}}&aid={{adset.id}}&crname={{ad.name}}&crid={{ad.id}}&placement={{placement}}&sitesource={{site_source_name}}",
-      "startedISO": "2026-10-09",
-      "key": "apps.codeway.co/learna-ai",
-      "store": false
-    },
-    {
-      "id": "2210588076509264",
-      "started": "Oct 9, 2026",
-      "versions": 1,
-      "page": "Learna AI- Speak Like A Native",
-      "body": "Prata med AI-handledare, ladda ner Learna AI ✅",
-      "caption": "LEARNA.APP.APPSTORE",
-      "headline": "Prova nu och börja prata med självförtroende redan idag →",
-      "cta": "Download",
-      "video": false,
-      "link": "https://apps.codeway.co/learna-ai?cname={{campaign.name}}&cid={{campaign.id}}&aname={{adset.name}}&aid={{adset.id}}&crname={{ad.name}}&crid={{ad.id}}&placement={{placement}}&sitesource={{site_source_name}}",
-      "startedISO": "2026-10-09",
-      "key": "apps.codeway.co/learna-ai",
-      "store": false
-    },
-    {
-      "id": "1761232975162199",
-      "started": "Oct 13, 2026",
-      "versions": 1,
-      "page": "Learna AI- Speak Like A Native",
-      "body": "Prata med AI-handledare, ladda ner Learna AI ✅",
-      "caption": "LEARNA.APP.APPSTORE",
-      "headline": "Prova nu och börja prata med självförtroende redan idag →",
-      "cta": "Download",
-      "video": false,
-      "link": "https://apps.codeway.co/learna-ai?cname={{campaign.name}}&cid={{campaign.id}}&aname={{adset.name}}&aid={{adset.id}}&crname={{ad.name}}&crid={{ad.id}}&placement={{placement}}&sitesource={{site_source_name}}",
-      "startedISO": "2026-10-13",
-      "key": "apps.codeway.co/learna-ai",
-      "store": false
-    },
-    {
-      "id": "1616654630011705",
-      "started": "Oct 13, 2026",
-      "versions": 1,
-      "page": "Learna AI- Speak Like A Native",
-      "body": "Prata med AI-handledare, ladda ner Learna AI ✅",
-      "caption": "LEARNA.APP.APPSTORE",
-      "headline": "Prova nu och börja prata med självförtroende redan idag →",
-      "cta": "Download",
-      "video": false,
-      "link": "https://apps.codeway.co/learna-ai?cname={{campaign.name}}&cid={{campaign.id}}&aname={{adset.name}}&aid={{adset.id}}&crname={{ad.name}}&crid={{ad.id}}&placement={{placement}}&sitesource={{site_source_name}}",
-      "startedISO": "2026-10-13",
-      "key": "apps.codeway.co/learna-ai",
-      "store": false
-    },
-    {
-      "id": "1645293300523328",
-      "started": "Oct 13, 2026",
-      "versions": 1,
-      "page": "Learna AI- Speak Like A Native",
-      "body": "Prata med AI-handledare, ladda ner Learna AI ✅",
-      "caption": "LEARNA.APP.APPSTORE",
-      "headline": "Prova nu och börja prata med självförtroende redan idag →",
-      "cta": "Download",
-      "video": false,
-      "link": "https://apps.codeway.co/learna-ai?cname={{campaign.name}}&cid={{campaign.id}}&aname={{adset.name}}&aid={{adset.id}}&crname={{ad.name}}&crid={{ad.id}}&placement={{placement}}&sitesource={{site_source_name}}",
-      "startedISO": "2026-10-13",
-      "key": "apps.codeway.co/learna-ai",
-      "store": false
-    },
-    {
       "id": "1774428540481121",
       "started": "Oct 9, 2026",
       "versions": 1,
@@ -985,6 +880,21 @@
       "store": true
     },
     {
+      "id": "2183987768882571",
+      "started": "Oct 13, 2026",
+      "versions": 1,
+      "page": "Learna AI: Изучение языков",
+      "body": "🚀 Учи английский быстрее и дешевле",
+      "caption": null,
+      "headline": "",
+      "cta": "",
+      "video": false,
+      "link": "http://play.google.com/store/apps/details?id=com.codeway.aitutor",
+      "startedISO": "2026-10-13",
+      "key": "play.google.com/store/apps/details?id=com.codeway.aitutor",
+      "store": true
+    },
+    {
       "id": "1097595972673445",
       "started": "Sep 21, 2026",
       "versions": 1,
@@ -1261,14 +1171,16 @@
         "1407531037378178",
         "1101668732333913",
         "2341530823332424"
-      ]
+      ],
+      "shot": "learna-a9ab412ef846.webp",
+      "shotAd": "1101668732333913"
     },
     "apps.codeway.co/learna-ai": {
       "key": "apps.codeway.co/learna-ai",
       "sample": "https://apps.codeway.co/learna-ai?cname={{campaign.name}}&cid={{campaign.id}}&aname={{adset.name}}&aid={{adset.id}}&crname={{ad.name}}&crid={{ad.id}}&placement={{placement}}&sitesource={{site_source_name}}",
       "store": false,
-      "ads": 63,
-      "creatives": 60,
+      "ads": 56,
+      "creatives": 53,
       "first": "2026-09-21",
       "last": "2026-10-13",
       "adIds": [
@@ -1288,13 +1200,6 @@
         "1485978530028761",
         "1601632738125300",
         "1039522889117162",
-        "1653241156369402",
-        "1682790330085747",
-        "2335214100647000",
-        "2210588076509264",
-        "1761232975162199",
-        "1616654630011705",
-        "1645293300523328",
         "1774428540481121",
         "1279192898620580",
         "4682117698781143",
@@ -1334,14 +1239,14 @@
         "1680346640121268"
       ],
       "shot": "learna-fb57a9d29350.webp",
-      "shotAd": "1761232975162199"
+      "shotAd": "1039522889117162"
     },
     "play.google.com/store/apps/details?id=com.codeway.aitutor": {
       "key": "play.google.com/store/apps/details?id=com.codeway.aitutor",
       "sample": "http://play.google.com/store/apps/details?id=com.codeway.aitutor",
       "store": true,
-      "ads": 9,
-      "creatives": 9,
+      "ads": 10,
+      "creatives": 10,
       "first": "2026-10-07",
       "last": "2026-10-13",
       "adIds": [
@@ -1353,21 +1258,21 @@
         "1823831685521499",
         "4536659883322299",
         "1645352720275643",
-        "1462656049140562"
+        "1462656049140562",
+        "2183987768882571"
       ],
       "shot": "learna-97c633b8326a.webp",
-      "shotAd": "4536659883322299"
+      "shotAd": "2537137333455354"
     }
   },
   "pageIds": {
     "Learna AI: English Learning App  ": "521600091028761",
     "carmen.aprendeingles": "1218613338007971",
-    "Learna AI- Speak Like A Native": "905964375940334",
     "Learna AI: \\u0418\\u0437\\u0443\\u0447\\u0435\\u043d\\u0438\\u0435 \\u044f\\u0437\\u044b\\u043a\\u043e\\u0432": "894891160380247",
     "Learna AI - Sprechen wie ein Native": "1171046996083903"
   },
-  "activeEstimate": 180,
-  "parsedCreatives": 80,
-  "newInWindow": 56,
-  "newCreativesInWindow": 55
+  "activeEstimate": 154,
+  "parsedCreatives": 74,
+  "newInWindow": 50,
+  "newCreativesInWindow": 49
 }

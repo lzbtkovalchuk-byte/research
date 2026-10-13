@@ -221,6 +221,9 @@
             },
             {
               "s": "baseline"
+            },
+            {
+              "s": "baseline"
             }
           ],
           "removed": []
@@ -413,6 +416,9 @@
             },
             {
               "s": "baseline"
+            },
+            {
+              "s": "baseline"
             }
           ],
           "removed": []
@@ -420,6 +426,9 @@
         "imprintapp.com/start-art": {
           "firstRun": true,
           "status": [
+            {
+              "s": "baseline"
+            },
             {
               "s": "baseline"
             },
@@ -954,58 +963,39 @@
     },
     "memoryos": {
       "ads": {
-        "active": 16,
+        "active": 6,
         "prevActive": null,
         "delta": null,
-        "newInWindow": 22,
-        "newCreatives": 8
+        "newInWindow": 3,
+        "newCreatives": 1
       },
       "links": [
         {
           "status": "current",
           "key": "start.memoryos.com/new-h?mos_cfg=seniors_s",
-          "ads": 10,
+          "ads": 6,
           "first": "2026-09-10",
           "store": false
         },
         {
           "status": "current",
           "key": "start.memoryos.com/new-h?mos_cfg=seniors_o",
-          "ads": 4,
+          "ads": 3,
           "first": "2026-09-10",
           "store": false
         },
         {
           "status": "current",
           "key": "start.memoryos.com/new-s",
-          "ads": 21,
+          "ads": 3,
           "first": "2026-10-08",
-          "store": false
-        },
-        {
-          "status": "current",
-          "key": "start.memoryos.com/new-h",
-          "ads": 1,
-          "first": "2026-10-10",
           "store": false
         }
       ],
       "funnels": {
-        "start.memoryos.com/new-s": {
+        "start.memoryos.com/new-h?mos_cfg=seniors_s": {
           "firstRun": true,
           "status": [
-            {
-              "s": "baseline"
-            },
-            {
-              "s": "baseline"
-            },
-            {
-              "s": "baseline"
-            },
-            {
-              "s": "baseline"
-            },
             {
               "s": "baseline"
             },
@@ -1108,9 +1098,18 @@
           ],
           "removed": []
         },
-        "start.memoryos.com/new-h?mos_cfg=seniors_s": {
+        "start.memoryos.com/new-h?mos_cfg=seniors_o": {
           "firstRun": true,
           "status": [
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
             {
               "s": "baseline"
             },
@@ -1337,11 +1336,11 @@
     },
     "learna": {
       "ads": {
-        "active": 180,
+        "active": 154,
         "prevActive": null,
         "delta": null,
-        "newInWindow": 56,
-        "newCreatives": 55
+        "newInWindow": 50,
+        "newCreatives": 49
       },
       "links": [
         {
@@ -1354,14 +1353,14 @@
         {
           "status": "current",
           "key": "apps.codeway.co/learna-ai",
-          "ads": 63,
+          "ads": 56,
           "first": "2026-09-21",
           "store": false
         },
         {
           "status": "current",
           "key": "play.google.com/store/apps/details?id=com.codeway.aitutor",
-          "ads": 9,
+          "ads": 10,
           "first": "2026-10-07",
           "store": true
         }
