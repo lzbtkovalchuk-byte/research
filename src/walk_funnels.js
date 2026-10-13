@@ -188,7 +188,7 @@ async function walk(browser, app, entry, dir) {
     await sleep(2500);
     await rejectCookies(page);
     for (let i = 0; i < MAX_STEPS; i++) {
-      if (Date.now() - t0 > 12 * 60e3) { stop = 'timeout'; break; }
+      if (Date.now() - t0 > 25 * 60e3) { stop = 'timeout'; break; }
       await settle(page);
       await page.addStyleTag({ content: HIDE_CSS }).catch(() => {});
       let s = await inspect(page);
@@ -302,6 +302,8 @@ async function walk(browser, app, entry, dir) {
   } catch (e) {
     stop = 'error: ' + String(e.message || e).slice(0, 160);
   }
+  // Keep the page markup when the walk got stuck, so the answering rules can be fixed.
+  if (/stuck|timeout/.test(stop)) { try { fs.writeFileSync(path.join(dir, 'stuck.html'), (await page.content()).slice(0, 400000)); } catch {} }
   // Every flow should end on a paywall. If a gate we can't pass (email code, account, mic test, stuck screen)
   // stopped the walk, open the paywall directly in the same session (answers and email are kept) and capture it.
   if (!steps.some(x => x.kind === 'paywall')) {
