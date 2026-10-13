@@ -6,7 +6,7 @@
   "adShot": null,
   "adId": null,
   "dir": "funnels/copymind/2162dca161b4",
-  "stop": "max_steps",
+  "stop": "email_verification",
   "proxied": false,
   "steps": [
     {
@@ -21,7 +21,7 @@
       "dhash": "0011011100110011001011010000101100110011010100010010111100010111",
       "prices": [],
       "action": {
-        "opt": ""
+        "opt": "Male"
       }
     },
     {
@@ -45,13 +45,13 @@
       "url": "https://app.copymind.me/welcome-quiz/quote",
       "path": "/welcome-quiz/quote",
       "title": "Over 100 000 people",
-      "kind": "question",
+      "kind": "info",
       "text": "Over 100 000 people\nstarted decoding emotional patterns with their AI Twin\nUS\nPublished on Trustpilot\nImmediate Care!\nThis app immediately got to some of the core things I've been struggling with. Instant crying and addressing the things I have been wanting to discuss for years.\nThe AI speaks with genuine care towards me. I didn't realize how much I needed something like this in my life.\nKira\nNovember 21, 2025\nContinue",
       "textHash": "e12955c2708e",
       "dhash": "0000101100110111001101010000011101111101010011010000010101110001",
       "prices": [],
       "action": {
-        "opt": "US"
+        "cta": "Continue"
       }
     },
     {
@@ -66,7 +66,7 @@
       "dhash": "0100110100001111010111010001110101011001011100010110110101001101",
       "prices": [],
       "action": {
-        "opt": "💔",
+        "opt": "💔 Relationship problems",
         "cta": "Next"
       }
     },
@@ -82,7 +82,7 @@
       "dhash": "0100110101001101011110010011000101100001011000010110000000000000",
       "prices": [],
       "action": {
-        "opt": "🙂"
+        "opt": "🙂 Single"
       }
     },
     {
@@ -97,7 +97,7 @@
       "dhash": "0100110101001101011100110111000100110001011000010000000000000000",
       "prices": [],
       "action": {
-        "opt": "💼"
+        "opt": "💼 Employed"
       }
     },
     {
@@ -112,7 +112,7 @@
       "dhash": "0100110101001101001111110110001100101011001000111000000000000000",
       "prices": [],
       "action": {
-        "opt": "🏃"
+        "opt": "🏃 Always on the move"
       }
     },
     {
@@ -127,7 +127,7 @@
       "dhash": "0100110100001101011011110111101101100111010000111000000000000000",
       "prices": [],
       "action": {
-        "opt": "🗓️"
+        "opt": "🗓️ Yes, I plan ahead and know my schedule"
       }
     },
     {
@@ -172,7 +172,7 @@
       "dhash": "0110100100001111010111010111110100001101000100000000000000000000",
       "prices": [],
       "action": {
-        "opt": "👍"
+        "opt": "👍 Yes, absolutely!"
       }
     },
     {
@@ -217,7 +217,7 @@
       "dhash": "0100110100010111010010110100111101011101010111010101110101001001",
       "prices": [],
       "action": {
-        "opt": "⏳",
+        "opt": "⏳ Waiting for the perfect moment",
         "cta": "Next"
       }
     },
@@ -248,7 +248,7 @@
       "dhash": "0100110100010111001010110111001101011001011011110000001100001000",
       "prices": [],
       "action": {
-        "opt": "🧹"
+        "opt": "🧹 I can't stand clutter, everything must be neat."
       }
     },
     {
@@ -278,7 +278,7 @@
       "dhash": "0100100101000101010011100101100101101101001101110100110101001101",
       "prices": [],
       "action": {
-        "opt": "🔄",
+        "opt": "🔄 Review and replay",
         "cta": "Next"
       }
     },
@@ -309,7 +309,7 @@
       "dhash": "0100110100010011000110110101100101011101001110011000000000000000",
       "prices": [],
       "action": {
-        "opt": "👥"
+        "opt": "👥 Advice from others"
       }
     },
     {
@@ -339,7 +339,7 @@
       "dhash": "0100111100000111010111010111000110000000000000000000000000000000",
       "prices": [],
       "action": {
-        "opt": "✅"
+        "opt": "✅ Yes,absolutely"
       }
     },
     {
@@ -384,7 +384,7 @@
       "dhash": "0100111100010101011110010101110100000000000000000000000000000000",
       "prices": [],
       "action": {
-        "opt": "🚀"
+        "opt": "🚀 I love changes"
       }
     },
     {
@@ -399,7 +399,7 @@
       "dhash": "0100111100010011001111000111110100101101001101010101110101001101",
       "prices": [],
       "action": {
-        "opt": "🗣️",
+        "opt": "🗣️ Talking to someone",
         "cta": "Next"
       }
     },
@@ -430,7 +430,7 @@
       "dhash": "0100111100010111011100010111000100111101000011010100110101001101",
       "prices": [],
       "action": {
-        "opt": "🤥",
+        "opt": "🤥 Dishonesty",
         "cta": "Next"
       }
     },
@@ -446,7 +446,7 @@
       "dhash": "0100100100010011100101100011100101011001010111010011010101001101",
       "prices": [],
       "action": {
-        "opt": "✨",
+        "opt": "✨ My Intuition",
         "cta": "Next"
       }
     },
@@ -462,7 +462,7 @@
       "dhash": "0100111100110011011110010111000101101101010111010101101101100001",
       "prices": [],
       "action": {
-        "opt": "🏡"
+        "opt": "🏡 Buy a House"
       }
     },
     {
@@ -492,7 +492,7 @@
       "dhash": "0000110100001111000101110001011100010011001000110000000000000000",
       "prices": [],
       "action": {
-        "opt": "No"
+        "opt": "Yes"
       }
     },
     {
@@ -507,7 +507,7 @@
       "dhash": "0010101100001111100011100001011100001111001000110000000000000000",
       "prices": [],
       "action": {
-        "opt": "No"
+        "opt": "Yes"
       }
     },
     {
@@ -522,7 +522,7 @@
       "dhash": "0000110100001111000101110011011100100011000100110000000000000000",
       "prices": [],
       "action": {
-        "opt": "No"
+        "opt": "Yes"
       }
     },
     {
@@ -566,840 +566,15 @@
       "text": "Verify your email\nWe sent a one-time code to elza280204@gmail.com. Enter it below to log in.\nResend code in 58s\nVerify",
       "textHash": "d32c981c998d",
       "dhash": "1000111000010111010011010000111101001101100000000000000100000000",
-      "prices": [],
-      "action": {
-        "opt": "Verify",
-        "cta": "Verify"
-      }
-    },
-    {
-      "n": 38,
-      "file": "38.webp",
-      "url": "https://app.copymind.me/welcome-quiz/email",
-      "path": "/welcome-quiz/email",
-      "title": "Verify your email",
-      "kind": "question",
-      "text": "Verify your email\nWe sent a one-time code to elza280204@gmail.com. Enter it below to log in.\nResend code in 55s\nPlease enter the OTP sent to your email.\nVerify",
-      "textHash": "bf1b618e2802",
-      "dhash": "1000111000010111000011010000111101101101100000000000000100000000",
-      "prices": [],
-      "action": {
-        "cta": "Verify"
-      }
-    },
-    {
-      "n": 39,
-      "file": "39.webp",
-      "url": "https://app.copymind.me/welcome-quiz/email",
-      "path": "/welcome-quiz/email",
-      "title": "Verify your email",
-      "kind": "question",
-      "text": "Verify your email\nWe sent a one-time code to elza280204@gmail.com. Enter it below to log in.\nResend code in 53s\nPlease enter the OTP sent to your email.\nVerify",
-      "textHash": "e7a88f699bfb",
-      "dhash": "1000111000010111000011010000111101101101100000000000000100000000",
-      "prices": [],
-      "action": {
-        "opt": "Verify",
-        "cta": "Verify"
-      }
-    },
-    {
-      "n": 40,
-      "file": "40.webp",
-      "url": "https://app.copymind.me/welcome-quiz/email",
-      "path": "/welcome-quiz/email",
-      "title": "Verify your email",
-      "kind": "question",
-      "text": "Verify your email\nWe sent a one-time code to elza280204@gmail.com. Enter it below to log in.\nResend code in 49s\nPlease enter the OTP sent to your email.\nVerify",
-      "textHash": "f7a81a91e282",
-      "dhash": "1000111000010111000011010000111101101101100000000000000100000000",
-      "prices": [],
-      "action": {
-        "cta": "Verify"
-      }
-    },
-    {
-      "n": 41,
-      "file": "41.webp",
-      "url": "https://app.copymind.me/welcome-quiz/email",
-      "path": "/welcome-quiz/email",
-      "title": "Verify your email",
-      "kind": "question",
-      "text": "Verify your email\nWe sent a one-time code to elza280204@gmail.com. Enter it below to log in.\nResend code in 47s\nPlease enter the OTP sent to your email.\nVerify",
-      "textHash": "02c2be88ebcc",
-      "dhash": "1000111000010111000011010000110101101101100000000000000100000000",
-      "prices": [],
-      "action": {
-        "opt": "Verify",
-        "cta": "Verify"
-      }
-    },
-    {
-      "n": 42,
-      "file": "42.webp",
-      "url": "https://app.copymind.me/welcome-quiz/email",
-      "path": "/welcome-quiz/email",
-      "title": "Verify your email",
-      "kind": "question",
-      "text": "Verify your email\nWe sent a one-time code to elza280204@gmail.com. Enter it below to log in.\nResend code in 44s\nPlease enter the OTP sent to your email.\nVerify",
-      "textHash": "f8ecb7cb780c",
-      "dhash": "1000111000010111000011010000111101101101100000000000000100000000",
-      "prices": [],
-      "action": {
-        "cta": "Verify"
-      }
-    },
-    {
-      "n": 43,
-      "file": "43.webp",
-      "url": "https://app.copymind.me/welcome-quiz/email",
-      "path": "/welcome-quiz/email",
-      "title": "Verify your email",
-      "kind": "question",
-      "text": "Verify your email\nWe sent a one-time code to elza280204@gmail.com. Enter it below to log in.\nResend code in 42s\nPlease enter the OTP sent to your email.\nVerify",
-      "textHash": "37394ca73a46",
-      "dhash": "1000111000010111000011010000111101101101100000000000000100000000",
-      "prices": [],
-      "action": {
-        "opt": "Verify",
-        "cta": "Verify"
-      }
-    },
-    {
-      "n": 44,
-      "file": "44.webp",
-      "url": "https://app.copymind.me/welcome-quiz/email",
-      "path": "/welcome-quiz/email",
-      "title": "Verify your email",
-      "kind": "question",
-      "text": "Verify your email\nWe sent a one-time code to elza280204@gmail.com. Enter it below to log in.\nResend code in 38s\nPlease enter the OTP sent to your email.\nVerify",
-      "textHash": "1a6c51a211b6",
-      "dhash": "1000111000010111000011010000110101101101100000000000000100000000",
-      "prices": [],
-      "action": {
-        "cta": "Verify"
-      }
-    },
-    {
-      "n": 45,
-      "file": "45.webp",
-      "url": "https://app.copymind.me/welcome-quiz/email",
-      "path": "/welcome-quiz/email",
-      "title": "Verify your email",
-      "kind": "question",
-      "text": "Verify your email\nWe sent a one-time code to elza280204@gmail.com. Enter it below to log in.\nResend code in 35s\nPlease enter the OTP sent to your email.\nVerify",
-      "textHash": "cfe1406b74ea",
-      "dhash": "1000111000010111000011010000111101101101100000000000000100000000",
-      "prices": [],
-      "action": {
-        "opt": "Verify",
-        "cta": "Verify"
-      }
-    },
-    {
-      "n": 46,
-      "file": "46.webp",
-      "url": "https://app.copymind.me/welcome-quiz/email",
-      "path": "/welcome-quiz/email",
-      "title": "Verify your email",
-      "kind": "question",
-      "text": "Verify your email\nWe sent a one-time code to elza280204@gmail.com. Enter it below to log in.\nResend code in 31s\nPlease enter the OTP sent to your email.\nVerify",
-      "textHash": "b35b5c1a1034",
-      "dhash": "1000111000010111000011010000110101101101100100000000000100000000",
-      "prices": [],
-      "action": {
-        "cta": "Verify"
-      }
-    },
-    {
-      "n": 47,
-      "file": "47.webp",
-      "url": "https://app.copymind.me/welcome-quiz/email",
-      "path": "/welcome-quiz/email",
-      "title": "Verify your email",
-      "kind": "question",
-      "text": "Verify your email\nWe sent a one-time code to elza280204@gmail.com. Enter it below to log in.\nResend code in 29s\nPlease enter the OTP sent to your email.\nVerify",
-      "textHash": "2811b441b0b4",
-      "dhash": "1000111000010111000011010000111101101101100000000000000100000000",
-      "prices": [],
-      "action": {
-        "opt": "Verify",
-        "cta": "Verify"
-      }
-    },
-    {
-      "n": 48,
-      "file": "48.webp",
-      "url": "https://app.copymind.me/welcome-quiz/email",
-      "path": "/welcome-quiz/email",
-      "title": "Verify your email",
-      "kind": "question",
-      "text": "Verify your email\nWe sent a one-time code to elza280204@gmail.com. Enter it below to log in.\nResend code in 26s\nPlease enter the OTP sent to your email.\nVerify",
-      "textHash": "7a181334f610",
-      "dhash": "1000111000010111000011010000111101101101100000000000000100000000",
-      "prices": [],
-      "action": {
-        "cta": "Verify"
-      }
-    },
-    {
-      "n": 49,
-      "file": "49.webp",
-      "url": "https://app.copymind.me/welcome-quiz/email",
-      "path": "/welcome-quiz/email",
-      "title": "Verify your email",
-      "kind": "question",
-      "text": "Verify your email\nWe sent a one-time code to elza280204@gmail.com. Enter it below to log in.\nResend code in 24s\nPlease enter the OTP sent to your email.\nVerify",
-      "textHash": "0ed50ddf7b94",
-      "dhash": "1000111000010111000011010000111101101101100000000000000100000000",
-      "prices": [],
-      "action": {
-        "opt": "Verify",
-        "cta": "Verify"
-      }
-    },
-    {
-      "n": 50,
-      "file": "50.webp",
-      "url": "https://app.copymind.me/welcome-quiz/email",
-      "path": "/welcome-quiz/email",
-      "title": "Verify your email",
-      "kind": "question",
-      "text": "Verify your email\nWe sent a one-time code to elza280204@gmail.com. Enter it below to log in.\nResend code in 21s\nPlease enter the OTP sent to your email.\nVerify",
-      "textHash": "8995462470ab",
-      "dhash": "1000111000010111000011010000110101101101100000000000000100000000",
-      "prices": [],
-      "action": {
-        "cta": "Verify"
-      }
-    },
-    {
-      "n": 51,
-      "file": "51.webp",
-      "url": "https://app.copymind.me/welcome-quiz/email",
-      "path": "/welcome-quiz/email",
-      "title": "Verify your email",
-      "kind": "question",
-      "text": "Verify your email\nWe sent a one-time code to elza280204@gmail.com. Enter it below to log in.\nResend code in 19s\nPlease enter the OTP sent to your email.\nVerify",
-      "textHash": "2efed5024cee",
-      "dhash": "1000111000010111000011010000111101101101100000000000000100000000",
-      "prices": [],
-      "action": {
-        "opt": "Verify",
-        "cta": "Verify"
-      }
-    },
-    {
-      "n": 52,
-      "file": "52.webp",
-      "url": "https://app.copymind.me/welcome-quiz/email",
-      "path": "/welcome-quiz/email",
-      "title": "Verify your email",
-      "kind": "question",
-      "text": "Verify your email\nWe sent a one-time code to elza280204@gmail.com. Enter it below to log in.\nResend code in 16s\nPlease enter the OTP sent to your email.\nVerify",
-      "textHash": "fc4fe37f8464",
-      "dhash": "1000111000010111000011010000111101101101100000000000000100000000",
-      "prices": [],
-      "action": {
-        "cta": "Verify"
-      }
-    },
-    {
-      "n": 53,
-      "file": "53.webp",
-      "url": "https://app.copymind.me/welcome-quiz/email",
-      "path": "/welcome-quiz/email",
-      "title": "Verify your email",
-      "kind": "question",
-      "text": "Verify your email\nWe sent a one-time code to elza280204@gmail.com. Enter it below to log in.\nResend code in 14s\nPlease enter the OTP sent to your email.\nVerify",
-      "textHash": "588b14b8fa87",
-      "dhash": "1000111000010111000011010000111101101101100000000000000100000000",
-      "prices": [],
-      "action": {
-        "opt": "Verify",
-        "cta": "Verify"
-      }
-    },
-    {
-      "n": 54,
-      "file": "54.webp",
-      "url": "https://app.copymind.me/welcome-quiz/email",
-      "path": "/welcome-quiz/email",
-      "title": "Verify your email",
-      "kind": "question",
-      "text": "Verify your email\nWe sent a one-time code to elza280204@gmail.com. Enter it below to log in.\nResend code in 11s\nPlease enter the OTP sent to your email.\nVerify",
-      "textHash": "b6165eac782e",
-      "dhash": "1000111000010111000011010000110101101101100000000000000100000000",
-      "prices": [],
-      "action": {
-        "cta": "Verify"
-      }
-    },
-    {
-      "n": 55,
-      "file": "55.webp",
-      "url": "https://app.copymind.me/welcome-quiz/email",
-      "path": "/welcome-quiz/email",
-      "title": "Verify your email",
-      "kind": "question",
-      "text": "Verify your email\nWe sent a one-time code to elza280204@gmail.com. Enter it below to log in.\nResend code in 9s\nPlease enter the OTP sent to your email.\nVerify",
-      "textHash": "276b576f3026",
-      "dhash": "1000111000010111000011010000111101101101100000000000000100000000",
-      "prices": [],
-      "action": {
-        "opt": "Verify",
-        "cta": "Verify"
-      }
-    },
-    {
-      "n": 56,
-      "file": "56.webp",
-      "url": "https://app.copymind.me/welcome-quiz/email",
-      "path": "/welcome-quiz/email",
-      "title": "Verify your email",
-      "kind": "question",
-      "text": "Verify your email\nWe sent a one-time code to elza280204@gmail.com. Enter it below to log in.\nResend code in 6s\nPlease enter the OTP sent to your email.\nVerify",
-      "textHash": "be6ec3a59468",
-      "dhash": "1000111000010111000011010000110101101101100000000000000100000000",
-      "prices": [],
-      "action": {
-        "cta": "Verify"
-      }
-    },
-    {
-      "n": 57,
-      "file": "57.webp",
-      "url": "https://app.copymind.me/welcome-quiz/email",
-      "path": "/welcome-quiz/email",
-      "title": "Verify your email",
-      "kind": "question",
-      "text": "Verify your email\nWe sent a one-time code to elza280204@gmail.com. Enter it below to log in.\nResend code in 4s\nPlease enter the OTP sent to your email.\nVerify",
-      "textHash": "8ec8c1013d89",
-      "dhash": "1000111000010111000011010000110101101101100000000000000100000000",
-      "prices": [],
-      "action": {
-        "opt": "Verify",
-        "cta": "Verify"
-      }
-    },
-    {
-      "n": 58,
-      "file": "58.webp",
-      "url": "https://app.copymind.me/welcome-quiz/email",
-      "path": "/welcome-quiz/email",
-      "title": "Verify your email",
-      "kind": "question",
-      "text": "Verify your email\nWe sent a one-time code to elza280204@gmail.com. Enter it below to log in.\nResend code in 1s\nPlease enter the OTP sent to your email.\nVerify",
-      "textHash": "64c4b53984a0",
-      "dhash": "1000111000010111010011010000110101101101100000000000000100000000",
-      "prices": [],
-      "action": {
-        "cta": "Verify"
-      }
-    },
-    {
-      "n": 59,
-      "file": "59.webp",
-      "url": "https://app.copymind.me/welcome-quiz/email",
-      "path": "/welcome-quiz/email",
-      "title": "Verify your email",
-      "kind": "question",
-      "text": "Verify your email\nWe sent a one-time code to elza280204@gmail.com. Enter it below to log in.\nResend code\nPlease enter the OTP sent to your email.\nVerify",
-      "textHash": "a8b067dafba2",
-      "dhash": "1000111000010111010011010000110101101101100000000000000100000000",
-      "prices": [],
-      "action": {
-        "opt": "Resend code",
-        "cta": "Verify"
-      }
-    },
-    {
-      "n": 60,
-      "file": "60.webp",
-      "url": "https://app.copymind.me/welcome-quiz/email",
-      "path": "/welcome-quiz/email",
-      "title": "Verify your email",
-      "kind": "question",
-      "text": "Verify your email\nWe sent a one-time code to elza280204@gmail.com. Enter it below to log in.\nResend code in 57s\nPlease enter the OTP sent to your email.\nVerify",
-      "textHash": "8c6ba0cedae8",
-      "dhash": "1000111000010111000011010000110101101101100000000000000100000000",
-      "prices": [],
-      "action": {
-        "cta": "Verify"
-      }
-    },
-    {
-      "n": 61,
-      "file": "61.webp",
-      "url": "https://app.copymind.me/welcome-quiz/email",
-      "path": "/welcome-quiz/email",
-      "title": "Verify your email",
-      "kind": "question",
-      "text": "Verify your email\nWe sent a one-time code to elza280204@gmail.com. Enter it below to log in.\nResend code in 55s\nPlease enter the OTP sent to your email.\nVerify",
-      "textHash": "bf1b618e2802",
-      "dhash": "1000111000010111000011010000111101101101100000000000000100000000",
-      "prices": [],
-      "action": {
-        "opt": "Verify",
-        "cta": "Verify"
-      }
-    },
-    {
-      "n": 62,
-      "file": "62.webp",
-      "url": "https://app.copymind.me/welcome-quiz/email",
-      "path": "/welcome-quiz/email",
-      "title": "Verify your email",
-      "kind": "question",
-      "text": "Verify your email\nWe sent a one-time code to elza280204@gmail.com. Enter it below to log in.\nResend code in 52s\nPlease enter the OTP sent to your email.\nVerify",
-      "textHash": "cd6163d3bf7d",
-      "dhash": "1000111000010111000011010000111101101101100000000000000100000000",
-      "prices": [],
-      "action": {
-        "cta": "Verify"
-      }
-    },
-    {
-      "n": 63,
-      "file": "63.webp",
-      "url": "https://app.copymind.me/welcome-quiz/email",
-      "path": "/welcome-quiz/email",
-      "title": "Verify your email",
-      "kind": "question",
-      "text": "Verify your email\nWe sent a one-time code to elza280204@gmail.com. Enter it below to log in.\nResend code in 50s\nPlease enter the OTP sent to your email.\nVerify",
-      "textHash": "3193e62ad557",
-      "dhash": "1000111000010111000011010000111101101101100000000000000100000000",
-      "prices": [],
-      "action": {
-        "opt": "Verify",
-        "cta": "Verify"
-      }
-    },
-    {
-      "n": 64,
-      "file": "64.webp",
-      "url": "https://app.copymind.me/welcome-quiz/email",
-      "path": "/welcome-quiz/email",
-      "title": "Verify your email",
-      "kind": "question",
-      "text": "Verify your email\nWe sent a one-time code to elza280204@gmail.com. Enter it below to log in.\nResend code in 46s\nPlease enter the OTP sent to your email.\nVerify",
-      "textHash": "e748cdbf1fc9",
-      "dhash": "1000111000010111000011010000111101101101100000000000000100000000",
-      "prices": [],
-      "action": {
-        "cta": "Verify"
-      }
-    },
-    {
-      "n": 65,
-      "file": "65.webp",
-      "url": "https://app.copymind.me/welcome-quiz/email",
-      "path": "/welcome-quiz/email",
-      "title": "Verify your email",
-      "kind": "question",
-      "text": "Verify your email\nWe sent a one-time code to elza280204@gmail.com. Enter it below to log in.\nResend code in 43s\nPlease enter the OTP sent to your email.\nVerify",
-      "textHash": "a0dfe1bc39f2",
-      "dhash": "1000111000010111000011010000111101101101100000000000000100000000",
-      "prices": [],
-      "action": {
-        "opt": "Verify",
-        "cta": "Verify"
-      }
-    },
-    {
-      "n": 66,
-      "file": "66.webp",
-      "url": "https://app.copymind.me/welcome-quiz/email",
-      "path": "/welcome-quiz/email",
-      "title": "Verify your email",
-      "kind": "question",
-      "text": "Verify your email\nWe sent a one-time code to elza280204@gmail.com. Enter it below to log in.\nResend code in 39s\nPlease enter the OTP sent to your email.\nVerify",
-      "textHash": "81c532c5eacb",
-      "dhash": "1000111000010111000011010000111101101101100000000000000100000000",
-      "prices": [],
-      "action": {
-        "cta": "Verify"
-      }
-    },
-    {
-      "n": 67,
-      "file": "67.webp",
-      "url": "https://app.copymind.me/welcome-quiz/email",
-      "path": "/welcome-quiz/email",
-      "title": "Verify your email",
-      "kind": "question",
-      "text": "Verify your email\nWe sent a one-time code to elza280204@gmail.com. Enter it below to log in.\nResend code in 37s\nPlease enter the OTP sent to your email.\nVerify",
-      "textHash": "11330f30dbf8",
-      "dhash": "1000111000010111000011010000110101101101100000000000000100000000",
-      "prices": [],
-      "action": {
-        "opt": "Verify",
-        "cta": "Verify"
-      }
-    },
-    {
-      "n": 68,
-      "file": "68.webp",
-      "url": "https://app.copymind.me/welcome-quiz/email",
-      "path": "/welcome-quiz/email",
-      "title": "Verify your email",
-      "kind": "question",
-      "text": "Verify your email\nWe sent a one-time code to elza280204@gmail.com. Enter it below to log in.\nResend code in 34s\nPlease enter the OTP sent to your email.\nVerify",
-      "textHash": "4ee45428ff1c",
-      "dhash": "1000111000010111000011010000111101101101100000000000000100000000",
-      "prices": [],
-      "action": {
-        "cta": "Verify"
-      }
-    },
-    {
-      "n": 69,
-      "file": "69.webp",
-      "url": "https://app.copymind.me/welcome-quiz/email",
-      "path": "/welcome-quiz/email",
-      "title": "Verify your email",
-      "kind": "question",
-      "text": "Verify your email\nWe sent a one-time code to elza280204@gmail.com. Enter it below to log in.\nResend code in 32s\nPlease enter the OTP sent to your email.\nVerify",
-      "textHash": "131a95e857cd",
-      "dhash": "1000111000010111000011010000111101101101100000000000000100000000",
-      "prices": [],
-      "action": {
-        "opt": "Verify",
-        "cta": "Verify"
-      }
-    },
-    {
-      "n": 70,
-      "file": "70.webp",
-      "url": "https://app.copymind.me/welcome-quiz/email",
-      "path": "/welcome-quiz/email",
-      "title": "Verify your email",
-      "kind": "question",
-      "text": "Verify your email\nWe sent a one-time code to elza280204@gmail.com. Enter it below to log in.\nResend code in 29s\nPlease enter the OTP sent to your email.\nVerify",
-      "textHash": "2811b441b0b4",
-      "dhash": "1000111000010111000011010000111101101101100000000000000100000000",
-      "prices": [],
-      "action": {
-        "cta": "Verify"
-      }
-    },
-    {
-      "n": 71,
-      "file": "71.webp",
-      "url": "https://app.copymind.me/welcome-quiz/email",
-      "path": "/welcome-quiz/email",
-      "title": "Verify your email",
-      "kind": "question",
-      "text": "Verify your email\nWe sent a one-time code to elza280204@gmail.com. Enter it below to log in.\nResend code in 27s\nPlease enter the OTP sent to your email.\nVerify",
-      "textHash": "0d7926d5f155",
-      "dhash": "1000111000010111000011010000110101101101100000000000000100000000",
-      "prices": [],
-      "action": {
-        "opt": "Verify",
-        "cta": "Verify"
-      }
-    },
-    {
-      "n": 72,
-      "file": "72.webp",
-      "url": "https://app.copymind.me/welcome-quiz/email",
-      "path": "/welcome-quiz/email",
-      "title": "Verify your email",
-      "kind": "question",
-      "text": "Verify your email\nWe sent a one-time code to elza280204@gmail.com. Enter it below to log in.\nResend code in 24s\nPlease enter the OTP sent to your email.\nVerify",
-      "textHash": "0ed50ddf7b94",
-      "dhash": "1000111000010111000011010000111101101101100000000000000100000000",
-      "prices": [],
-      "action": {
-        "cta": "Verify"
-      }
-    },
-    {
-      "n": 73,
-      "file": "73.webp",
-      "url": "https://app.copymind.me/welcome-quiz/email",
-      "path": "/welcome-quiz/email",
-      "title": "Verify your email",
-      "kind": "question",
-      "text": "Verify your email\nWe sent a one-time code to elza280204@gmail.com. Enter it below to log in.\nResend code in 22s\nPlease enter the OTP sent to your email.\nVerify",
-      "textHash": "ec71e7d0825c",
-      "dhash": "1000111000010111000011010000111101101101100000000000000100000000",
-      "prices": [],
-      "action": {
-        "opt": "Verify",
-        "cta": "Verify"
-      }
-    },
-    {
-      "n": 74,
-      "file": "74.webp",
-      "url": "https://app.copymind.me/welcome-quiz/email",
-      "path": "/welcome-quiz/email",
-      "title": "Verify your email",
-      "kind": "question",
-      "text": "Verify your email\nWe sent a one-time code to elza280204@gmail.com. Enter it below to log in.\nResend code in 19s\nPlease enter the OTP sent to your email.\nVerify",
-      "textHash": "2efed5024cee",
-      "dhash": "1000111000010111000011010000111101101101100000000000000100000000",
-      "prices": [],
-      "action": {
-        "cta": "Verify"
-      }
-    },
-    {
-      "n": 75,
-      "file": "75.webp",
-      "url": "https://app.copymind.me/welcome-quiz/email",
-      "path": "/welcome-quiz/email",
-      "title": "Verify your email",
-      "kind": "question",
-      "text": "Verify your email\nWe sent a one-time code to elza280204@gmail.com. Enter it below to log in.\nResend code in 17s\nPlease enter the OTP sent to your email.\nVerify",
-      "textHash": "e01e03d36faa",
-      "dhash": "1000111000010111000011010000110101101101100100000000000100000000",
-      "prices": [],
-      "action": {
-        "opt": "Verify",
-        "cta": "Verify"
-      }
-    },
-    {
-      "n": 76,
-      "file": "76.webp",
-      "url": "https://app.copymind.me/welcome-quiz/email",
-      "path": "/welcome-quiz/email",
-      "title": "Verify your email",
-      "kind": "question",
-      "text": "Verify your email\nWe sent a one-time code to elza280204@gmail.com. Enter it below to log in.\nResend code in 14s\nPlease enter the OTP sent to your email.\nVerify",
-      "textHash": "588b14b8fa87",
-      "dhash": "1000111000010111000011010000111101101101100000000000000100000000",
-      "prices": [],
-      "action": {
-        "cta": "Verify"
-      }
-    },
-    {
-      "n": 77,
-      "file": "77.webp",
-      "url": "https://app.copymind.me/welcome-quiz/email",
-      "path": "/welcome-quiz/email",
-      "title": "Verify your email",
-      "kind": "question",
-      "text": "Verify your email\nWe sent a one-time code to elza280204@gmail.com. Enter it below to log in.\nResend code in 12s\nPlease enter the OTP sent to your email.\nVerify",
-      "textHash": "78f1e49cdb0e",
-      "dhash": "1000111000010111000011010000111101101101100000000000000100000000",
-      "prices": [],
-      "action": {
-        "opt": "Verify",
-        "cta": "Verify"
-      }
-    },
-    {
-      "n": 78,
-      "file": "78.webp",
-      "url": "https://app.copymind.me/welcome-quiz/email",
-      "path": "/welcome-quiz/email",
-      "title": "Verify your email",
-      "kind": "question",
-      "text": "Verify your email\nWe sent a one-time code to elza280204@gmail.com. Enter it below to log in.\nResend code in 8s\nPlease enter the OTP sent to your email.\nVerify",
-      "textHash": "1b31d1477de4",
-      "dhash": "1000111000010111010011010000110101001101100000000000000100000000",
-      "prices": [],
-      "action": {
-        "cta": "Verify"
-      }
-    },
-    {
-      "n": 79,
-      "file": "79.webp",
-      "url": "https://app.copymind.me/welcome-quiz/email",
-      "path": "/welcome-quiz/email",
-      "title": "Verify your email",
-      "kind": "question",
-      "text": "Verify your email\nWe sent a one-time code to elza280204@gmail.com. Enter it below to log in.\nResend code in 5s\nPlease enter the OTP sent to your email.\nVerify",
-      "textHash": "567efb5cc711",
-      "dhash": "1000111000010111000011010000110101101101100000000000000100000000",
-      "prices": [],
-      "action": {
-        "opt": "Verify",
-        "cta": "Verify"
-      }
-    },
-    {
-      "n": 80,
-      "file": "80.webp",
-      "url": "https://app.copymind.me/welcome-quiz/email",
-      "path": "/welcome-quiz/email",
-      "title": "Verify your email",
-      "kind": "question",
-      "text": "Verify your email\nWe sent a one-time code to elza280204@gmail.com. Enter it below to log in.\nResend code in 3s\nPlease enter the OTP sent to your email.\nVerify",
-      "textHash": "26baa110970c",
-      "dhash": "1000111000010111010011010000110101001101100000000000000100000000",
-      "prices": [],
-      "action": {
-        "cta": "Verify"
-      }
-    },
-    {
-      "n": 81,
-      "file": "81.webp",
-      "url": "https://app.copymind.me/welcome-quiz/email",
-      "path": "/welcome-quiz/email",
-      "title": "Verify your email",
-      "kind": "question",
-      "text": "Verify your email\nWe sent a one-time code to elza280204@gmail.com. Enter it below to log in.\nResend code\nPlease enter the OTP sent to your email.\nVerify",
-      "textHash": "a8b067dafba2",
-      "dhash": "1000111000010111010011010000110101101101100000000000000100000000",
-      "prices": [],
-      "action": {
-        "opt": "Resend code",
-        "cta": "Verify"
-      }
-    },
-    {
-      "n": 82,
-      "file": "82.webp",
-      "url": "https://app.copymind.me/welcome-quiz/email",
-      "path": "/welcome-quiz/email",
-      "title": "Verify your email",
-      "kind": "question",
-      "text": "Verify your email\nWe sent a one-time code to elza280204@gmail.com. Enter it below to log in.\nResend code in 58s\nPlease enter the OTP sent to your email.\nVerify",
-      "textHash": "5ff94bc2b9cc",
-      "dhash": "1000111000010111000011010000111101101101100000000000000100000000",
-      "prices": [],
-      "action": {
-        "cta": "Verify"
-      }
-    },
-    {
-      "n": 83,
-      "file": "83.webp",
-      "url": "https://app.copymind.me/welcome-quiz/email",
-      "path": "/welcome-quiz/email",
-      "title": "Verify your email",
-      "kind": "question",
-      "text": "Verify your email\nWe sent a one-time code to elza280204@gmail.com. Enter it below to log in.\nResend code in 55s\nPlease enter the OTP sent to your email.\nVerify",
-      "textHash": "bf1b618e2802",
-      "dhash": "1000111000010111000011010000111101101101100000000000000100000000",
-      "prices": [],
-      "action": {
-        "opt": "Verify",
-        "cta": "Verify"
-      }
-    },
-    {
-      "n": 84,
-      "file": "84.webp",
-      "url": "https://app.copymind.me/welcome-quiz/email",
-      "path": "/welcome-quiz/email",
-      "title": "Verify your email",
-      "kind": "question",
-      "text": "Verify your email\nWe sent a one-time code to elza280204@gmail.com. Enter it below to log in.\nResend code in 53s\nPlease enter the OTP sent to your email.\nVerify",
-      "textHash": "e7a88f699bfb",
-      "dhash": "1000111000010111000011010000111101101101100000000000000100000000",
-      "prices": [],
-      "action": {
-        "cta": "Verify"
-      }
-    },
-    {
-      "n": 85,
-      "file": "85.webp",
-      "url": "https://app.copymind.me/welcome-quiz/email",
-      "path": "/welcome-quiz/email",
-      "title": "Verify your email",
-      "kind": "question",
-      "text": "Verify your email\nWe sent a one-time code to elza280204@gmail.com. Enter it below to log in.\nResend code in 51s\nPlease enter the OTP sent to your email.\nVerify",
-      "textHash": "20e8c992f40c",
-      "dhash": "1000111000010111000011010000110101101101100000000000000100000000",
-      "prices": [],
-      "action": {
-        "opt": "Verify",
-        "cta": "Verify"
-      }
-    },
-    {
-      "n": 86,
-      "file": "86.webp",
-      "url": "https://app.copymind.me/welcome-quiz/email",
-      "path": "/welcome-quiz/email",
-      "title": "Verify your email",
-      "kind": "question",
-      "text": "Verify your email\nWe sent a one-time code to elza280204@gmail.com. Enter it below to log in.\nResend code in 48s\nPlease enter the OTP sent to your email.\nVerify",
-      "textHash": "c79ee84e50f6",
-      "dhash": "1000111000010111000011010000111101101101100000000000000100000000",
-      "prices": [],
-      "action": {
-        "cta": "Verify"
-      }
-    },
-    {
-      "n": 87,
-      "file": "87.webp",
-      "url": "https://app.copymind.me/welcome-quiz/email",
-      "path": "/welcome-quiz/email",
-      "title": "Verify your email",
-      "kind": "question",
-      "text": "Verify your email\nWe sent a one-time code to elza280204@gmail.com. Enter it below to log in.\nResend code in 46s\nPlease enter the OTP sent to your email.\nVerify",
-      "textHash": "e748cdbf1fc9",
-      "dhash": "1000111000010111000011010000111101101101100000000000000100000000",
-      "prices": [],
-      "action": {
-        "opt": "Verify",
-        "cta": "Verify"
-      }
-    },
-    {
-      "n": 88,
-      "file": "88.webp",
-      "url": "https://app.copymind.me/welcome-quiz/email",
-      "path": "/welcome-quiz/email",
-      "title": "Verify your email",
-      "kind": "question",
-      "text": "Verify your email\nWe sent a one-time code to elza280204@gmail.com. Enter it below to log in.\nResend code in 43s\nPlease enter the OTP sent to your email.\nVerify",
-      "textHash": "a0dfe1bc39f2",
-      "dhash": "1000111000010111000011010000111101101101100000000000000100000000",
-      "prices": [],
-      "action": {
-        "cta": "Verify"
-      }
-    },
-    {
-      "n": 89,
-      "file": "89.webp",
-      "url": "https://app.copymind.me/welcome-quiz/email",
-      "path": "/welcome-quiz/email",
-      "title": "Verify your email",
-      "kind": "question",
-      "text": "Verify your email\nWe sent a one-time code to elza280204@gmail.com. Enter it below to log in.\nResend code in 41s\nPlease enter the OTP sent to your email.\nVerify",
-      "textHash": "24ed7ab906a0",
-      "dhash": "1000111000010111000011010000110101101101100000000000000100000000",
-      "prices": [],
-      "action": {
-        "opt": "Verify",
-        "cta": "Verify"
-      }
-    },
-    {
-      "n": 90,
-      "file": "90.webp",
-      "url": "https://app.copymind.me/welcome-quiz/email",
-      "path": "/welcome-quiz/email",
-      "title": "Verify your email",
-      "kind": "question",
-      "text": "Verify your email\nWe sent a one-time code to elza280204@gmail.com. Enter it below to log in.\nResend code in 38s\nPlease enter the OTP sent to your email.\nVerify",
-      "textHash": "1a6c51a211b6",
-      "dhash": "1000111000010111000011010000111101101101100000000000000100000000",
-      "prices": [],
-      "action": {
-        "cta": "Verify"
-      }
+      "prices": []
     }
   ],
   "features": {
-    "totalSteps": 90,
-    "stop": "max_steps",
+    "totalSteps": 37,
+    "stop": "email_verification",
     "emailStep": 36,
     "paywallStep": null,
-    "questions": 73,
+    "questions": 19,
     "socialProof": 0,
     "loader": true,
     "prices": [],

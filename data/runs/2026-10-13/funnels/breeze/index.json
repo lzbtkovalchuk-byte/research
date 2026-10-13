@@ -8,16 +8,16 @@
     {
       "key": "try-breeze.com/funnel/childhood",
       "dir": "funnels/breeze/1e1f86ca9474",
-      "stop": "stuck",
-      "steps": 36,
+      "stop": "paywall",
+      "steps": 40,
       "why": "ad",
       "ads": 39
     },
     {
       "key": "try-breeze.com/funnel/childhood_nontrial",
       "dir": "funnels/breeze/21c8661d13b0",
-      "stop": "stuck",
-      "steps": 33,
+      "stop": "paywall",
+      "steps": 36,
       "why": "ad",
       "ads": 1
     }

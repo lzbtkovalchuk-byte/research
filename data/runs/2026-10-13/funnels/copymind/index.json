@@ -8,8 +8,8 @@
     {
       "key": "app.copymind.me/welcome-quiz/gender",
       "dir": "funnels/copymind/2162dca161b4",
-      "stop": "max_steps",
-      "steps": 90,
+      "stop": "email_verification",
+      "steps": 37,
       "why": "seed",
       "ads": 0
     }

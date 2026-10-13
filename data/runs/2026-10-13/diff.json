@@ -95,6 +95,21 @@
             },
             {
               "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
             }
           ],
           "removed": []
@@ -108,6 +123,9 @@
         "getskillnow.com/quiz/voice_assessment/voice_assessment": {
           "firstRun": true,
           "status": [
+            {
+              "s": "baseline"
+            },
             {
               "s": "baseline"
             },
@@ -305,6 +323,21 @@
             },
             {
               "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
             }
           ],
           "removed": []
@@ -313,7 +346,7 @@
     },
     "imprint": {
       "ads": {
-        "active": 590,
+        "active": 580,
         "prevActive": null,
         "delta": null,
         "newInWindow": 6,
@@ -415,7 +448,7 @@
     },
     "breeze": {
       "ads": {
-        "active": 2600,
+        "active": 30,
         "prevActive": null,
         "delta": null,
         "newInWindow": 17,
@@ -548,6 +581,18 @@
             },
             {
               "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
             }
           ],
           "removed": []
@@ -555,6 +600,15 @@
         "try-breeze.com/funnel/childhood_nontrial": {
           "firstRun": true,
           "status": [
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
             {
               "s": "baseline"
             },
@@ -1163,25 +1217,25 @@
     },
     "chillio": {
       "ads": {
-        "active": 370,
+        "active": 23,
         "prevActive": null,
         "delta": null,
-        "newInWindow": 8,
-        "newCreatives": 8
+        "newInWindow": 14,
+        "newCreatives": 12
       },
       "links": [
         {
           "status": "current",
           "key": "quiz.get-chillio.app/qs/cleaning-game",
-          "ads": 15,
+          "ads": 24,
           "first": "2026-09-14",
           "store": false
         },
         {
           "status": "current",
           "key": "quiz.get-chillio.app/qs/house-ai",
-          "ads": 11,
-          "first": "2026-09-06",
+          "ads": 2,
+          "first": "2026-09-19",
           "store": false
         }
       ],
@@ -1283,17 +1337,108 @@
     },
     "learna": {
       "ads": {
-        "active": 0,
+        "active": 180,
         "prevActive": null,
         "delta": null,
-        "newInWindow": 0,
-        "newCreatives": 0
+        "newInWindow": 56,
+        "newCreatives": 55
       },
-      "links": [],
+      "links": [
+        {
+          "status": "current",
+          "key": "instagram.com/_u/carmen.aprendeingles",
+          "ads": 11,
+          "first": "2026-09-15",
+          "store": true
+        },
+        {
+          "status": "current",
+          "key": "apps.codeway.co/learna-ai",
+          "ads": 63,
+          "first": "2026-09-21",
+          "store": false
+        },
+        {
+          "status": "current",
+          "key": "play.google.com/store/apps/details?id=com.codeway.aitutor",
+          "ads": 9,
+          "first": "2026-10-07",
+          "store": true
+        }
+      ],
       "funnels": {
+        "apps.codeway.co/learna-ai": {
+          "firstRun": true,
+          "status": [
+            {
+              "s": "baseline"
+            }
+          ],
+          "removed": []
+        },
         "onboarding.ailearna.com/onboarding": {
           "firstRun": true,
           "status": [
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
             {
               "s": "baseline"
             },
@@ -1342,165 +1487,6 @@
         "app.copymind.me/welcome-quiz/gender": {
           "firstRun": true,
           "status": [
-            {
-              "s": "baseline"
-            },
-            {
-              "s": "baseline"
-            },
-            {
-              "s": "baseline"
-            },
-            {
-              "s": "baseline"
-            },
-            {
-              "s": "baseline"
-            },
-            {
-              "s": "baseline"
-            },
-            {
-              "s": "baseline"
-            },
-            {
-              "s": "baseline"
-            },
-            {
-              "s": "baseline"
-            },
-            {
-              "s": "baseline"
-            },
-            {
-              "s": "baseline"
-            },
-            {
-              "s": "baseline"
-            },
-            {
-              "s": "baseline"
-            },
-            {
-              "s": "baseline"
-            },
-            {
-              "s": "baseline"
-            },
-            {
-              "s": "baseline"
-            },
-            {
-              "s": "baseline"
-            },
-            {
-              "s": "baseline"
-            },
-            {
-              "s": "baseline"
-            },
-            {
-              "s": "baseline"
-            },
-            {
-              "s": "baseline"
-            },
-            {
-              "s": "baseline"
-            },
-            {
-              "s": "baseline"
-            },
-            {
-              "s": "baseline"
-            },
-            {
-              "s": "baseline"
-            },
-            {
-              "s": "baseline"
-            },
-            {
-              "s": "baseline"
-            },
-            {
-              "s": "baseline"
-            },
-            {
-              "s": "baseline"
-            },
-            {
-              "s": "baseline"
-            },
-            {
-              "s": "baseline"
-            },
-            {
-              "s": "baseline"
-            },
-            {
-              "s": "baseline"
-            },
-            {
-              "s": "baseline"
-            },
-            {
-              "s": "baseline"
-            },
-            {
-              "s": "baseline"
-            },
-            {
-              "s": "baseline"
-            },
-            {
-              "s": "baseline"
-            },
-            {
-              "s": "baseline"
-            },
-            {
-              "s": "baseline"
-            },
-            {
-              "s": "baseline"
-            },
-            {
-              "s": "baseline"
-            },
-            {
-              "s": "baseline"
-            },
-            {
-              "s": "baseline"
-            },
-            {
-              "s": "baseline"
-            },
-            {
-              "s": "baseline"
-            },
-            {
-              "s": "baseline"
-            },
-            {
-              "s": "baseline"
-            },
-            {
-              "s": "baseline"
-            },
-            {
-              "s": "baseline"
-            },
-            {
-              "s": "baseline"
-            },
-            {
-              "s": "baseline"
-            },
-            {
-              "s": "baseline"
-            },
             {
               "s": "baseline"
             },
@@ -1703,6 +1689,27 @@
           "status": [
             {
               "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
             }
           ],
           "removed": []
@@ -1711,17 +1718,17 @@
     },
     "smartyme": {
       "ads": {
-        "active": 2170,
+        "active": 209,
         "prevActive": null,
         "delta": null,
-        "newInWindow": 124,
-        "newCreatives": 30
+        "newInWindow": 158,
+        "newCreatives": 38
       },
       "links": [
         {
           "status": "current",
           "key": "start.smartymeapp.com/quiz",
-          "ads": 209,
+          "ads": 258,
           "first": "2026-09-13",
           "store": false
         },
@@ -1737,6 +1744,24 @@
         "start.smartymeapp.com/quiz": {
           "firstRun": true,
           "status": [
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
             {
               "s": "baseline"
             },

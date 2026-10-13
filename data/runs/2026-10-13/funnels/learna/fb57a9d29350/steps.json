@@ -1,0 +1,43 @@
+{
+  "url": "https://apps.codeway.co/learna-ai?cname={{campaign.name}}&cid={{campaign.id}}&aname={{adset.name}}&aid={{adset.id}}&crname={{ad.name}}&crid={{ad.id}}&placement={{placement}}&sitesource={{site_source_name}}",
+  "key": "apps.codeway.co/learna-ai",
+  "why": "ad",
+  "ads": 63,
+  "adShot": "learna-fb57a9d29350.webp",
+  "adId": "1761232975162199",
+  "dir": "funnels/learna/fb57a9d29350",
+  "stop": "stuck",
+  "proxied": false,
+  "steps": [
+    {
+      "n": 1,
+      "file": "01.webp",
+      "url": "https://apps.codeway.co/learna-ai?cname={{campaign.name}}&cid={{campaign.id}}&aname={{adset.name}}&aid={{adset.id}}&crname={{ad.name}}&crid={{ad.id}}&placement={{placement}}&sitesource={{site_source_name}}",
+      "path": "/learna-ai",
+      "title": "Learna AI",
+      "kind": "info",
+      "text": "Learna AI\nEnglish Learning App\nDownload & Start Learning",
+      "textHash": "8c0636ae54bb",
+      "dhash": "0011000000000000101100100111000001100000000010100000000000000000",
+      "prices": [],
+      "action": {
+        "opt": "Download & Start Learning",
+        "cta": "Download & Start Learning"
+      }
+    }
+  ],
+  "features": {
+    "totalSteps": 1,
+    "stop": "stuck",
+    "emailStep": null,
+    "paywallStep": null,
+    "questions": 0,
+    "socialProof": 0,
+    "loader": false,
+    "prices": [],
+    "discount": null,
+    "timer": false,
+    "trial": false,
+    "moneyBack": false
+  }
+}

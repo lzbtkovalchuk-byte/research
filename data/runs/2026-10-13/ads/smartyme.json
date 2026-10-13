@@ -18,8 +18,8 @@
       "value": "smartymeapp.com",
       "url": "https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=US&media_type=all&search_type=keyword_unordered&q=smartymeapp.com",
       "results": 2000,
-      "parsed": 29,
-      "kept": 29
+      "parsed": 39,
+      "kept": 39
     }
   ],
   "ads": [
@@ -652,6 +652,156 @@
       "startedISO": "2026-09-30",
       "key": "start.smartymeapp.com/quiz",
       "store": false
+    },
+    {
+      "id": "1606416624515568",
+      "started": "Oct 10, 2026",
+      "versions": 1,
+      "page": "SmartyMe",
+      "body": "Learn to start any conversation, sound confident, and connect with anyone – in just 10 minutes a day ✨",
+      "caption": "START.SMARTYMEAPP.COM",
+      "headline": "Master the art of SMALL TALK 🗣",
+      "cta": "Learn more",
+      "video": false,
+      "link": "https://start.smartymeapp.com/quiz",
+      "startedISO": "2026-10-10",
+      "key": "start.smartymeapp.com/quiz",
+      "store": false
+    },
+    {
+      "id": "1289691726545172",
+      "started": "Sep 29, 2026",
+      "versions": 5,
+      "page": "SmartyMe: Math Games Lab",
+      "body": "Looking for math games that are more than just time killers?",
+      "caption": null,
+      "headline": "",
+      "cta": "",
+      "video": false,
+      "link": "https://start.smartymeapp.com/quiz",
+      "startedISO": "2026-09-29",
+      "key": "start.smartymeapp.com/quiz",
+      "store": false
+    },
+    {
+      "id": "28087728954238974",
+      "started": "Oct 7, 2026",
+      "versions": 1,
+      "page": "SmartyMe: Finance Made Simple",
+      "body": "Learning doesn’t have to be overwhelming. Microlearning gives you quick, actionable lessons—perfect for busy people. Small steps, big progress!",
+      "caption": "START.SMARTYMEAPP.COM",
+      "headline": "Bite-Sized Knowledge Anytime!",
+      "cta": "Learn more",
+      "video": false,
+      "link": "https://start.smartymeapp.com/quiz",
+      "startedISO": "2026-10-07",
+      "key": "start.smartymeapp.com/quiz",
+      "store": false
+    },
+    {
+      "id": "2248081282405807",
+      "started": "Oct 6, 2026",
+      "versions": 11,
+      "page": "SmartyMe: Charisma Mastery",
+      "body": "Want to speak so people listen?",
+      "caption": null,
+      "headline": "",
+      "cta": "",
+      "video": false,
+      "link": "https://start.smartymeapp.com/quiz",
+      "startedISO": "2026-10-06",
+      "key": "start.smartymeapp.com/quiz",
+      "store": false
+    },
+    {
+      "id": "1379828137642167",
+      "started": "Oct 6, 2026",
+      "versions": 7,
+      "page": "SmartyMe: Electricity Explained",
+      "body": "Electricity explains how the world is powered and how it flows. Just 10 minutes a day to train your understanding of energy, circuits, and how the systems around you actually work. ⚡",
+      "caption": null,
+      "headline": "",
+      "cta": "",
+      "video": false,
+      "link": "https://start.smartymeapp.com/quiz",
+      "startedISO": "2026-10-06",
+      "key": "start.smartymeapp.com/quiz",
+      "store": false
+    },
+    {
+      "id": "1574207754479556",
+      "started": "Oct 8, 2026",
+      "versions": 3,
+      "page": "SmartyMe: Engineering Mindset",
+      "body": "Engineering explains how the world is built and how it works. Just 10 minutes a day to train your problem-solving, systems thinking, and practical understanding of how things are designed and made. 🔧",
+      "caption": null,
+      "headline": "",
+      "cta": "",
+      "video": false,
+      "link": "https://start.smartymeapp.com/quiz",
+      "startedISO": "2026-10-08",
+      "key": "start.smartymeapp.com/quiz",
+      "store": false
+    },
+    {
+      "id": "2021192191922438",
+      "started": "Oct 8, 2026",
+      "versions": 1,
+      "page": "SmartyMe: Electricity Mindset",
+      "body": "Electricity explains how the world is powered and how it flows. Just 10 minutes a day to train your understanding of energy, circuits, and how the systems around you actually work. ⚡",
+      "caption": "START.SMARTYMEAPP.COM",
+      "headline": "Replace scrolling with addictive Electricity lessons ⚡",
+      "cta": "Learn more",
+      "video": false,
+      "link": "https://start.smartymeapp.com/quiz",
+      "startedISO": "2026-10-08",
+      "key": "start.smartymeapp.com/quiz",
+      "store": false
+    },
+    {
+      "id": "1283023133938015",
+      "started": "Oct 9, 2026",
+      "versions": 5,
+      "page": "SmartyMe: Engineering Mindset",
+      "body": "Engineering explains how the world is built and how it works. Just 10 minutes a day to train your problem-solving, systems thinking, and practical understanding of how things are designed and made. 🔧",
+      "caption": null,
+      "headline": "",
+      "cta": "",
+      "video": false,
+      "link": "https://start.smartymeapp.com/quiz",
+      "startedISO": "2026-10-09",
+      "key": "start.smartymeapp.com/quiz",
+      "store": false
+    },
+    {
+      "id": "1746677099933078",
+      "started": "Sep 23, 2026",
+      "versions": 14,
+      "page": "SmartyMe: Math Games Lab",
+      "body": "Looking for math games that are more than just time killers?",
+      "caption": null,
+      "headline": "",
+      "cta": "",
+      "video": false,
+      "link": "https://start.smartymeapp.com/quiz",
+      "startedISO": "2026-09-23",
+      "key": "start.smartymeapp.com/quiz",
+      "store": false
+    },
+    {
+      "id": "1435318581799706",
+      "started": "Sep 15, 2026",
+      "versions": 1,
+      "page": "SmartyMe: Engineering Mindset",
+      "body": "Engineering explains how the world is built and how it works. Just 10 minutes a day to train your problem-solving, systems thinking, and practical understanding of how things are designed and made. 🔧",
+      "caption": "START.SMARTYMEAPP.COM",
+      "headline": "Replace scrolling with addictive Engineering lessons 🔧",
+      "cta": "Learn more",
+      "video": false,
+      "link": "https://start.smartymeapp.com/quiz",
+      "startedISO": "2026-09-15",
+      "key": "start.smartymeapp.com/quiz",
+      "store": false
     }
   ],
   "landing": {
@@ -659,8 +809,8 @@
       "key": "start.smartymeapp.com/quiz",
       "sample": "https://start.smartymeapp.com/quiz",
       "store": false,
-      "ads": 209,
-      "creatives": 37,
+      "ads": 258,
+      "creatives": 47,
       "first": "2026-09-13",
       "last": "2026-10-10",
       "adIds": [
@@ -700,8 +850,20 @@
         "1089303790311343",
         "1655843675957810",
         "1316412507063292",
-        "1501110935176863"
-      ]
+        "1501110935176863",
+        "1606416624515568",
+        "1289691726545172",
+        "28087728954238974",
+        "2248081282405807",
+        "1379828137642167",
+        "1574207754479556",
+        "2021192191922438",
+        "1283023133938015",
+        "1746677099933078",
+        "1435318581799706"
+      ],
+      "shot": "smartyme-5353a564ba54.webp",
+      "shotAd": "1658538298950433"
     },
     "smartymeapp.onelink.me/gdRe?deep_link_value=smartyme-a20": {
       "key": "smartymeapp.onelink.me/gdRe?deep_link_value=smartyme-a20",
@@ -717,7 +879,9 @@
         "1107039605119176",
         "1660100999112427",
         "2143740622889908"
-      ]
+      ],
+      "shot": "smartyme-e19d9d6703db.webp",
+      "shotAd": "1107039605119176"
     }
   },
   "pageIds": {
@@ -739,8 +903,8 @@
     "SmartyMe: The Art of Small Talk": "873804879159481",
     "SmartyMe: The World of Physics": "1001253896395416"
   },
-  "activeEstimate": 2170,
-  "parsedCreatives": 42,
-  "newInWindow": 124,
-  "newCreativesInWindow": 30
+  "activeEstimate": 209,
+  "parsedCreatives": 52,
+  "newInWindow": 158,
+  "newCreativesInWindow": 38
 }

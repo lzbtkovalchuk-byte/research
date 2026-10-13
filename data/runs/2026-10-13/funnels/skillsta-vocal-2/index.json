@@ -8,8 +8,8 @@
     {
       "key": "getskillnow.com/quiz",
       "dir": "funnels/skillsta-vocal-2/4ad23ce9af85",
-      "stop": "stuck",
-      "steps": 29,
+      "stop": "email_verification",
+      "steps": 34,
       "why": "seed",
       "ads": 0
     }

@@ -11,7 +11,7 @@
       "stop": "stuck",
       "steps": 14,
       "why": "ad",
-      "ads": 15
+      "ads": 24
     },
     {
       "key": "quiz.get-chillio.app/qs/house-ai",
@@ -19,7 +19,7 @@
       "stop": "stuck",
       "steps": 13,
       "why": "ad",
-      "ads": 11
+      "ads": 2
     }
   ]
 }

@@ -19,7 +19,10 @@
       "text": "Step 1 of 4\nCreativity that helps your child grow\nEasy, step-by-step lessons kids love\nChild safe with no ads\nLearn to draw with a real pencil and paper\nCreated with love by teachers & artists\nGrow Your Child’s Skills",
       "textHash": "a18d5dac8729",
       "dhash": "0000011000001111011011110101101100111100110011100101011111001101",
-      "prices": []
+      "prices": [],
+      "action": {
+        "cta": "Grow Your Child’s Skills"
+      }
     },
     {
       "n": 2,
@@ -31,7 +34,11 @@
       "text": "Step 2 of 4\nStep 2 of 4\nCreate your account to access your FREE 7 day trial!\nCREATE FREE ACCOUNT",
       "textHash": "9217866c01b4",
       "dhash": "0111011100001111000010110011001100110011110010000010001000000000",
-      "prices": []
+      "prices": [],
+      "action": {
+        "filled": true,
+        "cta": "CREATE FREE ACCOUNT"
+      }
     },
     {
       "n": 3,

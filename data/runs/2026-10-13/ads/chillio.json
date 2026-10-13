@@ -9,9 +9,9 @@
       "type": "domain",
       "value": "get-chillio.app",
       "url": "https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=US&media_type=all&search_type=keyword_unordered&q=get-chillio.app",
-      "results": 370,
+      "results": 360,
       "parsed": 30,
-      "kept": 26
+      "kept": 23
     }
   ],
   "ads": [
@@ -43,21 +43,6 @@
       "link": "https://quiz.get-chillio.app/qs/cleaning-game?utm_source=CHI_web_fb&utm_campaign={{campaign.name}}&utm_content={{adset.name}}&utm_ad={{ad.name}}&utm_id={{campaign.id}}&utm_term={{adset.id}}&ad_id={{ad.id}}",
       "startedISO": "2026-09-14",
       "key": "quiz.get-chillio.app/qs/cleaning-game",
-      "store": false
-    },
-    {
-      "id": "2272738363543676",
-      "started": "Sep 6, 2026",
-      "versions": 1,
-      "page": "Emma Carter",
-      "body": "Waking up to yesterday's mess. Promising today would be different. My day, starting with evidence of my failure before coffee. The cycle felt permanent. Until it wasn't...",
-      "caption": null,
-      "headline": "",
-      "cta": "",
-      "video": false,
-      "link": "https://quiz.get-chillio.app/qs/house-ai?utm_source=CHI_web_fb&utm_campaign={{campaign.name}}&utm_content={{adset.name}}&utm_ad={{ad.name}}&utm_id={{campaign.id}}&utm_term={{adset.id}}&ad_id={{ad.id}}",
-      "startedISO": "2026-09-06",
-      "key": "quiz.get-chillio.app/qs/house-ai",
       "store": false
     },
     {
@@ -106,21 +91,6 @@
       "store": false
     },
     {
-      "id": "1761330391852037",
-      "started": "Sep 6, 2026",
-      "versions": 1,
-      "page": "Emma Carter",
-      "body": "Waking up to yesterday's mess. Promising today would be different. My day, starting with evidence of my failure before coffee. The cycle felt permanent. Until it wasn't...",
-      "caption": null,
-      "headline": "",
-      "cta": "",
-      "video": false,
-      "link": "https://quiz.get-chillio.app/qs/house-ai?utm_source=CHI_web_fb&utm_campaign={{campaign.name}}&utm_content={{adset.name}}&utm_ad={{ad.name}}&utm_id={{campaign.id}}&utm_term={{adset.id}}&ad_id={{ad.id}}",
-      "startedISO": "2026-09-06",
-      "key": "quiz.get-chillio.app/qs/house-ai",
-      "store": false
-    },
-    {
       "id": "1094686076347802",
       "started": "Sep 14, 2026",
       "versions": 1,
@@ -148,36 +118,6 @@
       "link": "https://quiz.get-chillio.app/qs/cleaning-game?utm_source=CHI_web_fb&utm_campaign={{campaign.name}}&utm_content={{adset.name}}&utm_ad={{ad.name}}&utm_id={{campaign.id}}&utm_term={{adset.id}}&ad_id={{ad.id}}",
       "startedISO": "2026-09-14",
       "key": "quiz.get-chillio.app/qs/cleaning-game",
-      "store": false
-    },
-    {
-      "id": "1853832565980311",
-      "started": "Sep 6, 2026",
-      "versions": 1,
-      "page": "Emma Carter",
-      "body": "Waking up to yesterday's mess. Promising today would be different. My day, starting with evidence of my failure before coffee. The cycle felt permanent. Until it wasn't...",
-      "caption": null,
-      "headline": "",
-      "cta": "",
-      "video": false,
-      "link": "https://quiz.get-chillio.app/qs/house-ai?utm_source=CHI_web_fb&utm_campaign={{campaign.name}}&utm_content={{adset.name}}&utm_ad={{ad.name}}&utm_id={{campaign.id}}&utm_term={{adset.id}}&ad_id={{ad.id}}",
-      "startedISO": "2026-09-06",
-      "key": "quiz.get-chillio.app/qs/house-ai",
-      "store": false
-    },
-    {
-      "id": "1814427419975602",
-      "started": "Sep 6, 2026",
-      "versions": 1,
-      "page": "Emma Carter",
-      "body": "Waking up to yesterday's mess. Promising today would be different. My day, starting with evidence of my failure before coffee. The cycle felt permanent. Until it wasn't...",
-      "caption": null,
-      "headline": "",
-      "cta": "",
-      "video": false,
-      "link": "https://quiz.get-chillio.app/qs/house-ai?utm_source=CHI_web_fb&utm_campaign={{campaign.name}}&utm_content={{adset.name}}&utm_ad={{ad.name}}&utm_id={{campaign.id}}&utm_term={{adset.id}}&ad_id={{ad.id}}",
-      "startedISO": "2026-09-06",
-      "key": "quiz.get-chillio.app/qs/house-ai",
       "store": false
     },
     {
@@ -256,21 +196,6 @@
       "store": false
     },
     {
-      "id": "2223200688537209",
-      "started": "Sep 6, 2026",
-      "versions": 1,
-      "page": "Emma Carter",
-      "body": "Waking up to yesterday's mess. Promising today would be different. My day, starting with evidence of my failure before coffee. The cycle felt permanent. Until it wasn't...",
-      "caption": null,
-      "headline": "",
-      "cta": "",
-      "video": false,
-      "link": "https://quiz.get-chillio.app/qs/house-ai?utm_source=CHI_web_fb&utm_campaign={{campaign.name}}&utm_content={{adset.name}}&utm_ad={{ad.name}}&utm_id={{campaign.id}}&utm_term={{adset.id}}&ad_id={{ad.id}}",
-      "startedISO": "2026-09-06",
-      "key": "quiz.get-chillio.app/qs/house-ai",
-      "store": false
-    },
-    {
       "id": "4718446005096513",
       "started": "Oct 6, 2026",
       "versions": 1,
@@ -286,21 +211,6 @@
       "store": false
     },
     {
-      "id": "1101558929184496",
-      "started": "Sep 6, 2026",
-      "versions": 1,
-      "page": "Emma Carter",
-      "body": "Waking up to yesterday's mess. Promising today would be different. My day, starting with evidence of my failure before coffee. The cycle felt permanent. Until it wasn't...",
-      "caption": null,
-      "headline": "",
-      "cta": "",
-      "video": false,
-      "link": "https://quiz.get-chillio.app/qs/house-ai?utm_source=CHI_web_fb&utm_campaign={{campaign.name}}&utm_content={{adset.name}}&utm_ad={{ad.name}}&utm_id={{campaign.id}}&utm_term={{adset.id}}&ad_id={{ad.id}}",
-      "startedISO": "2026-09-06",
-      "key": "quiz.get-chillio.app/qs/house-ai",
-      "store": false
-    },
-    {
       "id": "2066417253981982",
       "started": "Oct 9, 2026",
       "versions": 1,
@@ -313,21 +223,6 @@
       "link": "https://quiz.get-chillio.app/qs/cleaning-game?utm_source=CHI_web_fb&utm_campaign={{campaign.name}}&utm_content={{adset.name}}&utm_ad={{ad.name}}&utm_id={{campaign.id}}&utm_term={{adset.id}}&ad_id={{ad.id}}",
       "startedISO": "2026-10-09",
       "key": "quiz.get-chillio.app/qs/cleaning-game",
-      "store": false
-    },
-    {
-      "id": "1613757940370665",
-      "started": "Sep 6, 2026",
-      "versions": 1,
-      "page": "Emma Carter",
-      "body": "Waking up to yesterday's mess. Promising today would be different. My day, starting with evidence of my failure before coffee. The cycle felt permanent. Until it wasn't...",
-      "caption": null,
-      "headline": "",
-      "cta": "",
-      "video": false,
-      "link": "https://quiz.get-chillio.app/qs/house-ai?utm_source=CHI_web_fb&utm_campaign={{campaign.name}}&utm_content={{adset.name}}&utm_ad={{ad.name}}&utm_id={{campaign.id}}&utm_term={{adset.id}}&ad_id={{ad.id}}",
-      "startedISO": "2026-09-06",
-      "key": "quiz.get-chillio.app/qs/house-ai",
       "store": false
     },
     {
@@ -361,21 +256,6 @@
       "store": false
     },
     {
-      "id": "2478218049367816",
-      "started": "Sep 6, 2026",
-      "versions": 1,
-      "page": "Emma Carter",
-      "body": "Waking up to yesterday's mess. Promising today would be different. My day, starting with evidence of my failure before coffee. The cycle felt permanent. Until it wasn't...",
-      "caption": null,
-      "headline": "",
-      "cta": "",
-      "video": false,
-      "link": "https://quiz.get-chillio.app/qs/house-ai?utm_source=CHI_web_fb&utm_campaign={{campaign.name}}&utm_content={{adset.name}}&utm_ad={{ad.name}}&utm_id={{campaign.id}}&utm_term={{adset.id}}&ad_id={{ad.id}}",
-      "startedISO": "2026-09-06",
-      "key": "quiz.get-chillio.app/qs/house-ai",
-      "store": false
-    },
-    {
       "id": "2284940732079422",
       "started": "Oct 7, 2026",
       "versions": 1,
@@ -391,18 +271,93 @@
       "store": false
     },
     {
-      "id": "29435912132666220",
-      "started": "Sep 6, 2026",
-      "versions": 1,
-      "page": "Emma Carter",
+      "id": "1089301126852271",
+      "started": "Sep 21, 2026",
+      "versions": 2,
+      "page": "The Home Glow Up",
       "body": "Waking up to yesterday's mess. Promising today would be different. My day, starting with evidence of my failure before coffee. The cycle felt permanent. Until it wasn't...",
       "caption": null,
       "headline": "",
       "cta": "",
       "video": false,
-      "link": "https://quiz.get-chillio.app/qs/house-ai?utm_source=CHI_web_fb&utm_campaign={{campaign.name}}&utm_content={{adset.name}}&utm_ad={{ad.name}}&utm_id={{campaign.id}}&utm_term={{adset.id}}&ad_id={{ad.id}}",
-      "startedISO": "2026-09-06",
-      "key": "quiz.get-chillio.app/qs/house-ai",
+      "link": "https://quiz.get-chillio.app/qs/cleaning-game?utm_source=CHI_web_fb&utm_campaign={{campaign.name}}&utm_content={{adset.name}}&utm_ad={{ad.name}}&utm_id={{campaign.id}}&utm_term={{adset.id}}&ad_id={{ad.id}}",
+      "startedISO": "2026-09-21",
+      "key": "quiz.get-chillio.app/qs/cleaning-game",
+      "store": false
+    },
+    {
+      "id": "1613691803606769",
+      "started": "Sep 21, 2026",
+      "versions": 1,
+      "page": "The Home Glow Up",
+      "body": "Waking up to yesterday's mess. Promising today would be different. My day, starting with evidence of my failure before coffee. The cycle felt permanent. Until it wasn't...",
+      "caption": null,
+      "headline": "",
+      "cta": "",
+      "video": false,
+      "link": "https://quiz.get-chillio.app/qs/cleaning-game?utm_source=CHI_web_fb&utm_campaign={{campaign.name}}&utm_content={{adset.name}}&utm_ad={{ad.name}}&utm_id={{campaign.id}}&utm_term={{adset.id}}&ad_id={{ad.id}}",
+      "startedISO": "2026-09-21",
+      "key": "quiz.get-chillio.app/qs/cleaning-game",
+      "store": false
+    },
+    {
+      "id": "1844359490339599",
+      "started": "Oct 9, 2026",
+      "versions": 1,
+      "page": "The Home Glow Up",
+      "body": "Waking up to yesterday's mess. Promising today would be different. My day, starting with evidence of my failure before coffee. The cycle felt permanent. Until it wasn't...",
+      "caption": null,
+      "headline": "",
+      "cta": "",
+      "video": false,
+      "link": "https://quiz.get-chillio.app/qs/cleaning-game?utm_source=CHI_web_fb&utm_campaign={{campaign.name}}&utm_content={{adset.name}}&utm_ad={{ad.name}}&utm_id={{campaign.id}}&utm_term={{adset.id}}&ad_id={{ad.id}}",
+      "startedISO": "2026-10-09",
+      "key": "quiz.get-chillio.app/qs/cleaning-game",
+      "store": false
+    },
+    {
+      "id": "1420444883393649",
+      "started": "Oct 9, 2026",
+      "versions": 1,
+      "page": "The Home Glow Up",
+      "body": "Waking up to yesterday's mess. Promising today would be different. My day, starting with evidence of my failure before coffee. The cycle felt permanent. Until it wasn't...",
+      "caption": null,
+      "headline": "",
+      "cta": "",
+      "video": false,
+      "link": "https://quiz.get-chillio.app/qs/cleaning-game?utm_source=CHI_web_fb&utm_campaign={{campaign.name}}&utm_content={{adset.name}}&utm_ad={{ad.name}}&utm_id={{campaign.id}}&utm_term={{adset.id}}&ad_id={{ad.id}}",
+      "startedISO": "2026-10-09",
+      "key": "quiz.get-chillio.app/qs/cleaning-game",
+      "store": false
+    },
+    {
+      "id": "1721809082232458",
+      "started": "Oct 6, 2026",
+      "versions": 2,
+      "page": "The Home Glow Up",
+      "body": "Waking up to yesterday's mess. Promising today would be different. My day, starting with evidence of my failure before coffee. The cycle felt permanent. Until it wasn't...",
+      "caption": null,
+      "headline": "",
+      "cta": "",
+      "video": false,
+      "link": "https://quiz.get-chillio.app/qs/cleaning-game?utm_source=CHI_web_fb&utm_campaign={{campaign.name}}&utm_content={{adset.name}}&utm_ad={{ad.name}}&utm_id={{campaign.id}}&utm_term={{adset.id}}&ad_id={{ad.id}}",
+      "startedISO": "2026-10-06",
+      "key": "quiz.get-chillio.app/qs/cleaning-game",
+      "store": false
+    },
+    {
+      "id": "3699239120238837",
+      "started": "Oct 8, 2026",
+      "versions": 2,
+      "page": "The Home Glow Up",
+      "body": "My best friend bet me $50 that one week of following a plan would fix a house that hadn't been clean since my wedding day.",
+      "caption": null,
+      "headline": "",
+      "cta": "",
+      "video": false,
+      "link": "https://quiz.get-chillio.app/qs/cleaning-game?utm_source=CHI_web_fb&utm_campaign={{campaign.name}}&utm_content={{adset.name}}&utm_ad={{ad.name}}&utm_id={{campaign.id}}&utm_term={{adset.id}}&ad_id={{ad.id}}",
+      "startedISO": "2026-10-08",
+      "key": "quiz.get-chillio.app/qs/cleaning-game",
       "store": false
     }
   ],
@@ -411,8 +366,8 @@
       "key": "quiz.get-chillio.app/qs/cleaning-game",
       "sample": "https://quiz.get-chillio.app/qs/cleaning-game?utm_source=CHI_web_fb&utm_campaign={{campaign.name}}&utm_content={{adset.name}}&utm_ad={{ad.name}}&utm_id={{campaign.id}}&utm_term={{adset.id}}&ad_id={{ad.id}}",
       "store": false,
-      "ads": 15,
-      "creatives": 15,
+      "ads": 24,
+      "creatives": 21,
       "first": "2026-09-14",
       "last": "2026-10-09",
       "adIds": [
@@ -430,7 +385,13 @@
         "2066417253981982",
         "1470097455173824",
         "2316668492468485",
-        "2284940732079422"
+        "2284940732079422",
+        "1089301126852271",
+        "1613691803606769",
+        "1844359490339599",
+        "1420444883393649",
+        "1721809082232458",
+        "3699239120238837"
       ],
       "shot": "chillio-32c02a42bd3b.webp",
       "shotAd": "2120356698570693"
@@ -439,22 +400,13 @@
       "key": "quiz.get-chillio.app/qs/house-ai",
       "sample": "https://quiz.get-chillio.app/qs/house-ai?utm_source=CHI_web_fb&utm_campaign={{campaign.name}}&utm_content={{adset.name}}&utm_ad={{ad.name}}&utm_id={{campaign.id}}&utm_term={{adset.id}}&ad_id={{ad.id}}",
       "store": false,
-      "ads": 11,
-      "creatives": 11,
-      "first": "2026-09-06",
+      "ads": 2,
+      "creatives": 2,
+      "first": "2026-09-19",
       "last": "2026-09-30",
       "adIds": [
-        "2272738363543676",
         "1056268130485832",
-        "1761330391852037",
-        "1853832565980311",
-        "1814427419975602",
-        "1313799237423184",
-        "2223200688537209",
-        "1101558929184496",
-        "1613757940370665",
-        "2478218049367816",
-        "29435912132666220"
+        "1313799237423184"
       ],
       "shot": "chillio-7b6db541533d.webp",
       "shotAd": "1313799237423184"
@@ -468,8 +420,8 @@
     "Chillio App": "1317046298157194",
     "Julia Ray": "992165040635354"
   },
-  "activeEstimate": 370,
-  "parsedCreatives": 26,
-  "newInWindow": 8,
-  "newCreativesInWindow": 8
+  "activeEstimate": 23,
+  "parsedCreatives": 23,
+  "newInWindow": 14,
+  "newCreativesInWindow": 12
 }

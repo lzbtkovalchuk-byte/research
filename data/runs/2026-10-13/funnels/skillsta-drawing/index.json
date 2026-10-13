@@ -8,8 +8,8 @@
     {
       "key": "start.getskillnow.com/quiz",
       "dir": "funnels/skillsta-drawing/953d129ce40c",
-      "stop": "stuck",
-      "steps": 30,
+      "stop": "email_verification",
+      "steps": 35,
       "why": "seed",
       "ads": 0
     }

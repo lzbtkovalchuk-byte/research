@@ -6,7 +6,7 @@
   "adShot": null,
   "adId": null,
   "dir": "funnels/skillsta-drawing/953d129ce40c",
-  "stop": "stuck",
+  "stop": "email_verification",
   "proxied": false,
   "steps": [
     {
@@ -467,16 +467,90 @@
       "dhash": "0010101100111001001000000000000010000000010001010101001100110011",
       "prices": [],
       "action": {
-        "opt": "We're tailoring your personal confident drawing plan…"
+        "opt": "Yes"
       }
+    },
+    {
+      "n": 31,
+      "file": "31.webp",
+      "url": "https://start.getskillnow.com/quiz/standard-rate/drawing?utm_adname=cf_drawing&funnel-state=stepNumber:30",
+      "path": "/quiz/standard-rate/drawing",
+      "title": "✅",
+      "kind": "question",
+      "text": "We're tailoring your personal confident drawing plan…\nGoals\n✅\nAnalyzing interests...\n72%\nTo improve recommendations, specify\nDo you want techniques matched to what you love drawing?\nYes\nNo\nTerms & Conditions • Privacy Policy • Subscription Policy",
+      "textHash": "8f460c551ac3",
+      "dhash": "0000101101010101000101010000001010010000010001110011001100110011",
+      "prices": [],
+      "action": {
+        "opt": "Yes"
+      }
+    },
+    {
+      "n": 32,
+      "file": "32.webp",
+      "url": "https://start.getskillnow.com/quiz/standard-rate/drawing?utm_adname=cf_drawing&funnel-state=stepNumber:30",
+      "path": "/quiz/standard-rate/drawing",
+      "title": "✅",
+      "kind": "question",
+      "text": "We're tailoring your personal confident drawing plan…\nGoals\n✅\nInterests\n✅\nIdentifying challenges...\n63%\nTo improve recommendations, specify\nDo you need a friendly push when things get hard?\nYes\nNo\nTerms & Conditions • Privacy Policy • Subscription Policy",
+      "textHash": "3e07fbb602a9",
+      "dhash": "0010101101100001011011010000101110100010000010010101011100110011",
+      "prices": [],
+      "action": {
+        "opt": "Yes"
+      }
+    },
+    {
+      "n": 33,
+      "file": "33.webp",
+      "url": "https://start.getskillnow.com/quiz/standard-rate/drawing?utm_adname=cf_drawing&funnel-state=stepNumber:30",
+      "path": "/quiz/standard-rate/drawing",
+      "title": "✅",
+      "kind": "question",
+      "text": "We're tailoring your personal confident drawing plan…\nGoals\n✅\nInterests\n✅\nChallenges\n✅\nPicking content...\n56%\nTo improve recommendations, specify\nAre you inclined to finish what you start?\nYes\nNo\nTerms & Conditions • Privacy Policy • Subscription Policy",
+      "textHash": "c1b5dfa9f94a",
+      "dhash": "0010101101100101011001010011100100100100010000110100101100110011",
+      "prices": [],
+      "action": {
+        "opt": "Yes",
+        "cta": "Continue"
+      }
+    },
+    {
+      "n": 34,
+      "file": "34.webp",
+      "url": "https://start.getskillnow.com/quiz/standard-rate/drawing/sign-up?utm_adname=cf_drawing&funnel-state=stepNumber:31",
+      "path": "/quiz/standard-rate/drawing/sign-up",
+      "title": "Enter your email to get your personal plan",
+      "kind": "email",
+      "text": "Enter your email to get your personal plan\nDon't worry, no ads or spam from us.\nWe promise!\nBy continuing you indicate that you've read and agree to our Terms & Conditions, Privacy Policy and Subscription Policy\nI agree to receive the latest news and updates via email\nContinue\nTerms & Conditions • Privacy Policy • Subscription Policy",
+      "textHash": "7218c982728b",
+      "dhash": "0000011100001111011000100111000101010001100000100100000100100011",
+      "prices": [],
+      "action": {
+        "filled": true,
+        "cta": "Continue"
+      }
+    },
+    {
+      "n": 35,
+      "file": "35.webp",
+      "url": "https://start.getskillnow.com/quiz/standard-rate/drawing/sign-up?utm_adname=cf_drawing&funnel-state=stepNumber:31",
+      "path": "/quiz/standard-rate/drawing/sign-up",
+      "title": "Enter verification code",
+      "kind": "info",
+      "text": "Enter verification code\nWe've sent the code to elza280204@gmail.com\nContinue\nCan’t find the code? Check your Spam folder\nTerms & Conditions • Privacy Policy • Subscription Policy",
+      "textHash": "dad1b789a96e",
+      "dhash": "0000111100010111011100011000101000000001000000001000000000100011",
+      "prices": []
     }
   ],
   "features": {
-    "totalSteps": 30,
-    "stop": "stuck",
-    "emailStep": null,
+    "totalSteps": 35,
+    "stop": "email_verification",
+    "emailStep": 34,
     "paywallStep": null,
-    "questions": 24,
+    "questions": 27,
     "socialProof": 2,
     "loader": false,
     "prices": [],
