@@ -17,7 +17,7 @@
       "title": "No song is out of reach",
       "kind": "info",
       "text": "No song is out of reach\nEnjoy singing your favorite songs adjusted to your voice\nGET STARTED\n4.7 stars from over 200k singers",
-      "textHash": "437688eeda8c",
+      "textHash": "a6cb87a66917",
       "dhash": "0000101000001100000001001011001000111101000111100000011100000111",
       "prices": [],
       "action": {
@@ -32,7 +32,7 @@
       "title": "Let’s customize your experience",
       "kind": "info",
       "text": "Let’s customize your experience\nSimply Sing is tailored to your unique voice and singing preferences\nLet’s go",
-      "textHash": "9427dde278ce",
+      "textHash": "7beebfcd4974",
       "dhash": "0110001100101011010100111000110000000111100100111101110000001111",
       "prices": [],
       "action": {
@@ -46,9 +46,9 @@
       "path": "/start/conversation/why_do_you_sing",
       "title": "Why do you sing?",
       "kind": "question",
-      "text": "Why do you sing?\nYou can pick more than one\nIt makes me feel good\nIt helps me relax\nIts helps me express myself\nOther\nCONTINUE",
-      "textHash": "5b6a71d617da",
-      "dhash": "0110100100101011100001001001110010010000000000010000000000001101",
+      "text": "Why do you sing?\nYou can pick more than one\nIts helps me express myself\nIt makes me feel good\nIt helps me relax\nOther\nCONTINUE",
+      "textHash": "b9ffdfa1f9fd",
+      "dhash": "0110100100101011100001101001110010010100000000010000000000001101",
       "prices": [],
       "action": {
         "opt": "It makes me feel good",
@@ -63,7 +63,7 @@
       "title": "Singing activates feel-good boosters",
       "kind": "info",
       "text": "Singing activates feel-good boosters\nEndorphins lift your mood by 30% and cut stress by 25%. Ready to make it even more fun?\nCONTINUE",
-      "textHash": "ec52b63d5da8",
+      "textHash": "7b3bc8d69633",
       "dhash": "1011001001001100000011010011001100001111000001000110001000001101",
       "prices": [],
       "action": {
@@ -77,12 +77,12 @@
       "path": "/start/conversation/song_generes",
       "title": "What kinds of songs do you like to sing?",
       "kind": "question",
-      "text": "What kinds of songs do you like to sing?\nChoose your top 3 genres\nTV & Movies\nR&B & Soul\nDisney\nPop\nHip Hop & Rap\nChristian & Gospel\nRock\nJazz & Blues\nMusicals\nCountry & Folk\nCONTINUE",
-      "textHash": "268e0b6a894e",
-      "dhash": "0011101100000111100001101001100010110000100011001001110000000101",
+      "text": "What kinds of songs do you like to sing?\nChoose your top 3 genres\nMusicals\nR&B & Soul\nPop\nHip Hop & Rap\nRock\nCountry & Folk\nChristian & Gospel\nDisney\nTV & Movies\nJazz & Blues\nCONTINUE",
+      "textHash": "89eaf25118b8",
+      "dhash": "0011101100000111100101101001100010111100100110001000110001000101",
       "prices": [],
       "action": {
-        "opt": "TV & Movies + R&B & Soul + Disney",
+        "opt": "Musicals + R&B & Soul + Pop",
         "cta": "CONTINUE"
       }
     },
@@ -94,8 +94,8 @@
       "title": "All genres, made to fit your voice",
       "kind": "info",
       "text": "All genres, made to fit your voice\nPacked with your favorites, our library adjusts every song to your range so you hit every note\nCONTINUE",
-      "textHash": "ea979e6a3c47",
-      "dhash": "0011001100110011000110110010010011101100010111001100100100000011",
+      "textHash": "8597142d9da1",
+      "dhash": "0011001100110011000100110010010011101100110110001100100100000011",
       "prices": [],
       "action": {
         "cta": "CONTINUE"
@@ -109,7 +109,7 @@
       "title": "What best describes your voice?",
       "kind": "question",
       "text": "What best describes your voice?\nGender can influence where your voice naturally sits\nFemale voice\nMale voice",
-      "textHash": "4b752e8d4860",
+      "textHash": "4567608077b4",
       "dhash": "1001001000001111010011011011001010110000010000010001000000000000",
       "prices": [],
       "action": {

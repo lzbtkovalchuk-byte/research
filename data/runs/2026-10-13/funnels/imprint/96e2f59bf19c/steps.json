@@ -17,7 +17,7 @@
       "title": "Replace scrolling withArt",
       "kind": "info",
       "text": "Replace scrolling withArt\nTake our 2-minute quiz to get started.\nBy clicking \"Get Started\", you agree to our\nTerms of Service and Privacy Policy.\nGet Started",
-      "textHash": "0689a7e805aa",
+      "textHash": "c7fea545c185",
       "dhash": "1011000010101010111000011110010011110010011100011110100011001100",
       "prices": [],
       "action": {
@@ -32,7 +32,7 @@
       "title": "What is your age?",
       "kind": "question",
       "text": "What is your age?\n18-24\n25-34\n35-44\n45 or older\nWhat best describes you?\nMale\nFemale\nNon-binary\nPrefer not to say",
-      "textHash": "ceba9bdade1c",
+      "textHash": "78c77b094460",
       "dhash": "0110100101101000000010000000000000001000001100010011000100110001",
       "prices": [],
       "action": {
@@ -47,7 +47,7 @@
       "title": "What is your age?",
       "kind": "social_proof",
       "text": "What is your age?\n18-24\n25-34\n35-44\n45 or older\nWhat best describes you?\nMale\nFemale\nNon-binary\nPrefer not to say\nOver 5 million people are already exploring Art with us\nJoin our community to explore the artists, movements, and masterpieces that shaped art into what it is today.",
-      "textHash": "a25d428e5ea5",
+      "textHash": "aa3c6da9f600",
       "dhash": "1101000011010100000000100000000000001000001100010011001100110001",
       "prices": [],
       "action": {
@@ -62,7 +62,7 @@
       "title": "What best describes you?",
       "kind": "social_proof",
       "text": "What best describes you?\nMale\nFemale\nNon-binary\nPrefer not to say\nOver 5 million people are already exploring Art with us\nJoin our community to explore the artists, movements, and masterpieces that shaped art into what it is today.\nWhy are you interested in learning about Art?\nUnderstand art\nStop getting lost in a gallery\nFind inspiration\nFeed my curiosity\nBroaden my knowledge\nReplace social media\nSomething else\nContinue",
-      "textHash": "d97d3da07b39",
+      "textHash": "b41b2cd65040",
       "dhash": "0000000000110100110111000010100000110001101110001101010010001110",
       "prices": [],
       "action": {
@@ -78,7 +78,7 @@
       "title": "Why are you interested in learning about Art?",
       "kind": "social_proof",
       "text": "Over 5 million people are already exploring Art with us\nJoin our community to explore the artists, movements, and masterpieces that shaped art into what it is today.\nWhy are you interested in learning about Art?\nUnderstand art\nStop getting lost in a gallery\nFind inspiration\nFeed my curiosity\nBroaden my knowledge\nReplace social media\nSomething else\nWe're here to help you achieve your goals!\nFrom the movements that changed everything to the artists behind them, we'll help you see art the way insiders do.\nContinue",
-      "textHash": "43874735d517",
+      "textHash": "67f71e415bb0",
       "dhash": "1101100011110000110001111110010101100001110010011100000110110010",
       "prices": [],
       "action": {
@@ -94,7 +94,7 @@
       "title": "Why are you interested in learning about Art?",
       "kind": "question",
       "text": "Why are you interested in learning about Art?\nUnderstand art\nStop getting lost in a gallery\nFind inspiration\nFeed my curiosity\nBroaden my knowledge\nReplace social media\nSomething else\nWe're here to help you achieve your goals!\nFrom the movements that changed everything to the artists behind them, we'll help you see art the way insiders do.\nWhich aspect of Art intrigues you most?\nFamous masterpieces\nGreat artists\nArt movements\nMeaning and symbolism\nAncient and classical art\nModern and contemporary art\nSomething else\nContinue",
-      "textHash": "8b861406bcae",
+      "textHash": "b97801170c0c",
       "dhash": "0011001111001010110010100111000111110000100001001011001010001110",
       "prices": [],
       "action": {
@@ -109,7 +109,7 @@
       "title": "Which aspect of Art intrigues you most?",
       "kind": "question",
       "text": "We're here to help you achieve your goals!\nFrom the movements that changed everything to the artists behind them, we'll help you see art the way insiders do.\nWhich aspect of Art intrigues you most?\nFamous masterpieces\nGreat artists\nArt movements\nMeaning and symbolism\nAncient and classical art\nModern and contemporary art\nSomething else\nAre you interested in this topic?\nHidden Details in Masterpieces\nDiscover the secrets hiding in plain sight in the world's most famous paintings.\nContinue",
-      "textHash": "1b7a497b0df6",
+      "textHash": "9e635da1bf97",
       "dhash": "1110000010110000010110011100000111000001110010010110000010110010",
       "prices": [],
       "action": {
@@ -125,7 +125,7 @@
       "title": "Which aspect of Art intrigues you most?",
       "kind": "question",
       "text": "Which aspect of Art intrigues you most?\nFamous masterpieces\nGreat artists\nArt movements\nMeaning and symbolism\nAncient and classical art\nModern and contemporary art\nSomething else\nAre you interested in this topic?\nHidden Details in Masterpieces\nDiscover the secrets hiding in plain sight in the world's most famous paintings.\nDoes this topic interest you?\nArt Movements Through the Ages\nThe ideas, rebels, and revolutions that shaped art into what it is today.\nNo\nYes",
-      "textHash": "d05451474609",
+      "textHash": "9ea5c803c21f",
       "dhash": "1101000011110000111000001101010011101000101010101101010011010100",
       "prices": [],
       "action": {
@@ -142,7 +142,7 @@
       "title": "Are you interested in this topic?",
       "kind": "question",
       "text": "Are you interested in this topic?\nHidden Details in Masterpieces\nDiscover the secrets hiding in plain sight in the world's most famous paintings.\nDoes this topic interest you?\nArt Movements Through the Ages\nThe ideas, rebels, and revolutions that shaped art into what it is today.\nDoes this topic interest you?\nThe Lives of Great Artists\nThe obsessions, rivalries, and troubled lives behind the world's greatest artists.\nNo\nYes",
-      "textHash": "bf71e0f93d0d",
+      "textHash": "80744371ca04",
       "dhash": "1000111011110000110011001100110011110000000110100100010011010100",
       "prices": [],
       "action": {
@@ -157,7 +157,7 @@
       "title": "Does this topic interest you?",
       "kind": "question",
       "text": "Does this topic interest you?\nArt Movements Through the Ages\nThe ideas, rebels, and revolutions that shaped art into what it is today.\nDoes this topic interest you?\nThe Lives of Great Artists\nThe obsessions, rivalries, and troubled lives behind the world's greatest artists.\nCrafted by art experts.\nEvery lesson draws insights from the world's leading art historians and critics.\nNo\nYes",
-      "textHash": "1bcadfd618c2",
+      "textHash": "328b0bf2cafd",
       "dhash": "1000001011101000111010001111000011110000100010101101010011010100",
       "prices": [],
       "action": {
@@ -173,7 +173,7 @@
       "title": "Are you satisfied with your knowledge of Art?",
       "kind": "question",
       "text": "Crafted by art experts.\nEvery lesson draws insights from the world's leading art historians and critics.\nAre you satisfied with your knowledge of Art?\nYes\nA little\nNo\nWhat skills do you want to build with us?\nInterpret art\nRecognize famous artists\nDistinguish styles and movements\nDevelop a critical eye\nFind hidden meanings",
-      "textHash": "390ffbb6cf99",
+      "textHash": "73ab89f26aa0",
       "dhash": "1111000011100000000010100100000000000000000100000011001100110001",
       "prices": [],
       "action": {
@@ -188,7 +188,7 @@
       "title": "Are you satisfied with your knowledge of Art?",
       "kind": "question",
       "text": "Are you satisfied with your knowledge of Art?\nYes\nA little\nNo\nWhat skills do you want to build with us?\nInterpret art\nRecognize famous artists\nDistinguish styles and movements\nDevelop a critical eye\nFind hidden meanings\nStrengthen practical skills\nArt isn't just dates and names. It trains you to observe closely, think critically, and make connections others can't.\nContinue",
-      "textHash": "2aab29a7fe7a",
+      "textHash": "123a0a2be127",
       "dhash": "1010001010110010000011010110010001000001110110001100100110110010",
       "prices": [],
       "action": {
@@ -204,7 +204,7 @@
       "title": "What skills do you want to build with us?",
       "kind": "question",
       "text": "What skills do you want to build with us?\nInterpret art\nRecognize famous artists\nDistinguish styles and movements\nDevelop a critical eye\nFind hidden meanings\nStrengthen practical skills\nArt isn't just dates and names. It trains you to observe closely, think critically, and make connections others can't.\nDo you know what the rule of thirds is?\nContinue",
-      "textHash": "c4cc4f51ad51",
+      "textHash": "28d7b02e77a1",
       "dhash": "0100001011101000101100000111000011101000110001000001001010001110",
       "prices": [],
       "action": {
@@ -220,7 +220,7 @@
       "title": "Do you know what the rule of thirds is?",
       "kind": "question",
       "text": "Strengthen practical skills\nArt isn't just dates and names. It trains you to observe closely, think critically, and make connections others can't.\nDo you know what the rule of thirds is?\nDid you know composition determines where your eye goes first?\nNo\nYes",
-      "textHash": "19a9dbb9eafe",
+      "textHash": "fa5a2aed29e4",
       "dhash": "1010010011110000110010001110110001100000000001100101010011010100",
       "prices": [],
       "action": {
@@ -235,7 +235,7 @@
       "title": "Do you know what the rule of thirds is?",
       "kind": "question",
       "text": "Do you know what the rule of thirds is?\nDid you know composition determines where your eye goes first?\nAre you familiar with Renaissance art?\nNo\nYes",
-      "textHash": "7d1049e4130e",
+      "textHash": "02b2d818a595",
       "dhash": "1110010011010000011001001110010011100010000011001101010011010100",
       "prices": [],
       "action": {
@@ -250,7 +250,7 @@
       "title": "Did you know composition determines where your eye goes first?",
       "kind": "question",
       "text": "Did you know composition determines where your eye goes first?\nAre you familiar with Renaissance art?\nHere's something many people don't realize\nNearly every major art movement began as a rebellion against the one before it.\nNo\nYes",
-      "textHash": "e1374e7e77fc",
+      "textHash": "eeb3a2e90723",
       "dhash": "0110000011110000111010001100100001011000001001100101010011010100",
       "prices": [],
       "action": {
@@ -265,7 +265,7 @@
       "title": "Are you familiar with Renaissance art?",
       "kind": "question",
       "text": "Are you familiar with Renaissance art?\nHere's something many people don't realize\nNearly every major art movement began as a rebellion against the one before it.\nIs it easy for you to find time to learn?\nYes\nOccasionally\nNo\nContinue",
-      "textHash": "79b3f559f7fd",
+      "textHash": "ad306e1a1df8",
       "dhash": "0110001000111100111111001101000011101000100001001011000010001110",
       "prices": [],
       "action": {
@@ -281,7 +281,7 @@
       "title": "Is it easy for you to find time to learn?",
       "kind": "question",
       "text": "Here's something many people don't realize\nNearly every major art movement began as a rebellion against the one before it.\nIs it easy for you to find time to learn?\nYes\nOccasionally\nNo\nWhat are the biggest obstacles to you learning?\nNot enough time\nDistractions\nBoredom\nLow motivation\nNot sure where to start\nSomething else",
-      "textHash": "cb3eefad4530",
+      "textHash": "8cea5f1668d5",
       "dhash": "1101010010110000000010010001000000000000000100000011000100110001",
       "prices": [],
       "action": {
@@ -296,7 +296,7 @@
       "title": "Is it easy for you to find time to learn?",
       "kind": "question",
       "text": "Is it easy for you to find time to learn?\nYes\nOccasionally\nNo\nWhat are the biggest obstacles to you learning?\nNot enough time\nDistractions\nBoredom\nLow motivation\nNot sure where to start\nSomething else\nArt made simple\nImprint breaks down complex ideas into bite-sized visual and interactive lessons.\nContinue",
-      "textHash": "69a8f6cee1db",
+      "textHash": "1d2e125b1a9a",
       "dhash": "1111000011110000000001010100000111000001111000010110000110110010",
       "prices": [],
       "action": {
@@ -312,7 +312,7 @@
       "title": "What are the biggest obstacles to you learning?",
       "kind": "question",
       "text": "What are the biggest obstacles to you learning?\nNot enough time\nDistractions\nBoredom\nLow motivation\nNot sure where to start\nSomething else\nArt made simple\nImprint breaks down complex ideas into bite-sized visual and interactive lessons.\nWho painted the Creation of Adam?\nMichelangelo\nLeonardo da Vinci\nRaphael\nContinue",
-      "textHash": "d4f838748ca0",
+      "textHash": "55a4abdbb122",
       "dhash": "0100110010110010011100001111000011000100111000001100100010001110",
       "prices": [],
       "action": {
@@ -328,7 +328,7 @@
       "title": "Who painted the Creation of Adam?",
       "kind": "question",
       "text": "Art made simple\nImprint breaks down complex ideas into bite-sized visual and interactive lessons.\nWho painted the Creation of Adam?\nMichelangelo\nLeonardo da Vinci\nRaphael\nWhat is Impressionism known for?\nLight and movement\nHistorical scenes\nReligious symbols",
-      "textHash": "f5b2bb034352",
+      "textHash": "d92849cd35bf",
       "dhash": "1111010000110011110111001101110011100000111100010011001100110001",
       "prices": [],
       "action": {
@@ -343,7 +343,7 @@
       "title": "Who painted the Creation of Adam?",
       "kind": "question",
       "text": "Who painted the Creation of Adam?\nMichelangelo\nLeonardo da Vinci\nRaphael\nWhat is Impressionism known for?\nLight and movement\nHistorical scenes\nReligious symbols\nWhich movement is Pablo Picasso best known for?\nCubism\nSurrealism\nExpressionism",
-      "textHash": "6b9a162c6138",
+      "textHash": "c737490ecb68",
       "dhash": "1111000000110011110101001101110011010100111101000110000100100000",
       "prices": [],
       "action": {
@@ -358,7 +358,7 @@
       "title": "What is Impressionism known for?",
       "kind": "question",
       "text": "What is Impressionism known for?\nLight and movement\nHistorical scenes\nReligious symbols\nWhich movement is Pablo Picasso best known for?\nCubism\nSurrealism\nExpressionism\nBacked by science. Designed to be fun and effective.\nImprint is built by game designers and Harvard professors to make learning actually stick.",
-      "textHash": "76e24da97271",
+      "textHash": "17048fcb2cd0",
       "dhash": "1101010001011001111001001100010011010100111101000011001100110001",
       "prices": [],
       "action": {
@@ -373,7 +373,7 @@
       "title": "Which movement is Pablo Picasso best known for?",
       "kind": "question",
       "text": "Which movement is Pablo Picasso best known for?\nCubism\nSurrealism\nExpressionism\nBacked by science. Designed to be fun and effective.\nImprint is built by game designers and Harvard professors to make learning actually stick.\nWhen learning I connect best with:\nBig-picture ideas\nStep-by-step details\nHands-on practice\nReal-world examples\nStories and narratives\nGames\nContinue",
-      "textHash": "d276777d97d1",
+      "textHash": "75b8c482156e",
       "dhash": "0100100110110010101100100011001100110010100001001000000010001110",
       "prices": [],
       "action": {
@@ -389,7 +389,7 @@
       "title": "When learning I connect best with:",
       "kind": "question",
       "text": "Backed by science. Designed to be fun and effective.\nImprint is built by game designers and Harvard professors to make learning actually stick.\nWhen learning I connect best with:\nBig-picture ideas\nStep-by-step details\nHands-on practice\nReal-world examples\nStories and narratives\nGames\nDo you find it easy to stay motivated while learning?\nYes\nOccasionally\nNo\nContinue",
-      "textHash": "b16d63ab6788",
+      "textHash": "1777287037bf",
       "dhash": "1101000010110000000010010111000111010011110100011100100110010000",
       "prices": [],
       "action": {
@@ -405,7 +405,7 @@
       "title": "When learning I connect best with:",
       "kind": "question",
       "text": "When learning I connect best with:\nBig-picture ideas\nStep-by-step details\nHands-on practice\nReal-world examples\nStories and narratives\nGames\nDo you find it easy to stay motivated while learning?\nYes\nOccasionally\nNo\nDid you hear about Imprint from a friend?",
-      "textHash": "9a00885c909e",
+      "textHash": "38e10ec14398",
       "dhash": "1101000011000100000000110100000000000000000100000011000100110001",
       "prices": [],
       "action": {
@@ -420,7 +420,7 @@
       "title": "Do you find it easy to stay motivated while learning?",
       "kind": "question",
       "text": "Do you find it easy to stay motivated while learning?\nYes\nOccasionally\nNo\nDid you hear about Imprint from a friend?\nAchieve your goals with our expert guidance\nExperience expert-designed, research-backed learning. Just a few more steps to your personalized plan.\nNo\nYes",
-      "textHash": "241ea8c693f5",
+      "textHash": "d7d410e85f31",
       "dhash": "1111000011101000000001100001000000000000000000001101010011010100",
       "prices": [],
       "action": {
@@ -435,7 +435,7 @@
       "title": "Did you hear about Imprint from a friend?",
       "kind": "question",
       "text": "Did you hear about Imprint from a friend?\nAchieve your goals with our expert guidance\nExperience expert-designed, research-backed learning. Just a few more steps to your personalized plan.\nWhat's motivating you towards personal growth?\nStay sharp\nBroaden my perspectives\nBecome a more interesting person\nSpend time productively\nOther\nContinue",
-      "textHash": "1550219484cd",
+      "textHash": "bf0e44f62aef",
       "dhash": "0100100001110000010011011011000000110010100001001010000010001110",
       "prices": [],
       "action": {
@@ -451,7 +451,7 @@
       "title": "What's motivating you towards personal growth?",
       "kind": "social_proof",
       "text": "Achieve your goals with our expert guidance\nExperience expert-designed, research-backed learning. Just a few more steps to your personalized plan.\nWhat's motivating you towards personal growth?\nStay sharp\nBroaden my perspectives\nBecome a more interesting person\nSpend time productively\nOther\nJoin over 5 million people choosing lifelong learning\nBe part of a global community and reach your goals with us.\nContinue",
-      "textHash": "5c6f65ab44c9",
+      "textHash": "5188094493d5",
       "dhash": "1111000011100000000001010100001001100001011010010100100110110010",
       "prices": [],
       "action": {
@@ -467,21 +467,479 @@
       "title": "What's motivating you towards personal growth?",
       "kind": "social_proof",
       "text": "What's motivating you towards personal growth?\nStay sharp\nBroaden my perspectives\nBecome a more interesting person\nSpend time productively\nOther\nJoin over 5 million people choosing lifelong learning\nBe part of a global community and reach your goals with us.\nSet a daily learning goal\nYou can always change this later.\nQuick\n2 min / day\nRegular\n5 min / day\nAdvanced\n10 min / day\nContinue",
-      "textHash": "9448592ab688",
+      "textHash": "c32a62c0bec1",
       "dhash": "0000101011110000110001001101100011111000100000001010001010001110",
       "prices": [],
       "action": {
         "cta": "Continue"
       }
+    },
+    {
+      "n": 31,
+      "file": "31.webp",
+      "url": "https://www.imprintapp.com/quiz/start-art",
+      "path": "/quiz/start-art",
+      "title": "Crafting your learning experience...",
+      "kind": "social_proof",
+      "text": "Join over 5 million people choosing lifelong learning\nBe part of a global community and reach your goals with us.\nSet a daily learning goal\nYou can always change this later.\nQuick\n2 min / day\nRegular\n5 min / day\nAdvanced\n10 min / day\nCrafting your learning experience...\nSetting goals\n\"This app has greatly improved my life and overall well-being... it has helped me to foster a healthy growth mindset.\"\n\"Imprint helps you feel like you're being productive whenever you have some downtime or when you're taking a break.\"\n\"Such a fun way to learn! Replacing doom scrolling with this app is the best decision I made.\"\nContinue",
+      "textHash": "9df5452610f1",
+      "dhash": "1110000011101000000000100100100000100010010011001100110010110010",
+      "prices": [],
+      "action": {
+        "opt": "Quick 2 min / day",
+        "cta": "Continue"
+      }
+    },
+    {
+      "n": 32,
+      "file": "32.webp",
+      "url": "https://www.imprintapp.com/quiz/start-art",
+      "path": "/quiz/start-art",
+      "title": "Your personalized Growth Plan is ready!",
+      "kind": "question",
+      "text": "Set a daily learning goal\nYou can always change this later.\nThat's 30 bite-sized lessons in a month!\nQuick\n2 min / day\nRegular\n5 min / day\nAdvanced\n10 min / day\nYour personalized Growth Plan is ready!\nGoals\nGrowth areas\nContent\nContinue",
+      "textHash": "a1cfcf72e649",
+      "dhash": "1101010010000010100010101010001001000000000001001001011010001110",
+      "prices": [],
+      "action": {
+        "cta": "Continue"
+      }
+    },
+    {
+      "n": 33,
+      "file": "33.webp",
+      "url": "https://www.imprintapp.com/signup/start-art",
+      "path": "/signup/start-art",
+      "title": "Achieve your goals with Imprint",
+      "kind": "email",
+      "text": "Achieve your goals with Imprint\nEnter your email to create an account\nEmail\nBy clicking \"Continue\", you agree to our\nTerms of Service and Privacy Policy.\nContinue\nHave an account? Log in here",
+      "textHash": "efbafea0c503",
+      "dhash": "1111000011101000000100011110100010110010010000010100100000000000",
+      "prices": [],
+      "action": {
+        "filled": true,
+        "cta": "Continue"
+      }
+    },
+    {
+      "n": 34,
+      "file": "34.webp",
+      "url": "https://www.imprintapp.com/signup/start-art",
+      "path": "/signup/start-art",
+      "title": "Achieve your goals with Imprint",
+      "kind": "email",
+      "text": "Achieve your goals with Imprint\nEnter your email to create an account\nEmail\nAn account already exists with this email.\nBy clicking \"Continue\", you agree to our\nTerms of Service and Privacy Policy.\nContinue\nHave an account? Log in here",
+      "textHash": "d75c51cbc75b",
+      "dhash": "0111000011101000100000011110100010110010010100011110100000100000",
+      "prices": [],
+      "action": {
+        "cta": "Continue",
+        "opt": "Email",
+        "fallback": ""
+      }
+    },
+    {
+      "n": 35,
+      "file": "35.webp",
+      "url": "https://www.imprintapp.com/",
+      "path": "/",
+      "title": "Astrophysics",
+      "kind": "info",
+      "text": "See\nAstrophysics\nin a whole new way.\nThe world's most important knowledge, visualized.\nAPP OF THE\nYEAR\nAPP OF THE\nDAY\nESSENTIAL\nEDUCATION APP\nGet Started\nDeep understanding.\nImprint helps you understand complex topics quickly, with elegant visuals that clarify key ideas and help you stay focused.\nGet Started\nStop forgetting what you read.\nOur visual approach is designed to help you commit key concepts to memory. Plus, we make it easy to save and review the ideas that matter most to you.\nGet Started\nInsights from the world's greatest thinkers.\nKey insights into essential topics, from the world's most-respected experts, courses, and books.\nThe world's most important knowledge, visualized.\nABOUT\nCAREERS\nCONTACT US\nTERMS OF USE\nPRIVACY POLICY\nCalifornia Privacy Policy\n© 2026 Imprint",
+      "textHash": "1cc8c1bc03bc",
+      "dhash": "1001000110110000100100001001011010010110111000000001011000100110",
+      "prices": [],
+      "action": {
+        "cta": "Get Started"
+      }
+    },
+    {
+      "n": 36,
+      "file": "36.webp",
+      "url": "https://www.imprintapp.com/join",
+      "path": "/join",
+      "title": "Replace scrolling with",
+      "kind": "info",
+      "text": "Replace scrolling with\nMicrolearning\nJoin millions learning on Imprint\nAPP OF THE\nYEAR\nESSENTIAL\nEDUCATION APP\nOVER 50K\nREVIEWS\nBy clicking \"Get Started\", you agree to our\nTerms of Service and Privacy Policy.\nGet Started",
+      "textHash": "941c29e9e844",
+      "dhash": "1011001011010000111000000110010011110100101100101101010011001100",
+      "prices": [],
+      "action": {
+        "cta": "Get Started"
+      }
+    },
+    {
+      "n": 37,
+      "file": "37.webp",
+      "url": "https://www.imprintapp.com/quiz/join",
+      "path": "/quiz/join",
+      "title": "What do you want to focus on?",
+      "kind": "question",
+      "text": "Welcome! Let's get started.\nWhat do you want to focus on?\nReplace social\nmedia\nLearn a specific\nsubject\nDiscover new\nideas\nSelf-\nimprovement\nContinue",
+      "textHash": "6c695fc43a0f",
+      "dhash": "0110000100000110011100001111000011110000110011001011001010001110",
+      "prices": [],
+      "action": {
+        "opt": "Replace social media",
+        "cta": "Continue"
+      }
+    },
+    {
+      "n": 38,
+      "file": "38.webp",
+      "url": "https://www.imprintapp.com/quiz/join",
+      "path": "/quiz/join",
+      "title": "What do you want to focus on?",
+      "kind": "question",
+      "text": "Welcome! Let's get started.\nWhat do you want to focus on?\nReplace social\nmedia\nLearn a specific\nsubject\nDiscover new\nideas\nSelf-\nimprovement\nWhat is your age?\n18-24\n25-34\n35-44\n45 or older\nContinue",
+      "textHash": "2e78487dd769",
+      "dhash": "1010000111100000000101100010001111001100110011001100110010110000",
+      "prices": [],
+      "action": {
+        "opt": "25-34",
+        "cta": "Continue"
+      }
+    },
+    {
+      "n": 39,
+      "file": "39.webp",
+      "url": "https://www.imprintapp.com/quiz/join",
+      "path": "/quiz/join",
+      "title": "What do you want to focus on?",
+      "kind": "question",
+      "text": "What do you want to focus on?\nReplace social\nmedia\nLearn a specific\nsubject\nDiscover new\nideas\nSelf-\nimprovement\nWhat is your age?\n18-24\n25-34\n35-44\n45 or older\nWhat best describes you?\nMale\nFemale\nNon-binary\nPrefer not to say\nContinue",
+      "textHash": "b1bfb9315df4",
+      "dhash": "1000000101110001001101010011000100101000000000000000000010110010",
+      "prices": [],
+      "action": {
+        "opt": "25-34",
+        "cta": "Continue"
+      }
+    },
+    {
+      "n": 40,
+      "file": "40.webp",
+      "url": "https://www.imprintapp.com/quiz/join",
+      "path": "/quiz/join",
+      "title": "What is your age?",
+      "kind": "question",
+      "text": "What is your age?\n18-24\n25-34\n35-44\n45 or older\nWhat best describes you?\nMale\nFemale\nNon-binary\nPrefer not to say\nHow do you want me to sound?\nTurn up your volume if you can't hear me.\nDeep\nWarm\nVoice on\nContinue",
+      "textHash": "d2724c9eb874",
+      "dhash": "1000001001100100001100110011000100101000000000000000000010110010",
+      "prices": [],
+      "action": {
+        "opt": "25-34",
+        "cta": "Continue"
+      }
+    },
+    {
+      "n": 41,
+      "file": "41.webp",
+      "url": "https://www.imprintapp.com/quiz/join",
+      "path": "/quiz/join",
+      "title": "What best describes you?",
+      "kind": "question",
+      "text": "What best describes you?\nMale\nFemale\nNon-binary\nPrefer not to say\nHow do you want me to sound?\nTurn up your volume if you can't hear me.\nDeep\nWarm\nVoice on\nWe'll go on a journey through incredible visual courses\nContinue",
+      "textHash": "2ed262bf5c1e",
+      "dhash": "1000010011100000110011000101110000111010000001000000000010110010",
+      "prices": [],
+      "action": {
+        "opt": "Male",
+        "cta": "Continue"
+      }
+    },
+    {
+      "n": 42,
+      "file": "42.webp",
+      "url": "https://www.imprintapp.com/quiz/join",
+      "path": "/quiz/join",
+      "title": "I'll help you apply what you learn.",
+      "kind": "info",
+      "text": "I'll help you apply what you learn.\nI'll make connections across everything you discover.\nLet's build your learning plan...",
+      "textHash": "ffc7df6cc0ea",
+      "dhash": "1110000111101000100100011001001011001100100010001000011001100100",
+      "prices": [],
+      "action": {}
+    },
+    {
+      "n": 43,
+      "file": "43.webp",
+      "url": "https://www.imprintapp.com/quiz/join",
+      "path": "/quiz/join",
+      "title": "I'll make connections across everything you discover.",
+      "kind": "question",
+      "text": "I'll make connections across everything you discover.\nLet's build your learning plan...\nWhat topics are you interested in?\nSelect up to 5 to start. You can always explore more later.\nFinance\nPhilosophy\nHistory\nPsychology\nHealth & Wellness\nScience & Technology\nPersonal Development\nCareer & Business\nArt\nParenting\nContinue",
+      "textHash": "6365aa77651a",
+      "dhash": "1110010100001110011100001111000011110000111101001000100010001110",
+      "prices": [],
+      "action": {
+        "opt": "Finance + Philosophy + History + Psychology + Health & Wellness",
+        "cta": "Continue"
+      }
+    },
+    {
+      "n": 44,
+      "file": "44.webp",
+      "url": "https://www.imprintapp.com/quiz/join",
+      "path": "/quiz/join",
+      "title": "Great choices! You'll learn these topics from world-class educators.",
+      "kind": "question",
+      "text": "Let's build your learning plan...\nWhat topics are you interested in?\nSelect up to 5 to start. You can always explore more later.\nFinance\nPhilosophy\nHistory\nPsychology\nHealth & Wellness\nScience & Technology\nPersonal Development\nCareer & Business\nArt\nParenting\nGreat choices! You'll learn these topics from world-class educators.\nContinue",
+      "textHash": "a5b0a6a74b5d",
+      "dhash": "1100001111001001110000011110000111010011111000011100100110110000",
+      "prices": [],
+      "action": {
+        "opt": "Finance + Philosophy + History + Psychology + Health & Wellness",
+        "cta": "Continue"
+      }
+    },
+    {
+      "n": 45,
+      "file": "45.webp",
+      "url": "https://www.imprintapp.com/quiz/join",
+      "path": "/quiz/join",
+      "title": "Which Finance topics interest you?",
+      "kind": "question",
+      "text": "What topics are you interested in?\nSelect up to 5 to start. You can always explore more later.\nFinance\nPhilosophy\nHistory\nPsychology\nHealth & Wellness\nScience & Technology\nPersonal Development\nCareer & Business\nArt\nParenting\nWhich Finance topics interest you?\nLearn personal finance fundamentals\nInvest like a pro\nUnpack your relationship with money\nBecome debt-free\nBuild better financial habits\nUnderstand crypto and alternative assets\nWhich Philosophy topics interest you?\nSharpen critical thinking\nExplore the history of philosophy\nMeet great philosophers\nApply wisdom to modern day problems\nCraft a personal philosophy\nMake better decisions\nContinue",
+      "textHash": "b660d3569d45",
+      "dhash": "1110000111100000010001001100000011000001110010011100010010110010",
+      "prices": [],
+      "action": {
+        "opt": "Finance + Philosophy + History + Psychology + Health & Wellness",
+        "cta": "Continue"
+      }
+    },
+    {
+      "n": 46,
+      "file": "46.webp",
+      "url": "https://www.imprintapp.com/quiz/join",
+      "path": "/quiz/join",
+      "title": "Which Finance topics interest you?",
+      "kind": "question",
+      "text": "Which Finance topics interest you?\nLearn personal finance fundamentals\nInvest like a pro\nUnpack your relationship with money\nBecome debt-free\nBuild better financial habits\nUnderstand crypto and alternative assets\nWhich Philosophy topics interest you?\nSharpen critical thinking\nExplore the history of philosophy\nMeet great philosophers\nApply wisdom to modern day problems\nCraft a personal philosophy\nMake better decisions\nWhich History topics interest you?\nMeet figures who shaped the world\nBuild historical literacy\nRecognize patterns in history\nGain perspective on current events\nTrace the rise and fall of civilizations\nLearn about the world's great conflicts\nContinue",
+      "textHash": "a5d9128c1cb6",
+      "dhash": "1110001011100000010010011100000111001001111100011100000010110010",
+      "prices": [],
+      "action": {
+        "opt": "Learn personal finance fundamentals",
+        "cta": "Continue"
+      }
+    },
+    {
+      "n": 47,
+      "file": "47.webp",
+      "url": "https://www.imprintapp.com/quiz/join",
+      "path": "/quiz/join",
+      "title": "Which Philosophy topics interest you?",
+      "kind": "question",
+      "text": "Which Philosophy topics interest you?\nSharpen critical thinking\nExplore the history of philosophy\nMeet great philosophers\nApply wisdom to modern day problems\nCraft a personal philosophy\nMake better decisions\nWhich History topics interest you?\nMeet figures who shaped the world\nBuild historical literacy\nRecognize patterns in history\nGain perspective on current events\nTrace the rise and fall of civilizations\nLearn about the world's great conflicts\nWhich Psychology topics interest you?\nUnderstand yourself and others\nResolve conflict\nMake new connections\nBuild meaningful relationships\nLive a happier life\nDecode human behavior\nMake smarter decisions\nContinue",
+      "textHash": "60ea9e9d23ad",
+      "dhash": "1110000111100000110100001100000111100100110010001100100010110010",
+      "prices": [],
+      "action": {
+        "opt": "Sharpen critical thinking",
+        "cta": "Continue"
+      }
+    },
+    {
+      "n": 48,
+      "file": "48.webp",
+      "url": "https://www.imprintapp.com/quiz/join",
+      "path": "/quiz/join",
+      "title": "Which History topics interest you?",
+      "kind": "question",
+      "text": "Which History topics interest you?\nMeet figures who shaped the world\nBuild historical literacy\nRecognize patterns in history\nGain perspective on current events\nTrace the rise and fall of civilizations\nLearn about the world's great conflicts\nWhich Psychology topics interest you?\nUnderstand yourself and others\nResolve conflict\nMake new connections\nBuild meaningful relationships\nLive a happier life\nDecode human behavior\nMake smarter decisions\nWhich Health & Wellness topics interest you?\nReduce stress\nImprove sleep\nHeal trauma\nLive healthier\nCultivate relationship intimacy\nContinue",
+      "textHash": "82d6839e6140",
+      "dhash": "1110001011100000010000011100000111100001111000011100000110110010",
+      "prices": [],
+      "action": {
+        "opt": "Meet figures who shaped the world",
+        "cta": "Continue"
+      }
+    },
+    {
+      "n": 49,
+      "file": "49.webp",
+      "url": "https://www.imprintapp.com/quiz/join",
+      "path": "/quiz/join",
+      "title": "Which Psychology topics interest you?",
+      "kind": "question",
+      "text": "Which Psychology topics interest you?\nUnderstand yourself and others\nResolve conflict\nMake new connections\nBuild meaningful relationships\nLive a happier life\nDecode human behavior\nMake smarter decisions\nWhich Health & Wellness topics interest you?\nReduce stress\nImprove sleep\nHeal trauma\nLive healthier\nCultivate relationship intimacy\nGreat choices! You'll learn these topics from world-class educators.\nContinue",
+      "textHash": "632bc6dde6be",
+      "dhash": "1111000011110000110001111100000111000001111100000000100010110000",
+      "prices": [],
+      "action": {
+        "opt": "Understand yourself and others",
+        "cta": "Continue"
+      }
+    },
+    {
+      "n": 50,
+      "file": "50.webp",
+      "url": "https://www.imprintapp.com/quiz/join",
+      "path": "/quiz/join",
+      "title": "Which Health & Wellness topics interest you?",
+      "kind": "question",
+      "text": "Which Health & Wellness topics interest you?\nReduce stress\nImprove sleep\nHeal trauma\nLive healthier\nCultivate relationship intimacy\nGreat choices! You'll learn these topics from world-class educators.\nYou'll join a community of over 5 million curious people.\nSuch a fun way to learn! Replacing doom scrolling with this app is the best decision I made.\nThis app has greatly improved my life and overall well-being... it has helped me to foster a healthy growth mindset.\nImprint has amazing content that is varied and intellectually potent. Give it a try, you will not be disappointed.\nContinue",
+      "textHash": "3f5b82be3f74",
+      "dhash": "1110000011110000110000111100100010101000111011000011000110001110",
+      "prices": [],
+      "action": {
+        "opt": "Reduce stress",
+        "cta": "Continue"
+      }
+    },
+    {
+      "n": 51,
+      "file": "51.webp",
+      "url": "https://www.imprintapp.com/quiz/join",
+      "path": "/quiz/join",
+      "title": "Great choices! You'll learn these topics from world-class educators.",
+      "kind": "question",
+      "text": "Great choices! You'll learn these topics from world-class educators.\nYou'll join a community of over 5 million curious people.\nSuch a fun way to learn! Replacing doom scrolling with this app is the best decision I made.\nThis app has greatly improved my life and overall well-being... it has helped me to foster a healthy growth mindset.\nImprint has amazing content that is varied and intellectually potent. Give it a try, you will not be disappointed.\nSet a daily learning goal\nQuick\n2 min / day\nRegular\n5 min / day\nAdvanced\n10 min / day\nContinue",
+      "textHash": "acd9999a6a55",
+      "dhash": "1110100011100000110011001000100010001000111000001101000010001110",
+      "prices": [],
+      "action": {
+        "cta": "Continue"
+      }
+    },
+    {
+      "n": 52,
+      "file": "52.webp",
+      "url": "https://www.imprintapp.com/quiz/join",
+      "path": "/quiz/join",
+      "title": "You'll join a community of over 5 million curious people.",
+      "kind": "question",
+      "text": "You'll join a community of over 5 million curious people.\nSuch a fun way to learn! Replacing doom scrolling with this app is the best decision I made.\nThis app has greatly improved my life and overall well-being... it has helped me to foster a healthy growth mindset.\nImprint has amazing content that is varied and intellectually potent. Give it a try, you will not be disappointed.\nSet a daily learning goal\nQuick\n2 min / day\nRegular\n5 min / day\nAdvanced\n10 min / day\nWhen will you fit learning into your day?\nMorning\nWith breakfast or commuting\nAfternoon\nAt lunch or during downtime\nEvening\nAfter dinner or while in bed\nContinue",
+      "textHash": "afe2794c6c11",
+      "dhash": "1010000010110100010011001100110010110010000000000000000010110010",
+      "prices": [],
+      "action": {
+        "opt": "Quick 2 min / day",
+        "cta": "Continue"
+      }
+    },
+    {
+      "n": 53,
+      "file": "53.webp",
+      "url": "https://www.imprintapp.com/quiz/join",
+      "path": "/quiz/join",
+      "title": "Crafting your learning experience...",
+      "kind": "question",
+      "text": "Set a daily learning goal\nQuick\n2 min / day\nRegular\n5 min / day\nAdvanced\n10 min / day\nWhen will you fit learning into your day?\nMorning\nWith breakfast or commuting\nAfternoon\nAt lunch or during downtime\nEvening\nAfter dinner or while in bed\nCrafting your learning experience...\nSetting goals\n\"This app has greatly improved my life and overall well-being... it has helped me to foster a healthy growth mindset.\"\n\"Imprint helps you feel like you're being productive whenever you have some downtime or when you're taking a break.\"\n\"Such a fun way to learn! Replacing doom scrolling with this app is the best decision I made.\"\nContinue",
+      "textHash": "159ab2d50a0b",
+      "dhash": "1110000011110000100100111000000110010000000000000000000010110010",
+      "prices": [],
+      "action": {
+        "opt": "Quick 2 min / day",
+        "cta": "Continue"
+      }
+    },
+    {
+      "n": 54,
+      "file": "54.webp",
+      "url": "https://www.imprintapp.com/quiz/join",
+      "path": "/quiz/join",
+      "title": "Your personalized Growth Plan is ready!",
+      "kind": "question",
+      "text": "When will you fit learning into your day?\nMorning\nWith breakfast or commuting\nAfternoon\nAt lunch or during downtime\nEvening\nAfter dinner or while in bed\nYour personalized Growth Plan is ready!\nGoals\nGrowth areas\nContent\nContinue",
+      "textHash": "d9f8b2291985",
+      "dhash": "1101010010000010100010101010001001000000000011001001011010001110",
+      "prices": [],
+      "action": {
+        "opt": "Morning With breakfast or commuting",
+        "cta": "Continue"
+      }
+    },
+    {
+      "n": 55,
+      "file": "55.webp",
+      "url": "https://www.imprintapp.com/signup/join",
+      "path": "/signup/join",
+      "title": "Achieve your goals with Imprint",
+      "kind": "email",
+      "text": "Achieve your goals with Imprint\nEnter your email to create an account\nEmail\nBy clicking \"Continue\", you agree to our\nTerms of Service and Privacy Policy.\nContinue\nHave an account? Log in here",
+      "textHash": "efbafea0c503",
+      "dhash": "1111000011101000000100011110100010110010010000010100100000000000",
+      "prices": [],
+      "action": {
+        "filled": true,
+        "cta": "Continue"
+      }
+    },
+    {
+      "n": 56,
+      "file": "56.webp",
+      "url": "https://www.imprintapp.com/signup/join",
+      "path": "/signup/join",
+      "title": "Achieve your goals with Imprint",
+      "kind": "email",
+      "text": "Achieve your goals with Imprint\nEnter your email to create an account\nEmail\nAn account already exists with this email.\nBy clicking \"Continue\", you agree to our\nTerms of Service and Privacy Policy.\nContinue\nHave an account? Log in here",
+      "textHash": "d75c51cbc75b",
+      "dhash": "0111000011101000100000011110100010110010010100011110100000100000",
+      "prices": [],
+      "action": {
+        "cta": "Continue",
+        "opt": "Email"
+      }
+    },
+    {
+      "n": 57,
+      "file": "57.webp",
+      "url": "https://www.imprintapp.com/signup/join",
+      "path": "/signup/join",
+      "title": "Achieve your goals with Imprint",
+      "kind": "email",
+      "text": "Achieve your goals with Imprint\nEnter your email to create an account\nEmail\nAn account already exists with this email.\nBy clicking \"Continue\", you agree to our\nTerms of Service and Privacy Policy.\nLoading\nHave an account? Log in here",
+      "textHash": "cc1b0456415c",
+      "dhash": "0111000011101000100000101111000010110010011000011100100000000000",
+      "prices": [],
+      "action": {
+        "opt": "Email",
+        "cta": "Continue"
+      }
+    },
+    {
+      "n": 58,
+      "file": "58.webp",
+      "url": "https://www.imprintapp.com/signup/join",
+      "path": "/signup/join",
+      "title": "Achieve your goals with Imprint",
+      "kind": "email",
+      "text": "Achieve your goals with Imprint\nEnter your email to create an account\nEmail\nAn account already exists with this email.\nBy clicking \"Continue\", you agree to our\nTerms of Service and Privacy Policy.\nContinue\nHave an account? Log in here",
+      "textHash": "d75c51cbc75b",
+      "dhash": "1111000011101000100000001010100010110000010010010100100000000000",
+      "prices": [],
+      "action": {
+        "cta": "Continue",
+        "opt": "Email",
+        "fallback": ""
+      }
+    },
+    {
+      "n": 59,
+      "file": "59.webp",
+      "url": "https://www.imprintapp.com/",
+      "path": "/",
+      "title": "Astrophysics",
+      "kind": "info",
+      "text": "See\nAstrophysics\nin a whole new way.\nThe world's most important knowledge, visualized.\nAPP OF THE\nYEAR\nAPP OF THE\nDAY\nESSENTIAL\nEDUCATION APP\nGet Started\nDeep understanding.\nImprint helps you understand complex topics quickly, with elegant visuals that clarify key ideas and help you stay focused.\nGet Started\nStop forgetting what you read.\nOur visual approach is designed to help you commit key concepts to memory. Plus, we make it easy to save and review the ideas that matter most to you.\nGet Started\nInsights from the world's greatest thinkers.\nKey insights into essential topics, from the world's most-respected experts, courses, and books.\nThe world's most important knowledge, visualized.\nABOUT\nCAREERS\nCONTACT US\nTERMS OF USE\nPRIVACY POLICY\nCalifornia Privacy Policy\n© 2026 Imprint",
+      "textHash": "1cc8c1bc03bc",
+      "dhash": "1001000110110000100100001001011010010110111000000001011000100110",
+      "prices": [],
+      "action": {
+        "cta": "Get Started"
+      }
     }
   ],
   "features": {
-    "totalSteps": 30,
+    "totalSteps": 59,
     "stop": "timeout",
-    "emailStep": null,
+    "emailStep": 33,
     "paywallStep": null,
-    "questions": 24,
-    "socialProof": 5,
+    "questions": 42,
+    "socialProof": 6,
     "loader": false,
     "prices": [],
     "discount": null,
