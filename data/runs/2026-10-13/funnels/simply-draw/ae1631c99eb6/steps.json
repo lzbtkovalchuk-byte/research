@@ -6,7 +6,7 @@
   "adShot": "simply-draw-ae1631c99eb6.webp",
   "adId": "4572313796335873",
   "dir": "funnels/simply-draw/ae1631c99eb6",
-  "stop": "payment_form",
+  "stop": "paywall",
   "proxied": false,
   "steps": [
     {
@@ -37,7 +37,7 @@
       "prices": [],
       "action": {
         "filled": true,
-        "cta": "CREATE FREE ACCOUNT"
+        "fallback": "CREATE FREE ACCOUNT"
       }
     },
     {
@@ -46,7 +46,7 @@
       "url": "https://join-draw.hellosimply.com/start/drawSubscribe?flow=baw&utm_source=facebook&utm_medium={{adset.id}}&utm_campaign={{campaign.id}}&utm_content={{ad.name}}&placement={{placement}}&sitesource={{site_source_name}}&ad_id={{ad.id}}",
       "path": "/start/drawSubscribe",
       "title": "Start your 7-day free trial",
-      "kind": "payment",
+      "kind": "paywall",
       "text": "Step 3 of 4\nStart your 7-day free trial\n7-day free trial\nSave 50%\n12 months\n$89.99 billed annually\nPrice after discount:\n$7.50/mo\nOriginal price:\n$15.00/mo\n1 month\n$14.99 billed monthly\nPrice after discount:\n$14.99/mo\n7-DAY FREE TRIAL\nNo commitment. Cancel anytime.\nor with credit card\nSTART MY FREE TRIAL\nCancel AnytimeSecure Payment\nWhat you get\n↓\nYou won’t be charged till Oct 20, 2026.\ncancel anytime before that date.\nAfter your free trial, the annual subscription is US$89.99 and automatically renews every year until you cancel.\nWhat you get\n👨‍👩‍👧‍👦\nUp to 5 profiles\nFor any kids (or grownups!) who want to draw\n🎯\nStructured learning paths\nChoose what you love to draw, and follow a structured path that builds real skills\n✨\nUnlimited access to all lessons\nHundreds of professionally designed lessons, with new ones added weekly — no limits, no locked content\n📓\nPersonal Journal\nEach profile can create their journal, a digital gallery of their artwork, where they can share their own thoughts and get feedback from family and friends on the ones they're most proud of\n🎨\nPlayground\nFor more freestyle drawing, using skills in new and novel ways\n🛡️\nKid-Friendly, Ad-Free Experience\nNo ads, no distractions, no external links, no strangers — just a safe, focused space for creativity\nThe #1 Drawing App for Kids\nWhy we charge a subscription fee\nSubscriptions keep Draw safe, ad-free, and constantly improving.\nWe are a dedicated team of 35+ educators, artists, developers, and creators w",
       "textHash": "dd8fd30bc2f5",
       "dhash": "0010101100001111010001010011001101000101111010000101100110010110",
@@ -60,16 +60,21 @@
   ],
   "features": {
     "totalSteps": 3,
-    "stop": "payment_form",
+    "stop": "paywall",
     "emailStep": 2,
-    "paywallStep": null,
+    "paywallStep": 3,
     "questions": 0,
     "socialProof": 0,
     "loader": false,
-    "prices": [],
-    "discount": null,
+    "prices": [
+      "$89.99",
+      "$7.50",
+      "$15.00",
+      "$14.99"
+    ],
+    "discount": "50",
     "timer": false,
-    "trial": false,
+    "trial": true,
     "moneyBack": false
   }
 }

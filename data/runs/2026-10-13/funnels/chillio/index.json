@@ -8,16 +8,16 @@
     {
       "key": "quiz.get-chillio.app/qs/cleaning-game",
       "dir": "funnels/chillio/32c02a42bd3b",
-      "stop": "stuck",
-      "steps": 14,
+      "stop": "stuck+paywall_direct",
+      "steps": 15,
       "why": "ad",
       "ads": 24
     },
     {
       "key": "quiz.get-chillio.app/qs/house-ai",
       "dir": "funnels/chillio/7b6db541533d",
-      "stop": "stuck",
-      "steps": 13,
+      "stop": "stuck+paywall_direct",
+      "steps": 14,
       "why": "ad",
       "ads": 2
     }

@@ -8,18 +8,18 @@
     {
       "key": "start.memoryos.com/new-h?mos_cfg=seniors_s",
       "dir": "funnels/memoryos/b49234f2d6c4",
-      "stop": "stuck",
-      "steps": 33,
+      "stop": "paywall",
+      "steps": 36,
       "why": "ad",
       "ads": 6
     },
     {
-      "key": "start.memoryos.com/new-h?mos_cfg=seniors_o",
-      "dir": "funnels/memoryos/510dbcb9782c",
+      "key": "start.memoryos.com/new-s",
+      "dir": "funnels/memoryos/8df162c3ae21",
       "stop": "paywall",
       "steps": 36,
       "why": "ad",
-      "ads": 3
+      "ads": 6
     }
   ]
 }

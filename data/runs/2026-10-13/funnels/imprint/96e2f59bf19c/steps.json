@@ -130,16 +130,78 @@
       "prices": [],
       "action": {
         "cta": "Great artists",
-        "opt": "Famous masterpieces"
+        "opt": "Famous masterpieces",
+        "fallback": "No"
+      }
+    },
+    {
+      "n": 9,
+      "file": "09.webp",
+      "url": "https://www.imprintapp.com/quiz/start-art",
+      "path": "/quiz/start-art",
+      "title": "Are you interested in this topic?",
+      "kind": "question",
+      "text": "Are you interested in this topic?\nHidden Details in Masterpieces\nDiscover the secrets hiding in plain sight in the world's most famous paintings.\nDoes this topic interest you?\nArt Movements Through the Ages\nThe ideas, rebels, and revolutions that shaped art into what it is today.\nDoes this topic interest you?\nThe Lives of Great Artists\nThe obsessions, rivalries, and troubled lives behind the world's greatest artists.\nNo\nYes",
+      "textHash": "bf71e0f93d0d",
+      "dhash": "1000111011110000110011001100110011110000000110100100010011010100",
+      "prices": [],
+      "action": {
+        "opt": "Yes"
+      }
+    },
+    {
+      "n": 10,
+      "file": "10.webp",
+      "url": "https://www.imprintapp.com/quiz/start-art",
+      "path": "/quiz/start-art",
+      "title": "Does this topic interest you?",
+      "kind": "question",
+      "text": "Does this topic interest you?\nArt Movements Through the Ages\nThe ideas, rebels, and revolutions that shaped art into what it is today.\nDoes this topic interest you?\nThe Lives of Great Artists\nThe obsessions, rivalries, and troubled lives behind the world's greatest artists.\nCrafted by art experts.\nEvery lesson draws insights from the world's leading art historians and critics.\nNo\nYes",
+      "textHash": "1bcadfd618c2",
+      "dhash": "1000001011101000111010001111000011110000100010101101010011010100",
+      "prices": [],
+      "action": {
+        "opt": "Yes",
+        "cta": "Continue"
+      }
+    },
+    {
+      "n": 11,
+      "file": "11.webp",
+      "url": "https://www.imprintapp.com/quiz/start-art",
+      "path": "/quiz/start-art",
+      "title": "Are you satisfied with your knowledge of Art?",
+      "kind": "question",
+      "text": "Crafted by art experts.\nEvery lesson draws insights from the world's leading art historians and critics.\nAre you satisfied with your knowledge of Art?\nYes\nA little\nNo\nWhat skills do you want to build with us?\nInterpret art\nRecognize famous artists\nDistinguish styles and movements\nDevelop a critical eye\nFind hidden meanings",
+      "textHash": "390ffbb6cf99",
+      "dhash": "1111000011100000000010100100000000000000000100000011001100110001",
+      "prices": [],
+      "action": {
+        "opt": "Yes"
+      }
+    },
+    {
+      "n": 12,
+      "file": "12.webp",
+      "url": "https://www.imprintapp.com/quiz/start-art",
+      "path": "/quiz/start-art",
+      "title": "Are you satisfied with your knowledge of Art?",
+      "kind": "question",
+      "text": "Are you satisfied with your knowledge of Art?\nYes\nA little\nNo\nWhat skills do you want to build with us?\nInterpret art\nRecognize famous artists\nDistinguish styles and movements\nDevelop a critical eye\nFind hidden meanings\nStrengthen practical skills\nArt isn't just dates and names. It trains you to observe closely, think critically, and make connections others can't.\nContinue",
+      "textHash": "2aab29a7fe7a",
+      "dhash": "1010001010110010000011010110010001000001110110001100100110110010",
+      "prices": [],
+      "action": {
+        "opt": "Yes"
       }
     }
   ],
   "features": {
-    "totalSteps": 8,
+    "totalSteps": 12,
     "stop": "stuck",
     "emailStep": null,
     "paywallStep": null,
-    "questions": 4,
+    "questions": 8,
     "socialProof": 3,
     "loader": false,
     "prices": [],

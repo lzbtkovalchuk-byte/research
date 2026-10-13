@@ -6,7 +6,7 @@
   "adShot": null,
   "adId": null,
   "dir": "funnels/copymind/2162dca161b4",
-  "stop": "email_verification",
+  "stop": "email_verification+paywall_direct",
   "proxied": false,
   "steps": [
     {
@@ -519,7 +519,7 @@
       "kind": "loader",
       "text": "To move forward, specify\nWould you leave your AI mind copy to your descendants?\nNo\nYes\nPreparing Your AI Twin To Guide You\nEnhancing Decision Skills...\n90%\nEvery step brings your AI Twin closer to helping you make better choices",
       "textHash": "c4704a58deee",
-      "dhash": "0000110100001111000101110011011100100011000100110000000000000000",
+      "dhash": "0100110100001111000001110011011100100011000100110000000000000000",
       "prices": [],
       "action": {
         "opt": "Yes"
@@ -534,7 +534,7 @@
       "kind": "loader",
       "text": "Preparing Your AI Twin To Guide You\nYour AI Twin Is Ready!\n100%\nEvery step brings your AI Twin closer to helping you make better choices\nContinue",
       "textHash": "b2a38ff3e869",
-      "dhash": "0010100100001111100011100111000000110001001100110100110101110001",
+      "dhash": "0010100100001111000011110111000000110001001100110100110101110001",
       "prices": [],
       "action": {
         "cta": "Continue"
@@ -563,24 +563,50 @@
       "path": "/welcome-quiz/email",
       "title": "Verify your email",
       "kind": "question",
-      "text": "Verify your email\nWe sent a one-time code to elza280204@gmail.com. Enter it below to log in.\nResend code in 58s\nVerify",
-      "textHash": "d32c981c998d",
+      "text": "Verify your email\nWe sent a one-time code to elza280204@gmail.com. Enter it below to log in.\nResend code in 57s\nVerify",
+      "textHash": "1388039c8e22",
       "dhash": "1000111000010111010011010000111101001101100000000000000100000000",
       "prices": []
+    },
+    {
+      "n": 38,
+      "file": "38.webp",
+      "url": "https://app.copymind.me/selling-page",
+      "path": "/selling-page",
+      "title": "09",
+      "kind": "paywall",
+      "direct": true,
+      "gate": "email_verification",
+      "text": "Discount expires in\n09\nmin\n:\n57\nsec\nSubscribe\nNow\nWith COPYMIND\nStress Level\nConfidence Level\nDecision Quality\nStress Level\nConfidence Level\nDecision Quality\nWhat's holding you back\nIntuition\nYour Personalized Plan Is Set!\nDiscount expires in 09:57 min\nThinking Pattern\nBalanced\nYour Goal\nBuy a House\n1-WEEK PLAN\n$9.99 for the first week, then auto-renews at $59.99 every 4 weeks\n$9.99\nMOST POPULAR\n4-WEEKS PLAN\n$26.99 for the first 4 weeks, then auto-renews at $59.99 every 4 weeks\n$26.99\n$59.99\n12-WEEKS PLAN\n$44.99 for the first 12 weeks, then auto-renews at $119.99 every 12 weeks\n$44.99\n$119.99\nSubscribe\nPay Safe & Secure\nWhat You Get\nDesider\nBreaks down tough choices into simple, clear steps.\nAchiever\nKeeps you focused and on track with your goals.\nAI Twin\nAsk anything, reflect deeply, and get real-time support.\nMindCores\nVisualize your thoughts and uncover hidden patterns.\nAnd More\nPersonalized content, guided reflections, and powerful AI tools to support your growth every day.\nPeople Just Like You\nGained Confidence\nWith AI Twin\n48%\n73%\n87%\n87%\nof users improved their decision-making skills within just 6 weeks\n73%\nof users started with similar levels of uncertainty as you\n48%\nof users faced the same challenges in making timely and confident decisions\nMoney-Back Guarantee\nWe believe in our service so much that we're offering a 30-day full refund if you don't see initial results—just show us that you've followed the plan.\nLearn more about all the conditions in our Subscription ",
+      "textHash": "1c425ed5c802",
+      "dhash": "1001111001001101110011001100110000001001100011000100100111001000",
+      "prices": [
+        "$9.99",
+        "$59.99",
+        "$26.99",
+        "$44.99",
+        "$119.99"
+      ]
     }
   ],
   "features": {
-    "totalSteps": 37,
-    "stop": "email_verification",
+    "totalSteps": 38,
+    "stop": "email_verification+paywall_direct",
     "emailStep": 36,
-    "paywallStep": null,
+    "paywallStep": 38,
     "questions": 19,
     "socialProof": 0,
     "loader": true,
-    "prices": [],
+    "prices": [
+      "$9.99",
+      "$59.99",
+      "$26.99",
+      "$44.99",
+      "$119.99"
+    ],
     "discount": null,
-    "timer": false,
+    "timer": true,
     "trial": false,
-    "moneyBack": false
+    "moneyBack": true
   }
 }

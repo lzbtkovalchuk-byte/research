@@ -1,22 +1,36 @@
 [
   {
     "id": "imprint",
-    "active": 580,
+    "active": 570,
     "newInWindow": 6,
     "landings": 5,
     "errors": 0
   },
   {
+    "id": "breeze",
+    "active": 30,
+    "newInWindow": 20,
+    "landings": 2,
+    "errors": 0
+  },
+  {
+    "id": "simply-piano",
+    "active": 430,
+    "newInWindow": 6,
+    "landings": 4,
+    "errors": 0
+  },
+  {
     "id": "memoryos",
-    "active": 6,
-    "newInWindow": 3,
+    "active": 7,
+    "newInWindow": 6,
     "landings": 3,
     "errors": 0
   },
   {
     "id": "chillio",
-    "active": 23,
-    "newInWindow": 14,
+    "active": 24,
+    "newInWindow": 17,
     "landings": 2,
     "errors": 0
   },
@@ -28,9 +42,37 @@
     "errors": 0
   },
   {
+    "id": "copymind",
+    "active": 0,
+    "newInWindow": 0,
+    "landings": 0,
+    "errors": 0
+  },
+  {
     "id": "simply-sing",
     "active": 110,
     "newInWindow": 8,
+    "landings": 1,
+    "errors": 0
+  },
+  {
+    "id": "yousician",
+    "active": 16,
+    "newInWindow": 5,
+    "landings": 2,
+    "errors": 0
+  },
+  {
+    "id": "smartyme",
+    "active": 200,
+    "newInWindow": 130,
+    "landings": 2,
+    "errors": 0
+  },
+  {
+    "id": "simply-draw",
+    "active": 6,
+    "newInWindow": 0,
     "landings": 1,
     "errors": 0
   }

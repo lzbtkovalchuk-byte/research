@@ -448,7 +448,7 @@
       "kind": "question",
       "text": "We’re tailoring your personal confident singing plan...\nSetting goals...\n49%\nTo improve recommendations, specify\nDo you need short daily drills you can do anywhere?\nYes\nNo\nTerms & Conditions • Privacy Policy • Subscription Policy",
       "textHash": "2fc2ba5d9a40",
-      "dhash": "0001001100111001001000000000000010000000010010110101101100110001",
+      "dhash": "0001001100111001001000000000000010100000010000110100101100110001",
       "prices": [],
       "action": {
         "opt": "Yes"
@@ -463,7 +463,7 @@
       "kind": "question",
       "text": "We’re tailoring your personal confident singing plan...\nGoals\n✅\nAnalyzing interests...\n72%\nTo improve recommendations, specify\nDo you want exercises matched to songs you love?\nYes\nNo\nTerms & Conditions • Privacy Policy • Subscription Policy",
       "textHash": "1b54d69108f1",
-      "dhash": "0000011101010101001111010000001000100000010101100110011100110001",
+      "dhash": "0000011101010101001111010000001010100000010001110011011100110001",
       "prices": [],
       "action": {
         "opt": "Yes"
@@ -478,7 +478,7 @@
       "kind": "question",
       "text": "We’re tailoring your personal confident singing plan...\nGoals\n✅\nInterests\n✅\nIdentifying challenges...\n63%\nTo improve recommendations, specify\nDo you need a friendly push when things get hard?\nYes\nNo\nTerms & Conditions • Privacy Policy • Subscription Policy",
       "textHash": "0cb20b1020c8",
-      "dhash": "0000001101100101010011010000101110100010000010010101011100110011",
+      "dhash": "0000001101100101010011010000101110100010010000010101011100110011",
       "prices": [],
       "action": {
         "opt": "Yes"

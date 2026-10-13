@@ -11,13 +11,13 @@
       "stop": "stuck",
       "steps": 1,
       "why": "ad",
-      "ads": 56
+      "ads": 55
     },
     {
       "key": "onboarding.ailearna.com/onboarding",
       "dir": "funnels/learna/8c5e7e4aa4f9",
       "stop": "stuck",
-      "steps": 30,
+      "steps": 39,
       "why": "seed",
       "ads": 0
     }

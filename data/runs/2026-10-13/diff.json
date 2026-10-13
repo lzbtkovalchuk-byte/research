@@ -349,7 +349,7 @@
     },
     "imprint": {
       "ads": {
-        "active": 580,
+        "active": 570,
         "prevActive": null,
         "delta": null,
         "newInWindow": 6,
@@ -419,6 +419,18 @@
             },
             {
               "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
             }
           ],
           "removed": []
@@ -426,6 +438,18 @@
         "imprintapp.com/start-art": {
           "firstRun": true,
           "status": [
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
             {
               "s": "baseline"
             },
@@ -460,8 +484,8 @@
         "active": 30,
         "prevActive": null,
         "delta": null,
-        "newInWindow": 17,
-        "newCreatives": 12
+        "newInWindow": 20,
+        "newCreatives": 13
       },
       "links": [
         {
@@ -727,21 +751,21 @@
         "active": 430,
         "prevActive": null,
         "delta": null,
-        "newInWindow": 2,
-        "newCreatives": 2
+        "newInWindow": 6,
+        "newCreatives": 4
       },
       "links": [
         {
           "status": "current",
           "key": "itunes.apple.com/app/id1019442026",
-          "ads": 12,
+          "ads": 11,
           "first": "2026-08-03",
           "store": true
         },
         {
           "status": "current",
           "key": "join-piano.hellosimply.com/start",
-          "ads": 18,
+          "ads": 17,
           "first": "2026-06-09",
           "store": false
         },
@@ -764,6 +788,18 @@
         "join-piano.hellosimply.com/start": {
           "firstRun": true,
           "status": [
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
             {
               "s": "baseline"
             },
@@ -949,12 +985,6 @@
             },
             {
               "s": "baseline"
-            },
-            {
-              "s": "baseline"
-            },
-            {
-              "s": "baseline"
             }
           ],
           "removed": []
@@ -963,11 +993,11 @@
     },
     "memoryos": {
       "ads": {
-        "active": 6,
+        "active": 7,
         "prevActive": null,
         "delta": null,
-        "newInWindow": 3,
-        "newCreatives": 1
+        "newInWindow": 6,
+        "newCreatives": 2
       },
       "links": [
         {
@@ -987,7 +1017,7 @@
         {
           "status": "current",
           "key": "start.memoryos.com/new-s",
-          "ads": 3,
+          "ads": 6,
           "first": "2026-10-08",
           "store": false
         }
@@ -1094,11 +1124,20 @@
             },
             {
               "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
             }
           ],
           "removed": []
         },
-        "start.memoryos.com/new-h?mos_cfg=seniors_o": {
+        "start.memoryos.com/new-s": {
           "firstRun": true,
           "status": [
             {
@@ -1216,11 +1255,11 @@
     },
     "chillio": {
       "ads": {
-        "active": 23,
+        "active": 24,
         "prevActive": null,
         "delta": null,
-        "newInWindow": 14,
-        "newCreatives": 12
+        "newInWindow": 17,
+        "newCreatives": 15
       },
       "links": [
         {
@@ -1242,6 +1281,9 @@
         "quiz.get-chillio.app/qs/cleaning-game": {
           "firstRun": true,
           "status": [
+            {
+              "s": "baseline"
+            },
             {
               "s": "baseline"
             },
@@ -1328,6 +1370,9 @@
             },
             {
               "s": "baseline"
+            },
+            {
+              "s": "baseline"
             }
           ],
           "removed": []
@@ -1352,17 +1397,17 @@
         },
         {
           "status": "current",
-          "key": "apps.codeway.co/learna-ai",
-          "ads": 56,
-          "first": "2026-09-21",
-          "store": false
+          "key": "play.google.com/store/apps/details?id=com.codeway.aitutor",
+          "ads": 11,
+          "first": "2026-10-07",
+          "store": true
         },
         {
           "status": "current",
-          "key": "play.google.com/store/apps/details?id=com.codeway.aitutor",
-          "ads": 10,
-          "first": "2026-10-07",
-          "store": true
+          "key": "apps.codeway.co/learna-ai",
+          "ads": 55,
+          "first": "2026-09-21",
+          "store": false
         }
       ],
       "funnels": {
@@ -1378,6 +1423,33 @@
         "onboarding.ailearna.com/onboarding": {
           "firstRun": true,
           "status": [
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
             {
               "s": "baseline"
             },
@@ -1486,6 +1558,9 @@
         "app.copymind.me/welcome-quiz/gender": {
           "firstRun": true,
           "status": [
+            {
+              "s": "baseline"
+            },
             {
               "s": "baseline"
             },
@@ -1717,24 +1792,24 @@
     },
     "smartyme": {
       "ads": {
-        "active": 209,
+        "active": 200,
         "prevActive": null,
         "delta": null,
-        "newInWindow": 158,
-        "newCreatives": 38
+        "newInWindow": 130,
+        "newCreatives": 35
       },
       "links": [
         {
           "status": "current",
           "key": "start.smartymeapp.com/quiz",
-          "ads": 258,
-          "first": "2026-09-13",
+          "ads": 171,
+          "first": "2026-09-18",
           "store": false
         },
         {
           "status": "current",
           "key": "smartymeapp.onelink.me/gdRe?deep_link_value=smartyme-a20",
-          "ads": 19,
+          "ads": 21,
           "first": "2026-10-07",
           "store": true
         }
@@ -1743,9 +1818,6 @@
         "start.smartymeapp.com/quiz": {
           "firstRun": true,
           "status": [
-            {
-              "s": "baseline"
-            },
             {
               "s": "baseline"
             },

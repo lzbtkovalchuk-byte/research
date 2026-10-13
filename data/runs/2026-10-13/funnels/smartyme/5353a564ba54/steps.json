@@ -2,7 +2,7 @@
   "url": "https://start.smartymeapp.com/quiz",
   "key": "start.smartymeapp.com/quiz",
   "why": "ad",
-  "ads": 258,
+  "ads": 171,
   "adShot": "smartyme-5353a564ba54.webp",
   "adId": "1658538298950433",
   "dir": "funnels/smartyme/5353a564ba54",
@@ -410,33 +410,19 @@
       "url": "https://start.smartymeapp.com/quiz",
       "path": "/quiz",
       "title": "Your approach to decision-making is...",
-      "kind": "info",
+      "kind": "question",
       "text": "Communication Style\n✓\n✓\n✓\nYour approach to decision-making is...\nRuminate and think it through\nGo with my gut instinct right away",
       "textHash": "04b18fda5cc9",
       "dhash": "0101000011110010101000001000110000000000001001000000000000000000",
       "prices": [],
       "action": {
-        "cta": "Go with my gut instinct right away"
+        "opt": "Ruminate and think it through",
+        "cta": "Continue"
       }
     },
     {
       "n": 28,
       "file": "28.webp",
-      "url": "https://start.smartymeapp.com/quiz",
-      "path": "/quiz",
-      "title": "Your approach to decision-making is...",
-      "kind": "info",
-      "text": "Communication Style\n✓\n✓\n✓\nYour approach to decision-making is...\nRuminate and think it through\nGo with my gut instinct right away\nTrusting your instincts shows strong intuition and decisiveness.\nSmartyMe helps you express those quick insights in a way that feels clear, grounded, and easy for others to follow.\nContinue",
-      "textHash": "c747be56d600",
-      "dhash": "0101000011110010101000011000010010000100000000001000101010001010",
-      "prices": [],
-      "action": {
-        "cta": "Continue"
-      }
-    },
-    {
-      "n": 29,
-      "file": "29.webp",
       "url": "https://start.smartymeapp.com/quiz",
       "path": "/quiz",
       "title": "A resume gets you in the door. Authority skills gets you a seat at the table",
@@ -450,8 +436,8 @@
       }
     },
     {
-      "n": 30,
-      "file": "30.webp",
+      "n": 29,
+      "file": "29.webp",
       "url": "https://start.smartymeapp.com/quiz",
       "path": "/quiz",
       "title": "SmartyMe was developed on proven scientific methods",
@@ -465,8 +451,8 @@
       }
     },
     {
-      "n": 31,
-      "file": "31.webp",
+      "n": 30,
+      "file": "30.webp",
       "url": "https://start.smartymeapp.com/quiz",
       "path": "/quiz",
       "title": "When would you prefer to study?",
@@ -481,8 +467,8 @@
       }
     },
     {
-      "n": 32,
-      "file": "32.webp",
+      "n": 31,
+      "file": "31.webp",
       "url": "https://start.smartymeapp.com/quiz",
       "path": "/quiz",
       "title": "Who inspires you the most?",
@@ -497,8 +483,8 @@
       }
     },
     {
-      "n": 33,
-      "file": "33.webp",
+      "n": 32,
+      "file": "32.webp",
       "url": "https://start.smartymeapp.com/quiz",
       "path": "/quiz",
       "title": "Great choice! Now it's time to invest in you",
@@ -512,8 +498,8 @@
       }
     },
     {
-      "n": 34,
-      "file": "34.webp",
+      "n": 33,
+      "file": "33.webp",
       "url": "https://start.smartymeapp.com/quiz",
       "path": "/quiz",
       "title": "Your small talk communication plan is 92% ready!",
@@ -527,8 +513,8 @@
       }
     },
     {
-      "n": 35,
-      "file": "35.webp",
+      "n": 34,
+      "file": "34.webp",
       "url": "https://start.smartymeapp.com/quiz",
       "path": "/quiz",
       "title": "What's your learning style?",
@@ -542,8 +528,8 @@
       }
     },
     {
-      "n": 36,
-      "file": "36.webp",
+      "n": 35,
+      "file": "35.webp",
       "url": "https://start.smartymeapp.com/quiz",
       "path": "/quiz",
       "title": "Understanding leads the way for you!",
@@ -557,8 +543,8 @@
       }
     },
     {
-      "n": 37,
-      "file": "37.webp",
+      "n": 36,
+      "file": "36.webp",
       "url": "https://start.smartymeapp.com/quiz",
       "path": "/quiz",
       "title": "Did you hear about SmartyMe from a coach or mentor?",
@@ -572,8 +558,8 @@
       }
     },
     {
-      "n": 38,
-      "file": "38.webp",
+      "n": 37,
+      "file": "37.webp",
       "url": "https://start.smartymeapp.com/quiz",
       "path": "/quiz",
       "title": "Built by experts. Backed by science",
@@ -587,8 +573,8 @@
       }
     },
     {
-      "n": 39,
-      "file": "39.webp",
+      "n": 38,
+      "file": "38.webp",
       "url": "https://start.smartymeapp.com/quiz",
       "path": "/quiz",
       "title": "Do you have a specific self-growth goal in mind?",
@@ -603,8 +589,8 @@
       }
     },
     {
-      "n": 40,
-      "file": "40.webp",
+      "n": 39,
+      "file": "39.webp",
       "url": "https://start.smartymeapp.com/quiz",
       "path": "/quiz",
       "title": "4,000,000+ people",
@@ -618,8 +604,8 @@
       }
     },
     {
-      "n": 41,
-      "file": "41.webp",
+      "n": 40,
+      "file": "40.webp",
       "url": "https://start.smartymeapp.com/quiz",
       "path": "/quiz",
       "title": "Creating your Small Talk Communication plan...",
@@ -633,8 +619,8 @@
       }
     },
     {
-      "n": 42,
-      "file": "42.webp",
+      "n": 41,
+      "file": "41.webp",
       "url": "https://start.smartymeapp.com/quiz",
       "path": "/quiz",
       "title": "Creating your Small Talk Communication plan...",
@@ -648,8 +634,8 @@
       }
     },
     {
-      "n": 43,
-      "file": "43.webp",
+      "n": 42,
+      "file": "42.webp",
       "url": "https://start.smartymeapp.com/quiz",
       "path": "/quiz",
       "title": "Creating your Small Talk Communication plan...",
@@ -663,8 +649,8 @@
       }
     },
     {
-      "n": 44,
-      "file": "44.webp",
+      "n": 43,
+      "file": "43.webp",
       "url": "https://start.smartymeapp.com/quiz",
       "path": "/quiz",
       "title": "Creating your Small Talk Communication plan...",
@@ -678,8 +664,8 @@
       }
     },
     {
-      "n": 45,
-      "file": "45.webp",
+      "n": 44,
+      "file": "44.webp",
       "url": "https://start.smartymeapp.com/quiz",
       "path": "/quiz",
       "title": "Enter your email to get your personalized Small Talk Communication plan",
@@ -694,8 +680,8 @@
       }
     },
     {
-      "n": 46,
-      "file": "46.webp",
+      "n": 45,
+      "file": "45.webp",
       "url": "https://start.smartymeapp.com/quiz",
       "path": "/quiz",
       "title": "Do you want to receive emails with self-growth tips, updates on our products, and special offers?",
@@ -709,8 +695,8 @@
       }
     },
     {
-      "n": 47,
-      "file": "47.webp",
+      "n": 46,
+      "file": "46.webp",
       "url": "https://start.smartymeapp.com/quiz",
       "path": "/quiz",
       "title": "What's your name?",
@@ -725,23 +711,23 @@
       }
     },
     {
-      "n": 48,
-      "file": "48.webp",
+      "n": 47,
+      "file": "47.webp",
       "url": "https://start.smartymeapp.com/quiz",
       "path": "/quiz",
       "title": "Your personalized communication plan is ready!",
       "kind": "info",
-      "text": "Your personalized communication plan is ready!\nWe have carefully analyzed your answers and created your individual plan\n5 min/day\nOct 13\nNow\nContinue\nSmartyMe is here to support your learning journey. Our courses are for learning and inspiration, not to guarantee specific skills or provide professional advice. Since every learner is different, results may vary.",
-      "textHash": "1b19a6a4b9b7",
-      "dhash": "1110100011110000100011001001100010000000101000001000111010001010",
+      "text": "Your personalized communication plan is ready!\nWe have carefully analyzed your answers and created your individual plan\n5 min/day\nOct 13\nNow\n28 lessons per month\nNov 10\nContinue\nSmartyMe is here to support your learning journey. Our courses are for learning and inspiration, not to guarantee specific skills or provide professional advice. Since every learner is different, results may vary.",
+      "textHash": "85825e75ed46",
+      "dhash": "1110100011110000100001101001111010000010101000101000111010001010",
       "prices": [],
       "action": {
         "cta": "Continue"
       }
     },
     {
-      "n": 49,
-      "file": "49.webp",
+      "n": 48,
+      "file": "48.webp",
       "url": "https://start.smartymeapp.com/quiz",
       "path": "/quiz",
       "title": "Transform your life!",
@@ -755,13 +741,13 @@
       }
     },
     {
-      "n": 50,
-      "file": "50.webp",
+      "n": 49,
+      "file": "49.webp",
       "url": "https://start.smartymeapp.com/quiz",
       "path": "/quiz",
       "title": "Your Small Talk Communication plan is ready!",
       "kind": "paywall",
-      "text": "Your Small Talk Communication plan \nis ready!\n60% discount reserved for: \n09:56\n12 WEEK PLAN\n$31.99 now, then $79.99 every 12 weeks\n$31.99\n$79.99\n4 WEEK PLAN\n$15.19 now, then $38.99 every 4 weeks\n$15.19\n$38.99\n24 WEEK PLAN\n$47.99 now, then $119.99 every 24 weeks\n$47.99\n$119.99\n28-day money-back guarantee\nGet My Plan\nWhat you get with \nSmartyMe\n5 min/day\nWe are ready to answer\nyour questions\nHow can SmartyMe help me?\nOn SmartyMe, you can find interactive 15-minute lessons designed to fit into your busy schedule, bringing soft skills to life. Our experts guide you in mastering essential skills like leadership, influence, and communication with ease and confidence.\nHow can I access the product?\nAfter you purchase a subscription, you will receive a link to download the app from the App Store and Google Play. Simply install the app to access your product. We’ve also sent the download link to your inbox.\nHow can I cancel my subscription?\nTo cancel, please navigate to the Profile Settings in your account at web.smartymeapp.com or within the app. Be sure to cancel at least 24 hours before the renewal date, or the payment for the next period will be processed automatically.\nHear success stories\nfrom our users\n28-Day Money-Back Guarantee\nWe believe that our plan will bring you clear results in just 4 weeks! We are even willing to return your money if you don't see any noticeable progress or feel that SmartyMe is not the right fit for you. Please double check our Terms of use to underst",
+      "text": "Your Small Talk Communication plan \nis ready!\n60% discount reserved for: \n09:55\n12 WEEK PLAN\n$31.99 now, then $79.99 every 12 weeks\n$31.99\n$79.99\n4 WEEK PLAN\n$15.19 now, then $38.99 every 4 weeks\n$15.19\n$38.99\n24 WEEK PLAN\n$47.99 now, then $119.99 every 24 weeks\n$47.99\n$119.99\n28-day money-back guarantee\nGet My Plan\nWhat you get with \nSmartyMe\n5 min/day\nWe are ready to answer\nyour questions\nHow can SmartyMe help me?\nOn SmartyMe, you can find interactive 15-minute lessons designed to fit into your busy schedule, bringing soft skills to life. Our experts guide you in mastering essential skills like leadership, influence, and communication with ease and confidence.\nHow can I access the product?\nAfter you purchase a subscription, you will receive a link to download the app from the App Store and Google Play. Simply install the app to access your product. We’ve also sent the download link to your inbox.\nHow can I cancel my subscription?\nTo cancel, please navigate to the Profile Settings in your account at web.smartymeapp.com or within the app. Be sure to cancel at least 24 hours before the renewal date, or the payment for the next period will be processed automatically.\nHear success stories\nfrom our users\n28-Day Money-Back Guarantee\nWe believe that our plan will bring you clear results in just 4 weeks! We are even willing to return your money if you don't see any noticeable progress or feel that SmartyMe is not the right fit for you. Please double check our Terms of use to underst",
       "textHash": "534b4e364236",
       "dhash": "1110100011110000111001101100011011000110110001001001101011011000",
       "prices": [
@@ -775,11 +761,11 @@
     }
   ],
   "features": {
-    "totalSteps": 50,
+    "totalSteps": 49,
     "stop": "paywall",
-    "emailStep": 45,
-    "paywallStep": 50,
-    "questions": 25,
+    "emailStep": 44,
+    "paywallStep": 49,
+    "questions": 26,
     "socialProof": 2,
     "loader": true,
     "prices": [

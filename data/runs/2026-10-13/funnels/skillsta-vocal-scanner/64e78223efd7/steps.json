@@ -488,7 +488,8 @@
       "dhash": "0001101100010111010010100100000101110001000000011000000000010011",
       "prices": [],
       "action": {
-        "filled": true
+        "filled": true,
+        "fallback": "Get my report"
       }
     },
     {

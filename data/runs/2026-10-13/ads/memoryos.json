@@ -9,9 +9,9 @@
       "type": "domain",
       "value": "memoryos.com",
       "url": "https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=US&media_type=all&search_type=keyword_unordered&q=memoryos.com",
-      "results": 130,
+      "results": 170,
       "parsed": 28,
-      "kept": 6
+      "kept": 7
     }
   ],
   "ads": [
@@ -104,6 +104,21 @@
       "startedISO": "2026-09-10",
       "key": "start.memoryos.com/new-h?mos_cfg=seniors_s",
       "store": false
+    },
+    {
+      "id": "1361933192820347",
+      "started": "Oct 9, 2026",
+      "versions": 3,
+      "page": "memoryOS",
+      "body": "Forgot a name at the door? Learn the method a two-time World Memory Champion uses - just 10 minutes a day 🧠💪🏻",
+      "caption": null,
+      "headline": "",
+      "cta": "",
+      "video": false,
+      "link": "https://start.memoryos.com/new-s",
+      "startedISO": "2026-10-09",
+      "key": "start.memoryos.com/new-s",
+      "store": false
     }
   ],
   "landing": {
@@ -142,23 +157,24 @@
       "key": "start.memoryos.com/new-s",
       "sample": "https://start.memoryos.com/new-s",
       "store": false,
-      "ads": 3,
-      "creatives": 1,
+      "ads": 6,
+      "creatives": 2,
       "first": "2026-10-08",
-      "last": "2026-10-08",
+      "last": "2026-10-09",
       "adIds": [
-        "2842674516133144"
+        "2842674516133144",
+        "1361933192820347"
       ],
       "shot": "memoryos-8df162c3ae21.webp",
-      "shotAd": "2842674516133144"
+      "shotAd": "1361933192820347"
     }
   },
   "pageIds": {
     "memoryOS": "107666117414750",
     "Brian Calloway": "1174831152374584"
   },
-  "activeEstimate": 6,
-  "parsedCreatives": 6,
-  "newInWindow": 3,
-  "newCreativesInWindow": 1
+  "activeEstimate": 7,
+  "parsedCreatives": 7,
+  "newInWindow": 6,
+  "newCreativesInWindow": 2
 }

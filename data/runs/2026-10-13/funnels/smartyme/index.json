@@ -9,9 +9,9 @@
       "key": "start.smartymeapp.com/quiz",
       "dir": "funnels/smartyme/5353a564ba54",
       "stop": "paywall",
-      "steps": 50,
+      "steps": 49,
       "why": "ad",
-      "ads": 258
+      "ads": 171
     }
   ]
 }
