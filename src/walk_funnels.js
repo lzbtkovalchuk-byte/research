@@ -109,7 +109,7 @@ async function inspect(page) {
 
 function inputValue(i) {
   const k = `${i.type} ${i.name} ${i.ph} ${i.label}`.toLowerCase();
-  if (i.type === 'email' || /e-?mail/.test(k)) return EMAIL ? { v: EMAIL, kind: 'email' } : { stop: 'email_gate' };
+  if (i.type === 'email' || /e-?mail/.test(k) || /@/.test(i.ph)) return EMAIL ? { v: EMAIL, kind: 'email' } : { stop: 'email_gate' };
   if (/name/.test(k)) return { v: NAME };
   if (/age|years? old/.test(k)) return { v: '30' };
   if (/height|tall/.test(k)) return { v: /ft|feet/.test(k) ? '5' : '170' };
@@ -124,10 +124,10 @@ function inputValue(i) {
 function classify(s) {
   const prices = (s.text.match(PRICE) || []);
   const payWords = /(per (day|week|month|year)|\/\s?(day|week|wk|month|mo|year|yr)|billed|subscription|plan|trial|money.back|guarantee|discount|% off)/i.test(s.text);
-  if (s.hasCard) return 'payment';
   if (prices.length >= 2 && payWords) return 'paywall';
+  if (s.hasCard) return 'payment';
   if (s.hasPassword) return 'account';
-  if (s.inputs.some(i => i.type === 'email' || /e-?mail/i.test(`${i.name} ${i.ph} ${i.label}`))) return 'email';
+  if (s.inputs.some(i => i.type === 'email' || /e-?mail/i.test(`${i.name} ${i.ph} ${i.label}`) || /@/.test(i.ph))) return 'email';
   if (/(creating|building|analy[sz]ing|preparing|generating|calculating) (your|a)/i.test(s.text)) return 'loader';
   if (/\b\d{1,3}(,\d{3})+\+?\s|\d+(\.\d)?\s?(m|k|million)\+?\s(people|users|learners|students|women|men|members)|featured in|as seen (in|on)|trusted by/i.test(s.text)) return 'social_proof';
   if (s.opts.length >= 2) return 'question';
@@ -229,7 +229,19 @@ async function walk(browser, app, entry, dir) {
 
       const before = await page.evaluate(() => location.href + '|' + document.body.innerText).catch(() => '');
       const changed = async () => (await page.evaluate(() => location.href + '|' + document.body.innerText).catch(() => '')) !== before;
-      const click = async sel => { await page.locator(sel).first().click({ timeout: 4000 }).catch(() => page.locator(sel).first().click({ force: true }).catch(() => {})); };
+      const snap = () => page.evaluate(() => location.href + '|' + document.body.innerText).catch(() => '');
+      // Click; if nothing happens, retry as a touch tap and then a raw mouse click at the element's centre.
+      const click = async (sel, toggle = false) => {
+        const loc = page.locator(sel).first();
+        const b = await snap();
+        await loc.click({ timeout: 4000 }).catch(() => loc.click({ force: true }).catch(() => {}));
+        if (toggle) return;
+        await sleep(600); if ((await snap()) !== b) return;
+        await loc.tap({ timeout: 3000 }).catch(() => {});
+        await sleep(600); if ((await snap()) !== b) return;
+        const bb = await loc.boundingBox().catch(() => null);
+        if (bb) await page.mouse.click(bb.x + bb.width / 2, bb.y + bb.height / 2).catch(() => {});
+      };
       const pressCTA = async st => {
         const optTexts = new Set(st.opts.map(o => o.text));
         const c = st.ctas.filter(c => !c.disabled).sort((a, b) => b.top - a.top)[0] || (st.primary && !st.primary.disabled && !optTexts.has(st.primary.text) && !/receive|news|updates|offers/i.test(st.primary.text) ? st.primary : null);
@@ -255,7 +267,7 @@ async function walk(browser, app, entry, dir) {
           const multi = multiCount(s.text);
           if (multi) {
             const picks = s.opts.filter(x => !x.disabled && !/prefer not|^other$|^none/i.test(x.text)).slice(0, multi);
-            for (const p of picks) { await click(p.sel); await sleep(350); }
+            for (const p of picks) { await click(p.sel, true); await sleep(350); }
             act.opt = picks.map(p => p.text).join(' + ');
           } else {
             const opt = pickOption(s);
@@ -273,14 +285,37 @@ async function walk(browser, app, entry, dir) {
         let moved = false;
         for (let w = 0; w < 25 && !moved; w++) { await sleep(1000); moved = await changed(); }
         if (!moved) {
-          await page.keyboard.press('Enter').catch(() => {});
-          await sleep(1200);
-          if (!(await changed())) { stop = 'stuck'; break; }
+          // Last resort: try each answer and button on the screen until one moves the funnel forward.
+          const st = await inspect(page);
+          const tries = [...st.opts.filter(o => !o.icon), ...st.ctas, ...(st.primary ? [st.primary] : []), ...st.opts.filter(o => o.icon)].slice(0, 8);
+          for (const t of tries) { await click(t.sel); await sleep(800); if (await changed()) { moved = true; act.fallback = t.text; break; } }
+          if (!moved) { await page.keyboard.press('Enter').catch(() => {}); await sleep(1200); moved = await changed(); }
+          if (!moved) { stop = 'stuck'; break; }
         }
       }
     }
   } catch (e) {
     stop = 'error: ' + String(e.message || e).slice(0, 160);
+  }
+  // Every flow should end on a paywall. If a gate we can't pass (email code, account, mic test, stuck screen)
+  // stopped the walk, open the paywall directly in the same session (answers and email are kept) and capture it.
+  if (!steps.some(x => x.kind === 'paywall')) {
+    try {
+      const here = new URL(page.url());
+      const guesses = [...(app.paywall_urls || []), ...['/paywall', '/plans', '/pricing', '/checkout', '/subscription', '/payment', '/offer', '/plan', '/selling-page', '/get-plan'].map(p => here.origin + p)];
+      for (const u of [...new Set(guesses)].slice(0, 12)) {
+        const r = await page.goto(u, { waitUntil: 'domcontentloaded', timeout: 25000 }).catch(() => null);
+        if (!r || r.status() >= 400) continue;
+        await sleep(2500); await settle(page); await page.addStyleTag({ content: HIDE_CSS }).catch(() => {});
+        const s = await inspect(page);
+        if (classify(s) !== 'paywall') continue;
+        const n = steps.length + 1, file = String(n).padStart(2, '0') + '.webp';
+        const dhash = await shot(page, path.join(dir, file));
+        steps.push({ n, file, url: s.url, path: new URL(s.url).pathname, title: s.title, kind: 'paywall', direct: true, gate: stop, text: s.text.slice(0, 1500), textHash: sha(normText(s.text).slice(0, 2000)), dhash, prices: [...new Set(s.text.match(PRICE) || [])].slice(0, 12) });
+        stop = stop + '+paywall_direct';
+        break;
+      }
+    } catch {}
   }
   await ctx.close();
   return { steps, stop, proxied: !!proxy };

@@ -132,7 +132,13 @@ async function main() {
         if (!(await loc.count())) continue;
         try {
           await loc.scrollIntoViewIfNeeded();
-          await sleep(1200);
+          // Headless Chromium can't play Meta's video codecs; show the video's poster frame instead of the error box.
+          await loc.evaluate(c => c.querySelectorAll('video').forEach(v => {
+            if (!v.poster) return;
+            const img = document.createElement('img'); img.src = v.poster; img.style.cssText = 'width:100%;height:auto;display:block';
+            const box = v.closest('div[class]') || v.parentElement; box.replaceChildren(img);
+          })).catch(() => {});
+          await sleep(1500);
           const buf = await loc.screenshot({ timeout: 15000 });
           const file = `${app.id}-${sha(g.key)}.webp`;
           await sharp(buf).resize({ width: 600, withoutEnlargement: true }).webp({ quality: 70 }).toFile(path.join(OUT, file));

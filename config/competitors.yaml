@@ -92,6 +92,7 @@ competitors:
     geo: US
     ads: { page_ids: ["245680685625507"] }
     seeds: ["https://yousician.com/?utm_source=facebook"]
+    paywall_urls: ["https://account.yousician.com/plans"]   # behind account creation; opened directly
 
   - id: smartyme
     name: SmartyMe

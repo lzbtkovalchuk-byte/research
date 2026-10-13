@@ -32,14 +32,16 @@ function flowHTML(app, f) {
     : (changed || added || df.removed?.length) ? `${changed ? `<span class="chip chg">${changed} changed</span>` : ''}${added ? `<span class="chip new">${added} new</span>` : ''}${df.removed?.length ? `<span class="chip del">${df.removed.length} removed</span>` : ''}`
     : '<span class="chip neutral">No screen changes</span>';
   const fx = f.features;
-  const meta = [f.key, `${fx.totalSteps} screens`, fx.emailStep ? `email gate at ${fx.emailStep}` : null, fx.paywallStep ? `paywall at ${fx.paywallStep}` : null, STOP[f.stop] || f.stop].filter(Boolean).join(' · ');
+  const [stop0, extra] = String(f.stop).split('+');
+  const stopText = extra === 'paywall_direct' ? `${(STOP[stop0] || stop0).replace(/^stopped at /, '')} → paywall opened directly in the same session` : (STOP[stop0] || stop0);
+  const meta = [f.key, `${fx.totalSteps} screens`, fx.emailStep ? `email gate at ${fx.emailStep}` : null, fx.paywallStep ? `paywall at ${fx.paywallStep}` : null, stopText].filter(Boolean).join(' · ');
   const adCard = f.adShot ? (() => { const src = img(path.join(RUN, 'ads', f.adShot)); return src ? `<div class="shot ad"><div class="phone"><img loading="lazy" src="${src}" alt="Meta ad" data-cap="${esc(app.name)} · Meta ad (Library ID ${esc(f.adId)}) → ${esc(f.key)}"></div><span class="n">Ad</span><span class="cap">${f.ads} ads → this link</span></div><span class="arrow" aria-hidden="true">→</span>` : ''; })() : '';
   const shots = f.steps.map((s, i) => {
     const st = df.status[i]?.s;
     const cls = st === 'changed' ? ' changed' : st === 'new' ? ' added' : '';
     const badge = st === 'changed' ? '<span class="badge chg">Changed</span>' : st === 'new' ? '<span class="badge new">New</span>' : '';
     const src = img(path.join(RUN, f.dir, s.file));
-    return `<div class="shot"><div class="phone${cls}" style="position:relative">${badge}${src ? `<img loading="lazy" src="${src}" alt="${esc(s.title)}" data-cap="${esc(app.name)} · ${s.n}. ${esc(s.title)} · ${esc(s.path)}">` : ''}</div><span class="n">${s.n} · ${esc(KIND[s.kind] || s.kind)}</span><span class="cap">${esc((s.title || '').slice(0, 60))}</span></div>`;
+    return `<div class="shot"><div class="phone${cls}" style="position:relative">${badge}${src ? `<img loading="lazy" src="${src}" alt="${esc(s.title)}" data-cap="${esc(app.name)} · ${s.n}. ${esc(s.title)} · ${esc(s.path)}">` : ''}</div><span class="n">${s.n} · ${esc(KIND[s.kind] || s.kind)}${s.direct ? ' (direct)' : ''}</span><span class="cap">${esc((s.title || '').slice(0, 60))}</span></div>`;
   }).join('');
   const removed = df.removed?.length ? `<p class="note">Removed since last run: ${df.removed.map(r => esc(r.title || 'untitled screen')).join(' · ')}</p>` : '';
   const proxyWarn = !f.proxied && app.geo === 'GB' ? '<p class="warn">Captured from a US connection — no UK proxy configured yet, so prices may differ from what UK users see.</p>' : '';
