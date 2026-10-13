@@ -213,6 +213,31 @@ async function walk(browser, app, entry, dir) {
       if (kind === 'account') { stop = 'account_creation'; break; }
       if (/(one-time code|verification code|enter (the )?code|\botp\b|verify your email|check your (e-?mail|inbox))/i.test(s.text)) { stop = 'email_verification'; break; }
 
+      // Date pickers (readonly "Choose date" inputs): open the calendar and pick a day about a month ahead.
+      const dateIn = s.inputs.find(i => !i.value && /date|dd\/|mm\//i.test(`${i.ph} ${i.name} ${i.label}`));
+      if (dateIn) {
+        await page.locator(dateIn.sel).click({ force: true }).catch(() => {});
+        await sleep(800);
+        const picked = await page.evaluate(() => {
+          const vis = e => { const r = e.getBoundingClientRect(); return r.width > 4 && r.height > 4; };
+          const next = [...document.querySelectorAll('[aria-label*="next" i],.dp__arrow_bottom,.dp__inner_nav,[class*="next" i]')].filter(vis)[0];
+          if (next) next.click();
+          return true;
+        }).catch(() => false);
+        await sleep(600);
+        const ok = await page.evaluate(() => {
+          const vis = e => { const r = e.getBoundingClientRect(); return r.width > 4 && r.height > 4; };
+          const cells = [...document.querySelectorAll('.dp__cell_inner,[role=gridcell] button,[role=gridcell],td button,.react-datepicker__day,[class*="day" i]')]
+            .filter(e => vis(e) && /^\d{1,2}$/.test((e.innerText || '').trim()) && !/disabled|outside|offset|other/i.test(e.className + ' ' + (e.getAttribute('aria-disabled') || '')));
+          const c = cells.find(e => e.innerText.trim() === '15') || cells[Math.floor(cells.length / 2)];
+          if (!c) return false;
+          c.click();
+          const sel = [...document.querySelectorAll('.dp__action_select,button')].filter(vis).find(b => /^(select|ok|done|apply|confirm)$/i.test((b.innerText || '').trim()));
+          if (sel) sel.click();
+          return true;
+        }).catch(() => false);
+        if (ok && picked) { await sleep(800); s = await inspect(page); }
+      }
       // Fill inputs.
       let filled = false, gate = null;
       for (const inp of s.inputs) {
