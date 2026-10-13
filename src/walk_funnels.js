@@ -15,13 +15,20 @@ const MAX_STEPS = S.max_steps || 90;
 const MAX_FUNNELS = S.max_funnels_per_app || 2;
 
 const CTA = /^(continue|next|next step|get started|let'?s get started|start|start now|start quiz|take the quiz|take quiz|begin|let'?s go|let'?s start|go|got it|ok(ay)?|i'?m ready|ready|submit|done|proceed|i agree|agree|see (my )?(results?|plan)|show (my )?(results?|plan)|get (my )?(results?)|reveal (my )?results?|check (my )?results?|continue with email|sounds good|awesome|great|yes,? let'?s do it|grow your child.s skills|discover more|tap to continue|skip for now|explore( my)? results|view( my)? results|unlock( my)? results|get( my)? results|claim( my)? (plan|results)|continue to results)\b/i;
-const NEVER = /(sign in|log ?in|with google|with apple|with facebook|terms|privacy|cookie|policy|back|close|menu|help|faq|contact|download the app|app store|google play|why we ask|why do we ask|learn more|read more|more info|^why\??$|all rights reserved|©|accept( all)?( cookies)?$|allow( all)?( cookies)?$|reject|^home$|home$|^blog$|^instruments$|^languages?$|family plan|log ?out)/i;
+const NEVER = /(sign in|log ?in|with google|with apple|with facebook|terms|privacy|cookie|policy|back|close|menu|help|faq|contact|download the app|app store|google play|why we ask|why do we ask|learn more|read more|more info|^why\??$|all rights reserved|©|accept( all)?( cookies)?$|allow( all)?( cookies)?$|reject|customi[sz]e|save my preferences|confirm my choices|manage (cookies|preferences)|cookie settings|^home$|home$|^blog$|^instruments$|^languages?$|family plan|log ?out)/i;
 const DECLINE = /(don.?t want|do not want|no,? thanks|not now|not interested|i.?ll pass|no thank you|maybe later|skip)/i;
 const PRICE = /(?:[$£€]\s?\d+[.,]?\d*|\d+[.,]\d{2}\s?(?:usd|gbp|eur|[$£€]))/gi;
 
 const HIDE_CSS = `#onetrust-consent-sdk,#onetrust-banner-sdk,.cky-consent-container,#CybotCookiebotDialog,#usercentrics-root,.cc-window,[id*="cookie-banner" i],[class*="cookie-banner" i],[aria-label*="cookie" i][role="dialog"]{display:none!important}`;
 
 async function rejectCookies(page) {
+  // Banners without a reject button: open settings and save with optional cookies off.
+  const cust = page.getByRole('button', { name: /^(customi[sz]e|manage (preferences|cookies)|cookie settings)$/i }).first();
+  if (await cust.isVisible({ timeout: 300 }).catch(() => false) && /cookie/i.test(await page.evaluate(() => document.body.innerText).catch(() => ''))) {
+    await cust.click({ timeout: 2000 }).catch(() => {}); await sleep(600);
+    const save = page.getByRole('button', { name: /^(save my preferences|confirm my choices|save( settings| preferences)?|reject all)$/i }).first();
+    if (await save.isVisible({ timeout: 500 }).catch(() => false)) { await save.click({ timeout: 2000 }).catch(() => {}); await sleep(500); }
+  }
   for (const re of [/^reject all$/i, /^reject$/i, /^decline( all)?$/i, /^only (necessary|essential)/i, /^(necessary|essential) only/i, /^deny$/i, /^refuse/i]) {
     const b = page.getByRole('button', { name: re }).first();
     if (await b.isVisible({ timeout: 300 }).catch(() => false)) { await b.click({ timeout: 2000 }).catch(() => {}); await sleep(500); break; }
@@ -192,6 +199,7 @@ async function walk(browser, app, entry, dir) {
     for (let i = 0; i < MAX_STEPS; i++) {
       if (Date.now() - t0 > 25 * 60e3) { stop = 'timeout'; break; }
       await settle(page);
+      if (i < 3 || i % 5 === 0) await rejectCookies(page);
       await page.addStyleTag({ content: HIDE_CSS }).catch(() => {});
       let s = await inspect(page);
       const host = new URL(s.url).hostname;
