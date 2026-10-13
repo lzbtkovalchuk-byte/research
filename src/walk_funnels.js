@@ -88,7 +88,7 @@ async function inspect(page) {
       const r = el.getBoundingClientRect();
       const disabled = el.disabled || el.getAttribute('aria-disabled') === 'true' || getComputedStyle(el).opacity < 0.5;
       const item = { sel: `[data-cfw="c${n}"]`, text: t.slice(0, 80), top: Math.round(r.top), disabled };
-      if (CTA.test(t)) ctas.push(item);
+      if (CTA.test(t) && t.length <= 32 && !/receive|news|updates|offers|marketing/i.test(t)) ctas.push(item);
       else if (t && t.length <= 60) opts.push(item);
       else if (!t) opts.push({ ...item, icon: true });
     });
@@ -231,11 +231,18 @@ async function walk(browser, app, entry, dir) {
       const changed = async () => (await page.evaluate(() => location.href + '|' + document.body.innerText).catch(() => '')) !== before;
       const click = async sel => { await page.locator(sel).first().click({ timeout: 4000 }).catch(() => page.locator(sel).first().click({ force: true }).catch(() => {})); };
       const pressCTA = async st => {
-        const c = st.ctas.filter(c => !c.disabled).sort((a, b) => b.top - a.top)[0] || (st.primary && !st.primary.disabled ? st.primary : null);
+        const optTexts = new Set(st.opts.map(o => o.text));
+        const c = st.ctas.filter(c => !c.disabled).sort((a, b) => b.top - a.top)[0] || (st.primary && !st.primary.disabled && !optTexts.has(st.primary.text) && !/receive|news|updates|offers/i.test(st.primary.text) ? st.primary : null);
         if (c) { await click(c.sel); act.cta = c.text; await sleep(1100); }
         return !!c;
       };
       const act = {};
+      // Plain loader (no pop-up question): don't click anything, just let it finish.
+      if (kind === 'loader' && !/\?/.test(s.text) && !s.inputs.length) {
+        let moved = false;
+        for (let w = 0; w < 40 && !moved; w++) { await sleep(1000); moved = await changed(); }
+        if (moved) { prevScreen = { url: s.url, title: s.title, answered: false }; continue; }
+      }
       // Re-visiting a question we already answered (answer feedback, multi-select) → continue instead of toggling the answer.
       const same = prevScreen && prevScreen.url === s.url && prevScreen.title === s.title && prevScreen.answered;
       let answered = false;
