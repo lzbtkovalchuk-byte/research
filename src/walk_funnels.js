@@ -9,13 +9,13 @@ import { loadConfig, allApps, runDir, readJSON, writeJSON, normalizeUrl, isStore
 const RUN = runDir();
 const cfg = loadConfig();
 const S = cfg.settings || {};
-const EMAIL = process.env[S.test_email_env || 'TEST_EMAIL'] || '';
+const EMAIL = process.env[S.test_email_env || 'TEST_EMAIL'] || S.test_email || '';
 const NAME = S.test_name || 'Alex';
 const MAX_STEPS = S.max_steps || 90;
 const MAX_FUNNELS = S.max_funnels_per_app || 2;
 
 const CTA = /^(continue|next|next step|get started|start|start now|start quiz|take the quiz|take quiz|begin|let'?s go|let'?s start|go|got it|ok(ay)?|i'?m ready|ready|submit|done|proceed|i agree|agree|accept|see (my )?(results?|plan)|show (my )?(results?|plan)|get (my )?(results?)|reveal (my )?results?|check (my )?results?|continue with email|sounds good|awesome|great|yes,? let'?s do it|grow your child.s skills|discover more|tap to continue|skip for now)\b/i;
-const NEVER = /(sign in|log ?in|with google|with apple|with facebook|terms|privacy|cookie|policy|back|close|menu|help|faq|contact|download the app|app store|google play)/i;
+const NEVER = /(sign in|log ?in|with google|with apple|with facebook|terms|privacy|cookie|policy|back|close|menu|help|faq|contact|download the app|app store|google play|why we ask|why do we ask|learn more|read more|more info|^why\??$|all rights reserved|©)/i;
 const DECLINE = /(don.?t want|do not want|no,? thanks|not now|not interested|i.?ll pass|no thank you|maybe later|skip)/i;
 const PRICE = /(?:[$£€]\s?\d+[.,]?\d*|\d+[.,]\d{2}\s?(?:usd|gbp|eur|[$£€]))/gi;
 
@@ -63,7 +63,7 @@ async function inspect(page) {
       return { sel: `[data-cfw="in${n}"]`, tag: i.tagName.toLowerCase(), type: i.type, name: i.name, ph: i.placeholder || '', label: lab.slice(0, 120), min: i.min, max: i.max, value: i.type === 'checkbox' ? i.checked : i.value, required: i.required };
     });
     const hasPassword = inputs.some(i => i.type === 'password');
-    const hasCard = !!document.querySelector('input[autocomplete="cc-number"],iframe[src*="stripe"],iframe[src*="braintree"],iframe[src*="solidgate"],iframe[src*="checkout.com"],iframe[src*="paypal"],iframe[name*="card" i]');
+    const hasCard = [...document.querySelectorAll('input[autocomplete="cc-number"],iframe[src*="stripe"],iframe[src*="braintree"],iframe[src*="solidgate"],iframe[src*="checkout.com"],iframe[src*="paypal"],iframe[name*="card" i]')].some(e => { const r = e.getBoundingClientRect(); return r.width > 60 && r.height > 20 && r.top < innerHeight; });
     // Clickable candidates.
     const cand = [...document.querySelectorAll('button,[role=button],[role=radio],[role=checkbox],[role=option],label,a,li,div,span')].filter(el => {
       if (!vis(el)) return false;
@@ -198,7 +198,16 @@ async function walk(browser, app, entry, dir) {
 
       if (!filled) {
         const opt = pickOption(s);
-        if (opt) { await page.locator(opt.sel).click({ timeout: 4000 }).catch(() => page.locator(opt.sel).click({ force: true }).catch(() => {})); await sleep(900); }
+        if (opt) {
+          await page.locator(opt.sel).click({ timeout: 4000 }).catch(() => page.locator(opt.sel).click({ force: true }).catch(() => {}));
+          await sleep(900);
+          const after = await inspect(page);
+          const cta = after.ctas.filter(c => !c.disabled).sort((a, b) => b.top - a.top)[0];
+          if (cta && after.url === s.url && after.text.slice(0, 160) === s.text.slice(0, 160)) { // same question still showing (multi-select or feedback)
+            await page.locator(cta.sel).click({ timeout: 4000 }).catch(() => page.locator(cta.sel).click({ force: true }).catch(() => {}));
+            await sleep(1000);
+          }
+        }
       }
       if (!(await changed())) {
         s = await inspect(page);
