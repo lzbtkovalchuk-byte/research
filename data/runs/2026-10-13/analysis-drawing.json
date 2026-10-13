@@ -1,0 +1,24 @@
+{
+  "findings": [
+    "The Skillsta Drawing funnel asks for a verification code right after the email. Of the competitors captured, only Copymind does this; Breeze, Simply Piano, MemoryOS and SmartyMe go straight from email to the plan and paywall.",
+    "The weakest Drawing step is Loader → Email: only 12% of users who reach the loader submit an email, and only 22% of those then reach the paywall.",
+    "SmartyMe has the most active ads among drawing competitors (~2,170 across its pages, 124 started in the window). Its web ads still land on the generic small-talk quiz, not a drawing quiz.",
+    "Simply Draw is inactive on Meta (6 ads, none new) and its funnel is 2 screens to a free-account gate; it competes on brand, not funnel.",
+    "Every competitor paywall captured uses a countdown and a discount (SmartyMe 60%, MemoryOS 63%, Simply Piano 50% + trial); Breeze adds per-day prices and a money-back guarantee."
+  ],
+  "comparison_notes": [
+    "The Skillsta Drawing funnel asks about 27 questions with 6 value or social-proof screens before the email gate. That's the most question-heavy funnel here; SmartyMe has 24 with 16 and MemoryOS 19 with 10.",
+    "The email screen asks “to get your personal plan”; Breeze and the Skillsta Vocal Scanner say “Your results are ready”.",
+    "Skillsta's drawing paywall wasn't captured because it sits behind the email code."
+  ],
+  "amplitude": [
+    {"funnel": "Skillsta · Drawing funnel (funnel = drawing)", "period": "Sep 29 – Oct 12, 2026", "steps": [
+      {"label": "Quiz start", "pct": 1, "n": 14740}, {"label": "Loader", "pct": 0.175, "n": 2580}, {"label": "Email submitted", "pct": 0.02096, "n": 309}, {"label": "Paywall viewed", "pct": 0.004545, "n": 67}, {"label": "Purchase", "pct": 0.000814, "n": 12}]}
+  ],
+  "hypotheses": [
+    {"priority": 1, "stage": "Loader → Email", "title": "Turn the email gate into “your drawing results are ready”", "seen_in": "Skillsta Vocal Scanner (2× the loader → email rate), Breeze “Explore results”", "change": "Show a ready-made result (drawing level, style match, first lesson preview), blurred, and ask for email to unlock it", "metric": "quiz_loading_start → email_submit (12% today)", "impact": "Estimate: meaningful lift, Scanner shows the pattern works in Skillsta"},
+    {"priority": 1, "stage": "Email → Paywall", "title": "Show the plan and paywall before email verification", "seen_in": "Breeze, Simply Piano, MemoryOS, SmartyMe: email → paywall with no code", "change": "Test moving the code step after the paywall or after purchase; first confirm with Amplitude where the 78% go after email_submit", "metric": "email_submit → payment_view (22% today)", "impact": "Estimate: largest lever if the code step causes the drop"},
+    {"priority": 2, "stage": "Quiz start → Loader", "title": "Cut questions and add value screens that react to answers", "seen_in": "MemoryOS (reassurance after each answer), SmartyMe (16 value screens)", "change": "Drop 5–6 low-signal questions; add short screens that reflect the user's goal (e.g. “Portraits take 3 weeks to click”)", "metric": "quiz_start → quiz_loading_start (17.5% today)", "impact": "Estimate: a few points of quiz completion"},
+    {"priority": 3, "stage": "Paywall → Purchase", "title": "Add timer, discount and money-back guarantee if missing", "seen_in": "SmartyMe (60% off, 10-min timer, 28-day money-back), MemoryOS (63% off)", "change": "Audit the current drawing paywall against these patterns", "metric": "payment_view → payment_success (18% today)", "impact": "Estimate: small"}
+  ]
+}

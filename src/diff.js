@@ -93,7 +93,7 @@ for (const topic of ['vocal', 'drawing']) {
     for (const [key, f] of Object.entries(curF)) {
       const fx = f.features; const df = diff.apps[app.id].funnels[key];
       L.push(`### ${app.skillsta ? '[SKILLSTA] ' : ''}${app.name} — ${key}`);
-      L.push(`steps=${fx.totalSteps} stop=${fx.stop} email@${fx.emailStep ?? '—'} paywall@${fx.paywallStep ?? '—'} questions=${fx.questions} socialProof=${fx.socialProof} loader=${fx.loader} prices=${fx.prices.join(' ') || '—'} discount=${fx.discount ?? '—'} timer=${fx.timer} trial=${fx.trial} moneyBack=${fx.moneyBack}${f.proxied ? '' : ` (captured without ${app.geo} proxy)`}`);
+      L.push(`steps=${fx.totalSteps} stop=${fx.stop} email@${fx.emailStep ?? '—'} paywall@${fx.paywallStep ?? '—'} questions=${fx.questions} socialProof=${fx.socialProof} loader=${fx.loader} prices=${fx.prices.join(' ') || '—'} discount=${fx.discount ?? '—'} timer=${fx.timer} trial=${fx.trial} moneyBack=${fx.moneyBack}${!f.proxied && app.geo === 'GB' ? ' (captured from US, no UK proxy yet)' : ''}`);
       L.push('screens: ' + f.steps.map(s => `${s.n}.${s.kind}:"${(s.title || '').slice(0, 50)}"${df && !df.firstRun && df.status[s.n - 1]?.s !== 'same' ? ` [${df.status[s.n - 1].s.toUpperCase()}]` : ''}`).join(' | '));
       if (df?.removed?.length) L.push('removed screens: ' + df.removed.map(r => `"${r.title}"`).join(', '));
       L.push('');

@@ -135,14 +135,11 @@
     "totalSteps": 8,
     "stop": "account_creation",
     "emailStep": null,
-    "paywallStep": 1,
+    "paywallStep": null,
     "questions": 4,
     "socialProof": 1,
     "loader": false,
-    "prices": [
-      "$28",
-      "$50"
-    ],
+    "prices": [],
     "discount": null,
     "timer": false,
     "trial": false,

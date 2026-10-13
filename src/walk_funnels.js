@@ -289,7 +289,7 @@ async function walk(browser, app, entry, dir) {
 /** Structural features used for the Skillsta comparison table (no AI needed). */
 function features(steps, stop) {
   const idx = k => { const s = steps.find(x => x.kind === k); return s ? s.n : null; };
-  const pay = steps.find(s => s.kind === 'paywall');
+  const pay = steps.find(s => s.kind === 'paywall' && s.n > 1);
   const pt = pay?.text || '';
   return {
     totalSteps: steps.length,
