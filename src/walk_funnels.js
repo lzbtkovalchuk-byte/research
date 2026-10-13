@@ -103,7 +103,9 @@ async function inspect(page) {
       const w = r.width + r.top / 10;
       if (w > pw) { pw = w; if (!el.getAttribute('data-cfw')) el.setAttribute('data-cfw', 'p0'); primary = { sel: `[data-cfw="${el.getAttribute('data-cfw')}"]`, text: t.slice(0, 40), disabled: el.disabled || el.getAttribute('aria-disabled') === 'true' }; }
     }
-    return { url: location.href, title, text: text.slice(0, 4000), inputs, hasPassword, hasCard, ctas, opts, primary };
+    const imgs = [...document.images].filter(i => i.getBoundingClientRect().width > 80 && i.getBoundingClientRect().top < innerHeight).map(i => (i.currentSrc || i.src).slice(-80) + i.alt).join(',');
+    const alts = [...document.images].filter(i => i.getBoundingClientRect().width > 80 && i.getBoundingClientRect().top < innerHeight).map(i => i.alt).filter(Boolean).join(' / ');
+    return { url: location.href, title, text: text.slice(0, 4000), imgs, alts, inputs, hasPassword, hasCard, ctas, opts, primary };
   }, { ctaSrc: CTA.source, neverSrc: NEVER.source });
 }
 
@@ -194,13 +196,13 @@ async function walk(browser, app, entry, dir) {
       let s = await inspect(page);
       const host = new URL(s.url).hostname;
       const kind = classify(s);
-      const nkey = normText(s.text).slice(0, 2000);
+      const nkey = normText(s.text).slice(0, 2000) + '|' + s.imgs.slice(0, 600); // image-only screens (statement cards) differ only by picture
       // Same screen with only a timer/progress change (loaders) → don't record again.
       if (nkey !== lastKey) {
         const n = steps.length + 1;
         const file = String(n).padStart(2, '0') + '.webp';
         const dhash = await shot(page, path.join(dir, file));
-        steps.push({ n, file, url: s.url, path: new URL(s.url).pathname, title: s.title, kind, text: s.text.slice(0, 1500), textHash: sha(nkey), dhash, prices: [...new Set(s.text.match(PRICE) || [])].slice(0, 12) });
+        steps.push({ n, file, url: s.url, path: new URL(s.url).pathname, title: s.title, kind, text: s.text.slice(0, 1500), textHash: sha(normText(s.text).slice(0, 2000) + '|' + s.alts), dhash, prices: [...new Set(s.text.match(PRICE) || [])].slice(0, 12) });
         lastKey = nkey;
       }
       seen.set(nkey, (seen.get(nkey) || 0) + 1);
@@ -228,9 +230,9 @@ async function walk(browser, app, entry, dir) {
       }
       if (gate) { stop = gate; break; }
 
-      const before = await page.evaluate(() => location.href + '|' + document.body.innerText).catch(() => '');
-      const changed = async () => (await page.evaluate(() => location.href + '|' + document.body.innerText).catch(() => '')) !== before;
-      const snap = () => page.evaluate(() => location.href + '|' + document.body.innerText).catch(() => '');
+      const before = await page.evaluate(() => location.href + '|' + document.body.innerText + '|' + [...document.images].filter(i => i.getBoundingClientRect().width > 80 && i.getBoundingClientRect().top < innerHeight).map(i => (i.currentSrc || i.src).slice(-80) + i.alt).join(',')).catch(() => '');
+      const changed = async () => (await page.evaluate(() => location.href + '|' + document.body.innerText + '|' + [...document.images].filter(i => i.getBoundingClientRect().width > 80 && i.getBoundingClientRect().top < innerHeight).map(i => (i.currentSrc || i.src).slice(-80) + i.alt).join(',')).catch(() => '')) !== before;
+      const snap = () => page.evaluate(() => location.href + '|' + document.body.innerText + '|' + [...document.images].filter(i => i.getBoundingClientRect().width > 80 && i.getBoundingClientRect().top < innerHeight).map(i => (i.currentSrc || i.src).slice(-80) + i.alt).join(',')).catch(() => '');
       // Click; if nothing happens, retry as a touch tap and then a raw mouse click at the element's centre.
       // State = page text + the clicked element's markup, so a checkbox that only changes style still counts as a change.
       const state = async loc => (await snap()) + '|' + (await loc.evaluate(e => e.outerHTML.slice(0, 3000) + (e.closest('form,ul,div')?.innerHTML || '').length).catch(() => ''));
