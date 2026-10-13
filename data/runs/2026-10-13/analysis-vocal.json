@@ -3,26 +3,125 @@
     "All three Skillsta funnels ask users to type a verification code right after the email. Of the competitors captured, only Copymind does this; Breeze, Simply Piano, MemoryOS and SmartyMe go straight from email to the plan and paywall.",
     "Skillsta's weakest step is Loader → Email: 11% of users who reach the loader submit an email in Vocal funnel 2.0, against 24% in the Vocal Scanner, whose email screen says “Your results are ready… full voice analysis”.",
     "Email → paywall holds at 97% in the Vocal Scanner but only 24% in Vocal funnel 2.0, although both show the same code screen, so something else after email submit is losing users in 2.0.",
-    "Every competitor paywall captured uses a countdown and a discount: Simply Piano 50% off with a 7-day trial, MemoryOS 63% off, SmartyMe 60% off; Breeze shows per-day prices and a money-back guarantee.",
-    "Learna (Genesis, UK) is the most active launcher: 154 active ads, 50 started in the last two weeks. Imprint (580) and Simply Piano (430) run the most ads overall; Copymind has none running."
+    "Of the 9 competitor paywalls captured, most show a discount (50–63% off at Simply Piano, MemoryOS, Chillio, Learna, SmartyMe, Simply Draw) and 6 run a countdown timer; Breeze, MemoryOS, Copymind and SmartyMe add a money-back guarantee.",
+    "Learna (Genesis, UK) is the most active launcher: 154 active ads, 50 started in the last two weeks. Imprint (580) and Simply Piano (430) run the most ads overall; Copymind has none running.",
+    "Paywalls not captured this run: Skillsta (email code), Imprint and Yousician (need an account), Simply Sing (walk stops at the voice question)."
   ],
   "comparison_notes": [
     "Skillsta Vocal funnel 2.0 asks about 25 questions with 7 value or social-proof screens before the email gate. Simply Piano alternates almost 1:1 (12 questions, 11 value screens) and MemoryOS follows most answers with a reassurance screen (“No worries! We got you!”).",
     "Skillsta and competitors reach the email gate at a similar depth (screen 33 vs 26–36), so length alone doesn't set Skillsta apart.",
     "The Vocal Scanner and Breeze frame the email as unlocking a ready result (“Your results are ready”), while Vocal funnel 2.0 asks for an email “to get your personal plan”.",
-    "Skillsta's paywall wasn't captured because it sits behind the email code; competitor paywall structure is in the table above."
+    "Skillsta's paywall isn't captured yet because it sits behind the email code; competitor paywall structure is in the table above."
   ],
   "amplitude": [
-    {"funnel": "Skillsta · Vocal funnel 2.0 (funnel = new_vocal)", "period": "Sep 29 – Oct 12, 2026", "steps": [
-      {"label": "Quiz start", "pct": 1, "n": 25942}, {"label": "Loader", "pct": 0.1804, "n": 4679}, {"label": "Email submitted", "pct": 0.02012, "n": 522}, {"label": "Paywall viewed", "pct": 0.00482, "n": 125}, {"label": "Purchase", "pct": 0.00112, "n": 29}]},
-    {"funnel": "Skillsta · Vocal Scanner (funnel = voice_assessment)", "period": "Sep 29 – Oct 12, 2026", "steps": [
-      {"label": "Quiz start", "pct": 1, "n": 4558}, {"label": "Loader", "pct": 0.1582, "n": 721}, {"label": "Email submitted", "pct": 0.03796, "n": 173}, {"label": "Paywall viewed", "pct": 0.03686, "n": 168}, {"label": "Purchase", "pct": 0.0057, "n": 26}]}
+    {
+      "funnel": "Skillsta · Vocal funnel 2.0 (funnel = new_vocal)",
+      "period": "Sep 29 – Oct 12, 2026",
+      "steps": [
+        {
+          "label": "Quiz start",
+          "pct": 1,
+          "n": 25942
+        },
+        {
+          "label": "Loader",
+          "pct": 0.1804,
+          "n": 4679
+        },
+        {
+          "label": "Email submitted",
+          "pct": 0.02012,
+          "n": 522
+        },
+        {
+          "label": "Paywall viewed",
+          "pct": 0.00482,
+          "n": 125
+        },
+        {
+          "label": "Purchase",
+          "pct": 0.00112,
+          "n": 29
+        }
+      ]
+    },
+    {
+      "funnel": "Skillsta · Vocal Scanner (funnel = voice_assessment)",
+      "period": "Sep 29 – Oct 12, 2026",
+      "steps": [
+        {
+          "label": "Quiz start",
+          "pct": 1,
+          "n": 4558
+        },
+        {
+          "label": "Loader",
+          "pct": 0.1582,
+          "n": 721
+        },
+        {
+          "label": "Email submitted",
+          "pct": 0.03796,
+          "n": 173
+        },
+        {
+          "label": "Paywall viewed",
+          "pct": 0.03686,
+          "n": 168
+        },
+        {
+          "label": "Purchase",
+          "pct": 0.0057,
+          "n": 26
+        }
+      ]
+    }
   ],
   "hypotheses": [
-    {"priority": 1, "stage": "Loader → Email", "title": "Frame the Vocal 2.0 email gate as unlocking a ready result", "seen_in": "Skillsta Vocal Scanner (24% loader → email), Breeze “Your results are ready · Explore results”", "change": "Replace “Enter your email to get your personal plan” with a results-ready screen that names what they'll get (vocal range, strengths, voice match) and a blurred preview", "metric": "quiz_loading_start → email_submit (11% today)", "impact": "Estimate: could move toward the Scanner's 24%"},
-    {"priority": 1, "stage": "Email → Paywall", "title": "Find and fix the post-email loss in Vocal 2.0", "seen_in": "Same code screen in Scanner (97% email → paywall) vs Vocal 2.0 (24%)", "change": "Compare what happens after email_submit in both funnels (screens, redirects, event firing); if it's the code step, test showing the plan and paywall before verification as Breeze, Simply Piano and MemoryOS do", "metric": "email_submit → payment_view (24% today)", "impact": "Estimate: largest single lever if the gap is a real drop and not a tracking difference"},
-    {"priority": 2, "stage": "Quiz start → Loader", "title": "Add a reassurance screen after key answers", "seen_in": "MemoryOS (question → “Weak memory is not your fault”), Simply Piano (12 questions, 11 value screens)", "change": "Insert 3–4 short value screens that reply to the user's previous answer, and cut low-value questions to keep length flat", "metric": "quiz_start → quiz_loading_start (18% today)", "impact": "Estimate: a few points of quiz completion"},
-    {"priority": 2, "stage": "Paywall → Purchase", "title": "Test a timed discount plus money-back guarantee on the paywall", "seen_in": "SmartyMe (60% off, 10-min timer, 28-day money-back), MemoryOS (63% off, timer), Simply Piano (50% off, 15-min timer)", "change": "Check the current paywall against these; add the missing pieces one at a time", "metric": "payment_view → payment_success (23% today)", "impact": "Estimate: small lift on purchase rate"},
-    {"priority": 3, "stage": "Paywall", "title": "Show per-day prices and a live “people chose” ticker", "seen_in": "Breeze ($0.71/day, “ale** chose $10”), MemoryOS ($0.44/day)", "change": "Add per-day price under each plan and a recent-choices strip above the plans", "metric": "payment_view → payment_success", "impact": "Estimate: small"}
+    {
+      "priority": 1,
+      "stage": "Loader → Email",
+      "title": "Frame the Vocal 2.0 email gate as unlocking a ready result",
+      "seen_in": "Skillsta Vocal Scanner (24% loader → email), Breeze “Your results are ready · Explore results”",
+      "change": "Replace “Enter your email to get your personal plan” with a results-ready screen that names what they'll get (vocal range, strengths, voice match) and a blurred preview",
+      "metric": "quiz_loading_start → email_submit (11% today)",
+      "impact": "Estimate: could move toward the Scanner's 24%"
+    },
+    {
+      "priority": 1,
+      "stage": "Email → Paywall",
+      "title": "Find and fix the post-email loss in Vocal 2.0",
+      "seen_in": "Same code screen in Scanner (97% email → paywall) vs Vocal 2.0 (24%)",
+      "change": "Compare what happens after email_submit in both funnels (screens, redirects, event firing); if it's the code step, test showing the plan and paywall before verification as Breeze, Simply Piano and MemoryOS do",
+      "metric": "email_submit → payment_view (24% today)",
+      "impact": "Estimate: largest single lever if the gap is a real drop and not a tracking difference"
+    },
+    {
+      "priority": 2,
+      "stage": "Quiz start → Loader",
+      "title": "Add a reassurance screen after key answers",
+      "seen_in": "MemoryOS (question → “Weak memory is not your fault”), Simply Piano (12 questions, 11 value screens)",
+      "change": "Insert 3–4 short value screens that reply to the user's previous answer, and cut low-value questions to keep length flat",
+      "metric": "quiz_start → quiz_loading_start (18% today)",
+      "impact": "Estimate: a few points of quiz completion"
+    },
+    {
+      "priority": 2,
+      "stage": "Paywall → Purchase",
+      "title": "Test a timed discount plus money-back guarantee on the paywall",
+      "seen_in": "SmartyMe (60% off, 10-min timer, 28-day money-back), MemoryOS (63% off, timer), Learna (60% off, 10-min timer), Simply Piano (50% off, 15-min timer)",
+      "change": "Check the current paywall against these; add the missing pieces one at a time",
+      "metric": "payment_view → payment_success (23% today)",
+      "impact": "Estimate: small lift on purchase rate"
+    },
+    {
+      "priority": 3,
+      "stage": "Paywall",
+      "title": "Show per-day prices and a live “people chose” ticker",
+      "seen_in": "Breeze ($0.71/day, “ale** chose $10”), MemoryOS ($0.44/day)",
+      "change": "Add per-day price under each plan and a recent-choices strip above the plans",
+      "metric": "payment_view → payment_success",
+      "impact": "Estimate: small"
+    }
   ]
 }

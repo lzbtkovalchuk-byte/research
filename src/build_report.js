@@ -2,7 +2,7 @@
 // the diff and the AI analysis (if present). Screenshots are embedded so the file can be shared as-is.
 import fs from 'node:fs';
 import path from 'node:path';
-import { loadConfig, allApps, runDir, readJSON, esc, ROOT } from './lib.js';
+import { loadConfig, allApps, runDir, readJSON, esc, ROOT, isStoreOrSocial } from './lib.js';
 
 const RUN = runDir();
 const date = path.basename(RUN);
@@ -22,7 +22,7 @@ const STOP = { paywall: 'stopped at paywall (screenshot only)', account_creation
 function loadFunnels(id) {
   const idx = readJSON(path.join(RUN, 'funnels', id, 'index.json'));
   if (!idx) return { idx: null, list: [] };
-  return { idx, list: idx.funnels.map(f => readJSON(path.join(RUN, f.dir, 'steps.json'))).filter(Boolean) };
+  return { idx, list: idx.funnels.filter(f => !isStoreOrSocial(f.key.split('/')[0])).map(f => readJSON(path.join(RUN, f.dir, 'steps.json'))).filter(Boolean) };
 }
 
 function flowHTML(app, f) {
