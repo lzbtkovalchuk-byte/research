@@ -11,7 +11,7 @@
       "stop": "stuck+paywall_direct",
       "steps": 15,
       "why": "ad",
-      "ads": 24
+      "ads": 41
     },
     {
       "key": "quiz.get-chillio.app/qs/house-ai",
@@ -19,7 +19,7 @@
       "stop": "stuck+paywall_direct",
       "steps": 14,
       "why": "ad",
-      "ads": 2
+      "ads": 6
     }
   ]
 }

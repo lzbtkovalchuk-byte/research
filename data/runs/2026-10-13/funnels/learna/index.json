@@ -16,8 +16,8 @@
     {
       "key": "onboarding.ailearna.com/onboarding",
       "dir": "funnels/learna/8c5e7e4aa4f9",
-      "stop": "stuck",
-      "steps": 39,
+      "stop": "timeout",
+      "steps": 29,
       "why": "seed",
       "ads": 0
     }

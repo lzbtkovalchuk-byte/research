@@ -6,7 +6,7 @@
   "adShot": "imprint-96e2f59bf19c.webp",
   "adId": "1703738427515616",
   "dir": "funnels/imprint/96e2f59bf19c",
-  "stop": "stuck",
+  "stop": "timeout",
   "proxied": false,
   "steps": [
     {
@@ -192,17 +192,296 @@
       "dhash": "1010001010110010000011010110010001000001110110001100100110110010",
       "prices": [],
       "action": {
+        "opt": "Yes",
+        "cta": "Continue"
+      }
+    },
+    {
+      "n": 13,
+      "file": "13.webp",
+      "url": "https://www.imprintapp.com/quiz/start-art",
+      "path": "/quiz/start-art",
+      "title": "What skills do you want to build with us?",
+      "kind": "question",
+      "text": "What skills do you want to build with us?\nInterpret art\nRecognize famous artists\nDistinguish styles and movements\nDevelop a critical eye\nFind hidden meanings\nStrengthen practical skills\nArt isn't just dates and names. It trains you to observe closely, think critically, and make connections others can't.\nDo you know what the rule of thirds is?\nContinue",
+      "textHash": "c4cc4f51ad51",
+      "dhash": "0100001011101000101100000111000011101000110001000001001010001110",
+      "prices": [],
+      "action": {
+        "opt": "Interpret art",
+        "cta": "Continue"
+      }
+    },
+    {
+      "n": 14,
+      "file": "14.webp",
+      "url": "https://www.imprintapp.com/quiz/start-art",
+      "path": "/quiz/start-art",
+      "title": "Do you know what the rule of thirds is?",
+      "kind": "question",
+      "text": "Strengthen practical skills\nArt isn't just dates and names. It trains you to observe closely, think critically, and make connections others can't.\nDo you know what the rule of thirds is?\nDid you know composition determines where your eye goes first?\nNo\nYes",
+      "textHash": "19a9dbb9eafe",
+      "dhash": "1010010011110000110010001110110001100000000001100101010011010100",
+      "prices": [],
+      "action": {
         "opt": "Yes"
+      }
+    },
+    {
+      "n": 15,
+      "file": "15.webp",
+      "url": "https://www.imprintapp.com/quiz/start-art",
+      "path": "/quiz/start-art",
+      "title": "Do you know what the rule of thirds is?",
+      "kind": "question",
+      "text": "Do you know what the rule of thirds is?\nDid you know composition determines where your eye goes first?\nAre you familiar with Renaissance art?\nNo\nYes",
+      "textHash": "7d1049e4130e",
+      "dhash": "1110010011010000011001001110010011100010000011001101010011010100",
+      "prices": [],
+      "action": {
+        "opt": "Yes"
+      }
+    },
+    {
+      "n": 16,
+      "file": "16.webp",
+      "url": "https://www.imprintapp.com/quiz/start-art",
+      "path": "/quiz/start-art",
+      "title": "Did you know composition determines where your eye goes first?",
+      "kind": "question",
+      "text": "Did you know composition determines where your eye goes first?\nAre you familiar with Renaissance art?\nHere's something many people don't realize\nNearly every major art movement began as a rebellion against the one before it.\nNo\nYes",
+      "textHash": "e1374e7e77fc",
+      "dhash": "0110000011110000111010001100100001011000001001100101010011010100",
+      "prices": [],
+      "action": {
+        "opt": "Yes"
+      }
+    },
+    {
+      "n": 17,
+      "file": "17.webp",
+      "url": "https://www.imprintapp.com/quiz/start-art",
+      "path": "/quiz/start-art",
+      "title": "Are you familiar with Renaissance art?",
+      "kind": "question",
+      "text": "Are you familiar with Renaissance art?\nHere's something many people don't realize\nNearly every major art movement began as a rebellion against the one before it.\nIs it easy for you to find time to learn?\nYes\nOccasionally\nNo\nContinue",
+      "textHash": "79b3f559f7fd",
+      "dhash": "0110001000111100111111001101000011101000100001001011000010001110",
+      "prices": [],
+      "action": {
+        "opt": "Yes",
+        "cta": "Continue"
+      }
+    },
+    {
+      "n": 18,
+      "file": "18.webp",
+      "url": "https://www.imprintapp.com/quiz/start-art",
+      "path": "/quiz/start-art",
+      "title": "Is it easy for you to find time to learn?",
+      "kind": "question",
+      "text": "Here's something many people don't realize\nNearly every major art movement began as a rebellion against the one before it.\nIs it easy for you to find time to learn?\nYes\nOccasionally\nNo\nWhat are the biggest obstacles to you learning?\nNot enough time\nDistractions\nBoredom\nLow motivation\nNot sure where to start\nSomething else",
+      "textHash": "cb3eefad4530",
+      "dhash": "1101010010110000000010010001000000000000000100000011000100110001",
+      "prices": [],
+      "action": {
+        "opt": "Yes"
+      }
+    },
+    {
+      "n": 19,
+      "file": "19.webp",
+      "url": "https://www.imprintapp.com/quiz/start-art",
+      "path": "/quiz/start-art",
+      "title": "Is it easy for you to find time to learn?",
+      "kind": "question",
+      "text": "Is it easy for you to find time to learn?\nYes\nOccasionally\nNo\nWhat are the biggest obstacles to you learning?\nNot enough time\nDistractions\nBoredom\nLow motivation\nNot sure where to start\nSomething else\nArt made simple\nImprint breaks down complex ideas into bite-sized visual and interactive lessons.\nContinue",
+      "textHash": "69a8f6cee1db",
+      "dhash": "1111000011110000000001010100000111000001111000010110000110110010",
+      "prices": [],
+      "action": {
+        "opt": "Yes",
+        "cta": "Continue"
+      }
+    },
+    {
+      "n": 20,
+      "file": "20.webp",
+      "url": "https://www.imprintapp.com/quiz/start-art",
+      "path": "/quiz/start-art",
+      "title": "What are the biggest obstacles to you learning?",
+      "kind": "question",
+      "text": "What are the biggest obstacles to you learning?\nNot enough time\nDistractions\nBoredom\nLow motivation\nNot sure where to start\nSomething else\nArt made simple\nImprint breaks down complex ideas into bite-sized visual and interactive lessons.\nWho painted the Creation of Adam?\nMichelangelo\nLeonardo da Vinci\nRaphael\nContinue",
+      "textHash": "d4f838748ca0",
+      "dhash": "0100110010110010011100001111000011000100111000001100100010001110",
+      "prices": [],
+      "action": {
+        "opt": "Not enough time",
+        "cta": "Continue"
+      }
+    },
+    {
+      "n": 21,
+      "file": "21.webp",
+      "url": "https://www.imprintapp.com/quiz/start-art",
+      "path": "/quiz/start-art",
+      "title": "Who painted the Creation of Adam?",
+      "kind": "question",
+      "text": "Art made simple\nImprint breaks down complex ideas into bite-sized visual and interactive lessons.\nWho painted the Creation of Adam?\nMichelangelo\nLeonardo da Vinci\nRaphael\nWhat is Impressionism known for?\nLight and movement\nHistorical scenes\nReligious symbols",
+      "textHash": "f5b2bb034352",
+      "dhash": "1111010000110011110111001101110011100000111100010011001100110001",
+      "prices": [],
+      "action": {
+        "opt": "Michelangelo"
+      }
+    },
+    {
+      "n": 22,
+      "file": "22.webp",
+      "url": "https://www.imprintapp.com/quiz/start-art",
+      "path": "/quiz/start-art",
+      "title": "Who painted the Creation of Adam?",
+      "kind": "question",
+      "text": "Who painted the Creation of Adam?\nMichelangelo\nLeonardo da Vinci\nRaphael\nWhat is Impressionism known for?\nLight and movement\nHistorical scenes\nReligious symbols\nWhich movement is Pablo Picasso best known for?\nCubism\nSurrealism\nExpressionism",
+      "textHash": "6b9a162c6138",
+      "dhash": "1111000000110011110101001101110011010100111101000110000100100000",
+      "prices": [],
+      "action": {
+        "opt": "Michelangelo"
+      }
+    },
+    {
+      "n": 23,
+      "file": "23.webp",
+      "url": "https://www.imprintapp.com/quiz/start-art",
+      "path": "/quiz/start-art",
+      "title": "What is Impressionism known for?",
+      "kind": "question",
+      "text": "What is Impressionism known for?\nLight and movement\nHistorical scenes\nReligious symbols\nWhich movement is Pablo Picasso best known for?\nCubism\nSurrealism\nExpressionism\nBacked by science. Designed to be fun and effective.\nImprint is built by game designers and Harvard professors to make learning actually stick.",
+      "textHash": "76e24da97271",
+      "dhash": "1101010001011001111001001100010011010100111101000011001100110001",
+      "prices": [],
+      "action": {
+        "opt": "Light and movement"
+      }
+    },
+    {
+      "n": 24,
+      "file": "24.webp",
+      "url": "https://www.imprintapp.com/quiz/start-art",
+      "path": "/quiz/start-art",
+      "title": "Which movement is Pablo Picasso best known for?",
+      "kind": "question",
+      "text": "Which movement is Pablo Picasso best known for?\nCubism\nSurrealism\nExpressionism\nBacked by science. Designed to be fun and effective.\nImprint is built by game designers and Harvard professors to make learning actually stick.\nWhen learning I connect best with:\nBig-picture ideas\nStep-by-step details\nHands-on practice\nReal-world examples\nStories and narratives\nGames\nContinue",
+      "textHash": "d276777d97d1",
+      "dhash": "0100100110110010101100100011001100110010100001001000000010001110",
+      "prices": [],
+      "action": {
+        "opt": "Cubism",
+        "cta": "Continue"
+      }
+    },
+    {
+      "n": 25,
+      "file": "25.webp",
+      "url": "https://www.imprintapp.com/quiz/start-art",
+      "path": "/quiz/start-art",
+      "title": "When learning I connect best with:",
+      "kind": "question",
+      "text": "Backed by science. Designed to be fun and effective.\nImprint is built by game designers and Harvard professors to make learning actually stick.\nWhen learning I connect best with:\nBig-picture ideas\nStep-by-step details\nHands-on practice\nReal-world examples\nStories and narratives\nGames\nDo you find it easy to stay motivated while learning?\nYes\nOccasionally\nNo\nContinue",
+      "textHash": "b16d63ab6788",
+      "dhash": "1101000010110000000010010111000111010011110100011100100110010000",
+      "prices": [],
+      "action": {
+        "opt": "Big-picture ideas",
+        "cta": "Continue"
+      }
+    },
+    {
+      "n": 26,
+      "file": "26.webp",
+      "url": "https://www.imprintapp.com/quiz/start-art",
+      "path": "/quiz/start-art",
+      "title": "When learning I connect best with:",
+      "kind": "question",
+      "text": "When learning I connect best with:\nBig-picture ideas\nStep-by-step details\nHands-on practice\nReal-world examples\nStories and narratives\nGames\nDo you find it easy to stay motivated while learning?\nYes\nOccasionally\nNo\nDid you hear about Imprint from a friend?",
+      "textHash": "9a00885c909e",
+      "dhash": "1101000011000100000000110100000000000000000100000011000100110001",
+      "prices": [],
+      "action": {
+        "opt": "Big-picture ideas"
+      }
+    },
+    {
+      "n": 27,
+      "file": "27.webp",
+      "url": "https://www.imprintapp.com/quiz/start-art",
+      "path": "/quiz/start-art",
+      "title": "Do you find it easy to stay motivated while learning?",
+      "kind": "question",
+      "text": "Do you find it easy to stay motivated while learning?\nYes\nOccasionally\nNo\nDid you hear about Imprint from a friend?\nAchieve your goals with our expert guidance\nExperience expert-designed, research-backed learning. Just a few more steps to your personalized plan.\nNo\nYes",
+      "textHash": "241ea8c693f5",
+      "dhash": "1111000011101000000001100001000000000000000000001101010011010100",
+      "prices": [],
+      "action": {
+        "opt": "Yes"
+      }
+    },
+    {
+      "n": 28,
+      "file": "28.webp",
+      "url": "https://www.imprintapp.com/quiz/start-art",
+      "path": "/quiz/start-art",
+      "title": "Did you hear about Imprint from a friend?",
+      "kind": "question",
+      "text": "Did you hear about Imprint from a friend?\nAchieve your goals with our expert guidance\nExperience expert-designed, research-backed learning. Just a few more steps to your personalized plan.\nWhat's motivating you towards personal growth?\nStay sharp\nBroaden my perspectives\nBecome a more interesting person\nSpend time productively\nOther\nContinue",
+      "textHash": "1550219484cd",
+      "dhash": "0100100001110000010011011011000000110010100001001010000010001110",
+      "prices": [],
+      "action": {
+        "opt": "Stay sharp",
+        "cta": "Continue"
+      }
+    },
+    {
+      "n": 29,
+      "file": "29.webp",
+      "url": "https://www.imprintapp.com/quiz/start-art",
+      "path": "/quiz/start-art",
+      "title": "What's motivating you towards personal growth?",
+      "kind": "social_proof",
+      "text": "Achieve your goals with our expert guidance\nExperience expert-designed, research-backed learning. Just a few more steps to your personalized plan.\nWhat's motivating you towards personal growth?\nStay sharp\nBroaden my perspectives\nBecome a more interesting person\nSpend time productively\nOther\nJoin over 5 million people choosing lifelong learning\nBe part of a global community and reach your goals with us.\nContinue",
+      "textHash": "5c6f65ab44c9",
+      "dhash": "1111000011100000000001010100001001100001011010010100100110110010",
+      "prices": [],
+      "action": {
+        "opt": "Stay sharp",
+        "cta": "Continue"
+      }
+    },
+    {
+      "n": 30,
+      "file": "30.webp",
+      "url": "https://www.imprintapp.com/quiz/start-art",
+      "path": "/quiz/start-art",
+      "title": "What's motivating you towards personal growth?",
+      "kind": "social_proof",
+      "text": "What's motivating you towards personal growth?\nStay sharp\nBroaden my perspectives\nBecome a more interesting person\nSpend time productively\nOther\nJoin over 5 million people choosing lifelong learning\nBe part of a global community and reach your goals with us.\nSet a daily learning goal\nYou can always change this later.\nQuick\n2 min / day\nRegular\n5 min / day\nAdvanced\n10 min / day\nContinue",
+      "textHash": "9448592ab688",
+      "dhash": "0000101011110000110001001101100011111000100000001010001010001110",
+      "prices": [],
+      "action": {
+        "cta": "Continue"
       }
     }
   ],
   "features": {
-    "totalSteps": 12,
-    "stop": "stuck",
+    "totalSteps": 30,
+    "stop": "timeout",
     "emailStep": null,
     "paywallStep": null,
-    "questions": 8,
-    "socialProof": 3,
+    "questions": 24,
+    "socialProof": 5,
     "loader": false,
     "prices": [],
     "discount": null,

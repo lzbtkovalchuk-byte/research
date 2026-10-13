@@ -6,7 +6,7 @@
   "adShot": "imprint-06cefd8c1237.webp",
   "adId": "1649574536339228",
   "dir": "funnels/imprint/06cefd8c1237",
-  "stop": "stuck",
+  "stop": "timeout",
   "proxied": false,
   "steps": [
     {
@@ -191,17 +191,327 @@
       "dhash": "1010000010100000000011010110000001100011110000011100000010110010",
       "prices": [],
       "action": {
+        "opt": "Yes",
+        "cta": "Continue"
+      }
+    },
+    {
+      "n": 13,
+      "file": "13.webp",
+      "url": "https://www.imprintapp.com/quiz/start-history",
+      "path": "/quiz/start-history",
+      "title": "What knowledge do you want to build with us?",
+      "kind": "question",
+      "text": "What knowledge do you want to build with us?\nDecoding history\nHistorical figures\nHistorical literacy\nTurning points in history\nPerspectives on current events\nStrengthen practical skills\nLearning history also strengthens critical thinking, boosts memory, and builds real-world skills you'll use every day.\nDo you know what sparked World War I?\nContinue",
+      "textHash": "03ad1068065a",
+      "dhash": "0100010011101000101100010111000011111000100001000001001010001110",
+      "prices": [],
+      "action": {
+        "opt": "Decoding history",
+        "cta": "Continue"
+      }
+    },
+    {
+      "n": 14,
+      "file": "14.webp",
+      "url": "https://www.imprintapp.com/quiz/start-history",
+      "path": "/quiz/start-history",
+      "title": "Do you know what sparked World War I?",
+      "kind": "question",
+      "text": "Strengthen practical skills\nLearning history also strengthens critical thinking, boosts memory, and builds real-world skills you'll use every day.\nDo you know what sparked World War I?\nDo you know what the Peloponnesian War was fought over?\nNo\nYes",
+      "textHash": "5af3b2e49cac",
+      "dhash": "1110000011110000011100000111000000000100001000001101010011010100",
+      "prices": [],
+      "action": {
         "opt": "Yes"
+      }
+    },
+    {
+      "n": 15,
+      "file": "15.webp",
+      "url": "https://www.imprintapp.com/quiz/start-history",
+      "path": "/quiz/start-history",
+      "title": "Do you know what sparked World War I?",
+      "kind": "question",
+      "text": "Do you know what sparked World War I?\nDo you know what the Peloponnesian War was fought over?\nDid The Industrial Revolution start in Britain?\nNo\nYes",
+      "textHash": "73ada992886e",
+      "dhash": "1111000011010100011100010111100101011000001011001101010011010100",
+      "prices": [],
+      "action": {
+        "opt": "Yes"
+      }
+    },
+    {
+      "n": 16,
+      "file": "16.webp",
+      "url": "https://www.imprintapp.com/quiz/start-history",
+      "path": "/quiz/start-history",
+      "title": "Do you know what the Peloponnesian War was fought over?",
+      "kind": "question",
+      "text": "Do you know what the Peloponnesian War was fought over?\nDid The Industrial Revolution start in Britain?\nHere's something many people don't realize\nMost \"sudden\" moments in history were years of tensions building. Studying history helps us see what's coming, not just what happened.\nNo\nYes",
+      "textHash": "9e40e487d53f",
+      "dhash": "1110000011100000111000001111100001011000001000101101010011010100",
+      "prices": [],
+      "action": {
+        "opt": "Yes"
+      }
+    },
+    {
+      "n": 17,
+      "file": "17.webp",
+      "url": "https://www.imprintapp.com/quiz/start-history",
+      "path": "/quiz/start-history",
+      "title": "Did The Industrial Revolution start in Britain?",
+      "kind": "question",
+      "text": "Did The Industrial Revolution start in Britain?\nHere's something many people don't realize\nMost \"sudden\" moments in history were years of tensions building. Studying history helps us see what's coming, not just what happened.\nIs it easy for you to find time to learn?\nYes\nOccasionally\nNo\nContinue",
+      "textHash": "0bb479091684",
+      "dhash": "1100000001100111111000001110000011100100110001000010001010001110",
+      "prices": [],
+      "action": {
+        "opt": "Yes",
+        "cta": "Continue"
+      }
+    },
+    {
+      "n": 18,
+      "file": "18.webp",
+      "url": "https://www.imprintapp.com/quiz/start-history",
+      "path": "/quiz/start-history",
+      "title": "Is it easy for you to find time to learn?",
+      "kind": "question",
+      "text": "Here's something many people don't realize\nMost \"sudden\" moments in history were years of tensions building. Studying history helps us see what's coming, not just what happened.\nIs it easy for you to find time to learn?\nYes\nOccasionally\nNo\nWhat are the biggest obstacles to you learning?\nNot enough time\nDistractions\nBoredom\nLow motivation\nNot sure where to start\nSomething else",
+      "textHash": "7d9c12e02ae1",
+      "dhash": "1101010010110000000010010001000000000000000100000011000100110001",
+      "prices": [],
+      "action": {
+        "opt": "Yes"
+      }
+    },
+    {
+      "n": 19,
+      "file": "19.webp",
+      "url": "https://www.imprintapp.com/quiz/start-history",
+      "path": "/quiz/start-history",
+      "title": "Is it easy for you to find time to learn?",
+      "kind": "question",
+      "text": "Is it easy for you to find time to learn?\nYes\nOccasionally\nNo\nWhat are the biggest obstacles to you learning?\nNot enough time\nDistractions\nBoredom\nLow motivation\nNot sure where to start\nSomething else\nHistory that clicks\nLearn through interactive, visual lessons that make history fun and easy to follow.\nContinue",
+      "textHash": "43549840ea6b",
+      "dhash": "1111000011110000000001010100000111000001111000010110000110110010",
+      "prices": [],
+      "action": {
+        "opt": "Yes",
+        "cta": "Continue"
+      }
+    },
+    {
+      "n": 20,
+      "file": "20.webp",
+      "url": "https://www.imprintapp.com/quiz/start-history",
+      "path": "/quiz/start-history",
+      "title": "What are the biggest obstacles to you learning?",
+      "kind": "question",
+      "text": "What are the biggest obstacles to you learning?\nNot enough time\nDistractions\nBoredom\nLow motivation\nNot sure where to start\nSomething else\nHistory that clicks\nLearn through interactive, visual lessons that make history fun and easy to follow.\nWhat is a caste system?\nAn inherited social hierarchy\nA military rank system\nA merit-based social system\nContinue",
+      "textHash": "327b5a3ea175",
+      "dhash": "0100110010110010011100001111000011000100101100001110000010001110",
+      "prices": [],
+      "action": {
+        "opt": "Not enough time",
+        "cta": "Continue"
+      }
+    },
+    {
+      "n": 21,
+      "file": "21.webp",
+      "url": "https://www.imprintapp.com/quiz/start-history",
+      "path": "/quiz/start-history",
+      "title": "What is a caste system?",
+      "kind": "question",
+      "text": "History that clicks\nLearn through interactive, visual lessons that make history fun and easy to follow.\nWhat is a caste system?\nAn inherited social hierarchy\nA military rank system\nA merit-based social system\nWhat system did Marxist revolutions support?\nCommunism\nCapitalism\nFeudalism",
+      "textHash": "ef43be3fb825",
+      "dhash": "1101000001001000111100001111000011101000110000000110100101100001",
+      "prices": [],
+      "action": {
+        "opt": "An inherited social hierarchy"
+      }
+    },
+    {
+      "n": 22,
+      "file": "22.webp",
+      "url": "https://www.imprintapp.com/quiz/start-history",
+      "path": "/quiz/start-history",
+      "title": "What is a caste system?",
+      "kind": "question",
+      "text": "What is a caste system?\nAn inherited social hierarchy\nA military rank system\nA merit-based social system\nWhat system did Marxist revolutions support?\nCommunism\nCapitalism\nFeudalism\nWhen was NATO formed?\nJust after World War II\nDuring World War I\nAt the end of the Cold War",
+      "textHash": "95e828a5711f",
+      "dhash": "1100000011101000110101001101010011001000011100010011001100110001",
+      "prices": [],
+      "action": {
+        "opt": "An inherited social hierarchy"
+      }
+    },
+    {
+      "n": 23,
+      "file": "23.webp",
+      "url": "https://www.imprintapp.com/quiz/start-history",
+      "path": "/quiz/start-history",
+      "title": "What system did Marxist revolutions support?",
+      "kind": "question",
+      "text": "What system did Marxist revolutions support?\nCommunism\nCapitalism\nFeudalism\nWhen was NATO formed?\nJust after World War II\nDuring World War I\nAt the end of the Cold War\nBacked by science. Designed to be fun and effective.\nImprint is built by game designers and Harvard professors to make learning actually stick.",
+      "textHash": "eda797de0677",
+      "dhash": "1101010011010100111001001100110011011000001100100110000101101001",
+      "prices": [],
+      "action": {
+        "opt": "Communism"
+      }
+    },
+    {
+      "n": 24,
+      "file": "24.webp",
+      "url": "https://www.imprintapp.com/quiz/start-history",
+      "path": "/quiz/start-history",
+      "title": "When was NATO formed?",
+      "kind": "question",
+      "text": "When was NATO formed?\nJust after World War II\nDuring World War I\nAt the end of the Cold War\nBacked by science. Designed to be fun and effective.\nImprint is built by game designers and Harvard professors to make learning actually stick.\nWhen learning I connect best with:\nBig-picture ideas\nStep-by-step details\nHands-on practice\nReal-world examples\nStories and narratives\nGames\nContinue",
+      "textHash": "8eef0d99c5fc",
+      "dhash": "0100100110110010101100100011001100110010100001001000000010001110",
+      "prices": [],
+      "action": {
+        "opt": "Just after World War II",
+        "cta": "Continue"
+      }
+    },
+    {
+      "n": 25,
+      "file": "25.webp",
+      "url": "https://www.imprintapp.com/quiz/start-history",
+      "path": "/quiz/start-history",
+      "title": "When learning I connect best with:",
+      "kind": "question",
+      "text": "Backed by science. Designed to be fun and effective.\nImprint is built by game designers and Harvard professors to make learning actually stick.\nWhen learning I connect best with:\nBig-picture ideas\nStep-by-step details\nHands-on practice\nReal-world examples\nStories and narratives\nGames\nDo you find it easy to stay motivated while learning?\nYes\nOccasionally\nNo\nContinue",
+      "textHash": "b16d63ab6788",
+      "dhash": "1101000010110000000010010111000111010011110100011100100110010000",
+      "prices": [],
+      "action": {
+        "opt": "Big-picture ideas",
+        "cta": "Continue"
+      }
+    },
+    {
+      "n": 26,
+      "file": "26.webp",
+      "url": "https://www.imprintapp.com/quiz/start-history",
+      "path": "/quiz/start-history",
+      "title": "When learning I connect best with:",
+      "kind": "question",
+      "text": "When learning I connect best with:\nBig-picture ideas\nStep-by-step details\nHands-on practice\nReal-world examples\nStories and narratives\nGames\nDo you find it easy to stay motivated while learning?\nYes\nOccasionally\nNo\nDid you hear about Imprint through a mentor or coach?",
+      "textHash": "da4323394f24",
+      "dhash": "1101000011000100000000110100000000000000000100000011000100110001",
+      "prices": [],
+      "action": {
+        "opt": "Big-picture ideas"
+      }
+    },
+    {
+      "n": 27,
+      "file": "27.webp",
+      "url": "https://www.imprintapp.com/quiz/start-history",
+      "path": "/quiz/start-history",
+      "title": "Do you find it easy to stay motivated while learning?",
+      "kind": "question",
+      "text": "Do you find it easy to stay motivated while learning?\nYes\nOccasionally\nNo\nDid you hear about Imprint through a mentor or coach?\nAchieve your goals with our expert guidance\nExperience expert-designed, research-backed learning. Just a few more steps to your personalized plan.\nNo\nYes",
+      "textHash": "8abbfbb38146",
+      "dhash": "1101010011010100001000111001010000000000000000001101010011010100",
+      "prices": [],
+      "action": {
+        "opt": "Yes"
+      }
+    },
+    {
+      "n": 28,
+      "file": "28.webp",
+      "url": "https://www.imprintapp.com/quiz/start-history",
+      "path": "/quiz/start-history",
+      "title": "Did you hear about Imprint through a mentor or coach?",
+      "kind": "question",
+      "text": "Did you hear about Imprint through a mentor or coach?\nAchieve your goals with our expert guidance\nExperience expert-designed, research-backed learning. Just a few more steps to your personalized plan.\nWhat's motivating you towards personal growth?\nStay sharp\nBroaden my perspectives\nAdvance my career\nBecome a more interesting person\nSpend time productively\nOther\nContinue",
+      "textHash": "8f72efefa17b",
+      "dhash": "0100100001110000010011011011000000110010100001001010000010001110",
+      "prices": [],
+      "action": {
+        "opt": "Stay sharp",
+        "cta": "Continue"
+      }
+    },
+    {
+      "n": 29,
+      "file": "29.webp",
+      "url": "https://www.imprintapp.com/quiz/start-history",
+      "path": "/quiz/start-history",
+      "title": "What's motivating you towards personal growth?",
+      "kind": "social_proof",
+      "text": "Achieve your goals with our expert guidance\nExperience expert-designed, research-backed learning. Just a few more steps to your personalized plan.\nWhat's motivating you towards personal growth?\nStay sharp\nBroaden my perspectives\nAdvance my career\nBecome a more interesting person\nSpend time productively\nOther\nJoin over 5 million people choosing lifelong learning\nBe part of a global community and reach your goals with us.\nContinue",
+      "textHash": "9be8df45d26e",
+      "dhash": "1111000011100000000101110110000111000001011010010100100110110010",
+      "prices": [],
+      "action": {
+        "opt": "Stay sharp",
+        "cta": "Continue"
+      }
+    },
+    {
+      "n": 30,
+      "file": "30.webp",
+      "url": "https://www.imprintapp.com/quiz/start-history",
+      "path": "/quiz/start-history",
+      "title": "What's motivating you towards personal growth?",
+      "kind": "social_proof",
+      "text": "What's motivating you towards personal growth?\nStay sharp\nBroaden my perspectives\nAdvance my career\nBecome a more interesting person\nSpend time productively\nOther\nJoin over 5 million people choosing lifelong learning\nBe part of a global community and reach your goals with us.\nSet a daily learning goal\nYou can always change this later.\nQuick\n2 min / day\nRegular\n5 min / day\nAdvanced\n10 min / day\nContinue",
+      "textHash": "7492ad6045ce",
+      "dhash": "0000101011110000110001001101100011111000100000001010001010001110",
+      "prices": [],
+      "action": {
+        "cta": "Continue"
+      }
+    },
+    {
+      "n": 31,
+      "file": "31.webp",
+      "url": "https://www.imprintapp.com/quiz/start-history",
+      "path": "/quiz/start-history",
+      "title": "Crafting your learning experience...",
+      "kind": "social_proof",
+      "text": "Join over 5 million people choosing lifelong learning\nBe part of a global community and reach your goals with us.\nSet a daily learning goal\nYou can always change this later.\nQuick\n2 min / day\nRegular\n5 min / day\nAdvanced\n10 min / day\nCrafting your learning experience...\nSetting goals\n\"This app has greatly improved my life and overall well-being... it has helped me to foster a healthy growth mindset.\"\n\"Imprint helps you feel like you're being productive whenever you have some downtime or when you're taking a break.\"\n\"Such a fun way to learn! Replacing doom scrolling with this app is the best decision I made.\"\nContinue",
+      "textHash": "2e38a88ca855",
+      "dhash": "1110000011101000000000100100100000100010010011001100110010110010",
+      "prices": [],
+      "action": {
+        "opt": "Quick 2 min / day",
+        "cta": "Continue"
+      }
+    },
+    {
+      "n": 32,
+      "file": "32.webp",
+      "url": "https://www.imprintapp.com/quiz/start-history",
+      "path": "/quiz/start-history",
+      "title": "Your personalized Growth Plan is ready!",
+      "kind": "question",
+      "text": "Set a daily learning goal\nYou can always change this later.\nThat's 30 bite-sized lessons in a month!\nQuick\n2 min / day\nRegular\n5 min / day\nAdvanced\n10 min / day\nYour personalized Growth Plan is ready!\nGoals\nGrowth areas\nContent\nContinue",
+      "textHash": "c89dd29f198c",
+      "dhash": "1101010010000010100010101010001001000000000001001001011010001110",
+      "prices": [],
+      "action": {
+        "cta": "Continue"
       }
     }
   ],
   "features": {
-    "totalSteps": 12,
-    "stop": "stuck",
+    "totalSteps": 32,
+    "stop": "timeout",
     "emailStep": null,
     "paywallStep": null,
-    "questions": 8,
-    "socialProof": 3,
+    "questions": 25,
+    "socialProof": 6,
     "loader": false,
     "prices": [],
     "discount": null,

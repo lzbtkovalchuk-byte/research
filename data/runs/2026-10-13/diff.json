@@ -215,15 +215,6 @@
             },
             {
               "s": "baseline"
-            },
-            {
-              "s": "baseline"
-            },
-            {
-              "s": "baseline"
-            },
-            {
-              "s": "baseline"
             }
           ],
           "removed": []
@@ -359,7 +350,7 @@
         {
           "status": "current",
           "key": "itunes.apple.com/app/id1482780647",
-          "ads": 36,
+          "ads": 37,
           "first": "2026-09-24",
           "store": true
         },
@@ -431,6 +422,66 @@
             },
             {
               "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
             }
           ],
           "removed": []
@@ -438,6 +489,60 @@
         "imprintapp.com/start-art": {
           "firstRun": true,
           "status": [
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
             {
               "s": "baseline"
             },
@@ -1255,25 +1360,25 @@
     },
     "chillio": {
       "ads": {
-        "active": 24,
+        "active": 25,
         "prevActive": null,
         "delta": null,
-        "newInWindow": 17,
-        "newCreatives": 15
+        "newInWindow": 11,
+        "newCreatives": 7
       },
       "links": [
         {
           "status": "current",
           "key": "quiz.get-chillio.app/qs/cleaning-game",
-          "ads": 24,
+          "ads": 41,
           "first": "2026-09-14",
           "store": false
         },
         {
           "status": "current",
           "key": "quiz.get-chillio.app/qs/house-ai",
-          "ads": 2,
-          "first": "2026-09-19",
+          "ads": 6,
+          "first": "2026-09-06",
           "store": false
         }
       ],
@@ -1381,7 +1486,7 @@
     },
     "learna": {
       "ads": {
-        "active": 154,
+        "active": 164,
         "prevActive": null,
         "delta": null,
         "newInWindow": 50,
@@ -1423,36 +1528,6 @@
         "onboarding.ailearna.com/onboarding": {
           "firstRun": true,
           "status": [
-            {
-              "s": "baseline"
-            },
-            {
-              "s": "baseline"
-            },
-            {
-              "s": "baseline"
-            },
-            {
-              "s": "baseline"
-            },
-            {
-              "s": "baseline"
-            },
-            {
-              "s": "baseline"
-            },
-            {
-              "s": "baseline"
-            },
-            {
-              "s": "baseline"
-            },
-            {
-              "s": "baseline"
-            },
-            {
-              "s": "baseline"
-            },
             {
               "s": "baseline"
             },

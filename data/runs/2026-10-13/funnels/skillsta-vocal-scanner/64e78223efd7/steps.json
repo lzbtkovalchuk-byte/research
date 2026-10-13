@@ -378,107 +378,79 @@
       "file": "25.webp",
       "url": "https://www.getskillnow.com/quiz/voice_assessment/voice_assessment?utm_adname=CF_voice_assessment&funnel-state=stepNumber:22",
       "path": "/quiz/voice_assessment/voice_assessment",
-      "title": "We couldn’t access your mic to record your voice",
-      "kind": "question",
-      "text": "We couldn’t access your mic to record your voice\nNo worries, our AI Voice Analyzer will be waiting for you in the web app when you are ready\nRetry\nFinish\nTerms & Conditions • Privacy Policy • Subscription Policy",
-      "textHash": "b214e921c453",
-      "dhash": "1100110000010111001100110000111100101011010001010010010100100111",
+      "title": "Got it!",
+      "kind": "info",
+      "text": "AI VOICE ANALYZER\nSkip\n1\n2\n3\nGot it!\nThat's all we need for this one\nRetry\nContinue\nTerms & Conditions • Privacy Policy • Subscription Policy",
+      "textHash": "28f1b2146b50",
+      "dhash": "1001010000010010001010000100110100001110001000010010010100100011",
       "prices": [],
       "action": {
-        "opt": "Finish"
+        "cta": "Continue"
       }
     },
     {
       "n": 26,
       "file": "26.webp",
-      "url": "https://www.getskillnow.com/quiz/voice_assessment/voice_assessment?utm_adname=CF_voice_assessment&funnel-state=stepNumber:23",
+      "url": "https://www.getskillnow.com/quiz/voice_assessment/voice_assessment?utm_adname=CF_voice_assessment&funnel-state=stepNumber:22",
       "path": "/quiz/voice_assessment/voice_assessment",
-      "title": "Reading your pitch...",
-      "kind": "social_proof",
-      "text": "Reading your pitch...\nMeasuring steadiness\nOver 850,000 people \nalready improved their voices with Skillsta\nI am learning techniques in an interactive way that I never did in another app.\nI am learning techniques in an interactive way that I never did in another app.\nranjarama • 23 hours ago\n2 reviews • US\nI love this app!\nI love this app! The exercises are awesome because it's realistic examples of what you will deal with.\nejreilly • 18 hours ago\n1 review • US\nIt walks me thru each exercise using…\nIt walks me thru each exercise using practical methods. Just finished my first lesson and I feel I am on the right track.\nJustinS • 5 hours ago\n1 review • US\nLearned so much\nJust finished my first lesson and boy i thought i knew about singing. Apparently i was Completely ignorant.\nwalzork • 23 hours ago\n1 review • CA\nTerms & Conditions • Privacy Policy • Subscription Policy",
-      "textHash": "8a0c0fcdf699",
-      "dhash": "0000101011001100000101110001001000001111001100110111001100100011",
+      "title": "Climb the notes",
+      "kind": "info",
+      "text": "AI VOICE ANALYZER\nSkip\n2\n3\nClimb the notes\nHum a comfortable note, then sing upward in steps, like climbing stairs — one, two, three, four, five. Hold each note for a beat before the next.\nTap to start recording\nYOUR RECORDINGS ARE PRIVATE\nTerms & Conditions • Privacy Policy • Subscription Policy",
+      "textHash": "ab9eb166c38f",
+      "dhash": "1000110000011111010010010011000000001110010011000100110100110011",
       "prices": [],
-      "action": {}
+      "action": {
+        "opt": "Tap to start recording"
+      }
     },
     {
       "n": 27,
       "file": "27.webp",
-      "url": "https://www.getskillnow.com/quiz/voice_assessment/voice_assessment?utm_adname=CF_voice_assessment&funnel-state=stepNumber:23",
+      "url": "https://www.getskillnow.com/quiz/voice_assessment/voice_assessment?utm_adname=CF_voice_assessment&funnel-state=stepNumber:22",
       "path": "/quiz/voice_assessment/voice_assessment",
-      "title": "Checking your tone…",
-      "kind": "social_proof",
-      "text": "Checking your tone…\nListening for warmth and clarity\nOver 850,000 people \nalready improved their voices with Skillsta\nI love this app!\nI love this app! The exercises are awesome because it's realistic examples of what you will deal with.\nejreilly • 18 hours ago\n1 review • US\nIt walks me thru each exercise using…\nIt walks me thru each exercise using practical methods. Just finished my first lesson and I feel I am on the right track.\nJustinS • 5 hours ago\n1 review • US\nLearned so much\nJust finished my first lesson and boy i thought i knew about singing. Apparently i was Completely ignorant.\nwalzork • 23 hours ago\n1 review • CA\nI am learning techniques in an interactive way that I never did in another app.\nI am learning techniques in an interactive way that I never did in another app.\nranjarama • 23 hours ago\n2 reviews • US\nTerms & Conditions • Privacy Policy • Subscription Policy",
-      "textHash": "e94a5499fe3c",
-      "dhash": "0000101011000100000011110010101000000111001100110111101100100011",
+      "title": "Got it!",
+      "kind": "info",
+      "text": "AI VOICE ANALYZER\nSkip\n2\n3\nGot it!\nThat's all we need for this one\nRetry\nContinue\nTerms & Conditions • Privacy Policy • Subscription Policy",
+      "textHash": "d7a1234b67cb",
+      "dhash": "0000110000001010001010000100110100001110001000010010010100100011",
       "prices": [],
-      "action": {}
+      "action": {
+        "cta": "Continue"
+      }
     },
     {
       "n": 28,
       "file": "28.webp",
-      "url": "https://www.getskillnow.com/quiz/voice_assessment/voice_assessment?utm_adname=CF_voice_assessment&funnel-state=stepNumber:23",
+      "url": "https://www.getskillnow.com/quiz/voice_assessment/voice_assessment?utm_adname=CF_voice_assessment&funnel-state=stepNumber:22",
       "path": "/quiz/voice_assessment/voice_assessment",
-      "title": "Analyzing voice type…",
-      "kind": "social_proof",
-      "text": "Analyzing voice type…\nComparing to 850,000 samples\nOver 850,000 people \nalready improved their voices with Skillsta\nLearned so much\nJust finished my first lesson and boy i thought i knew about singing. Apparently i was Completely ignorant.\nwalzork • 23 hours ago\n1 review • CA\nI am learning techniques in an interactive way that I never did in another app.\nI am learning techniques in an interactive way that I never did in another app.\nranjarama • 23 hours ago\n2 reviews • US\nI love this app!\nI love this app! The exercises are awesome because it's realistic examples of what you will deal with.\nejreilly • 18 hours ago\n1 review • US\nIt walks me thru each exercise using…\nIt walks me thru each exercise using practical methods. Just finished my first lesson and I feel I am on the right track.\nJustinS • 5 hours ago\n1 review • US\nTerms & Conditions • Privacy Policy • Subscription Policy",
-      "textHash": "6181511bc7ce",
-      "dhash": "0010101011001100001011110011001100000111001101110111001100100011",
+      "title": "Hold steady",
+      "kind": "info",
+      "text": "AI VOICE ANALYZER\nSkip\n3\nHold steady\nPick a comfortable note and hold it on \"mmm\" for as long as you can — a calm, even hum. Volume doesn't matter, keep the note as level as you can.\nTap to start recording\nYOUR RECORDINGS ARE PRIVATE\nTerms & Conditions • Privacy Policy • Subscription Policy",
+      "textHash": "2d1355b71cd0",
+      "dhash": "1000010000010111010010010011000000001110010011000100110100110011",
       "prices": [],
-      "action": {}
+      "action": {
+        "opt": "Tap to start recording"
+      }
     },
     {
       "n": 29,
       "file": "29.webp",
-      "url": "https://www.getskillnow.com/quiz/voice_assessment/voice_assessment?utm_adname=CF_voice_assessment&funnel-state=stepNumber:23",
+      "url": "https://www.getskillnow.com/quiz/voice_assessment/voice_assessment?utm_adname=CF_voice_assessment&funnel-state=stepNumber:22",
       "path": "/quiz/voice_assessment/voice_assessment",
-      "title": "Analyzing voice type…",
-      "kind": "social_proof",
-      "text": "Analyzing voice type…\nComparing to 850,000 samples\nOver 850,000 people \nalready improved their voices with Skillsta\nI am learning techniques in an interactive way that I never did in another app.\nI am learning techniques in an interactive way that I never did in another app.\nranjarama • 23 hours ago\n2 reviews • US\nI love this app!\nI love this app! The exercises are awesome because it's realistic examples of what you will deal with.\nejreilly • 18 hours ago\n1 review • US\nIt walks me thru each exercise using…\nIt walks me thru each exercise using practical methods. Just finished my first lesson and I feel I am on the right track.\nJustinS • 5 hours ago\n1 review • US\nLearned so much\nJust finished my first lesson and boy i thought i knew about singing. Apparently i was Completely ignorant.\nwalzork • 23 hours ago\n1 review • CA\nTerms & Conditions • Privacy Policy • Subscription Policy",
-      "textHash": "8c9543ad0e46",
-      "dhash": "0010101011001100000011110011001100000111001100110111001100100011",
+      "title": "Got it!",
+      "kind": "info",
+      "text": "AI VOICE ANALYZER\nSkip\n3\nGot it!\nThat's all we need for this one\nRetry\nContinue\nTerms & Conditions • Privacy Policy • Subscription Policy",
+      "textHash": "1313e02d92e3",
+      "dhash": "0000010000010110001010000100110100001110001000010010010100100011",
       "prices": [],
-      "action": {}
+      "action": {
+        "cta": "Continue"
+      }
     },
     {
       "n": 30,
       "file": "30.webp",
-      "url": "https://www.getskillnow.com/quiz/voice_assessment/voice_assessment?utm_adname=CF_voice_assessment&funnel-state=stepNumber:23",
-      "path": "/quiz/voice_assessment/voice_assessment",
-      "title": "Building your result…",
-      "kind": "loader",
-      "text": "Building your result…\nAlmost there\nOver 850,000 people \nalready improved their voices with Skillsta\nI love this app!\nI love this app! The exercises are awesome because it's realistic examples of what you will deal with.\nejreilly • 18 hours ago\n1 review • US\nIt walks me thru each exercise using…\nIt walks me thru each exercise using practical methods. Just finished my first lesson and I feel I am on the right track.\nJustinS • 5 hours ago\n1 review • US\nLearned so much\nJust finished my first lesson and boy i thought i knew about singing. Apparently i was Completely ignorant.\nwalzork • 23 hours ago\n1 review • CA\nI am learning techniques in an interactive way that I never did in another app.\nI am learning techniques in an interactive way that I never did in another app.\nranjarama • 23 hours ago\n2 reviews • US\nTerms & Conditions • Privacy Policy • Subscription Policy",
-      "textHash": "8e9c9c384620",
-      "dhash": "0010001011001100000011110011001000000111001100110111101100100011",
-      "prices": []
-    },
-    {
-      "n": 31,
-      "file": "31.webp",
-      "url": "https://www.getskillnow.com/quiz/voice_assessment/voice_assessment?utm_adname=CF_voice_assessment&funnel-state=stepNumber:23",
-      "path": "/quiz/voice_assessment/voice_assessment",
-      "title": "Building your result…",
-      "kind": "loader",
-      "text": "Building your result…\nAlmost there\nOver 850,000 people \nalready improved their voices with Skillsta\nIt walks me thru each exercise using…\nIt walks me thru each exercise using practical methods. Just finished my first lesson and I feel I am on the right track.\nJustinS • 5 hours ago\n1 review • US\nLearned so much\nJust finished my first lesson and boy i thought i knew about singing. Apparently i was Completely ignorant.\nwalzork • 23 hours ago\n1 review • CA\nI am learning techniques in an interactive way that I never did in another app.\nI am learning techniques in an interactive way that I never did in another app.\nranjarama • 23 hours ago\n2 reviews • US\nI love this app!\nI love this app! The exercises are awesome because it's realistic examples of what you will deal with.\nejreilly • 18 hours ago\n1 review • US\nTerms & Conditions • Privacy Policy • Subscription Policy",
-      "textHash": "2ee684f173de",
-      "dhash": "0010001011001100000011110011001000000111001101110111101100101011",
-      "prices": []
-    },
-    {
-      "n": 32,
-      "file": "32.webp",
-      "url": "https://www.getskillnow.com/quiz/voice_assessment/voice_assessment?utm_adname=CF_voice_assessment&funnel-state=stepNumber:23",
-      "path": "/quiz/voice_assessment/voice_assessment",
-      "title": "Building your result…",
-      "kind": "loader",
-      "text": "Building your result…\nAlmost there\nOver 850,000 people \nalready improved their voices with Skillsta\nLearned so much\nJust finished my first lesson and boy i thought i knew about singing. Apparently i was Completely ignorant.\nwalzork • 23 hours ago\n1 review • CA\nI am learning techniques in an interactive way that I never did in another app.\nI am learning techniques in an interactive way that I never did in another app.\nranjarama • 23 hours ago\n2 reviews • US\nI love this app!\nI love this app! The exercises are awesome because it's realistic examples of what you will deal with.\nejreilly • 18 hours ago\n1 review • US\nIt walks me thru each exercise using…\nIt walks me thru each exercise using practical methods. Just finished my first lesson and I feel I am on the right track.\nJustinS • 5 hours ago\n1 review • US\nTerms & Conditions • Privacy Policy • Subscription Policy",
-      "textHash": "7f5cf54f44a8",
-      "dhash": "0010001011001100000011110011001000000111001101110111001100100011",
-      "prices": []
-    },
-    {
-      "n": 33,
-      "file": "33.webp",
       "url": "https://www.getskillnow.com/quiz/voice_assessment/voice_assessment/sign-up?utm_adname=CF_voice_assessment&funnel-state=stepNumber:24",
       "path": "/quiz/voice_assessment/voice_assessment/sign-up",
       "title": "Your results are ready Enter your email to get a full voice analysis that reveals your vocal strengths, range, and celebrity voice match",
@@ -493,8 +465,8 @@
       }
     },
     {
-      "n": 34,
-      "file": "34.webp",
+      "n": 31,
+      "file": "31.webp",
       "url": "https://www.getskillnow.com/quiz/voice_assessment/voice_assessment/sign-up?utm_adname=CF_voice_assessment&funnel-state=stepNumber:24",
       "path": "/quiz/voice_assessment/voice_assessment/sign-up",
       "title": "Enter verification code",
@@ -506,13 +478,13 @@
     }
   ],
   "features": {
-    "totalSteps": 34,
+    "totalSteps": 31,
     "stop": "email_verification",
-    "emailStep": 33,
+    "emailStep": 30,
     "paywallStep": null,
-    "questions": 18,
-    "socialProof": 4,
-    "loader": true,
+    "questions": 17,
+    "socialProof": 0,
+    "loader": false,
     "prices": [],
     "discount": null,
     "timer": false,
