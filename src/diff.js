@@ -125,8 +125,8 @@ for (const app of apps) {
       if (st.prev) st.prevFile = p.steps[st.prev - 1].file;
       if (st.s !== 'changed') continue;
       st.boxes = await diffBoxes(path.join(PREV, p.dir, p.steps[st.prev - 1].file), path.join(RUN, f.dir, f.steps[j].file));
-      // A visual-only change with no visible region left after filtering (timer, animation) is not a change.
-      if (st.why === 'visual' && Array.isArray(st.boxes) && !st.boxes.length) { st.s = 'same'; delete st.boxes; }
+      // No visible region left after filtering (timer, animation, hidden text, a taller full-page shot) is not a change.
+      if (Array.isArray(st.boxes) && !st.boxes.length) { st.s = 'same'; delete st.boxes; }
     }
     d.funnels[key] = { firstRun: false, comparedWith: pk, prevDir: p.dir, prevSteps: p.steps.length, ...cmp };
   }

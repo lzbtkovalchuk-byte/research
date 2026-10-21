@@ -1,0 +1,1165 @@
+{
+ "headline": "Breeze swapped its “choose any amount” trial for a fixed $1 7-day trial with the email field on the paywall, and Copymind dropped email verification before its paywall.",
+ "what_changed": {
+  "breeze": "Paywall rebuilt: “choose any amount” trial ($1–$17.34) replaced by a 7-day trial for $1, then $29.99 every 4 weeks, with the email field on the paywall. Age and gender questions swapped. 1 new ad link.",
+  "copymind": "Email verification before the paywall removed; paywall now dark with an auto-applied promo code (4 weeks $19.99, then $39.99).",
+  "yousician": "“Let’s get started” now opens a log-in / sign-up screen; the instrument quiz is no longer reached.",
+  "simply-piano": "One question removed (“For how long have you had a piano/keyboard?”). Paywall now captured behind the free-book popup.",
+  "learna": "No screen changes. Ads: 46 new in two weeks, +480 active (644 now).",
+  "imprint": "No screen changes. Ads: +140 active (740 now). start-art link dropped from ads.",
+  "memoryos": "No screen changes. Ad links changed: new new-h2 funnel, mos_cfg seniors_s → read003b, seniors_o removed.",
+  "smartyme": "No screen changes captured. Ads: 55 new in two weeks, −75 active.",
+  "simply-sing": "New ad funnel (singyourheartout) captured; it reaches a paywall with the same plans as Simply Piano.",
+  "chillio": "No changes.",
+  "simply-draw": "No changes.",
+  "skillsta-vocal-2": "No changes.",
+  "skillsta-vocal-scanner": "No changes.",
+  "skillsta-drawing": "No changes."
+ },
+ "hide_funnels": [
+  {
+   "app": "simply-piano",
+   "funnel": "join-piano.hellosimply.com/start",
+   "reason": "First-question options are shuffled; this run the walk took the adult branch, last run the child branch. The adult branch matches hellosimply.com/family/esa."
+  }
+ ],
+ "screens": [
+  {
+   "app": "breeze",
+   "funnel": "try-breeze.com/funnel/childhood",
+   "n": 1,
+   "title": "Age is now asked first",
+   "notes": [
+    "“Choose your age” is now screen 1 and “What is your gender identity?” screen 2; last run the order was reversed."
+   ]
+  },
+  {
+   "app": "breeze",
+   "funnel": "try-breeze.com/funnel/childhood",
+   "n": 32,
+   "title": "Question popup over the results loader",
+   "notes": [
+    "“Do you find yourself frequently avoiding places, people, or activities that remind you of your past?” (No / Yes) appears over “Calculating your results…”.",
+    "The walk could not close it, so the paywall was opened directly."
+   ]
+  },
+  {
+   "app": "breeze",
+   "funnel": "try-breeze.com/funnel/childhood",
+   "n": 33,
+   "prev_n": 40,
+   "title": "“Choose any amount” trial replaced by a $1 trial with email on the paywall",
+   "notes": [
+    "Before: “Choose any amount you like” ($1, $2, $10, $17.34) with “It costs us $17.34 to provide this trial offer”.",
+    "Now: “7-day trial for $1, then $29.99 every 4 weeks. No commitment. Cancel anytime.”",
+    "The email field (“Step 1 · Enter your email”) is on the paywall itself, followed by store badges, “Over 7.5 million use the Breeze app” and reviews."
+   ]
+  },
+  {
+   "app": "simply-piano",
+   "funnel": "hellosimply.com/family/esa",
+   "n": 6,
+   "removed": true,
+   "title": "Question removed: “For how long have you had a piano/keyboard?”",
+   "notes": [
+    "This question is no longer in the funnel; the rest of the order is unchanged."
+   ]
+  },
+  {
+   "app": "simply-piano",
+   "funnel": "hellosimply.com/family/esa",
+   "n": 32,
+   "title": "Free-book popup over the paywall",
+   "notes": [
+    "“Welcome Freebie!”: the “Pianist Must Haves” book (worth US$19.90) for free. The walk now closes it and captures the paywall behind it."
+   ]
+  },
+  {
+   "app": "simply-piano",
+   "funnel": "hellosimply.com/family/esa",
+   "n": 33,
+   "title": "Paywall, now captured behind the popup",
+   "notes": [
+    "Last run only the popup was captured.",
+    "“Start your 7-day free trial”: Family $17.49/mo (save 50%, $209.90 billed annually) or Individual $14.16/mo (save 43%, $169.90 billed annually), a 50% discount timer and a toggle to extend the trial to 14 days."
+   ]
+  },
+  {
+   "app": "copymind",
+   "funnel": "app.copymind.me/welcome-quiz/gender",
+   "n": 36,
+   "prev_n": 38,
+   "title": "Paywall: dark theme and an auto-applied promo code",
+   "notes": [
+    "The paywall is now dark, headed “Your Plan Is Set!”, with a “Your promo code applied!” banner and a 10-minute timer.",
+    "Plans: 1 week $9.99, then $39.99 every 4 weeks; 4 weeks $19.99 (crossed-out $39.99); 12 weeks $39.99 (crossed-out $79.99)."
+   ]
+  },
+  {
+   "app": "copymind",
+   "funnel": "app.copymind.me/welcome-quiz/gender",
+   "n": 37,
+   "removed": true,
+   "title": "Email verification screen removed",
+   "notes": [
+    "“Verify your email” no longer appears between the email step and the paywall."
+   ]
+  },
+  {
+   "app": "yousician",
+   "funnel": "yousician.com/",
+   "n": 2,
+   "prev_n": 2,
+   "title": "“Let’s get started” now opens log-in / sign-up",
+   "notes": [
+    "Last run the next screen was “Choose your instrument”, the start of a 7-screen quiz.",
+    "Now it is a log-in form (Apple, Google, email and password) with a “Sign up” button."
+   ]
+  },
+  {
+   "app": "breeze",
+   "funnel": "try-breeze.com/funnel/childhood",
+   "n": 2,
+   "hide": true,
+   "title": "same screen; images had not loaded on the previous capture",
+   "notes": []
+  },
+  {
+   "app": "breeze",
+   "funnel": "try-breeze.com/funnel/childhood",
+   "n": 6,
+   "hide": true,
+   "title": "same screen; images had not loaded on the previous capture",
+   "notes": []
+  },
+  {
+   "app": "breeze",
+   "funnel": "try-breeze.com/funnel/childhood",
+   "n": 7,
+   "hide": true,
+   "title": "same screen; images had not loaded on the previous capture",
+   "notes": []
+  },
+  {
+   "app": "breeze",
+   "funnel": "try-breeze.com/funnel/childhood",
+   "n": 11,
+   "hide": true,
+   "title": "same screen; images had not loaded on the previous capture",
+   "notes": []
+  },
+  {
+   "app": "breeze",
+   "funnel": "try-breeze.com/funnel/childhood",
+   "n": 12,
+   "hide": true,
+   "title": "same screen; images had not loaded on the previous capture",
+   "notes": []
+  },
+  {
+   "app": "breeze",
+   "funnel": "try-breeze.com/funnel/childhood",
+   "n": 14,
+   "hide": true,
+   "title": "same screen; images had not loaded on the previous capture",
+   "notes": []
+  },
+  {
+   "app": "breeze",
+   "funnel": "try-breeze.com/funnel/childhood",
+   "n": 16,
+   "hide": true,
+   "title": "same screen; images had not loaded on the previous capture",
+   "notes": []
+  },
+  {
+   "app": "breeze",
+   "funnel": "try-breeze.com/funnel/childhood",
+   "n": 18,
+   "hide": true,
+   "title": "same screen; images had not loaded on the previous capture",
+   "notes": []
+  },
+  {
+   "app": "breeze",
+   "funnel": "try-breeze.com/funnel/childhood",
+   "n": 22,
+   "hide": true,
+   "title": "same screen; images had not loaded on the previous capture",
+   "notes": []
+  },
+  {
+   "app": "breeze",
+   "funnel": "try-breeze.com/funnel/childhood",
+   "n": 25,
+   "hide": true,
+   "title": "same screen; images had not loaded on the previous capture",
+   "notes": []
+  },
+  {
+   "app": "breeze",
+   "funnel": "try-breeze.com/funnel/childhood",
+   "n": 30,
+   "hide": true,
+   "title": "same screen; images had not loaded on the previous capture",
+   "notes": []
+  },
+  {
+   "app": "breeze",
+   "funnel": "try-breeze.com/funnel/childhood",
+   "n": 32,
+   "hide": true,
+   "removed": true,
+   "title": "not reached this run (popup)",
+   "notes": []
+  },
+  {
+   "app": "breeze",
+   "funnel": "try-breeze.com/funnel/childhood",
+   "n": 33,
+   "hide": true,
+   "removed": true,
+   "title": "not reached this run (popup)",
+   "notes": []
+  },
+  {
+   "app": "breeze",
+   "funnel": "try-breeze.com/funnel/childhood",
+   "n": 34,
+   "hide": true,
+   "removed": true,
+   "title": "not reached this run (popup)",
+   "notes": []
+  },
+  {
+   "app": "breeze",
+   "funnel": "try-breeze.com/funnel/childhood",
+   "n": 35,
+   "hide": true,
+   "removed": true,
+   "title": "not reached this run (popup)",
+   "notes": []
+  },
+  {
+   "app": "breeze",
+   "funnel": "try-breeze.com/funnel/childhood",
+   "n": 36,
+   "hide": true,
+   "removed": true,
+   "title": "not reached this run (popup)",
+   "notes": []
+  },
+  {
+   "app": "breeze",
+   "funnel": "try-breeze.com/funnel/childhood",
+   "n": 37,
+   "hide": true,
+   "removed": true,
+   "title": "not reached this run (popup)",
+   "notes": []
+  },
+  {
+   "app": "breeze",
+   "funnel": "try-breeze.com/funnel/childhood",
+   "n": 38,
+   "hide": true,
+   "removed": true,
+   "title": "not reached this run (popup)",
+   "notes": []
+  },
+  {
+   "app": "breeze",
+   "funnel": "try-breeze.com/funnel/childhood",
+   "n": 39,
+   "hide": true,
+   "removed": true,
+   "title": "not reached this run (popup)",
+   "notes": []
+  },
+  {
+   "app": "simply-piano",
+   "funnel": "hellosimply.com/family/esa",
+   "n": 2,
+   "hide": true,
+   "title": "answer options shuffled / answer-dependent screens",
+   "notes": []
+  },
+  {
+   "app": "simply-piano",
+   "funnel": "hellosimply.com/family/esa",
+   "n": 7,
+   "hide": true,
+   "title": "answer options shuffled / answer-dependent screens",
+   "notes": []
+  },
+  {
+   "app": "simply-piano",
+   "funnel": "hellosimply.com/family/esa",
+   "n": 10,
+   "hide": true,
+   "title": "answer options shuffled / answer-dependent screens",
+   "notes": []
+  },
+  {
+   "app": "simply-piano",
+   "funnel": "hellosimply.com/family/esa",
+   "n": 11,
+   "hide": true,
+   "title": "answer options shuffled / answer-dependent screens",
+   "notes": []
+  },
+  {
+   "app": "simply-piano",
+   "funnel": "hellosimply.com/family/esa",
+   "n": 12,
+   "hide": true,
+   "title": "answer options shuffled / answer-dependent screens",
+   "notes": []
+  },
+  {
+   "app": "simply-piano",
+   "funnel": "hellosimply.com/family/esa",
+   "n": 17,
+   "hide": true,
+   "title": "answer options shuffled / answer-dependent screens",
+   "notes": []
+  },
+  {
+   "app": "simply-piano",
+   "funnel": "hellosimply.com/family/esa",
+   "n": 24,
+   "hide": true,
+   "title": "answer options shuffled / answer-dependent screens",
+   "notes": []
+  },
+  {
+   "app": "simply-piano",
+   "funnel": "hellosimply.com/family/esa",
+   "n": 25,
+   "hide": true,
+   "title": "answer options shuffled / answer-dependent screens",
+   "notes": []
+  },
+  {
+   "app": "simply-piano",
+   "funnel": "hellosimply.com/family/esa",
+   "n": 26,
+   "hide": true,
+   "title": "answer options shuffled / answer-dependent screens",
+   "notes": []
+  },
+  {
+   "app": "simply-piano",
+   "funnel": "hellosimply.com/family/esa",
+   "n": 28,
+   "hide": true,
+   "title": "answer options shuffled / answer-dependent screens",
+   "notes": []
+  },
+  {
+   "app": "simply-piano",
+   "funnel": "hellosimply.com/family/esa",
+   "n": 29,
+   "hide": true,
+   "title": "answer options shuffled / answer-dependent screens",
+   "notes": []
+  },
+  {
+   "app": "simply-piano",
+   "funnel": "hellosimply.com/family/esa",
+   "n": 25,
+   "hide": true,
+   "removed": true,
+   "title": "capture difference",
+   "notes": []
+  },
+  {
+   "app": "chillio",
+   "funnel": "quiz.get-chillio.app/qs/cleaning-game",
+   "n": 36,
+   "hide": true,
+   "title": "only the support email in the terms changed",
+   "notes": []
+  },
+  {
+   "app": "learna",
+   "funnel": "onboarding.ailearna.com/onboarding",
+   "n": 6,
+   "hide": true,
+   "title": "answer options shuffled, different branch",
+   "notes": []
+  },
+  {
+   "app": "learna",
+   "funnel": "onboarding.ailearna.com/onboarding",
+   "n": 7,
+   "hide": true,
+   "title": "answer options shuffled, different branch",
+   "notes": []
+  },
+  {
+   "app": "learna",
+   "funnel": "onboarding.ailearna.com/onboarding",
+   "n": 38,
+   "hide": true,
+   "title": "answer options shuffled, different branch",
+   "notes": []
+  },
+  {
+   "app": "learna",
+   "funnel": "onboarding.ailearna.com/onboarding",
+   "n": 7,
+   "hide": true,
+   "removed": true,
+   "title": "answer options shuffled, different branch",
+   "notes": []
+  },
+  {
+   "app": "learna",
+   "funnel": "onboarding.ailearna.com/onboarding",
+   "n": 38,
+   "hide": true,
+   "removed": true,
+   "title": "answer options shuffled, different branch",
+   "notes": []
+  },
+  {
+   "app": "copymind",
+   "funnel": "app.copymind.me/welcome-quiz/gender",
+   "n": 14,
+   "hide": true,
+   "title": "capture difference",
+   "notes": []
+  },
+  {
+   "app": "copymind",
+   "funnel": "app.copymind.me/welcome-quiz/gender",
+   "n": 28,
+   "hide": true,
+   "title": "capture difference",
+   "notes": []
+  },
+  {
+   "app": "copymind",
+   "funnel": "app.copymind.me/welcome-quiz/gender",
+   "n": 29,
+   "hide": true,
+   "title": "capture difference",
+   "notes": []
+  },
+  {
+   "app": "copymind",
+   "funnel": "app.copymind.me/welcome-quiz/gender",
+   "n": 35,
+   "hide": true,
+   "removed": true,
+   "title": "capture difference",
+   "notes": []
+  },
+  {
+   "app": "yousician",
+   "funnel": "yousician.com/",
+   "n": 1,
+   "hide": true,
+   "title": "capture difference",
+   "notes": []
+  },
+  {
+   "app": "yousician",
+   "funnel": "yousician.com/",
+   "n": 3,
+   "hide": true,
+   "removed": true,
+   "title": "covered by the replaced screen",
+   "notes": []
+  },
+  {
+   "app": "yousician",
+   "funnel": "yousician.com/",
+   "n": 4,
+   "hide": true,
+   "removed": true,
+   "title": "covered by the replaced screen",
+   "notes": []
+  },
+  {
+   "app": "yousician",
+   "funnel": "yousician.com/",
+   "n": 5,
+   "hide": true,
+   "removed": true,
+   "title": "covered by the replaced screen",
+   "notes": []
+  },
+  {
+   "app": "yousician",
+   "funnel": "yousician.com/",
+   "n": 6,
+   "hide": true,
+   "removed": true,
+   "title": "covered by the replaced screen",
+   "notes": []
+  },
+  {
+   "app": "yousician",
+   "funnel": "yousician.com/",
+   "n": 7,
+   "hide": true,
+   "removed": true,
+   "title": "covered by the replaced screen",
+   "notes": []
+  },
+  {
+   "app": "yousician",
+   "funnel": "yousician.com/",
+   "n": 8,
+   "hide": true,
+   "removed": true,
+   "title": "covered by the replaced screen",
+   "notes": []
+  },
+  {
+   "app": "skillsta-vocal-2",
+   "funnel": "getskillnow.com/quiz",
+   "n": 30,
+   "hide": true,
+   "title": "capture difference",
+   "notes": []
+  },
+  {
+   "app": "skillsta-vocal-2",
+   "funnel": "getskillnow.com/quiz",
+   "n": 31,
+   "hide": true,
+   "title": "capture difference",
+   "notes": []
+  },
+  {
+   "app": "skillsta-vocal-2",
+   "funnel": "getskillnow.com/quiz",
+   "n": 32,
+   "hide": true,
+   "title": "capture difference",
+   "notes": []
+  },
+  {
+   "app": "skillsta-vocal-2",
+   "funnel": "getskillnow.com/quiz",
+   "n": 34,
+   "hide": true,
+   "title": "capture difference",
+   "notes": []
+  },
+  {
+   "app": "skillsta-vocal-2",
+   "funnel": "getskillnow.com/quiz",
+   "n": 30,
+   "hide": true,
+   "removed": true,
+   "title": "capture difference",
+   "notes": []
+  },
+  {
+   "app": "skillsta-vocal-2",
+   "funnel": "getskillnow.com/quiz",
+   "n": 31,
+   "hide": true,
+   "removed": true,
+   "title": "capture difference",
+   "notes": []
+  },
+  {
+   "app": "skillsta-vocal-2",
+   "funnel": "getskillnow.com/quiz",
+   "n": 32,
+   "hide": true,
+   "removed": true,
+   "title": "capture difference",
+   "notes": []
+  },
+  {
+   "app": "skillsta-vocal-scanner",
+   "funnel": "getskillnow.com/quiz/voice_assessment/voice_assessment",
+   "n": 31,
+   "hide": true,
+   "title": "capture difference",
+   "notes": []
+  },
+  {
+   "app": "skillsta-vocal-scanner",
+   "funnel": "getskillnow.com/quiz/voice_assessment/voice_assessment",
+   "n": 32,
+   "hide": true,
+   "title": "capture difference",
+   "notes": []
+  },
+  {
+   "app": "skillsta-drawing",
+   "funnel": "start.getskillnow.com/quiz",
+   "n": 31,
+   "hide": true,
+   "title": "capture difference",
+   "notes": []
+  },
+  {
+   "app": "skillsta-drawing",
+   "funnel": "start.getskillnow.com/quiz",
+   "n": 32,
+   "hide": true,
+   "title": "capture difference",
+   "notes": []
+  },
+  {
+   "app": "skillsta-drawing",
+   "funnel": "start.getskillnow.com/quiz",
+   "n": 33,
+   "hide": true,
+   "title": "capture difference",
+   "notes": []
+  },
+  {
+   "app": "skillsta-drawing",
+   "funnel": "start.getskillnow.com/quiz",
+   "n": 35,
+   "hide": true,
+   "title": "capture difference",
+   "notes": []
+  },
+  {
+   "app": "skillsta-drawing",
+   "funnel": "start.getskillnow.com/quiz",
+   "n": 31,
+   "hide": true,
+   "removed": true,
+   "title": "capture difference",
+   "notes": []
+  },
+  {
+   "app": "skillsta-drawing",
+   "funnel": "start.getskillnow.com/quiz",
+   "n": 32,
+   "hide": true,
+   "removed": true,
+   "title": "capture difference",
+   "notes": []
+  },
+  {
+   "app": "skillsta-drawing",
+   "funnel": "start.getskillnow.com/quiz",
+   "n": 33,
+   "hide": true,
+   "removed": true,
+   "title": "capture difference",
+   "notes": []
+  },
+  {
+   "app": "imprint",
+   "funnel": "imprintapp.com/start-history",
+   "n": 34,
+   "hide": true,
+   "removed": true,
+   "title": "not reached this run (email rejected)",
+   "notes": []
+  },
+  {
+   "app": "memoryos",
+   "funnel": "start.memoryos.com/new-s",
+   "n": 32,
+   "hide": true,
+   "removed": true,
+   "title": "not reached this run (email rejected)",
+   "notes": []
+  },
+  {
+   "app": "memoryos",
+   "funnel": "start.memoryos.com/new-s",
+   "n": 34,
+   "hide": true,
+   "removed": true,
+   "title": "not reached this run (email rejected)",
+   "notes": []
+  },
+  {
+   "app": "memoryos",
+   "funnel": "start.memoryos.com/new-s",
+   "n": 35,
+   "hide": true,
+   "removed": true,
+   "title": "not reached this run (email rejected)",
+   "notes": []
+  },
+  {
+   "app": "memoryos",
+   "funnel": "start.memoryos.com/new-s",
+   "n": 36,
+   "hide": true,
+   "removed": true,
+   "title": "not reached this run (email rejected)",
+   "notes": []
+  },
+  {
+   "app": "smartyme",
+   "funnel": "start.smartymeapp.com/quiz",
+   "n": 11,
+   "hide": true,
+   "removed": true,
+   "title": "not reached this run (walk stuck)",
+   "notes": []
+  },
+  {
+   "app": "smartyme",
+   "funnel": "start.smartymeapp.com/quiz",
+   "n": 12,
+   "hide": true,
+   "removed": true,
+   "title": "not reached this run (walk stuck)",
+   "notes": []
+  },
+  {
+   "app": "smartyme",
+   "funnel": "start.smartymeapp.com/quiz",
+   "n": 13,
+   "hide": true,
+   "removed": true,
+   "title": "not reached this run (walk stuck)",
+   "notes": []
+  },
+  {
+   "app": "smartyme",
+   "funnel": "start.smartymeapp.com/quiz",
+   "n": 14,
+   "hide": true,
+   "removed": true,
+   "title": "not reached this run (walk stuck)",
+   "notes": []
+  },
+  {
+   "app": "smartyme",
+   "funnel": "start.smartymeapp.com/quiz",
+   "n": 15,
+   "hide": true,
+   "removed": true,
+   "title": "not reached this run (walk stuck)",
+   "notes": []
+  },
+  {
+   "app": "smartyme",
+   "funnel": "start.smartymeapp.com/quiz",
+   "n": 16,
+   "hide": true,
+   "removed": true,
+   "title": "not reached this run (walk stuck)",
+   "notes": []
+  },
+  {
+   "app": "smartyme",
+   "funnel": "start.smartymeapp.com/quiz",
+   "n": 17,
+   "hide": true,
+   "removed": true,
+   "title": "not reached this run (walk stuck)",
+   "notes": []
+  },
+  {
+   "app": "smartyme",
+   "funnel": "start.smartymeapp.com/quiz",
+   "n": 18,
+   "hide": true,
+   "removed": true,
+   "title": "not reached this run (walk stuck)",
+   "notes": []
+  },
+  {
+   "app": "smartyme",
+   "funnel": "start.smartymeapp.com/quiz",
+   "n": 19,
+   "hide": true,
+   "removed": true,
+   "title": "not reached this run (walk stuck)",
+   "notes": []
+  },
+  {
+   "app": "smartyme",
+   "funnel": "start.smartymeapp.com/quiz",
+   "n": 20,
+   "hide": true,
+   "removed": true,
+   "title": "not reached this run (walk stuck)",
+   "notes": []
+  },
+  {
+   "app": "smartyme",
+   "funnel": "start.smartymeapp.com/quiz",
+   "n": 21,
+   "hide": true,
+   "removed": true,
+   "title": "not reached this run (walk stuck)",
+   "notes": []
+  },
+  {
+   "app": "smartyme",
+   "funnel": "start.smartymeapp.com/quiz",
+   "n": 22,
+   "hide": true,
+   "removed": true,
+   "title": "not reached this run (walk stuck)",
+   "notes": []
+  },
+  {
+   "app": "smartyme",
+   "funnel": "start.smartymeapp.com/quiz",
+   "n": 23,
+   "hide": true,
+   "removed": true,
+   "title": "not reached this run (walk stuck)",
+   "notes": []
+  },
+  {
+   "app": "smartyme",
+   "funnel": "start.smartymeapp.com/quiz",
+   "n": 24,
+   "hide": true,
+   "removed": true,
+   "title": "not reached this run (walk stuck)",
+   "notes": []
+  },
+  {
+   "app": "smartyme",
+   "funnel": "start.smartymeapp.com/quiz",
+   "n": 25,
+   "hide": true,
+   "removed": true,
+   "title": "not reached this run (walk stuck)",
+   "notes": []
+  },
+  {
+   "app": "smartyme",
+   "funnel": "start.smartymeapp.com/quiz",
+   "n": 26,
+   "hide": true,
+   "removed": true,
+   "title": "not reached this run (walk stuck)",
+   "notes": []
+  },
+  {
+   "app": "smartyme",
+   "funnel": "start.smartymeapp.com/quiz",
+   "n": 27,
+   "hide": true,
+   "removed": true,
+   "title": "not reached this run (walk stuck)",
+   "notes": []
+  },
+  {
+   "app": "smartyme",
+   "funnel": "start.smartymeapp.com/quiz",
+   "n": 28,
+   "hide": true,
+   "removed": true,
+   "title": "not reached this run (walk stuck)",
+   "notes": []
+  },
+  {
+   "app": "smartyme",
+   "funnel": "start.smartymeapp.com/quiz",
+   "n": 29,
+   "hide": true,
+   "removed": true,
+   "title": "not reached this run (walk stuck)",
+   "notes": []
+  },
+  {
+   "app": "smartyme",
+   "funnel": "start.smartymeapp.com/quiz",
+   "n": 30,
+   "hide": true,
+   "removed": true,
+   "title": "not reached this run (walk stuck)",
+   "notes": []
+  },
+  {
+   "app": "smartyme",
+   "funnel": "start.smartymeapp.com/quiz",
+   "n": 31,
+   "hide": true,
+   "removed": true,
+   "title": "not reached this run (walk stuck)",
+   "notes": []
+  },
+  {
+   "app": "smartyme",
+   "funnel": "start.smartymeapp.com/quiz",
+   "n": 32,
+   "hide": true,
+   "removed": true,
+   "title": "not reached this run (walk stuck)",
+   "notes": []
+  },
+  {
+   "app": "smartyme",
+   "funnel": "start.smartymeapp.com/quiz",
+   "n": 33,
+   "hide": true,
+   "removed": true,
+   "title": "not reached this run (walk stuck)",
+   "notes": []
+  },
+  {
+   "app": "smartyme",
+   "funnel": "start.smartymeapp.com/quiz",
+   "n": 34,
+   "hide": true,
+   "removed": true,
+   "title": "not reached this run (walk stuck)",
+   "notes": []
+  },
+  {
+   "app": "smartyme",
+   "funnel": "start.smartymeapp.com/quiz",
+   "n": 35,
+   "hide": true,
+   "removed": true,
+   "title": "not reached this run (walk stuck)",
+   "notes": []
+  },
+  {
+   "app": "smartyme",
+   "funnel": "start.smartymeapp.com/quiz",
+   "n": 36,
+   "hide": true,
+   "removed": true,
+   "title": "not reached this run (walk stuck)",
+   "notes": []
+  },
+  {
+   "app": "smartyme",
+   "funnel": "start.smartymeapp.com/quiz",
+   "n": 37,
+   "hide": true,
+   "removed": true,
+   "title": "not reached this run (walk stuck)",
+   "notes": []
+  },
+  {
+   "app": "smartyme",
+   "funnel": "start.smartymeapp.com/quiz",
+   "n": 38,
+   "hide": true,
+   "removed": true,
+   "title": "not reached this run (walk stuck)",
+   "notes": []
+  },
+  {
+   "app": "smartyme",
+   "funnel": "start.smartymeapp.com/quiz",
+   "n": 39,
+   "hide": true,
+   "removed": true,
+   "title": "not reached this run (walk stuck)",
+   "notes": []
+  },
+  {
+   "app": "smartyme",
+   "funnel": "start.smartymeapp.com/quiz",
+   "n": 40,
+   "hide": true,
+   "removed": true,
+   "title": "not reached this run (walk stuck)",
+   "notes": []
+  },
+  {
+   "app": "smartyme",
+   "funnel": "start.smartymeapp.com/quiz",
+   "n": 41,
+   "hide": true,
+   "removed": true,
+   "title": "not reached this run (walk stuck)",
+   "notes": []
+  },
+  {
+   "app": "smartyme",
+   "funnel": "start.smartymeapp.com/quiz",
+   "n": 42,
+   "hide": true,
+   "removed": true,
+   "title": "not reached this run (walk stuck)",
+   "notes": []
+  },
+  {
+   "app": "smartyme",
+   "funnel": "start.smartymeapp.com/quiz",
+   "n": 43,
+   "hide": true,
+   "removed": true,
+   "title": "not reached this run (walk stuck)",
+   "notes": []
+  },
+  {
+   "app": "smartyme",
+   "funnel": "start.smartymeapp.com/quiz",
+   "n": 44,
+   "hide": true,
+   "removed": true,
+   "title": "not reached this run (walk stuck)",
+   "notes": []
+  },
+  {
+   "app": "smartyme",
+   "funnel": "start.smartymeapp.com/quiz",
+   "n": 45,
+   "hide": true,
+   "removed": true,
+   "title": "not reached this run (walk stuck)",
+   "notes": []
+  },
+  {
+   "app": "smartyme",
+   "funnel": "start.smartymeapp.com/quiz",
+   "n": 46,
+   "hide": true,
+   "removed": true,
+   "title": "not reached this run (walk stuck)",
+   "notes": []
+  },
+  {
+   "app": "smartyme",
+   "funnel": "start.smartymeapp.com/quiz",
+   "n": 47,
+   "hide": true,
+   "removed": true,
+   "title": "not reached this run (walk stuck)",
+   "notes": []
+  },
+  {
+   "app": "smartyme",
+   "funnel": "start.smartymeapp.com/quiz",
+   "n": 48,
+   "hide": true,
+   "removed": true,
+   "title": "not reached this run (walk stuck)",
+   "notes": []
+  },
+  {
+   "app": "smartyme",
+   "funnel": "start.smartymeapp.com/quiz",
+   "n": 49,
+   "hide": true,
+   "removed": true,
+   "title": "not reached this run (walk stuck)",
+   "notes": []
+  }
+ ],
+ "amplitude": [
+  {
+   "funnel": "Vocal 2.0",
+   "topic": "vocal",
+   "period": "7–20 Oct",
+   "prev_period": "23 Sep – 6 Oct",
+   "steps": [
+    {
+     "label": "Quiz start",
+     "n": 30754,
+     "prev_n": 35632
+    },
+    {
+     "label": "Loader",
+     "n": 4650,
+     "prev_n": 6982
+    },
+    {
+     "label": "Email",
+     "n": 552,
+     "prev_n": 741
+    },
+    {
+     "label": "Paywall",
+     "n": 140,
+     "prev_n": 185
+    },
+    {
+     "label": "Purchase",
+     "n": 37,
+     "prev_n": 38
+    }
+   ]
+  },
+  {
+   "funnel": "Vocal Scanner",
+   "topic": "vocal",
+   "period": "7–20 Oct",
+   "prev_period": "23 Sep – 6 Oct",
+   "steps": [
+    {
+     "label": "Quiz start",
+     "n": 13481,
+     "prev_n": 4581
+    },
+    {
+     "label": "Loader",
+     "n": 3323,
+     "prev_n": 575
+    },
+    {
+     "label": "Email",
+     "n": 1147,
+     "prev_n": 109
+    },
+    {
+     "label": "Paywall",
+     "n": 1133,
+     "prev_n": 108
+    },
+    {
+     "label": "Purchase",
+     "n": 191,
+     "prev_n": 16
+    }
+   ]
+  },
+  {
+   "funnel": "Drawing",
+   "topic": "drawing",
+   "period": "7–20 Oct",
+   "prev_period": "23 Sep – 6 Oct",
+   "steps": [
+    {
+     "label": "Quiz start",
+     "n": 10060,
+     "prev_n": 15076
+    },
+    {
+     "label": "Loader",
+     "n": 1754,
+     "prev_n": 2853
+    },
+    {
+     "label": "Email",
+     "n": 231,
+     "prev_n": 366
+    },
+    {
+     "label": "Paywall",
+     "n": 45,
+     "prev_n": 90
+    },
+    {
+     "label": "Purchase",
+     "n": 13,
+     "prev_n": 18
+    }
+   ]
+  }
+ ],
+ "ideas": [
+  {
+   "title": "Test the funnel without the email code.",
+   "detail": "Let Vocal 2.0 and Drawing go from email straight to the paywall, without the verification code. It should move Email → Paywall (19–25% there now).",
+   "seen_in": "Copymind dropped “Verify your email”"
+  },
+  {
+   "title": "Test asking for the email on the paywall.",
+   "detail": "Put the email field on the paywall next to the plan, instead of a separate email + code step. It should move Email → Paywall and Paywall → Purchase.",
+   "seen_in": "Breeze paywall"
+  }
+ ]
+}

@@ -54,20 +54,24 @@ const noteFor = (appId, key, n, removed = false) => (A.screens || []).find(x => 
 function changes(app, f) {
   const df = diff.apps[app.id]?.funnels?.[f.key];
   if (!df || df.firstRun || !PREV) return { cards: [], count: 0 };
+  // The analysis can hide a whole funnel (e.g. the walk took a different answer branch) or single screens
+  // (capture noise: lazy-loaded images, shuffled options). Hidden screens are not shown or counted.
+  if ((A.hide_funnels || []).some(h => h.app === app.id && h.funnel === f.key)) return { cards: [], count: 0 };
+  const hidden = (n, removed) => noteFor(app.id, f.key, n, removed)?.hide;
   const curDir = path.join(RUN, f.dir), prevDir = path.join(PREV, df.prevDir || '');
   const removed = [...(df.removed || [])];
   const items = [];
   f.steps.forEach((s, j) => {
-    const st = df.status[j]; if (!st || st.s === 'same') return;
+    const st = df.status[j]; if (!st || st.s === 'same' || hidden(s.n, false)) return;
     if (st.s === 'changed') { items.push({ type: 'Changed', cur: s, prev: { n: st.prev, file: st.prevFile, title: '' }, boxes: st.boxes }); return; }
     if (s.kind === 'popup') { const behind = f.steps.find(x => x.n === s.behind); items.push({ type: 'Popup', cur: s, behind }); return; }
-    // A new screen where a previous one was removed at the same place = replaced.
-    const before = j ? df.status[j - 1]?.prev : 0;
-    const ri = removed.findIndex(r => before != null && r.n === (before || 0) + 1);
+    // A new screen where a previous one was removed at the same place = replaced (or the one the analysis names).
+    const before = j ? df.status[j - 1]?.prev : 0, pn = noteFor(app.id, f.key, s.n)?.prev_n;
+    const ri = pn ? removed.findIndex(r => r.n === pn) : removed.findIndex(r => before != null && r.n === (before || 0) + 1);
     if (ri >= 0) { items.push({ type: 'Replaced', cur: s, prev: removed[ri] }); removed.splice(ri, 1); return; }
     items.push({ type: 'New', cur: s });
   });
-  for (const r of removed) items.push({ type: 'Removed', prev: r });
+  for (const r of removed) if (!hidden(r.n, true)) items.push({ type: 'Removed', prev: r });
   const label = it => `${KIND[(it.cur || it.prev).kind] || 'Screen'}, step ${(it.cur || it.prev).n}`;
   const cards = items.slice(0, MAX_CARDS).map(it => {
     const n = noteFor(app.id, f.key, (it.cur || it.prev).n, it.type === 'Removed');

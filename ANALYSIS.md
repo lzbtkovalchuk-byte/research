@@ -37,7 +37,12 @@ the changed screens, and writes one small JSON file, so it stays cheap. Do not b
       "title": "Pay-what-you-want trial replaced by a plan picker",
       "notes": ["1–3 short sentences, each naming exactly what is different (copy, price, layout, offer)."]
     },
-    { "app": "simply-piano", "funnel": "join-piano.hellosimply.com/start", "n": 31, "removed": true, "title": "…", "notes": ["…"] }
+    { "app": "simply-piano", "funnel": "join-piano.hellosimply.com/start", "n": 31, "removed": true, "title": "…", "notes": ["…"] },
+    { "app": "copymind", "funnel": "app.copymind.me/welcome-quiz/gender", "n": 36, "prev_n": 38, "title": "…", "notes": ["…"] },
+    { "app": "learna", "funnel": "onboarding.ailearna.com/onboarding", "n": 6, "hide": true, "title": "answer options shuffled", "notes": [] }
+  ],
+  "hide_funnels": [
+    { "app": "simply-piano", "funnel": "join-piano.hellosimply.com/start", "reason": "The walk took a different answer branch than last run." }
   ],
   "amplitude": [
     {
@@ -63,5 +68,9 @@ Rules:
 - `screens`: one entry per changed, new or popup screen (use the current screen number), and per removed screen
   (previous number, `"removed": true`). For a screen that replaced another, describe it on the new one.
   Notes describe only what is visible on the screenshots. No guesses about intent.
+- Hide capture noise instead of describing it: `"hide": true` on a screen entry drops that card (images that had not
+  loaded last run, shuffled answer options, screens not reached because the walk stopped earlier). If the walk took a
+  different answer branch, hide the whole funnel with `hide_funnels`. Only hide what you checked on the screenshots.
+- `prev_n` on a new screen pairs it with that removed previous screen (e.g. a paywall that moved from step 38 to 36).
 - `ideas`: at most 3, each tied to a change seen in this run. Skip the section (empty list) if nothing is worth testing.
 - No invented numbers.

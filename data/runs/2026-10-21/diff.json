@@ -13,207 +13,178 @@
           "prevSteps": 34,
           "status": [
             {
-              "s": "changed",
+              "s": "same",
               "prev": 1,
               "why": "text",
-              "prevFile": "01.webp",
-              "boxes": []
+              "prevFile": "01.webp"
             },
             {
-              "s": "changed",
+              "s": "same",
               "prev": 2,
               "why": "text",
-              "prevFile": "02.webp",
-              "boxes": []
+              "prevFile": "02.webp"
             },
             {
-              "s": "changed",
+              "s": "same",
               "prev": 3,
               "why": "text",
-              "prevFile": "03.webp",
-              "boxes": []
+              "prevFile": "03.webp"
             },
             {
-              "s": "changed",
+              "s": "same",
               "prev": 4,
               "why": "text",
-              "prevFile": "04.webp",
-              "boxes": []
+              "prevFile": "04.webp"
             },
             {
-              "s": "changed",
+              "s": "same",
               "prev": 5,
               "why": "text",
-              "prevFile": "05.webp",
-              "boxes": []
+              "prevFile": "05.webp"
             },
             {
-              "s": "changed",
+              "s": "same",
               "prev": 6,
               "why": "text",
-              "prevFile": "06.webp",
-              "boxes": []
+              "prevFile": "06.webp"
             },
             {
-              "s": "changed",
+              "s": "same",
               "prev": 7,
               "why": "text",
-              "prevFile": "07.webp",
-              "boxes": []
+              "prevFile": "07.webp"
             },
             {
-              "s": "changed",
+              "s": "same",
               "prev": 8,
               "why": "text",
-              "prevFile": "08.webp",
-              "boxes": []
+              "prevFile": "08.webp"
             },
             {
-              "s": "changed",
+              "s": "same",
               "prev": 9,
               "why": "text",
-              "prevFile": "09.webp",
-              "boxes": []
+              "prevFile": "09.webp"
             },
             {
-              "s": "changed",
+              "s": "same",
               "prev": 10,
               "why": "text",
-              "prevFile": "10.webp",
-              "boxes": []
+              "prevFile": "10.webp"
             },
             {
-              "s": "changed",
+              "s": "same",
               "prev": 11,
               "why": "text",
-              "prevFile": "11.webp",
-              "boxes": []
+              "prevFile": "11.webp"
             },
             {
-              "s": "changed",
+              "s": "same",
               "prev": 12,
               "why": "text",
-              "prevFile": "12.webp",
-              "boxes": []
+              "prevFile": "12.webp"
             },
             {
-              "s": "changed",
+              "s": "same",
               "prev": 13,
               "why": "text",
-              "prevFile": "13.webp",
-              "boxes": []
+              "prevFile": "13.webp"
             },
             {
-              "s": "changed",
+              "s": "same",
               "prev": 14,
               "why": "text",
-              "prevFile": "14.webp",
-              "boxes": []
+              "prevFile": "14.webp"
             },
             {
-              "s": "changed",
+              "s": "same",
               "prev": 15,
               "why": "text",
-              "prevFile": "15.webp",
-              "boxes": []
+              "prevFile": "15.webp"
             },
             {
-              "s": "changed",
+              "s": "same",
               "prev": 16,
               "why": "text",
-              "prevFile": "16.webp",
-              "boxes": []
+              "prevFile": "16.webp"
             },
             {
-              "s": "changed",
+              "s": "same",
               "prev": 17,
               "why": "text",
-              "prevFile": "17.webp",
-              "boxes": []
+              "prevFile": "17.webp"
             },
             {
-              "s": "changed",
+              "s": "same",
               "prev": 18,
               "why": "text",
-              "prevFile": "18.webp",
-              "boxes": []
+              "prevFile": "18.webp"
             },
             {
-              "s": "changed",
+              "s": "same",
               "prev": 19,
               "why": "text",
-              "prevFile": "19.webp",
-              "boxes": []
+              "prevFile": "19.webp"
             },
             {
-              "s": "changed",
+              "s": "same",
               "prev": 20,
               "why": "text",
-              "prevFile": "20.webp",
-              "boxes": []
+              "prevFile": "20.webp"
             },
             {
-              "s": "changed",
+              "s": "same",
               "prev": 21,
               "why": "text",
-              "prevFile": "21.webp",
-              "boxes": []
+              "prevFile": "21.webp"
             },
             {
-              "s": "changed",
+              "s": "same",
               "prev": 22,
               "why": "text",
-              "prevFile": "22.webp",
-              "boxes": []
+              "prevFile": "22.webp"
             },
             {
-              "s": "changed",
+              "s": "same",
               "prev": 23,
               "why": "text",
-              "prevFile": "23.webp",
-              "boxes": []
+              "prevFile": "23.webp"
             },
             {
-              "s": "changed",
+              "s": "same",
               "prev": 24,
               "why": "text",
-              "prevFile": "24.webp",
-              "boxes": []
+              "prevFile": "24.webp"
             },
             {
-              "s": "changed",
+              "s": "same",
               "prev": 25,
               "why": "text",
-              "prevFile": "25.webp",
-              "boxes": []
+              "prevFile": "25.webp"
             },
             {
-              "s": "changed",
+              "s": "same",
               "prev": 26,
               "why": "text",
-              "prevFile": "26.webp",
-              "boxes": []
+              "prevFile": "26.webp"
             },
             {
-              "s": "changed",
+              "s": "same",
               "prev": 27,
               "why": "text",
-              "prevFile": "27.webp",
-              "boxes": []
+              "prevFile": "27.webp"
             },
             {
-              "s": "changed",
+              "s": "same",
               "prev": 28,
               "why": "text",
-              "prevFile": "28.webp",
-              "boxes": []
+              "prevFile": "28.webp"
             },
             {
-              "s": "changed",
+              "s": "same",
               "prev": 29,
               "why": "text",
-              "prevFile": "29.webp",
-              "boxes": []
+              "prevFile": "29.webp"
             },
             {
               "s": "new"
@@ -225,11 +196,10 @@
               "s": "new"
             },
             {
-              "s": "changed",
+              "s": "same",
               "prev": 33,
               "why": "text",
-              "prevFile": "33.webp",
-              "boxes": []
+              "prevFile": "33.webp"
             },
             {
               "s": "changed",
@@ -298,214 +268,184 @@
           "prevSteps": 31,
           "status": [
             {
-              "s": "changed",
+              "s": "same",
               "prev": 1,
               "why": "text",
-              "prevFile": "01.webp",
-              "boxes": []
+              "prevFile": "01.webp"
             },
             {
-              "s": "changed",
+              "s": "same",
               "prev": 2,
               "why": "text",
-              "prevFile": "02.webp",
-              "boxes": []
+              "prevFile": "02.webp"
             },
             {
-              "s": "changed",
+              "s": "same",
               "prev": 3,
               "why": "text",
-              "prevFile": "03.webp",
-              "boxes": []
+              "prevFile": "03.webp"
             },
             {
-              "s": "changed",
+              "s": "same",
               "prev": 4,
               "why": "text",
-              "prevFile": "04.webp",
-              "boxes": []
+              "prevFile": "04.webp"
             },
             {
-              "s": "changed",
+              "s": "same",
               "prev": 5,
               "why": "text",
-              "prevFile": "05.webp",
-              "boxes": []
+              "prevFile": "05.webp"
             },
             {
-              "s": "changed",
+              "s": "same",
               "prev": 6,
               "why": "text",
-              "prevFile": "06.webp",
-              "boxes": []
+              "prevFile": "06.webp"
             },
             {
-              "s": "changed",
+              "s": "same",
               "prev": 7,
               "why": "text",
-              "prevFile": "07.webp",
-              "boxes": []
+              "prevFile": "07.webp"
             },
             {
-              "s": "changed",
+              "s": "same",
               "prev": 8,
               "why": "text",
-              "prevFile": "08.webp",
-              "boxes": []
+              "prevFile": "08.webp"
             },
             {
-              "s": "changed",
+              "s": "same",
               "prev": 9,
               "why": "text",
-              "prevFile": "09.webp",
-              "boxes": []
+              "prevFile": "09.webp"
             },
             {
-              "s": "changed",
+              "s": "same",
               "prev": 10,
               "why": "text",
-              "prevFile": "10.webp",
-              "boxes": []
+              "prevFile": "10.webp"
             },
             {
-              "s": "changed",
+              "s": "same",
               "prev": 11,
               "why": "text",
-              "prevFile": "11.webp",
-              "boxes": []
+              "prevFile": "11.webp"
             },
             {
-              "s": "changed",
+              "s": "same",
               "prev": 12,
               "why": "text",
-              "prevFile": "12.webp",
-              "boxes": []
+              "prevFile": "12.webp"
             },
             {
-              "s": "changed",
+              "s": "same",
               "prev": 13,
               "why": "text",
-              "prevFile": "13.webp",
-              "boxes": []
+              "prevFile": "13.webp"
             },
             {
-              "s": "changed",
+              "s": "same",
               "prev": 14,
               "why": "text",
-              "prevFile": "14.webp",
-              "boxes": []
+              "prevFile": "14.webp"
             },
             {
-              "s": "changed",
+              "s": "same",
               "prev": 15,
               "why": "text",
-              "prevFile": "15.webp",
-              "boxes": []
+              "prevFile": "15.webp"
             },
             {
-              "s": "changed",
+              "s": "same",
               "prev": 16,
               "why": "text",
-              "prevFile": "16.webp",
-              "boxes": []
+              "prevFile": "16.webp"
             },
             {
-              "s": "changed",
+              "s": "same",
               "prev": 17,
               "why": "text",
-              "prevFile": "17.webp",
-              "boxes": []
+              "prevFile": "17.webp"
             },
             {
-              "s": "changed",
+              "s": "same",
               "prev": 18,
               "why": "text",
-              "prevFile": "18.webp",
-              "boxes": []
+              "prevFile": "18.webp"
             },
             {
-              "s": "changed",
+              "s": "same",
               "prev": 19,
               "why": "text",
-              "prevFile": "19.webp",
-              "boxes": []
+              "prevFile": "19.webp"
             },
             {
-              "s": "changed",
+              "s": "same",
               "prev": 20,
               "why": "text",
-              "prevFile": "20.webp",
-              "boxes": []
+              "prevFile": "20.webp"
             },
             {
-              "s": "changed",
+              "s": "same",
               "prev": 21,
               "why": "text",
-              "prevFile": "21.webp",
-              "boxes": []
+              "prevFile": "21.webp"
             },
             {
-              "s": "changed",
+              "s": "same",
               "prev": 22,
               "why": "text",
-              "prevFile": "22.webp",
-              "boxes": []
+              "prevFile": "22.webp"
             },
             {
-              "s": "changed",
+              "s": "same",
               "prev": 23,
               "why": "text",
-              "prevFile": "23.webp",
-              "boxes": []
+              "prevFile": "23.webp"
             },
             {
-              "s": "changed",
+              "s": "same",
               "prev": 24,
               "why": "text",
-              "prevFile": "24.webp",
-              "boxes": []
+              "prevFile": "24.webp"
             },
             {
-              "s": "changed",
+              "s": "same",
               "prev": 25,
               "why": "text",
-              "prevFile": "25.webp",
-              "boxes": []
+              "prevFile": "25.webp"
             },
             {
-              "s": "changed",
+              "s": "same",
               "prev": 26,
               "why": "text",
-              "prevFile": "26.webp",
-              "boxes": []
+              "prevFile": "26.webp"
             },
             {
-              "s": "changed",
+              "s": "same",
               "prev": 27,
               "why": "text",
-              "prevFile": "27.webp",
-              "boxes": []
+              "prevFile": "27.webp"
             },
             {
-              "s": "changed",
+              "s": "same",
               "prev": 28,
               "why": "text",
-              "prevFile": "28.webp",
-              "boxes": []
+              "prevFile": "28.webp"
             },
             {
-              "s": "changed",
+              "s": "same",
               "prev": 29,
               "why": "text",
-              "prevFile": "29.webp",
-              "boxes": []
+              "prevFile": "29.webp"
             },
             {
-              "s": "changed",
+              "s": "same",
               "prev": 30,
               "why": "text",
-              "prevFile": "30.webp",
-              "boxes": []
+              "prevFile": "30.webp"
             },
             {
               "s": "changed",
@@ -552,214 +492,184 @@
           "prevSteps": 35,
           "status": [
             {
-              "s": "changed",
+              "s": "same",
               "prev": 1,
               "why": "text",
-              "prevFile": "01.webp",
-              "boxes": []
+              "prevFile": "01.webp"
             },
             {
-              "s": "changed",
+              "s": "same",
               "prev": 2,
               "why": "text",
-              "prevFile": "02.webp",
-              "boxes": []
+              "prevFile": "02.webp"
             },
             {
-              "s": "changed",
+              "s": "same",
               "prev": 3,
               "why": "text",
-              "prevFile": "03.webp",
-              "boxes": []
+              "prevFile": "03.webp"
             },
             {
-              "s": "changed",
+              "s": "same",
               "prev": 4,
               "why": "text",
-              "prevFile": "04.webp",
-              "boxes": []
+              "prevFile": "04.webp"
             },
             {
-              "s": "changed",
+              "s": "same",
               "prev": 5,
               "why": "text",
-              "prevFile": "05.webp",
-              "boxes": []
+              "prevFile": "05.webp"
             },
             {
-              "s": "changed",
+              "s": "same",
               "prev": 6,
               "why": "text",
-              "prevFile": "06.webp",
-              "boxes": []
+              "prevFile": "06.webp"
             },
             {
-              "s": "changed",
+              "s": "same",
               "prev": 7,
               "why": "text",
-              "prevFile": "07.webp",
-              "boxes": []
+              "prevFile": "07.webp"
             },
             {
-              "s": "changed",
+              "s": "same",
               "prev": 8,
               "why": "text",
-              "prevFile": "08.webp",
-              "boxes": []
+              "prevFile": "08.webp"
             },
             {
-              "s": "changed",
+              "s": "same",
               "prev": 9,
               "why": "text",
-              "prevFile": "09.webp",
-              "boxes": []
+              "prevFile": "09.webp"
             },
             {
-              "s": "changed",
+              "s": "same",
               "prev": 10,
               "why": "text",
-              "prevFile": "10.webp",
-              "boxes": []
+              "prevFile": "10.webp"
             },
             {
-              "s": "changed",
+              "s": "same",
               "prev": 11,
               "why": "text",
-              "prevFile": "11.webp",
-              "boxes": []
+              "prevFile": "11.webp"
             },
             {
-              "s": "changed",
+              "s": "same",
               "prev": 12,
               "why": "text",
-              "prevFile": "12.webp",
-              "boxes": []
+              "prevFile": "12.webp"
             },
             {
-              "s": "changed",
+              "s": "same",
               "prev": 13,
               "why": "text",
-              "prevFile": "13.webp",
-              "boxes": []
+              "prevFile": "13.webp"
             },
             {
-              "s": "changed",
+              "s": "same",
               "prev": 14,
               "why": "text",
-              "prevFile": "14.webp",
-              "boxes": []
+              "prevFile": "14.webp"
             },
             {
-              "s": "changed",
+              "s": "same",
               "prev": 15,
               "why": "text",
-              "prevFile": "15.webp",
-              "boxes": []
+              "prevFile": "15.webp"
             },
             {
-              "s": "changed",
+              "s": "same",
               "prev": 16,
               "why": "text",
-              "prevFile": "16.webp",
-              "boxes": []
+              "prevFile": "16.webp"
             },
             {
-              "s": "changed",
+              "s": "same",
               "prev": 17,
               "why": "text",
-              "prevFile": "17.webp",
-              "boxes": []
+              "prevFile": "17.webp"
             },
             {
-              "s": "changed",
+              "s": "same",
               "prev": 18,
               "why": "text",
-              "prevFile": "18.webp",
-              "boxes": []
+              "prevFile": "18.webp"
             },
             {
-              "s": "changed",
+              "s": "same",
               "prev": 19,
               "why": "text",
-              "prevFile": "19.webp",
-              "boxes": []
+              "prevFile": "19.webp"
             },
             {
-              "s": "changed",
+              "s": "same",
               "prev": 20,
               "why": "text",
-              "prevFile": "20.webp",
-              "boxes": []
+              "prevFile": "20.webp"
             },
             {
-              "s": "changed",
+              "s": "same",
               "prev": 21,
               "why": "text",
-              "prevFile": "21.webp",
-              "boxes": []
+              "prevFile": "21.webp"
             },
             {
-              "s": "changed",
+              "s": "same",
               "prev": 22,
               "why": "text",
-              "prevFile": "22.webp",
-              "boxes": []
+              "prevFile": "22.webp"
             },
             {
-              "s": "changed",
+              "s": "same",
               "prev": 23,
               "why": "text",
-              "prevFile": "23.webp",
-              "boxes": []
+              "prevFile": "23.webp"
             },
             {
-              "s": "changed",
+              "s": "same",
               "prev": 24,
               "why": "text",
-              "prevFile": "24.webp",
-              "boxes": []
+              "prevFile": "24.webp"
             },
             {
-              "s": "changed",
+              "s": "same",
               "prev": 25,
               "why": "text",
-              "prevFile": "25.webp",
-              "boxes": []
+              "prevFile": "25.webp"
             },
             {
-              "s": "changed",
+              "s": "same",
               "prev": 26,
               "why": "text",
-              "prevFile": "26.webp",
-              "boxes": []
+              "prevFile": "26.webp"
             },
             {
-              "s": "changed",
+              "s": "same",
               "prev": 27,
               "why": "text",
-              "prevFile": "27.webp",
-              "boxes": []
+              "prevFile": "27.webp"
             },
             {
-              "s": "changed",
+              "s": "same",
               "prev": 28,
               "why": "text",
-              "prevFile": "28.webp",
-              "boxes": []
+              "prevFile": "28.webp"
             },
             {
-              "s": "changed",
+              "s": "same",
               "prev": 29,
               "why": "text",
-              "prevFile": "29.webp",
-              "boxes": []
+              "prevFile": "29.webp"
             },
             {
-              "s": "changed",
+              "s": "same",
               "prev": 30,
               "why": "text",
-              "prevFile": "30.webp",
-              "boxes": []
+              "prevFile": "30.webp"
             },
             {
               "s": "new"
@@ -771,11 +681,10 @@
               "s": "new"
             },
             {
-              "s": "changed",
+              "s": "same",
               "prev": 34,
               "why": "text",
-              "prevFile": "34.webp",
-              "boxes": []
+              "prevFile": "34.webp"
             },
             {
               "s": "changed",
@@ -1203,25 +1112,22 @@
               ]
             },
             {
-              "s": "changed",
+              "s": "same",
               "prev": 3,
               "why": "text",
-              "prevFile": "03.webp",
-              "boxes": []
+              "prevFile": "03.webp"
             },
             {
-              "s": "changed",
+              "s": "same",
               "prev": 4,
               "why": "text",
-              "prevFile": "04.webp",
-              "boxes": []
+              "prevFile": "04.webp"
             },
             {
-              "s": "changed",
+              "s": "same",
               "prev": 5,
               "why": "text",
-              "prevFile": "05.webp",
-              "boxes": []
+              "prevFile": "05.webp"
             },
             {
               "s": "changed",
@@ -1252,25 +1158,22 @@
               ]
             },
             {
-              "s": "changed",
+              "s": "same",
               "prev": 8,
               "why": "text",
-              "prevFile": "08.webp",
-              "boxes": []
+              "prevFile": "08.webp"
             },
             {
-              "s": "changed",
+              "s": "same",
               "prev": 9,
               "why": "text",
-              "prevFile": "09.webp",
-              "boxes": []
+              "prevFile": "09.webp"
             },
             {
-              "s": "changed",
+              "s": "same",
               "prev": 10,
               "why": "text",
-              "prevFile": "10.webp",
-              "boxes": []
+              "prevFile": "10.webp"
             },
             {
               "s": "changed",
@@ -1301,11 +1204,10 @@
               ]
             },
             {
-              "s": "changed",
+              "s": "same",
               "prev": 13,
               "why": "text",
-              "prevFile": "13.webp",
-              "boxes": []
+              "prevFile": "13.webp"
             },
             {
               "s": "changed",
@@ -1322,11 +1224,10 @@
               ]
             },
             {
-              "s": "changed",
+              "s": "same",
               "prev": 15,
               "why": "text",
-              "prevFile": "15.webp",
-              "boxes": []
+              "prevFile": "15.webp"
             },
             {
               "s": "changed",
@@ -1343,11 +1244,10 @@
               ]
             },
             {
-              "s": "changed",
+              "s": "same",
               "prev": 17,
               "why": "text",
-              "prevFile": "17.webp",
-              "boxes": []
+              "prevFile": "17.webp"
             },
             {
               "s": "changed",
@@ -1364,25 +1264,22 @@
               ]
             },
             {
-              "s": "changed",
+              "s": "same",
               "prev": 19,
               "why": "text",
-              "prevFile": "19.webp",
-              "boxes": []
+              "prevFile": "19.webp"
             },
             {
-              "s": "changed",
+              "s": "same",
               "prev": 20,
               "why": "text",
-              "prevFile": "20.webp",
-              "boxes": []
+              "prevFile": "20.webp"
             },
             {
-              "s": "changed",
+              "s": "same",
               "prev": 21,
               "why": "text",
-              "prevFile": "21.webp",
-              "boxes": []
+              "prevFile": "21.webp"
             },
             {
               "s": "changed",
@@ -1399,18 +1296,16 @@
               ]
             },
             {
-              "s": "changed",
+              "s": "same",
               "prev": 23,
               "why": "text",
-              "prevFile": "23.webp",
-              "boxes": []
+              "prevFile": "23.webp"
             },
             {
-              "s": "changed",
+              "s": "same",
               "prev": 24,
               "why": "text",
-              "prevFile": "24.webp",
-              "boxes": []
+              "prevFile": "24.webp"
             },
             {
               "s": "changed",
@@ -1427,32 +1322,28 @@
               ]
             },
             {
-              "s": "changed",
+              "s": "same",
               "prev": 26,
               "why": "text",
-              "prevFile": "26.webp",
-              "boxes": []
+              "prevFile": "26.webp"
             },
             {
-              "s": "changed",
+              "s": "same",
               "prev": 27,
               "why": "text",
-              "prevFile": "27.webp",
-              "boxes": []
+              "prevFile": "27.webp"
             },
             {
-              "s": "changed",
+              "s": "same",
               "prev": 28,
               "why": "text",
-              "prevFile": "28.webp",
-              "boxes": []
+              "prevFile": "28.webp"
             },
             {
-              "s": "changed",
+              "s": "same",
               "prev": 29,
               "why": "text",
-              "prevFile": "29.webp",
-              "boxes": []
+              "prevFile": "29.webp"
             },
             {
               "s": "changed",
@@ -1469,11 +1360,10 @@
               ]
             },
             {
-              "s": "changed",
+              "s": "same",
               "prev": 31,
               "why": "text",
-              "prevFile": "31.webp",
-              "boxes": []
+              "prevFile": "31.webp"
             },
             {
               "s": "new"
@@ -1734,18 +1624,16 @@
               "s": "new"
             },
             {
-              "s": "changed",
+              "s": "same",
               "prev": 4,
               "why": "text",
-              "prevFile": "04.webp",
-              "boxes": []
+              "prevFile": "04.webp"
             },
             {
-              "s": "changed",
+              "s": "same",
               "prev": 5,
               "why": "text",
-              "prevFile": "05.webp",
-              "boxes": []
+              "prevFile": "05.webp"
             },
             {
               "s": "new"
@@ -2077,11 +1965,10 @@
           "prevSteps": 32,
           "status": [
             {
-              "s": "changed",
+              "s": "same",
               "prev": 1,
               "why": "text",
-              "prevFile": "01.webp",
-              "boxes": []
+              "prevFile": "01.webp"
             },
             {
               "s": "changed",
@@ -2104,32 +1991,28 @@
               ]
             },
             {
-              "s": "changed",
+              "s": "same",
               "prev": 3,
               "why": "text",
-              "prevFile": "03.webp",
-              "boxes": []
+              "prevFile": "03.webp"
             },
             {
-              "s": "changed",
+              "s": "same",
               "prev": 4,
               "why": "text",
-              "prevFile": "04.webp",
-              "boxes": []
+              "prevFile": "04.webp"
             },
             {
-              "s": "changed",
+              "s": "same",
               "prev": 5,
               "why": "text",
-              "prevFile": "05.webp",
-              "boxes": []
+              "prevFile": "05.webp"
             },
             {
-              "s": "changed",
+              "s": "same",
               "prev": 7,
               "why": "text",
-              "prevFile": "07.webp",
-              "boxes": []
+              "prevFile": "07.webp"
             },
             {
               "s": "changed",
@@ -2146,18 +2029,16 @@
               ]
             },
             {
-              "s": "changed",
+              "s": "same",
               "prev": 9,
               "why": "text",
-              "prevFile": "09.webp",
-              "boxes": []
+              "prevFile": "09.webp"
             },
             {
-              "s": "changed",
+              "s": "same",
               "prev": 10,
               "why": "text",
-              "prevFile": "10.webp",
-              "boxes": []
+              "prevFile": "10.webp"
             },
             {
               "s": "new"
@@ -2180,32 +2061,28 @@
               ]
             },
             {
-              "s": "changed",
+              "s": "same",
               "prev": 12,
               "why": "text",
-              "prevFile": "12.webp",
-              "boxes": []
+              "prevFile": "12.webp"
             },
             {
-              "s": "changed",
+              "s": "same",
               "prev": 13,
               "why": "text",
-              "prevFile": "13.webp",
-              "boxes": []
+              "prevFile": "13.webp"
             },
             {
-              "s": "changed",
+              "s": "same",
               "prev": 14,
               "why": "text",
-              "prevFile": "14.webp",
-              "boxes": []
+              "prevFile": "14.webp"
             },
             {
-              "s": "changed",
+              "s": "same",
               "prev": 15,
               "why": "text",
-              "prevFile": "15.webp",
-              "boxes": []
+              "prevFile": "15.webp"
             },
             {
               "s": "changed",
@@ -2240,46 +2117,40 @@
               ]
             },
             {
-              "s": "changed",
+              "s": "same",
               "prev": 17,
               "why": "text",
-              "prevFile": "17.webp",
-              "boxes": []
+              "prevFile": "17.webp"
             },
             {
-              "s": "changed",
+              "s": "same",
               "prev": 18,
               "why": "text",
-              "prevFile": "18.webp",
-              "boxes": []
+              "prevFile": "18.webp"
             },
             {
-              "s": "changed",
+              "s": "same",
               "prev": 19,
               "why": "text",
-              "prevFile": "19.webp",
-              "boxes": []
+              "prevFile": "19.webp"
             },
             {
-              "s": "changed",
+              "s": "same",
               "prev": 20,
               "why": "text",
-              "prevFile": "20.webp",
-              "boxes": []
+              "prevFile": "20.webp"
             },
             {
-              "s": "changed",
+              "s": "same",
               "prev": 21,
               "why": "text",
-              "prevFile": "21.webp",
-              "boxes": []
+              "prevFile": "21.webp"
             },
             {
-              "s": "changed",
+              "s": "same",
               "prev": 22,
               "why": "text",
-              "prevFile": "22.webp",
-              "boxes": []
+              "prevFile": "22.webp"
             },
             {
               "s": "changed",
@@ -2330,11 +2201,10 @@
               ]
             },
             {
-              "s": "changed",
+              "s": "same",
               "prev": 27,
               "why": "text",
-              "prevFile": "27.webp",
-              "boxes": []
+              "prevFile": "27.webp"
             },
             {
               "s": "changed",
@@ -2365,18 +2235,16 @@
               ]
             },
             {
-              "s": "changed",
+              "s": "same",
               "prev": 30,
               "why": "text",
-              "prevFile": "30.webp",
-              "boxes": []
+              "prevFile": "30.webp"
             },
             {
-              "s": "changed",
+              "s": "same",
               "prev": 31,
               "why": "text",
-              "prevFile": "31.webp",
-              "boxes": []
+              "prevFile": "31.webp"
             },
             {
               "s": "new"
@@ -2575,228 +2443,196 @@
           "prevSteps": 36,
           "status": [
             {
-              "s": "changed",
+              "s": "same",
               "prev": 1,
               "why": "text",
-              "prevFile": "01.webp",
-              "boxes": []
+              "prevFile": "01.webp"
             },
             {
-              "s": "changed",
+              "s": "same",
               "prev": 2,
               "why": "text",
-              "prevFile": "02.webp",
-              "boxes": []
+              "prevFile": "02.webp"
             },
             {
-              "s": "changed",
+              "s": "same",
               "prev": 3,
               "why": "text",
-              "prevFile": "03.webp",
-              "boxes": []
+              "prevFile": "03.webp"
             },
             {
-              "s": "changed",
+              "s": "same",
               "prev": 4,
               "why": "text",
-              "prevFile": "04.webp",
-              "boxes": []
+              "prevFile": "04.webp"
             },
             {
-              "s": "changed",
+              "s": "same",
               "prev": 5,
               "why": "text",
-              "prevFile": "05.webp",
-              "boxes": []
+              "prevFile": "05.webp"
             },
             {
-              "s": "changed",
+              "s": "same",
               "prev": 6,
               "why": "text",
-              "prevFile": "06.webp",
-              "boxes": []
+              "prevFile": "06.webp"
             },
             {
-              "s": "changed",
+              "s": "same",
               "prev": 7,
               "why": "text",
-              "prevFile": "07.webp",
-              "boxes": []
+              "prevFile": "07.webp"
             },
             {
-              "s": "changed",
+              "s": "same",
               "prev": 8,
               "why": "text",
-              "prevFile": "08.webp",
-              "boxes": []
+              "prevFile": "08.webp"
             },
             {
-              "s": "changed",
+              "s": "same",
               "prev": 9,
               "why": "text",
-              "prevFile": "09.webp",
-              "boxes": []
+              "prevFile": "09.webp"
             },
             {
-              "s": "changed",
+              "s": "same",
               "prev": 10,
               "why": "text",
-              "prevFile": "10.webp",
-              "boxes": []
+              "prevFile": "10.webp"
             },
             {
-              "s": "changed",
+              "s": "same",
               "prev": 11,
               "why": "text",
-              "prevFile": "11.webp",
-              "boxes": []
+              "prevFile": "11.webp"
             },
             {
-              "s": "changed",
+              "s": "same",
               "prev": 12,
               "why": "text",
-              "prevFile": "12.webp",
-              "boxes": []
+              "prevFile": "12.webp"
             },
             {
-              "s": "changed",
+              "s": "same",
               "prev": 13,
               "why": "text",
-              "prevFile": "13.webp",
-              "boxes": []
+              "prevFile": "13.webp"
             },
             {
-              "s": "changed",
+              "s": "same",
               "prev": 14,
               "why": "text",
-              "prevFile": "14.webp",
-              "boxes": []
+              "prevFile": "14.webp"
             },
             {
-              "s": "changed",
+              "s": "same",
               "prev": 15,
               "why": "text",
-              "prevFile": "15.webp",
-              "boxes": []
+              "prevFile": "15.webp"
             },
             {
-              "s": "changed",
+              "s": "same",
               "prev": 16,
               "why": "text",
-              "prevFile": "16.webp",
-              "boxes": []
+              "prevFile": "16.webp"
             },
             {
-              "s": "changed",
+              "s": "same",
               "prev": 17,
               "why": "text",
-              "prevFile": "17.webp",
-              "boxes": []
+              "prevFile": "17.webp"
             },
             {
-              "s": "changed",
+              "s": "same",
               "prev": 18,
               "why": "text",
-              "prevFile": "18.webp",
-              "boxes": []
+              "prevFile": "18.webp"
             },
             {
-              "s": "changed",
+              "s": "same",
               "prev": 19,
               "why": "text",
-              "prevFile": "19.webp",
-              "boxes": []
+              "prevFile": "19.webp"
             },
             {
-              "s": "changed",
+              "s": "same",
               "prev": 20,
               "why": "text",
-              "prevFile": "20.webp",
-              "boxes": []
+              "prevFile": "20.webp"
             },
             {
-              "s": "changed",
+              "s": "same",
               "prev": 21,
               "why": "text",
-              "prevFile": "21.webp",
-              "boxes": []
+              "prevFile": "21.webp"
             },
             {
-              "s": "changed",
+              "s": "same",
               "prev": 22,
               "why": "text",
-              "prevFile": "22.webp",
-              "boxes": []
+              "prevFile": "22.webp"
             },
             {
-              "s": "changed",
+              "s": "same",
               "prev": 23,
               "why": "text",
-              "prevFile": "23.webp",
-              "boxes": []
+              "prevFile": "23.webp"
             },
             {
-              "s": "changed",
+              "s": "same",
               "prev": 24,
               "why": "text",
-              "prevFile": "24.webp",
-              "boxes": []
+              "prevFile": "24.webp"
             },
             {
-              "s": "changed",
+              "s": "same",
               "prev": 25,
               "why": "text",
-              "prevFile": "25.webp",
-              "boxes": []
+              "prevFile": "25.webp"
             },
             {
-              "s": "changed",
+              "s": "same",
               "prev": 26,
               "why": "text",
-              "prevFile": "26.webp",
-              "boxes": []
+              "prevFile": "26.webp"
             },
             {
-              "s": "changed",
+              "s": "same",
               "prev": 27,
               "why": "text",
-              "prevFile": "27.webp",
-              "boxes": []
+              "prevFile": "27.webp"
             },
             {
-              "s": "changed",
+              "s": "same",
               "prev": 28,
               "why": "text",
-              "prevFile": "28.webp",
-              "boxes": []
+              "prevFile": "28.webp"
             },
             {
-              "s": "changed",
+              "s": "same",
               "prev": 29,
               "why": "text",
-              "prevFile": "29.webp",
-              "boxes": []
+              "prevFile": "29.webp"
             },
             {
-              "s": "changed",
+              "s": "same",
               "prev": 30,
               "why": "text",
-              "prevFile": "30.webp",
-              "boxes": []
+              "prevFile": "30.webp"
             },
             {
-              "s": "changed",
+              "s": "same",
               "prev": 31,
               "why": "text",
-              "prevFile": "31.webp",
-              "boxes": []
+              "prevFile": "31.webp"
             },
             {
-              "s": "changed",
+              "s": "same",
               "prev": 33,
               "why": "text",
-              "prevFile": "33.webp",
-              "boxes": []
+              "prevFile": "33.webp"
             }
           ],
           "removed": [
@@ -3647,95 +3483,82 @@
           "prevSteps": 38,
           "status": [
             {
-              "s": "changed",
+              "s": "same",
               "prev": 1,
               "why": "text",
-              "prevFile": "01.webp",
-              "boxes": []
+              "prevFile": "01.webp"
             },
             {
-              "s": "changed",
+              "s": "same",
               "prev": 2,
               "why": "text",
-              "prevFile": "02.webp",
-              "boxes": []
+              "prevFile": "02.webp"
             },
             {
-              "s": "changed",
+              "s": "same",
               "prev": 3,
               "why": "text",
-              "prevFile": "03.webp",
-              "boxes": []
+              "prevFile": "03.webp"
             },
             {
-              "s": "changed",
+              "s": "same",
               "prev": 4,
               "why": "text",
-              "prevFile": "04.webp",
-              "boxes": []
+              "prevFile": "04.webp"
             },
             {
-              "s": "changed",
+              "s": "same",
               "prev": 5,
               "why": "text",
-              "prevFile": "05.webp",
-              "boxes": []
+              "prevFile": "05.webp"
             },
             {
-              "s": "changed",
+              "s": "same",
               "prev": 6,
               "why": "text",
-              "prevFile": "06.webp",
-              "boxes": []
+              "prevFile": "06.webp"
             },
             {
-              "s": "changed",
+              "s": "same",
               "prev": 7,
               "why": "text",
-              "prevFile": "07.webp",
-              "boxes": []
+              "prevFile": "07.webp"
             },
             {
-              "s": "changed",
+              "s": "same",
               "prev": 8,
               "why": "text",
-              "prevFile": "08.webp",
-              "boxes": []
+              "prevFile": "08.webp"
             },
             {
-              "s": "changed",
+              "s": "same",
               "prev": 9,
               "why": "text",
-              "prevFile": "09.webp",
-              "boxes": []
+              "prevFile": "09.webp"
             },
             {
-              "s": "changed",
+              "s": "same",
               "prev": 10,
               "why": "text",
-              "prevFile": "10.webp",
-              "boxes": []
+              "prevFile": "10.webp"
             },
             {
-              "s": "changed",
+              "s": "same",
               "prev": 11,
               "why": "text",
-              "prevFile": "11.webp",
-              "boxes": []
+              "prevFile": "11.webp"
             },
             {
-              "s": "changed",
+              "s": "same",
               "prev": 12,
               "why": "text",
-              "prevFile": "12.webp",
-              "boxes": []
+              "prevFile": "12.webp"
             },
             {
-              "s": "changed",
+              "s": "same",
               "prev": 13,
               "why": "text",
-              "prevFile": "13.webp",
-              "boxes": []
+              "prevFile": "13.webp"
             },
             {
               "s": "changed",
@@ -3752,95 +3575,82 @@
               ]
             },
             {
-              "s": "changed",
+              "s": "same",
               "prev": 15,
               "why": "text",
-              "prevFile": "15.webp",
-              "boxes": []
+              "prevFile": "15.webp"
             },
             {
-              "s": "changed",
+              "s": "same",
               "prev": 16,
               "why": "text",
-              "prevFile": "16.webp",
-              "boxes": []
+              "prevFile": "16.webp"
             },
             {
-              "s": "changed",
+              "s": "same",
               "prev": 17,
               "why": "text",
-              "prevFile": "17.webp",
-              "boxes": []
+              "prevFile": "17.webp"
             },
             {
-              "s": "changed",
+              "s": "same",
               "prev": 18,
               "why": "text",
-              "prevFile": "18.webp",
-              "boxes": []
+              "prevFile": "18.webp"
             },
             {
-              "s": "changed",
+              "s": "same",
               "prev": 19,
               "why": "text",
-              "prevFile": "19.webp",
-              "boxes": []
+              "prevFile": "19.webp"
             },
             {
-              "s": "changed",
+              "s": "same",
               "prev": 20,
               "why": "text",
-              "prevFile": "20.webp",
-              "boxes": []
+              "prevFile": "20.webp"
             },
             {
-              "s": "changed",
+              "s": "same",
               "prev": 21,
               "why": "text",
-              "prevFile": "21.webp",
-              "boxes": []
+              "prevFile": "21.webp"
             },
             {
-              "s": "changed",
+              "s": "same",
               "prev": 22,
               "why": "text",
-              "prevFile": "22.webp",
-              "boxes": []
+              "prevFile": "22.webp"
             },
             {
-              "s": "changed",
+              "s": "same",
               "prev": 23,
               "why": "text",
-              "prevFile": "23.webp",
-              "boxes": []
+              "prevFile": "23.webp"
             },
             {
-              "s": "changed",
+              "s": "same",
               "prev": 24,
               "why": "text",
-              "prevFile": "24.webp",
-              "boxes": []
+              "prevFile": "24.webp"
             },
             {
-              "s": "changed",
+              "s": "same",
               "prev": 25,
               "why": "text",
-              "prevFile": "25.webp",
-              "boxes": []
+              "prevFile": "25.webp"
             },
             {
-              "s": "changed",
+              "s": "same",
               "prev": 26,
               "why": "text",
-              "prevFile": "26.webp",
-              "boxes": []
+              "prevFile": "26.webp"
             },
             {
-              "s": "changed",
+              "s": "same",
               "prev": 27,
               "why": "text",
-              "prevFile": "27.webp",
-              "boxes": []
+              "prevFile": "27.webp"
             },
             {
               "s": "changed",
@@ -3883,46 +3693,40 @@
               ]
             },
             {
-              "s": "changed",
+              "s": "same",
               "prev": 30,
               "why": "text",
-              "prevFile": "30.webp",
-              "boxes": []
+              "prevFile": "30.webp"
             },
             {
-              "s": "changed",
+              "s": "same",
               "prev": 31,
               "why": "text",
-              "prevFile": "31.webp",
-              "boxes": []
+              "prevFile": "31.webp"
             },
             {
-              "s": "changed",
+              "s": "same",
               "prev": 32,
               "why": "text",
-              "prevFile": "32.webp",
-              "boxes": []
+              "prevFile": "32.webp"
             },
             {
-              "s": "changed",
+              "s": "same",
               "prev": 33,
               "why": "text",
-              "prevFile": "33.webp",
-              "boxes": []
+              "prevFile": "33.webp"
             },
             {
-              "s": "changed",
+              "s": "same",
               "prev": 34,
               "why": "text",
-              "prevFile": "34.webp",
-              "boxes": []
+              "prevFile": "34.webp"
             },
             {
-              "s": "changed",
+              "s": "same",
               "prev": 36,
               "why": "text",
-              "prevFile": "36.webp",
-              "boxes": []
+              "prevFile": "36.webp"
             },
             {
               "s": "new"
@@ -4231,74 +4035,64 @@
           "prevSteps": 49,
           "status": [
             {
-              "s": "changed",
+              "s": "same",
               "prev": 1,
               "why": "text",
-              "prevFile": "01.webp",
-              "boxes": []
+              "prevFile": "01.webp"
             },
             {
-              "s": "changed",
+              "s": "same",
               "prev": 2,
               "why": "text",
-              "prevFile": "02.webp",
-              "boxes": []
+              "prevFile": "02.webp"
             },
             {
-              "s": "changed",
+              "s": "same",
               "prev": 3,
               "why": "text",
-              "prevFile": "03.webp",
-              "boxes": []
+              "prevFile": "03.webp"
             },
             {
-              "s": "changed",
+              "s": "same",
               "prev": 4,
               "why": "text",
-              "prevFile": "04.webp",
-              "boxes": []
+              "prevFile": "04.webp"
             },
             {
-              "s": "changed",
+              "s": "same",
               "prev": 5,
               "why": "text",
-              "prevFile": "05.webp",
-              "boxes": []
+              "prevFile": "05.webp"
             },
             {
-              "s": "changed",
+              "s": "same",
               "prev": 6,
               "why": "text",
-              "prevFile": "06.webp",
-              "boxes": []
+              "prevFile": "06.webp"
             },
             {
-              "s": "changed",
+              "s": "same",
               "prev": 7,
               "why": "text",
-              "prevFile": "07.webp",
-              "boxes": []
+              "prevFile": "07.webp"
             },
             {
-              "s": "changed",
+              "s": "same",
               "prev": 8,
               "why": "text",
-              "prevFile": "08.webp",
-              "boxes": []
+              "prevFile": "08.webp"
             },
             {
-              "s": "changed",
+              "s": "same",
               "prev": 9,
               "why": "text",
-              "prevFile": "09.webp",
-              "boxes": []
+              "prevFile": "09.webp"
             },
             {
-              "s": "changed",
+              "s": "same",
               "prev": 10,
               "why": "text",
-              "prevFile": "10.webp",
-              "boxes": []
+              "prevFile": "10.webp"
             }
           ],
           "removed": [
@@ -4566,25 +4360,22 @@
           "prevSteps": 3,
           "status": [
             {
-              "s": "changed",
+              "s": "same",
               "prev": 1,
               "why": "text",
-              "prevFile": "01.webp",
-              "boxes": []
+              "prevFile": "01.webp"
             },
             {
-              "s": "changed",
+              "s": "same",
               "prev": 2,
               "why": "text",
-              "prevFile": "02.webp",
-              "boxes": []
+              "prevFile": "02.webp"
             },
             {
-              "s": "changed",
+              "s": "same",
               "prev": 3,
               "why": "text",
-              "prevFile": "03.webp",
-              "boxes": []
+              "prevFile": "03.webp"
             }
           ],
           "removed": []
