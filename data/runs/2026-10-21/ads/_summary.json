@@ -1,16 +1,9 @@
 [
   {
-    "id": "simply-sing",
-    "active": 83,
-    "newInWindow": 1,
-    "landings": 1,
-    "errors": 0
-  },
-  {
-    "id": "smartyme",
-    "active": 109,
-    "newInWindow": 51,
-    "landings": 2,
+    "id": "imprint",
+    "active": 740,
+    "newInWindow": 0,
+    "landings": 4,
     "errors": 0
   }
 ]

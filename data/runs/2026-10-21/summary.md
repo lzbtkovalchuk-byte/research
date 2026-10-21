@@ -35,37 +35,6 @@ first capture of this funnel (no comparison)
 
 ### imprint — Imprint [vocal+drawing] — imprintapp.com/start-history
 steps=36 stop=paywall email@33 paywall@36 popups=0 prices=$11.99 $23.99 $16.99 $42.99 $49.99 $99.99 discount=50 timer=false trial=false moneyBack=true
-- [CHANGED] screen 1 info "Replace scrolling withHistory" (4 changed regions): data/runs/2026-10-13/funnels/imprint/06cefd8c1237/01.webp → data/runs/2026-10-21/funnels/imprint/06cefd8c1237/01.webp
-- [CHANGED] screen 2 question "What is your age?" (1 changed regions): data/runs/2026-10-13/funnels/imprint/06cefd8c1237/02.webp → data/runs/2026-10-21/funnels/imprint/06cefd8c1237/02.webp
-- [CHANGED] screen 4 social_proof "What best describes you?" (3 changed regions): data/runs/2026-10-13/funnels/imprint/06cefd8c1237/04.webp → data/runs/2026-10-21/funnels/imprint/06cefd8c1237/04.webp
-- [CHANGED] screen 5 social_proof "Why are you interested in learning about History?" (4 changed regions): data/runs/2026-10-13/funnels/imprint/06cefd8c1237/05.webp → data/runs/2026-10-21/funnels/imprint/06cefd8c1237/05.webp
-- [CHANGED] screen 6 question "Why are you interested in learning about History?" (3 changed regions): data/runs/2026-10-13/funnels/imprint/06cefd8c1237/06.webp → data/runs/2026-10-21/funnels/imprint/06cefd8c1237/06.webp
-- [CHANGED] screen 7 question "Which periods of History interest you most?" (3 changed regions): data/runs/2026-10-13/funnels/imprint/06cefd8c1237/07.webp → data/runs/2026-10-21/funnels/imprint/06cefd8c1237/07.webp
-- [CHANGED] screen 8 question "Which periods of History interest you most?" (3 changed regions): data/runs/2026-10-13/funnels/imprint/06cefd8c1237/08.webp → data/runs/2026-10-21/funnels/imprint/06cefd8c1237/08.webp
-- [CHANGED] screen 9 question "Does this topic interest you?" (2 changed regions): data/runs/2026-10-13/funnels/imprint/06cefd8c1237/09.webp → data/runs/2026-10-21/funnels/imprint/06cefd8c1237/09.webp
-- [CHANGED] screen 10 question "Does this topic interest you?" (3 changed regions): data/runs/2026-10-13/funnels/imprint/06cefd8c1237/10.webp → data/runs/2026-10-21/funnels/imprint/06cefd8c1237/10.webp
-- [CHANGED] screen 11 question "Are you satisfied with your History knowledge?" (1 changed regions): data/runs/2026-10-13/funnels/imprint/06cefd8c1237/11.webp → data/runs/2026-10-21/funnels/imprint/06cefd8c1237/11.webp
-- [CHANGED] screen 12 question "Are you satisfied with your History knowledge?" (4 changed regions): data/runs/2026-10-13/funnels/imprint/06cefd8c1237/12.webp → data/runs/2026-10-21/funnels/imprint/06cefd8c1237/12.webp
-- [CHANGED] screen 13 question "What knowledge do you want to build with us?" (3 changed regions): data/runs/2026-10-13/funnels/imprint/06cefd8c1237/13.webp → data/runs/2026-10-21/funnels/imprint/06cefd8c1237/13.webp
-- [CHANGED] screen 14 question "Do you know what sparked World War I?" (1 changed regions): data/runs/2026-10-13/funnels/imprint/06cefd8c1237/14.webp → data/runs/2026-10-21/funnels/imprint/06cefd8c1237/14.webp
-- [CHANGED] screen 15 question "Do you know what sparked World War I?" (1 changed regions): data/runs/2026-10-13/funnels/imprint/06cefd8c1237/15.webp → data/runs/2026-10-21/funnels/imprint/06cefd8c1237/15.webp
-- [CHANGED] screen 16 question "Do you know what the Peloponnesian War was fought over?" (1 changed regions): data/runs/2026-10-13/funnels/imprint/06cefd8c1237/16.webp → data/runs/2026-10-21/funnels/imprint/06cefd8c1237/16.webp
-- [CHANGED] screen 17 question "Did The Industrial Revolution start in Britain?" (2 changed regions): data/runs/2026-10-13/funnels/imprint/06cefd8c1237/17.webp → data/runs/2026-10-21/funnels/imprint/06cefd8c1237/17.webp
-- [CHANGED] screen 18 question "Is it easy for you to find time to learn?" (1 changed regions): data/runs/2026-10-13/funnels/imprint/06cefd8c1237/18.webp → data/runs/2026-10-21/funnels/imprint/06cefd8c1237/18.webp
-- [CHANGED] screen 19 question "Is it easy for you to find time to learn?" (3 changed regions): data/runs/2026-10-13/funnels/imprint/06cefd8c1237/19.webp → data/runs/2026-10-21/funnels/imprint/06cefd8c1237/19.webp
-- [CHANGED] screen 20 question "What are the biggest obstacles to you learning?" (4 changed regions): data/runs/2026-10-13/funnels/imprint/06cefd8c1237/20.webp → data/runs/2026-10-21/funnels/imprint/06cefd8c1237/20.webp
-- [CHANGED] screen 21 question "What is a caste system?" (4 changed regions): data/runs/2026-10-13/funnels/imprint/06cefd8c1237/21.webp → data/runs/2026-10-21/funnels/imprint/06cefd8c1237/21.webp
-- [CHANGED] screen 22 question "What is a caste system?" (2 changed regions): data/runs/2026-10-13/funnels/imprint/06cefd8c1237/22.webp → data/runs/2026-10-21/funnels/imprint/06cefd8c1237/22.webp
-- [CHANGED] screen 23 question "What system did Marxist revolutions support?" (3 changed regions): data/runs/2026-10-13/funnels/imprint/06cefd8c1237/23.webp → data/runs/2026-10-21/funnels/imprint/06cefd8c1237/23.webp
-- [CHANGED] screen 24 question "When was NATO formed?" (4 changed regions): data/runs/2026-10-13/funnels/imprint/06cefd8c1237/24.webp → data/runs/2026-10-21/funnels/imprint/06cefd8c1237/24.webp
-- [CHANGED] screen 25 question "When learning I connect best with:" (3 changed regions): data/runs/2026-10-13/funnels/imprint/06cefd8c1237/25.webp → data/runs/2026-10-21/funnels/imprint/06cefd8c1237/25.webp
-- [CHANGED] screen 27 question "Do you find it easy to stay motivated while learning?" (1 changed regions): data/runs/2026-10-13/funnels/imprint/06cefd8c1237/27.webp → data/runs/2026-10-21/funnels/imprint/06cefd8c1237/27.webp
-- [CHANGED] screen 28 question "Did you hear about Imprint through a mentor or coach?" (4 changed regions): data/runs/2026-10-13/funnels/imprint/06cefd8c1237/28.webp → data/runs/2026-10-21/funnels/imprint/06cefd8c1237/28.webp
-- [CHANGED] screen 29 social_proof "What's motivating you towards personal growth?" (4 changed regions): data/runs/2026-10-13/funnels/imprint/06cefd8c1237/29.webp → data/runs/2026-10-21/funnels/imprint/06cefd8c1237/29.webp
-- [CHANGED] screen 30 social_proof "What's motivating you towards personal growth?" (4 changed regions): data/runs/2026-10-13/funnels/imprint/06cefd8c1237/30.webp → data/runs/2026-10-21/funnels/imprint/06cefd8c1237/30.webp
-- [CHANGED] screen 31 social_proof "Crafting your learning experience..." (2 changed regions): data/runs/2026-10-13/funnels/imprint/06cefd8c1237/31.webp → data/runs/2026-10-21/funnels/imprint/06cefd8c1237/31.webp
-- [CHANGED] screen 32 question "Your personalized Growth Plan is ready!" (4 changed regions): data/runs/2026-10-13/funnels/imprint/06cefd8c1237/32.webp → data/runs/2026-10-21/funnels/imprint/06cefd8c1237/32.webp
-- [CHANGED] screen 33 email "Achieve your goals with Imprint" (2 changed regions): data/runs/2026-10-13/funnels/imprint/06cefd8c1237/33.webp → data/runs/2026-10-21/funnels/imprint/06cefd8c1237/33.webp
 - [NEW] screen 34 info "Your Growth Plan": data/runs/2026-10-21/funnels/imprint/06cefd8c1237/34.webp
 - [NEW] screen 35 info "Become the most interesting person in the room": data/runs/2026-10-21/funnels/imprint/06cefd8c1237/35.webp
 - [NEW] screen 36 paywall "Choose a plan": data/runs/2026-10-21/funnels/imprint/06cefd8c1237/36.webp
