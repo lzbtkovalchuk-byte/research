@@ -1,9 +1,8 @@
 name: Publish reports to Slack
-# Fires when the AI analysis for a run is pushed (analysis-vocal.json + analysis-drawing.json),
-# or manually (e.g. to post without analysis).
+# Fires when the AI analysis for a run is pushed (analysis.json), or manually (e.g. to post without analysis).
 on:
   push:
-    paths: ["data/runs/**/analysis-*.json"]
+    paths: ["data/runs/**/analysis.json"]
   workflow_dispatch:
 permissions:
   contents: read
@@ -15,22 +14,20 @@ jobs:
       - uses: actions/setup-node@v4
         with: { node-version: 22, cache: npm }
       - run: npm ci || npm install
-      - name: Build reports for the latest run
+      - name: Build the report for the latest run
         run: |
           export RUN_DATE=$(ls data/runs | grep -E '^[0-9]{4}-' | sort | tail -1)
           echo "RUN_DATE=$RUN_DATE" >> $GITHUB_ENV
           node src/build_report.js
-      - name: Wait for both topic analyses
+      - name: Analysis present?
         id: ready
         run: |
-          if [ "${{ github.event_name }}" = "workflow_dispatch" ] || { [ -f data/runs/$RUN_DATE/analysis-vocal.json ] && [ -f data/runs/$RUN_DATE/analysis-drawing.json ]; }; then echo "go=true" >> $GITHUB_OUTPUT; else echo "go=false" >> $GITHUB_OUTPUT; fi
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ] || [ -f data/runs/$RUN_DATE/analysis.json ]; then echo "go=true" >> $GITHUB_OUTPUT; else echo "go=false" >> $GITHUB_OUTPUT; fi
       - uses: actions/upload-artifact@v4
-        with: { name: reports, path: "data/runs/*/report-*.html", retention-days: 90 }
+        with: { name: report, path: "data/runs/*/report.html", retention-days: 90 }
       - name: Post to Slack
         if: steps.ready.outputs.go == 'true'
         env:
           SLACK_BOT_TOKEN: ${{ secrets.SLACK_BOT_TOKEN }}
           SLACK_CHANNEL_ID: ${{ secrets.SLACK_CHANNEL_ID }}
-          SLACK_CHANNEL_VOCAL: ${{ secrets.SLACK_CHANNEL_VOCAL }}
-          SLACK_CHANNEL_DRAWING: ${{ secrets.SLACK_CHANNEL_DRAWING }}
         run: node src/post_slack.js

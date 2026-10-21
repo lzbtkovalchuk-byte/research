@@ -14,12 +14,23 @@ const S=[
  ()=>`<h1>What do you want to improve?</h1><p>Select all that apply</p>${['Pitch','Range','Breath'].map(a=>`<div class="opt" onclick="this.style.background='#cfc'">${a}</div>`).join('')}<button onclick="go()">Continue</button>`,
  ()=> ver==='2' ? `<h1>How often do you sing?</h1>${['Daily','Weekly','Rarely'].map(a=>`<div class="opt" onclick="go()">${a}</div>`).join('')}` : `<h1>Rate: "I sing in tune"</h1>${[1,2,3,4,5].map(a=>`<div class="opt" onclick="go()">${a}</div>`).join('')}`,
  ()=>{ let p=0; setTimeout(function t(){if(document.getElementById('q').innerHTML) return setTimeout(t,300); p+=20; const el=document.getElementById('p'); if(!el)return; el.textContent=p+'%'; if(p===60){document.getElementById('q').innerHTML='<p>Quick question: do you sing in the shower?</p><div class="opt" onclick="document.getElementById(\'q\').innerHTML=\'\'">Yes</div><div class="opt" onclick="document.getElementById(\'q\').innerHTML=\'\'">No</div>';} if(p<100) setTimeout(function w(){ if(document.getElementById('q').innerHTML) return setTimeout(w,300); t(); },700); else go(); },700); return `<h1>Creating your plan...</h1><p id="p">0%</p><div id="q"></div>`},
- ()=>`<h1>Enter your email to get your plan</h1><input type="email" placeholder="Your email"><button onclick="if(document.querySelector('input').value)go()">Continue</button>`,
+ ()=>`<h1>Enter your email to get your plan</h1><input type="email" placeholder="Your email"><p id="err" style="color:#c00"></p><button onclick="emailGo()">Continue</button>`,
  ()=>`<h1>Do you want to receive emails with tips and special offers?</h1><div class="opt" onclick="go()">Sure, I'm in!</div><div class="opt" onclick="go()">I don't want to receive updates</div>`,
  ()=>`<h1>What's your name?</h1><input placeholder="Name"><button onclick="go()">Continue</button>`,
- ()=>`<h1>Your plan is ready! 60% off</h1><p>Offer ends in 09:59</p><div class="opt">4 week plan $15.19 then $38.99 per 4 weeks</div><div class="opt">12 week plan $31.99</div><p>28-day money-back guarantee</p><button>Get my plan</button>`
+ ()=>{ const pay=`<h1>Your plan is ready! 60% off</h1><p>Offer ends in 09:59</p><div class="opt">4 week plan $15.19 then $38.99 per 4 weeks</div><div class="opt">12 week plan $31.99</div><p>28-day money-back guarantee</p><button>Get my plan</button>`;
+   // tall=1: the paywall scrolls inside a fixed-height container (full-page capture must expand it)
+   const body = q.get('tall') ? `<div id="scroller" style="position:fixed;inset:0;overflow-y:auto;padding:16px;background:#fff">${pay}${Array.from({length:14},(_,k)=>`<p class="opt">Review ${k+1}: great app, I sing every day now.</p>`).join('')}<p id="bottom">What you get: 200 lessons, money-back guarantee, cancel anytime.</p></div>` : pay;
+   // popup=1: a gift popup over the paywall
+   if (q.get('popup')) setTimeout(()=>{ const d=document.createElement('div'); d.id='gift'; d.style.cssText='position:fixed;inset:0;z-index:50;background:rgba(0,0,0,.6);display:flex;align-items:center;justify-content:center';
+     d.innerHTML='<div style="background:#5b2ee0;color:#fff;border-radius:16px;padding:20px;width:80%;position:relative"><button aria-label="Close" style="position:absolute;top:6px;right:6px;width:32px;margin:0;padding:4px;background:none" onclick="document.getElementById(\'gift\').remove()">✕</button><h2>Welcome Freebie!</h2><p>Get the Pianist Must-Haves book for free</p><button onclick="document.getElementById(\'gift\').remove()">Continue</button></div>';
+     document.body.appendChild(d); }, 300);
+   return body; }
 ];
+const q=new URLSearchParams(location.search);
 function go(){ i++; render(); }
+function emailGo(){ const v=document.querySelector('input').value; if(!v) return;
+  if(q.get('strict') && !v.includes('+')){ document.getElementById('err').textContent='An account already exists with this email.'; if(q.get('strict')==='loop') setTimeout(()=>{i=0;render();},2500); return; }
+  go(); }
 function render(){ document.getElementById('app').innerHTML=S[i](); }
 render();
 </script></body></html>

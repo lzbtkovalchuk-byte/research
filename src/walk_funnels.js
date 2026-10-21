@@ -9,7 +9,16 @@ import { loadConfig, allApps, runDir, readJSON, writeJSON, normalizeUrl, isStore
 const RUN = runDir();
 const cfg = loadConfig();
 const S = cfg.settings || {};
-const EMAIL = process.env[S.test_email_env || 'TEST_EMAIL'] || S.test_email || '';
+const BASE_EMAIL = process.env[S.test_email_env || 'TEST_EMAIL'] || S.test_email || '';
+let EMAIL = BASE_EMAIL; // set per funnel in walk()
+
+/** A fresh plus-address per funnel and run (elza+fw261025imprint1@gmail.com), so no funnel says "already registered". */
+function emailFor(app, idx) {
+  const m = BASE_EMAIL.match(/^([^@+]+)(?:\+[^@]*)?@(.+)$/);
+  if (!m || S.plus_address === false) return BASE_EMAIL;
+  const d = path.basename(RUN).replace(/-/g, '').slice(2); // YYMMDD
+  return `${m[1]}+fw${d}${app.id.replace(/[^a-z0-9]/gi, '').toLowerCase()}${idx + 1}@${m[2]}`;
+}
 const NAME = S.test_name || 'Alex';
 const MAX_STEPS = S.max_steps || 90;
 const MAX_FUNNELS = S.max_funnels_per_app || 2;
@@ -173,15 +182,161 @@ function pickOption(s) {
   return (good[0] || o[0]);
 }
 
-async function shot(page, file) {
-  const buf = await page.screenshot({ type: 'png' });
-  await sharp(buf).resize({ width: 390 }).webp({ quality: 68 }).toFile(file);
-  const raw = await sharp(buf).resize(9, 8, { fit: 'fill' }).grayscale().raw().toBuffer();
-  let h = ''; for (let y = 0; y < 8; y++) for (let x = 0; x < 8; x++) h += raw[y * 9 + x] > raw[y * 9 + x + 1] ? '1' : '0';
-  return h; // 64-bit difference hash for visual change detection
+const MAX_SHOT_H = 6000; // CSS px; longer pages are cut here
+
+/** Many funnels scroll inside a fixed-height container, so fullPage alone would still cut them.
+ *  Temporarily let the largest inner scroller (and its ancestors) grow to full height. */
+async function expandScroller(page) {
+  return page.evaluate(() => {
+    let best = null, extra = 0;
+    for (const el of document.querySelectorAll('body *')) {
+      const s = getComputedStyle(el);
+      if (!/(auto|scroll)/.test(s.overflowY)) continue;
+      const r = el.getBoundingClientRect();
+      if (r.width < innerWidth * 0.6 || r.height < innerHeight * 0.4) continue;
+      const x = el.scrollHeight - el.clientHeight;
+      if (x > 40 && x > extra) { extra = x; best = el; }
+    }
+    const docScrolls = document.scrollingElement && document.scrollingElement.scrollHeight > innerHeight + 40;
+    if (!best || docScrolls) return false;
+    const saved = [];
+    for (let e = best; e; e = e.parentElement) {
+      saved.push([e, e.getAttribute('style')]);
+      e.style.setProperty('height', 'auto', 'important');
+      e.style.setProperty('max-height', 'none', 'important');
+      e.style.setProperty('overflow', 'visible', 'important');
+      if (e !== document.documentElement && e !== document.body && getComputedStyle(e).position === 'fixed') e.style.setProperty('position', 'absolute', 'important');
+    }
+    window.__cfwRestore = saved;
+    return true;
+  }).catch(() => false);
+}
+async function restoreScroller(page) {
+  await page.evaluate(() => { for (const [e, st] of window.__cfwRestore || []) st == null ? e.removeAttribute('style') : e.setAttribute('style', st); window.__cfwRestore = null; }).catch(() => {});
 }
 
-async function walk(browser, app, entry, dir) {
+/** Full-page screenshot (webp, 390 px wide). The visual hash uses only the first screen (390×844),
+ *  so a longer capture alone never counts as a change. Returns { dhash, h } with h = image height. */
+async function shot(page, file) {
+  const expanded = await expandScroller(page);
+  if (expanded) await sleep(300);
+  let buf;
+  try { buf = await page.screenshot({ type: 'png', fullPage: true, timeout: 20000 }); }
+  catch { buf = await page.screenshot({ type: 'png' }); }
+  finally { if (expanded) await restoreScroller(page); }
+  const meta = await sharp(buf).metadata();
+  const dpr = meta.width / 390;
+  const fullH = Math.min(meta.height, Math.round(MAX_SHOT_H * dpr));
+  const full = sharp(buf).extract({ left: 0, top: 0, width: meta.width, height: fullH });
+  const out = await full.resize({ width: 390 }).webp({ quality: 68 }).toFile(file);
+  const top = await sharp(buf).extract({ left: 0, top: 0, width: meta.width, height: Math.min(meta.height, Math.round(844 * dpr)) }).png().toBuffer();
+  const raw = await sharp(top).resize(9, 8, { fit: 'fill' }).grayscale().raw().toBuffer();
+  let h = ''; for (let y = 0; y < 8; y++) for (let x = 0; x < 8; x++) h += raw[y * 9 + x] > raw[y * 9 + x + 1] ? '1' : '0';
+  return { dhash: h, h: out.height }; // 64-bit difference hash for visual change detection
+}
+
+// ---------- popups (gift offers, exit offers, promo dialogs) ----------
+const POP_CLOSE = /^(×|✕|✖|╳|x|close|close popup|dismiss|no,? thanks|no thank you|not now|maybe later|skip|later)$/i;
+const POP_OK = /^(continue|ok(ay)?|got it|claim( it| (my )?gift)?|get it|sounds good|great|awesome|thanks!?)$/i;
+
+/** Finds an overlay covering the funnel (not a cookie banner) and marks its close control. */
+async function findPopup(page) {
+  return page.evaluate(({ closeSrc, okSrc }) => {
+    const CLOSE = new RegExp(closeSrc, 'i'), OK = new RegExp(okSrc, 'i');
+    const vw = innerWidth, vh = innerHeight;
+    const shown = (el, min = 8) => { const r = el.getBoundingClientRect(); const s = getComputedStyle(el); return r.width >= min && r.height >= min && r.bottom > 0 && r.top < vh && s.display !== 'none' && s.visibility !== 'hidden' && Number(s.opacity) > 0.1; };
+    document.querySelectorAll('[data-cfw-pop],[data-cfw-close],[data-cfw-ok]').forEach(e => { e.removeAttribute('data-cfw-pop'); e.removeAttribute('data-cfw-close'); e.removeAttribute('data-cfw-ok'); });
+    const bodyLen = (document.body?.innerText || '').trim().length;
+    const cands = [...document.querySelectorAll('[role=dialog],[role=alertdialog],[aria-modal=true],dialog[open]')].filter(e => shown(e, 60));
+    for (const el of document.querySelectorAll('body *')) {
+      const s = getComputedStyle(el);
+      if (s.position !== 'fixed' || !shown(el, 60)) continue;
+      const r = el.getBoundingClientRect();
+      if (r.width * r.height < vw * vh * 0.4 || (parseInt(s.zIndex, 10) || 0) < 10) continue;
+      cands.push(el);
+    }
+    for (const el of cands.reverse()) {
+      const text = (el.innerText || '').trim();
+      if (!text || /cookie|consent|gdpr|privacy preferences/i.test(text.slice(0, 500))) continue;
+      // Something must be behind it: an app shell holding the whole funnel is not a popup.
+      if (bodyLen - text.length < 60) continue;
+      const ctrls = [...el.querySelectorAll('button,[role=button],a,span,div,i,svg')].filter(c => shown(c));
+      const er = el.getBoundingClientRect();
+      const closeEl = ctrls.find(c => /close|dismiss/i.test(c.getAttribute('aria-label') || '') || /close/i.test(c.className?.baseVal ?? c.className ?? '') && c.getBoundingClientRect().width < 80)
+        || ctrls.find(c => CLOSE.test((c.innerText || c.textContent || '').trim()))
+        || ctrls.find(c => { const r = c.getBoundingClientRect(); return ['BUTTON'].includes(c.tagName) && !(c.innerText || '').trim() && r.width < 64 && r.top < er.top + er.height * 0.3 && r.left > er.left + er.width * 0.6; });
+      const isDialog = el.matches('[role=dialog],[role=alertdialog],[aria-modal=true],dialog');
+      if (!closeEl && !isDialog) continue;
+      if (closeEl) (closeEl.closest('button,[role=button],a') || closeEl).setAttribute('data-cfw-close', '1');
+      el.setAttribute('data-cfw-pop', '1');
+      const okEl = ctrls.find(c => ['BUTTON', 'A'].includes(c.tagName) || c.getAttribute('role') === 'button' ? OK.test((c.innerText || '').trim()) : false);
+      if (okEl) okEl.setAttribute('data-cfw-ok', '1');
+      // Title: largest text inside the popup.
+      let title = '', best = 0;
+      for (const t of el.querySelectorAll('h1,h2,h3,p,div,span')) {
+        if (t.childElementCount > 2 || !shown(t)) continue;
+        const tx = (t.innerText || '').trim(); if (!tx || tx.length > 120) continue;
+        const f = parseFloat(getComputedStyle(t).fontSize) || 0; if (f > best) { best = f; title = tx.replace(/\s+/g, ' '); }
+      }
+      // A point outside the popup's content box (on its backdrop), for click-outside closing.
+      let box = null, area = 0;
+      for (const c of el.querySelectorAll('*')) {
+        const r = c.getBoundingClientRect(); const a = r.width * r.height;
+        if (a < vw * vh * 0.85 && a > area && getComputedStyle(c).backgroundColor !== 'rgba(0, 0, 0, 0)') { area = a; box = r; }
+      }
+      const outside = box && box.top > 70 ? { x: Math.round(vw / 2), y: Math.round(box.top / 2) } : null;
+      return { title, text: text.slice(0, 1500), hasClose: !!closeEl, hasOk: !!okEl, outside, dialog: isDialog };
+    }
+    return null;
+  }, { closeSrc: POP_CLOSE.source, okSrc: POP_OK.source }).catch(() => null);
+}
+
+/** Closes the marked popup. Never clicks anything that leads to payment. Returns how it closed, or null. */
+async function closePopup(page, pop) {
+  const gone = async () => !(await page.evaluate(() => {
+    const e = document.querySelector('[data-cfw-pop]'); if (!e || !e.isConnected) return false;
+    const r = e.getBoundingClientRect(), s = getComputedStyle(e);
+    return r.width > 40 && r.height > 40 && s.display !== 'none' && s.visibility !== 'hidden' && Number(s.opacity) > 0.1;
+  }).catch(() => false));
+  if (pop.hasClose) {
+    const c = page.locator('[data-cfw-close]').first();
+    await c.click({ timeout: 3000 }).catch(() => c.click({ force: true, timeout: 2000 }).catch(() => {}));
+    await sleep(900); if (await gone()) return 'close button';
+  }
+  await page.keyboard.press('Escape').catch(() => {});
+  await sleep(700); if (await gone()) return 'escape';
+  if (pop.outside) {
+    await page.mouse.click(pop.outside.x, pop.outside.y).catch(() => {});
+    await sleep(700); if (await gone()) return 'click outside';
+  }
+  // Gift/info popups whose only button is "Continue": fine to press when the popup shows no price.
+  if (pop.hasOk && !PRICE.test(pop.text)) {
+    PRICE.lastIndex = 0;
+    await page.locator('[data-cfw-ok]').first().click({ timeout: 3000 }).catch(() => {});
+    await sleep(900); if (await gone()) return 'continue button';
+  }
+  PRICE.lastIndex = 0;
+  return null;
+}
+
+const EMAIL_ERR = /(already (exists|registered|in use|taken|been used|have an account)|account (already )?exists|email (is )?(already )?(taken|in use|registered)|invalid e-?mail|enter a valid e-?mail|use a different e-?mail)/i;
+/** After the email is submitted: the funnel's error message if it rejected the address. */
+async function emailError(page) {
+  return page.evaluate(src => {
+    const re = new RegExp(src, 'i');
+    if (!document.querySelector('input[type=email],input[name*=mail i],input[placeholder*=mail i]')) return null;
+    for (const el of document.querySelectorAll('p,span,div,small,label,li')) {
+      if (el.childElementCount > 1) continue;
+      const t = (el.innerText || '').trim();
+      const r = el.getBoundingClientRect();
+      if (t && t.length < 160 && r.width > 0 && r.height > 0 && re.test(t)) return t.replace(/\s+/g, ' ');
+    }
+    return null;
+  }, EMAIL_ERR.source).catch(() => null);
+}
+
+async function walk(browser, app, entry, dir, idx = 0) {
+  EMAIL = emailFor(app, idx);
   const proxy = proxyFor(app.geo);
   const ctx = await browser.newContext({
     permissions: ['microphone', 'camera'],
@@ -193,7 +348,7 @@ async function walk(browser, app, entry, dir) {
   page.setDefaultTimeout(15000);
   const steps = [];
   const seen = new Map();
-  let stop = 'max_steps', lastKey = '', prevScreen = null;
+  let stop = 'max_steps', lastKey = '', prevScreen = null, popups = 0, emailNote = null;
   const t0 = Date.now();
   try {
     await page.goto(entry, { waitUntil: 'domcontentloaded', timeout: 60000 });
@@ -204,22 +359,49 @@ async function walk(browser, app, entry, dir) {
       await settle(page);
       if (i < 3 || i % 5 === 0) await rejectCookies(page);
       await page.addStyleTag({ content: HIDE_CSS }).catch(() => {});
+      // Popup over the funnel (gift, exit offer, promo): capture it, close it, then capture the screen behind it.
+      const pop = popups < 6 ? await findPopup(page) : null;
+      if (pop) {
+        const pkey = 'popup|' + normText(pop.text).slice(0, 400);
+        seen.set(pkey, (seen.get(pkey) || 0) + 1);
+        if (seen.get(pkey) <= 2) {
+          popups++;
+          const n = steps.length + 1, file = String(n).padStart(2, '0') + '.webp';
+          const { dhash, h } = await shot(page, path.join(dir, file));
+          steps.push({ n, file, url: page.url(), path: new URL(page.url()).pathname, title: pop.title, kind: 'popup', text: pop.text, textHash: sha(pkey.slice(0, 2000)), dhash, h, prices: [] });
+          const how = await closePopup(page, pop);
+          steps[n - 1].closed = how || 'could not close';
+          console.log(`  popup "${pop.title.slice(0, 40)}" → ${how || 'could not close'}`);
+          if (!how) { stop = 'popup_blocked'; break; }
+          await settle(page, 3000);
+          continue;
+        }
+      }
       let s = await inspect(page);
       const host = new URL(s.url).hostname;
       const kind = classify(s);
       const nkey = normText(s.text).slice(0, 2000) + '|' + s.imgs.slice(0, 600); // image-only screens (statement cards) differ only by picture
+      // The screen behind a popup: link it to the popup (it may be a screen recorded just before).
+      const lastStep = steps[steps.length - 1];
+      if (lastStep?.kind === 'popup' && !lastStep.behind) lastStep.behind = nkey === lastKey ? (steps[steps.length - 2]?.n || null) : steps.length + 1;
       // Same screen with only a timer/progress change (loaders) → don't record again.
       if (nkey !== lastKey) {
         const n = steps.length + 1;
         const file = String(n).padStart(2, '0') + '.webp';
-        const dhash = await shot(page, path.join(dir, file));
-        steps.push({ n, file, url: s.url, path: new URL(s.url).pathname, title: s.title, kind, text: s.text.slice(0, 1500), textHash: sha(normText(s.text).slice(0, 2000) + '|' + s.alts), dhash, prices: [...new Set(s.text.match(PRICE) || [])].slice(0, 12) });
+        const { dhash, h } = await shot(page, path.join(dir, file));
+        steps.push({ n, file, url: s.url, path: new URL(s.url).pathname, title: s.title, kind, text: s.text.slice(0, 1500), textHash: sha(normText(s.text).slice(0, 2000) + '|' + s.alts), dhash, h, prices: [...new Set(s.text.match(PRICE) || [])].slice(0, 12) });
         lastKey = nkey;
-        // Funnel sent us back to its start (e.g. after sign-up): drop that screen and stop.
+        // Funnel sent us back to its start (e.g. after the email or sign-up): drop that screen and stop.
         const early = new Set(steps.slice(0, 3).map(x => x.path));
-        if (steps.length > 8 && (early.has(steps[n - 1].path) || steps[n - 1].path === '/') && !early.has(steps[n - 2].path)) {
+        const firstText = steps[0]?.textHash;
+        const backToStart = n > 1 && (
+          (steps.length > 8 && (early.has(steps[n - 1].path) || steps[n - 1].path === '/') && !early.has(steps[n - 2].path)) ||
+          (steps[n - 1].textHash === firstText && steps.slice(0, -1).some(x => x.kind === 'email')));
+        if (backToStart) {
           try { fs.unlinkSync(path.join(dir, file)); } catch {}
-          steps.pop(); stop = 'looped_to_start'; break;
+          steps.pop();
+          stop = steps.some(x => x.kind === 'email') ? 'email_loop' : 'looped_to_start';
+          break;
         }
       }
       seen.set(nkey, (seen.get(nkey) || 0) + 1);
@@ -256,7 +438,7 @@ async function walk(browser, app, entry, dir) {
         if (ok && picked) { await sleep(800); s = await inspect(page); }
       }
       // Fill inputs.
-      let filled = false, gate = null;
+      let filled = false, gate = null, emailFilled = false;
       for (const inp of s.inputs) {
         if (inp.type === 'checkbox') {
           if (/terms|privacy|agree|policy|consent to/i.test(inp.label) && !/news|offer|update|marketing|promot/i.test(inp.label) && !inp.value) { await page.locator(inp.sel).check({ force: true }).catch(() => {}); filled = true; }
@@ -269,6 +451,7 @@ async function walk(browser, app, entry, dir) {
         if (v.stop) { gate = v.stop; break; }
         await page.locator(inp.sel).fill(v.v).catch(() => {});
         filled = true;
+        if (v.kind === 'email') emailFilled = true;
       }
       if (gate) { stop = gate; break; }
 
@@ -307,7 +490,24 @@ async function walk(browser, app, entry, dir) {
       // Re-visiting a question we already answered (answer feedback, multi-select) → continue instead of toggling the answer.
       const same = prevScreen && prevScreen.url === s.url && prevScreen.title === s.title && prevScreen.answered;
       let answered = false;
-      if (filled) { act.filled = true; await sleep(500); await pressCTA(await inspect(page)); answered = true; }
+      if (filled) {
+        act.filled = true; await sleep(500);
+        // Watch for an error message that may flash before the funnel moves on or resets.
+        if (emailFilled) await page.evaluate(src => {
+          const re = new RegExp(src, 'i'); window.__cfwErr = null;
+          const check = () => { if (window.__cfwErr) return; for (const el of document.querySelectorAll('p,span,div,small,label,li')) { if (el.childElementCount > 1) continue; const t = (el.innerText || '').trim(); if (t && t.length < 160 && re.test(t)) { window.__cfwErr = t.replace(/\s+/g, ' '); return; } } };
+          new MutationObserver(check).observe(document.body, { subtree: true, childList: true, characterData: true });
+        }, EMAIL_ERR.source).catch(() => {});
+        await pressCTA(await inspect(page)); answered = true;
+        if (emailFilled) {
+          act.email = EMAIL;
+          await sleep(800);
+          const flashed = await page.evaluate(() => window.__cfwErr || null).catch(() => null);
+          if (flashed) emailNote = flashed;
+          const err = await emailError(page) || (flashed && await page.evaluate(() => !!document.querySelector('input[type=email],input[name*=mail i],input[placeholder*=mail i]')).catch(() => false) ? flashed : null);
+          if (err) { emailNote = err; if (steps.length) { steps[steps.length - 1].action = act; steps[steps.length - 1].emailError = err; } stop = 'email_rejected'; break; }
+        }
+      }
       else {
         let moved = false;
         if (same) moved = await pressCTA(s) && await changed();
@@ -361,15 +561,15 @@ async function walk(browser, app, entry, dir) {
         const s = await inspect(page);
         if (classify(s) !== 'paywall') continue;
         const n = steps.length + 1, file = String(n).padStart(2, '0') + '.webp';
-        const dhash = await shot(page, path.join(dir, file));
-        steps.push({ n, file, url: s.url, path: new URL(s.url).pathname, title: s.title, kind: 'paywall', direct: true, gate: stop, text: s.text.slice(0, 1500), textHash: sha(normText(s.text).slice(0, 2000)), dhash, prices: [...new Set(s.text.match(PRICE) || [])].slice(0, 12) });
+        const { dhash, h } = await shot(page, path.join(dir, file));
+        steps.push({ n, file, url: s.url, path: new URL(s.url).pathname, title: s.title, kind: 'paywall', direct: true, h, gate: stop, text: s.text.slice(0, 1500), textHash: sha(normText(s.text).slice(0, 2000)), dhash, prices: [...new Set(s.text.match(PRICE) || [])].slice(0, 12) });
         stop = stop + '+paywall_direct';
         break;
       }
     } catch {}
   }
   await ctx.close();
-  return { steps, stop, proxied: !!proxy };
+  return { steps, stop, proxied: !!proxy, email: EMAIL, emailNote };
 }
 
 /** Structural features used for the Skillsta comparison table (no AI needed). */
@@ -384,6 +584,7 @@ function features(steps, stop) {
     paywallStep: pay?.n || null,
     questions: steps.filter(s => s.kind === 'question').length,
     socialProof: steps.filter(s => s.kind === 'social_proof').length,
+    popups: steps.filter(s => s.kind === 'popup').length,
     loader: steps.some(s => s.kind === 'loader'),
     prices: pay?.prices || [],
     discount: (pt.match(/(\d{2})\s?% ?off|save (\d{2})\s?%|(\d{2})%\s?discount/i) || []).slice(1).find(Boolean) || null,
@@ -410,15 +611,15 @@ async function main() {
     const appDir = path.join(RUN, 'funnels', app.id);
     fs.mkdirSync(appDir, { recursive: true });
     const index = { id: app.id, name: app.name, geo: app.geo, skillsta: !!app.skillsta, storeOnly, funnels: [] };
-    for (const e of chosen) {
+    for (const [ei, e] of chosen.entries()) {
       const fdir = path.join(appDir, sha(e.key));
       fs.mkdirSync(fdir, { recursive: true });
       console.log(`→ ${app.id} ${e.key}`);
-      const r = await walk(browser, app, e.url, fdir);
-      const f = { ...e, dir: path.relative(RUN, fdir), stop: r.stop, proxied: r.proxied, steps: r.steps, features: features(r.steps, r.stop) };
+      const r = await walk(browser, app, e.url, fdir, ei);
+      const f = { ...e, dir: path.relative(RUN, fdir), stop: r.stop, proxied: r.proxied, email: r.email, emailNote: r.emailNote, steps: r.steps, features: features(r.steps, r.stop) };
       writeJSON(path.join(fdir, 'steps.json'), f);
       index.funnels.push({ key: e.key, dir: f.dir, stop: r.stop, steps: r.steps.length, why: e.why, ads: e.ads });
-      console.log(`  ${r.steps.length} screens, stop=${r.stop}`);
+      console.log(`  ${r.steps.length} screens, stop=${r.stop}, email=${r.email}${r.emailNote ? ` (${r.emailNote})` : ''}`);
     }
     writeJSON(path.join(appDir, 'index.json'), index);
   }

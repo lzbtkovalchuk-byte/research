@@ -1,8 +1,9 @@
 name: Collect ads & funnels
-# Every other Monday: Meta ads + funnel screenshots + diff. Runs weekly and skips the off-week.
+# Every other Saturday: Meta ads + funnel screenshots + diff, so the report is ready on Sunday.
+# Runs weekly and skips the off-week (needs 13+ days since the last run).
 on:
   schedule:
-    - cron: "0 3 * * 1"   # Mondays 03:00 UTC (06:00 Kyiv)
+    - cron: "0 3 * * 6"   # Saturdays 03:00 UTC (05:00/06:00 Kyiv)
   workflow_dispatch:
     inputs:
       force: { description: "Run even if the last run was less than 13 days ago", type: boolean, default: true }
@@ -44,19 +45,19 @@ jobs:
           PROXY_UK: ${{ secrets.PROXY_UK }}
           PROXY_US: ${{ secrets.PROXY_US }}
         run: node src/walk_funnels.js
-      - name: Diff + draft reports
+      - name: Diff + draft report
         if: steps.due.outputs.run == 'true'
         env: { RUN_DATE: "${{ inputs.run_date }}" }
         run: node src/diff.js && node src/build_report.js
       - name: Keep draft reports as a downloadable artifact
         if: steps.due.outputs.run == 'true'
         uses: actions/upload-artifact@v4
-        with: { name: draft-reports, path: "data/runs/*/report-*.html", retention-days: 30 }
+        with: { name: draft-report, path: "data/runs/*/report.html", retention-days: 30 }
       - name: Commit run data
         if: steps.due.outputs.run == 'true'
         run: |
           git config user.name "funnel-watch-bot"; git config user.email "actions@users.noreply.github.com"
           git add data/runs
-          git reset -q -- 'data/runs/*/report-*.html' || true
+          git reset -q -- 'data/runs/*/report*.html' || true
           git commit -qm "Run $(date -u +%F): ads + funnels" || exit 0
           for i in 1 2 3; do git pull --rebase -X theirs -q && git push -q && break; sleep 5; done

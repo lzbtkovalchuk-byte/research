@@ -1,5 +1,5 @@
-# Competitor list for the biweekly report.
-# geo: GB = UK (Genesis products), US = everything else.
+# Competitor list for the biweekly report (one merged report for vocal + drawing).
+# geo: GB = UK, US = United States. Ads and funnels both use the app's geo.
 # ads: where to find the app's Meta ads.
 #   page_ids  - Meta page ids (exact)
 #   domains   - search the Ad Library for this text and keep only ads whose link goes to this domain
@@ -9,9 +9,13 @@
 settings:
   test_email_env: TEST_EMAIL      # GitHub secret; falls back to test_email below
   test_email: elza280204@gmail.com
+  # Each funnel gets its own plus-address per run (e.g. elza280204+fw261025imprint@gmail.com),
+  # so a funnel never rejects the address as "already registered". Mail lands in the same inbox.
+  plus_address: true
   test_name: Alex
   max_funnels_per_app: 2
   max_steps: 90
+  slack_channel: C09C8NJA1F1      # #skillsta-product-marketing (used if SLACK_CHANNEL_ID isn't set)
 
 skillsta:
   - id: skillsta-vocal-2
@@ -41,7 +45,7 @@ competitors:
     name: Breeze
     genesis: true
     topics: [vocal, drawing]
-    geo: GB
+    geo: US
     ads: { domains: ["try-breeze.com"] }
 
   - id: simply-piano
@@ -68,14 +72,14 @@ competitors:
     name: Learna
     genesis: true
     topics: [vocal, drawing]
-    geo: GB
+    geo: US
     ads: { page_ids: ["521600091028761", "905964375940334", "894891160380247", "1171046996083903"] }  # Learna runs one page per language
     seeds: ["https://onboarding.ailearna.com/onboarding"]
 
   - id: copymind
     name: Copymind
     topics: [vocal, drawing]
-    geo: US
+    geo: GB
     ads: { domains: ["copymind.me"] }
     seeds: ["https://app.copymind.me/welcome-quiz/gender"]
 
