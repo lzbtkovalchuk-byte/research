@@ -9,7 +9,7 @@
       "key": "getskillnow.com/quiz/voice_assessment/voice_assessment",
       "dir": "funnels/skillsta-vocal-scanner/64e78223efd7",
       "stop": "stuck",
-      "steps": 32,
+      "steps": 31,
       "why": "seed",
       "ads": 0
     }

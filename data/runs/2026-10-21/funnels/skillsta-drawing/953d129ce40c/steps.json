@@ -8,9 +8,11 @@
   "dir": "funnels/skillsta-drawing/953d129ce40c",
   "stop": "email_loop",
   "proxied": false,
-  "email": "yelyzavetabazyla+fw261021skillstadrawing1@gmail.com",
+  "email": "yelyzavetabazyla+fw2610211334skillstadrawing1@gmail.com",
   "emailNote": null,
   "signedUp": null,
+  "restartUrl": "https://start.getskillnow.com/quiz/standard-rate/drawing?utm_adname=cf_drawing&funnel-state=stepNumber:32",
+  "finalUrl": "https://start.getskillnow.com/get-plan",
   "steps": [
     {
       "n": 1,
@@ -567,29 +569,12 @@
       "action": {
         "filled": true,
         "cta": "Continue",
-        "email": "yelyzavetabazyla+fw261021skillstadrawing1@gmail.com"
-      }
-    },
-    {
-      "n": 35,
-      "file": "35.webp",
-      "url": "https://start.getskillnow.com/quiz/standard-rate/drawing/sign-up?utm_adname=cf_drawing&funnel-state=stepNumber:31",
-      "path": "/quiz/standard-rate/drawing/sign-up",
-      "title": "Enter verification code",
-      "kind": "info",
-      "text": "Enter verification code\nWe've sent the code to yelyzavetabazyla+fw261021skillstadrawing1@gmail.com\nContinue\nCan’t find the code? Check your Spam folder\nTerms & Conditions • Privacy Policy • Subscription Policy",
-      "textHash": "edf5675b913e",
-      "dhash": "1000111101010011010100011000000000000001010000000000001100000010",
-      "h": 843,
-      "prices": [],
-      "action": {
-        "code": "entered from inbox",
-        "cta": "Continue"
+        "email": "yelyzavetabazyla+fw2610211334skillstadrawing1@gmail.com"
       }
     }
   ],
   "features": {
-    "totalSteps": 35,
+    "totalSteps": 34,
     "stop": "email_loop",
     "emailStep": 34,
     "paywallStep": null,

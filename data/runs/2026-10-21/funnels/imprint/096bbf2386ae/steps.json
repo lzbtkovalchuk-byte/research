@@ -8,9 +8,11 @@
   "dir": "funnels/imprint/096bbf2386ae",
   "stop": "stuck",
   "proxied": false,
-  "email": "yelyzavetabazyla+fw261021imprint1@gmail.com",
+  "email": "yelyzavetabazyla+fw2610211334imprint1@gmail.com",
   "emailNote": null,
   "signedUp": null,
+  "restartUrl": null,
+  "finalUrl": "https://www.imprintapp.com/get-plan",
   "steps": [
     {
       "n": 1,

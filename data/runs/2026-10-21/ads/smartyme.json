@@ -18,8 +18,8 @@
       "value": "smartymeapp.com",
       "url": "https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=US&media_type=all&search_type=keyword_unordered&q=smartymeapp.com",
       "results": 1700,
-      "parsed": 25,
-      "kept": 25
+      "parsed": 24,
+      "kept": 24
     }
   ],
   "ads": [
@@ -461,7 +461,7 @@
     {
       "id": "1807784200242835",
       "started": "Sep 18, 2026",
-      "versions": 8,
+      "versions": 9,
       "page": "SmartyMe: Math Games Lab with SmartyMe: Engineering Thinking Lab",
       "body": "Looking for math games that are more than just time killers?",
       "caption": null,
@@ -521,7 +521,7 @@
     {
       "id": "1655843675957810",
       "started": "Oct 5, 2026",
-      "versions": 33,
+      "versions": 32,
       "page": "SmartyMe: Communication Games Lab",
       "body": "Small talk isn’t about filling silence — it’s about building connection.",
       "caption": null,
@@ -594,21 +594,6 @@
       "store": false
     },
     {
-      "id": "2220899688534807",
-      "started": "Oct 12, 2026",
-      "versions": 3,
-      "page": "SmartyMe: Math Games Lab",
-      "body": "Vous cherchez des jeux de maths qui ne servent pas juste à tuer le temps ?",
-      "caption": null,
-      "headline": "",
-      "cta": "",
-      "video": false,
-      "link": "https://start.smartymeapp.com/quiz",
-      "startedISO": "2026-10-12",
-      "key": "start.smartymeapp.com/quiz",
-      "store": false
-    },
-    {
       "id": "1803638004322685",
       "started": "Oct 16, 2026",
       "versions": 8,
@@ -656,7 +641,7 @@
     {
       "id": "1083444124438523",
       "started": "Oct 9, 2026",
-      "versions": 3,
+      "versions": 4,
       "page": "SmartyMe: Engineering Mindset",
       "body": "Engineering explains how the world is built and how it works. Just 10 minutes a day to train your problem-solving, systems thinking, and practical understanding of how things are designed and made. 🔧",
       "caption": null,
@@ -746,7 +731,7 @@
     {
       "id": "2441606842913542",
       "started": "Oct 7, 2026",
-      "versions": 17,
+      "versions": 16,
       "page": "SmartyMe: Math Games Lab",
       "body": "Looking for math games that are more than just time killers?",
       "caption": null,
@@ -810,8 +795,8 @@
       "key": "start.smartymeapp.com/quiz",
       "sample": "https://start.smartymeapp.com/quiz",
       "store": false,
-      "ads": 149,
-      "creatives": 32,
+      "ads": 146,
+      "creatives": 31,
       "first": "2026-09-10",
       "last": "2026-10-17",
       "adIds": [
@@ -835,7 +820,6 @@
         "28087728954238974",
         "2966504580364145",
         "2248081282405807",
-        "2220899688534807",
         "1803638004322685",
         "1706774874791246",
         "1167663182266398",
@@ -868,8 +852,8 @@
     "SmartyMe: WealthWise Hub": "944173835440294",
     "SmartyMe: Electricity Explained": "769959229539791"
   },
-  "activeEstimate": 125,
-  "parsedCreatives": 50,
+  "activeEstimate": 124,
+  "parsedCreatives": 49,
   "newInWindow": 55,
   "newCreativesInWindow": 26
 }

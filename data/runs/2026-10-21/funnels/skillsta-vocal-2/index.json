@@ -9,7 +9,7 @@
       "key": "getskillnow.com/quiz",
       "dir": "funnels/skillsta-vocal-2/4ad23ce9af85",
       "stop": "email_loop",
-      "steps": 34,
+      "steps": 33,
       "why": "seed",
       "ads": 0
     }

@@ -230,38 +230,6 @@
               "why": "text",
               "prevFile": "33.webp",
               "boxes": []
-            },
-            {
-              "s": "changed",
-              "prev": 34,
-              "why": "text",
-              "prevFile": "34.webp",
-              "boxes": [
-                {
-                  "t": 0.71,
-                  "l": 1.54,
-                  "w": 100,
-                  "h": 14.54
-                },
-                {
-                  "t": 20.21,
-                  "l": 1.54,
-                  "w": 100,
-                  "h": 18.09
-                },
-                {
-                  "t": 84.04,
-                  "l": 20.77,
-                  "w": 62.31,
-                  "h": 5.67
-                },
-                {
-                  "t": 94.68,
-                  "l": 13.08,
-                  "w": 73.85,
-                  "h": 5.67
-                }
-              ]
             }
           ],
           "removed": [
@@ -282,6 +250,12 @@
               "title": "✅",
               "kind": "question",
               "file": "32.webp"
+            },
+            {
+              "n": 34,
+              "title": "Enter verification code",
+              "kind": "info",
+              "file": "34.webp"
             }
           ]
         }
@@ -508,36 +482,17 @@
               "boxes": []
             },
             {
-              "s": "changed",
-              "prev": 31,
-              "why": "text",
-              "prevFile": "31.webp",
-              "boxes": [
-                {
-                  "t": 0.71,
-                  "l": 1.54,
-                  "w": 100,
-                  "h": 14.59
-                },
-                {
-                  "t": 16.73,
-                  "l": 0,
-                  "w": 100,
-                  "h": 21.71
-                },
-                {
-                  "t": 95.02,
-                  "l": 13.08,
-                  "w": 73.85,
-                  "h": 5.69
-                }
-              ]
-            },
-            {
               "s": "new"
             }
           ],
-          "removed": []
+          "removed": [
+            {
+              "n": 31,
+              "title": "Enter verification code",
+              "kind": "info",
+              "file": "31.webp"
+            }
+          ]
         }
       }
     },
@@ -776,32 +731,6 @@
               "why": "text",
               "prevFile": "34.webp",
               "boxes": []
-            },
-            {
-              "s": "changed",
-              "prev": 35,
-              "why": "text",
-              "prevFile": "35.webp",
-              "boxes": [
-                {
-                  "t": 0.71,
-                  "l": 1.54,
-                  "w": 100,
-                  "h": 14.59
-                },
-                {
-                  "t": 18.51,
-                  "l": 0,
-                  "w": 100,
-                  "h": 19.93
-                },
-                {
-                  "t": 95.02,
-                  "l": 13.08,
-                  "w": 73.85,
-                  "h": 5.69
-                }
-              ]
             }
           ],
           "removed": [
@@ -822,6 +751,12 @@
               "title": "✅",
               "kind": "question",
               "file": "33.webp"
+            },
+            {
+              "n": 35,
+              "title": "Enter verification code",
+              "kind": "info",
+              "file": "35.webp"
             }
           ]
         }
@@ -1110,6 +1045,15 @@
               "prev": 33,
               "why": "",
               "prevFile": "33.webp"
+            },
+            {
+              "s": "new"
+            },
+            {
+              "s": "new"
+            },
+            {
+              "s": "new"
             }
           ],
           "removed": [
@@ -1279,10 +1223,10 @@
               "prevFile": "11.webp",
               "boxes": [
                 {
-                  "t": 39.86,
+                  "t": 30.96,
                   "l": 16.92,
-                  "w": 66.15,
-                  "h": 32.38
+                  "w": 70,
+                  "h": 41.28
                 }
               ]
             },
@@ -1462,9 +1406,9 @@
               "boxes": [
                 {
                   "t": 91.46,
-                  "l": 51.54,
-                  "w": 35.38,
-                  "h": 7.47
+                  "l": 32.31,
+                  "w": 54.62,
+                  "h": 9.25
                 }
               ]
             },
@@ -1476,72 +1420,118 @@
               "boxes": []
             },
             {
-              "s": "new"
+              "s": "changed",
+              "prev": 32,
+              "why": "text",
+              "prevFile": "32.webp",
+              "boxes": []
             },
             {
-              "s": "new"
+              "s": "changed",
+              "prev": 33,
+              "why": "text",
+              "prevFile": "33.webp",
+              "boxes": []
+            },
+            {
+              "s": "changed",
+              "prev": 34,
+              "why": "text",
+              "prevFile": "34.webp",
+              "boxes": []
+            },
+            {
+              "s": "changed",
+              "prev": 36,
+              "why": "text",
+              "prevFile": "36.webp",
+              "boxes": []
+            },
+            {
+              "s": "changed",
+              "prev": 37,
+              "why": "text",
+              "prevFile": "37.webp",
+              "boxes": []
+            },
+            {
+              "s": "changed",
+              "prev": 38,
+              "why": "text",
+              "prevFile": "38.webp",
+              "boxes": []
+            },
+            {
+              "s": "changed",
+              "prev": 39,
+              "why": "text",
+              "prevFile": "39.webp",
+              "boxes": [
+                {
+                  "t": 26.55,
+                  "l": 5.38,
+                  "w": 89.23,
+                  "h": 1.16
+                }
+              ]
+            },
+            {
+              "s": "changed",
+              "prev": 40,
+              "why": "text",
+              "prevFile": "40.webp",
+              "boxes": [
+                {
+                  "t": 4.6,
+                  "l": 5.38,
+                  "w": 93.08,
+                  "h": 18.18
+                },
+                {
+                  "t": 25.96,
+                  "l": 1.54,
+                  "w": 96.92,
+                  "h": 3.4
+                },
+                {
+                  "t": 29.79,
+                  "l": 5.38,
+                  "w": 89.23,
+                  "h": 1.2
+                }
+              ]
             }
           ],
           "removed": [
-            {
-              "n": 32,
-              "title": "Calculating your results...",
-              "kind": "loader",
-              "file": "32.webp"
-            },
-            {
-              "n": 33,
-              "title": "Calculating your results...",
-              "kind": "loader",
-              "file": "33.webp"
-            },
-            {
-              "n": 34,
-              "title": "Calculating your results...",
-              "kind": "loader",
-              "file": "34.webp"
-            },
             {
               "n": 35,
               "title": "Calculating your results...",
               "kind": "loader",
               "file": "35.webp"
-            },
-            {
-              "n": 36,
-              "title": "Your results are ready",
-              "kind": "email",
-              "file": "36.webp"
-            },
-            {
-              "n": 37,
-              "title": "🇺🇸 United States",
-              "kind": "question",
-              "file": "37.webp"
-            },
-            {
-              "n": 38,
-              "title": "Feel the difference in just 7 days *Results may vary",
-              "kind": "info",
-              "file": "38.webp"
-            },
-            {
-              "n": 39,
-              "title": "Your personalized childhood experience profile is ready",
-              "kind": "info",
-              "file": "39.webp"
-            },
-            {
-              "n": 40,
-              "title": "Alex,",
-              "kind": "paywall",
-              "file": "40.webp"
             }
           ]
         },
         "try-breeze.com/childhood": {
           "firstRun": true,
           "status": [
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
             {
               "s": "baseline"
             },
@@ -2564,6 +2554,15 @@
             },
             {
               "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
             }
           ],
           "removed": []
@@ -2797,6 +2796,23 @@
               "why": "text",
               "prevFile": "33.webp",
               "boxes": []
+            },
+            {
+              "s": "changed",
+              "prev": 34,
+              "why": "text",
+              "prevFile": "34.webp",
+              "boxes": []
+            },
+            {
+              "s": "changed",
+              "prev": 35,
+              "why": "text",
+              "prevFile": "35.webp",
+              "boxes": []
+            },
+            {
+              "s": "new"
             }
           ],
           "removed": [
@@ -2805,18 +2821,6 @@
               "title": "Over 1,000,000 adults over 50",
               "kind": "loader",
               "file": "32.webp"
-            },
-            {
-              "n": 34,
-              "title": "How can we call you?",
-              "kind": "info",
-              "file": "34.webp"
-            },
-            {
-              "n": 35,
-              "title": "Your personal memory growth plan is ready",
-              "kind": "info",
-              "file": "35.webp"
             },
             {
               "n": 36,
@@ -4199,9 +4203,9 @@
     },
     "smartyme": {
       "ads": {
-        "active": 125,
+        "active": 124,
         "prevActive": 200,
-        "delta": -75,
+        "delta": -76,
         "newInWindow": 55,
         "newCreatives": 26
       },
@@ -4217,7 +4221,7 @@
         {
           "status": "same",
           "key": "start.smartymeapp.com/quiz",
-          "ads": 149,
+          "ads": 146,
           "prevAds": 171,
           "first": "2026-09-10",
           "store": false

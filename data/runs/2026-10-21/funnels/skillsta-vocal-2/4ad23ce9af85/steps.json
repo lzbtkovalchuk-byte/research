@@ -8,9 +8,11 @@
   "dir": "funnels/skillsta-vocal-2/4ad23ce9af85",
   "stop": "email_loop",
   "proxied": false,
-  "email": "yelyzavetabazyla+fw261021skillstavocal21@gmail.com",
+  "email": "yelyzavetabazyla+fw2610211334skillstavocal21@gmail.com",
   "emailNote": null,
   "signedUp": null,
+  "restartUrl": "https://www.getskillnow.com/quiz/standard-rate/new_vocal?utm_adname=cf_new_vocal&funnel-state=stepNumber:31",
+  "finalUrl": "https://www.getskillnow.com/get-plan",
   "steps": [
     {
       "n": 1,
@@ -550,29 +552,12 @@
       "action": {
         "filled": true,
         "cta": "Continue",
-        "email": "yelyzavetabazyla+fw261021skillstavocal21@gmail.com"
-      }
-    },
-    {
-      "n": 34,
-      "file": "34.webp",
-      "url": "https://www.getskillnow.com/quiz/standard-rate/new_vocal/sign-up?utm_adname=cf_new_vocal&funnel-state=stepNumber:30",
-      "path": "/quiz/standard-rate/new_vocal/sign-up",
-      "title": "Enter verification code",
-      "kind": "info",
-      "text": "Enter verification code\nWe've sent the code to yelyzavetabazyla+fw261021skillstavocal21@gmail.com\nContinue\nCan’t find the code? Check your Spam folder\nTerms & Conditions • Privacy Policy • Subscription Policy",
-      "textHash": "cd50b25cbc57",
-      "dhash": "0000111101010011010100011000001000000000000000000000001100000011",
-      "h": 845,
-      "prices": [],
-      "action": {
-        "code": "entered from inbox",
-        "cta": "Continue"
+        "email": "yelyzavetabazyla+fw2610211334skillstavocal21@gmail.com"
       }
     }
   ],
   "features": {
-    "totalSteps": 34,
+    "totalSteps": 33,
     "stop": "email_loop",
     "emailStep": 33,
     "paywallStep": null,

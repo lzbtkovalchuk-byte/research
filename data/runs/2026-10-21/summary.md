@@ -15,7 +15,7 @@ screenshot paths to open (previous → current). Open only those.
 | Copymind | vocal+drawing | GB | 0 | 0 | 0 |
 | Simply Sing | vocal | US | 83 | -27 | 7 |
 | Yousician | vocal | US | 19 | 3 | 8 |
-| SmartyMe | drawing | US | 125 | -75 | 55 |
+| SmartyMe | drawing | US | 124 | -76 | 55 |
 | Simply Draw | drawing | US | 9 | 3 | 3 |
 
 ## Link changes
@@ -31,7 +31,7 @@ screenshot paths to open (previous → current). Open only those.
 
 ## Funnels
 ### skillsta-vocal-2 — [SKILLSTA] Skillsta · Vocal funnel 2.0 [vocal] — getskillnow.com/quiz
-steps=34 stop=email_loop email@33 paywall@— popups=0 prices=— discount=— timer=false trial=false moneyBack=false
+steps=33 stop=email_loop email@33 paywall@— popups=0 prices=— discount=— timer=false trial=false moneyBack=false
 - [CHANGED] screen 1 question "First, how old are you?" (0 changed regions): data/runs/2026-10-13/funnels/skillsta-vocal-2/4ad23ce9af85/01.webp → data/runs/2026-10-21/funnels/skillsta-vocal-2/4ad23ce9af85/01.webp
 - [CHANGED] screen 2 question "What’s your gender?" (0 changed regions): data/runs/2026-10-13/funnels/skillsta-vocal-2/4ad23ce9af85/02.webp → data/runs/2026-10-21/funnels/skillsta-vocal-2/4ad23ce9af85/02.webp
 - [CHANGED] screen 3 social_proof "Over 1,000,000 people" (0 changed regions): data/runs/2026-10-13/funnels/skillsta-vocal-2/4ad23ce9af85/03.webp → data/runs/2026-10-21/funnels/skillsta-vocal-2/4ad23ce9af85/03.webp
@@ -65,13 +65,13 @@ steps=34 stop=email_loop email@33 paywall@— popups=0 prices=— discount=— t
 - [NEW] screen 31 question "✅": data/runs/2026-10-21/funnels/skillsta-vocal-2/4ad23ce9af85/31.webp
 - [NEW] screen 32 question "✅": data/runs/2026-10-21/funnels/skillsta-vocal-2/4ad23ce9af85/32.webp
 - [CHANGED] screen 33 email "Enter your email to get your personal plan Don't worry, no a" (0 changed regions): data/runs/2026-10-13/funnels/skillsta-vocal-2/4ad23ce9af85/33.webp → data/runs/2026-10-21/funnels/skillsta-vocal-2/4ad23ce9af85/33.webp
-- [CHANGED] screen 34 info "Enter verification code" (4 changed regions): data/runs/2026-10-13/funnels/skillsta-vocal-2/4ad23ce9af85/34.webp → data/runs/2026-10-21/funnels/skillsta-vocal-2/4ad23ce9af85/34.webp
 - [REMOVED] previous screen 30 question "✅": data/runs/2026-10-13/funnels/skillsta-vocal-2/4ad23ce9af85/30.webp
 - [REMOVED] previous screen 31 question "✅": data/runs/2026-10-13/funnels/skillsta-vocal-2/4ad23ce9af85/31.webp
 - [REMOVED] previous screen 32 question "✅": data/runs/2026-10-13/funnels/skillsta-vocal-2/4ad23ce9af85/32.webp
+- [REMOVED] previous screen 34 info "Enter verification code": data/runs/2026-10-13/funnels/skillsta-vocal-2/4ad23ce9af85/34.webp
 
 ### skillsta-vocal-scanner — [SKILLSTA] Skillsta · Vocal Scanner funnel [vocal] — getskillnow.com/quiz/voice_assessment/voice_assessment
-steps=32 stop=stuck email@30 paywall@— popups=0 prices=— discount=— timer=false trial=false moneyBack=false
+steps=31 stop=stuck email@30 paywall@— popups=0 prices=— discount=— timer=false trial=false moneyBack=false
 - [CHANGED] screen 1 info "DISCOVER YOUR VOCAL POTENTIAL IN 3 MINUTES" (0 changed regions): data/runs/2026-10-13/funnels/skillsta-vocal-scanner/64e78223efd7/01.webp → data/runs/2026-10-21/funnels/skillsta-vocal-scanner/64e78223efd7/01.webp
 - [CHANGED] screen 2 question "First, how old are you?" (0 changed regions): data/runs/2026-10-13/funnels/skillsta-vocal-scanner/64e78223efd7/02.webp → data/runs/2026-10-21/funnels/skillsta-vocal-scanner/64e78223efd7/02.webp
 - [CHANGED] screen 3 question "What's your gender?" (0 changed regions): data/runs/2026-10-13/funnels/skillsta-vocal-scanner/64e78223efd7/03.webp → data/runs/2026-10-21/funnels/skillsta-vocal-scanner/64e78223efd7/03.webp
@@ -102,11 +102,11 @@ steps=32 stop=stuck email@30 paywall@— popups=0 prices=— discount=— timer=
 - [CHANGED] screen 28 info "Hold steady" (0 changed regions): data/runs/2026-10-13/funnels/skillsta-vocal-scanner/64e78223efd7/28.webp → data/runs/2026-10-21/funnels/skillsta-vocal-scanner/64e78223efd7/28.webp
 - [CHANGED] screen 29 info "Got it!" (0 changed regions): data/runs/2026-10-13/funnels/skillsta-vocal-scanner/64e78223efd7/29.webp → data/runs/2026-10-21/funnels/skillsta-vocal-scanner/64e78223efd7/29.webp
 - [CHANGED] screen 30 email "Your results are ready Enter your email to get a full voice " (0 changed regions): data/runs/2026-10-13/funnels/skillsta-vocal-scanner/64e78223efd7/30.webp → data/runs/2026-10-21/funnels/skillsta-vocal-scanner/64e78223efd7/30.webp
-- [CHANGED] screen 31 info "Enter verification code" (3 changed regions): data/runs/2026-10-13/funnels/skillsta-vocal-scanner/64e78223efd7/31.webp → data/runs/2026-10-21/funnels/skillsta-vocal-scanner/64e78223efd7/31.webp
-- [NEW] screen 32 info "": data/runs/2026-10-21/funnels/skillsta-vocal-scanner/64e78223efd7/32.webp
+- [NEW] screen 31 info "": data/runs/2026-10-21/funnels/skillsta-vocal-scanner/64e78223efd7/31.webp
+- [REMOVED] previous screen 31 info "Enter verification code": data/runs/2026-10-13/funnels/skillsta-vocal-scanner/64e78223efd7/31.webp
 
 ### skillsta-drawing — [SKILLSTA] Skillsta · Drawing funnel [drawing] — start.getskillnow.com/quiz
-steps=35 stop=email_loop email@34 paywall@— popups=0 prices=— discount=— timer=false trial=false moneyBack=false
+steps=34 stop=email_loop email@34 paywall@— popups=0 prices=— discount=— timer=false trial=false moneyBack=false
 - [CHANGED] screen 1 question "First, how old are you?" (0 changed regions): data/runs/2026-10-13/funnels/skillsta-drawing/953d129ce40c/01.webp → data/runs/2026-10-21/funnels/skillsta-drawing/953d129ce40c/01.webp
 - [CHANGED] screen 2 question "What's your gender?" (0 changed regions): data/runs/2026-10-13/funnels/skillsta-drawing/953d129ce40c/02.webp → data/runs/2026-10-21/funnels/skillsta-drawing/953d129ce40c/02.webp
 - [CHANGED] screen 3 social_proof "Over 850,000 people" (0 changed regions): data/runs/2026-10-13/funnels/skillsta-drawing/953d129ce40c/03.webp → data/runs/2026-10-21/funnels/skillsta-drawing/953d129ce40c/03.webp
@@ -141,21 +141,24 @@ steps=35 stop=email_loop email@34 paywall@— popups=0 prices=— discount=— t
 - [NEW] screen 32 question "✅": data/runs/2026-10-21/funnels/skillsta-drawing/953d129ce40c/32.webp
 - [NEW] screen 33 question "✅": data/runs/2026-10-21/funnels/skillsta-drawing/953d129ce40c/33.webp
 - [CHANGED] screen 34 email "Enter your email to get your personal plan" (0 changed regions): data/runs/2026-10-13/funnels/skillsta-drawing/953d129ce40c/34.webp → data/runs/2026-10-21/funnels/skillsta-drawing/953d129ce40c/34.webp
-- [CHANGED] screen 35 info "Enter verification code" (3 changed regions): data/runs/2026-10-13/funnels/skillsta-drawing/953d129ce40c/35.webp → data/runs/2026-10-21/funnels/skillsta-drawing/953d129ce40c/35.webp
 - [REMOVED] previous screen 31 question "✅": data/runs/2026-10-13/funnels/skillsta-drawing/953d129ce40c/31.webp
 - [REMOVED] previous screen 32 question "✅": data/runs/2026-10-13/funnels/skillsta-drawing/953d129ce40c/32.webp
 - [REMOVED] previous screen 33 question "✅": data/runs/2026-10-13/funnels/skillsta-drawing/953d129ce40c/33.webp
+- [REMOVED] previous screen 35 info "Enter verification code": data/runs/2026-10-13/funnels/skillsta-drawing/953d129ce40c/35.webp
 
 ### imprint — Imprint [vocal+drawing] — imprintapp.com/start-buddhism
 steps=8 stop=stuck email@— paywall@— popups=0 prices=— discount=— timer=false trial=false moneyBack=false
 first capture of this funnel (no comparison)
 
 ### imprint — Imprint [vocal+drawing] — imprintapp.com/start-history
-steps=33 stop=email_rejected (email step said: "Email An account already exists with this email.") email@33 paywall@— popups=0 prices=— discount=— timer=false trial=false moneyBack=false
+steps=36 stop=paywall email@33 paywall@36 popups=0 prices=$11.99 $23.99 $16.99 $42.99 $49.99 $99.99 discount=50 timer=false trial=false moneyBack=true
+- [NEW] screen 34 info "Your Growth Plan": data/runs/2026-10-21/funnels/imprint/06cefd8c1237/34.webp
+- [NEW] screen 35 info "Become the most interesting person in the room": data/runs/2026-10-21/funnels/imprint/06cefd8c1237/35.webp
+- [NEW] screen 36 paywall "Choose a plan": data/runs/2026-10-21/funnels/imprint/06cefd8c1237/36.webp
 - [REMOVED] previous screen 34 email "Achieve your goals with Imprint": data/runs/2026-10-13/funnels/imprint/06cefd8c1237/34.webp
 
 ### breeze — Breeze [vocal+drawing] — try-breeze.com/funnel/childhood
-steps=33 stop=popup_blocked+paywall_direct email@— paywall@33 popups=1 prices=$1 $29.99 discount=— timer=false trial=true moneyBack=true
+steps=39 stop=paywall email@35 paywall@39 popups=0 prices=$1 $2 $10 $17.34 $39.99 $1.00 $0.14 $1.33 discount=— timer=true trial=true moneyBack=true
 - [CHANGED] screen 1 question "Choose your age" (2 changed regions): data/runs/2026-10-13/funnels/breeze/1e1f86ca9474/02.webp → data/runs/2026-10-21/funnels/breeze/1e1f86ca9474/01.webp
 - [CHANGED] screen 2 question "What is your gender identity?" (2 changed regions): data/runs/2026-10-13/funnels/breeze/1e1f86ca9474/01.webp → data/runs/2026-10-21/funnels/breeze/1e1f86ca9474/02.webp
 - [CHANGED] screen 3 question "In your childhood, your parents were..." (0 changed regions): data/runs/2026-10-13/funnels/breeze/1e1f86ca9474/03.webp → data/runs/2026-10-21/funnels/breeze/1e1f86ca9474/03.webp
@@ -187,20 +190,18 @@ steps=33 stop=popup_blocked+paywall_direct email@— paywall@33 popups=1 prices=
 - [CHANGED] screen 29 info "Hey there, what should we call you?" (0 changed regions): data/runs/2026-10-13/funnels/breeze/1e1f86ca9474/29.webp → data/runs/2026-10-21/funnels/breeze/1e1f86ca9474/29.webp
 - [CHANGED] screen 30 info "Breeze Effect" (1 changed regions): data/runs/2026-10-13/funnels/breeze/1e1f86ca9474/30.webp → data/runs/2026-10-21/funnels/breeze/1e1f86ca9474/30.webp
 - [CHANGED] screen 31 info "You did something beautiful for yourself" (0 changed regions): data/runs/2026-10-13/funnels/breeze/1e1f86ca9474/31.webp → data/runs/2026-10-21/funnels/breeze/1e1f86ca9474/31.webp
-- [NEW] screen 32 popup "Do you find yourself frequently avoiding places, people, or ": data/runs/2026-10-21/funnels/breeze/1e1f86ca9474/32.webp
-- [NEW] screen 33 paywall "Start your journey": data/runs/2026-10-21/funnels/breeze/1e1f86ca9474/33.webp
-- [REMOVED] previous screen 32 loader "Calculating your results...": data/runs/2026-10-13/funnels/breeze/1e1f86ca9474/32.webp
-- [REMOVED] previous screen 33 loader "Calculating your results...": data/runs/2026-10-13/funnels/breeze/1e1f86ca9474/33.webp
-- [REMOVED] previous screen 34 loader "Calculating your results...": data/runs/2026-10-13/funnels/breeze/1e1f86ca9474/34.webp
+- [CHANGED] screen 32 loader "Calculating your results..." (0 changed regions): data/runs/2026-10-13/funnels/breeze/1e1f86ca9474/32.webp → data/runs/2026-10-21/funnels/breeze/1e1f86ca9474/32.webp
+- [CHANGED] screen 33 loader "Calculating your results..." (0 changed regions): data/runs/2026-10-13/funnels/breeze/1e1f86ca9474/33.webp → data/runs/2026-10-21/funnels/breeze/1e1f86ca9474/33.webp
+- [CHANGED] screen 34 loader "Calculating your results..." (0 changed regions): data/runs/2026-10-13/funnels/breeze/1e1f86ca9474/34.webp → data/runs/2026-10-21/funnels/breeze/1e1f86ca9474/34.webp
+- [CHANGED] screen 35 email "Your results are ready" (0 changed regions): data/runs/2026-10-13/funnels/breeze/1e1f86ca9474/36.webp → data/runs/2026-10-21/funnels/breeze/1e1f86ca9474/35.webp
+- [CHANGED] screen 36 question "🇺🇸 United States" (0 changed regions): data/runs/2026-10-13/funnels/breeze/1e1f86ca9474/37.webp → data/runs/2026-10-21/funnels/breeze/1e1f86ca9474/36.webp
+- [CHANGED] screen 37 info "Feel the difference in just 7 days *Results may vary" (0 changed regions): data/runs/2026-10-13/funnels/breeze/1e1f86ca9474/38.webp → data/runs/2026-10-21/funnels/breeze/1e1f86ca9474/37.webp
+- [CHANGED] screen 38 info "Your personalized childhood experience profile is ready" (1 changed regions): data/runs/2026-10-13/funnels/breeze/1e1f86ca9474/39.webp → data/runs/2026-10-21/funnels/breeze/1e1f86ca9474/38.webp
+- [CHANGED] screen 39 paywall "Alex," (3 changed regions): data/runs/2026-10-13/funnels/breeze/1e1f86ca9474/40.webp → data/runs/2026-10-21/funnels/breeze/1e1f86ca9474/39.webp
 - [REMOVED] previous screen 35 loader "Calculating your results...": data/runs/2026-10-13/funnels/breeze/1e1f86ca9474/35.webp
-- [REMOVED] previous screen 36 email "Your results are ready": data/runs/2026-10-13/funnels/breeze/1e1f86ca9474/36.webp
-- [REMOVED] previous screen 37 question "🇺🇸 United States": data/runs/2026-10-13/funnels/breeze/1e1f86ca9474/37.webp
-- [REMOVED] previous screen 38 info "Feel the difference in just 7 days *Results may vary": data/runs/2026-10-13/funnels/breeze/1e1f86ca9474/38.webp
-- [REMOVED] previous screen 39 info "Your personalized childhood experience profile is ready": data/runs/2026-10-13/funnels/breeze/1e1f86ca9474/39.webp
-- [REMOVED] previous screen 40 paywall "Alex,": data/runs/2026-10-13/funnels/breeze/1e1f86ca9474/40.webp
 
 ### breeze — Breeze [vocal+drawing] — try-breeze.com/childhood
-steps=33 stop=popup_blocked+paywall_direct email@— paywall@33 popups=1 prices=$1 $29.99 discount=— timer=false trial=true moneyBack=true
+steps=39 stop=paywall email@35 paywall@39 popups=0 prices=$1 $2 $10 $17.34 $39.99 $1.00 $0.14 $1.33 discount=— timer=true trial=true moneyBack=true
 first capture of this funnel (no comparison)
 
 ### simply-piano — Simply Piano [vocal+drawing] — join-piano.hellosimply.com/start
@@ -302,11 +303,13 @@ steps=33 stop=paywall email@30 paywall@33 popups=1 prices=$17.49 $34.99 $209.90 
 - [REMOVED] previous screen 25 loader "Based on your answers, We’re creating your personalized plan": data/runs/2026-10-13/funnels/simply-piano/684145bcfb5c/25.webp
 
 ### memoryos — MemoryOS [vocal+drawing] — start.memoryos.com/new-h2?thm=light
-steps=32 stop=email_rejected (email step said: "Please enter a valid email address") email@32 paywall@— popups=0 prices=— discount=— timer=false trial=false moneyBack=false
+steps=35 stop=paywall email@32 paywall@35 popups=0 prices=$99.99 $36.99 $1.19 $
+0 $49.99 $15.19 $1.79 $119.99 $59.99 $0.71 discount=63 timer=true trial=false moneyBack=true
 first capture of this funnel (no comparison)
 
 ### memoryos — MemoryOS [vocal+drawing] — start.memoryos.com/new-s
-steps=32 stop=email_rejected (email step said: "Please enter a valid email address") email@32 paywall@— popups=0 prices=— discount=— timer=false trial=false moneyBack=false
+steps=35 stop=paywall email@32 paywall@35 popups=0 prices=$109.98 $40.69 $1.31 $
+0 $54.98 $16.49 $1.96 $134.98 $67.49 $0.80 discount=63 timer=true trial=false moneyBack=false
 - [CHANGED] screen 1 loader "Learn How To Train Your Memory After 50" (0 changed regions): data/runs/2026-10-13/funnels/memoryos/8df162c3ae21/01.webp → data/runs/2026-10-21/funnels/memoryos/8df162c3ae21/01.webp
 - [CHANGED] screen 2 question "Your Age Range" (0 changed regions): data/runs/2026-10-13/funnels/memoryos/8df162c3ae21/02.webp → data/runs/2026-10-21/funnels/memoryos/8df162c3ae21/02.webp
 - [CHANGED] screen 3 info "Rated #1 by Adults Over 50" (0 changed regions): data/runs/2026-10-13/funnels/memoryos/8df162c3ae21/03.webp → data/runs/2026-10-21/funnels/memoryos/8df162c3ae21/03.webp
@@ -339,9 +342,10 @@ steps=32 stop=email_rejected (email step said: "Please enter a valid email addre
 - [CHANGED] screen 30 question "Ready to embark on a journey to enhance your memory?" (0 changed regions): data/runs/2026-10-13/funnels/memoryos/8df162c3ae21/30.webp → data/runs/2026-10-21/funnels/memoryos/8df162c3ae21/30.webp
 - [CHANGED] screen 31 question "Set your daily commitment to develop a habit and stay motiva" (0 changed regions): data/runs/2026-10-13/funnels/memoryos/8df162c3ae21/31.webp → data/runs/2026-10-21/funnels/memoryos/8df162c3ae21/31.webp
 - [CHANGED] screen 32 email "Enter your email to get your memoryOS plan" (0 changed regions): data/runs/2026-10-13/funnels/memoryos/8df162c3ae21/33.webp → data/runs/2026-10-21/funnels/memoryos/8df162c3ae21/32.webp
+- [CHANGED] screen 33 info "How can we call you?" (0 changed regions): data/runs/2026-10-13/funnels/memoryos/8df162c3ae21/34.webp → data/runs/2026-10-21/funnels/memoryos/8df162c3ae21/33.webp
+- [CHANGED] screen 34 info "Your personal memory growth plan is ready" (0 changed regions): data/runs/2026-10-13/funnels/memoryos/8df162c3ae21/35.webp → data/runs/2026-10-21/funnels/memoryos/8df162c3ae21/34.webp
+- [NEW] screen 35 paywall "0": data/runs/2026-10-21/funnels/memoryos/8df162c3ae21/35.webp
 - [REMOVED] previous screen 32 loader "Over 1,000,000 adults over 50": data/runs/2026-10-13/funnels/memoryos/8df162c3ae21/32.webp
-- [REMOVED] previous screen 34 info "How can we call you?": data/runs/2026-10-13/funnels/memoryos/8df162c3ae21/34.webp
-- [REMOVED] previous screen 35 info "Your personal memory growth plan is ready": data/runs/2026-10-13/funnels/memoryos/8df162c3ae21/35.webp
 - [REMOVED] previous screen 36 paywall "0": data/runs/2026-10-13/funnels/memoryos/8df162c3ae21/36.webp
 
 ### chillio — Chillio [vocal+drawing] — quiz.get-chillio.app/qs/cleaning-game

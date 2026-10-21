@@ -6,20 +6,22 @@
   "adShot": "memoryos-7488926e110a.webp",
   "adId": "1637536248103962",
   "dir": "funnels/memoryos/7488926e110a",
-  "stop": "email_rejected",
+  "stop": "paywall",
   "proxied": false,
-  "email": "yelyzavetabazyla+fw261021memoryos1@gmail.com",
-  "emailNote": "Please enter a valid email address",
+  "email": "yel.yzavetabaz.yla@gmail.com",
+  "emailNote": null,
   "signedUp": null,
+  "restartUrl": null,
+  "finalUrl": "https://start.memoryos.com/new-h2/plan?thm=light&gbv=eyJnYl92YWx1ZSI6Miwic2F2ZWRfYXQiOiIyMDI2LTEwLTIxVDEzOjQ1OjI1LjY2M1oifQ%3D%3D&u=eyJjaWQiOiJhYWU3OWFhODAwZGIyOWI2NzNkMCIsImdjaWQiOiIxNzI0ODAzOTc0LjE3OTI1OTAzMjUiLCJlbWFpbCI6InllbC55emF2ZXRhYmF6LnlsYUBnbWFpbC5jb20iLCJuYW1lIjoiQWxleCIsInVzZXJfYWdlX3JhbmdlIjoiNTUiLCJ1c2VyX2dlbmRlciI6Im1hbGUiLCJ1c2VyX2dvYWwiOiJQZXJzb25hbCBkZXZlbG9wbWVudCIsImFuYWx5dGljc190cmFja2VkIjp7ImV2ZW50c1RyYWNrZWQiOnRydWUsImxhc3RUcmFja2VkVmFsdWVzIjp7ImNpZCI6ImFhZTc5YWE4MDBkYjI5YjY3M2QwIiwiZW1haWwiOiJ5ZWwueXphdmV0YWJhei55bGFAZ21haWwuY29tIiwibmFtZSI6IkFsZXgifX0sInBheW1lbnRfYmFja19wYXRoIjoicGxhbiIsImRldmljZV9pZCI6IjAwNDc2ZTIxLTgzODktNDU5Ny05YzZkLTEyYWQ1NzFhNmVkZiJ9&ds=ZmFsc2U%3D&tpd=eyJ0cFByb2R1Y3RUaXRsZSI6IjEyIFdlZWtzIEV4cGVydCBQbGFuIn0%3D",
   "steps": [
     {
       "n": 1,
       "file": "01.webp",
-      "url": "https://start.memoryos.com/new-h2?thm=light&gbv=eyJnYl92YWx1ZSI6Miwic2F2ZWRfYXQiOiIyMDI2LTEwLTIxVDEyOjQ4OjM5LjY2NVoifQ%3D%3D&u=eyJjaWQiOiJkMzFlODk5MGNmMGQ0NzU1ZjljNCIsImdjaWQiOiIxNTIzMTE5NTIxLjE3OTI1ODY5MjAiLCJhbmFseXRpY3NfdHJhY2tlZCI6eyJldmVudHNUcmFja2VkIjpmYWxzZSwibGFzdFRyYWNrZWRWYWx1ZXMiOnsiY2lkIjpudWxsLCJlbWFpbCI6bnVsbCwibmFtZSI6bnVsbH19LCJwYXltZW50X2JhY2tfcGF0aCI6InBsYW4iLCJkZXZpY2VfaWQiOiI1YmFiZTBjMi03ZDVkLTRiNjMtYWI2Ni03M2Y4YWY5OGI0ODkifQ%3D%3D&ds=ZmFsc2U%3D&tpd=eyJ0cFByb2R1Y3RUaXRsZSI6IjEyIFdlZWtzIEV4cGVydCBQbGFuIn0%3D",
+      "url": "https://start.memoryos.com/new-h2?thm=light&gbv=eyJnYl92YWx1ZSI6Miwic2F2ZWRfYXQiOiIyMDI2LTEwLTIxVDEzOjQ1OjI1LjY2M1oifQ%3D%3D&u=eyJjaWQiOiJhYWU3OWFhODAwZGIyOWI2NzNkMCIsImdjaWQiOiIxNzI0ODAzOTc0LjE3OTI1OTAzMjUiLCJhbmFseXRpY3NfdHJhY2tlZCI6eyJldmVudHNUcmFja2VkIjpmYWxzZSwibGFzdFRyYWNrZWRWYWx1ZXMiOnsiY2lkIjpudWxsLCJlbWFpbCI6bnVsbCwibmFtZSI6bnVsbH19LCJwYXltZW50X2JhY2tfcGF0aCI6InBsYW4iLCJkZXZpY2VfaWQiOiIwMDQ3NmUyMS04Mzg5LTQ1OTctOWM2ZC0xMmFkNTcxYTZlZGYifQ%3D%3D&ds=ZmFsc2U%3D&tpd=eyJ0cFByb2R1Y3RUaXRsZSI6IjEyIFdlZWtzIEV4cGVydCBQbGFuIn0%3D",
       "path": "/new-h2",
       "title": "Forgetting names and details even though you’re capable?",
       "kind": "loader",
-      "text": "Forgetting names and details even though you’re capable?\nMemory slips are common and frustrating\n– but they’re reversible\nMost people struggle with these\nPreparing your memory insights\n91%",
+      "text": "Forgetting names and details even though you’re capable?\nMemory slips are common and frustrating\n– but they’re reversible\nMost people struggle with these\nPreparing your memory insights\n85%",
       "textHash": "47629dbf345e",
       "dhash": "1100110011110000111100000111000011010100110110001100000010000100",
       "h": 844,
@@ -31,7 +33,7 @@
     {
       "n": 2,
       "file": "02.webp",
-      "url": "https://start.memoryos.com/new-h2/quiz/1?thm=light&gbv=eyJnYl92YWx1ZSI6Miwic2F2ZWRfYXQiOiIyMDI2LTEwLTIxVDEyOjQ4OjM5LjY2NVoifQ%3D%3D&u=eyJjaWQiOiJkMzFlODk5MGNmMGQ0NzU1ZjljNCIsImdjaWQiOiIxNTIzMTE5NTIxLjE3OTI1ODY5MjAiLCJhbmFseXRpY3NfdHJhY2tlZCI6eyJldmVudHNUcmFja2VkIjpmYWxzZSwibGFzdFRyYWNrZWRWYWx1ZXMiOnsiY2lkIjpudWxsLCJlbWFpbCI6bnVsbCwibmFtZSI6bnVsbH19LCJwYXltZW50X2JhY2tfcGF0aCI6InBsYW4iLCJkZXZpY2VfaWQiOiI1YmFiZTBjMi03ZDVkLTRiNjMtYWI2Ni03M2Y4YWY5OGI0ODkifQ%3D%3D&ds=ZmFsc2U%3D&tpd=eyJ0cFByb2R1Y3RUaXRsZSI6IjEyIFdlZWtzIEV4cGVydCBQbGFuIn0%3D",
+      "url": "https://start.memoryos.com/new-h2/quiz/1?thm=light&gbv=eyJnYl92YWx1ZSI6Miwic2F2ZWRfYXQiOiIyMDI2LTEwLTIxVDEzOjQ1OjI1LjY2M1oifQ%3D%3D&u=eyJjaWQiOiJhYWU3OWFhODAwZGIyOWI2NzNkMCIsImdjaWQiOiIxNzI0ODAzOTc0LjE3OTI1OTAzMjUiLCJhbmFseXRpY3NfdHJhY2tlZCI6eyJldmVudHNUcmFja2VkIjpmYWxzZSwibGFzdFRyYWNrZWRWYWx1ZXMiOnsiY2lkIjpudWxsLCJlbWFpbCI6bnVsbCwibmFtZSI6bnVsbH19LCJwYXltZW50X2JhY2tfcGF0aCI6InBsYW4iLCJkZXZpY2VfaWQiOiIwMDQ3NmUyMS04Mzg5LTQ1OTctOWM2ZC0xMmFkNTcxYTZlZGYifQ%3D%3D&ds=ZmFsc2U%3D&tpd=eyJ0cFByb2R1Y3RUaXRsZSI6IjEyIFdlZWtzIEV4cGVydCBQbGFuIn0%3D",
       "path": "/new-h2/quiz/1",
       "title": "Your Age Range",
       "kind": "question",
@@ -47,7 +49,7 @@
     {
       "n": 3,
       "file": "03.webp",
-      "url": "https://start.memoryos.com/new-h2/quiz/2?thm=light&gbv=eyJnYl92YWx1ZSI6Miwic2F2ZWRfYXQiOiIyMDI2LTEwLTIxVDEyOjQ4OjM5LjY2NVoifQ%3D%3D&u=eyJjaWQiOiJkMzFlODk5MGNmMGQ0NzU1ZjljNCIsImdjaWQiOiIxNTIzMTE5NTIxLjE3OTI1ODY5MjAiLCJ1c2VyX2FnZV9yYW5nZSI6IjU1IiwiYW5hbHl0aWNzX3RyYWNrZWQiOnsiZXZlbnRzVHJhY2tlZCI6ZmFsc2UsImxhc3RUcmFja2VkVmFsdWVzIjp7ImNpZCI6bnVsbCwiZW1haWwiOm51bGwsIm5hbWUiOm51bGx9fSwicGF5bWVudF9iYWNrX3BhdGgiOiJwbGFuIiwiZGV2aWNlX2lkIjoiNWJhYmUwYzItN2Q1ZC00YjYzLWFiNjYtNzNmOGFmOThiNDg5In0%3D&ds=ZmFsc2U%3D&tpd=eyJ0cFByb2R1Y3RUaXRsZSI6IjEyIFdlZWtzIEV4cGVydCBQbGFuIn0%3D",
+      "url": "https://start.memoryos.com/new-h2/quiz/2?thm=light&gbv=eyJnYl92YWx1ZSI6Miwic2F2ZWRfYXQiOiIyMDI2LTEwLTIxVDEzOjQ1OjI1LjY2M1oifQ%3D%3D&u=eyJjaWQiOiJhYWU3OWFhODAwZGIyOWI2NzNkMCIsImdjaWQiOiIxNzI0ODAzOTc0LjE3OTI1OTAzMjUiLCJ1c2VyX2FnZV9yYW5nZSI6IjU1IiwiYW5hbHl0aWNzX3RyYWNrZWQiOnsiZXZlbnRzVHJhY2tlZCI6ZmFsc2UsImxhc3RUcmFja2VkVmFsdWVzIjp7ImNpZCI6bnVsbCwiZW1haWwiOm51bGwsIm5hbWUiOm51bGx9fSwicGF5bWVudF9iYWNrX3BhdGgiOiJwbGFuIiwiZGV2aWNlX2lkIjoiMDA0NzZlMjEtODM4OS00NTk3LTljNmQtMTJhZDU3MWE2ZWRmIn0%3D&ds=ZmFsc2U%3D&tpd=eyJ0cFByb2R1Y3RUaXRsZSI6IjEyIFdlZWtzIEV4cGVydCBQbGFuIn0%3D",
       "path": "/new-h2/quiz/2",
       "title": "Kickstarter's #1 App",
       "kind": "info",
@@ -63,7 +65,7 @@
     {
       "n": 4,
       "file": "04.webp",
-      "url": "https://start.memoryos.com/new-h2/quiz/3?thm=light&gbv=eyJnYl92YWx1ZSI6Miwic2F2ZWRfYXQiOiIyMDI2LTEwLTIxVDEyOjQ4OjM5LjY2NVoifQ%3D%3D&u=eyJjaWQiOiJkMzFlODk5MGNmMGQ0NzU1ZjljNCIsImdjaWQiOiIxNTIzMTE5NTIxLjE3OTI1ODY5MjAiLCJ1c2VyX2FnZV9yYW5nZSI6IjU1IiwiYW5hbHl0aWNzX3RyYWNrZWQiOnsiZXZlbnRzVHJhY2tlZCI6ZmFsc2UsImxhc3RUcmFja2VkVmFsdWVzIjp7ImNpZCI6bnVsbCwiZW1haWwiOm51bGwsIm5hbWUiOm51bGx9fSwicGF5bWVudF9iYWNrX3BhdGgiOiJwbGFuIiwiZGV2aWNlX2lkIjoiNWJhYmUwYzItN2Q1ZC00YjYzLWFiNjYtNzNmOGFmOThiNDg5In0%3D&ds=ZmFsc2U%3D&tpd=eyJ0cFByb2R1Y3RUaXRsZSI6IjEyIFdlZWtzIEV4cGVydCBQbGFuIn0%3D",
+      "url": "https://start.memoryos.com/new-h2/quiz/3?thm=light&gbv=eyJnYl92YWx1ZSI6Miwic2F2ZWRfYXQiOiIyMDI2LTEwLTIxVDEzOjQ1OjI1LjY2M1oifQ%3D%3D&u=eyJjaWQiOiJhYWU3OWFhODAwZGIyOWI2NzNkMCIsImdjaWQiOiIxNzI0ODAzOTc0LjE3OTI1OTAzMjUiLCJ1c2VyX2FnZV9yYW5nZSI6IjU1IiwiYW5hbHl0aWNzX3RyYWNrZWQiOnsiZXZlbnRzVHJhY2tlZCI6ZmFsc2UsImxhc3RUcmFja2VkVmFsdWVzIjp7ImNpZCI6bnVsbCwiZW1haWwiOm51bGwsIm5hbWUiOm51bGx9fSwicGF5bWVudF9iYWNrX3BhdGgiOiJwbGFuIiwiZGV2aWNlX2lkIjoiMDA0NzZlMjEtODM4OS00NTk3LTljNmQtMTJhZDU3MWE2ZWRmIn0%3D&ds=ZmFsc2U%3D&tpd=eyJ0cFByb2R1Y3RUaXRsZSI6IjEyIFdlZWtzIEV4cGVydCBQbGFuIn0%3D",
       "path": "/new-h2/quiz/3",
       "title": "Select your gender",
       "kind": "question",
@@ -79,7 +81,7 @@
     {
       "n": 5,
       "file": "05.webp",
-      "url": "https://start.memoryos.com/new-h2/quiz/4?thm=light&gbv=eyJnYl92YWx1ZSI6Miwic2F2ZWRfYXQiOiIyMDI2LTEwLTIxVDEyOjQ4OjM5LjY2NVoifQ%3D%3D&u=eyJjaWQiOiJkMzFlODk5MGNmMGQ0NzU1ZjljNCIsImdjaWQiOiIxNTIzMTE5NTIxLjE3OTI1ODY5MjAiLCJ1c2VyX2FnZV9yYW5nZSI6IjU1IiwidXNlcl9nZW5kZXIiOiJtYWxlIiwiYW5hbHl0aWNzX3RyYWNrZWQiOnsiZXZlbnRzVHJhY2tlZCI6ZmFsc2UsImxhc3RUcmFja2VkVmFsdWVzIjp7ImNpZCI6bnVsbCwiZW1haWwiOm51bGwsIm5hbWUiOm51bGx9fSwicGF5bWVudF9iYWNrX3BhdGgiOiJwbGFuIiwiZGV2aWNlX2lkIjoiNWJhYmUwYzItN2Q1ZC00YjYzLWFiNjYtNzNmOGFmOThiNDg5In0%3D&ds=ZmFsc2U%3D&tpd=eyJ0cFByb2R1Y3RUaXRsZSI6IjEyIFdlZWtzIEV4cGVydCBQbGFuIn0%3D",
+      "url": "https://start.memoryos.com/new-h2/quiz/4?thm=light&gbv=eyJnYl92YWx1ZSI6Miwic2F2ZWRfYXQiOiIyMDI2LTEwLTIxVDEzOjQ1OjI1LjY2M1oifQ%3D%3D&u=eyJjaWQiOiJhYWU3OWFhODAwZGIyOWI2NzNkMCIsImdjaWQiOiIxNzI0ODAzOTc0LjE3OTI1OTAzMjUiLCJ1c2VyX2FnZV9yYW5nZSI6IjU1IiwidXNlcl9nZW5kZXIiOiJtYWxlIiwiYW5hbHl0aWNzX3RyYWNrZWQiOnsiZXZlbnRzVHJhY2tlZCI6ZmFsc2UsImxhc3RUcmFja2VkVmFsdWVzIjp7ImNpZCI6bnVsbCwiZW1haWwiOm51bGwsIm5hbWUiOm51bGx9fSwicGF5bWVudF9iYWNrX3BhdGgiOiJwbGFuIiwiZGV2aWNlX2lkIjoiMDA0NzZlMjEtODM4OS00NTk3LTljNmQtMTJhZDU3MWE2ZWRmIn0%3D&ds=ZmFsc2U%3D&tpd=eyJ0cFByb2R1Y3RUaXRsZSI6IjEyIFdlZWtzIEV4cGVydCBQbGFuIn0%3D",
       "path": "/new-h2/quiz/4",
       "title": "What would you use your superior memory for?",
       "kind": "question",
@@ -95,7 +97,7 @@
     {
       "n": 6,
       "file": "06.webp",
-      "url": "https://start.memoryos.com/new-h2/quiz/5?thm=light&gbv=eyJnYl92YWx1ZSI6Miwic2F2ZWRfYXQiOiIyMDI2LTEwLTIxVDEyOjQ4OjM5LjY2NVoifQ%3D%3D&u=eyJjaWQiOiJkMzFlODk5MGNmMGQ0NzU1ZjljNCIsImdjaWQiOiIxNTIzMTE5NTIxLjE3OTI1ODY5MjAiLCJ1c2VyX2FnZV9yYW5nZSI6IjU1IiwidXNlcl9nZW5kZXIiOiJtYWxlIiwidXNlcl9nb2FsIjoiUGVyc29uYWwgZGV2ZWxvcG1lbnQiLCJhbmFseXRpY3NfdHJhY2tlZCI6eyJldmVudHNUcmFja2VkIjpmYWxzZSwibGFzdFRyYWNrZWRWYWx1ZXMiOnsiY2lkIjpudWxsLCJlbWFpbCI6bnVsbCwibmFtZSI6bnVsbH19LCJwYXltZW50X2JhY2tfcGF0aCI6InBsYW4iLCJkZXZpY2VfaWQiOiI1YmFiZTBjMi03ZDVkLTRiNjMtYWI2Ni03M2Y4YWY5OGI0ODkifQ%3D%3D&ds=ZmFsc2U%3D&tpd=eyJ0cFByb2R1Y3RUaXRsZSI6IjEyIFdlZWtzIEV4cGVydCBQbGFuIn0%3D",
+      "url": "https://start.memoryos.com/new-h2/quiz/5?thm=light&gbv=eyJnYl92YWx1ZSI6Miwic2F2ZWRfYXQiOiIyMDI2LTEwLTIxVDEzOjQ1OjI1LjY2M1oifQ%3D%3D&u=eyJjaWQiOiJhYWU3OWFhODAwZGIyOWI2NzNkMCIsImdjaWQiOiIxNzI0ODAzOTc0LjE3OTI1OTAzMjUiLCJ1c2VyX2FnZV9yYW5nZSI6IjU1IiwidXNlcl9nZW5kZXIiOiJtYWxlIiwidXNlcl9nb2FsIjoiUGVyc29uYWwgZGV2ZWxvcG1lbnQiLCJhbmFseXRpY3NfdHJhY2tlZCI6eyJldmVudHNUcmFja2VkIjpmYWxzZSwibGFzdFRyYWNrZWRWYWx1ZXMiOnsiY2lkIjpudWxsLCJlbWFpbCI6bnVsbCwibmFtZSI6bnVsbH19LCJwYXltZW50X2JhY2tfcGF0aCI6InBsYW4iLCJkZXZpY2VfaWQiOiIwMDQ3NmUyMS04Mzg5LTQ1OTctOWM2ZC0xMmFkNTcxYTZlZGYifQ%3D%3D&ds=ZmFsc2U%3D&tpd=eyJ0cFByb2R1Y3RUaXRsZSI6IjEyIFdlZWtzIEV4cGVydCBQbGFuIn0%3D",
       "path": "/new-h2/quiz/5",
       "title": "Glad you're here!",
       "kind": "info",
@@ -111,7 +113,7 @@
     {
       "n": 7,
       "file": "07.webp",
-      "url": "https://start.memoryos.com/new-h2/quiz/6?thm=light&gbv=eyJnYl92YWx1ZSI6Miwic2F2ZWRfYXQiOiIyMDI2LTEwLTIxVDEyOjQ4OjM5LjY2NVoifQ%3D%3D&u=eyJjaWQiOiJkMzFlODk5MGNmMGQ0NzU1ZjljNCIsImdjaWQiOiIxNTIzMTE5NTIxLjE3OTI1ODY5MjAiLCJ1c2VyX2FnZV9yYW5nZSI6IjU1IiwidXNlcl9nZW5kZXIiOiJtYWxlIiwidXNlcl9nb2FsIjoiUGVyc29uYWwgZGV2ZWxvcG1lbnQiLCJhbmFseXRpY3NfdHJhY2tlZCI6eyJldmVudHNUcmFja2VkIjpmYWxzZSwibGFzdFRyYWNrZWRWYWx1ZXMiOnsiY2lkIjpudWxsLCJlbWFpbCI6bnVsbCwibmFtZSI6bnVsbH19LCJwYXltZW50X2JhY2tfcGF0aCI6InBsYW4iLCJkZXZpY2VfaWQiOiI1YmFiZTBjMi03ZDVkLTRiNjMtYWI2Ni03M2Y4YWY5OGI0ODkifQ%3D%3D&ds=ZmFsc2U%3D&tpd=eyJ0cFByb2R1Y3RUaXRsZSI6IjEyIFdlZWtzIEV4cGVydCBQbGFuIn0%3D",
+      "url": "https://start.memoryos.com/new-h2/quiz/6?thm=light&gbv=eyJnYl92YWx1ZSI6Miwic2F2ZWRfYXQiOiIyMDI2LTEwLTIxVDEzOjQ1OjI1LjY2M1oifQ%3D%3D&u=eyJjaWQiOiJhYWU3OWFhODAwZGIyOWI2NzNkMCIsImdjaWQiOiIxNzI0ODAzOTc0LjE3OTI1OTAzMjUiLCJ1c2VyX2FnZV9yYW5nZSI6IjU1IiwidXNlcl9nZW5kZXIiOiJtYWxlIiwidXNlcl9nb2FsIjoiUGVyc29uYWwgZGV2ZWxvcG1lbnQiLCJhbmFseXRpY3NfdHJhY2tlZCI6eyJldmVudHNUcmFja2VkIjpmYWxzZSwibGFzdFRyYWNrZWRWYWx1ZXMiOnsiY2lkIjpudWxsLCJlbWFpbCI6bnVsbCwibmFtZSI6bnVsbH19LCJwYXltZW50X2JhY2tfcGF0aCI6InBsYW4iLCJkZXZpY2VfaWQiOiIwMDQ3NmUyMS04Mzg5LTQ1OTctOWM2ZC0xMmFkNTcxYTZlZGYifQ%3D%3D&ds=ZmFsc2U%3D&tpd=eyJ0cFByb2R1Y3RUaXRsZSI6IjEyIFdlZWtzIEV4cGVydCBQbGFuIn0%3D",
       "path": "/new-h2/quiz/6",
       "title": "How often do you find yourself forgetting important information?",
       "kind": "question",
@@ -127,7 +129,7 @@
     {
       "n": 8,
       "file": "08.webp",
-      "url": "https://start.memoryos.com/new-h2/quiz/7?thm=light&gbv=eyJnYl92YWx1ZSI6Miwic2F2ZWRfYXQiOiIyMDI2LTEwLTIxVDEyOjQ4OjM5LjY2NVoifQ%3D%3D&u=eyJjaWQiOiJkMzFlODk5MGNmMGQ0NzU1ZjljNCIsImdjaWQiOiIxNTIzMTE5NTIxLjE3OTI1ODY5MjAiLCJ1c2VyX2FnZV9yYW5nZSI6IjU1IiwidXNlcl9nZW5kZXIiOiJtYWxlIiwidXNlcl9nb2FsIjoiUGVyc29uYWwgZGV2ZWxvcG1lbnQiLCJhbmFseXRpY3NfdHJhY2tlZCI6eyJldmVudHNUcmFja2VkIjpmYWxzZSwibGFzdFRyYWNrZWRWYWx1ZXMiOnsiY2lkIjpudWxsLCJlbWFpbCI6bnVsbCwibmFtZSI6bnVsbH19LCJwYXltZW50X2JhY2tfcGF0aCI6InBsYW4iLCJkZXZpY2VfaWQiOiI1YmFiZTBjMi03ZDVkLTRiNjMtYWI2Ni03M2Y4YWY5OGI0ODkifQ%3D%3D&ds=ZmFsc2U%3D&tpd=eyJ0cFByb2R1Y3RUaXRsZSI6IjEyIFdlZWtzIEV4cGVydCBQbGFuIn0%3D",
+      "url": "https://start.memoryos.com/new-h2/quiz/7?thm=light&gbv=eyJnYl92YWx1ZSI6Miwic2F2ZWRfYXQiOiIyMDI2LTEwLTIxVDEzOjQ1OjI1LjY2M1oifQ%3D%3D&u=eyJjaWQiOiJhYWU3OWFhODAwZGIyOWI2NzNkMCIsImdjaWQiOiIxNzI0ODAzOTc0LjE3OTI1OTAzMjUiLCJ1c2VyX2FnZV9yYW5nZSI6IjU1IiwidXNlcl9nZW5kZXIiOiJtYWxlIiwidXNlcl9nb2FsIjoiUGVyc29uYWwgZGV2ZWxvcG1lbnQiLCJhbmFseXRpY3NfdHJhY2tlZCI6eyJldmVudHNUcmFja2VkIjpmYWxzZSwibGFzdFRyYWNrZWRWYWx1ZXMiOnsiY2lkIjpudWxsLCJlbWFpbCI6bnVsbCwibmFtZSI6bnVsbH19LCJwYXltZW50X2JhY2tfcGF0aCI6InBsYW4iLCJkZXZpY2VfaWQiOiIwMDQ3NmUyMS04Mzg5LTQ1OTctOWM2ZC0xMmFkNTcxYTZlZGYifQ%3D%3D&ds=ZmFsc2U%3D&tpd=eyJ0cFByb2R1Y3RUaXRsZSI6IjEyIFdlZWtzIEV4cGVydCBQbGFuIn0%3D",
       "path": "/new-h2/quiz/7",
       "title": "Weak memory is not your fault",
       "kind": "info",
@@ -143,7 +145,7 @@
     {
       "n": 9,
       "file": "09.webp",
-      "url": "https://start.memoryos.com/new-h2/quiz/8?thm=light&gbv=eyJnYl92YWx1ZSI6Miwic2F2ZWRfYXQiOiIyMDI2LTEwLTIxVDEyOjQ4OjM5LjY2NVoifQ%3D%3D&u=eyJjaWQiOiJkMzFlODk5MGNmMGQ0NzU1ZjljNCIsImdjaWQiOiIxNTIzMTE5NTIxLjE3OTI1ODY5MjAiLCJ1c2VyX2FnZV9yYW5nZSI6IjU1IiwidXNlcl9nZW5kZXIiOiJtYWxlIiwidXNlcl9nb2FsIjoiUGVyc29uYWwgZGV2ZWxvcG1lbnQiLCJhbmFseXRpY3NfdHJhY2tlZCI6eyJldmVudHNUcmFja2VkIjpmYWxzZSwibGFzdFRyYWNrZWRWYWx1ZXMiOnsiY2lkIjpudWxsLCJlbWFpbCI6bnVsbCwibmFtZSI6bnVsbH19LCJwYXltZW50X2JhY2tfcGF0aCI6InBsYW4iLCJkZXZpY2VfaWQiOiI1YmFiZTBjMi03ZDVkLTRiNjMtYWI2Ni03M2Y4YWY5OGI0ODkifQ%3D%3D&ds=ZmFsc2U%3D&tpd=eyJ0cFByb2R1Y3RUaXRsZSI6IjEyIFdlZWtzIEV4cGVydCBQbGFuIn0%3D",
+      "url": "https://start.memoryos.com/new-h2/quiz/8?thm=light&gbv=eyJnYl92YWx1ZSI6Miwic2F2ZWRfYXQiOiIyMDI2LTEwLTIxVDEzOjQ1OjI1LjY2M1oifQ%3D%3D&u=eyJjaWQiOiJhYWU3OWFhODAwZGIyOWI2NzNkMCIsImdjaWQiOiIxNzI0ODAzOTc0LjE3OTI1OTAzMjUiLCJ1c2VyX2FnZV9yYW5nZSI6IjU1IiwidXNlcl9nZW5kZXIiOiJtYWxlIiwidXNlcl9nb2FsIjoiUGVyc29uYWwgZGV2ZWxvcG1lbnQiLCJhbmFseXRpY3NfdHJhY2tlZCI6eyJldmVudHNUcmFja2VkIjpmYWxzZSwibGFzdFRyYWNrZWRWYWx1ZXMiOnsiY2lkIjpudWxsLCJlbWFpbCI6bnVsbCwibmFtZSI6bnVsbH19LCJwYXltZW50X2JhY2tfcGF0aCI6InBsYW4iLCJkZXZpY2VfaWQiOiIwMDQ3NmUyMS04Mzg5LTQ1OTctOWM2ZC0xMmFkNTcxYTZlZGYifQ%3D%3D&ds=ZmFsc2U%3D&tpd=eyJ0cFByb2R1Y3RUaXRsZSI6IjEyIFdlZWtzIEV4cGVydCBQbGFuIn0%3D",
       "path": "/new-h2/quiz/8",
       "title": "Forgetting what frustrates you the most?",
       "kind": "question",
@@ -160,7 +162,7 @@
     {
       "n": 10,
       "file": "10.webp",
-      "url": "https://start.memoryos.com/new-h2/quiz/9?thm=light&gbv=eyJnYl92YWx1ZSI6Miwic2F2ZWRfYXQiOiIyMDI2LTEwLTIxVDEyOjQ4OjM5LjY2NVoifQ%3D%3D&u=eyJjaWQiOiJkMzFlODk5MGNmMGQ0NzU1ZjljNCIsImdjaWQiOiIxNTIzMTE5NTIxLjE3OTI1ODY5MjAiLCJ1c2VyX2FnZV9yYW5nZSI6IjU1IiwidXNlcl9nZW5kZXIiOiJtYWxlIiwidXNlcl9nb2FsIjoiUGVyc29uYWwgZGV2ZWxvcG1lbnQiLCJhbmFseXRpY3NfdHJhY2tlZCI6eyJldmVudHNUcmFja2VkIjpmYWxzZSwibGFzdFRyYWNrZWRWYWx1ZXMiOnsiY2lkIjpudWxsLCJlbWFpbCI6bnVsbCwibmFtZSI6bnVsbH19LCJwYXltZW50X2JhY2tfcGF0aCI6InBsYW4iLCJkZXZpY2VfaWQiOiI1YmFiZTBjMi03ZDVkLTRiNjMtYWI2Ni03M2Y4YWY5OGI0ODkifQ%3D%3D&ds=ZmFsc2U%3D&tpd=eyJ0cFByb2R1Y3RUaXRsZSI6IjEyIFdlZWtzIEV4cGVydCBQbGFuIn0%3D",
+      "url": "https://start.memoryos.com/new-h2/quiz/9?thm=light&gbv=eyJnYl92YWx1ZSI6Miwic2F2ZWRfYXQiOiIyMDI2LTEwLTIxVDEzOjQ1OjI1LjY2M1oifQ%3D%3D&u=eyJjaWQiOiJhYWU3OWFhODAwZGIyOWI2NzNkMCIsImdjaWQiOiIxNzI0ODAzOTc0LjE3OTI1OTAzMjUiLCJ1c2VyX2FnZV9yYW5nZSI6IjU1IiwidXNlcl9nZW5kZXIiOiJtYWxlIiwidXNlcl9nb2FsIjoiUGVyc29uYWwgZGV2ZWxvcG1lbnQiLCJhbmFseXRpY3NfdHJhY2tlZCI6eyJldmVudHNUcmFja2VkIjpmYWxzZSwibGFzdFRyYWNrZWRWYWx1ZXMiOnsiY2lkIjpudWxsLCJlbWFpbCI6bnVsbCwibmFtZSI6bnVsbH19LCJwYXltZW50X2JhY2tfcGF0aCI6InBsYW4iLCJkZXZpY2VfaWQiOiIwMDQ3NmUyMS04Mzg5LTQ1OTctOWM2ZC0xMmFkNTcxYTZlZGYifQ%3D%3D&ds=ZmFsc2U%3D&tpd=eyJ0cFByb2R1Y3RUaXRsZSI6IjEyIFdlZWtzIEV4cGVydCBQbGFuIn0%3D",
       "path": "/new-h2/quiz/9",
       "title": "No worries! We got you!",
       "kind": "info",
@@ -176,7 +178,7 @@
     {
       "n": 11,
       "file": "11.webp",
-      "url": "https://start.memoryos.com/new-h2/quiz/10?thm=light&gbv=eyJnYl92YWx1ZSI6Miwic2F2ZWRfYXQiOiIyMDI2LTEwLTIxVDEyOjQ4OjM5LjY2NVoifQ%3D%3D&u=eyJjaWQiOiJkMzFlODk5MGNmMGQ0NzU1ZjljNCIsImdjaWQiOiIxNTIzMTE5NTIxLjE3OTI1ODY5MjAiLCJ1c2VyX2FnZV9yYW5nZSI6IjU1IiwidXNlcl9nZW5kZXIiOiJtYWxlIiwidXNlcl9nb2FsIjoiUGVyc29uYWwgZGV2ZWxvcG1lbnQiLCJhbmFseXRpY3NfdHJhY2tlZCI6eyJldmVudHNUcmFja2VkIjpmYWxzZSwibGFzdFRyYWNrZWRWYWx1ZXMiOnsiY2lkIjpudWxsLCJlbWFpbCI6bnVsbCwibmFtZSI6bnVsbH19LCJwYXltZW50X2JhY2tfcGF0aCI6InBsYW4iLCJkZXZpY2VfaWQiOiI1YmFiZTBjMi03ZDVkLTRiNjMtYWI2Ni03M2Y4YWY5OGI0ODkifQ%3D%3D&ds=ZmFsc2U%3D&tpd=eyJ0cFByb2R1Y3RUaXRsZSI6IjEyIFdlZWtzIEV4cGVydCBQbGFuIn0%3D",
+      "url": "https://start.memoryos.com/new-h2/quiz/10?thm=light&gbv=eyJnYl92YWx1ZSI6Miwic2F2ZWRfYXQiOiIyMDI2LTEwLTIxVDEzOjQ1OjI1LjY2M1oifQ%3D%3D&u=eyJjaWQiOiJhYWU3OWFhODAwZGIyOWI2NzNkMCIsImdjaWQiOiIxNzI0ODAzOTc0LjE3OTI1OTAzMjUiLCJ1c2VyX2FnZV9yYW5nZSI6IjU1IiwidXNlcl9nZW5kZXIiOiJtYWxlIiwidXNlcl9nb2FsIjoiUGVyc29uYWwgZGV2ZWxvcG1lbnQiLCJhbmFseXRpY3NfdHJhY2tlZCI6eyJldmVudHNUcmFja2VkIjpmYWxzZSwibGFzdFRyYWNrZWRWYWx1ZXMiOnsiY2lkIjpudWxsLCJlbWFpbCI6bnVsbCwibmFtZSI6bnVsbH19LCJwYXltZW50X2JhY2tfcGF0aCI6InBsYW4iLCJkZXZpY2VfaWQiOiIwMDQ3NmUyMS04Mzg5LTQ1OTctOWM2ZC0xMmFkNTcxYTZlZGYifQ%3D%3D&ds=ZmFsc2U%3D&tpd=eyJ0cFByb2R1Y3RUaXRsZSI6IjEyIFdlZWtzIEV4cGVydCBQbGFuIn0%3D",
       "path": "/new-h2/quiz/10",
       "title": "Ever forget names right after an introduction?",
       "kind": "question",
@@ -192,7 +194,7 @@
     {
       "n": 12,
       "file": "12.webp",
-      "url": "https://start.memoryos.com/new-h2/quiz/11?thm=light&gbv=eyJnYl92YWx1ZSI6Miwic2F2ZWRfYXQiOiIyMDI2LTEwLTIxVDEyOjQ4OjM5LjY2NVoifQ%3D%3D&u=eyJjaWQiOiJkMzFlODk5MGNmMGQ0NzU1ZjljNCIsImdjaWQiOiIxNTIzMTE5NTIxLjE3OTI1ODY5MjAiLCJ1c2VyX2FnZV9yYW5nZSI6IjU1IiwidXNlcl9nZW5kZXIiOiJtYWxlIiwidXNlcl9nb2FsIjoiUGVyc29uYWwgZGV2ZWxvcG1lbnQiLCJhbmFseXRpY3NfdHJhY2tlZCI6eyJldmVudHNUcmFja2VkIjpmYWxzZSwibGFzdFRyYWNrZWRWYWx1ZXMiOnsiY2lkIjpudWxsLCJlbWFpbCI6bnVsbCwibmFtZSI6bnVsbH19LCJwYXltZW50X2JhY2tfcGF0aCI6InBsYW4iLCJkZXZpY2VfaWQiOiI1YmFiZTBjMi03ZDVkLTRiNjMtYWI2Ni03M2Y4YWY5OGI0ODkifQ%3D%3D&ds=ZmFsc2U%3D&tpd=eyJ0cFByb2R1Y3RUaXRsZSI6IjEyIFdlZWtzIEV4cGVydCBQbGFuIn0%3D",
+      "url": "https://start.memoryos.com/new-h2/quiz/11?thm=light&gbv=eyJnYl92YWx1ZSI6Miwic2F2ZWRfYXQiOiIyMDI2LTEwLTIxVDEzOjQ1OjI1LjY2M1oifQ%3D%3D&u=eyJjaWQiOiJhYWU3OWFhODAwZGIyOWI2NzNkMCIsImdjaWQiOiIxNzI0ODAzOTc0LjE3OTI1OTAzMjUiLCJ1c2VyX2FnZV9yYW5nZSI6IjU1IiwidXNlcl9nZW5kZXIiOiJtYWxlIiwidXNlcl9nb2FsIjoiUGVyc29uYWwgZGV2ZWxvcG1lbnQiLCJhbmFseXRpY3NfdHJhY2tlZCI6eyJldmVudHNUcmFja2VkIjpmYWxzZSwibGFzdFRyYWNrZWRWYWx1ZXMiOnsiY2lkIjpudWxsLCJlbWFpbCI6bnVsbCwibmFtZSI6bnVsbH19LCJwYXltZW50X2JhY2tfcGF0aCI6InBsYW4iLCJkZXZpY2VfaWQiOiIwMDQ3NmUyMS04Mzg5LTQ1OTctOWM2ZC0xMmFkNTcxYTZlZGYifQ%3D%3D&ds=ZmFsc2U%3D&tpd=eyJ0cFByb2R1Y3RUaXRsZSI6IjEyIFdlZWtzIEV4cGVydCBQbGFuIn0%3D",
       "path": "/new-h2/quiz/11",
       "title": "You'll easily remember names",
       "kind": "info",
@@ -208,7 +210,7 @@
     {
       "n": 13,
       "file": "13.webp",
-      "url": "https://start.memoryos.com/new-h2/quiz/12?thm=light&gbv=eyJnYl92YWx1ZSI6Miwic2F2ZWRfYXQiOiIyMDI2LTEwLTIxVDEyOjQ4OjM5LjY2NVoifQ%3D%3D&u=eyJjaWQiOiJkMzFlODk5MGNmMGQ0NzU1ZjljNCIsImdjaWQiOiIxNTIzMTE5NTIxLjE3OTI1ODY5MjAiLCJ1c2VyX2FnZV9yYW5nZSI6IjU1IiwidXNlcl9nZW5kZXIiOiJtYWxlIiwidXNlcl9nb2FsIjoiUGVyc29uYWwgZGV2ZWxvcG1lbnQiLCJhbmFseXRpY3NfdHJhY2tlZCI6eyJldmVudHNUcmFja2VkIjpmYWxzZSwibGFzdFRyYWNrZWRWYWx1ZXMiOnsiY2lkIjpudWxsLCJlbWFpbCI6bnVsbCwibmFtZSI6bnVsbH19LCJwYXltZW50X2JhY2tfcGF0aCI6InBsYW4iLCJkZXZpY2VfaWQiOiI1YmFiZTBjMi03ZDVkLTRiNjMtYWI2Ni03M2Y4YWY5OGI0ODkifQ%3D%3D&ds=ZmFsc2U%3D&tpd=eyJ0cFByb2R1Y3RUaXRsZSI6IjEyIFdlZWtzIEV4cGVydCBQbGFuIn0%3D",
+      "url": "https://start.memoryos.com/new-h2/quiz/12?thm=light&gbv=eyJnYl92YWx1ZSI6Miwic2F2ZWRfYXQiOiIyMDI2LTEwLTIxVDEzOjQ1OjI1LjY2M1oifQ%3D%3D&u=eyJjaWQiOiJhYWU3OWFhODAwZGIyOWI2NzNkMCIsImdjaWQiOiIxNzI0ODAzOTc0LjE3OTI1OTAzMjUiLCJ1c2VyX2FnZV9yYW5nZSI6IjU1IiwidXNlcl9nZW5kZXIiOiJtYWxlIiwidXNlcl9nb2FsIjoiUGVyc29uYWwgZGV2ZWxvcG1lbnQiLCJhbmFseXRpY3NfdHJhY2tlZCI6eyJldmVudHNUcmFja2VkIjpmYWxzZSwibGFzdFRyYWNrZWRWYWx1ZXMiOnsiY2lkIjpudWxsLCJlbWFpbCI6bnVsbCwibmFtZSI6bnVsbH19LCJwYXltZW50X2JhY2tfcGF0aCI6InBsYW4iLCJkZXZpY2VfaWQiOiIwMDQ3NmUyMS04Mzg5LTQ1OTctOWM2ZC0xMmFkNTcxYTZlZGYifQ%3D%3D&ds=ZmFsc2U%3D&tpd=eyJ0cFByb2R1Y3RUaXRsZSI6IjEyIFdlZWtzIEV4cGVydCBQbGFuIn0%3D",
       "path": "/new-h2/quiz/12",
       "title": "Is age-related memory decline or dementia a concern for you or your loved ones?",
       "kind": "question",
@@ -224,7 +226,7 @@
     {
       "n": 14,
       "file": "14.webp",
-      "url": "https://start.memoryos.com/new-h2/quiz/13?thm=light&gbv=eyJnYl92YWx1ZSI6Miwic2F2ZWRfYXQiOiIyMDI2LTEwLTIxVDEyOjQ4OjM5LjY2NVoifQ%3D%3D&u=eyJjaWQiOiJkMzFlODk5MGNmMGQ0NzU1ZjljNCIsImdjaWQiOiIxNTIzMTE5NTIxLjE3OTI1ODY5MjAiLCJ1c2VyX2FnZV9yYW5nZSI6IjU1IiwidXNlcl9nZW5kZXIiOiJtYWxlIiwidXNlcl9nb2FsIjoiUGVyc29uYWwgZGV2ZWxvcG1lbnQiLCJhbmFseXRpY3NfdHJhY2tlZCI6eyJldmVudHNUcmFja2VkIjpmYWxzZSwibGFzdFRyYWNrZWRWYWx1ZXMiOnsiY2lkIjpudWxsLCJlbWFpbCI6bnVsbCwibmFtZSI6bnVsbH19LCJwYXltZW50X2JhY2tfcGF0aCI6InBsYW4iLCJkZXZpY2VfaWQiOiI1YmFiZTBjMi03ZDVkLTRiNjMtYWI2Ni03M2Y4YWY5OGI0ODkifQ%3D%3D&ds=ZmFsc2U%3D&tpd=eyJ0cFByb2R1Y3RUaXRsZSI6IjEyIFdlZWtzIEV4cGVydCBQbGFuIn0%3D",
+      "url": "https://start.memoryos.com/new-h2/quiz/13?thm=light&gbv=eyJnYl92YWx1ZSI6Miwic2F2ZWRfYXQiOiIyMDI2LTEwLTIxVDEzOjQ1OjI1LjY2M1oifQ%3D%3D&u=eyJjaWQiOiJhYWU3OWFhODAwZGIyOWI2NzNkMCIsImdjaWQiOiIxNzI0ODAzOTc0LjE3OTI1OTAzMjUiLCJ1c2VyX2FnZV9yYW5nZSI6IjU1IiwidXNlcl9nZW5kZXIiOiJtYWxlIiwidXNlcl9nb2FsIjoiUGVyc29uYWwgZGV2ZWxvcG1lbnQiLCJhbmFseXRpY3NfdHJhY2tlZCI6eyJldmVudHNUcmFja2VkIjpmYWxzZSwibGFzdFRyYWNrZWRWYWx1ZXMiOnsiY2lkIjpudWxsLCJlbWFpbCI6bnVsbCwibmFtZSI6bnVsbH19LCJwYXltZW50X2JhY2tfcGF0aCI6InBsYW4iLCJkZXZpY2VfaWQiOiIwMDQ3NmUyMS04Mzg5LTQ1OTctOWM2ZC0xMmFkNTcxYTZlZGYifQ%3D%3D&ds=ZmFsc2U%3D&tpd=eyJ0cFByb2R1Y3RUaXRsZSI6IjEyIFdlZWtzIEV4cGVydCBQbGFuIn0%3D",
       "path": "/new-h2/quiz/13",
       "title": "Does recalling family stories take effort?",
       "kind": "question",
@@ -240,7 +242,7 @@
     {
       "n": 15,
       "file": "15.webp",
-      "url": "https://start.memoryos.com/new-h2/quiz/14?thm=light&gbv=eyJnYl92YWx1ZSI6Miwic2F2ZWRfYXQiOiIyMDI2LTEwLTIxVDEyOjQ4OjM5LjY2NVoifQ%3D%3D&u=eyJjaWQiOiJkMzFlODk5MGNmMGQ0NzU1ZjljNCIsImdjaWQiOiIxNTIzMTE5NTIxLjE3OTI1ODY5MjAiLCJ1c2VyX2FnZV9yYW5nZSI6IjU1IiwidXNlcl9nZW5kZXIiOiJtYWxlIiwidXNlcl9nb2FsIjoiUGVyc29uYWwgZGV2ZWxvcG1lbnQiLCJhbmFseXRpY3NfdHJhY2tlZCI6eyJldmVudHNUcmFja2VkIjpmYWxzZSwibGFzdFRyYWNrZWRWYWx1ZXMiOnsiY2lkIjpudWxsLCJlbWFpbCI6bnVsbCwibmFtZSI6bnVsbH19LCJwYXltZW50X2JhY2tfcGF0aCI6InBsYW4iLCJkZXZpY2VfaWQiOiI1YmFiZTBjMi03ZDVkLTRiNjMtYWI2Ni03M2Y4YWY5OGI0ODkifQ%3D%3D&ds=ZmFsc2U%3D&tpd=eyJ0cFByb2R1Y3RUaXRsZSI6IjEyIFdlZWtzIEV4cGVydCBQbGFuIn0%3D",
+      "url": "https://start.memoryos.com/new-h2/quiz/14?thm=light&gbv=eyJnYl92YWx1ZSI6Miwic2F2ZWRfYXQiOiIyMDI2LTEwLTIxVDEzOjQ1OjI1LjY2M1oifQ%3D%3D&u=eyJjaWQiOiJhYWU3OWFhODAwZGIyOWI2NzNkMCIsImdjaWQiOiIxNzI0ODAzOTc0LjE3OTI1OTAzMjUiLCJ1c2VyX2FnZV9yYW5nZSI6IjU1IiwidXNlcl9nZW5kZXIiOiJtYWxlIiwidXNlcl9nb2FsIjoiUGVyc29uYWwgZGV2ZWxvcG1lbnQiLCJhbmFseXRpY3NfdHJhY2tlZCI6eyJldmVudHNUcmFja2VkIjpmYWxzZSwibGFzdFRyYWNrZWRWYWx1ZXMiOnsiY2lkIjpudWxsLCJlbWFpbCI6bnVsbCwibmFtZSI6bnVsbH19LCJwYXltZW50X2JhY2tfcGF0aCI6InBsYW4iLCJkZXZpY2VfaWQiOiIwMDQ3NmUyMS04Mzg5LTQ1OTctOWM2ZC0xMmFkNTcxYTZlZGYifQ%3D%3D&ds=ZmFsc2U%3D&tpd=eyJ0cFByb2R1Y3RUaXRsZSI6IjEyIFdlZWtzIEV4cGVydCBQbGFuIn0%3D",
       "path": "/new-h2/quiz/14",
       "title": "We all want to remember happy moments with our loved ones",
       "kind": "info",
@@ -256,7 +258,7 @@
     {
       "n": 16,
       "file": "16.webp",
-      "url": "https://start.memoryos.com/new-h2/quiz/15?thm=light&gbv=eyJnYl92YWx1ZSI6Miwic2F2ZWRfYXQiOiIyMDI2LTEwLTIxVDEyOjQ4OjM5LjY2NVoifQ%3D%3D&u=eyJjaWQiOiJkMzFlODk5MGNmMGQ0NzU1ZjljNCIsImdjaWQiOiIxNTIzMTE5NTIxLjE3OTI1ODY5MjAiLCJ1c2VyX2FnZV9yYW5nZSI6IjU1IiwidXNlcl9nZW5kZXIiOiJtYWxlIiwidXNlcl9nb2FsIjoiUGVyc29uYWwgZGV2ZWxvcG1lbnQiLCJhbmFseXRpY3NfdHJhY2tlZCI6eyJldmVudHNUcmFja2VkIjpmYWxzZSwibGFzdFRyYWNrZWRWYWx1ZXMiOnsiY2lkIjpudWxsLCJlbWFpbCI6bnVsbCwibmFtZSI6bnVsbH19LCJwYXltZW50X2JhY2tfcGF0aCI6InBsYW4iLCJkZXZpY2VfaWQiOiI1YmFiZTBjMi03ZDVkLTRiNjMtYWI2Ni03M2Y4YWY5OGI0ODkifQ%3D%3D&ds=ZmFsc2U%3D&tpd=eyJ0cFByb2R1Y3RUaXRsZSI6IjEyIFdlZWtzIEV4cGVydCBQbGFuIn0%3D",
+      "url": "https://start.memoryos.com/new-h2/quiz/15?thm=light&gbv=eyJnYl92YWx1ZSI6Miwic2F2ZWRfYXQiOiIyMDI2LTEwLTIxVDEzOjQ1OjI1LjY2M1oifQ%3D%3D&u=eyJjaWQiOiJhYWU3OWFhODAwZGIyOWI2NzNkMCIsImdjaWQiOiIxNzI0ODAzOTc0LjE3OTI1OTAzMjUiLCJ1c2VyX2FnZV9yYW5nZSI6IjU1IiwidXNlcl9nZW5kZXIiOiJtYWxlIiwidXNlcl9nb2FsIjoiUGVyc29uYWwgZGV2ZWxvcG1lbnQiLCJhbmFseXRpY3NfdHJhY2tlZCI6eyJldmVudHNUcmFja2VkIjpmYWxzZSwibGFzdFRyYWNrZWRWYWx1ZXMiOnsiY2lkIjpudWxsLCJlbWFpbCI6bnVsbCwibmFtZSI6bnVsbH19LCJwYXltZW50X2JhY2tfcGF0aCI6InBsYW4iLCJkZXZpY2VfaWQiOiIwMDQ3NmUyMS04Mzg5LTQ1OTctOWM2ZC0xMmFkNTcxYTZlZGYifQ%3D%3D&ds=ZmFsc2U%3D&tpd=eyJ0cFByb2R1Y3RUaXRsZSI6IjEyIFdlZWtzIEV4cGVydCBQbGFuIn0%3D",
       "path": "/new-h2/quiz/15",
       "title": "Which memory skills would you love to obtain?",
       "kind": "question",
@@ -273,7 +275,7 @@
     {
       "n": 17,
       "file": "17.webp",
-      "url": "https://start.memoryos.com/new-h2/quiz/16?thm=light&gbv=eyJnYl92YWx1ZSI6Miwic2F2ZWRfYXQiOiIyMDI2LTEwLTIxVDEyOjQ4OjM5LjY2NVoifQ%3D%3D&u=eyJjaWQiOiJkMzFlODk5MGNmMGQ0NzU1ZjljNCIsImdjaWQiOiIxNTIzMTE5NTIxLjE3OTI1ODY5MjAiLCJ1c2VyX2FnZV9yYW5nZSI6IjU1IiwidXNlcl9nZW5kZXIiOiJtYWxlIiwidXNlcl9nb2FsIjoiUGVyc29uYWwgZGV2ZWxvcG1lbnQiLCJhbmFseXRpY3NfdHJhY2tlZCI6eyJldmVudHNUcmFja2VkIjpmYWxzZSwibGFzdFRyYWNrZWRWYWx1ZXMiOnsiY2lkIjpudWxsLCJlbWFpbCI6bnVsbCwibmFtZSI6bnVsbH19LCJwYXltZW50X2JhY2tfcGF0aCI6InBsYW4iLCJkZXZpY2VfaWQiOiI1YmFiZTBjMi03ZDVkLTRiNjMtYWI2Ni03M2Y4YWY5OGI0ODkifQ%3D%3D&ds=ZmFsc2U%3D&tpd=eyJ0cFByb2R1Y3RUaXRsZSI6IjEyIFdlZWtzIEV4cGVydCBQbGFuIn0%3D",
+      "url": "https://start.memoryos.com/new-h2/quiz/16?thm=light&gbv=eyJnYl92YWx1ZSI6Miwic2F2ZWRfYXQiOiIyMDI2LTEwLTIxVDEzOjQ1OjI1LjY2M1oifQ%3D%3D&u=eyJjaWQiOiJhYWU3OWFhODAwZGIyOWI2NzNkMCIsImdjaWQiOiIxNzI0ODAzOTc0LjE3OTI1OTAzMjUiLCJ1c2VyX2FnZV9yYW5nZSI6IjU1IiwidXNlcl9nZW5kZXIiOiJtYWxlIiwidXNlcl9nb2FsIjoiUGVyc29uYWwgZGV2ZWxvcG1lbnQiLCJhbmFseXRpY3NfdHJhY2tlZCI6eyJldmVudHNUcmFja2VkIjpmYWxzZSwibGFzdFRyYWNrZWRWYWx1ZXMiOnsiY2lkIjpudWxsLCJlbWFpbCI6bnVsbCwibmFtZSI6bnVsbH19LCJwYXltZW50X2JhY2tfcGF0aCI6InBsYW4iLCJkZXZpY2VfaWQiOiIwMDQ3NmUyMS04Mzg5LTQ1OTctOWM2ZC0xMmFkNTcxYTZlZGYifQ%3D%3D&ds=ZmFsc2U%3D&tpd=eyJ0cFByb2R1Y3RUaXRsZSI6IjEyIFdlZWtzIEV4cGVydCBQbGFuIn0%3D",
       "path": "/new-h2/quiz/16",
       "title": "How many languages do you speak?",
       "kind": "question",
@@ -289,7 +291,7 @@
     {
       "n": 18,
       "file": "18.webp",
-      "url": "https://start.memoryos.com/new-h2/quiz/17?thm=light&gbv=eyJnYl92YWx1ZSI6Miwic2F2ZWRfYXQiOiIyMDI2LTEwLTIxVDEyOjQ4OjM5LjY2NVoifQ%3D%3D&u=eyJjaWQiOiJkMzFlODk5MGNmMGQ0NzU1ZjljNCIsImdjaWQiOiIxNTIzMTE5NTIxLjE3OTI1ODY5MjAiLCJ1c2VyX2FnZV9yYW5nZSI6IjU1IiwidXNlcl9nZW5kZXIiOiJtYWxlIiwidXNlcl9nb2FsIjoiUGVyc29uYWwgZGV2ZWxvcG1lbnQiLCJhbmFseXRpY3NfdHJhY2tlZCI6eyJldmVudHNUcmFja2VkIjpmYWxzZSwibGFzdFRyYWNrZWRWYWx1ZXMiOnsiY2lkIjpudWxsLCJlbWFpbCI6bnVsbCwibmFtZSI6bnVsbH19LCJwYXltZW50X2JhY2tfcGF0aCI6InBsYW4iLCJkZXZpY2VfaWQiOiI1YmFiZTBjMi03ZDVkLTRiNjMtYWI2Ni03M2Y4YWY5OGI0ODkifQ%3D%3D&ds=ZmFsc2U%3D&tpd=eyJ0cFByb2R1Y3RUaXRsZSI6IjEyIFdlZWtzIEV4cGVydCBQbGFuIn0%3D",
+      "url": "https://start.memoryos.com/new-h2/quiz/17?thm=light&gbv=eyJnYl92YWx1ZSI6Miwic2F2ZWRfYXQiOiIyMDI2LTEwLTIxVDEzOjQ1OjI1LjY2M1oifQ%3D%3D&u=eyJjaWQiOiJhYWU3OWFhODAwZGIyOWI2NzNkMCIsImdjaWQiOiIxNzI0ODAzOTc0LjE3OTI1OTAzMjUiLCJ1c2VyX2FnZV9yYW5nZSI6IjU1IiwidXNlcl9nZW5kZXIiOiJtYWxlIiwidXNlcl9nb2FsIjoiUGVyc29uYWwgZGV2ZWxvcG1lbnQiLCJhbmFseXRpY3NfdHJhY2tlZCI6eyJldmVudHNUcmFja2VkIjpmYWxzZSwibGFzdFRyYWNrZWRWYWx1ZXMiOnsiY2lkIjpudWxsLCJlbWFpbCI6bnVsbCwibmFtZSI6bnVsbH19LCJwYXltZW50X2JhY2tfcGF0aCI6InBsYW4iLCJkZXZpY2VfaWQiOiIwMDQ3NmUyMS04Mzg5LTQ1OTctOWM2ZC0xMmFkNTcxYTZlZGYifQ%3D%3D&ds=ZmFsc2U%3D&tpd=eyJ0cFByb2R1Y3RUaXRsZSI6IjEyIFdlZWtzIEV4cGVydCBQbGFuIn0%3D",
       "path": "/new-h2/quiz/17",
       "title": "Would a better memory help your career?",
       "kind": "question",
@@ -305,7 +307,7 @@
     {
       "n": 19,
       "file": "19.webp",
-      "url": "https://start.memoryos.com/new-h2/quiz/18?thm=light&gbv=eyJnYl92YWx1ZSI6Miwic2F2ZWRfYXQiOiIyMDI2LTEwLTIxVDEyOjQ4OjM5LjY2NVoifQ%3D%3D&u=eyJjaWQiOiJkMzFlODk5MGNmMGQ0NzU1ZjljNCIsImdjaWQiOiIxNTIzMTE5NTIxLjE3OTI1ODY5MjAiLCJ1c2VyX2FnZV9yYW5nZSI6IjU1IiwidXNlcl9nZW5kZXIiOiJtYWxlIiwidXNlcl9nb2FsIjoiUGVyc29uYWwgZGV2ZWxvcG1lbnQiLCJhbmFseXRpY3NfdHJhY2tlZCI6eyJldmVudHNUcmFja2VkIjpmYWxzZSwibGFzdFRyYWNrZWRWYWx1ZXMiOnsiY2lkIjpudWxsLCJlbWFpbCI6bnVsbCwibmFtZSI6bnVsbH19LCJwYXltZW50X2JhY2tfcGF0aCI6InBsYW4iLCJkZXZpY2VfaWQiOiI1YmFiZTBjMi03ZDVkLTRiNjMtYWI2Ni03M2Y4YWY5OGI0ODkifQ%3D%3D&ds=ZmFsc2U%3D&tpd=eyJ0cFByb2R1Y3RUaXRsZSI6IjEyIFdlZWtzIEV4cGVydCBQbGFuIn0%3D",
+      "url": "https://start.memoryos.com/new-h2/quiz/18?thm=light&gbv=eyJnYl92YWx1ZSI6Miwic2F2ZWRfYXQiOiIyMDI2LTEwLTIxVDEzOjQ1OjI1LjY2M1oifQ%3D%3D&u=eyJjaWQiOiJhYWU3OWFhODAwZGIyOWI2NzNkMCIsImdjaWQiOiIxNzI0ODAzOTc0LjE3OTI1OTAzMjUiLCJ1c2VyX2FnZV9yYW5nZSI6IjU1IiwidXNlcl9nZW5kZXIiOiJtYWxlIiwidXNlcl9nb2FsIjoiUGVyc29uYWwgZGV2ZWxvcG1lbnQiLCJhbmFseXRpY3NfdHJhY2tlZCI6eyJldmVudHNUcmFja2VkIjpmYWxzZSwibGFzdFRyYWNrZWRWYWx1ZXMiOnsiY2lkIjpudWxsLCJlbWFpbCI6bnVsbCwibmFtZSI6bnVsbH19LCJwYXltZW50X2JhY2tfcGF0aCI6InBsYW4iLCJkZXZpY2VfaWQiOiIwMDQ3NmUyMS04Mzg5LTQ1OTctOWM2ZC0xMmFkNTcxYTZlZGYifQ%3D%3D&ds=ZmFsc2U%3D&tpd=eyJ0cFByb2R1Y3RUaXRsZSI6IjEyIFdlZWtzIEV4cGVydCBQbGFuIn0%3D",
       "path": "/new-h2/quiz/18",
       "title": "Do you associate regular brain and memory workouts with better performance at work?",
       "kind": "question",
@@ -321,7 +323,7 @@
     {
       "n": 20,
       "file": "20.webp",
-      "url": "https://start.memoryos.com/new-h2/quiz/19?thm=light&gbv=eyJnYl92YWx1ZSI6Miwic2F2ZWRfYXQiOiIyMDI2LTEwLTIxVDEyOjQ4OjM5LjY2NVoifQ%3D%3D&u=eyJjaWQiOiJkMzFlODk5MGNmMGQ0NzU1ZjljNCIsImdjaWQiOiIxNTIzMTE5NTIxLjE3OTI1ODY5MjAiLCJ1c2VyX2FnZV9yYW5nZSI6IjU1IiwidXNlcl9nZW5kZXIiOiJtYWxlIiwidXNlcl9nb2FsIjoiUGVyc29uYWwgZGV2ZWxvcG1lbnQiLCJhbmFseXRpY3NfdHJhY2tlZCI6eyJldmVudHNUcmFja2VkIjpmYWxzZSwibGFzdFRyYWNrZWRWYWx1ZXMiOnsiY2lkIjpudWxsLCJlbWFpbCI6bnVsbCwibmFtZSI6bnVsbH19LCJwYXltZW50X2JhY2tfcGF0aCI6InBsYW4iLCJkZXZpY2VfaWQiOiI1YmFiZTBjMi03ZDVkLTRiNjMtYWI2Ni03M2Y4YWY5OGI0ODkifQ%3D%3D&ds=ZmFsc2U%3D&tpd=eyJ0cFByb2R1Y3RUaXRsZSI6IjEyIFdlZWtzIEV4cGVydCBQbGFuIn0%3D",
+      "url": "https://start.memoryos.com/new-h2/quiz/19?thm=light&gbv=eyJnYl92YWx1ZSI6Miwic2F2ZWRfYXQiOiIyMDI2LTEwLTIxVDEzOjQ1OjI1LjY2M1oifQ%3D%3D&u=eyJjaWQiOiJhYWU3OWFhODAwZGIyOWI2NzNkMCIsImdjaWQiOiIxNzI0ODAzOTc0LjE3OTI1OTAzMjUiLCJ1c2VyX2FnZV9yYW5nZSI6IjU1IiwidXNlcl9nZW5kZXIiOiJtYWxlIiwidXNlcl9nb2FsIjoiUGVyc29uYWwgZGV2ZWxvcG1lbnQiLCJhbmFseXRpY3NfdHJhY2tlZCI6eyJldmVudHNUcmFja2VkIjpmYWxzZSwibGFzdFRyYWNrZWRWYWx1ZXMiOnsiY2lkIjpudWxsLCJlbWFpbCI6bnVsbCwibmFtZSI6bnVsbH19LCJwYXltZW50X2JhY2tfcGF0aCI6InBsYW4iLCJkZXZpY2VfaWQiOiIwMDQ3NmUyMS04Mzg5LTQ1OTctOWM2ZC0xMmFkNTcxYTZlZGYifQ%3D%3D&ds=ZmFsc2U%3D&tpd=eyJ0cFByb2R1Y3RUaXRsZSI6IjEyIFdlZWtzIEV4cGVydCBQbGFuIn0%3D",
       "path": "/new-h2/quiz/19",
       "title": "Do you sometimes need a friendly push to keep moving forward?",
       "kind": "question",
@@ -337,7 +339,7 @@
     {
       "n": 21,
       "file": "21.webp",
-      "url": "https://start.memoryos.com/new-h2/quiz/20?thm=light&gbv=eyJnYl92YWx1ZSI6Miwic2F2ZWRfYXQiOiIyMDI2LTEwLTIxVDEyOjQ4OjM5LjY2NVoifQ%3D%3D&u=eyJjaWQiOiJkMzFlODk5MGNmMGQ0NzU1ZjljNCIsImdjaWQiOiIxNTIzMTE5NTIxLjE3OTI1ODY5MjAiLCJ1c2VyX2FnZV9yYW5nZSI6IjU1IiwidXNlcl9nZW5kZXIiOiJtYWxlIiwidXNlcl9nb2FsIjoiUGVyc29uYWwgZGV2ZWxvcG1lbnQiLCJhbmFseXRpY3NfdHJhY2tlZCI6eyJldmVudHNUcmFja2VkIjpmYWxzZSwibGFzdFRyYWNrZWRWYWx1ZXMiOnsiY2lkIjpudWxsLCJlbWFpbCI6bnVsbCwibmFtZSI6bnVsbH19LCJwYXltZW50X2JhY2tfcGF0aCI6InBsYW4iLCJkZXZpY2VfaWQiOiI1YmFiZTBjMi03ZDVkLTRiNjMtYWI2Ni03M2Y4YWY5OGI0ODkifQ%3D%3D&ds=ZmFsc2U%3D&tpd=eyJ0cFByb2R1Y3RUaXRsZSI6IjEyIFdlZWtzIEV4cGVydCBQbGFuIn0%3D",
+      "url": "https://start.memoryos.com/new-h2/quiz/20?thm=light&gbv=eyJnYl92YWx1ZSI6Miwic2F2ZWRfYXQiOiIyMDI2LTEwLTIxVDEzOjQ1OjI1LjY2M1oifQ%3D%3D&u=eyJjaWQiOiJhYWU3OWFhODAwZGIyOWI2NzNkMCIsImdjaWQiOiIxNzI0ODAzOTc0LjE3OTI1OTAzMjUiLCJ1c2VyX2FnZV9yYW5nZSI6IjU1IiwidXNlcl9nZW5kZXIiOiJtYWxlIiwidXNlcl9nb2FsIjoiUGVyc29uYWwgZGV2ZWxvcG1lbnQiLCJhbmFseXRpY3NfdHJhY2tlZCI6eyJldmVudHNUcmFja2VkIjpmYWxzZSwibGFzdFRyYWNrZWRWYWx1ZXMiOnsiY2lkIjpudWxsLCJlbWFpbCI6bnVsbCwibmFtZSI6bnVsbH19LCJwYXltZW50X2JhY2tfcGF0aCI6InBsYW4iLCJkZXZpY2VfaWQiOiIwMDQ3NmUyMS04Mzg5LTQ1OTctOWM2ZC0xMmFkNTcxYTZlZGYifQ%3D%3D&ds=ZmFsc2U%3D&tpd=eyJ0cFByb2R1Y3RUaXRsZSI6IjEyIFdlZWtzIEV4cGVydCBQbGFuIn0%3D",
       "path": "/new-h2/quiz/20",
       "title": "A friendly push now and then can be a great motivator",
       "kind": "loader",
@@ -353,7 +355,7 @@
     {
       "n": 22,
       "file": "22.webp",
-      "url": "https://start.memoryos.com/new-h2/quiz/21?thm=light&gbv=eyJnYl92YWx1ZSI6Miwic2F2ZWRfYXQiOiIyMDI2LTEwLTIxVDEyOjQ4OjM5LjY2NVoifQ%3D%3D&u=eyJjaWQiOiJkMzFlODk5MGNmMGQ0NzU1ZjljNCIsImdjaWQiOiIxNTIzMTE5NTIxLjE3OTI1ODY5MjAiLCJ1c2VyX2FnZV9yYW5nZSI6IjU1IiwidXNlcl9nZW5kZXIiOiJtYWxlIiwidXNlcl9nb2FsIjoiUGVyc29uYWwgZGV2ZWxvcG1lbnQiLCJhbmFseXRpY3NfdHJhY2tlZCI6eyJldmVudHNUcmFja2VkIjpmYWxzZSwibGFzdFRyYWNrZWRWYWx1ZXMiOnsiY2lkIjpudWxsLCJlbWFpbCI6bnVsbCwibmFtZSI6bnVsbH19LCJwYXltZW50X2JhY2tfcGF0aCI6InBsYW4iLCJkZXZpY2VfaWQiOiI1YmFiZTBjMi03ZDVkLTRiNjMtYWI2Ni03M2Y4YWY5OGI0ODkifQ%3D%3D&ds=ZmFsc2U%3D&tpd=eyJ0cFByb2R1Y3RUaXRsZSI6IjEyIFdlZWtzIEV4cGVydCBQbGFuIn0%3D",
+      "url": "https://start.memoryos.com/new-h2/quiz/21?thm=light&gbv=eyJnYl92YWx1ZSI6Miwic2F2ZWRfYXQiOiIyMDI2LTEwLTIxVDEzOjQ1OjI1LjY2M1oifQ%3D%3D&u=eyJjaWQiOiJhYWU3OWFhODAwZGIyOWI2NzNkMCIsImdjaWQiOiIxNzI0ODAzOTc0LjE3OTI1OTAzMjUiLCJ1c2VyX2FnZV9yYW5nZSI6IjU1IiwidXNlcl9nZW5kZXIiOiJtYWxlIiwidXNlcl9nb2FsIjoiUGVyc29uYWwgZGV2ZWxvcG1lbnQiLCJhbmFseXRpY3NfdHJhY2tlZCI6eyJldmVudHNUcmFja2VkIjpmYWxzZSwibGFzdFRyYWNrZWRWYWx1ZXMiOnsiY2lkIjpudWxsLCJlbWFpbCI6bnVsbCwibmFtZSI6bnVsbH19LCJwYXltZW50X2JhY2tfcGF0aCI6InBsYW4iLCJkZXZpY2VfaWQiOiIwMDQ3NmUyMS04Mzg5LTQ1OTctOWM2ZC0xMmFkNTcxYTZlZGYifQ%3D%3D&ds=ZmFsc2U%3D&tpd=eyJ0cFByb2R1Y3RUaXRsZSI6IjEyIFdlZWtzIEV4cGVydCBQbGFuIn0%3D",
       "path": "/new-h2/quiz/21",
       "title": "You came to the right place!",
       "kind": "social_proof",
@@ -369,7 +371,7 @@
     {
       "n": 23,
       "file": "23.webp",
-      "url": "https://start.memoryos.com/new-h2/quiz/22?thm=light&gbv=eyJnYl92YWx1ZSI6Miwic2F2ZWRfYXQiOiIyMDI2LTEwLTIxVDEyOjQ4OjM5LjY2NVoifQ%3D%3D&u=eyJjaWQiOiJkMzFlODk5MGNmMGQ0NzU1ZjljNCIsImdjaWQiOiIxNTIzMTE5NTIxLjE3OTI1ODY5MjAiLCJ1c2VyX2FnZV9yYW5nZSI6IjU1IiwidXNlcl9nZW5kZXIiOiJtYWxlIiwidXNlcl9nb2FsIjoiUGVyc29uYWwgZGV2ZWxvcG1lbnQiLCJhbmFseXRpY3NfdHJhY2tlZCI6eyJldmVudHNUcmFja2VkIjpmYWxzZSwibGFzdFRyYWNrZWRWYWx1ZXMiOnsiY2lkIjpudWxsLCJlbWFpbCI6bnVsbCwibmFtZSI6bnVsbH19LCJwYXltZW50X2JhY2tfcGF0aCI6InBsYW4iLCJkZXZpY2VfaWQiOiI1YmFiZTBjMi03ZDVkLTRiNjMtYWI2Ni03M2Y4YWY5OGI0ODkifQ%3D%3D&ds=ZmFsc2U%3D&tpd=eyJ0cFByb2R1Y3RUaXRsZSI6IjEyIFdlZWtzIEV4cGVydCBQbGFuIn0%3D",
+      "url": "https://start.memoryos.com/new-h2/quiz/22?thm=light&gbv=eyJnYl92YWx1ZSI6Miwic2F2ZWRfYXQiOiIyMDI2LTEwLTIxVDEzOjQ1OjI1LjY2M1oifQ%3D%3D&u=eyJjaWQiOiJhYWU3OWFhODAwZGIyOWI2NzNkMCIsImdjaWQiOiIxNzI0ODAzOTc0LjE3OTI1OTAzMjUiLCJ1c2VyX2FnZV9yYW5nZSI6IjU1IiwidXNlcl9nZW5kZXIiOiJtYWxlIiwidXNlcl9nb2FsIjoiUGVyc29uYWwgZGV2ZWxvcG1lbnQiLCJhbmFseXRpY3NfdHJhY2tlZCI6eyJldmVudHNUcmFja2VkIjpmYWxzZSwibGFzdFRyYWNrZWRWYWx1ZXMiOnsiY2lkIjpudWxsLCJlbWFpbCI6bnVsbCwibmFtZSI6bnVsbH19LCJwYXltZW50X2JhY2tfcGF0aCI6InBsYW4iLCJkZXZpY2VfaWQiOiIwMDQ3NmUyMS04Mzg5LTQ1OTctOWM2ZC0xMmFkNTcxYTZlZGYifQ%3D%3D&ds=ZmFsc2U%3D&tpd=eyJ0cFByb2R1Y3RUaXRsZSI6IjEyIFdlZWtzIEV4cGVydCBQbGFuIn0%3D",
       "path": "/new-h2/quiz/22",
       "title": "Have you ever heard of a Mind Palace technique that Sherlock uses?",
       "kind": "question",
@@ -385,7 +387,7 @@
     {
       "n": 24,
       "file": "24.webp",
-      "url": "https://start.memoryos.com/new-h2/quiz/23?thm=light&gbv=eyJnYl92YWx1ZSI6Miwic2F2ZWRfYXQiOiIyMDI2LTEwLTIxVDEyOjQ4OjM5LjY2NVoifQ%3D%3D&u=eyJjaWQiOiJkMzFlODk5MGNmMGQ0NzU1ZjljNCIsImdjaWQiOiIxNTIzMTE5NTIxLjE3OTI1ODY5MjAiLCJ1c2VyX2FnZV9yYW5nZSI6IjU1IiwidXNlcl9nZW5kZXIiOiJtYWxlIiwidXNlcl9nb2FsIjoiUGVyc29uYWwgZGV2ZWxvcG1lbnQiLCJhbmFseXRpY3NfdHJhY2tlZCI6eyJldmVudHNUcmFja2VkIjpmYWxzZSwibGFzdFRyYWNrZWRWYWx1ZXMiOnsiY2lkIjpudWxsLCJlbWFpbCI6bnVsbCwibmFtZSI6bnVsbH19LCJwYXltZW50X2JhY2tfcGF0aCI6InBsYW4iLCJkZXZpY2VfaWQiOiI1YmFiZTBjMi03ZDVkLTRiNjMtYWI2Ni03M2Y4YWY5OGI0ODkifQ%3D%3D&ds=ZmFsc2U%3D&tpd=eyJ0cFByb2R1Y3RUaXRsZSI6IjEyIFdlZWtzIEV4cGVydCBQbGFuIn0%3D",
+      "url": "https://start.memoryos.com/new-h2/quiz/23?thm=light&gbv=eyJnYl92YWx1ZSI6Miwic2F2ZWRfYXQiOiIyMDI2LTEwLTIxVDEzOjQ1OjI1LjY2M1oifQ%3D%3D&u=eyJjaWQiOiJhYWU3OWFhODAwZGIyOWI2NzNkMCIsImdjaWQiOiIxNzI0ODAzOTc0LjE3OTI1OTAzMjUiLCJ1c2VyX2FnZV9yYW5nZSI6IjU1IiwidXNlcl9nZW5kZXIiOiJtYWxlIiwidXNlcl9nb2FsIjoiUGVyc29uYWwgZGV2ZWxvcG1lbnQiLCJhbmFseXRpY3NfdHJhY2tlZCI6eyJldmVudHNUcmFja2VkIjpmYWxzZSwibGFzdFRyYWNrZWRWYWx1ZXMiOnsiY2lkIjpudWxsLCJlbWFpbCI6bnVsbCwibmFtZSI6bnVsbH19LCJwYXltZW50X2JhY2tfcGF0aCI6InBsYW4iLCJkZXZpY2VfaWQiOiIwMDQ3NmUyMS04Mzg5LTQ1OTctOWM2ZC0xMmFkNTcxYTZlZGYifQ%3D%3D&ds=ZmFsc2U%3D&tpd=eyJ0cFByb2R1Y3RUaXRsZSI6IjEyIFdlZWtzIEV4cGVydCBQbGFuIn0%3D",
       "path": "/new-h2/quiz/23",
       "title": "See how it works for yourself!",
       "kind": "info",
@@ -401,7 +403,7 @@
     {
       "n": 25,
       "file": "25.webp",
-      "url": "https://start.memoryos.com/new-h2/quiz/24?thm=light&gbv=eyJnYl92YWx1ZSI6Miwic2F2ZWRfYXQiOiIyMDI2LTEwLTIxVDEyOjQ4OjM5LjY2NVoifQ%3D%3D&u=eyJjaWQiOiJkMzFlODk5MGNmMGQ0NzU1ZjljNCIsImdjaWQiOiIxNTIzMTE5NTIxLjE3OTI1ODY5MjAiLCJ1c2VyX2FnZV9yYW5nZSI6IjU1IiwidXNlcl9nZW5kZXIiOiJtYWxlIiwidXNlcl9nb2FsIjoiUGVyc29uYWwgZGV2ZWxvcG1lbnQiLCJhbmFseXRpY3NfdHJhY2tlZCI6eyJldmVudHNUcmFja2VkIjpmYWxzZSwibGFzdFRyYWNrZWRWYWx1ZXMiOnsiY2lkIjpudWxsLCJlbWFpbCI6bnVsbCwibmFtZSI6bnVsbH19LCJwYXltZW50X2JhY2tfcGF0aCI6InBsYW4iLCJkZXZpY2VfaWQiOiI1YmFiZTBjMi03ZDVkLTRiNjMtYWI2Ni03M2Y4YWY5OGI0ODkifQ%3D%3D&ds=ZmFsc2U%3D&tpd=eyJ0cFByb2R1Y3RUaXRsZSI6IjEyIFdlZWtzIEV4cGVydCBQbGFuIn0%3D",
+      "url": "https://start.memoryos.com/new-h2/quiz/24?thm=light&gbv=eyJnYl92YWx1ZSI6Miwic2F2ZWRfYXQiOiIyMDI2LTEwLTIxVDEzOjQ1OjI1LjY2M1oifQ%3D%3D&u=eyJjaWQiOiJhYWU3OWFhODAwZGIyOWI2NzNkMCIsImdjaWQiOiIxNzI0ODAzOTc0LjE3OTI1OTAzMjUiLCJ1c2VyX2FnZV9yYW5nZSI6IjU1IiwidXNlcl9nZW5kZXIiOiJtYWxlIiwidXNlcl9nb2FsIjoiUGVyc29uYWwgZGV2ZWxvcG1lbnQiLCJhbmFseXRpY3NfdHJhY2tlZCI6eyJldmVudHNUcmFja2VkIjpmYWxzZSwibGFzdFRyYWNrZWRWYWx1ZXMiOnsiY2lkIjpudWxsLCJlbWFpbCI6bnVsbCwibmFtZSI6bnVsbH19LCJwYXltZW50X2JhY2tfcGF0aCI6InBsYW4iLCJkZXZpY2VfaWQiOiIwMDQ3NmUyMS04Mzg5LTQ1OTctOWM2ZC0xMmFkNTcxYTZlZGYifQ%3D%3D&ds=ZmFsc2U%3D&tpd=eyJ0cFByb2R1Y3RUaXRsZSI6IjEyIFdlZWtzIEV4cGVydCBQbGFuIn0%3D",
       "path": "/new-h2/quiz/24",
       "title": "Do you believe that everyone can develop a great memory?",
       "kind": "question",
@@ -417,7 +419,7 @@
     {
       "n": 26,
       "file": "26.webp",
-      "url": "https://start.memoryos.com/new-h2/quiz/25?thm=light&gbv=eyJnYl92YWx1ZSI6Miwic2F2ZWRfYXQiOiIyMDI2LTEwLTIxVDEyOjQ4OjM5LjY2NVoifQ%3D%3D&u=eyJjaWQiOiJkMzFlODk5MGNmMGQ0NzU1ZjljNCIsImdjaWQiOiIxNTIzMTE5NTIxLjE3OTI1ODY5MjAiLCJ1c2VyX2FnZV9yYW5nZSI6IjU1IiwidXNlcl9nZW5kZXIiOiJtYWxlIiwidXNlcl9nb2FsIjoiUGVyc29uYWwgZGV2ZWxvcG1lbnQiLCJhbmFseXRpY3NfdHJhY2tlZCI6eyJldmVudHNUcmFja2VkIjpmYWxzZSwibGFzdFRyYWNrZWRWYWx1ZXMiOnsiY2lkIjpudWxsLCJlbWFpbCI6bnVsbCwibmFtZSI6bnVsbH19LCJwYXltZW50X2JhY2tfcGF0aCI6InBsYW4iLCJkZXZpY2VfaWQiOiI1YmFiZTBjMi03ZDVkLTRiNjMtYWI2Ni03M2Y4YWY5OGI0ODkifQ%3D%3D&ds=ZmFsc2U%3D&tpd=eyJ0cFByb2R1Y3RUaXRsZSI6IjEyIFdlZWtzIEV4cGVydCBQbGFuIn0%3D",
+      "url": "https://start.memoryos.com/new-h2/quiz/25?thm=light&gbv=eyJnYl92YWx1ZSI6Miwic2F2ZWRfYXQiOiIyMDI2LTEwLTIxVDEzOjQ1OjI1LjY2M1oifQ%3D%3D&u=eyJjaWQiOiJhYWU3OWFhODAwZGIyOWI2NzNkMCIsImdjaWQiOiIxNzI0ODAzOTc0LjE3OTI1OTAzMjUiLCJ1c2VyX2FnZV9yYW5nZSI6IjU1IiwidXNlcl9nZW5kZXIiOiJtYWxlIiwidXNlcl9nb2FsIjoiUGVyc29uYWwgZGV2ZWxvcG1lbnQiLCJhbmFseXRpY3NfdHJhY2tlZCI6eyJldmVudHNUcmFja2VkIjpmYWxzZSwibGFzdFRyYWNrZWRWYWx1ZXMiOnsiY2lkIjpudWxsLCJlbWFpbCI6bnVsbCwibmFtZSI6bnVsbH19LCJwYXltZW50X2JhY2tfcGF0aCI6InBsYW4iLCJkZXZpY2VfaWQiOiIwMDQ3NmUyMS04Mzg5LTQ1OTctOWM2ZC0xMmFkNTcxYTZlZGYifQ%3D%3D&ds=ZmFsc2U%3D&tpd=eyJ0cFByb2R1Y3RUaXRsZSI6IjEyIFdlZWtzIEV4cGVydCBQbGFuIn0%3D",
       "path": "/new-h2/quiz/25",
       "title": "Meet the average “Joe” who perfected his memory",
       "kind": "social_proof",
@@ -433,7 +435,7 @@
     {
       "n": 27,
       "file": "27.webp",
-      "url": "https://start.memoryos.com/new-h2/quiz/26?thm=light&gbv=eyJnYl92YWx1ZSI6Miwic2F2ZWRfYXQiOiIyMDI2LTEwLTIxVDEyOjQ4OjM5LjY2NVoifQ%3D%3D&u=eyJjaWQiOiJkMzFlODk5MGNmMGQ0NzU1ZjljNCIsImdjaWQiOiIxNTIzMTE5NTIxLjE3OTI1ODY5MjAiLCJ1c2VyX2FnZV9yYW5nZSI6IjU1IiwidXNlcl9nZW5kZXIiOiJtYWxlIiwidXNlcl9nb2FsIjoiUGVyc29uYWwgZGV2ZWxvcG1lbnQiLCJhbmFseXRpY3NfdHJhY2tlZCI6eyJldmVudHNUcmFja2VkIjpmYWxzZSwibGFzdFRyYWNrZWRWYWx1ZXMiOnsiY2lkIjpudWxsLCJlbWFpbCI6bnVsbCwibmFtZSI6bnVsbH19LCJwYXltZW50X2JhY2tfcGF0aCI6InBsYW4iLCJkZXZpY2VfaWQiOiI1YmFiZTBjMi03ZDVkLTRiNjMtYWI2Ni03M2Y4YWY5OGI0ODkifQ%3D%3D&ds=ZmFsc2U%3D&tpd=eyJ0cFByb2R1Y3RUaXRsZSI6IjEyIFdlZWtzIEV4cGVydCBQbGFuIn0%3D",
+      "url": "https://start.memoryos.com/new-h2/quiz/26?thm=light&gbv=eyJnYl92YWx1ZSI6Miwic2F2ZWRfYXQiOiIyMDI2LTEwLTIxVDEzOjQ1OjI1LjY2M1oifQ%3D%3D&u=eyJjaWQiOiJhYWU3OWFhODAwZGIyOWI2NzNkMCIsImdjaWQiOiIxNzI0ODAzOTc0LjE3OTI1OTAzMjUiLCJ1c2VyX2FnZV9yYW5nZSI6IjU1IiwidXNlcl9nZW5kZXIiOiJtYWxlIiwidXNlcl9nb2FsIjoiUGVyc29uYWwgZGV2ZWxvcG1lbnQiLCJhbmFseXRpY3NfdHJhY2tlZCI6eyJldmVudHNUcmFja2VkIjpmYWxzZSwibGFzdFRyYWNrZWRWYWx1ZXMiOnsiY2lkIjpudWxsLCJlbWFpbCI6bnVsbCwibmFtZSI6bnVsbH19LCJwYXltZW50X2JhY2tfcGF0aCI6InBsYW4iLCJkZXZpY2VfaWQiOiIwMDQ3NmUyMS04Mzg5LTQ1OTctOWM2ZC0xMmFkNTcxYTZlZGYifQ%3D%3D&ds=ZmFsc2U%3D&tpd=eyJ0cFByb2R1Y3RUaXRsZSI6IjEyIFdlZWtzIEV4cGVydCBQbGFuIn0%3D",
       "path": "/new-h2/quiz/26",
       "title": "You can achieve greatness too!",
       "kind": "info",
@@ -449,7 +451,7 @@
     {
       "n": 28,
       "file": "28.webp",
-      "url": "https://start.memoryos.com/new-h2/quiz/27?thm=light&gbv=eyJnYl92YWx1ZSI6Miwic2F2ZWRfYXQiOiIyMDI2LTEwLTIxVDEyOjQ4OjM5LjY2NVoifQ%3D%3D&u=eyJjaWQiOiJkMzFlODk5MGNmMGQ0NzU1ZjljNCIsImdjaWQiOiIxNTIzMTE5NTIxLjE3OTI1ODY5MjAiLCJ1c2VyX2FnZV9yYW5nZSI6IjU1IiwidXNlcl9nZW5kZXIiOiJtYWxlIiwidXNlcl9nb2FsIjoiUGVyc29uYWwgZGV2ZWxvcG1lbnQiLCJhbmFseXRpY3NfdHJhY2tlZCI6eyJldmVudHNUcmFja2VkIjpmYWxzZSwibGFzdFRyYWNrZWRWYWx1ZXMiOnsiY2lkIjpudWxsLCJlbWFpbCI6bnVsbCwibmFtZSI6bnVsbH19LCJwYXltZW50X2JhY2tfcGF0aCI6InBsYW4iLCJkZXZpY2VfaWQiOiI1YmFiZTBjMi03ZDVkLTRiNjMtYWI2Ni03M2Y4YWY5OGI0ODkifQ%3D%3D&ds=ZmFsc2U%3D&tpd=eyJ0cFByb2R1Y3RUaXRsZSI6IjEyIFdlZWtzIEV4cGVydCBQbGFuIn0%3D",
+      "url": "https://start.memoryos.com/new-h2/quiz/27?thm=light&gbv=eyJnYl92YWx1ZSI6Miwic2F2ZWRfYXQiOiIyMDI2LTEwLTIxVDEzOjQ1OjI1LjY2M1oifQ%3D%3D&u=eyJjaWQiOiJhYWU3OWFhODAwZGIyOWI2NzNkMCIsImdjaWQiOiIxNzI0ODAzOTc0LjE3OTI1OTAzMjUiLCJ1c2VyX2FnZV9yYW5nZSI6IjU1IiwidXNlcl9nZW5kZXIiOiJtYWxlIiwidXNlcl9nb2FsIjoiUGVyc29uYWwgZGV2ZWxvcG1lbnQiLCJhbmFseXRpY3NfdHJhY2tlZCI6eyJldmVudHNUcmFja2VkIjpmYWxzZSwibGFzdFRyYWNrZWRWYWx1ZXMiOnsiY2lkIjpudWxsLCJlbWFpbCI6bnVsbCwibmFtZSI6bnVsbH19LCJwYXltZW50X2JhY2tfcGF0aCI6InBsYW4iLCJkZXZpY2VfaWQiOiIwMDQ3NmUyMS04Mzg5LTQ1OTctOWM2ZC0xMmFkNTcxYTZlZGYifQ%3D%3D&ds=ZmFsc2U%3D&tpd=eyJ0cFByb2R1Y3RUaXRsZSI6IjEyIFdlZWtzIEV4cGVydCBQbGFuIn0%3D",
       "path": "/new-h2/quiz/27",
       "title": "What type of learning do you prefer?",
       "kind": "question",
@@ -465,7 +467,7 @@
     {
       "n": 29,
       "file": "29.webp",
-      "url": "https://start.memoryos.com/new-h2/quiz/28?thm=light&gbv=eyJnYl92YWx1ZSI6Miwic2F2ZWRfYXQiOiIyMDI2LTEwLTIxVDEyOjQ4OjM5LjY2NVoifQ%3D%3D&u=eyJjaWQiOiJkMzFlODk5MGNmMGQ0NzU1ZjljNCIsImdjaWQiOiIxNTIzMTE5NTIxLjE3OTI1ODY5MjAiLCJ1c2VyX2FnZV9yYW5nZSI6IjU1IiwidXNlcl9nZW5kZXIiOiJtYWxlIiwidXNlcl9nb2FsIjoiUGVyc29uYWwgZGV2ZWxvcG1lbnQiLCJhbmFseXRpY3NfdHJhY2tlZCI6eyJldmVudHNUcmFja2VkIjpmYWxzZSwibGFzdFRyYWNrZWRWYWx1ZXMiOnsiY2lkIjpudWxsLCJlbWFpbCI6bnVsbCwibmFtZSI6bnVsbH19LCJwYXltZW50X2JhY2tfcGF0aCI6InBsYW4iLCJkZXZpY2VfaWQiOiI1YmFiZTBjMi03ZDVkLTRiNjMtYWI2Ni03M2Y4YWY5OGI0ODkifQ%3D%3D&ds=ZmFsc2U%3D&tpd=eyJ0cFByb2R1Y3RUaXRsZSI6IjEyIFdlZWtzIEV4cGVydCBQbGFuIn0%3D",
+      "url": "https://start.memoryos.com/new-h2/quiz/28?thm=light&gbv=eyJnYl92YWx1ZSI6Miwic2F2ZWRfYXQiOiIyMDI2LTEwLTIxVDEzOjQ1OjI1LjY2M1oifQ%3D%3D&u=eyJjaWQiOiJhYWU3OWFhODAwZGIyOWI2NzNkMCIsImdjaWQiOiIxNzI0ODAzOTc0LjE3OTI1OTAzMjUiLCJ1c2VyX2FnZV9yYW5nZSI6IjU1IiwidXNlcl9nZW5kZXIiOiJtYWxlIiwidXNlcl9nb2FsIjoiUGVyc29uYWwgZGV2ZWxvcG1lbnQiLCJhbmFseXRpY3NfdHJhY2tlZCI6eyJldmVudHNUcmFja2VkIjpmYWxzZSwibGFzdFRyYWNrZWRWYWx1ZXMiOnsiY2lkIjpudWxsLCJlbWFpbCI6bnVsbCwibmFtZSI6bnVsbH19LCJwYXltZW50X2JhY2tfcGF0aCI6InBsYW4iLCJkZXZpY2VfaWQiOiIwMDQ3NmUyMS04Mzg5LTQ1OTctOWM2ZC0xMmFkNTcxYTZlZGYifQ%3D%3D&ds=ZmFsc2U%3D&tpd=eyJ0cFByb2R1Y3RUaXRsZSI6IjEyIFdlZWtzIEV4cGVydCBQbGFuIn0%3D",
       "path": "/new-h2/quiz/28",
       "title": "What motivates you to stick to a memory improvement routine?",
       "kind": "question",
@@ -481,7 +483,7 @@
     {
       "n": 30,
       "file": "30.webp",
-      "url": "https://start.memoryos.com/new-h2/quiz/29?thm=light&gbv=eyJnYl92YWx1ZSI6Miwic2F2ZWRfYXQiOiIyMDI2LTEwLTIxVDEyOjQ4OjM5LjY2NVoifQ%3D%3D&u=eyJjaWQiOiJkMzFlODk5MGNmMGQ0NzU1ZjljNCIsImdjaWQiOiIxNTIzMTE5NTIxLjE3OTI1ODY5MjAiLCJ1c2VyX2FnZV9yYW5nZSI6IjU1IiwidXNlcl9nZW5kZXIiOiJtYWxlIiwidXNlcl9nb2FsIjoiUGVyc29uYWwgZGV2ZWxvcG1lbnQiLCJhbmFseXRpY3NfdHJhY2tlZCI6eyJldmVudHNUcmFja2VkIjpmYWxzZSwibGFzdFRyYWNrZWRWYWx1ZXMiOnsiY2lkIjpudWxsLCJlbWFpbCI6bnVsbCwibmFtZSI6bnVsbH19LCJwYXltZW50X2JhY2tfcGF0aCI6InBsYW4iLCJkZXZpY2VfaWQiOiI1YmFiZTBjMi03ZDVkLTRiNjMtYWI2Ni03M2Y4YWY5OGI0ODkifQ%3D%3D&ds=ZmFsc2U%3D&tpd=eyJ0cFByb2R1Y3RUaXRsZSI6IjEyIFdlZWtzIEV4cGVydCBQbGFuIn0%3D",
+      "url": "https://start.memoryos.com/new-h2/quiz/29?thm=light&gbv=eyJnYl92YWx1ZSI6Miwic2F2ZWRfYXQiOiIyMDI2LTEwLTIxVDEzOjQ1OjI1LjY2M1oifQ%3D%3D&u=eyJjaWQiOiJhYWU3OWFhODAwZGIyOWI2NzNkMCIsImdjaWQiOiIxNzI0ODAzOTc0LjE3OTI1OTAzMjUiLCJ1c2VyX2FnZV9yYW5nZSI6IjU1IiwidXNlcl9nZW5kZXIiOiJtYWxlIiwidXNlcl9nb2FsIjoiUGVyc29uYWwgZGV2ZWxvcG1lbnQiLCJhbmFseXRpY3NfdHJhY2tlZCI6eyJldmVudHNUcmFja2VkIjpmYWxzZSwibGFzdFRyYWNrZWRWYWx1ZXMiOnsiY2lkIjpudWxsLCJlbWFpbCI6bnVsbCwibmFtZSI6bnVsbH19LCJwYXltZW50X2JhY2tfcGF0aCI6InBsYW4iLCJkZXZpY2VfaWQiOiIwMDQ3NmUyMS04Mzg5LTQ1OTctOWM2ZC0xMmFkNTcxYTZlZGYifQ%3D%3D&ds=ZmFsc2U%3D&tpd=eyJ0cFByb2R1Y3RUaXRsZSI6IjEyIFdlZWtzIEV4cGVydCBQbGFuIn0%3D",
       "path": "/new-h2/quiz/29",
       "title": "Ready to embark on a journey to enhance your memory?",
       "kind": "question",
@@ -497,7 +499,7 @@
     {
       "n": 31,
       "file": "31.webp",
-      "url": "https://start.memoryos.com/new-h2/quiz/30?thm=light&gbv=eyJnYl92YWx1ZSI6Miwic2F2ZWRfYXQiOiIyMDI2LTEwLTIxVDEyOjQ4OjM5LjY2NVoifQ%3D%3D&u=eyJjaWQiOiJkMzFlODk5MGNmMGQ0NzU1ZjljNCIsImdjaWQiOiIxNTIzMTE5NTIxLjE3OTI1ODY5MjAiLCJ1c2VyX2FnZV9yYW5nZSI6IjU1IiwidXNlcl9nZW5kZXIiOiJtYWxlIiwidXNlcl9nb2FsIjoiUGVyc29uYWwgZGV2ZWxvcG1lbnQiLCJhbmFseXRpY3NfdHJhY2tlZCI6eyJldmVudHNUcmFja2VkIjpmYWxzZSwibGFzdFRyYWNrZWRWYWx1ZXMiOnsiY2lkIjpudWxsLCJlbWFpbCI6bnVsbCwibmFtZSI6bnVsbH19LCJwYXltZW50X2JhY2tfcGF0aCI6InBsYW4iLCJkZXZpY2VfaWQiOiI1YmFiZTBjMi03ZDVkLTRiNjMtYWI2Ni03M2Y4YWY5OGI0ODkifQ%3D%3D&ds=ZmFsc2U%3D&tpd=eyJ0cFByb2R1Y3RUaXRsZSI6IjEyIFdlZWtzIEV4cGVydCBQbGFuIn0%3D",
+      "url": "https://start.memoryos.com/new-h2/quiz/30?thm=light&gbv=eyJnYl92YWx1ZSI6Miwic2F2ZWRfYXQiOiIyMDI2LTEwLTIxVDEzOjQ1OjI1LjY2M1oifQ%3D%3D&u=eyJjaWQiOiJhYWU3OWFhODAwZGIyOWI2NzNkMCIsImdjaWQiOiIxNzI0ODAzOTc0LjE3OTI1OTAzMjUiLCJ1c2VyX2FnZV9yYW5nZSI6IjU1IiwidXNlcl9nZW5kZXIiOiJtYWxlIiwidXNlcl9nb2FsIjoiUGVyc29uYWwgZGV2ZWxvcG1lbnQiLCJhbmFseXRpY3NfdHJhY2tlZCI6eyJldmVudHNUcmFja2VkIjpmYWxzZSwibGFzdFRyYWNrZWRWYWx1ZXMiOnsiY2lkIjpudWxsLCJlbWFpbCI6bnVsbCwibmFtZSI6bnVsbH19LCJwYXltZW50X2JhY2tfcGF0aCI6InBsYW4iLCJkZXZpY2VfaWQiOiIwMDQ3NmUyMS04Mzg5LTQ1OTctOWM2ZC0xMmFkNTcxYTZlZGYifQ%3D%3D&ds=ZmFsc2U%3D&tpd=eyJ0cFByb2R1Y3RUaXRsZSI6IjEyIFdlZWtzIEV4cGVydCBQbGFuIn0%3D",
       "path": "/new-h2/quiz/30",
       "title": "Set your daily commitment to develop a habit and stay motivated",
       "kind": "question",
@@ -513,7 +515,7 @@
     {
       "n": 32,
       "file": "32.webp",
-      "url": "https://start.memoryos.com/new-h2/quiz/32?thm=light&gbv=eyJnYl92YWx1ZSI6Miwic2F2ZWRfYXQiOiIyMDI2LTEwLTIxVDEyOjQ4OjM5LjY2NVoifQ%3D%3D&u=eyJjaWQiOiJkMzFlODk5MGNmMGQ0NzU1ZjljNCIsImdjaWQiOiIxNTIzMTE5NTIxLjE3OTI1ODY5MjAiLCJ1c2VyX2FnZV9yYW5nZSI6IjU1IiwidXNlcl9nZW5kZXIiOiJtYWxlIiwidXNlcl9nb2FsIjoiUGVyc29uYWwgZGV2ZWxvcG1lbnQiLCJhbmFseXRpY3NfdHJhY2tlZCI6eyJldmVudHNUcmFja2VkIjpmYWxzZSwibGFzdFRyYWNrZWRWYWx1ZXMiOnsiY2lkIjpudWxsLCJlbWFpbCI6bnVsbCwibmFtZSI6bnVsbH19LCJwYXltZW50X2JhY2tfcGF0aCI6InBsYW4iLCJkZXZpY2VfaWQiOiI1YmFiZTBjMi03ZDVkLTRiNjMtYWI2Ni03M2Y4YWY5OGI0ODkifQ%3D%3D&ds=ZmFsc2U%3D&tpd=eyJ0cFByb2R1Y3RUaXRsZSI6IjEyIFdlZWtzIEV4cGVydCBQbGFuIn0%3D",
+      "url": "https://start.memoryos.com/new-h2/quiz/32?thm=light&gbv=eyJnYl92YWx1ZSI6Miwic2F2ZWRfYXQiOiIyMDI2LTEwLTIxVDEzOjQ1OjI1LjY2M1oifQ%3D%3D&u=eyJjaWQiOiJhYWU3OWFhODAwZGIyOWI2NzNkMCIsImdjaWQiOiIxNzI0ODAzOTc0LjE3OTI1OTAzMjUiLCJ1c2VyX2FnZV9yYW5nZSI6IjU1IiwidXNlcl9nZW5kZXIiOiJtYWxlIiwidXNlcl9nb2FsIjoiUGVyc29uYWwgZGV2ZWxvcG1lbnQiLCJhbmFseXRpY3NfdHJhY2tlZCI6eyJldmVudHNUcmFja2VkIjpmYWxzZSwibGFzdFRyYWNrZWRWYWx1ZXMiOnsiY2lkIjpudWxsLCJlbWFpbCI6bnVsbCwibmFtZSI6bnVsbH19LCJwYXltZW50X2JhY2tfcGF0aCI6InBsYW4iLCJkZXZpY2VfaWQiOiIwMDQ3NmUyMS04Mzg5LTQ1OTctOWM2ZC0xMmFkNTcxYTZlZGYifQ%3D%3D&ds=ZmFsc2U%3D&tpd=eyJ0cFByb2R1Y3RUaXRsZSI6IjEyIFdlZWtzIEV4cGVydCBQbGFuIn0%3D",
       "path": "/new-h2/quiz/32",
       "title": "Enter your email to get your memoryOS plan",
       "kind": "email",
@@ -524,24 +526,92 @@
       "prices": [],
       "action": {
         "filled": true,
-        "email": "yelyzavetabazyla+fw261021memoryos1@gmail.com"
-      },
-      "emailError": "Please enter a valid email address"
+        "email": "yel.yzavetabaz.yla@gmail.com",
+        "cta": "Continue"
+      }
+    },
+    {
+      "n": 33,
+      "file": "33.webp",
+      "url": "https://start.memoryos.com/new-h2/quiz/33?thm=light&gbv=eyJnYl92YWx1ZSI6Miwic2F2ZWRfYXQiOiIyMDI2LTEwLTIxVDEzOjQ1OjI1LjY2M1oifQ%3D%3D&u=eyJjaWQiOiJhYWU3OWFhODAwZGIyOWI2NzNkMCIsImdjaWQiOiIxNzI0ODAzOTc0LjE3OTI1OTAzMjUiLCJlbWFpbCI6InllbC55emF2ZXRhYmF6LnlsYUBnbWFpbC5jb20iLCJ1c2VyX2FnZV9yYW5nZSI6IjU1IiwidXNlcl9nZW5kZXIiOiJtYWxlIiwidXNlcl9nb2FsIjoiUGVyc29uYWwgZGV2ZWxvcG1lbnQiLCJhbmFseXRpY3NfdHJhY2tlZCI6eyJldmVudHNUcmFja2VkIjpmYWxzZSwibGFzdFRyYWNrZWRWYWx1ZXMiOnsiY2lkIjpudWxsLCJlbWFpbCI6bnVsbCwibmFtZSI6bnVsbH19LCJwYXltZW50X2JhY2tfcGF0aCI6InBsYW4iLCJkZXZpY2VfaWQiOiIwMDQ3NmUyMS04Mzg5LTQ1OTctOWM2ZC0xMmFkNTcxYTZlZGYifQ%3D%3D&ds=ZmFsc2U%3D&tpd=eyJ0cFByb2R1Y3RUaXRsZSI6IjEyIFdlZWtzIEV4cGVydCBQbGFuIn0%3D",
+      "path": "/new-h2/quiz/33",
+      "title": "How can we call you?",
+      "kind": "info",
+      "text": "How can we call you?\nContinue",
+      "textHash": "873a88c93300",
+      "dhash": "1111000011001100100000100100000000000000000000000000000000000000",
+      "h": 844,
+      "prices": [],
+      "action": {
+        "filled": true,
+        "cta": "Continue"
+      }
+    },
+    {
+      "n": 34,
+      "file": "34.webp",
+      "url": "https://start.memoryos.com/new-h2/quiz/34?thm=light&gbv=eyJnYl92YWx1ZSI6Miwic2F2ZWRfYXQiOiIyMDI2LTEwLTIxVDEzOjQ1OjI1LjY2M1oifQ%3D%3D&u=eyJjaWQiOiJhYWU3OWFhODAwZGIyOWI2NzNkMCIsImdjaWQiOiIxNzI0ODAzOTc0LjE3OTI1OTAzMjUiLCJlbWFpbCI6InllbC55emF2ZXRhYmF6LnlsYUBnbWFpbC5jb20iLCJuYW1lIjoiQWxleCIsInVzZXJfYWdlX3JhbmdlIjoiNTUiLCJ1c2VyX2dlbmRlciI6Im1hbGUiLCJ1c2VyX2dvYWwiOiJQZXJzb25hbCBkZXZlbG9wbWVudCIsImFuYWx5dGljc190cmFja2VkIjp7ImV2ZW50c1RyYWNrZWQiOnRydWUsImxhc3RUcmFja2VkVmFsdWVzIjp7ImNpZCI6ImFhZTc5YWE4MDBkYjI5YjY3M2QwIiwiZW1haWwiOiJ5ZWwueXphdmV0YWJhei55bGFAZ21haWwuY29tIiwibmFtZSI6IkFsZXgifX0sInBheW1lbnRfYmFja19wYXRoIjoicGxhbiIsImRldmljZV9pZCI6IjAwNDc2ZTIxLTgzODktNDU5Ny05YzZkLTEyYWQ1NzFhNmVkZiJ9&ds=ZmFsc2U%3D&tpd=eyJ0cFByb2R1Y3RUaXRsZSI6IjEyIFdlZWtzIEV4cGVydCBQbGFuIn0%3D",
+      "path": "/new-h2/quiz/34",
+      "title": "Your personal memory growth plan is ready",
+      "kind": "info",
+      "text": "Your personal memory growth plan is ready\nMemory Level\nAfter using memoryOS\nToday\n+ 70% in 4 Weeks\nThe chart is a non-customized illustration based on average user data\nNow\n4.9 average rating on US App Store\nContinue",
+      "textHash": "fedf13972a2f",
+      "dhash": "1111000011001100110011001011000010001110110001001100100010001110",
+      "h": 844,
+      "prices": [],
+      "action": {
+        "cta": "Continue"
+      }
+    },
+    {
+      "n": 35,
+      "file": "35.webp",
+      "url": "https://start.memoryos.com/new-h2/plan?thm=light&gbv=eyJnYl92YWx1ZSI6Miwic2F2ZWRfYXQiOiIyMDI2LTEwLTIxVDEzOjQ1OjI1LjY2M1oifQ%3D%3D&u=eyJjaWQiOiJhYWU3OWFhODAwZGIyOWI2NzNkMCIsImdjaWQiOiIxNzI0ODAzOTc0LjE3OTI1OTAzMjUiLCJlbWFpbCI6InllbC55emF2ZXRhYmF6LnlsYUBnbWFpbC5jb20iLCJuYW1lIjoiQWxleCIsInVzZXJfYWdlX3JhbmdlIjoiNTUiLCJ1c2VyX2dlbmRlciI6Im1hbGUiLCJ1c2VyX2dvYWwiOiJQZXJzb25hbCBkZXZlbG9wbWVudCIsImFuYWx5dGljc190cmFja2VkIjp7ImV2ZW50c1RyYWNrZWQiOnRydWUsImxhc3RUcmFja2VkVmFsdWVzIjp7ImNpZCI6ImFhZTc5YWE4MDBkYjI5YjY3M2QwIiwiZW1haWwiOiJ5ZWwueXphdmV0YWJhei55bGFAZ21haWwuY29tIiwibmFtZSI6IkFsZXgifX0sInBheW1lbnRfYmFja19wYXRoIjoicGxhbiIsImRldmljZV9pZCI6IjAwNDc2ZTIxLTgzODktNDU5Ny05YzZkLTEyYWQ1NzFhNmVkZiJ9&ds=ZmFsc2U%3D&tpd=eyJ0cFByb2R1Y3RUaXRsZSI6IjEyIFdlZWtzIEV4cGVydCBQbGFuIn0%3D",
+      "path": "/new-h2/plan",
+      "title": "0",
+      "kind": "paywall",
+      "text": "Offer is reserved for:\n9:42\nSTART MY PLAN\nInvest in your brain today. Enjoy tomorrow.\njoin over 500,000 Early Adopters who highly rated memoryOS\nOffer is reserved for\n9:42\nNOW\nStruggling to Remember\nWeak memory\nYOUR GOAL\nRemember Everything Important\nMaster of Recall ⚡\nChoose your plan\nMOST POPULAR\n12-WEEK PLAN\nSAVE 63%\n$99.99\n$36.99\n$1.19\n$\n0\n44\nper day\n4-WEEK PLAN\nSAVE 70%\n$49.99\n$15.19\n$1.79\n$\n0\n54\nper day\nBEST DEAL\n24-WEEK PLAN\nSAVE 50%\n$119.99\n$59.99\n$0.71\n$\n0\n36\nper day\nBy purchasing, you agree you will be charged $36.99 today for your first 12 weeks. Then $99.99 every 12 weeks, starting 13 January 2027, until you cancel. Cancel in one step, any time, in Account Settings or in the app - no phone call or email required. We'll email you these terms now, plus a reminder before each charge.\nBy continuing you agree to our Terms and Conditions and Privacy Policy.\nContinue\nSecured by:\n30-day money-back guarantee\nWhat is memoryOS\nWhat You Get Within Your memoryOS Plan\nStructured memory, dazzling recall speed, large memory capacity, high confidence, lifelong memory skills\nScientifically proven & time-tested methods\nWorld Memory Champion guidance throughout your gamified learning path\nLibrary of HD virtual Mind Palaces to serve as your mind storage space\nExclusive access to our Early Adopters private group\nAd immunity\nSpaced repetition mechanics\n28\nlifelong memory skills\n130+\ninteractive micro-lessons\nInfinite hearts\n950+\nunique loci objects\nLibrary of virtual Mind Palaces\nYou wi",
+      "textHash": "e64775a2bc8d",
+      "dhash": "1010110011100000011000001001001011001100110111001100110011110000",
+      "h": 6000,
+      "prices": [
+        "$99.99",
+        "$36.99",
+        "$1.19",
+        "$\n0",
+        "$49.99",
+        "$15.19",
+        "$1.79",
+        "$119.99",
+        "$59.99",
+        "$0.71"
+      ]
     }
   ],
   "features": {
-    "totalSteps": 32,
-    "stop": "email_rejected",
+    "totalSteps": 35,
+    "stop": "paywall",
     "emailStep": 32,
-    "paywallStep": null,
+    "paywallStep": 35,
     "questions": 19,
     "socialProof": 2,
     "popups": 0,
     "loader": true,
-    "prices": [],
-    "discount": null,
-    "timer": false,
+    "prices": [
+      "$99.99",
+      "$36.99",
+      "$1.19",
+      "$\n0",
+      "$49.99",
+      "$15.19",
+      "$1.79",
+      "$119.99",
+      "$59.99",
+      "$0.71"
+    ],
+    "discount": "63",
+    "timer": true,
     "trial": false,
-    "moneyBack": false
+    "moneyBack": true
   }
 }

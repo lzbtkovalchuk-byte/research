@@ -6,11 +6,13 @@
   "adShot": "imprint-06cefd8c1237.webp",
   "adId": "1649574536339228",
   "dir": "funnels/imprint/06cefd8c1237",
-  "stop": "email_rejected",
+  "stop": "paywall",
   "proxied": false,
-  "email": "yelyzavetabazyla+fw261021imprint2@gmail.com",
-  "emailNote": "Email An account already exists with this email.",
+  "email": "yelyzavetabazyla+fw2610211334imprint2@gmail.com",
+  "emailNote": null,
   "signedUp": null,
+  "restartUrl": null,
+  "finalUrl": "https://www.imprintapp.com/signup/start-history/growth-plans",
   "steps": [
     {
       "n": 1,
@@ -554,24 +556,82 @@
       "action": {
         "filled": true,
         "cta": "Continue",
-        "email": "yelyzavetabazyla+fw261021imprint2@gmail.com"
-      },
-      "emailError": "Email An account already exists with this email."
+        "email": "yelyzavetabazyla+fw2610211334imprint2@gmail.com"
+      }
+    },
+    {
+      "n": 34,
+      "file": "34.webp",
+      "url": "https://www.imprintapp.com/signup/start-history",
+      "path": "/signup/start-history",
+      "title": "Your Growth Plan",
+      "kind": "info",
+      "text": "Your Growth Plan\nWe've crafted a personalized growth plan just for you.\nFor illustrative purposes only and do not guarantee specific outcomes. Individual results may vary.\nYOUR SKILLS PLAN\n88%\nYes\n79%\nTurning points in history\n71%\nHistorical figures\nContinue",
+      "textHash": "f3316f58f99b",
+      "dhash": "1111000011001100110011001100001010010100011010001010000111001010",
+      "h": 940,
+      "prices": [],
+      "action": {
+        "cta": "Continue"
+      }
+    },
+    {
+      "n": 35,
+      "file": "35.webp",
+      "url": "https://www.imprintapp.com/signup/start-history",
+      "path": "/signup/start-history",
+      "title": "Become the most interesting person in the room",
+      "kind": "info",
+      "text": "Become the most interesting person in the room\nBased on your answers, we crafted a self-growth plan.\nContinue",
+      "textHash": "2a0d17f01683",
+      "dhash": "1101010001110010111001001110010011001100000100111010000010001110",
+      "h": 844,
+      "prices": [],
+      "action": {
+        "cta": "Continue"
+      }
+    },
+    {
+      "n": 36,
+      "file": "36.webp",
+      "url": "https://www.imprintapp.com/signup/start-history/growth-plans",
+      "path": "/signup/start-history/growth-plans",
+      "title": "Choose a plan",
+      "kind": "paywall",
+      "text": "Choose a plan\nPromo code applied!\nSUMMER2026\nMonthly\nFirst month for $11.99\n$23.99\n$11.99\n50% OFF\nMOST POPULAR\nQuarterly\nFirst 3 months for $16.99\n$42.99\n$16.99\n60% OFF\nAnnual\nFirst 12 months for $49.99\n$99.99\n$49.99\n50% OFF\n30-Day Money Back Guarantee\nTry Imprint risk-free. We're confident our lessons create real impact. If you don't find Imprint valuable within 30 days, you can request a full refund, no questions asked!\nLearn Anywhere With\nImprint\n5-min Visual and\nInteractive Lessons\nFun, Bite-Sized\nQuizzes\nReplace\nDoomscrolling\nPeople Love\nImprint\n“Imprint is a good way to learn and get positive, productive screen time. The short lessons are great and stimulate you to continue learning and exploring new things.”\n-Newt.b*****\n“Love it! It's now part of my morning routine. Imprint helps you feel productive whenever you have some downtime or are taking a break.”\n-Berna***********\nWhat You Get With Imprint\nPersonalized plan to achieve your goals\nLibrary of bite-sized lessons and quizzes\nEngaging visual, interactive lessons\nExpert-designed and curated courses\nMaster complex topics in over 25 categories\nPeople Love the Imprint App\n“This app has greatly improved my life and overall well-being... it has helped me to foster a healthy growth mindset.”\n-Scott*******\n“Imprint has amazing content that is varied and intellectually potent. Give it a try, you will not be disappointed.”\n-TomTo*********\n“One of the few apps I use everyday. Kudos to the team behind this for putting in the ef",
+      "textHash": "d87aa0b3cc43",
+      "dhash": "1110100010000111110011101000110011000100111010001010100010001110",
+      "h": 6000,
+      "prices": [
+        "$11.99",
+        "$23.99",
+        "$16.99",
+        "$42.99",
+        "$49.99",
+        "$99.99"
+      ]
     }
   ],
   "features": {
-    "totalSteps": 33,
-    "stop": "email_rejected",
+    "totalSteps": 36,
+    "stop": "paywall",
     "emailStep": 33,
-    "paywallStep": null,
+    "paywallStep": 36,
     "questions": 25,
     "socialProof": 6,
     "popups": 0,
     "loader": false,
-    "prices": [],
-    "discount": null,
+    "prices": [
+      "$11.99",
+      "$23.99",
+      "$16.99",
+      "$42.99",
+      "$49.99",
+      "$99.99"
+    ],
+    "discount": "50",
     "timer": false,
     "trial": false,
-    "moneyBack": false
+    "moneyBack": true
   }
 }

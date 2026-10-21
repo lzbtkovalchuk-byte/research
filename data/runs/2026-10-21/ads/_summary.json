@@ -14,13 +14,6 @@
     "errors": 0
   },
   {
-    "id": "simply-piano",
-    "active": 510,
-    "newInWindow": 2,
-    "landings": 4,
-    "errors": 0
-  },
-  {
     "id": "memoryos",
     "active": 3,
     "newInWindow": 3,
@@ -28,52 +21,10 @@
     "errors": 0
   },
   {
-    "id": "chillio",
-    "active": 29,
-    "newInWindow": 11,
-    "landings": 2,
-    "errors": 0
-  },
-  {
-    "id": "learna",
-    "active": 644,
-    "newInWindow": 46,
-    "landings": 5,
-    "errors": 0
-  },
-  {
-    "id": "copymind",
-    "active": 0,
-    "newInWindow": 0,
-    "landings": 0,
-    "errors": 0
-  },
-  {
-    "id": "simply-sing",
-    "active": 83,
-    "newInWindow": 7,
-    "landings": 2,
-    "errors": 0
-  },
-  {
-    "id": "yousician",
-    "active": 19,
-    "newInWindow": 8,
-    "landings": 2,
-    "errors": 0
-  },
-  {
     "id": "smartyme",
-    "active": 125,
+    "active": 124,
     "newInWindow": 55,
     "landings": 2,
-    "errors": 0
-  },
-  {
-    "id": "simply-draw",
-    "active": 9,
-    "newInWindow": 3,
-    "landings": 1,
     "errors": 0
   }
 ]
