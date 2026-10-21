@@ -2,15 +2,17 @@
   "url": "https://start.smartymeapp.com/quiz",
   "key": "start.smartymeapp.com/quiz",
   "why": "ad",
-  "ads": 149,
+  "ads": 147,
   "adShot": "smartyme-5353a564ba54.webp",
   "adId": "3201702963367232",
   "dir": "funnels/smartyme/5353a564ba54",
-  "stop": "stuck",
+  "stop": "timeout",
   "proxied": false,
-  "email": "yelyzavetabazyla+fw261021smartyme1@gmail.com",
+  "email": "yelyzavetabazyla+fw2610211414smartyme1@gmail.com",
   "emailNote": null,
   "signedUp": null,
+  "restartUrl": null,
+  "finalUrl": "https://start.smartymeapp.com/quiz",
   "steps": [
     {
       "n": 1,
@@ -170,19 +172,586 @@
       "h": 997,
       "prices": [],
       "action": {
-        "opt": "I procrastinate"
+        "opt": "I procrastinate",
+        "cta": "Continue"
       }
+    },
+    {
+      "n": 11,
+      "file": "11.webp",
+      "url": "https://start.smartymeapp.com/quiz",
+      "path": "/quiz",
+      "title": "What do you do when things don't go as planned?",
+      "kind": "question",
+      "text": "Challenges\n✓\n✓\nWhat do you do when things don't go as planned?\nI adapt pretty quickly\nI take this as an opportunity",
+      "textHash": "3187f09a1548",
+      "dhash": "0101001011100000111000001001001010000000000000000000000000000000",
+      "h": 844,
+      "prices": [],
+      "action": {
+        "opt": "I adapt pretty quickly",
+        "cta": "Continue"
+      }
+    },
+    {
+      "n": 12,
+      "file": "12.webp",
+      "url": "https://start.smartymeapp.com/quiz",
+      "path": "/quiz",
+      "title": "Do you notice how often people use filler or swear words?",
+      "kind": "question",
+      "text": "Challenges\n✓\n✓\nDo you notice how often people use filler or swear words?\nAll the time\nSometimes\nNever\nOnly my own",
+      "textHash": "a2dcc95d932d",
+      "dhash": "0101000010110010100100101000110010000000100000000000000000000000",
+      "h": 844,
+      "prices": [],
+      "action": {
+        "opt": "All the time"
+      }
+    },
+    {
+      "n": 13,
+      "file": "13.webp",
+      "url": "https://start.smartymeapp.com/quiz",
+      "path": "/quiz",
+      "title": "How often do you find yourself using words like \"um\" or \"uh\" when speaking?",
+      "kind": "question",
+      "text": "Challenges\n✓\n✓\nHow often do you find yourself using words like \"um\" or \"uh\" when speaking?\nMore often than I’d like\nSometimes, but I try to avoid it\nRarely or never",
+      "textHash": "91bd56a91958",
+      "dhash": "0100001011010100111100001000001010001000100001000000000000000000",
+      "h": 844,
+      "prices": [],
+      "action": {
+        "opt": "More often than I’d like",
+        "cta": "Continue"
+      }
+    },
+    {
+      "n": 14,
+      "file": "14.webp",
+      "url": "https://start.smartymeapp.com/quiz",
+      "path": "/quiz",
+      "title": "“How was your weekend?”",
+      "kind": "question",
+      "text": "Challenges\n✓\n✓\nIs this a good small talk opener?\n“How was your weekend?”\n1\n2\n3\n4\n5",
+      "textHash": "d47955408d72",
+      "dhash": "0101000011101100100101100000000000000000000000000000000000000000",
+      "h": 844,
+      "prices": [],
+      "action": {
+        "opt": "3"
+      }
+    },
+    {
+      "n": 15,
+      "file": "15.webp",
+      "url": "https://start.smartymeapp.com/quiz",
+      "path": "/quiz",
+      "title": "“How're you feeling?”",
+      "kind": "question",
+      "text": "Challenges\n✓\n✓\nIs this a good small talk opener?\n“How're you feeling?”\n1\n2\n3\n4\n5",
+      "textHash": "058426215e08",
+      "dhash": "0101001011001100110101000000001000000000000000000000000000000000",
+      "h": 844,
+      "prices": [],
+      "action": {
+        "opt": "3"
+      }
+    },
+    {
+      "n": 16,
+      "file": "16.webp",
+      "url": "https://start.smartymeapp.com/quiz",
+      "path": "/quiz",
+      "title": "“How’s the weather?”",
+      "kind": "question",
+      "text": "Challenges\n✓\n✓\nIs this a good small talk opener?\n“How’s the weather?”\n1\n2\n3\n4\n5",
+      "textHash": "15c8bc3f1adb",
+      "dhash": "0101001011001100110101000000001000000000000000000000000000000000",
+      "h": 844,
+      "prices": [],
+      "action": {
+        "opt": "3"
+      }
+    },
+    {
+      "n": 17,
+      "file": "17.webp",
+      "url": "https://start.smartymeapp.com/quiz",
+      "path": "/quiz",
+      "title": "Connection starts with confidence",
+      "kind": "info",
+      "text": "Connection starts with confidence\nYour words can open doors. SmartyMe helps you swap filler lines for genuine, engaging conversation, so that people remember you, not just what you said.\nContinue",
+      "textHash": "d4416ed0fcc5",
+      "dhash": "1110110011110000111100001000110010001000000000001000101010001110",
+      "h": 844,
+      "prices": [],
+      "action": {
+        "cta": "Continue"
+      }
+    },
+    {
+      "n": 18,
+      "file": "18.webp",
+      "url": "https://start.smartymeapp.com/quiz",
+      "path": "/quiz",
+      "title": "Your small talk communication plan is 74% ready!",
+      "kind": "info",
+      "text": "Your small talk communication plan is 74% ready!\nYou're almost there! Answer a few more questions so we can understand your communication style better and tailor your small talk communication plan just for you.\nContinue",
+      "textHash": "2c322eff3464",
+      "dhash": "0110001001101000011010001010000010001000000000001010101010001110",
+      "h": 844,
+      "prices": [],
+      "action": {
+        "cta": "Continue"
+      }
+    },
+    {
+      "n": 19,
+      "file": "19.webp",
+      "url": "https://start.smartymeapp.com/quiz",
+      "path": "/quiz",
+      "title": "How often do you compare your communication skills with others?",
+      "kind": "question",
+      "text": "Communication Style\n✓\n✓\n✓\nHow often do you compare your communication skills with others?\nA lot\nSometimes\nNot often",
+      "textHash": "0e04721d7c2a",
+      "dhash": "0101000011100010101010001001011010000000000000000000000000000000",
+      "h": 844,
+      "prices": [],
+      "action": {
+        "opt": "A lot"
+      }
+    },
+    {
+      "n": 20,
+      "file": "20.webp",
+      "url": "https://start.smartymeapp.com/quiz",
+      "path": "/quiz",
+      "title": "\"Some people light up a room — and it’s not me.\"",
+      "kind": "question",
+      "text": "Communication Style\n✓\n✓\n✓\n\"Some people light up a room — and it’s not me.\"\nDo you agree with the statement above?\n1\n2\n3\n4\n5",
+      "textHash": "721a2eeb42e6",
+      "dhash": "0101000010110000100101001000011000000000000000000000000000000000",
+      "h": 844,
+      "prices": [],
+      "action": {
+        "opt": "3"
+      }
+    },
+    {
+      "n": 21,
+      "file": "21.webp",
+      "url": "https://start.smartymeapp.com/quiz",
+      "path": "/quiz",
+      "title": "Ever heard of authority skills?",
+      "kind": "question",
+      "text": "Communication Style\n✓\n✓\n✓\nEver heard of authority skills?\nDefinitely new to me\nI just know the basics\nYes, I already use them",
+      "textHash": "0612bcdc61b7",
+      "dhash": "0101000010110000101000101000000011000000000000001010000000000000",
+      "h": 844,
+      "prices": [],
+      "action": {
+        "opt": "Yes, I already use them"
+      }
+    },
+    {
+      "n": 22,
+      "file": "22.webp",
+      "url": "https://start.smartymeapp.com/quiz",
+      "path": "/quiz",
+      "title": "So, what are authority skills?",
+      "kind": "info",
+      "text": "So, what are authority skills?\nAuthority skills are the power behind how you inspire others, lead with confidence, and make your voice matter. They help you influence outcomes, earn trust, and stand out wherever you are and whoever you're talking to.\nContinue",
+      "textHash": "045012f6883e",
+      "dhash": "1110100010011010100110001001110010100000001001001000111010001110",
+      "h": 844,
+      "prices": [],
+      "action": {
+        "cta": "Continue"
+      }
+    },
+    {
+      "n": 23,
+      "file": "23.webp",
+      "url": "https://start.smartymeapp.com/quiz",
+      "path": "/quiz",
+      "title": "Authority skills empower you in...",
+      "kind": "info",
+      "text": "Authority skills \nempower you in...\nContinue",
+      "textHash": "b9dc0a1dc19f",
+      "dhash": "0110100011110000111000001110100001110001001100001000111010001110",
+      "h": 844,
+      "prices": [],
+      "action": {
+        "cta": "Continue"
+      }
+    },
+    {
+      "n": 24,
+      "file": "24.webp",
+      "url": "https://start.smartymeapp.com/quiz",
+      "path": "/quiz",
+      "title": "How do you feel when you hear your own voice?",
+      "kind": "question",
+      "text": "Communication Style\n✓\n✓\n✓\nHow do you feel when you hear your own voice?\nConfident - I sound good\nCurious - I listen to learn\nUncomfortable - not my favorite sound\nMild panic. Who is that person?\nDeep denial - no playback, no problem",
+      "textHash": "4a2156fd89de",
+      "dhash": "0101000010010100101100001001001010001000100100001001000000000000",
+      "h": 844,
+      "prices": [],
+      "action": {
+        "opt": "Confident - I sound good"
+      }
+    },
+    {
+      "n": 25,
+      "file": "25.webp",
+      "url": "https://start.smartymeapp.com/quiz",
+      "path": "/quiz",
+      "title": "How do you feel about constructive feedback?",
+      "kind": "question",
+      "text": "Communication Style\n✓\n✓\n✓\nHow do you feel about constructive feedback?\nI take it as an opportunity\nMakes me feel bad",
+      "textHash": "c48dd60e8c2b",
+      "dhash": "0101000011001000101000001010011000000000100000000000000000000000",
+      "h": 844,
+      "prices": [],
+      "action": {
+        "opt": "I take it as an opportunity",
+        "cta": "Continue"
+      }
+    },
+    {
+      "n": 26,
+      "file": "26.webp",
+      "url": "https://start.smartymeapp.com/quiz",
+      "path": "/quiz",
+      "title": "\"I stay confident and clear when I negotiate.\"",
+      "kind": "question",
+      "text": "Communication Style\n✓\n✓\n✓\n\"I stay confident and clear when I negotiate.\"\nDo you agree with the statement above?\n1\n2\n3\n4\n5",
+      "textHash": "67d2a01d2af4",
+      "dhash": "0111001011010000110110001000011000000000000000000000000000000000",
+      "h": 844,
+      "prices": [],
+      "action": {
+        "opt": "3"
+      }
+    },
+    {
+      "n": 27,
+      "file": "27.webp",
+      "url": "https://start.smartymeapp.com/quiz",
+      "path": "/quiz",
+      "title": "Your approach to decision-making is...",
+      "kind": "question",
+      "text": "Communication Style\n✓\n✓\n✓\nYour approach to decision-making is...\nRuminate and think it through\nGo with my gut instinct right away",
+      "textHash": "2974f0b87eb9",
+      "dhash": "0101000011110010101000001000110000000000001001000000000000000000",
+      "h": 844,
+      "prices": [],
+      "action": {
+        "opt": "Ruminate and think it through",
+        "cta": "Continue"
+      }
+    },
+    {
+      "n": 28,
+      "file": "28.webp",
+      "url": "https://start.smartymeapp.com/quiz",
+      "path": "/quiz",
+      "title": "A resume gets you in the door. Authority skills gets you a seat at the table",
+      "kind": "info",
+      "text": "A resume gets you in the door. Authority skills gets you a seat at the table\nThe world notices those who can adapt fast, bounce back stronger, and push forward with ambition. Stand out and become the person others bet on.\nContinue",
+      "textHash": "b09c4ff7b4ad",
+      "dhash": "0110100011000000110100001111100010100100100011001000001010001110",
+      "h": 844,
+      "prices": [],
+      "action": {
+        "cta": "Continue"
+      }
+    },
+    {
+      "n": 29,
+      "file": "29.webp",
+      "url": "https://start.smartymeapp.com/quiz",
+      "path": "/quiz",
+      "title": "SmartyMe was developed on proven scientific methods",
+      "kind": "info",
+      "text": "SmartyMe was developed on proven scientific methods\nYour plan will be informed by research from\nContinue",
+      "textHash": "3d15356412b2",
+      "dhash": "1110100011110000101100001111000011110000111100001000111010101110",
+      "h": 844,
+      "prices": [],
+      "action": {
+        "cta": "Continue"
+      }
+    },
+    {
+      "n": 30,
+      "file": "30.webp",
+      "url": "https://start.smartymeapp.com/quiz",
+      "path": "/quiz",
+      "title": "When would you prefer to study?",
+      "kind": "question",
+      "text": "Patterns\n✓\n✓\n✓\n✓\nWhen would you prefer to study?\nContinue\nIn the morning\nDuring the lunch break\nBefore bedtime\nAny free time",
+      "textHash": "5dfd4e3ad570",
+      "dhash": "0101010010110000100000101000001010001010100000101010100010101010",
+      "h": 844,
+      "prices": [],
+      "action": {
+        "opt": "In the morning",
+        "cta": "Continue"
+      }
+    },
+    {
+      "n": 31,
+      "file": "31.webp",
+      "url": "https://start.smartymeapp.com/quiz",
+      "path": "/quiz",
+      "title": "Who inspires you the most?",
+      "kind": "question",
+      "text": "Patterns\n✓\n✓\n✓\n✓\nWho inspires you the most?\nContinue\nMartin Luther King\nMichelle Obama\nSteve Jobs\nOprah Winfrey\nTony Robbins\nBrené Brown\nDale Carnegie\nLori Greiner\nSimon Sinek",
+      "textHash": "23734b2ad928",
+      "dhash": "0101010010110010100100101001011010010110100101101001011010101010",
+      "h": 844,
+      "prices": [],
+      "action": {
+        "opt": "Martin Luther King",
+        "fallback": "Martin Luther King + Continue"
+      }
+    },
+    {
+      "n": 32,
+      "file": "32.webp",
+      "url": "https://start.smartymeapp.com/quiz",
+      "path": "/quiz",
+      "title": "Great choice! Now it's time to invest in you",
+      "kind": "question",
+      "text": "Patterns\n✓\n✓\n✓\n✓\nGreat choice! Now it's time to invest in you\nHow much time can you commit each day?\n5 min/day\n10 min/day\n15 min/day\n20+ min/day",
+      "textHash": "9e39616ce375",
+      "dhash": "0101010011100000100000001001001010000000110000000000000000000000",
+      "h": 844,
+      "prices": [],
+      "action": {
+        "opt": "5 min/day"
+      }
+    },
+    {
+      "n": 33,
+      "file": "33.webp",
+      "url": "https://start.smartymeapp.com/quiz",
+      "path": "/quiz",
+      "title": "Your small talk communication plan is 92% ready!",
+      "kind": "info",
+      "text": "Your small talk communication plan is 92% ready!\nJust one last step. Answer a couple of quick questions so we can finalize your personalized communication plan.\nContinue",
+      "textHash": "b3fd74031203",
+      "dhash": "0110100001110000101100101111000011001100100000001000101010001110",
+      "h": 844,
+      "prices": [],
+      "action": {
+        "cta": "Continue"
+      }
+    },
+    {
+      "n": 34,
+      "file": "34.webp",
+      "url": "https://start.smartymeapp.com/quiz",
+      "path": "/quiz",
+      "title": "What's your learning style?",
+      "kind": "question",
+      "text": "Patterns\n✓\n✓\n✓\n✓\nWhat's your learning style?\nI'm a big-picture thinker\nI prefer action\nI like both styles",
+      "textHash": "3c08624d53ae",
+      "dhash": "0101010010010010100000001000100010000000000000000000000000000000",
+      "h": 844,
+      "prices": [],
+      "action": {
+        "opt": "I'm a big-picture thinker"
+      }
+    },
+    {
+      "n": 35,
+      "file": "35.webp",
+      "url": "https://start.smartymeapp.com/quiz",
+      "path": "/quiz",
+      "title": "Understanding leads the way for you!",
+      "kind": "info",
+      "text": "Understanding leads the way for you!\nWe help you grasp the why so you'll understand the how. Soon you'll feel confident putting new skills into action.\nContinue",
+      "textHash": "c8e393cd35a9",
+      "dhash": "0110100011010100111100001011000010100000100001001000101010001110",
+      "h": 844,
+      "prices": [],
+      "action": {
+        "cta": "Continue"
+      }
+    },
+    {
+      "n": 36,
+      "file": "36.webp",
+      "url": "https://start.smartymeapp.com/quiz",
+      "path": "/quiz",
+      "title": "Did you hear about SmartyMe from a coach or mentor?",
+      "kind": "question",
+      "text": "Patterns\n✓\n✓\n✓\n✓\nDid you hear about SmartyMe from a coach or mentor?\nYes\nNo",
+      "textHash": "006517d47d3b",
+      "dhash": "0101010011110100101100101000100000100000000000000000000000000000",
+      "h": 844,
+      "prices": [],
+      "action": {
+        "opt": "Yes"
+      }
+    },
+    {
+      "n": 37,
+      "file": "37.webp",
+      "url": "https://start.smartymeapp.com/quiz",
+      "path": "/quiz",
+      "title": "Built by experts. Backed by science",
+      "kind": "info",
+      "text": "This chart is for illustrative purposes only\nBuilt by experts. Backed by science\nYour plan is crafted by skilled specialists who rely on evidence-based techniques to support meaningful progress.\nContinue",
+      "textHash": "22d5f0946479",
+      "dhash": "1110001010011100110111001000110010000100110000001000101010001110",
+      "h": 844,
+      "prices": [],
+      "action": {
+        "cta": "Continue"
+      }
+    },
+    {
+      "n": 38,
+      "file": "38.webp",
+      "url": "https://start.smartymeapp.com/quiz",
+      "path": "/quiz",
+      "title": "Do you have a specific self-growth goal in mind?",
+      "kind": "question",
+      "text": "Patterns\n✓\n✓\n✓\n✓\n✓\nDo you have a specific self-growth goal in mind?\nContinue\nExpand my horizons\nSpend my free time effectively\nGetting a promotion\nShare ideas effectively\nMaintain mental clarity\nExpand my opportunities\nBecome a stronger leader",
+      "textHash": "2337a3204b0e",
+      "dhash": "0101010111000100101000101010101010100010101000101010001010101010",
+      "h": 909,
+      "prices": [],
+      "action": {
+        "opt": "Expand my horizons",
+        "cta": "Continue"
+      }
+    },
+    {
+      "n": 39,
+      "file": "39.webp",
+      "url": "https://start.smartymeapp.com/quiz",
+      "path": "/quiz",
+      "title": "4,000,000+ people",
+      "kind": "social_proof",
+      "text": "4,000,000+ people\nchoose SmartyMe App\nContinue\nMicrolearning featured in:",
+      "textHash": "a9e132cdbb67",
+      "dhash": "1110000011110000110011001111001010111001110011001100110010101010",
+      "h": 844,
+      "prices": [],
+      "action": {
+        "cta": "Continue"
+      }
+    },
+    {
+      "n": 40,
+      "file": "40.webp",
+      "url": "https://start.smartymeapp.com/quiz",
+      "path": "/quiz",
+      "title": "Creating your Small Talk Communication plan...",
+      "kind": "loader",
+      "text": "Creating your \nSmall Talk Communication plan...\nAligning with your goals\n100%✅\nSetting skills to improve\n0%\nPicking content\n0%\nPrioritizing challenges\n0%\n4M+ people choose us\nA few final things...\nCan you express your \nthoughts easily?\nNo\nYes",
+      "textHash": "54ebffb8f3bc",
+      "dhash": "0110000011110000100001100110000101101001010001011110000000010101",
+      "h": 844,
+      "prices": [],
+      "action": {
+        "opt": "Yes"
+      }
+    },
+    {
+      "n": 41,
+      "file": "41.webp",
+      "url": "https://start.smartymeapp.com/quiz",
+      "path": "/quiz",
+      "title": "Creating your Small Talk Communication plan...",
+      "kind": "loader",
+      "text": "Creating your \nSmall Talk Communication plan...\nAligning with your goals\n100%✅\nSetting skills to improve\n100%✅\nPicking content\n0%\nPrioritizing challenges\n0%\n4M+ people choose us\nAnd another one...\nCan you remain calm \nin tense conversations?\nNo\nYes",
+      "textHash": "ac292a5b7474",
+      "dhash": "0110000011110000100001100110000101001101010011011110000000010101",
+      "h": 844,
+      "prices": [],
+      "action": {
+        "opt": "Yes"
+      }
+    },
+    {
+      "n": 42,
+      "file": "42.webp",
+      "url": "https://start.smartymeapp.com/quiz",
+      "path": "/quiz",
+      "title": "Creating your Small Talk Communication plan...",
+      "kind": "loader",
+      "text": "Creating your \nSmall Talk Communication plan...\nAligning with your goals\n100%✅\nSetting skills to improve\n100%✅\nPicking content\n100%✅\nPrioritizing challenges\n0%\n4M+ people choose us\nAlmost there...\nDo you like learning \nwith audio?\nNo\nYes",
+      "textHash": "fe4eded3b6af",
+      "dhash": "0110000011110000100001100111000101110001010011011110000000010101",
+      "h": 844,
+      "prices": [],
+      "action": {
+        "opt": "Yes"
+      }
+    },
+    {
+      "n": 43,
+      "file": "43.webp",
+      "url": "https://start.smartymeapp.com/quiz",
+      "path": "/quiz",
+      "title": "Creating your Small Talk Communication plan...",
+      "kind": "loader",
+      "text": "Creating your \nSmall Talk Communication plan...\nAligning with your goals\n100%✅\nSetting skills to improve\n100%✅\nPicking content\n100%✅\nPrioritizing challenges\n100%✅\n4M+ people choose us\nAnd the final question...\nAre you in control \nof your tone?\nNo\nYes",
+      "textHash": "c5c84957407d",
+      "dhash": "0110000011110000100001100110000101101001010001011101000000010101",
+      "h": 844,
+      "prices": [],
+      "action": {
+        "opt": "Yes"
+      }
+    },
+    {
+      "n": 44,
+      "file": "44.webp",
+      "url": "https://start.smartymeapp.com/quiz",
+      "path": "/quiz",
+      "title": "Enter your email to get your personalized Small Talk Communication plan",
+      "kind": "email",
+      "text": "Enter your email to get your personalized Small Talk Communication plan\nBy continuing, you indicate that you've read and agree to our Terms of Use and Privacy Policy\nContinue",
+      "textHash": "df4487d83323",
+      "dhash": "1010100011010100100000101000100010000000000000001000101010001110",
+      "h": 844,
+      "prices": [],
+      "action": {
+        "filled": true,
+        "cta": "Continue",
+        "email": "yelyzavetabazyla+fw2610211414smartyme1@gmail.com"
+      }
+    },
+    {
+      "n": 45,
+      "file": "45.webp",
+      "url": "https://start.smartymeapp.com/quiz",
+      "path": "/quiz",
+      "title": "Do you want to receive emails with self-growth tips, updates on our products, and special offers?",
+      "kind": "question",
+      "text": "Do you want to receive emails with self-growth tips, updates on our products, and special offers?\nSure, I’m in!\nI don’t want to receive tips or updates",
+      "textHash": "741685138565",
+      "dhash": "1110000011010100110011001001011000000000000000000000000000000000",
+      "h": 844,
+      "prices": []
     }
   ],
   "features": {
-    "totalSteps": 10,
-    "stop": "stuck",
-    "emailStep": null,
+    "totalSteps": 45,
+    "stop": "timeout",
+    "emailStep": 44,
     "paywallStep": null,
-    "questions": 6,
-    "socialProof": 1,
+    "questions": 26,
+    "socialProof": 2,
     "popups": 0,
-    "loader": false,
+    "loader": true,
     "prices": [],
     "discount": null,
     "timer": false,

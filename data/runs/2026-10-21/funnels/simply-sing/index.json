@@ -11,15 +11,15 @@
       "stop": "stuck",
       "steps": 1,
       "why": "ad",
-      "ads": 35
+      "ads": 30
     },
     {
-      "key": "welcome.hellosimply.com/singyourheartout?campaign_type=web_to_app&platform=iOS",
-      "dir": "funnels/simply-sing/d3a8651c929e",
-      "stop": "paywall",
-      "steps": 33,
-      "why": "ad",
-      "ads": 6
+      "key": "join-sing.hellosimply.com/start",
+      "dir": "funnels/simply-sing/228524b7bc31",
+      "stop": "stuck",
+      "steps": 7,
+      "why": "seed",
+      "ads": 0
     }
   ]
 }

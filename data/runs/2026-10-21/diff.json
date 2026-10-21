@@ -78,6 +78,90 @@
             },
             {
               "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
             }
           ],
           "removed": []
@@ -89,154 +173,580 @@
           "prevSteps": 34,
           "status": [
             {
-              "s": "same",
+              "s": "changed",
               "prev": 1,
-              "why": "",
-              "prevFile": "01.webp"
+              "why": "visual",
+              "prevFile": "01.webp",
+              "boxes": [
+                {
+                  "t": 0.41,
+                  "l": 1.54,
+                  "w": 89.23,
+                  "h": 12.58
+                },
+                {
+                  "t": 13.81,
+                  "l": 16.92,
+                  "w": 70,
+                  "h": 7.42
+                },
+                {
+                  "t": 25.15,
+                  "l": 1.54,
+                  "w": 62.31,
+                  "h": 10.52
+                },
+                {
+                  "t": 48.87,
+                  "l": 1.54,
+                  "w": 96.92,
+                  "h": 9.48
+                }
+              ]
             },
             {
-              "s": "same",
+              "s": "changed",
               "prev": 2,
-              "why": "",
-              "prevFile": "02.webp"
+              "why": "visual",
+              "prevFile": "02.webp",
+              "boxes": [
+                {
+                  "t": 5.57,
+                  "l": 24.62,
+                  "w": 50.77,
+                  "h": 3.3
+                }
+              ]
             },
             {
               "s": "same",
               "prev": 3,
-              "why": "",
+              "why": "visual",
               "prevFile": "03.webp"
             },
             {
-              "s": "same",
+              "s": "changed",
               "prev": 4,
-              "why": "",
-              "prevFile": "04.webp"
+              "why": "visual",
+              "prevFile": "04.webp",
+              "boxes": [
+                {
+                  "t": 6.6,
+                  "l": 0,
+                  "w": 96.92,
+                  "h": 25.98
+                },
+                {
+                  "t": 34.43,
+                  "l": 5.38,
+                  "w": 81.54,
+                  "h": 11.55
+                },
+                {
+                  "t": 51.96,
+                  "l": 1.54,
+                  "w": 96.92,
+                  "h": 5.36
+                }
+              ]
             },
             {
-              "s": "same",
+              "s": "changed",
               "prev": 5,
-              "why": "",
-              "prevFile": "05.webp"
+              "why": "visual",
+              "prevFile": "05.webp",
+              "boxes": [
+                {
+                  "t": 0.41,
+                  "l": 5.38,
+                  "w": 77.69,
+                  "h": 9.48
+                },
+                {
+                  "t": 13.81,
+                  "l": 9.23,
+                  "w": 35.38,
+                  "h": 4.33
+                },
+                {
+                  "t": 18.97,
+                  "l": 5.38,
+                  "w": 70,
+                  "h": 13.61
+                },
+                {
+                  "t": 42.68,
+                  "l": 16.92,
+                  "w": 50.77,
+                  "h": 3.3
+                }
+              ]
             },
             {
-              "s": "same",
+              "s": "changed",
               "prev": 6,
-              "why": "",
-              "prevFile": "06.webp"
+              "why": "visual",
+              "prevFile": "06.webp",
+              "boxes": [
+                {
+                  "t": 5.57,
+                  "l": 1.54,
+                  "w": 89.23,
+                  "h": 27.01
+                },
+                {
+                  "t": 33.4,
+                  "l": 5.38,
+                  "w": 85.38,
+                  "h": 9.48
+                },
+                {
+                  "t": 51.96,
+                  "l": 1.54,
+                  "w": 96.92,
+                  "h": 5.36
+                }
+              ]
             },
             {
-              "s": "same",
+              "s": "changed",
               "prev": 7,
-              "why": "",
-              "prevFile": "07.webp"
+              "why": "visual",
+              "prevFile": "07.webp",
+              "boxes": [
+                {
+                  "t": 0.41,
+                  "l": 5.38,
+                  "w": 77.69,
+                  "h": 9.48
+                },
+                {
+                  "t": 18.97,
+                  "l": 9.23,
+                  "w": 27.69,
+                  "h": 7.42
+                },
+                {
+                  "t": 27.22,
+                  "l": 5.38,
+                  "w": 50.77,
+                  "h": 5.36
+                }
+              ]
             },
             {
-              "s": "same",
+              "s": "changed",
               "prev": 8,
-              "why": "",
-              "prevFile": "08.webp"
+              "why": "visual",
+              "prevFile": "08.webp",
+              "boxes": [
+                {
+                  "t": 0.41,
+                  "l": 5.38,
+                  "w": 46.92,
+                  "h": 4.33
+                },
+                {
+                  "t": 8.66,
+                  "l": 9.23,
+                  "w": 70,
+                  "h": 17.73
+                },
+                {
+                  "t": 28.25,
+                  "l": 20.77,
+                  "w": 58.46,
+                  "h": 6.39
+                }
+              ]
             },
             {
-              "s": "same",
+              "s": "changed",
               "prev": 9,
-              "why": "",
-              "prevFile": "09.webp"
+              "why": "visual",
+              "prevFile": "09.webp",
+              "boxes": [
+                {
+                  "t": 0.41,
+                  "l": 5.38,
+                  "w": 46.92,
+                  "h": 4.33
+                },
+                {
+                  "t": 5.57,
+                  "l": 1.54,
+                  "w": 93.08,
+                  "h": 29.07
+                }
+              ]
             },
             {
-              "s": "same",
+              "s": "changed",
               "prev": 10,
-              "why": "",
-              "prevFile": "10.webp"
+              "why": "visual",
+              "prevFile": "10.webp",
+              "boxes": [
+                {
+                  "t": 0.41,
+                  "l": 5.38,
+                  "w": 46.92,
+                  "h": 4.33
+                },
+                {
+                  "t": 5.57,
+                  "l": 5.38,
+                  "w": 81.54,
+                  "h": 21.86
+                },
+                {
+                  "t": 28.25,
+                  "l": 9.23,
+                  "w": 81.54,
+                  "h": 6.39
+                }
+              ]
             },
             {
-              "s": "same",
+              "s": "changed",
               "prev": 11,
-              "why": "",
-              "prevFile": "11.webp"
+              "why": "visual",
+              "prevFile": "11.webp",
+              "boxes": [
+                {
+                  "t": 0.41,
+                  "l": 5.38,
+                  "w": 81.54,
+                  "h": 9.48
+                }
+              ]
             },
             {
-              "s": "same",
+              "s": "changed",
               "prev": 12,
-              "why": "",
-              "prevFile": "12.webp"
+              "why": "visual",
+              "prevFile": "12.webp",
+              "boxes": [
+                {
+                  "t": 0.41,
+                  "l": 1.54,
+                  "w": 93.08,
+                  "h": 9.48
+                },
+                {
+                  "t": 18.97,
+                  "l": 9.23,
+                  "w": 35.38,
+                  "h": 7.42
+                },
+                {
+                  "t": 27.22,
+                  "l": 5.38,
+                  "w": 54.62,
+                  "h": 5.36
+                },
+                {
+                  "t": 47.84,
+                  "l": 16.92,
+                  "w": 66.15,
+                  "h": 3.3
+                }
+              ]
             },
             {
-              "s": "same",
+              "s": "changed",
               "prev": 13,
-              "why": "",
-              "prevFile": "13.webp"
+              "why": "visual",
+              "prevFile": "13.webp",
+              "boxes": [
+                {
+                  "t": 11.75,
+                  "l": 1.54,
+                  "w": 85.38,
+                  "h": 20.82
+                },
+                {
+                  "t": 33.4,
+                  "l": 5.38,
+                  "w": 89.23,
+                  "h": 7.42
+                },
+                {
+                  "t": 51.96,
+                  "l": 1.54,
+                  "w": 96.92,
+                  "h": 5.36
+                }
+              ]
             },
             {
-              "s": "same",
+              "s": "changed",
               "prev": 14,
-              "why": "",
-              "prevFile": "14.webp"
+              "why": "visual",
+              "prevFile": "14.webp",
+              "boxes": [
+                {
+                  "t": 0.41,
+                  "l": 5.38,
+                  "w": 81.54,
+                  "h": 31.13
+                }
+              ]
             },
             {
-              "s": "same",
+              "s": "changed",
               "prev": 15,
-              "why": "",
-              "prevFile": "15.webp"
+              "why": "visual",
+              "prevFile": "15.webp",
+              "boxes": [
+                {
+                  "t": 0.41,
+                  "l": 5.38,
+                  "w": 85.38,
+                  "h": 31.13
+                }
+              ]
             },
             {
-              "s": "same",
+              "s": "changed",
               "prev": 16,
-              "why": "",
-              "prevFile": "16.webp"
+              "why": "visual",
+              "prevFile": "16.webp",
+              "boxes": [
+                {
+                  "t": 0.41,
+                  "l": 5.38,
+                  "w": 85.38,
+                  "h": 31.13
+                }
+              ]
             },
             {
-              "s": "same",
+              "s": "changed",
               "prev": 17,
-              "why": "",
-              "prevFile": "17.webp"
+              "why": "visual",
+              "prevFile": "17.webp",
+              "boxes": [
+                {
+                  "t": 6.6,
+                  "l": 1.54,
+                  "w": 93.08,
+                  "h": 35.26
+                },
+                {
+                  "t": 51.96,
+                  "l": 1.54,
+                  "w": 96.92,
+                  "h": 5.36
+                }
+              ]
             },
             {
-              "s": "same",
+              "s": "changed",
               "prev": 18,
-              "why": "",
-              "prevFile": "18.webp"
+              "why": "visual",
+              "prevFile": "18.webp",
+              "boxes": [
+                {
+                  "t": 0.41,
+                  "l": 1.54,
+                  "w": 89.23,
+                  "h": 9.48
+                }
+              ]
             },
             {
-              "s": "same",
+              "s": "changed",
               "prev": 19,
-              "why": "",
-              "prevFile": "19.webp"
+              "why": "visual",
+              "prevFile": "19.webp",
+              "boxes": [
+                {
+                  "t": 0.41,
+                  "l": 1.54,
+                  "w": 89.23,
+                  "h": 9.48
+                },
+                {
+                  "t": 13.81,
+                  "l": 9.23,
+                  "w": 23.85,
+                  "h": 7.42
+                },
+                {
+                  "t": 22.06,
+                  "l": 5.38,
+                  "w": 54.62,
+                  "h": 10.52
+                }
+              ]
             },
             {
-              "s": "same",
+              "s": "changed",
               "prev": 20,
-              "why": "",
-              "prevFile": "20.webp"
+              "why": "visual",
+              "prevFile": "20.webp",
+              "boxes": [
+                {
+                  "t": 0.41,
+                  "l": 5.38,
+                  "w": 50.77,
+                  "h": 3.3
+                },
+                {
+                  "t": 5.57,
+                  "l": 1.54,
+                  "w": 89.23,
+                  "h": 30.1
+                },
+                {
+                  "t": 36.49,
+                  "l": 5.38,
+                  "w": 85.38,
+                  "h": 6.39
+                },
+                {
+                  "t": 51.96,
+                  "l": 1.54,
+                  "w": 96.92,
+                  "h": 5.36
+                }
+              ]
             },
             {
-              "s": "same",
+              "s": "changed",
               "prev": 21,
-              "why": "",
-              "prevFile": "21.webp"
+              "why": "visual",
+              "prevFile": "21.webp",
+              "boxes": [
+                {
+                  "t": 0.41,
+                  "l": 9.23,
+                  "w": 46.92,
+                  "h": 4.33
+                },
+                {
+                  "t": 10.72,
+                  "l": 9.23,
+                  "w": 35.38,
+                  "h": 7.42
+                },
+                {
+                  "t": 20,
+                  "l": 9.23,
+                  "w": 77.69,
+                  "h": 13.61
+                },
+                {
+                  "t": 52.99,
+                  "l": 20.77,
+                  "w": 54.62,
+                  "h": 3.3
+                }
+              ]
             },
             {
-              "s": "same",
+              "s": "changed",
               "prev": 22,
-              "why": "",
-              "prevFile": "22.webp"
+              "why": "visual",
+              "prevFile": "22.webp",
+              "boxes": [
+                {
+                  "t": 0.41,
+                  "l": 5.38,
+                  "w": 77.69,
+                  "h": 9.48
+                },
+                {
+                  "t": 10.72,
+                  "l": 5.38,
+                  "w": 81.54,
+                  "h": 24.95
+                }
+              ]
             },
             {
-              "s": "same",
+              "s": "changed",
               "prev": 23,
-              "why": "",
-              "prevFile": "23.webp"
+              "why": "visual",
+              "prevFile": "23.webp",
+              "boxes": [
+                {
+                  "t": 0.41,
+                  "l": 5.38,
+                  "w": 54.62,
+                  "h": 4.33
+                },
+                {
+                  "t": 8.66,
+                  "l": 5.38,
+                  "w": 85.38,
+                  "h": 29.07
+                },
+                {
+                  "t": 52.99,
+                  "l": 24.62,
+                  "w": 50.77,
+                  "h": 3.3
+                }
+              ]
             },
             {
-              "s": "same",
+              "s": "changed",
               "prev": 24,
-              "why": "",
-              "prevFile": "24.webp"
+              "why": "visual",
+              "prevFile": "24.webp",
+              "boxes": [
+                {
+                  "t": 0.41,
+                  "l": 5.38,
+                  "w": 54.62,
+                  "h": 3.3
+                },
+                {
+                  "t": 5.57,
+                  "l": 1.54,
+                  "w": 93.08,
+                  "h": 27.01
+                },
+                {
+                  "t": 38.56,
+                  "l": 5.38,
+                  "w": 89.23,
+                  "h": 9.48
+                },
+                {
+                  "t": 51.96,
+                  "l": 1.54,
+                  "w": 96.92,
+                  "h": 5.36
+                }
+              ]
             },
             {
-              "s": "same",
+              "s": "changed",
               "prev": 25,
-              "why": "",
-              "prevFile": "25.webp"
+              "why": "visual",
+              "prevFile": "25.webp",
+              "boxes": [
+                {
+                  "t": 0.41,
+                  "l": 5.38,
+                  "w": 85.38,
+                  "h": 9.48
+                },
+                {
+                  "t": 18.97,
+                  "l": 9.23,
+                  "w": 58.46,
+                  "h": 13.61
+                },
+                {
+                  "t": 38.56,
+                  "l": 16.92,
+                  "w": 50.77,
+                  "h": 3.3
+                }
+              ]
             },
             {
               "s": "same",
@@ -245,46 +755,195 @@
               "prevFile": "26.webp"
             },
             {
-              "s": "same",
+              "s": "changed",
               "prev": 27,
-              "why": "",
-              "prevFile": "27.webp"
+              "why": "visual",
+              "prevFile": "27.webp",
+              "boxes": [
+                {
+                  "t": 0.41,
+                  "l": 5.38,
+                  "w": 81.54,
+                  "h": 9.48
+                }
+              ]
             },
             {
-              "s": "same",
+              "s": "changed",
               "prev": 28,
-              "why": "",
-              "prevFile": "28.webp"
+              "why": "visual",
+              "prevFile": "28.webp",
+              "boxes": [
+                {
+                  "t": 0.41,
+                  "l": 5.38,
+                  "w": 62.31,
+                  "h": 3.3
+                },
+                {
+                  "t": 4.54,
+                  "l": 1.54,
+                  "w": 73.85,
+                  "h": 28.04
+                },
+                {
+                  "t": 38.56,
+                  "l": 5.38,
+                  "w": 81.54,
+                  "h": 9.48
+                },
+                {
+                  "t": 51.96,
+                  "l": 1.54,
+                  "w": 96.92,
+                  "h": 5.36
+                }
+              ]
             },
             {
-              "s": "same",
+              "s": "changed",
               "prev": 29,
-              "why": "",
-              "prevFile": "29.webp"
+              "why": "visual",
+              "prevFile": "29.webp",
+              "boxes": [
+                {
+                  "t": 0.41,
+                  "l": 1.54,
+                  "w": 89.23,
+                  "h": 9.48
+                },
+                {
+                  "t": 13.81,
+                  "l": 9.23,
+                  "w": 66.15,
+                  "h": 18.76
+                },
+                {
+                  "t": 33.4,
+                  "l": 16.92,
+                  "w": 46.92,
+                  "h": 3.3
+                },
+                {
+                  "t": 37.53,
+                  "l": 24.62,
+                  "w": 54.62,
+                  "h": 4.33
+                }
+              ]
             },
             {
-              "s": "same",
+              "s": "changed",
               "prev": 30,
-              "why": "",
-              "prevFile": "30.webp"
+              "why": "visual",
+              "prevFile": "30.webp",
+              "boxes": [
+                {
+                  "t": 0.41,
+                  "l": 5.38,
+                  "w": 66.15,
+                  "h": 3.3
+                },
+                {
+                  "t": 5.57,
+                  "l": 1.54,
+                  "w": 93.08,
+                  "h": 28.04
+                },
+                {
+                  "t": 34.43,
+                  "l": 5.38,
+                  "w": 77.69,
+                  "h": 8.45
+                },
+                {
+                  "t": 51.96,
+                  "l": 1.54,
+                  "w": 96.92,
+                  "h": 5.36
+                }
+              ]
             },
             {
-              "s": "same",
+              "s": "changed",
               "prev": 31,
-              "why": "",
-              "prevFile": "31.webp"
+              "why": "visual",
+              "prevFile": "31.webp",
+              "boxes": [
+                {
+                  "t": 0.41,
+                  "l": 5.38,
+                  "w": 73.85,
+                  "h": 10.52
+                },
+                {
+                  "t": 27.22,
+                  "l": 9.23,
+                  "w": 39.23,
+                  "h": 5.36
+                }
+              ]
             },
             {
-              "s": "same",
+              "s": "changed",
               "prev": 32,
-              "why": "",
-              "prevFile": "32.webp"
+              "why": "visual",
+              "prevFile": "32.webp",
+              "boxes": [
+                {
+                  "t": 0.41,
+                  "l": 1.54,
+                  "w": 85.38,
+                  "h": 14.64
+                },
+                {
+                  "t": 24.12,
+                  "l": 1.54,
+                  "w": 54.62,
+                  "h": 8.45
+                },
+                {
+                  "t": 43.71,
+                  "l": 9.23,
+                  "w": 58.46,
+                  "h": 6.39
+                },
+                {
+                  "t": 51.96,
+                  "l": 1.54,
+                  "w": 96.92,
+                  "h": 5.36
+                }
+              ]
             },
             {
-              "s": "same",
+              "s": "changed",
               "prev": 33,
-              "why": "",
-              "prevFile": "33.webp"
+              "why": "visual",
+              "prevFile": "33.webp",
+              "boxes": [
+                {
+                  "t": 0.41,
+                  "l": 1.54,
+                  "w": 85.38,
+                  "h": 18.76
+                },
+                {
+                  "t": 21.03,
+                  "l": 1.54,
+                  "w": 96.92,
+                  "h": 8.45
+                }
+              ]
+            },
+            {
+              "s": "new"
+            },
+            {
+              "s": "new"
+            },
+            {
+              "s": "new"
             }
           ],
           "removed": [
@@ -350,10 +1009,10 @@
                   "h": 39.5
                 },
                 {
-                  "t": 89.68,
+                  "t": 84.34,
                   "l": 5.38,
                   "w": 89.23,
-                  "h": 9.25
+                  "h": 14.59
                 }
               ]
             },
@@ -448,10 +1107,10 @@
               "prevFile": "11.webp",
               "boxes": [
                 {
-                  "t": 39.86,
+                  "t": 38.08,
                   "l": 16.92,
-                  "w": 66.15,
-                  "h": 32.38
+                  "w": 70,
+                  "h": 34.16
                 }
               ]
             },
@@ -619,9 +1278,9 @@
               "boxes": [
                 {
                   "t": 91.46,
-                  "l": 51.54,
-                  "w": 35.38,
-                  "h": 7.47
+                  "l": 32.31,
+                  "w": 54.62,
+                  "h": 9.25
                 }
               ]
             },
@@ -632,72 +1291,118 @@
               "prevFile": "31.webp"
             },
             {
-              "s": "new"
+              "s": "same",
+              "prev": 32,
+              "why": "text",
+              "prevFile": "32.webp"
             },
             {
-              "s": "new"
+              "s": "same",
+              "prev": 33,
+              "why": "text",
+              "prevFile": "33.webp"
+            },
+            {
+              "s": "same",
+              "prev": 34,
+              "why": "text",
+              "prevFile": "34.webp"
+            },
+            {
+              "s": "same",
+              "prev": 36,
+              "why": "text",
+              "prevFile": "36.webp"
+            },
+            {
+              "s": "same",
+              "prev": 37,
+              "why": "text",
+              "prevFile": "37.webp"
+            },
+            {
+              "s": "same",
+              "prev": 38,
+              "why": "text",
+              "prevFile": "38.webp"
+            },
+            {
+              "s": "changed",
+              "prev": 39,
+              "why": "text",
+              "prevFile": "39.webp",
+              "boxes": [
+                {
+                  "t": 26.55,
+                  "l": 5.38,
+                  "w": 89.23,
+                  "h": 1.16
+                }
+              ]
+            },
+            {
+              "s": "changed",
+              "prev": 40,
+              "why": "text",
+              "prevFile": "40.webp",
+              "boxes": [
+                {
+                  "t": 5.7,
+                  "l": 9.23,
+                  "w": 81.54,
+                  "h": 9.42
+                },
+                {
+                  "t": 15.55,
+                  "l": 20.77,
+                  "w": 73.85,
+                  "h": 5.59
+                },
+                {
+                  "t": 25.96,
+                  "l": 1.54,
+                  "w": 96.92,
+                  "h": 3.4
+                },
+                {
+                  "t": 29.79,
+                  "l": 5.38,
+                  "w": 89.23,
+                  "h": 1.2
+                }
+              ]
             }
           ],
           "removed": [
-            {
-              "n": 32,
-              "title": "Calculating your results...",
-              "kind": "loader",
-              "file": "32.webp"
-            },
-            {
-              "n": 33,
-              "title": "Calculating your results...",
-              "kind": "loader",
-              "file": "33.webp"
-            },
-            {
-              "n": 34,
-              "title": "Calculating your results...",
-              "kind": "loader",
-              "file": "34.webp"
-            },
             {
               "n": 35,
               "title": "Calculating your results...",
               "kind": "loader",
               "file": "35.webp"
-            },
-            {
-              "n": 36,
-              "title": "Your results are ready",
-              "kind": "email",
-              "file": "36.webp"
-            },
-            {
-              "n": 37,
-              "title": "🇺🇸 United States",
-              "kind": "question",
-              "file": "37.webp"
-            },
-            {
-              "n": 38,
-              "title": "Feel the difference in just 7 days *Results may vary",
-              "kind": "info",
-              "file": "38.webp"
-            },
-            {
-              "n": 39,
-              "title": "Your personalized childhood experience profile is ready",
-              "kind": "info",
-              "file": "39.webp"
-            },
-            {
-              "n": 40,
-              "title": "Alex,",
-              "kind": "paywall",
-              "file": "40.webp"
             }
           ]
         },
         "try-breeze.com/childhood": {
           "firstRun": true,
           "status": [
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
             {
               "s": "baseline"
             },
@@ -1698,6 +2403,15 @@
             },
             {
               "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
             }
           ],
           "removed": []
@@ -1899,6 +2613,21 @@
               "prev": 33,
               "why": "text",
               "prevFile": "33.webp"
+            },
+            {
+              "s": "same",
+              "prev": 34,
+              "why": "text",
+              "prevFile": "34.webp"
+            },
+            {
+              "s": "same",
+              "prev": 35,
+              "why": "text",
+              "prevFile": "35.webp"
+            },
+            {
+              "s": "new"
             }
           ],
           "removed": [
@@ -1907,18 +2636,6 @@
               "title": "Over 1,000,000 adults over 50",
               "kind": "loader",
               "file": "32.webp"
-            },
-            {
-              "n": 34,
-              "title": "How can we call you?",
-              "kind": "info",
-              "file": "34.webp"
-            },
-            {
-              "n": 35,
-              "title": "Your personal memory growth plan is ready",
-              "kind": "info",
-              "file": "35.webp"
             },
             {
               "n": 36,
@@ -1932,17 +2649,17 @@
     },
     "chillio": {
       "ads": {
-        "active": 29,
+        "active": 20,
         "prevActive": 25,
-        "delta": 4,
-        "newInWindow": 11,
-        "newCreatives": 8
+        "delta": -5,
+        "newInWindow": 3,
+        "newCreatives": 3
       },
       "links": [
         {
           "status": "same",
           "key": "quiz.get-chillio.app/qs/cleaning-game",
-          "ads": 45,
+          "ads": 30,
           "prevAds": 41,
           "first": "2026-09-21",
           "store": false
@@ -2174,21 +2891,20 @@
               "prevFile": "35.webp"
             },
             {
-              "s": "changed",
-              "prev": 36,
-              "why": "text",
-              "prevFile": "36.webp",
-              "boxes": [
-                {
-                  "t": 29.08,
-                  "l": 9.23,
-                  "w": 81.54,
-                  "h": 2.44
-                }
-              ]
+              "s": "new"
+            },
+            {
+              "s": "new"
             }
           ],
-          "removed": []
+          "removed": [
+            {
+              "n": 36,
+              "title": "Choose your plan",
+              "kind": "paywall",
+              "file": "36.webp"
+            }
+          ]
         },
         "quiz.get-chillio.app/qs/house-ai": {
           "firstRun": false,
@@ -2401,13 +3117,20 @@
               "prevFile": "34.webp"
             },
             {
-              "s": "same",
-              "prev": 35,
-              "why": "",
-              "prevFile": "35.webp"
+              "s": "new"
+            },
+            {
+              "s": "new"
             }
           ],
-          "removed": []
+          "removed": [
+            {
+              "n": 35,
+              "title": "Choose your plan",
+              "kind": "paywall",
+              "file": "35.webp"
+            }
+          ]
         }
       }
     },
@@ -3026,23 +3749,16 @@
         "active": 83,
         "prevActive": 110,
         "delta": -27,
-        "newInWindow": 7,
-        "newCreatives": 6
+        "newInWindow": 1,
+        "newCreatives": 1
       },
       "links": [
         {
           "status": "same",
           "key": "join-sing.hellosimply.com/welcome?campaign_type=web_to_app&platform=iOS",
-          "ads": 35,
+          "ads": 30,
           "prevAds": 37,
           "first": "2026-02-15",
-          "store": false
-        },
-        {
-          "status": "new",
-          "key": "welcome.hellosimply.com/singyourheartout?campaign_type=web_to_app&platform=iOS",
-          "ads": 6,
-          "first": "2026-10-20",
           "store": false
         }
       ],
@@ -3062,107 +3778,75 @@
           ],
           "removed": []
         },
-        "welcome.hellosimply.com/singyourheartout?campaign_type=web_to_app&platform=iOS": {
-          "firstRun": true,
+        "join-sing.hellosimply.com/start": {
+          "firstRun": false,
+          "comparedWith": "join-sing.hellosimply.com/start",
+          "prevDir": "funnels/simply-sing/228524b7bc31",
+          "prevSteps": 7,
           "status": [
             {
-              "s": "baseline"
+              "s": "same",
+              "prev": 1,
+              "why": "",
+              "prevFile": "01.webp"
             },
             {
-              "s": "baseline"
+              "s": "same",
+              "prev": 2,
+              "why": "",
+              "prevFile": "02.webp"
             },
             {
-              "s": "baseline"
+              "s": "changed",
+              "prev": 3,
+              "why": "text",
+              "prevFile": "03.webp",
+              "boxes": [
+                {
+                  "t": 29.18,
+                  "l": 28.46,
+                  "w": 54.62,
+                  "h": 5.69
+                }
+              ]
             },
             {
-              "s": "baseline"
+              "s": "same",
+              "prev": 4,
+              "why": "",
+              "prevFile": "04.webp"
             },
             {
-              "s": "baseline"
+              "s": "changed",
+              "prev": 5,
+              "why": "text",
+              "prevFile": "05.webp",
+              "boxes": [
+                {
+                  "t": 9.07,
+                  "l": 47.69,
+                  "w": 43.08,
+                  "h": 7.37
+                },
+                {
+                  "t": 71.39,
+                  "l": 24.62,
+                  "w": 39.23,
+                  "h": 9.07
+                }
+              ]
             },
             {
-              "s": "baseline"
+              "s": "same",
+              "prev": 6,
+              "why": "",
+              "prevFile": "06.webp"
             },
             {
-              "s": "baseline"
-            },
-            {
-              "s": "baseline"
-            },
-            {
-              "s": "baseline"
-            },
-            {
-              "s": "baseline"
-            },
-            {
-              "s": "baseline"
-            },
-            {
-              "s": "baseline"
-            },
-            {
-              "s": "baseline"
-            },
-            {
-              "s": "baseline"
-            },
-            {
-              "s": "baseline"
-            },
-            {
-              "s": "baseline"
-            },
-            {
-              "s": "baseline"
-            },
-            {
-              "s": "baseline"
-            },
-            {
-              "s": "baseline"
-            },
-            {
-              "s": "baseline"
-            },
-            {
-              "s": "baseline"
-            },
-            {
-              "s": "baseline"
-            },
-            {
-              "s": "baseline"
-            },
-            {
-              "s": "baseline"
-            },
-            {
-              "s": "baseline"
-            },
-            {
-              "s": "baseline"
-            },
-            {
-              "s": "baseline"
-            },
-            {
-              "s": "baseline"
-            },
-            {
-              "s": "baseline"
-            },
-            {
-              "s": "baseline"
-            },
-            {
-              "s": "baseline"
-            },
-            {
-              "s": "baseline"
-            },
-            {
-              "s": "baseline"
+              "s": "same",
+              "prev": 7,
+              "why": "",
+              "prevFile": "07.webp"
             }
           ],
           "removed": []
@@ -3217,69 +3901,76 @@
               ]
             },
             {
+              "s": "same",
+              "prev": 2,
+              "why": "text",
+              "prevFile": "02.webp"
+            },
+            {
+              "s": "changed",
+              "prev": 3,
+              "why": "text",
+              "prevFile": "03.webp",
+              "boxes": [
+                {
+                  "t": 29.29,
+                  "l": 9.23,
+                  "w": 81.54,
+                  "h": 10.44
+                }
+              ]
+            },
+            {
+              "s": "same",
+              "prev": 4,
+              "why": "text",
+              "prevFile": "04.webp"
+            },
+            {
+              "s": "same",
+              "prev": 5,
+              "why": "text",
+              "prevFile": "05.webp"
+            },
+            {
+              "s": "same",
+              "prev": 6,
+              "why": "text",
+              "prevFile": "06.webp"
+            },
+            {
+              "s": "same",
+              "prev": 7,
+              "why": "text",
+              "prevFile": "07.webp"
+            },
+            {
+              "s": "same",
+              "prev": 8,
+              "why": "text",
+              "prevFile": "08.webp"
+            },
+            {
               "s": "new"
             }
           ],
-          "removed": [
-            {
-              "n": 2,
-              "title": "Choose your instrument",
-              "kind": "question",
-              "file": "02.webp"
-            },
-            {
-              "n": 3,
-              "title": "What’s your current level?",
-              "kind": "question",
-              "file": "03.webp"
-            },
-            {
-              "n": 4,
-              "title": "Pick 1 or more you’d like to play",
-              "kind": "question",
-              "file": "04.webp"
-            },
-            {
-              "n": 5,
-              "title": "What practice suits you?",
-              "kind": "question",
-              "file": "05.webp"
-            },
-            {
-              "n": 6,
-              "title": "Great choice!",
-              "kind": "info",
-              "file": "06.webp"
-            },
-            {
-              "n": 7,
-              "title": "How your free trial works",
-              "kind": "social_proof",
-              "file": "07.webp"
-            },
-            {
-              "n": 8,
-              "title": "Create your account",
-              "kind": "account",
-              "file": "08.webp"
-            }
-          ]
+          "removed": []
         }
       }
     },
     "smartyme": {
       "ads": {
-        "active": 125,
+        "active": 124,
         "prevActive": 200,
-        "delta": -75,
-        "newInWindow": 55,
+        "delta": -76,
+        "newInWindow": 61,
         "newCreatives": 26
       },
       "links": [
         {
           "status": "same",
           "key": "smartymeapp.onelink.me/gdRe?deep_link_value=smartyme-a20",
-          "ads": 29,
+          "ads": 35,
           "prevAds": 21,
           "first": "2026-10-15",
           "store": true
@@ -3287,7 +3978,7 @@
         {
           "status": "same",
           "key": "start.smartymeapp.com/quiz",
-          "ads": 149,
+          "ads": 147,
           "prevAds": 171,
           "first": "2026-09-10",
           "store": false
@@ -3359,219 +4050,219 @@
               "prev": 10,
               "why": "text",
               "prevFile": "10.webp"
+            },
+            {
+              "s": "same",
+              "prev": 11,
+              "why": "text",
+              "prevFile": "11.webp"
+            },
+            {
+              "s": "same",
+              "prev": 12,
+              "why": "text",
+              "prevFile": "12.webp"
+            },
+            {
+              "s": "same",
+              "prev": 13,
+              "why": "text",
+              "prevFile": "13.webp"
+            },
+            {
+              "s": "same",
+              "prev": 14,
+              "why": "text",
+              "prevFile": "14.webp"
+            },
+            {
+              "s": "same",
+              "prev": 15,
+              "why": "text",
+              "prevFile": "15.webp"
+            },
+            {
+              "s": "same",
+              "prev": 16,
+              "why": "text",
+              "prevFile": "16.webp"
+            },
+            {
+              "s": "same",
+              "prev": 17,
+              "why": "text",
+              "prevFile": "17.webp"
+            },
+            {
+              "s": "same",
+              "prev": 18,
+              "why": "text",
+              "prevFile": "18.webp"
+            },
+            {
+              "s": "same",
+              "prev": 19,
+              "why": "text",
+              "prevFile": "19.webp"
+            },
+            {
+              "s": "same",
+              "prev": 20,
+              "why": "text",
+              "prevFile": "20.webp"
+            },
+            {
+              "s": "same",
+              "prev": 21,
+              "why": "text",
+              "prevFile": "21.webp"
+            },
+            {
+              "s": "same",
+              "prev": 22,
+              "why": "text",
+              "prevFile": "22.webp"
+            },
+            {
+              "s": "same",
+              "prev": 23,
+              "why": "text",
+              "prevFile": "23.webp"
+            },
+            {
+              "s": "same",
+              "prev": 24,
+              "why": "text",
+              "prevFile": "24.webp"
+            },
+            {
+              "s": "same",
+              "prev": 25,
+              "why": "text",
+              "prevFile": "25.webp"
+            },
+            {
+              "s": "same",
+              "prev": 26,
+              "why": "text",
+              "prevFile": "26.webp"
+            },
+            {
+              "s": "same",
+              "prev": 27,
+              "why": "text",
+              "prevFile": "27.webp"
+            },
+            {
+              "s": "same",
+              "prev": 28,
+              "why": "text",
+              "prevFile": "28.webp"
+            },
+            {
+              "s": "same",
+              "prev": 29,
+              "why": "text",
+              "prevFile": "29.webp"
+            },
+            {
+              "s": "same",
+              "prev": 30,
+              "why": "text",
+              "prevFile": "30.webp"
+            },
+            {
+              "s": "same",
+              "prev": 31,
+              "why": "text",
+              "prevFile": "31.webp"
+            },
+            {
+              "s": "same",
+              "prev": 32,
+              "why": "text",
+              "prevFile": "32.webp"
+            },
+            {
+              "s": "same",
+              "prev": 33,
+              "why": "text",
+              "prevFile": "33.webp"
+            },
+            {
+              "s": "same",
+              "prev": 34,
+              "why": "text",
+              "prevFile": "34.webp"
+            },
+            {
+              "s": "same",
+              "prev": 35,
+              "why": "text",
+              "prevFile": "35.webp"
+            },
+            {
+              "s": "same",
+              "prev": 36,
+              "why": "text",
+              "prevFile": "36.webp"
+            },
+            {
+              "s": "same",
+              "prev": 37,
+              "why": "text",
+              "prevFile": "37.webp"
+            },
+            {
+              "s": "same",
+              "prev": 38,
+              "why": "text",
+              "prevFile": "38.webp"
+            },
+            {
+              "s": "same",
+              "prev": 39,
+              "why": "text",
+              "prevFile": "39.webp"
+            },
+            {
+              "s": "same",
+              "prev": 40,
+              "why": "text",
+              "prevFile": "40.webp"
+            },
+            {
+              "s": "same",
+              "prev": 41,
+              "why": "text",
+              "prevFile": "41.webp"
+            },
+            {
+              "s": "same",
+              "prev": 42,
+              "why": "text",
+              "prevFile": "42.webp"
+            },
+            {
+              "s": "same",
+              "prev": 43,
+              "why": "text",
+              "prevFile": "43.webp"
+            },
+            {
+              "s": "same",
+              "prev": 44,
+              "why": "text",
+              "prevFile": "44.webp"
+            },
+            {
+              "s": "same",
+              "prev": 45,
+              "why": "text",
+              "prevFile": "45.webp"
             }
           ],
           "removed": [
-            {
-              "n": 11,
-              "title": "What do you do when things don't go as planned?",
-              "kind": "question",
-              "file": "11.webp"
-            },
-            {
-              "n": 12,
-              "title": "Do you notice how often people use filler or swear words?",
-              "kind": "question",
-              "file": "12.webp"
-            },
-            {
-              "n": 13,
-              "title": "How often do you find yourself using words like \"um\" or \"uh\" when speaking?",
-              "kind": "question",
-              "file": "13.webp"
-            },
-            {
-              "n": 14,
-              "title": "“How was your weekend?”",
-              "kind": "question",
-              "file": "14.webp"
-            },
-            {
-              "n": 15,
-              "title": "“How're you feeling?”",
-              "kind": "question",
-              "file": "15.webp"
-            },
-            {
-              "n": 16,
-              "title": "“How’s the weather?”",
-              "kind": "question",
-              "file": "16.webp"
-            },
-            {
-              "n": 17,
-              "title": "Connection starts with confidence",
-              "kind": "info",
-              "file": "17.webp"
-            },
-            {
-              "n": 18,
-              "title": "Your small talk communication plan is 74% ready!",
-              "kind": "info",
-              "file": "18.webp"
-            },
-            {
-              "n": 19,
-              "title": "How often do you compare your communication skills with others?",
-              "kind": "question",
-              "file": "19.webp"
-            },
-            {
-              "n": 20,
-              "title": "\"Some people light up a room — and it’s not me.\"",
-              "kind": "question",
-              "file": "20.webp"
-            },
-            {
-              "n": 21,
-              "title": "Ever heard of authority skills?",
-              "kind": "question",
-              "file": "21.webp"
-            },
-            {
-              "n": 22,
-              "title": "So, what are authority skills?",
-              "kind": "info",
-              "file": "22.webp"
-            },
-            {
-              "n": 23,
-              "title": "Authority skills empower you in...",
-              "kind": "info",
-              "file": "23.webp"
-            },
-            {
-              "n": 24,
-              "title": "How do you feel when you hear your own voice?",
-              "kind": "question",
-              "file": "24.webp"
-            },
-            {
-              "n": 25,
-              "title": "How do you feel about constructive feedback?",
-              "kind": "question",
-              "file": "25.webp"
-            },
-            {
-              "n": 26,
-              "title": "\"I stay confident and clear when I negotiate.\"",
-              "kind": "question",
-              "file": "26.webp"
-            },
-            {
-              "n": 27,
-              "title": "Your approach to decision-making is...",
-              "kind": "question",
-              "file": "27.webp"
-            },
-            {
-              "n": 28,
-              "title": "A resume gets you in the door. Authority skills gets you a seat at the table",
-              "kind": "info",
-              "file": "28.webp"
-            },
-            {
-              "n": 29,
-              "title": "SmartyMe was developed on proven scientific methods",
-              "kind": "info",
-              "file": "29.webp"
-            },
-            {
-              "n": 30,
-              "title": "When would you prefer to study?",
-              "kind": "question",
-              "file": "30.webp"
-            },
-            {
-              "n": 31,
-              "title": "Who inspires you the most?",
-              "kind": "question",
-              "file": "31.webp"
-            },
-            {
-              "n": 32,
-              "title": "Great choice! Now it's time to invest in you",
-              "kind": "question",
-              "file": "32.webp"
-            },
-            {
-              "n": 33,
-              "title": "Your small talk communication plan is 92% ready!",
-              "kind": "info",
-              "file": "33.webp"
-            },
-            {
-              "n": 34,
-              "title": "What's your learning style?",
-              "kind": "question",
-              "file": "34.webp"
-            },
-            {
-              "n": 35,
-              "title": "Understanding leads the way for you!",
-              "kind": "info",
-              "file": "35.webp"
-            },
-            {
-              "n": 36,
-              "title": "Did you hear about SmartyMe from a coach or mentor?",
-              "kind": "question",
-              "file": "36.webp"
-            },
-            {
-              "n": 37,
-              "title": "Built by experts. Backed by science",
-              "kind": "info",
-              "file": "37.webp"
-            },
-            {
-              "n": 38,
-              "title": "Do you have a specific self-growth goal in mind?",
-              "kind": "question",
-              "file": "38.webp"
-            },
-            {
-              "n": 39,
-              "title": "4,000,000+ people",
-              "kind": "social_proof",
-              "file": "39.webp"
-            },
-            {
-              "n": 40,
-              "title": "Creating your Small Talk Communication plan...",
-              "kind": "loader",
-              "file": "40.webp"
-            },
-            {
-              "n": 41,
-              "title": "Creating your Small Talk Communication plan...",
-              "kind": "loader",
-              "file": "41.webp"
-            },
-            {
-              "n": 42,
-              "title": "Creating your Small Talk Communication plan...",
-              "kind": "loader",
-              "file": "42.webp"
-            },
-            {
-              "n": 43,
-              "title": "Creating your Small Talk Communication plan...",
-              "kind": "loader",
-              "file": "43.webp"
-            },
-            {
-              "n": 44,
-              "title": "Enter your email to get your personalized Small Talk Communication plan",
-              "kind": "email",
-              "file": "44.webp"
-            },
-            {
-              "n": 45,
-              "title": "Do you want to receive emails with self-growth tips, updates on our products, and special offers?",
-              "kind": "question",
-              "file": "45.webp"
-            },
             {
               "n": 46,
               "title": "What's your name?",

@@ -10,12 +10,12 @@ screenshot paths to open (previous → current). Open only those.
 | Breeze | vocal+drawing | US | 30 | 0 | 0 |
 | Simply Piano | vocal+drawing | US | 510 | 80 | 2 |
 | MemoryOS | vocal+drawing | US | 3 | -4 | 3 |
-| Chillio | vocal+drawing | US | 29 | 4 | 11 |
+| Chillio | vocal+drawing | US | 20 | -5 | 3 |
 | Learna | vocal+drawing | US | 644 | 480 | 46 |
 | Copymind | vocal+drawing | GB | 0 | 0 | 0 |
-| Simply Sing | vocal | US | 83 | -27 | 7 |
+| Simply Sing | vocal | US | 83 | -27 | 1 |
 | Yousician | vocal | US | 19 | 3 | 8 |
-| SmartyMe | drawing | US | 125 | -75 | 55 |
+| SmartyMe | drawing | US | 124 | -76 | 61 |
 | Simply Draw | drawing | US | 9 | 3 | 3 |
 
 ## Link changes
@@ -27,19 +27,52 @@ screenshot paths to open (previous → current). Open only those.
 - memoryos (MemoryOS): removed start.memoryos.com/new-h?mos_cfg=seniors_o (3 ads)
 - learna (Learna): new instagram.com/_u/minienglishstories (7 ads)
 - learna (Learna): new itunes.apple.com/app/id6478287397 (3 ads)
-- simply-sing (Simply Sing): new welcome.hellosimply.com/singyourheartout?campaign_type=web_to_app&platform=iOS (6 ads)
 
 ## Funnels
 ### imprint — Imprint [vocal+drawing] — imprintapp.com/start-buddhism
-steps=8 stop=stuck email@— paywall@— popups=0 prices=— discount=— timer=false trial=false moneyBack=false
+steps=36 stop=paywall email@33 paywall@36 popups=0 prices=$11.99 $23.99 $16.99 $42.99 $49.99 $99.99 discount=50 timer=false trial=false moneyBack=true
 first capture of this funnel (no comparison)
 
 ### imprint — Imprint [vocal+drawing] — imprintapp.com/start-history
-steps=33 stop=email_rejected (email step said: "Email An account already exists with this email.") email@33 paywall@— popups=0 prices=— discount=— timer=false trial=false moneyBack=false
+steps=36 stop=paywall email@33 paywall@36 popups=0 prices=$11.99 $23.99 $16.99 $42.99 $49.99 $99.99 discount=50 timer=false trial=false moneyBack=true
+- [CHANGED] screen 1 info "Replace scrolling withHistory" (4 changed regions): data/runs/2026-10-13/funnels/imprint/06cefd8c1237/01.webp → data/runs/2026-10-21/funnels/imprint/06cefd8c1237/01.webp
+- [CHANGED] screen 2 question "What is your age?" (1 changed regions): data/runs/2026-10-13/funnels/imprint/06cefd8c1237/02.webp → data/runs/2026-10-21/funnels/imprint/06cefd8c1237/02.webp
+- [CHANGED] screen 4 social_proof "What best describes you?" (3 changed regions): data/runs/2026-10-13/funnels/imprint/06cefd8c1237/04.webp → data/runs/2026-10-21/funnels/imprint/06cefd8c1237/04.webp
+- [CHANGED] screen 5 social_proof "Why are you interested in learning about History?" (4 changed regions): data/runs/2026-10-13/funnels/imprint/06cefd8c1237/05.webp → data/runs/2026-10-21/funnels/imprint/06cefd8c1237/05.webp
+- [CHANGED] screen 6 question "Why are you interested in learning about History?" (3 changed regions): data/runs/2026-10-13/funnels/imprint/06cefd8c1237/06.webp → data/runs/2026-10-21/funnels/imprint/06cefd8c1237/06.webp
+- [CHANGED] screen 7 question "Which periods of History interest you most?" (3 changed regions): data/runs/2026-10-13/funnels/imprint/06cefd8c1237/07.webp → data/runs/2026-10-21/funnels/imprint/06cefd8c1237/07.webp
+- [CHANGED] screen 8 question "Which periods of History interest you most?" (3 changed regions): data/runs/2026-10-13/funnels/imprint/06cefd8c1237/08.webp → data/runs/2026-10-21/funnels/imprint/06cefd8c1237/08.webp
+- [CHANGED] screen 9 question "Does this topic interest you?" (2 changed regions): data/runs/2026-10-13/funnels/imprint/06cefd8c1237/09.webp → data/runs/2026-10-21/funnels/imprint/06cefd8c1237/09.webp
+- [CHANGED] screen 10 question "Does this topic interest you?" (3 changed regions): data/runs/2026-10-13/funnels/imprint/06cefd8c1237/10.webp → data/runs/2026-10-21/funnels/imprint/06cefd8c1237/10.webp
+- [CHANGED] screen 11 question "Are you satisfied with your History knowledge?" (1 changed regions): data/runs/2026-10-13/funnels/imprint/06cefd8c1237/11.webp → data/runs/2026-10-21/funnels/imprint/06cefd8c1237/11.webp
+- [CHANGED] screen 12 question "Are you satisfied with your History knowledge?" (4 changed regions): data/runs/2026-10-13/funnels/imprint/06cefd8c1237/12.webp → data/runs/2026-10-21/funnels/imprint/06cefd8c1237/12.webp
+- [CHANGED] screen 13 question "What knowledge do you want to build with us?" (3 changed regions): data/runs/2026-10-13/funnels/imprint/06cefd8c1237/13.webp → data/runs/2026-10-21/funnels/imprint/06cefd8c1237/13.webp
+- [CHANGED] screen 14 question "Do you know what sparked World War I?" (1 changed regions): data/runs/2026-10-13/funnels/imprint/06cefd8c1237/14.webp → data/runs/2026-10-21/funnels/imprint/06cefd8c1237/14.webp
+- [CHANGED] screen 15 question "Do you know what sparked World War I?" (1 changed regions): data/runs/2026-10-13/funnels/imprint/06cefd8c1237/15.webp → data/runs/2026-10-21/funnels/imprint/06cefd8c1237/15.webp
+- [CHANGED] screen 16 question "Do you know what the Peloponnesian War was fought over?" (1 changed regions): data/runs/2026-10-13/funnels/imprint/06cefd8c1237/16.webp → data/runs/2026-10-21/funnels/imprint/06cefd8c1237/16.webp
+- [CHANGED] screen 17 question "Did The Industrial Revolution start in Britain?" (2 changed regions): data/runs/2026-10-13/funnels/imprint/06cefd8c1237/17.webp → data/runs/2026-10-21/funnels/imprint/06cefd8c1237/17.webp
+- [CHANGED] screen 18 question "Is it easy for you to find time to learn?" (1 changed regions): data/runs/2026-10-13/funnels/imprint/06cefd8c1237/18.webp → data/runs/2026-10-21/funnels/imprint/06cefd8c1237/18.webp
+- [CHANGED] screen 19 question "Is it easy for you to find time to learn?" (3 changed regions): data/runs/2026-10-13/funnels/imprint/06cefd8c1237/19.webp → data/runs/2026-10-21/funnels/imprint/06cefd8c1237/19.webp
+- [CHANGED] screen 20 question "What are the biggest obstacles to you learning?" (4 changed regions): data/runs/2026-10-13/funnels/imprint/06cefd8c1237/20.webp → data/runs/2026-10-21/funnels/imprint/06cefd8c1237/20.webp
+- [CHANGED] screen 21 question "What is a caste system?" (4 changed regions): data/runs/2026-10-13/funnels/imprint/06cefd8c1237/21.webp → data/runs/2026-10-21/funnels/imprint/06cefd8c1237/21.webp
+- [CHANGED] screen 22 question "What is a caste system?" (2 changed regions): data/runs/2026-10-13/funnels/imprint/06cefd8c1237/22.webp → data/runs/2026-10-21/funnels/imprint/06cefd8c1237/22.webp
+- [CHANGED] screen 23 question "What system did Marxist revolutions support?" (3 changed regions): data/runs/2026-10-13/funnels/imprint/06cefd8c1237/23.webp → data/runs/2026-10-21/funnels/imprint/06cefd8c1237/23.webp
+- [CHANGED] screen 24 question "When was NATO formed?" (4 changed regions): data/runs/2026-10-13/funnels/imprint/06cefd8c1237/24.webp → data/runs/2026-10-21/funnels/imprint/06cefd8c1237/24.webp
+- [CHANGED] screen 25 question "When learning I connect best with:" (3 changed regions): data/runs/2026-10-13/funnels/imprint/06cefd8c1237/25.webp → data/runs/2026-10-21/funnels/imprint/06cefd8c1237/25.webp
+- [CHANGED] screen 27 question "Do you find it easy to stay motivated while learning?" (1 changed regions): data/runs/2026-10-13/funnels/imprint/06cefd8c1237/27.webp → data/runs/2026-10-21/funnels/imprint/06cefd8c1237/27.webp
+- [CHANGED] screen 28 question "Did you hear about Imprint through a mentor or coach?" (4 changed regions): data/runs/2026-10-13/funnels/imprint/06cefd8c1237/28.webp → data/runs/2026-10-21/funnels/imprint/06cefd8c1237/28.webp
+- [CHANGED] screen 29 social_proof "What's motivating you towards personal growth?" (4 changed regions): data/runs/2026-10-13/funnels/imprint/06cefd8c1237/29.webp → data/runs/2026-10-21/funnels/imprint/06cefd8c1237/29.webp
+- [CHANGED] screen 30 social_proof "What's motivating you towards personal growth?" (4 changed regions): data/runs/2026-10-13/funnels/imprint/06cefd8c1237/30.webp → data/runs/2026-10-21/funnels/imprint/06cefd8c1237/30.webp
+- [CHANGED] screen 31 social_proof "Crafting your learning experience..." (2 changed regions): data/runs/2026-10-13/funnels/imprint/06cefd8c1237/31.webp → data/runs/2026-10-21/funnels/imprint/06cefd8c1237/31.webp
+- [CHANGED] screen 32 question "Your personalized Growth Plan is ready!" (4 changed regions): data/runs/2026-10-13/funnels/imprint/06cefd8c1237/32.webp → data/runs/2026-10-21/funnels/imprint/06cefd8c1237/32.webp
+- [CHANGED] screen 33 email "Achieve your goals with Imprint" (2 changed regions): data/runs/2026-10-13/funnels/imprint/06cefd8c1237/33.webp → data/runs/2026-10-21/funnels/imprint/06cefd8c1237/33.webp
+- [NEW] screen 34 info "Your Growth Plan": data/runs/2026-10-21/funnels/imprint/06cefd8c1237/34.webp
+- [NEW] screen 35 info "Become the most interesting person in the room": data/runs/2026-10-21/funnels/imprint/06cefd8c1237/35.webp
+- [NEW] screen 36 paywall "Choose a plan": data/runs/2026-10-21/funnels/imprint/06cefd8c1237/36.webp
 - [REMOVED] previous screen 34 email "Achieve your goals with Imprint": data/runs/2026-10-13/funnels/imprint/06cefd8c1237/34.webp
 
 ### breeze — Breeze [vocal+drawing] — try-breeze.com/funnel/childhood
-steps=33 stop=popup_blocked+paywall_direct email@— paywall@33 popups=1 prices=$1 $29.99 discount=— timer=false trial=true moneyBack=true
+steps=39 stop=paywall email@35 paywall@39 popups=0 prices=$1 $2 $10 $17.34 $39.99 $1.00 $0.14 $1.33 discount=— timer=true trial=true moneyBack=true
 - [CHANGED] screen 1 question "Choose your age" (2 changed regions): data/runs/2026-10-13/funnels/breeze/1e1f86ca9474/02.webp → data/runs/2026-10-21/funnels/breeze/1e1f86ca9474/01.webp
 - [CHANGED] screen 2 question "What is your gender identity?" (2 changed regions): data/runs/2026-10-13/funnels/breeze/1e1f86ca9474/01.webp → data/runs/2026-10-21/funnels/breeze/1e1f86ca9474/02.webp
 - [CHANGED] screen 6 question "What do you see first?" (1 changed regions): data/runs/2026-10-13/funnels/breeze/1e1f86ca9474/06.webp → data/runs/2026-10-21/funnels/breeze/1e1f86ca9474/06.webp
@@ -52,20 +85,12 @@ steps=33 stop=popup_blocked+paywall_direct email@— paywall@33 popups=1 prices=
 - [CHANGED] screen 22 info "What do you see first?" (1 changed regions): data/runs/2026-10-13/funnels/breeze/1e1f86ca9474/22.webp → data/runs/2026-10-21/funnels/breeze/1e1f86ca9474/22.webp
 - [CHANGED] screen 25 question "What do you see first?" (1 changed regions): data/runs/2026-10-13/funnels/breeze/1e1f86ca9474/25.webp → data/runs/2026-10-21/funnels/breeze/1e1f86ca9474/25.webp
 - [CHANGED] screen 30 info "Breeze Effect" (1 changed regions): data/runs/2026-10-13/funnels/breeze/1e1f86ca9474/30.webp → data/runs/2026-10-21/funnels/breeze/1e1f86ca9474/30.webp
-- [NEW] screen 32 popup "Do you find yourself frequently avoiding places, people, or ": data/runs/2026-10-21/funnels/breeze/1e1f86ca9474/32.webp
-- [NEW] screen 33 paywall "Start your journey": data/runs/2026-10-21/funnels/breeze/1e1f86ca9474/33.webp
-- [REMOVED] previous screen 32 loader "Calculating your results...": data/runs/2026-10-13/funnels/breeze/1e1f86ca9474/32.webp
-- [REMOVED] previous screen 33 loader "Calculating your results...": data/runs/2026-10-13/funnels/breeze/1e1f86ca9474/33.webp
-- [REMOVED] previous screen 34 loader "Calculating your results...": data/runs/2026-10-13/funnels/breeze/1e1f86ca9474/34.webp
+- [CHANGED] screen 38 info "Your personalized childhood experience profile is ready" (1 changed regions): data/runs/2026-10-13/funnels/breeze/1e1f86ca9474/39.webp → data/runs/2026-10-21/funnels/breeze/1e1f86ca9474/38.webp
+- [CHANGED] screen 39 paywall "Alex," (4 changed regions): data/runs/2026-10-13/funnels/breeze/1e1f86ca9474/40.webp → data/runs/2026-10-21/funnels/breeze/1e1f86ca9474/39.webp
 - [REMOVED] previous screen 35 loader "Calculating your results...": data/runs/2026-10-13/funnels/breeze/1e1f86ca9474/35.webp
-- [REMOVED] previous screen 36 email "Your results are ready": data/runs/2026-10-13/funnels/breeze/1e1f86ca9474/36.webp
-- [REMOVED] previous screen 37 question "🇺🇸 United States": data/runs/2026-10-13/funnels/breeze/1e1f86ca9474/37.webp
-- [REMOVED] previous screen 38 info "Feel the difference in just 7 days *Results may vary": data/runs/2026-10-13/funnels/breeze/1e1f86ca9474/38.webp
-- [REMOVED] previous screen 39 info "Your personalized childhood experience profile is ready": data/runs/2026-10-13/funnels/breeze/1e1f86ca9474/39.webp
-- [REMOVED] previous screen 40 paywall "Alex,": data/runs/2026-10-13/funnels/breeze/1e1f86ca9474/40.webp
 
 ### breeze — Breeze [vocal+drawing] — try-breeze.com/childhood
-steps=33 stop=popup_blocked+paywall_direct email@— paywall@33 popups=1 prices=$1 $29.99 discount=— timer=false trial=true moneyBack=true
+steps=39 stop=paywall email@35 paywall@39 popups=0 prices=$1 $2 $10 $17.34 $39.99 $1.00 $0.14 $1.33 discount=— timer=true trial=true moneyBack=true
 first capture of this funnel (no comparison)
 
 ### simply-piano — Simply Piano [vocal+drawing] — join-piano.hellosimply.com/start
@@ -145,23 +170,28 @@ steps=33 stop=paywall email@30 paywall@33 popups=1 prices=$17.49 $34.99 $209.90 
 - [REMOVED] previous screen 25 loader "Based on your answers, We’re creating your personalized plan": data/runs/2026-10-13/funnels/simply-piano/684145bcfb5c/25.webp
 
 ### memoryos — MemoryOS [vocal+drawing] — start.memoryos.com/new-h2?thm=light
-steps=32 stop=email_rejected (email step said: "Please enter a valid email address") email@32 paywall@— popups=0 prices=— discount=— timer=false trial=false moneyBack=false
+steps=35 stop=paywall email@32 paywall@35 popups=0 prices=$99.99 $36.99 $1.19 $
+0 $49.99 $15.19 $1.79 $119.99 $59.99 $0.71 discount=63 timer=true trial=false moneyBack=true
 first capture of this funnel (no comparison)
 
 ### memoryos — MemoryOS [vocal+drawing] — start.memoryos.com/new-s
-steps=32 stop=email_rejected (email step said: "Please enter a valid email address") email@32 paywall@— popups=0 prices=— discount=— timer=false trial=false moneyBack=false
+steps=35 stop=paywall email@32 paywall@35 popups=0 prices=$99.99 $36.99 $1.19 $
+0 $49.99 $15.19 $1.79 $119.99 $59.99 $0.71 discount=63 timer=true trial=false moneyBack=false
+- [NEW] screen 35 paywall "0": data/runs/2026-10-21/funnels/memoryos/8df162c3ae21/35.webp
 - [REMOVED] previous screen 32 loader "Over 1,000,000 adults over 50": data/runs/2026-10-13/funnels/memoryos/8df162c3ae21/32.webp
-- [REMOVED] previous screen 34 info "How can we call you?": data/runs/2026-10-13/funnels/memoryos/8df162c3ae21/34.webp
-- [REMOVED] previous screen 35 info "Your personal memory growth plan is ready": data/runs/2026-10-13/funnels/memoryos/8df162c3ae21/35.webp
 - [REMOVED] previous screen 36 paywall "0": data/runs/2026-10-13/funnels/memoryos/8df162c3ae21/36.webp
 
 ### chillio — Chillio [vocal+drawing] — quiz.get-chillio.app/qs/cleaning-game
-steps=36 stop=stuck+paywall_direct email@32 paywall@36 popups=0 prices=$10.50 $21.00 $19.99 $39.99 $34.99 $79.99 discount=50 timer=false trial=true moneyBack=false
-- [CHANGED] screen 36 paywall "Choose your plan" (1 changed regions): data/runs/2026-10-13/funnels/chillio/32c02a42bd3b/36.webp → data/runs/2026-10-21/funnels/chillio/32c02a42bd3b/36.webp
+steps=37 stop=paywall email@32 paywall@37 popups=0 prices=$10.50 $21.00 $19.99 $39.99 $34.99 $79.99 discount=50 timer=true trial=true moneyBack=false
+- [NEW] screen 36 info "50%": data/runs/2026-10-21/funnels/chillio/32c02a42bd3b/36.webp
+- [NEW] screen 37 paywall "09:59": data/runs/2026-10-21/funnels/chillio/32c02a42bd3b/37.webp
+- [REMOVED] previous screen 36 paywall "Choose your plan": data/runs/2026-10-13/funnels/chillio/32c02a42bd3b/36.webp
 
 ### chillio — Chillio [vocal+drawing] — quiz.get-chillio.app/qs/house-ai
-steps=35 stop=stuck+paywall_direct email@31 paywall@35 popups=0 prices=$10.50 $21.00 $19.99 $39.99 $34.99 $79.99 discount=50 timer=false trial=true moneyBack=false
-no screen changes
+steps=36 stop=paywall email@31 paywall@36 popups=0 prices=$10.50 $21.00 $19.99 $39.99 $34.99 $79.99 discount=50 timer=true trial=true moneyBack=false
+- [NEW] screen 35 info "50%": data/runs/2026-10-21/funnels/chillio/7b6db541533d/35.webp
+- [NEW] screen 36 paywall "09:58": data/runs/2026-10-21/funnels/chillio/7b6db541533d/36.webp
+- [REMOVED] previous screen 35 paywall "Choose your plan": data/runs/2026-10-13/funnels/chillio/7b6db541533d/35.webp
 
 ### learna — Learna [vocal+drawing] — onboarding.ailearna.com/onboarding
 steps=38 stop=paywall email@33 paywall@38 popups=0 prices=$24.99 $
@@ -188,59 +218,19 @@ steps=36 stop=paywall email@35 paywall@36 popups=0 prices=$9.99 $39.99 $19.99 $7
 steps=1 stop=stuck email@— paywall@— popups=0 prices=— discount=— timer=false trial=false moneyBack=false
 no screen changes
 
-### simply-sing — Simply Sing [vocal] — welcome.hellosimply.com/singyourheartout?campaign_type=web_to_app&platform=iOS
-steps=33 stop=paywall email@30 paywall@33 popups=1 prices=$17.49 $34.99 $209.90 $14.16 $24.99 $169.90 $0.00 discount=50 timer=true trial=true moneyBack=false
-first capture of this funnel (no comparison)
+### simply-sing — Simply Sing [vocal] — join-sing.hellosimply.com/start
+steps=7 stop=stuck email@— paywall@— popups=0 prices=— discount=— timer=false trial=false moneyBack=false
+- [CHANGED] screen 3 question "Why do you sing?" (1 changed regions): data/runs/2026-10-13/funnels/simply-sing/228524b7bc31/03.webp → data/runs/2026-10-21/funnels/simply-sing/228524b7bc31/03.webp
+- [CHANGED] screen 5 question "What kinds of songs do you like to sing?" (2 changed regions): data/runs/2026-10-13/funnels/simply-sing/228524b7bc31/05.webp → data/runs/2026-10-21/funnels/simply-sing/228524b7bc31/05.webp
 
 ### yousician — Yousician [vocal] — yousician.com/
-steps=2 stop=account_creation email@— paywall@— popups=0 prices=— discount=— timer=false trial=false moneyBack=false
+steps=9 stop=paywall email@— paywall@9 popups=0 prices=$13.33 $159.99 discount=50 timer=false trial=true moneyBack=false
 - [CHANGED] screen 1 paywall "Unleash your inner musician with Yousician" (1 changed regions): data/runs/2026-10-13/funnels/yousician/1c0c131f25e6/01.webp → data/runs/2026-10-21/funnels/yousician/1c0c131f25e6/01.webp
-- [NEW] screen 2 account "eye": data/runs/2026-10-21/funnels/yousician/1c0c131f25e6/02.webp
-- [REMOVED] previous screen 2 question "Choose your instrument": data/runs/2026-10-13/funnels/yousician/1c0c131f25e6/02.webp
-- [REMOVED] previous screen 3 question "What’s your current level?": data/runs/2026-10-13/funnels/yousician/1c0c131f25e6/03.webp
-- [REMOVED] previous screen 4 question "Pick 1 or more you’d like to play": data/runs/2026-10-13/funnels/yousician/1c0c131f25e6/04.webp
-- [REMOVED] previous screen 5 question "What practice suits you?": data/runs/2026-10-13/funnels/yousician/1c0c131f25e6/05.webp
-- [REMOVED] previous screen 6 info "Great choice!": data/runs/2026-10-13/funnels/yousician/1c0c131f25e6/06.webp
-- [REMOVED] previous screen 7 social_proof "How your free trial works": data/runs/2026-10-13/funnels/yousician/1c0c131f25e6/07.webp
-- [REMOVED] previous screen 8 account "Create your account": data/runs/2026-10-13/funnels/yousician/1c0c131f25e6/08.webp
+- [CHANGED] screen 3 question "What’s your current level?" (1 changed regions): data/runs/2026-10-13/funnels/yousician/1c0c131f25e6/03.webp → data/runs/2026-10-21/funnels/yousician/1c0c131f25e6/03.webp
+- [NEW] screen 9 paywall "Start your 7-day free trial": data/runs/2026-10-21/funnels/yousician/1c0c131f25e6/09.webp
 
 ### smartyme — SmartyMe [drawing] — start.smartymeapp.com/quiz
-steps=10 stop=stuck email@— paywall@— popups=0 prices=— discount=— timer=false trial=false moneyBack=false
-- [REMOVED] previous screen 11 question "What do you do when things don't go as planned?": data/runs/2026-10-13/funnels/smartyme/5353a564ba54/11.webp
-- [REMOVED] previous screen 12 question "Do you notice how often people use filler or swear words?": data/runs/2026-10-13/funnels/smartyme/5353a564ba54/12.webp
-- [REMOVED] previous screen 13 question "How often do you find yourself using words like "um" or "uh"": data/runs/2026-10-13/funnels/smartyme/5353a564ba54/13.webp
-- [REMOVED] previous screen 14 question "“How was your weekend?”": data/runs/2026-10-13/funnels/smartyme/5353a564ba54/14.webp
-- [REMOVED] previous screen 15 question "“How're you feeling?”": data/runs/2026-10-13/funnels/smartyme/5353a564ba54/15.webp
-- [REMOVED] previous screen 16 question "“How’s the weather?”": data/runs/2026-10-13/funnels/smartyme/5353a564ba54/16.webp
-- [REMOVED] previous screen 17 info "Connection starts with confidence": data/runs/2026-10-13/funnels/smartyme/5353a564ba54/17.webp
-- [REMOVED] previous screen 18 info "Your small talk communication plan is 74% ready!": data/runs/2026-10-13/funnels/smartyme/5353a564ba54/18.webp
-- [REMOVED] previous screen 19 question "How often do you compare your communication skills with othe": data/runs/2026-10-13/funnels/smartyme/5353a564ba54/19.webp
-- [REMOVED] previous screen 20 question ""Some people light up a room — and it’s not me."": data/runs/2026-10-13/funnels/smartyme/5353a564ba54/20.webp
-- [REMOVED] previous screen 21 question "Ever heard of authority skills?": data/runs/2026-10-13/funnels/smartyme/5353a564ba54/21.webp
-- [REMOVED] previous screen 22 info "So, what are authority skills?": data/runs/2026-10-13/funnels/smartyme/5353a564ba54/22.webp
-- [REMOVED] previous screen 23 info "Authority skills empower you in...": data/runs/2026-10-13/funnels/smartyme/5353a564ba54/23.webp
-- [REMOVED] previous screen 24 question "How do you feel when you hear your own voice?": data/runs/2026-10-13/funnels/smartyme/5353a564ba54/24.webp
-- [REMOVED] previous screen 25 question "How do you feel about constructive feedback?": data/runs/2026-10-13/funnels/smartyme/5353a564ba54/25.webp
-- [REMOVED] previous screen 26 question ""I stay confident and clear when I negotiate."": data/runs/2026-10-13/funnels/smartyme/5353a564ba54/26.webp
-- [REMOVED] previous screen 27 question "Your approach to decision-making is...": data/runs/2026-10-13/funnels/smartyme/5353a564ba54/27.webp
-- [REMOVED] previous screen 28 info "A resume gets you in the door. Authority skills gets you a s": data/runs/2026-10-13/funnels/smartyme/5353a564ba54/28.webp
-- [REMOVED] previous screen 29 info "SmartyMe was developed on proven scientific methods": data/runs/2026-10-13/funnels/smartyme/5353a564ba54/29.webp
-- [REMOVED] previous screen 30 question "When would you prefer to study?": data/runs/2026-10-13/funnels/smartyme/5353a564ba54/30.webp
-- [REMOVED] previous screen 31 question "Who inspires you the most?": data/runs/2026-10-13/funnels/smartyme/5353a564ba54/31.webp
-- [REMOVED] previous screen 32 question "Great choice! Now it's time to invest in you": data/runs/2026-10-13/funnels/smartyme/5353a564ba54/32.webp
-- [REMOVED] previous screen 33 info "Your small talk communication plan is 92% ready!": data/runs/2026-10-13/funnels/smartyme/5353a564ba54/33.webp
-- [REMOVED] previous screen 34 question "What's your learning style?": data/runs/2026-10-13/funnels/smartyme/5353a564ba54/34.webp
-- [REMOVED] previous screen 35 info "Understanding leads the way for you!": data/runs/2026-10-13/funnels/smartyme/5353a564ba54/35.webp
-- [REMOVED] previous screen 36 question "Did you hear about SmartyMe from a coach or mentor?": data/runs/2026-10-13/funnels/smartyme/5353a564ba54/36.webp
-- [REMOVED] previous screen 37 info "Built by experts. Backed by science": data/runs/2026-10-13/funnels/smartyme/5353a564ba54/37.webp
-- [REMOVED] previous screen 38 question "Do you have a specific self-growth goal in mind?": data/runs/2026-10-13/funnels/smartyme/5353a564ba54/38.webp
-- [REMOVED] previous screen 39 social_proof "4,000,000+ people": data/runs/2026-10-13/funnels/smartyme/5353a564ba54/39.webp
-- [REMOVED] previous screen 40 loader "Creating your Small Talk Communication plan...": data/runs/2026-10-13/funnels/smartyme/5353a564ba54/40.webp
-- [REMOVED] previous screen 41 loader "Creating your Small Talk Communication plan...": data/runs/2026-10-13/funnels/smartyme/5353a564ba54/41.webp
-- [REMOVED] previous screen 42 loader "Creating your Small Talk Communication plan...": data/runs/2026-10-13/funnels/smartyme/5353a564ba54/42.webp
-- [REMOVED] previous screen 43 loader "Creating your Small Talk Communication plan...": data/runs/2026-10-13/funnels/smartyme/5353a564ba54/43.webp
-- [REMOVED] previous screen 44 email "Enter your email to get your personalized Small Talk Communi": data/runs/2026-10-13/funnels/smartyme/5353a564ba54/44.webp
-- [REMOVED] previous screen 45 question "Do you want to receive emails with self-growth tips, updates": data/runs/2026-10-13/funnels/smartyme/5353a564ba54/45.webp
+steps=45 stop=timeout email@44 paywall@— popups=0 prices=— discount=— timer=false trial=false moneyBack=false
 - [REMOVED] previous screen 46 info "What's your name?": data/runs/2026-10-13/funnels/smartyme/5353a564ba54/46.webp
 - [REMOVED] previous screen 47 info "Your personalized communication plan is ready!": data/runs/2026-10-13/funnels/smartyme/5353a564ba54/47.webp
 - [REMOVED] previous screen 48 info "Transform your life!": data/runs/2026-10-13/funnels/smartyme/5353a564ba54/48.webp

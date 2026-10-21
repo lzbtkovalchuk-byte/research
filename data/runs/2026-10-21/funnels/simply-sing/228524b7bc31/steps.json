@@ -1,0 +1,147 @@
+{
+  "url": "https://join-sing.hellosimply.com/start",
+  "key": "join-sing.hellosimply.com/start",
+  "why": "seed",
+  "ads": 0,
+  "adShot": null,
+  "adId": null,
+  "dir": "funnels/simply-sing/228524b7bc31",
+  "stop": "stuck",
+  "proxied": false,
+  "email": "yelyzavetabazyla+fw2610211414simplysing2@gmail.com",
+  "emailNote": null,
+  "signedUp": null,
+  "restartUrl": null,
+  "finalUrl": "https://join-sing.hellosimply.com/get-plan",
+  "steps": [
+    {
+      "n": 1,
+      "file": "01.webp",
+      "url": "https://join-sing.hellosimply.com/start/messagingIntroB",
+      "path": "/start/messagingIntroB",
+      "title": "No song is out of reach",
+      "kind": "info",
+      "text": "No song is out of reach\nEnjoy singing your favorite songs adjusted to your voice\nGET STARTED\n4.7 stars from over 200k singers",
+      "textHash": "a6cb87a66917",
+      "dhash": "0000101000001100000001001011001000111101000111100000011100000111",
+      "h": 844,
+      "prices": [],
+      "action": {
+        "cta": "GET STARTED"
+      }
+    },
+    {
+      "n": 2,
+      "file": "02.webp",
+      "url": "https://join-sing.hellosimply.com/start/conversation/conversation_start",
+      "path": "/start/conversation/conversation_start",
+      "title": "Let’s customize your experience",
+      "kind": "info",
+      "text": "Let’s customize your experience\nSimply Sing is tailored to your unique voice and singing preferences\nLet’s go",
+      "textHash": "7beebfcd4974",
+      "dhash": "0110001100101111010100111000110000000111100100111101110000001111",
+      "h": 844,
+      "prices": [],
+      "action": {
+        "opt": "Let’s go"
+      }
+    },
+    {
+      "n": 3,
+      "file": "03.webp",
+      "url": "https://join-sing.hellosimply.com/start/conversation/why_do_you_sing",
+      "path": "/start/conversation/why_do_you_sing",
+      "title": "Why do you sing?",
+      "kind": "question",
+      "text": "Why do you sing?\nYou can pick more than one\nIt makes me feel good\nIt helps me relax\nIts helps me express myself\nOther\nCONTINUE",
+      "textHash": "6f02a2c4deff",
+      "dhash": "0110100100101011110001001001110010010000000000010000000000001101",
+      "h": 844,
+      "prices": [],
+      "action": {
+        "opt": "It makes me feel good",
+        "cta": "CONTINUE"
+      }
+    },
+    {
+      "n": 4,
+      "file": "04.webp",
+      "url": "https://join-sing.hellosimply.com/start/conversation/singin_benefit",
+      "path": "/start/conversation/singin_benefit",
+      "title": "Singing activates feel-good boosters",
+      "kind": "info",
+      "text": "Singing activates feel-good boosters\nEndorphins lift your mood by 30% and cut stress by 25%. Ready to make it even more fun?\nCONTINUE",
+      "textHash": "7b3bc8d69633",
+      "dhash": "1011001001001100010011010011001100001111000001010010001000001101",
+      "h": 844,
+      "prices": [],
+      "action": {
+        "cta": "CONTINUE"
+      }
+    },
+    {
+      "n": 5,
+      "file": "05.webp",
+      "url": "https://join-sing.hellosimply.com/start/conversation/song_generes",
+      "path": "/start/conversation/song_generes",
+      "title": "What kinds of songs do you like to sing?",
+      "kind": "question",
+      "text": "What kinds of songs do you like to sing?\nChoose your top 3 genres\nChristian & Gospel\nMusicals\nHip Hop & Rap\nJazz & Blues\nCountry & Folk\nDisney\nR&B & Soul\nPop\nTV & Movies\nRock\nCONTINUE",
+      "textHash": "ca0819bd14f7",
+      "dhash": "0011101100000111100001101001110010011000100110001001100010011000",
+      "h": 1059,
+      "prices": [],
+      "action": {
+        "opt": "Christian & Gospel + Musicals + Hip Hop & Rap",
+        "cta": "CONTINUE"
+      }
+    },
+    {
+      "n": 6,
+      "file": "06.webp",
+      "url": "https://join-sing.hellosimply.com/start/conversation/song_generes_response",
+      "path": "/start/conversation/song_generes_response",
+      "title": "All genres, made to fit your voice",
+      "kind": "info",
+      "text": "All genres, made to fit your voice\nPacked with your favorites, our library adjusts every song to your range so you hit every note\nCONTINUE",
+      "textHash": "8597142d9da1",
+      "dhash": "0011001100110011000110110010010011101100110110001100100100000011",
+      "h": 844,
+      "prices": [],
+      "action": {
+        "cta": "CONTINUE"
+      }
+    },
+    {
+      "n": 7,
+      "file": "07.webp",
+      "url": "https://join-sing.hellosimply.com/start/conversation/describe_your_voice",
+      "path": "/start/conversation/describe_your_voice",
+      "title": "What best describes your voice?",
+      "kind": "question",
+      "text": "What best describes your voice?\nGender can influence where your voice naturally sits\nFemale voice\nMale voice",
+      "textHash": "4567608077b4",
+      "dhash": "1001001000001111010011011011001010110000010000010010000000000000",
+      "h": 844,
+      "prices": [],
+      "action": {
+        "opt": "Female voice"
+      }
+    }
+  ],
+  "features": {
+    "totalSteps": 7,
+    "stop": "stuck",
+    "emailStep": null,
+    "paywallStep": null,
+    "questions": 3,
+    "socialProof": 0,
+    "popups": 0,
+    "loader": false,
+    "prices": [],
+    "discount": null,
+    "timer": false,
+    "trial": false,
+    "moneyBack": false
+  }
+}
