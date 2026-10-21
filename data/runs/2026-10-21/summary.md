@@ -30,31 +30,6 @@ screenshot paths to open (previous → current). Open only those.
 - simply-sing (Simply Sing): new welcome.hellosimply.com/singyourheartout?campaign_type=web_to_app&platform=iOS (6 ads)
 
 ## Funnels
-### skillsta-vocal-2 — [SKILLSTA] Skillsta · Vocal funnel 2.0 [vocal] — getskillnow.com/quiz
-steps=34 stop=email_loop email@33 paywall@— popups=0 prices=— discount=— timer=false trial=false moneyBack=false
-- [NEW] screen 30 question "✅": data/runs/2026-10-21/funnels/skillsta-vocal-2/4ad23ce9af85/30.webp
-- [NEW] screen 31 question "✅": data/runs/2026-10-21/funnels/skillsta-vocal-2/4ad23ce9af85/31.webp
-- [NEW] screen 32 question "✅": data/runs/2026-10-21/funnels/skillsta-vocal-2/4ad23ce9af85/32.webp
-- [CHANGED] screen 34 info "Enter verification code" (4 changed regions): data/runs/2026-10-13/funnels/skillsta-vocal-2/4ad23ce9af85/34.webp → data/runs/2026-10-21/funnels/skillsta-vocal-2/4ad23ce9af85/34.webp
-- [REMOVED] previous screen 30 question "✅": data/runs/2026-10-13/funnels/skillsta-vocal-2/4ad23ce9af85/30.webp
-- [REMOVED] previous screen 31 question "✅": data/runs/2026-10-13/funnels/skillsta-vocal-2/4ad23ce9af85/31.webp
-- [REMOVED] previous screen 32 question "✅": data/runs/2026-10-13/funnels/skillsta-vocal-2/4ad23ce9af85/32.webp
-
-### skillsta-vocal-scanner — [SKILLSTA] Skillsta · Vocal Scanner funnel [vocal] — getskillnow.com/quiz/voice_assessment/voice_assessment
-steps=32 stop=stuck email@30 paywall@— popups=0 prices=— discount=— timer=false trial=false moneyBack=false
-- [CHANGED] screen 31 info "Enter verification code" (3 changed regions): data/runs/2026-10-13/funnels/skillsta-vocal-scanner/64e78223efd7/31.webp → data/runs/2026-10-21/funnels/skillsta-vocal-scanner/64e78223efd7/31.webp
-- [NEW] screen 32 info "": data/runs/2026-10-21/funnels/skillsta-vocal-scanner/64e78223efd7/32.webp
-
-### skillsta-drawing — [SKILLSTA] Skillsta · Drawing funnel [drawing] — start.getskillnow.com/quiz
-steps=35 stop=email_loop email@34 paywall@— popups=0 prices=— discount=— timer=false trial=false moneyBack=false
-- [NEW] screen 31 question "✅": data/runs/2026-10-21/funnels/skillsta-drawing/953d129ce40c/31.webp
-- [NEW] screen 32 question "✅": data/runs/2026-10-21/funnels/skillsta-drawing/953d129ce40c/32.webp
-- [NEW] screen 33 question "✅": data/runs/2026-10-21/funnels/skillsta-drawing/953d129ce40c/33.webp
-- [CHANGED] screen 35 info "Enter verification code" (3 changed regions): data/runs/2026-10-13/funnels/skillsta-drawing/953d129ce40c/35.webp → data/runs/2026-10-21/funnels/skillsta-drawing/953d129ce40c/35.webp
-- [REMOVED] previous screen 31 question "✅": data/runs/2026-10-13/funnels/skillsta-drawing/953d129ce40c/31.webp
-- [REMOVED] previous screen 32 question "✅": data/runs/2026-10-13/funnels/skillsta-drawing/953d129ce40c/32.webp
-- [REMOVED] previous screen 33 question "✅": data/runs/2026-10-13/funnels/skillsta-drawing/953d129ce40c/33.webp
-
 ### imprint — Imprint [vocal+drawing] — imprintapp.com/start-buddhism
 steps=8 stop=stuck email@— paywall@— popups=0 prices=— discount=— timer=false trial=false moneyBack=false
 first capture of this funnel (no comparison)
