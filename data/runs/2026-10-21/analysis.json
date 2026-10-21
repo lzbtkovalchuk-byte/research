@@ -1,20 +1,17 @@
 {
- "headline": "Breeze swapped its “choose any amount” trial for a fixed $1 7-day trial with the email field on the paywall, and Copymind dropped email verification before its paywall.",
+ "headline": "Copymind dropped email verification before its paywall and moved to a dark paywall with an auto-applied promo code. Breeze and Simply Piano made small tweaks. This run every funnel was walked through to its paywall.",
  "what_changed": {
-  "breeze": "Paywall rebuilt: “choose any amount” trial ($1–$17.34) replaced by a 7-day trial for $1, then $29.99 every 4 weeks, with the email field on the paywall. Age and gender questions swapped. 1 new ad link.",
   "copymind": "Email verification before the paywall removed; paywall now dark with an auto-applied promo code (4 weeks $19.99, then $39.99).",
-  "yousician": "“Let’s get started” now opens a log-in / sign-up screen; the instrument quiz is no longer reached.",
+  "breeze": "Paywall still “choose any amount” ($1–$17.34); the small print under it was rewritten. Age and gender questions swapped. 1 new ad link.",
   "simply-piano": "One question removed (“For how long have you had a piano/keyboard?”). Paywall now captured behind the free-book popup.",
+  "imprint": "No screen changes. Paywall captured for the first time (Quarterly $16.99 with a SUMMER2026 promo). Ads: +140 active (740 now).",
+  "yousician": "No screen changes. Paywall captured for the first time, after a test sign-up (7-day trial, then $159.99/year).",
   "learna": "No screen changes. Ads: 46 new in two weeks, +480 active (644 now).",
-  "imprint": "No screen changes. Ads: +140 active (740 now). start-art link dropped from ads.",
   "memoryos": "No screen changes. Ad links changed: new new-h2 funnel, mos_cfg seniors_s → read003b, seniors_o removed.",
-  "smartyme": "No screen changes captured. Ads: 55 new in two weeks, −75 active.",
-  "simply-sing": "New ad funnel (singyourheartout) captured; it reaches a paywall with the same plans as Simply Piano.",
+  "smartyme": "No screen changes. Ads: 51 new in two weeks, −91 active (109 now).",
+  "simply-sing": "No screen changes. Its funnel from ads (singyourheartout) reaches the same paywall as Simply Piano.",
   "chillio": "No changes.",
-  "simply-draw": "No changes.",
-  "skillsta-vocal-2": "No changes.",
-  "skillsta-vocal-scanner": "No changes.",
-  "skillsta-drawing": "No changes."
+  "simply-draw": "No changes."
  },
  "hide_funnels": [
   {
@@ -36,23 +33,11 @@
   {
    "app": "breeze",
    "funnel": "try-breeze.com/funnel/childhood",
-   "n": 32,
-   "title": "Question popup over the results loader",
+   "n": 39,
+   "title": "Same “choose any amount” paywall, small print rewritten",
    "notes": [
-    "“Do you find yourself frequently avoiding places, people, or activities that remind you of your past?” (No / Yes) appears over “Calculating your results…”.",
-    "The walk could not close it, so the paywall was opened directly."
-   ]
-  },
-  {
-   "app": "breeze",
-   "funnel": "try-breeze.com/funnel/childhood",
-   "n": 33,
-   "prev_n": 40,
-   "title": "“Choose any amount” trial replaced by a $1 trial with email on the paywall",
-   "notes": [
-    "Before: “Choose any amount you like” ($1, $2, $10, $17.34) with “It costs us $17.34 to provide this trial offer”.",
-    "Now: “7-day trial for $1, then $29.99 every 4 weeks. No commitment. Cancel anytime.”",
-    "The email field (“Step 1 · Enter your email”) is on the paywall itself, followed by store badges, “Over 7.5 million use the Breeze app” and reviews."
+    "The price picker is unchanged: $1, $2, $10 or $17.34.",
+    "The line under it changed from “It costs us $17.34 to provide this trial offer, but we want you to choose what feels right for you” to “No charge on this page. By clicking continue, you are choosing the amount for your introductory offer. Please review conditions at the next screen.”"
    ]
   },
   {
@@ -106,22 +91,56 @@
    ]
   },
   {
+   "app": "imprint",
+   "funnel": "imprintapp.com/start-history",
+   "n": 36,
+   "title": "Paywall captured for the first time",
+   "notes": [
+    "Last run the walk stopped at the email step, so there is nothing to compare yet.",
+    "“Choose a plan” with “SUMMER2026” promo code applied: Monthly $11.99 first month ($23.99), Quarterly $16.99 first 3 months ($42.99, most popular), Annual $49.99 first year ($99.99); 30-day money-back guarantee."
+   ]
+  },
+  {
    "app": "yousician",
    "funnel": "yousician.com/",
-   "n": 2,
-   "prev_n": 2,
-   "title": "“Let’s get started” now opens log-in / sign-up",
+   "n": 9,
+   "title": "Paywall captured for the first time (after creating a test account)",
    "notes": [
-    "Last run the next screen was “Choose your instrument”, the start of a 7-screen quiz.",
-    "Now it is a log-in form (Apple, Google, email and password) with a “Sign up” button."
+    "Last run the walk stopped at “Create your account”.",
+    "“Start your 7-day free trial”: Yearly plan $13.33/month, $159.99/year, “Save 50%”, PayPal / Google Pay / card."
    ]
+  },
+  {
+   "app": "imprint",
+   "funnel": "imprintapp.com/start-history",
+   "n": 34,
+   "hide": true,
+   "title": "capture difference, checked on the screenshots",
+   "notes": []
+  },
+  {
+   "app": "imprint",
+   "funnel": "imprintapp.com/start-history",
+   "n": 35,
+   "hide": true,
+   "title": "capture difference, checked on the screenshots",
+   "notes": []
+  },
+  {
+   "app": "imprint",
+   "funnel": "imprintapp.com/start-history",
+   "n": 34,
+   "removed": true,
+   "hide": true,
+   "title": "capture difference, checked on the screenshots",
+   "notes": []
   },
   {
    "app": "breeze",
    "funnel": "try-breeze.com/funnel/childhood",
    "n": 2,
    "hide": true,
-   "title": "same screen; images had not loaded on the previous capture",
+   "title": "capture difference, checked on the screenshots",
    "notes": []
   },
   {
@@ -129,7 +148,7 @@
    "funnel": "try-breeze.com/funnel/childhood",
    "n": 6,
    "hide": true,
-   "title": "same screen; images had not loaded on the previous capture",
+   "title": "capture difference, checked on the screenshots",
    "notes": []
   },
   {
@@ -137,7 +156,7 @@
    "funnel": "try-breeze.com/funnel/childhood",
    "n": 7,
    "hide": true,
-   "title": "same screen; images had not loaded on the previous capture",
+   "title": "capture difference, checked on the screenshots",
    "notes": []
   },
   {
@@ -145,7 +164,7 @@
    "funnel": "try-breeze.com/funnel/childhood",
    "n": 11,
    "hide": true,
-   "title": "same screen; images had not loaded on the previous capture",
+   "title": "capture difference, checked on the screenshots",
    "notes": []
   },
   {
@@ -153,7 +172,7 @@
    "funnel": "try-breeze.com/funnel/childhood",
    "n": 12,
    "hide": true,
-   "title": "same screen; images had not loaded on the previous capture",
+   "title": "capture difference, checked on the screenshots",
    "notes": []
   },
   {
@@ -161,7 +180,7 @@
    "funnel": "try-breeze.com/funnel/childhood",
    "n": 14,
    "hide": true,
-   "title": "same screen; images had not loaded on the previous capture",
+   "title": "capture difference, checked on the screenshots",
    "notes": []
   },
   {
@@ -169,7 +188,7 @@
    "funnel": "try-breeze.com/funnel/childhood",
    "n": 16,
    "hide": true,
-   "title": "same screen; images had not loaded on the previous capture",
+   "title": "capture difference, checked on the screenshots",
    "notes": []
   },
   {
@@ -177,7 +196,7 @@
    "funnel": "try-breeze.com/funnel/childhood",
    "n": 18,
    "hide": true,
-   "title": "same screen; images had not loaded on the previous capture",
+   "title": "capture difference, checked on the screenshots",
    "notes": []
   },
   {
@@ -185,7 +204,7 @@
    "funnel": "try-breeze.com/funnel/childhood",
    "n": 22,
    "hide": true,
-   "title": "same screen; images had not loaded on the previous capture",
+   "title": "capture difference, checked on the screenshots",
    "notes": []
   },
   {
@@ -193,7 +212,7 @@
    "funnel": "try-breeze.com/funnel/childhood",
    "n": 25,
    "hide": true,
-   "title": "same screen; images had not loaded on the previous capture",
+   "title": "capture difference, checked on the screenshots",
    "notes": []
   },
   {
@@ -201,61 +220,7 @@
    "funnel": "try-breeze.com/funnel/childhood",
    "n": 30,
    "hide": true,
-   "title": "same screen; images had not loaded on the previous capture",
-   "notes": []
-  },
-  {
-   "app": "breeze",
-   "funnel": "try-breeze.com/funnel/childhood",
-   "n": 32,
-   "hide": true,
-   "removed": true,
-   "title": "not reached this run (popup)",
-   "notes": []
-  },
-  {
-   "app": "breeze",
-   "funnel": "try-breeze.com/funnel/childhood",
-   "n": 33,
-   "hide": true,
-   "removed": true,
-   "title": "not reached this run (popup)",
-   "notes": []
-  },
-  {
-   "app": "breeze",
-   "funnel": "try-breeze.com/funnel/childhood",
-   "n": 34,
-   "hide": true,
-   "removed": true,
-   "title": "not reached this run (popup)",
-   "notes": []
-  },
-  {
-   "app": "breeze",
-   "funnel": "try-breeze.com/funnel/childhood",
-   "n": 35,
-   "hide": true,
-   "removed": true,
-   "title": "not reached this run (popup)",
-   "notes": []
-  },
-  {
-   "app": "breeze",
-   "funnel": "try-breeze.com/funnel/childhood",
-   "n": 36,
-   "hide": true,
-   "removed": true,
-   "title": "not reached this run (popup)",
-   "notes": []
-  },
-  {
-   "app": "breeze",
-   "funnel": "try-breeze.com/funnel/childhood",
-   "n": 37,
-   "hide": true,
-   "removed": true,
-   "title": "not reached this run (popup)",
+   "title": "capture difference, checked on the screenshots",
    "notes": []
   },
   {
@@ -263,17 +228,480 @@
    "funnel": "try-breeze.com/funnel/childhood",
    "n": 38,
    "hide": true,
-   "removed": true,
-   "title": "not reached this run (popup)",
+   "title": "capture difference, checked on the screenshots",
    "notes": []
   },
   {
    "app": "breeze",
    "funnel": "try-breeze.com/funnel/childhood",
-   "n": 39,
-   "hide": true,
+   "n": 35,
    "removed": true,
-   "title": "not reached this run (popup)",
+   "hide": true,
+   "title": "capture difference, checked on the screenshots",
+   "notes": []
+  },
+  {
+   "app": "simply-piano",
+   "funnel": "join-piano.hellosimply.com/start",
+   "n": 1,
+   "hide": true,
+   "title": "capture difference, checked on the screenshots",
+   "notes": []
+  },
+  {
+   "app": "simply-piano",
+   "funnel": "join-piano.hellosimply.com/start",
+   "n": 2,
+   "hide": true,
+   "title": "capture difference, checked on the screenshots",
+   "notes": []
+  },
+  {
+   "app": "simply-piano",
+   "funnel": "join-piano.hellosimply.com/start",
+   "n": 3,
+   "hide": true,
+   "title": "capture difference, checked on the screenshots",
+   "notes": []
+  },
+  {
+   "app": "simply-piano",
+   "funnel": "join-piano.hellosimply.com/start",
+   "n": 6,
+   "hide": true,
+   "title": "capture difference, checked on the screenshots",
+   "notes": []
+  },
+  {
+   "app": "simply-piano",
+   "funnel": "join-piano.hellosimply.com/start",
+   "n": 7,
+   "hide": true,
+   "title": "capture difference, checked on the screenshots",
+   "notes": []
+  },
+  {
+   "app": "simply-piano",
+   "funnel": "join-piano.hellosimply.com/start",
+   "n": 8,
+   "hide": true,
+   "title": "capture difference, checked on the screenshots",
+   "notes": []
+  },
+  {
+   "app": "simply-piano",
+   "funnel": "join-piano.hellosimply.com/start",
+   "n": 9,
+   "hide": true,
+   "title": "capture difference, checked on the screenshots",
+   "notes": []
+  },
+  {
+   "app": "simply-piano",
+   "funnel": "join-piano.hellosimply.com/start",
+   "n": 10,
+   "hide": true,
+   "title": "capture difference, checked on the screenshots",
+   "notes": []
+  },
+  {
+   "app": "simply-piano",
+   "funnel": "join-piano.hellosimply.com/start",
+   "n": 11,
+   "hide": true,
+   "title": "capture difference, checked on the screenshots",
+   "notes": []
+  },
+  {
+   "app": "simply-piano",
+   "funnel": "join-piano.hellosimply.com/start",
+   "n": 12,
+   "hide": true,
+   "title": "capture difference, checked on the screenshots",
+   "notes": []
+  },
+  {
+   "app": "simply-piano",
+   "funnel": "join-piano.hellosimply.com/start",
+   "n": 13,
+   "hide": true,
+   "title": "capture difference, checked on the screenshots",
+   "notes": []
+  },
+  {
+   "app": "simply-piano",
+   "funnel": "join-piano.hellosimply.com/start",
+   "n": 14,
+   "hide": true,
+   "title": "capture difference, checked on the screenshots",
+   "notes": []
+  },
+  {
+   "app": "simply-piano",
+   "funnel": "join-piano.hellosimply.com/start",
+   "n": 15,
+   "hide": true,
+   "title": "capture difference, checked on the screenshots",
+   "notes": []
+  },
+  {
+   "app": "simply-piano",
+   "funnel": "join-piano.hellosimply.com/start",
+   "n": 16,
+   "hide": true,
+   "title": "capture difference, checked on the screenshots",
+   "notes": []
+  },
+  {
+   "app": "simply-piano",
+   "funnel": "join-piano.hellosimply.com/start",
+   "n": 17,
+   "hide": true,
+   "title": "capture difference, checked on the screenshots",
+   "notes": []
+  },
+  {
+   "app": "simply-piano",
+   "funnel": "join-piano.hellosimply.com/start",
+   "n": 18,
+   "hide": true,
+   "title": "capture difference, checked on the screenshots",
+   "notes": []
+  },
+  {
+   "app": "simply-piano",
+   "funnel": "join-piano.hellosimply.com/start",
+   "n": 19,
+   "hide": true,
+   "title": "capture difference, checked on the screenshots",
+   "notes": []
+  },
+  {
+   "app": "simply-piano",
+   "funnel": "join-piano.hellosimply.com/start",
+   "n": 20,
+   "hide": true,
+   "title": "capture difference, checked on the screenshots",
+   "notes": []
+  },
+  {
+   "app": "simply-piano",
+   "funnel": "join-piano.hellosimply.com/start",
+   "n": 21,
+   "hide": true,
+   "title": "capture difference, checked on the screenshots",
+   "notes": []
+  },
+  {
+   "app": "simply-piano",
+   "funnel": "join-piano.hellosimply.com/start",
+   "n": 22,
+   "hide": true,
+   "title": "capture difference, checked on the screenshots",
+   "notes": []
+  },
+  {
+   "app": "simply-piano",
+   "funnel": "join-piano.hellosimply.com/start",
+   "n": 23,
+   "hide": true,
+   "title": "capture difference, checked on the screenshots",
+   "notes": []
+  },
+  {
+   "app": "simply-piano",
+   "funnel": "join-piano.hellosimply.com/start",
+   "n": 24,
+   "hide": true,
+   "title": "capture difference, checked on the screenshots",
+   "notes": []
+  },
+  {
+   "app": "simply-piano",
+   "funnel": "join-piano.hellosimply.com/start",
+   "n": 25,
+   "hide": true,
+   "title": "capture difference, checked on the screenshots",
+   "notes": []
+  },
+  {
+   "app": "simply-piano",
+   "funnel": "join-piano.hellosimply.com/start",
+   "n": 26,
+   "hide": true,
+   "title": "capture difference, checked on the screenshots",
+   "notes": []
+  },
+  {
+   "app": "simply-piano",
+   "funnel": "join-piano.hellosimply.com/start",
+   "n": 27,
+   "hide": true,
+   "title": "capture difference, checked on the screenshots",
+   "notes": []
+  },
+  {
+   "app": "simply-piano",
+   "funnel": "join-piano.hellosimply.com/start",
+   "n": 28,
+   "hide": true,
+   "title": "capture difference, checked on the screenshots",
+   "notes": []
+  },
+  {
+   "app": "simply-piano",
+   "funnel": "join-piano.hellosimply.com/start",
+   "n": 29,
+   "hide": true,
+   "title": "capture difference, checked on the screenshots",
+   "notes": []
+  },
+  {
+   "app": "simply-piano",
+   "funnel": "join-piano.hellosimply.com/start",
+   "n": 30,
+   "hide": true,
+   "title": "capture difference, checked on the screenshots",
+   "notes": []
+  },
+  {
+   "app": "simply-piano",
+   "funnel": "join-piano.hellosimply.com/start",
+   "n": 31,
+   "hide": true,
+   "title": "capture difference, checked on the screenshots",
+   "notes": []
+  },
+  {
+   "app": "simply-piano",
+   "funnel": "join-piano.hellosimply.com/start",
+   "n": 32,
+   "hide": true,
+   "title": "capture difference, checked on the screenshots",
+   "notes": []
+  },
+  {
+   "app": "simply-piano",
+   "funnel": "join-piano.hellosimply.com/start",
+   "n": 33,
+   "hide": true,
+   "title": "capture difference, checked on the screenshots",
+   "notes": []
+  },
+  {
+   "app": "simply-piano",
+   "funnel": "join-piano.hellosimply.com/start",
+   "n": 2,
+   "removed": true,
+   "hide": true,
+   "title": "capture difference, checked on the screenshots",
+   "notes": []
+  },
+  {
+   "app": "simply-piano",
+   "funnel": "join-piano.hellosimply.com/start",
+   "n": 3,
+   "removed": true,
+   "hide": true,
+   "title": "capture difference, checked on the screenshots",
+   "notes": []
+  },
+  {
+   "app": "simply-piano",
+   "funnel": "join-piano.hellosimply.com/start",
+   "n": 6,
+   "removed": true,
+   "hide": true,
+   "title": "capture difference, checked on the screenshots",
+   "notes": []
+  },
+  {
+   "app": "simply-piano",
+   "funnel": "join-piano.hellosimply.com/start",
+   "n": 7,
+   "removed": true,
+   "hide": true,
+   "title": "capture difference, checked on the screenshots",
+   "notes": []
+  },
+  {
+   "app": "simply-piano",
+   "funnel": "join-piano.hellosimply.com/start",
+   "n": 8,
+   "removed": true,
+   "hide": true,
+   "title": "capture difference, checked on the screenshots",
+   "notes": []
+  },
+  {
+   "app": "simply-piano",
+   "funnel": "join-piano.hellosimply.com/start",
+   "n": 9,
+   "removed": true,
+   "hide": true,
+   "title": "capture difference, checked on the screenshots",
+   "notes": []
+  },
+  {
+   "app": "simply-piano",
+   "funnel": "join-piano.hellosimply.com/start",
+   "n": 10,
+   "removed": true,
+   "hide": true,
+   "title": "capture difference, checked on the screenshots",
+   "notes": []
+  },
+  {
+   "app": "simply-piano",
+   "funnel": "join-piano.hellosimply.com/start",
+   "n": 11,
+   "removed": true,
+   "hide": true,
+   "title": "capture difference, checked on the screenshots",
+   "notes": []
+  },
+  {
+   "app": "simply-piano",
+   "funnel": "join-piano.hellosimply.com/start",
+   "n": 12,
+   "removed": true,
+   "hide": true,
+   "title": "capture difference, checked on the screenshots",
+   "notes": []
+  },
+  {
+   "app": "simply-piano",
+   "funnel": "join-piano.hellosimply.com/start",
+   "n": 13,
+   "removed": true,
+   "hide": true,
+   "title": "capture difference, checked on the screenshots",
+   "notes": []
+  },
+  {
+   "app": "simply-piano",
+   "funnel": "join-piano.hellosimply.com/start",
+   "n": 14,
+   "removed": true,
+   "hide": true,
+   "title": "capture difference, checked on the screenshots",
+   "notes": []
+  },
+  {
+   "app": "simply-piano",
+   "funnel": "join-piano.hellosimply.com/start",
+   "n": 15,
+   "removed": true,
+   "hide": true,
+   "title": "capture difference, checked on the screenshots",
+   "notes": []
+  },
+  {
+   "app": "simply-piano",
+   "funnel": "join-piano.hellosimply.com/start",
+   "n": 16,
+   "removed": true,
+   "hide": true,
+   "title": "capture difference, checked on the screenshots",
+   "notes": []
+  },
+  {
+   "app": "simply-piano",
+   "funnel": "join-piano.hellosimply.com/start",
+   "n": 17,
+   "removed": true,
+   "hide": true,
+   "title": "capture difference, checked on the screenshots",
+   "notes": []
+  },
+  {
+   "app": "simply-piano",
+   "funnel": "join-piano.hellosimply.com/start",
+   "n": 19,
+   "removed": true,
+   "hide": true,
+   "title": "capture difference, checked on the screenshots",
+   "notes": []
+  },
+  {
+   "app": "simply-piano",
+   "funnel": "join-piano.hellosimply.com/start",
+   "n": 20,
+   "removed": true,
+   "hide": true,
+   "title": "capture difference, checked on the screenshots",
+   "notes": []
+  },
+  {
+   "app": "simply-piano",
+   "funnel": "join-piano.hellosimply.com/start",
+   "n": 21,
+   "removed": true,
+   "hide": true,
+   "title": "capture difference, checked on the screenshots",
+   "notes": []
+  },
+  {
+   "app": "simply-piano",
+   "funnel": "join-piano.hellosimply.com/start",
+   "n": 22,
+   "removed": true,
+   "hide": true,
+   "title": "capture difference, checked on the screenshots",
+   "notes": []
+  },
+  {
+   "app": "simply-piano",
+   "funnel": "join-piano.hellosimply.com/start",
+   "n": 23,
+   "removed": true,
+   "hide": true,
+   "title": "capture difference, checked on the screenshots",
+   "notes": []
+  },
+  {
+   "app": "simply-piano",
+   "funnel": "join-piano.hellosimply.com/start",
+   "n": 25,
+   "removed": true,
+   "hide": true,
+   "title": "capture difference, checked on the screenshots",
+   "notes": []
+  },
+  {
+   "app": "simply-piano",
+   "funnel": "join-piano.hellosimply.com/start",
+   "n": 26,
+   "removed": true,
+   "hide": true,
+   "title": "capture difference, checked on the screenshots",
+   "notes": []
+  },
+  {
+   "app": "simply-piano",
+   "funnel": "join-piano.hellosimply.com/start",
+   "n": 27,
+   "removed": true,
+   "hide": true,
+   "title": "capture difference, checked on the screenshots",
+   "notes": []
+  },
+  {
+   "app": "simply-piano",
+   "funnel": "join-piano.hellosimply.com/start",
+   "n": 28,
+   "removed": true,
+   "hide": true,
+   "title": "capture difference, checked on the screenshots",
+   "notes": []
+  },
+  {
+   "app": "simply-piano",
+   "funnel": "join-piano.hellosimply.com/start",
+   "n": 31,
+   "removed": true,
+   "hide": true,
+   "title": "capture difference, checked on the screenshots",
    "notes": []
   },
   {
@@ -281,7 +709,7 @@
    "funnel": "hellosimply.com/family/esa",
    "n": 2,
    "hide": true,
-   "title": "answer options shuffled / answer-dependent screens",
+   "title": "capture difference, checked on the screenshots",
    "notes": []
   },
   {
@@ -289,7 +717,7 @@
    "funnel": "hellosimply.com/family/esa",
    "n": 7,
    "hide": true,
-   "title": "answer options shuffled / answer-dependent screens",
+   "title": "capture difference, checked on the screenshots",
    "notes": []
   },
   {
@@ -297,7 +725,7 @@
    "funnel": "hellosimply.com/family/esa",
    "n": 10,
    "hide": true,
-   "title": "answer options shuffled / answer-dependent screens",
+   "title": "capture difference, checked on the screenshots",
    "notes": []
   },
   {
@@ -305,7 +733,7 @@
    "funnel": "hellosimply.com/family/esa",
    "n": 11,
    "hide": true,
-   "title": "answer options shuffled / answer-dependent screens",
+   "title": "capture difference, checked on the screenshots",
    "notes": []
   },
   {
@@ -313,7 +741,7 @@
    "funnel": "hellosimply.com/family/esa",
    "n": 12,
    "hide": true,
-   "title": "answer options shuffled / answer-dependent screens",
+   "title": "capture difference, checked on the screenshots",
    "notes": []
   },
   {
@@ -321,7 +749,7 @@
    "funnel": "hellosimply.com/family/esa",
    "n": 17,
    "hide": true,
-   "title": "answer options shuffled / answer-dependent screens",
+   "title": "capture difference, checked on the screenshots",
    "notes": []
   },
   {
@@ -329,7 +757,7 @@
    "funnel": "hellosimply.com/family/esa",
    "n": 24,
    "hide": true,
-   "title": "answer options shuffled / answer-dependent screens",
+   "title": "capture difference, checked on the screenshots",
    "notes": []
   },
   {
@@ -337,7 +765,7 @@
    "funnel": "hellosimply.com/family/esa",
    "n": 25,
    "hide": true,
-   "title": "answer options shuffled / answer-dependent screens",
+   "title": "capture difference, checked on the screenshots",
    "notes": []
   },
   {
@@ -345,7 +773,7 @@
    "funnel": "hellosimply.com/family/esa",
    "n": 26,
    "hide": true,
-   "title": "answer options shuffled / answer-dependent screens",
+   "title": "capture difference, checked on the screenshots",
    "notes": []
   },
   {
@@ -353,7 +781,7 @@
    "funnel": "hellosimply.com/family/esa",
    "n": 28,
    "hide": true,
-   "title": "answer options shuffled / answer-dependent screens",
+   "title": "capture difference, checked on the screenshots",
    "notes": []
   },
   {
@@ -361,16 +789,42 @@
    "funnel": "hellosimply.com/family/esa",
    "n": 29,
    "hide": true,
-   "title": "answer options shuffled / answer-dependent screens",
+   "title": "capture difference, checked on the screenshots",
    "notes": []
   },
   {
    "app": "simply-piano",
    "funnel": "hellosimply.com/family/esa",
    "n": 25,
-   "hide": true,
    "removed": true,
-   "title": "capture difference",
+   "hide": true,
+   "title": "capture difference, checked on the screenshots",
+   "notes": []
+  },
+  {
+   "app": "memoryos",
+   "funnel": "start.memoryos.com/new-s",
+   "n": 35,
+   "hide": true,
+   "title": "capture difference, checked on the screenshots",
+   "notes": []
+  },
+  {
+   "app": "memoryos",
+   "funnel": "start.memoryos.com/new-s",
+   "n": 32,
+   "removed": true,
+   "hide": true,
+   "title": "capture difference, checked on the screenshots",
+   "notes": []
+  },
+  {
+   "app": "memoryos",
+   "funnel": "start.memoryos.com/new-s",
+   "n": 36,
+   "removed": true,
+   "hide": true,
+   "title": "capture difference, checked on the screenshots",
    "notes": []
   },
   {
@@ -378,7 +832,49 @@
    "funnel": "quiz.get-chillio.app/qs/cleaning-game",
    "n": 36,
    "hide": true,
-   "title": "only the support email in the terms changed",
+   "title": "capture difference, checked on the screenshots",
+   "notes": []
+  },
+  {
+   "app": "chillio",
+   "funnel": "quiz.get-chillio.app/qs/cleaning-game",
+   "n": 37,
+   "hide": true,
+   "title": "capture difference, checked on the screenshots",
+   "notes": []
+  },
+  {
+   "app": "chillio",
+   "funnel": "quiz.get-chillio.app/qs/cleaning-game",
+   "n": 36,
+   "removed": true,
+   "hide": true,
+   "title": "capture difference, checked on the screenshots",
+   "notes": []
+  },
+  {
+   "app": "chillio",
+   "funnel": "quiz.get-chillio.app/qs/house-ai",
+   "n": 35,
+   "hide": true,
+   "title": "capture difference, checked on the screenshots",
+   "notes": []
+  },
+  {
+   "app": "chillio",
+   "funnel": "quiz.get-chillio.app/qs/house-ai",
+   "n": 36,
+   "hide": true,
+   "title": "capture difference, checked on the screenshots",
+   "notes": []
+  },
+  {
+   "app": "chillio",
+   "funnel": "quiz.get-chillio.app/qs/house-ai",
+   "n": 35,
+   "removed": true,
+   "hide": true,
+   "title": "capture difference, checked on the screenshots",
    "notes": []
   },
   {
@@ -386,7 +882,7 @@
    "funnel": "onboarding.ailearna.com/onboarding",
    "n": 6,
    "hide": true,
-   "title": "answer options shuffled, different branch",
+   "title": "capture difference, checked on the screenshots",
    "notes": []
   },
   {
@@ -394,7 +890,7 @@
    "funnel": "onboarding.ailearna.com/onboarding",
    "n": 7,
    "hide": true,
-   "title": "answer options shuffled, different branch",
+   "title": "capture difference, checked on the screenshots",
    "notes": []
   },
   {
@@ -402,25 +898,25 @@
    "funnel": "onboarding.ailearna.com/onboarding",
    "n": 38,
    "hide": true,
-   "title": "answer options shuffled, different branch",
+   "title": "capture difference, checked on the screenshots",
    "notes": []
   },
   {
    "app": "learna",
    "funnel": "onboarding.ailearna.com/onboarding",
    "n": 7,
-   "hide": true,
    "removed": true,
-   "title": "answer options shuffled, different branch",
+   "hide": true,
+   "title": "capture difference, checked on the screenshots",
    "notes": []
   },
   {
    "app": "learna",
    "funnel": "onboarding.ailearna.com/onboarding",
    "n": 38,
-   "hide": true,
    "removed": true,
-   "title": "answer options shuffled, different branch",
+   "hide": true,
+   "title": "capture difference, checked on the screenshots",
    "notes": []
   },
   {
@@ -428,7 +924,7 @@
    "funnel": "app.copymind.me/welcome-quiz/gender",
    "n": 14,
    "hide": true,
-   "title": "capture difference",
+   "title": "capture difference, checked on the screenshots",
    "notes": []
   },
   {
@@ -436,7 +932,7 @@
    "funnel": "app.copymind.me/welcome-quiz/gender",
    "n": 28,
    "hide": true,
-   "title": "capture difference",
+   "title": "capture difference, checked on the screenshots",
    "notes": []
   },
   {
@@ -444,16 +940,16 @@
    "funnel": "app.copymind.me/welcome-quiz/gender",
    "n": 29,
    "hide": true,
-   "title": "capture difference",
+   "title": "capture difference, checked on the screenshots",
    "notes": []
   },
   {
    "app": "copymind",
    "funnel": "app.copymind.me/welcome-quiz/gender",
    "n": 35,
-   "hide": true,
    "removed": true,
-   "title": "capture difference",
+   "hide": true,
+   "title": "capture difference, checked on the screenshots",
    "notes": []
   },
   {
@@ -461,7 +957,7 @@
    "funnel": "yousician.com/",
    "n": 1,
    "hide": true,
-   "title": "capture difference",
+   "title": "capture difference, checked on the screenshots",
    "notes": []
   },
   {
@@ -469,574 +965,7 @@
    "funnel": "yousician.com/",
    "n": 3,
    "hide": true,
-   "removed": true,
-   "title": "covered by the replaced screen",
-   "notes": []
-  },
-  {
-   "app": "yousician",
-   "funnel": "yousician.com/",
-   "n": 4,
-   "hide": true,
-   "removed": true,
-   "title": "covered by the replaced screen",
-   "notes": []
-  },
-  {
-   "app": "yousician",
-   "funnel": "yousician.com/",
-   "n": 5,
-   "hide": true,
-   "removed": true,
-   "title": "covered by the replaced screen",
-   "notes": []
-  },
-  {
-   "app": "yousician",
-   "funnel": "yousician.com/",
-   "n": 6,
-   "hide": true,
-   "removed": true,
-   "title": "covered by the replaced screen",
-   "notes": []
-  },
-  {
-   "app": "yousician",
-   "funnel": "yousician.com/",
-   "n": 7,
-   "hide": true,
-   "removed": true,
-   "title": "covered by the replaced screen",
-   "notes": []
-  },
-  {
-   "app": "yousician",
-   "funnel": "yousician.com/",
-   "n": 8,
-   "hide": true,
-   "removed": true,
-   "title": "covered by the replaced screen",
-   "notes": []
-  },
-  {
-   "app": "skillsta-vocal-2",
-   "funnel": "getskillnow.com/quiz",
-   "n": 30,
-   "hide": true,
-   "title": "capture difference",
-   "notes": []
-  },
-  {
-   "app": "skillsta-vocal-2",
-   "funnel": "getskillnow.com/quiz",
-   "n": 31,
-   "hide": true,
-   "title": "capture difference",
-   "notes": []
-  },
-  {
-   "app": "skillsta-vocal-2",
-   "funnel": "getskillnow.com/quiz",
-   "n": 32,
-   "hide": true,
-   "title": "capture difference",
-   "notes": []
-  },
-  {
-   "app": "skillsta-vocal-2",
-   "funnel": "getskillnow.com/quiz",
-   "n": 34,
-   "hide": true,
-   "title": "capture difference",
-   "notes": []
-  },
-  {
-   "app": "skillsta-vocal-2",
-   "funnel": "getskillnow.com/quiz",
-   "n": 30,
-   "hide": true,
-   "removed": true,
-   "title": "capture difference",
-   "notes": []
-  },
-  {
-   "app": "skillsta-vocal-2",
-   "funnel": "getskillnow.com/quiz",
-   "n": 31,
-   "hide": true,
-   "removed": true,
-   "title": "capture difference",
-   "notes": []
-  },
-  {
-   "app": "skillsta-vocal-2",
-   "funnel": "getskillnow.com/quiz",
-   "n": 32,
-   "hide": true,
-   "removed": true,
-   "title": "capture difference",
-   "notes": []
-  },
-  {
-   "app": "skillsta-vocal-scanner",
-   "funnel": "getskillnow.com/quiz/voice_assessment/voice_assessment",
-   "n": 31,
-   "hide": true,
-   "title": "capture difference",
-   "notes": []
-  },
-  {
-   "app": "skillsta-vocal-scanner",
-   "funnel": "getskillnow.com/quiz/voice_assessment/voice_assessment",
-   "n": 32,
-   "hide": true,
-   "title": "capture difference",
-   "notes": []
-  },
-  {
-   "app": "skillsta-drawing",
-   "funnel": "start.getskillnow.com/quiz",
-   "n": 31,
-   "hide": true,
-   "title": "capture difference",
-   "notes": []
-  },
-  {
-   "app": "skillsta-drawing",
-   "funnel": "start.getskillnow.com/quiz",
-   "n": 32,
-   "hide": true,
-   "title": "capture difference",
-   "notes": []
-  },
-  {
-   "app": "skillsta-drawing",
-   "funnel": "start.getskillnow.com/quiz",
-   "n": 33,
-   "hide": true,
-   "title": "capture difference",
-   "notes": []
-  },
-  {
-   "app": "skillsta-drawing",
-   "funnel": "start.getskillnow.com/quiz",
-   "n": 35,
-   "hide": true,
-   "title": "capture difference",
-   "notes": []
-  },
-  {
-   "app": "skillsta-drawing",
-   "funnel": "start.getskillnow.com/quiz",
-   "n": 31,
-   "hide": true,
-   "removed": true,
-   "title": "capture difference",
-   "notes": []
-  },
-  {
-   "app": "skillsta-drawing",
-   "funnel": "start.getskillnow.com/quiz",
-   "n": 32,
-   "hide": true,
-   "removed": true,
-   "title": "capture difference",
-   "notes": []
-  },
-  {
-   "app": "skillsta-drawing",
-   "funnel": "start.getskillnow.com/quiz",
-   "n": 33,
-   "hide": true,
-   "removed": true,
-   "title": "capture difference",
-   "notes": []
-  },
-  {
-   "app": "imprint",
-   "funnel": "imprintapp.com/start-history",
-   "n": 34,
-   "hide": true,
-   "removed": true,
-   "title": "not reached this run (email rejected)",
-   "notes": []
-  },
-  {
-   "app": "memoryos",
-   "funnel": "start.memoryos.com/new-s",
-   "n": 32,
-   "hide": true,
-   "removed": true,
-   "title": "not reached this run (email rejected)",
-   "notes": []
-  },
-  {
-   "app": "memoryos",
-   "funnel": "start.memoryos.com/new-s",
-   "n": 34,
-   "hide": true,
-   "removed": true,
-   "title": "not reached this run (email rejected)",
-   "notes": []
-  },
-  {
-   "app": "memoryos",
-   "funnel": "start.memoryos.com/new-s",
-   "n": 35,
-   "hide": true,
-   "removed": true,
-   "title": "not reached this run (email rejected)",
-   "notes": []
-  },
-  {
-   "app": "memoryos",
-   "funnel": "start.memoryos.com/new-s",
-   "n": 36,
-   "hide": true,
-   "removed": true,
-   "title": "not reached this run (email rejected)",
-   "notes": []
-  },
-  {
-   "app": "smartyme",
-   "funnel": "start.smartymeapp.com/quiz",
-   "n": 11,
-   "hide": true,
-   "removed": true,
-   "title": "not reached this run (walk stuck)",
-   "notes": []
-  },
-  {
-   "app": "smartyme",
-   "funnel": "start.smartymeapp.com/quiz",
-   "n": 12,
-   "hide": true,
-   "removed": true,
-   "title": "not reached this run (walk stuck)",
-   "notes": []
-  },
-  {
-   "app": "smartyme",
-   "funnel": "start.smartymeapp.com/quiz",
-   "n": 13,
-   "hide": true,
-   "removed": true,
-   "title": "not reached this run (walk stuck)",
-   "notes": []
-  },
-  {
-   "app": "smartyme",
-   "funnel": "start.smartymeapp.com/quiz",
-   "n": 14,
-   "hide": true,
-   "removed": true,
-   "title": "not reached this run (walk stuck)",
-   "notes": []
-  },
-  {
-   "app": "smartyme",
-   "funnel": "start.smartymeapp.com/quiz",
-   "n": 15,
-   "hide": true,
-   "removed": true,
-   "title": "not reached this run (walk stuck)",
-   "notes": []
-  },
-  {
-   "app": "smartyme",
-   "funnel": "start.smartymeapp.com/quiz",
-   "n": 16,
-   "hide": true,
-   "removed": true,
-   "title": "not reached this run (walk stuck)",
-   "notes": []
-  },
-  {
-   "app": "smartyme",
-   "funnel": "start.smartymeapp.com/quiz",
-   "n": 17,
-   "hide": true,
-   "removed": true,
-   "title": "not reached this run (walk stuck)",
-   "notes": []
-  },
-  {
-   "app": "smartyme",
-   "funnel": "start.smartymeapp.com/quiz",
-   "n": 18,
-   "hide": true,
-   "removed": true,
-   "title": "not reached this run (walk stuck)",
-   "notes": []
-  },
-  {
-   "app": "smartyme",
-   "funnel": "start.smartymeapp.com/quiz",
-   "n": 19,
-   "hide": true,
-   "removed": true,
-   "title": "not reached this run (walk stuck)",
-   "notes": []
-  },
-  {
-   "app": "smartyme",
-   "funnel": "start.smartymeapp.com/quiz",
-   "n": 20,
-   "hide": true,
-   "removed": true,
-   "title": "not reached this run (walk stuck)",
-   "notes": []
-  },
-  {
-   "app": "smartyme",
-   "funnel": "start.smartymeapp.com/quiz",
-   "n": 21,
-   "hide": true,
-   "removed": true,
-   "title": "not reached this run (walk stuck)",
-   "notes": []
-  },
-  {
-   "app": "smartyme",
-   "funnel": "start.smartymeapp.com/quiz",
-   "n": 22,
-   "hide": true,
-   "removed": true,
-   "title": "not reached this run (walk stuck)",
-   "notes": []
-  },
-  {
-   "app": "smartyme",
-   "funnel": "start.smartymeapp.com/quiz",
-   "n": 23,
-   "hide": true,
-   "removed": true,
-   "title": "not reached this run (walk stuck)",
-   "notes": []
-  },
-  {
-   "app": "smartyme",
-   "funnel": "start.smartymeapp.com/quiz",
-   "n": 24,
-   "hide": true,
-   "removed": true,
-   "title": "not reached this run (walk stuck)",
-   "notes": []
-  },
-  {
-   "app": "smartyme",
-   "funnel": "start.smartymeapp.com/quiz",
-   "n": 25,
-   "hide": true,
-   "removed": true,
-   "title": "not reached this run (walk stuck)",
-   "notes": []
-  },
-  {
-   "app": "smartyme",
-   "funnel": "start.smartymeapp.com/quiz",
-   "n": 26,
-   "hide": true,
-   "removed": true,
-   "title": "not reached this run (walk stuck)",
-   "notes": []
-  },
-  {
-   "app": "smartyme",
-   "funnel": "start.smartymeapp.com/quiz",
-   "n": 27,
-   "hide": true,
-   "removed": true,
-   "title": "not reached this run (walk stuck)",
-   "notes": []
-  },
-  {
-   "app": "smartyme",
-   "funnel": "start.smartymeapp.com/quiz",
-   "n": 28,
-   "hide": true,
-   "removed": true,
-   "title": "not reached this run (walk stuck)",
-   "notes": []
-  },
-  {
-   "app": "smartyme",
-   "funnel": "start.smartymeapp.com/quiz",
-   "n": 29,
-   "hide": true,
-   "removed": true,
-   "title": "not reached this run (walk stuck)",
-   "notes": []
-  },
-  {
-   "app": "smartyme",
-   "funnel": "start.smartymeapp.com/quiz",
-   "n": 30,
-   "hide": true,
-   "removed": true,
-   "title": "not reached this run (walk stuck)",
-   "notes": []
-  },
-  {
-   "app": "smartyme",
-   "funnel": "start.smartymeapp.com/quiz",
-   "n": 31,
-   "hide": true,
-   "removed": true,
-   "title": "not reached this run (walk stuck)",
-   "notes": []
-  },
-  {
-   "app": "smartyme",
-   "funnel": "start.smartymeapp.com/quiz",
-   "n": 32,
-   "hide": true,
-   "removed": true,
-   "title": "not reached this run (walk stuck)",
-   "notes": []
-  },
-  {
-   "app": "smartyme",
-   "funnel": "start.smartymeapp.com/quiz",
-   "n": 33,
-   "hide": true,
-   "removed": true,
-   "title": "not reached this run (walk stuck)",
-   "notes": []
-  },
-  {
-   "app": "smartyme",
-   "funnel": "start.smartymeapp.com/quiz",
-   "n": 34,
-   "hide": true,
-   "removed": true,
-   "title": "not reached this run (walk stuck)",
-   "notes": []
-  },
-  {
-   "app": "smartyme",
-   "funnel": "start.smartymeapp.com/quiz",
-   "n": 35,
-   "hide": true,
-   "removed": true,
-   "title": "not reached this run (walk stuck)",
-   "notes": []
-  },
-  {
-   "app": "smartyme",
-   "funnel": "start.smartymeapp.com/quiz",
-   "n": 36,
-   "hide": true,
-   "removed": true,
-   "title": "not reached this run (walk stuck)",
-   "notes": []
-  },
-  {
-   "app": "smartyme",
-   "funnel": "start.smartymeapp.com/quiz",
-   "n": 37,
-   "hide": true,
-   "removed": true,
-   "title": "not reached this run (walk stuck)",
-   "notes": []
-  },
-  {
-   "app": "smartyme",
-   "funnel": "start.smartymeapp.com/quiz",
-   "n": 38,
-   "hide": true,
-   "removed": true,
-   "title": "not reached this run (walk stuck)",
-   "notes": []
-  },
-  {
-   "app": "smartyme",
-   "funnel": "start.smartymeapp.com/quiz",
-   "n": 39,
-   "hide": true,
-   "removed": true,
-   "title": "not reached this run (walk stuck)",
-   "notes": []
-  },
-  {
-   "app": "smartyme",
-   "funnel": "start.smartymeapp.com/quiz",
-   "n": 40,
-   "hide": true,
-   "removed": true,
-   "title": "not reached this run (walk stuck)",
-   "notes": []
-  },
-  {
-   "app": "smartyme",
-   "funnel": "start.smartymeapp.com/quiz",
-   "n": 41,
-   "hide": true,
-   "removed": true,
-   "title": "not reached this run (walk stuck)",
-   "notes": []
-  },
-  {
-   "app": "smartyme",
-   "funnel": "start.smartymeapp.com/quiz",
-   "n": 42,
-   "hide": true,
-   "removed": true,
-   "title": "not reached this run (walk stuck)",
-   "notes": []
-  },
-  {
-   "app": "smartyme",
-   "funnel": "start.smartymeapp.com/quiz",
-   "n": 43,
-   "hide": true,
-   "removed": true,
-   "title": "not reached this run (walk stuck)",
-   "notes": []
-  },
-  {
-   "app": "smartyme",
-   "funnel": "start.smartymeapp.com/quiz",
-   "n": 44,
-   "hide": true,
-   "removed": true,
-   "title": "not reached this run (walk stuck)",
-   "notes": []
-  },
-  {
-   "app": "smartyme",
-   "funnel": "start.smartymeapp.com/quiz",
-   "n": 45,
-   "hide": true,
-   "removed": true,
-   "title": "not reached this run (walk stuck)",
-   "notes": []
-  },
-  {
-   "app": "smartyme",
-   "funnel": "start.smartymeapp.com/quiz",
-   "n": 46,
-   "hide": true,
-   "removed": true,
-   "title": "not reached this run (walk stuck)",
-   "notes": []
-  },
-  {
-   "app": "smartyme",
-   "funnel": "start.smartymeapp.com/quiz",
-   "n": 47,
-   "hide": true,
-   "removed": true,
-   "title": "not reached this run (walk stuck)",
-   "notes": []
-  },
-  {
-   "app": "smartyme",
-   "funnel": "start.smartymeapp.com/quiz",
-   "n": 48,
-   "hide": true,
-   "removed": true,
-   "title": "not reached this run (walk stuck)",
+   "title": "capture difference, checked on the screenshots",
    "notes": []
   },
   {
@@ -1044,8 +973,7 @@
    "funnel": "start.smartymeapp.com/quiz",
    "n": 49,
    "hide": true,
-   "removed": true,
-   "title": "not reached this run (walk stuck)",
+   "title": "capture difference, checked on the screenshots",
    "notes": []
   }
  ],
@@ -1157,9 +1085,9 @@
    "seen_in": "Copymind dropped “Verify your email”"
   },
   {
-   "title": "Test asking for the email on the paywall.",
-   "detail": "Put the email field on the paywall next to the plan, instead of a separate email + code step. It should move Email → Paywall and Paywall → Purchase.",
-   "seen_in": "Breeze paywall"
+   "title": "Test an auto-applied promo code on the paywall.",
+   "detail": "Show “Your promo code applied!” with a 10-minute timer above the plans. It should move Paywall → Purchase.",
+   "seen_in": "Copymind paywall; Imprint and Chillio do the same"
   }
  ]
 }
