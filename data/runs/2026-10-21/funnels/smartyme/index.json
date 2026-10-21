@@ -8,10 +8,10 @@
     {
       "key": "start.smartymeapp.com/quiz",
       "dir": "funnels/smartyme/5353a564ba54",
-      "stop": "timeout",
-      "steps": 45,
+      "stop": "paywall",
+      "steps": 49,
       "why": "ad",
-      "ads": 147
+      "ads": 146
     }
   ]
 }

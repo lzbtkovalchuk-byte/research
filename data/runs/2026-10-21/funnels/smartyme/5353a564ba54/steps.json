@@ -2,13 +2,13 @@
   "url": "https://start.smartymeapp.com/quiz",
   "key": "start.smartymeapp.com/quiz",
   "why": "ad",
-  "ads": 147,
+  "ads": 146,
   "adShot": "smartyme-5353a564ba54.webp",
-  "adId": "3201702963367232",
+  "adId": "1037037946018552",
   "dir": "funnels/smartyme/5353a564ba54",
-  "stop": "timeout",
+  "stop": "paywall",
   "proxied": false,
-  "email": "yelyzavetabazyla+fw2610211414smartyme1@gmail.com",
+  "email": "yelyzavetabazyla+fw2610211513smartyme1@gmail.com",
   "emailNote": null,
   "signedUp": null,
   "restartUrl": null,
@@ -726,7 +726,7 @@
       "action": {
         "filled": true,
         "cta": "Continue",
-        "email": "yelyzavetabazyla+fw2610211414smartyme1@gmail.com"
+        "email": "yelyzavetabazyla+fw2610211513smartyme1@gmail.com"
       }
     },
     {
@@ -740,22 +740,101 @@
       "textHash": "741685138565",
       "dhash": "1110000011010100110011001001011000000000000000000000000000000000",
       "h": 844,
-      "prices": []
+      "prices": [],
+      "action": {
+        "opt": "I don’t want to receive tips or updates"
+      }
+    },
+    {
+      "n": 46,
+      "file": "46.webp",
+      "url": "https://start.smartymeapp.com/quiz",
+      "path": "/quiz",
+      "title": "What's your name?",
+      "kind": "info",
+      "text": "What's your name?\nContinue",
+      "textHash": "c50e83162c5d",
+      "dhash": "1110100011010100101010100000000000000000000000001000101010001110",
+      "h": 844,
+      "prices": [],
+      "action": {
+        "filled": true,
+        "cta": "Continue"
+      }
+    },
+    {
+      "n": 47,
+      "file": "47.webp",
+      "url": "https://start.smartymeapp.com/quiz",
+      "path": "/quiz",
+      "title": "Your personalized communication plan is ready!",
+      "kind": "info",
+      "text": "Your personalized communication plan is ready!\nWe have carefully analyzed your answers and created your individual plan\n5 min/day\nOct 21\nNow\n28 lessons per month\nNov 18\nContinue\nSmartyMe is here to support your learning journey. Our courses are for learning and inspiration, not to guarantee specific skills or provide professional advice. Since every learner is different, results may vary.",
+      "textHash": "4ed4089a6ae0",
+      "dhash": "1110100011110000100001101001111010000010101000101000111010001010",
+      "h": 844,
+      "prices": [],
+      "action": {
+        "cta": "Continue"
+      }
+    },
+    {
+      "n": 48,
+      "file": "48.webp",
+      "url": "https://start.smartymeapp.com/quiz",
+      "path": "/quiz",
+      "title": "Transform your life!",
+      "kind": "info",
+      "text": "Transform your life!\nLearn to express yourself clearly, speak with ease, and connect with others — in work, and in life.\nContinue",
+      "textHash": "b7dfc56279a9",
+      "dhash": "1110100011001100110011001100110011001100110011001000101010001110",
+      "h": 862,
+      "prices": [],
+      "action": {
+        "cta": "Continue"
+      }
+    },
+    {
+      "n": 49,
+      "file": "49.webp",
+      "url": "https://start.smartymeapp.com/quiz",
+      "path": "/quiz",
+      "title": "Your Small Talk Communication plan is ready!",
+      "kind": "paywall",
+      "text": "Your Small Talk Communication plan \nis ready!\n60% discount reserved for: \n09:41\n12 WEEK PLAN\n$31.99 now, then $79.99 every 12 weeks\n$31.99\n$79.99\n4 WEEK PLAN\n$15.19 now, then $38.99 every 4 weeks\n$15.19\n$38.99\n24 WEEK PLAN\n$47.99 now, then $119.99 every 24 weeks\n$47.99\n$119.99\n28-day money-back guarantee\nGet My Plan\nWhat you get with \nSmartyMe\n5 min/day\nWe are ready to answer\nyour questions\nHow can SmartyMe help me?\nOn SmartyMe, you can find interactive 15-minute lessons designed to fit into your busy schedule, bringing soft skills to life. Our experts guide you in mastering essential skills like leadership, influence, and communication with ease and confidence.\nHow can I access the product?\nAfter you purchase a subscription, you will receive a link to download the app from the App Store and Google Play. Simply install the app to access your product. We’ve also sent the download link to your inbox.\nHow can I cancel my subscription?\nTo cancel, please navigate to the Profile Settings in your account at web.smartymeapp.com or within the app. Be sure to cancel at least 24 hours before the renewal date, or the payment for the next period will be processed automatically.\nHear success stories\nfrom our users\n28-Day Money-Back Guarantee\nWe believe that our plan will bring you clear results in just 4 weeks! We are even willing to return your money if you don't see any noticeable progress or feel that SmartyMe is not the right fit for you. Please double check our Terms of use to underst",
+      "textHash": "5758302dc30a",
+      "dhash": "1110100011110000111001101100011011000110110001001001101011011000",
+      "h": 4367,
+      "prices": [
+        "$31.99",
+        "$79.99",
+        "$15.19",
+        "$38.99",
+        "$47.99",
+        "$119.99"
+      ]
     }
   ],
   "features": {
-    "totalSteps": 45,
-    "stop": "timeout",
+    "totalSteps": 49,
+    "stop": "paywall",
     "emailStep": 44,
-    "paywallStep": null,
+    "paywallStep": 49,
     "questions": 26,
     "socialProof": 2,
     "popups": 0,
     "loader": true,
-    "prices": [],
-    "discount": null,
-    "timer": false,
+    "prices": [
+      "$31.99",
+      "$79.99",
+      "$15.19",
+      "$38.99",
+      "$47.99",
+      "$119.99"
+    ],
+    "discount": "60",
+    "timer": true,
     "trial": false,
-    "moneyBack": false
+    "moneyBack": true
   }
 }

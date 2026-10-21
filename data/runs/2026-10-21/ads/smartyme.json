@@ -9,15 +9,15 @@
       "type": "page",
       "value": "837158766142027",
       "url": "https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=US&media_type=all&search_type=page&view_all_page_id=837158766142027",
-      "results": 100,
-      "parsed": 25,
-      "kept": 25
+      "results": 85,
+      "parsed": 18,
+      "kept": 18
     },
     {
       "type": "domain",
       "value": "smartymeapp.com",
       "url": "https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=US&media_type=all&search_type=keyword_unordered&q=smartymeapp.com",
-      "results": 1700,
+      "results": 1800,
       "parsed": 24,
       "kept": 24
     }
@@ -26,7 +26,7 @@
     {
       "id": "1900264108019126",
       "started": "Oct 15, 2026",
-      "versions": 5,
+      "versions": 4,
       "page": "SmartyMe: How Drawing Works",
       "body": "We make drawing, sketch technique, and visual art easy, intuitive, and actually fun through short, beginner-friendly lessons.",
       "caption": null,
@@ -41,7 +41,7 @@
     {
       "id": "1453109050106436",
       "started": "Oct 15, 2026",
-      "versions": 7,
+      "versions": 6,
       "page": "SmartyMe: How Drawing Works",
       "body": "We make drawing, sketch technique, and visual art easy, intuitive, and actually fun through short, beginner-friendly lessons.",
       "caption": null,
@@ -99,39 +99,9 @@
       "store": true
     },
     {
-      "id": "1417017610563333",
-      "started": "Oct 15, 2026",
-      "versions": 1,
-      "page": "SmartyMe: How Drawing Works",
-      "body": "We make drawing, sketch technique, and visual art easy, intuitive, and actually fun through short, beginner-friendly lessons.",
-      "caption": "SMARTYMEAPP.ONELINK.ME",
-      "headline": "Welcome to How Drawing Works 🎨",
-      "cta": "Learn more",
-      "video": false,
-      "link": "https://smartymeapp.onelink.me/gdRe?pid=metaweb_int&af_siteid={{site_source_name}}&c={{campaign.name}}&af_c_id={{campaign.id}}&af_adset={{adset.name}}&af_adset_id={{adset.id}}&af_ad={{ad.name}}&af_ad_id={{ad.id}}&af_channel={{placement}}&af_cost_model=cpc&clickid={{fbclick}}&af_sub_siteid={{geo}}&af_click_lookback=7d&af_dp=smartymeapp://&deep_link_value=smartyme-a20&af_ios_store_cpp=f696253b-93f9-4531-9ba2-976d8cd6d2fc&af_android_store_csl=draw",
-      "startedISO": "2026-10-15",
-      "key": "smartymeapp.onelink.me/gdRe?deep_link_value=smartyme-a20",
-      "store": true
-    },
-    {
-      "id": "2174519256792413",
-      "started": "Oct 15, 2026",
-      "versions": 1,
-      "page": "SmartyMe: How Drawing Works",
-      "body": "We make drawing, sketch technique, and visual art easy, intuitive, and actually fun through short, beginner-friendly lessons.",
-      "caption": "SMARTYMEAPP.ONELINK.ME",
-      "headline": "Welcome to How Drawing Works 🎨",
-      "cta": "Learn more",
-      "video": false,
-      "link": "https://smartymeapp.onelink.me/gdRe?pid=metaweb_int&af_siteid={{site_source_name}}&c={{campaign.name}}&af_c_id={{campaign.id}}&af_adset={{adset.name}}&af_adset_id={{adset.id}}&af_ad={{ad.name}}&af_ad_id={{ad.id}}&af_channel={{placement}}&af_cost_model=cpc&clickid={{fbclick}}&af_sub_siteid={{geo}}&af_click_lookback=7d&af_dp=smartymeapp://&deep_link_value=smartyme-a20&af_ios_store_cpp=f696253b-93f9-4531-9ba2-976d8cd6d2fc&af_android_store_csl=draw",
-      "startedISO": "2026-10-15",
-      "key": "smartymeapp.onelink.me/gdRe?deep_link_value=smartyme-a20",
-      "store": true
-    },
-    {
       "id": "1629767522149906",
       "started": "Oct 8, 2026",
-      "versions": 4,
+      "versions": 3,
       "page": "SmartyMe: How Drawing Works with SmartyMe: Art & Ideas Vault",
       "body": "We make drawing, sketch technique, and visual art easy, intuitive, and actually fun through short, beginner-friendly lessons.",
       "caption": null,
@@ -159,24 +129,9 @@
       "store": true
     },
     {
-      "id": "1557923546137140",
-      "started": "Oct 15, 2026",
-      "versions": 1,
-      "page": "SmartyMe: How Drawing Works",
-      "body": "We make drawing, sketch technique, and visual art easy, intuitive, and actually fun through short, beginner-friendly lessons.",
-      "caption": "SMARTYMEAPP.ONELINK.ME",
-      "headline": "Welcome to How Drawing Works 🎨",
-      "cta": "Learn more",
-      "video": false,
-      "link": "https://smartymeapp.onelink.me/gdRe?pid=metaweb_int&af_siteid={{site_source_name}}&c={{campaign.name}}&af_c_id={{campaign.id}}&af_adset={{adset.name}}&af_adset_id={{adset.id}}&af_ad={{ad.name}}&af_ad_id={{ad.id}}&af_channel={{placement}}&af_cost_model=cpc&clickid={{fbclick}}&af_sub_siteid={{geo}}&af_click_lookback=7d&af_dp=smartymeapp://&deep_link_value=smartyme-a20&af_ios_store_cpp=f696253b-93f9-4531-9ba2-976d8cd6d2fc&af_android_store_csl=draw",
-      "startedISO": "2026-10-15",
-      "key": "smartymeapp.onelink.me/gdRe?deep_link_value=smartyme-a20",
-      "store": true
-    },
-    {
       "id": "1385180340449473",
       "started": "Oct 8, 2026",
-      "versions": 4,
+      "versions": 3,
       "page": "SmartyMe: How Drawing Works with SmartyMe: Art & Ideas Vault",
       "body": "We make drawing, sketch technique, and visual art easy, intuitive, and actually fun through short, beginner-friendly lessons.",
       "caption": null,
@@ -187,21 +142,6 @@
       "startedISO": "2026-10-08",
       "key": "start.smartymeapp.com/quiz",
       "store": false
-    },
-    {
-      "id": "1027576650343016",
-      "started": "Oct 15, 2026",
-      "versions": 1,
-      "page": "SmartyMe: How Drawing Works",
-      "body": "We make drawing, sketch technique, and visual art easy, intuitive, and actually fun through short, beginner-friendly lessons.",
-      "caption": "SMARTYMEAPP.ONELINK.ME",
-      "headline": "Welcome to How Drawing Works 🎨",
-      "cta": "Learn more",
-      "video": false,
-      "link": "https://smartymeapp.onelink.me/gdRe?pid=metaweb_int&af_siteid={{site_source_name}}&c={{campaign.name}}&af_c_id={{campaign.id}}&af_adset={{adset.name}}&af_adset_id={{adset.id}}&af_ad={{ad.name}}&af_ad_id={{ad.id}}&af_channel={{placement}}&af_cost_model=cpc&clickid={{fbclick}}&af_sub_siteid={{geo}}&af_click_lookback=7d&af_dp=smartymeapp://&deep_link_value=smartyme-a20&af_ios_store_cpp=f696253b-93f9-4531-9ba2-976d8cd6d2fc&af_android_store_csl=draw",
-      "startedISO": "2026-10-15",
-      "key": "smartymeapp.onelink.me/gdRe?deep_link_value=smartyme-a20",
-      "store": true
     },
     {
       "id": "1546994130568030",
@@ -264,51 +204,6 @@
       "store": false
     },
     {
-      "id": "1817052252667320",
-      "started": "Oct 15, 2026",
-      "versions": 1,
-      "page": "SmartyMe: How Drawing Works",
-      "body": "We make drawing, sketch technique, and visual art easy, intuitive, and actually fun through short, beginner-friendly lessons.",
-      "caption": "SMARTYMEAPP.ONELINK.ME",
-      "headline": "Welcome to How Drawing Works 🎨",
-      "cta": "Learn more",
-      "video": false,
-      "link": "https://smartymeapp.onelink.me/gdRe?pid=metaweb_int&af_siteid={{site_source_name}}&c={{campaign.name}}&af_c_id={{campaign.id}}&af_adset={{adset.name}}&af_adset_id={{adset.id}}&af_ad={{ad.name}}&af_ad_id={{ad.id}}&af_channel={{placement}}&af_cost_model=cpc&clickid={{fbclick}}&af_sub_siteid={{geo}}&af_click_lookback=7d&af_dp=smartymeapp://&deep_link_value=smartyme-a20&af_ios_store_cpp=f696253b-93f9-4531-9ba2-976d8cd6d2fc&af_android_store_csl=draw",
-      "startedISO": "2026-10-15",
-      "key": "smartymeapp.onelink.me/gdRe?deep_link_value=smartyme-a20",
-      "store": true
-    },
-    {
-      "id": "3201702963367232",
-      "started": "Oct 17, 2026",
-      "versions": 1,
-      "page": "SmartyMe: How Drawing Works",
-      "body": "Replace scrolling with surprisingly addictive drawing lessons! ✏️",
-      "caption": "START.SMARTYMEAPP.COM",
-      "headline": "Drawing Lessons You'll Love 🎨",
-      "cta": "Learn more",
-      "video": false,
-      "link": "https://start.smartymeapp.com/quiz",
-      "startedISO": "2026-10-17",
-      "key": "start.smartymeapp.com/quiz",
-      "store": false
-    },
-    {
-      "id": "1662302012234860",
-      "started": "Oct 15, 2026",
-      "versions": 1,
-      "page": "SmartyMe: How Drawing Works",
-      "body": "We make drawing, sketch technique, and visual art easy, intuitive, and actually fun through short, beginner-friendly lessons.",
-      "caption": "SMARTYMEAPP.ONELINK.ME",
-      "headline": "Welcome to How Drawing Works 🎨",
-      "cta": "Learn more",
-      "video": false,
-      "link": "https://smartymeapp.onelink.me/gdRe?pid=metaweb_int&af_siteid={{site_source_name}}&c={{campaign.name}}&af_c_id={{campaign.id}}&af_adset={{adset.name}}&af_adset_id={{adset.id}}&af_ad={{ad.name}}&af_ad_id={{ad.id}}&af_channel={{placement}}&af_cost_model=cpc&clickid={{fbclick}}&af_sub_siteid={{geo}}&af_click_lookback=7d&af_dp=smartymeapp://&deep_link_value=smartyme-a20&af_ios_store_cpp=f696253b-93f9-4531-9ba2-976d8cd6d2fc&af_android_store_csl=draw",
-      "startedISO": "2026-10-15",
-      "key": "smartymeapp.onelink.me/gdRe?deep_link_value=smartyme-a20",
-      "store": true
-    },
-    {
       "id": "1416947853304323",
       "started": "Oct 17, 2026",
       "versions": 1,
@@ -326,7 +221,7 @@
     {
       "id": "1400024162285028",
       "started": "Oct 8, 2026",
-      "versions": 4,
+      "versions": 3,
       "page": "SmartyMe: How Drawing Works with SmartyMe: Art & Ideas Vault",
       "body": "We make drawing, sketch technique, and visual art easy, intuitive, and actually fun through short, beginner-friendly lessons.",
       "caption": null,
@@ -354,24 +249,9 @@
       "store": true
     },
     {
-      "id": "4713890765602728",
-      "started": "Oct 15, 2026",
-      "versions": 1,
-      "page": "SmartyMe: How Drawing Works",
-      "body": "We make drawing, sketch technique, and visual art easy, intuitive, and actually fun through short, beginner-friendly lessons.",
-      "caption": "SMARTYMEAPP.ONELINK.ME",
-      "headline": "Welcome to How Drawing Works 🎨",
-      "cta": "Learn more",
-      "video": false,
-      "link": "https://smartymeapp.onelink.me/gdRe?pid=metaweb_int&af_siteid={{site_source_name}}&c={{campaign.name}}&af_c_id={{campaign.id}}&af_adset={{adset.name}}&af_adset_id={{adset.id}}&af_ad={{ad.name}}&af_ad_id={{ad.id}}&af_channel={{placement}}&af_cost_model=cpc&clickid={{fbclick}}&af_sub_siteid={{geo}}&af_click_lookback=7d&af_dp=smartymeapp://&deep_link_value=smartyme-a20&af_ios_store_cpp=f696253b-93f9-4531-9ba2-976d8cd6d2fc&af_android_store_csl=draw",
-      "startedISO": "2026-10-15",
-      "key": "smartymeapp.onelink.me/gdRe?deep_link_value=smartyme-a20",
-      "store": true
-    },
-    {
       "id": "1096150756535761",
       "started": "Oct 8, 2026",
-      "versions": 4,
+      "versions": 3,
       "page": "SmartyMe: How Drawing Works with SmartyMe: Art & Ideas Vault",
       "body": "We make drawing, sketch technique, and visual art easy, intuitive, and actually fun through short, beginner-friendly lessons.",
       "caption": null,
@@ -386,7 +266,7 @@
     {
       "id": "1755474425679873",
       "started": "Oct 16, 2026",
-      "versions": 7,
+      "versions": 6,
       "page": "SmartyMe: How Drawing Works",
       "body": "We make drawing, sketch technique, and visual art easy, intuitive, and actually fun through short, beginner-friendly lessons.",
       "caption": null,
@@ -395,6 +275,21 @@
       "video": false,
       "link": "https://smartymeapp.onelink.me/gdRe?pid=metaweb_int&af_siteid={{site_source_name}}&c={{campaign.name}}&af_c_id={{campaign.id}}&af_adset={{adset.name}}&af_adset_id={{adset.id}}&af_ad={{ad.name}}&af_ad_id={{ad.id}}&af_channel={{placement}}&af_cost_model=cpc&clickid={{fbclick}}&af_sub_siteid={{geo}}&af_click_lookback=7d&af_dp=smartymeapp://&deep_link_value=smartyme-a20&af_ios_store_cpp=f696253b-93f9-4531-9ba2-976d8cd6d2fc&af_android_store_csl=draw",
       "startedISO": "2026-10-16",
+      "key": "smartymeapp.onelink.me/gdRe?deep_link_value=smartyme-a20",
+      "store": true
+    },
+    {
+      "id": "1063225453378186",
+      "started": "Oct 15, 2026",
+      "versions": 1,
+      "page": "SmartyMe: How Drawing Works",
+      "body": "We make drawing, sketch technique, and visual art easy, intuitive, and actually fun through short, beginner-friendly lessons.",
+      "caption": "SMARTYMEAPP.ONELINK.ME",
+      "headline": "Welcome to How Drawing Works 🎨",
+      "cta": "Learn more",
+      "video": false,
+      "link": "https://smartymeapp.onelink.me/gdRe?pid=metaweb_int&af_siteid={{site_source_name}}&c={{campaign.name}}&af_c_id={{campaign.id}}&af_adset={{adset.name}}&af_adset_id={{adset.id}}&af_ad={{ad.name}}&af_ad_id={{ad.id}}&af_channel={{placement}}&af_cost_model=cpc&clickid={{fbclick}}&af_sub_siteid={{geo}}&af_click_lookback=7d&af_dp=smartymeapp://&deep_link_value=smartyme-a20&af_ios_store_cpp=f696253b-93f9-4531-9ba2-976d8cd6d2fc&af_android_store_csl=draw",
+      "startedISO": "2026-10-15",
       "key": "smartymeapp.onelink.me/gdRe?deep_link_value=smartyme-a20",
       "store": true
     },
@@ -611,7 +506,7 @@
     {
       "id": "1706774874791246",
       "started": "Oct 9, 2026",
-      "versions": 5,
+      "versions": 6,
       "page": "SmartyMe: Math Games Lab",
       "body": "Vous cherchez des jeux de maths qui ne servent pas juste à tuer le temps ?",
       "caption": null,
@@ -716,7 +611,7 @@
     {
       "id": "1379828137642167",
       "started": "Oct 6, 2026",
-      "versions": 6,
+      "versions": 8,
       "page": "SmartyMe: Electricity Explained",
       "body": "Electricity explains how the world is powered and how it flows. Just 10 minutes a day to train your understanding of energy, circuits, and how the systems around you actually work. ⚡",
       "caption": null,
@@ -731,7 +626,7 @@
     {
       "id": "2441606842913542",
       "started": "Oct 7, 2026",
-      "versions": 17,
+      "versions": 18,
       "page": "SmartyMe: Math Games Lab",
       "body": "Looking for math games that are more than just time killers?",
       "caption": null,
@@ -764,8 +659,8 @@
       "key": "smartymeapp.onelink.me/gdRe?deep_link_value=smartyme-a20",
       "sample": "https://smartymeapp.onelink.me/gdRe?pid=metaweb_int&af_siteid={{site_source_name}}&c={{campaign.name}}&af_c_id={{campaign.id}}&af_adset={{adset.name}}&af_adset_id={{adset.id}}&af_ad={{ad.name}}&af_ad_id={{ad.id}}&af_channel={{placement}}&af_cost_model=cpc&clickid={{fbclick}}&af_sub_siteid={{geo}}&af_click_lookback=7d&af_dp=smartymeapp://&deep_link_value=smartyme-a20&af_ios_store_cpp=f696253b-93f9-4531-9ba2-976d8cd6d2fc&af_android_store_csl=draw",
       "store": true,
-      "ads": 35,
-      "creatives": 18,
+      "ads": 26,
+      "creatives": 12,
       "first": "2026-10-15",
       "last": "2026-10-18",
       "adIds": [
@@ -774,19 +669,13 @@
         "4603174806577643",
         "1132146662582333",
         "2100948037067557",
-        "1417017610563333",
-        "2174519256792413",
         "1368906701787909",
-        "1557923546137140",
-        "1027576650343016",
         "1546994130568030",
         "1781861656420696",
-        "1817052252667320",
-        "1662302012234860",
         "1416947853304323",
         "1097185773293956",
-        "4713890765602728",
-        "1755474425679873"
+        "1755474425679873",
+        "1063225453378186"
       ],
       "shot": "smartyme-e19d9d6703db.webp",
       "shotAd": "1368906701787909"
@@ -795,16 +684,15 @@
       "key": "start.smartymeapp.com/quiz",
       "sample": "https://start.smartymeapp.com/quiz",
       "store": false,
-      "ads": 147,
-      "creatives": 31,
+      "ads": 146,
+      "creatives": 30,
       "first": "2026-09-10",
-      "last": "2026-10-17",
+      "last": "2026-10-16",
       "adIds": [
         "1629767522149906",
         "1385180340449473",
         "1037037946018552",
         "1667611708299625",
-        "3201702963367232",
         "1400024162285028",
         "1096150756535761",
         "1119242650536952",
@@ -833,7 +721,7 @@
         "1452222353478134"
       ],
       "shot": "smartyme-5353a564ba54.webp",
-      "shotAd": "3201702963367232"
+      "shotAd": "1037037946018552"
     }
   },
   "pageIds": {
@@ -852,8 +740,8 @@
     "SmartyMe: WealthWise Hub": "944173835440294",
     "SmartyMe: Electricity Explained": "769959229539791"
   },
-  "activeEstimate": 124,
-  "parsedCreatives": 49,
-  "newInWindow": 61,
-  "newCreativesInWindow": 26
+  "activeEstimate": 109,
+  "parsedCreatives": 42,
+  "newInWindow": 51,
+  "newCreativesInWindow": 19
 }

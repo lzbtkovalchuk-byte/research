@@ -3763,90 +3763,104 @@
         }
       ],
       "funnels": {
-        "join-sing.hellosimply.com/welcome?campaign_type=web_to_app&platform=iOS": {
-          "firstRun": false,
-          "comparedWith": "join-sing.hellosimply.com/welcome?campaign_type=web_to_app&platform=iOS",
-          "prevDir": "funnels/simply-sing/6f241d946bf3",
-          "prevSteps": 1,
+        "welcome.hellosimply.com/singyourheartout?campaign_type=web_to_app&platform=iOS": {
+          "firstRun": true,
           "status": [
             {
-              "s": "same",
-              "prev": 1,
-              "why": "",
-              "prevFile": "01.webp"
-            }
-          ],
-          "removed": []
-        },
-        "join-sing.hellosimply.com/start": {
-          "firstRun": false,
-          "comparedWith": "join-sing.hellosimply.com/start",
-          "prevDir": "funnels/simply-sing/228524b7bc31",
-          "prevSteps": 7,
-          "status": [
-            {
-              "s": "same",
-              "prev": 1,
-              "why": "",
-              "prevFile": "01.webp"
+              "s": "baseline"
             },
             {
-              "s": "same",
-              "prev": 2,
-              "why": "",
-              "prevFile": "02.webp"
+              "s": "baseline"
             },
             {
-              "s": "changed",
-              "prev": 3,
-              "why": "text",
-              "prevFile": "03.webp",
-              "boxes": [
-                {
-                  "t": 29.18,
-                  "l": 28.46,
-                  "w": 54.62,
-                  "h": 5.69
-                }
-              ]
+              "s": "baseline"
             },
             {
-              "s": "same",
-              "prev": 4,
-              "why": "",
-              "prevFile": "04.webp"
+              "s": "baseline"
             },
             {
-              "s": "changed",
-              "prev": 5,
-              "why": "text",
-              "prevFile": "05.webp",
-              "boxes": [
-                {
-                  "t": 9.07,
-                  "l": 47.69,
-                  "w": 43.08,
-                  "h": 7.37
-                },
-                {
-                  "t": 71.39,
-                  "l": 24.62,
-                  "w": 39.23,
-                  "h": 9.07
-                }
-              ]
+              "s": "baseline"
             },
             {
-              "s": "same",
-              "prev": 6,
-              "why": "",
-              "prevFile": "06.webp"
+              "s": "baseline"
             },
             {
-              "s": "same",
-              "prev": 7,
-              "why": "",
-              "prevFile": "07.webp"
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
             }
           ],
           "removed": []
@@ -3960,17 +3974,17 @@
     },
     "smartyme": {
       "ads": {
-        "active": 124,
+        "active": 109,
         "prevActive": 200,
-        "delta": -76,
-        "newInWindow": 61,
-        "newCreatives": 26
+        "delta": -91,
+        "newInWindow": 51,
+        "newCreatives": 19
       },
       "links": [
         {
           "status": "same",
           "key": "smartymeapp.onelink.me/gdRe?deep_link_value=smartyme-a20",
-          "ads": 35,
+          "ads": 26,
           "prevAds": 21,
           "first": "2026-10-15",
           "store": true
@@ -3978,7 +3992,7 @@
         {
           "status": "same",
           "key": "start.smartymeapp.com/quiz",
-          "ads": 147,
+          "ads": 146,
           "prevAds": 171,
           "first": "2026-09-10",
           "store": false
@@ -4260,34 +4274,41 @@
               "prev": 45,
               "why": "text",
               "prevFile": "45.webp"
+            },
+            {
+              "s": "same",
+              "prev": 46,
+              "why": "text",
+              "prevFile": "46.webp"
+            },
+            {
+              "s": "same",
+              "prev": 47,
+              "why": "text",
+              "prevFile": "47.webp"
+            },
+            {
+              "s": "same",
+              "prev": 48,
+              "why": "text",
+              "prevFile": "48.webp"
+            },
+            {
+              "s": "changed",
+              "prev": 49,
+              "why": "text",
+              "prevFile": "49.webp",
+              "boxes": [
+                {
+                  "t": 18.34,
+                  "l": 24.62,
+                  "w": 54.62,
+                  "h": 1.17
+                }
+              ]
             }
           ],
-          "removed": [
-            {
-              "n": 46,
-              "title": "What's your name?",
-              "kind": "info",
-              "file": "46.webp"
-            },
-            {
-              "n": 47,
-              "title": "Your personalized communication plan is ready!",
-              "kind": "info",
-              "file": "47.webp"
-            },
-            {
-              "n": 48,
-              "title": "Transform your life!",
-              "kind": "info",
-              "file": "48.webp"
-            },
-            {
-              "n": 49,
-              "title": "Your Small Talk Communication plan is ready!",
-              "kind": "paywall",
-              "file": "49.webp"
-            }
-          ]
+          "removed": []
         }
       }
     },

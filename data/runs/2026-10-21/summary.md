@@ -15,7 +15,7 @@ screenshot paths to open (previous → current). Open only those.
 | Copymind | vocal+drawing | GB | 0 | 0 | 0 |
 | Simply Sing | vocal | US | 83 | -27 | 1 |
 | Yousician | vocal | US | 19 | 3 | 8 |
-| SmartyMe | drawing | US | 124 | -76 | 61 |
+| SmartyMe | drawing | US | 109 | -91 | 51 |
 | Simply Draw | drawing | US | 9 | 3 | 3 |
 
 ## Link changes
@@ -214,14 +214,9 @@ steps=36 stop=paywall email@35 paywall@36 popups=0 prices=$9.99 $39.99 $19.99 $7
 - [REMOVED] previous screen 37 question "Verify your email": data/runs/2026-10-13/funnels/copymind/2162dca161b4/37.webp
 - [REMOVED] previous screen 38 paywall "09": data/runs/2026-10-13/funnels/copymind/2162dca161b4/38.webp
 
-### simply-sing — Simply Sing [vocal] — join-sing.hellosimply.com/welcome?campaign_type=web_to_app&platform=iOS
-steps=1 stop=stuck email@— paywall@— popups=0 prices=— discount=— timer=false trial=false moneyBack=false
-no screen changes
-
-### simply-sing — Simply Sing [vocal] — join-sing.hellosimply.com/start
-steps=7 stop=stuck email@— paywall@— popups=0 prices=— discount=— timer=false trial=false moneyBack=false
-- [CHANGED] screen 3 question "Why do you sing?" (1 changed regions): data/runs/2026-10-13/funnels/simply-sing/228524b7bc31/03.webp → data/runs/2026-10-21/funnels/simply-sing/228524b7bc31/03.webp
-- [CHANGED] screen 5 question "What kinds of songs do you like to sing?" (2 changed regions): data/runs/2026-10-13/funnels/simply-sing/228524b7bc31/05.webp → data/runs/2026-10-21/funnels/simply-sing/228524b7bc31/05.webp
+### simply-sing — Simply Sing [vocal] — welcome.hellosimply.com/singyourheartout?campaign_type=web_to_app&platform=iOS
+steps=32 stop=paywall email@29 paywall@32 popups=1 prices=$17.49 $34.99 $209.90 $14.16 $24.99 $169.90 discount=50 timer=true trial=true moneyBack=false
+first capture of this funnel (no comparison)
 
 ### yousician — Yousician [vocal] — yousician.com/
 steps=9 stop=paywall email@— paywall@9 popups=0 prices=$13.33 $159.99 discount=50 timer=false trial=true moneyBack=false
@@ -230,11 +225,8 @@ steps=9 stop=paywall email@— paywall@9 popups=0 prices=$13.33 $159.99 discount
 - [NEW] screen 9 paywall "Start your 7-day free trial": data/runs/2026-10-21/funnels/yousician/1c0c131f25e6/09.webp
 
 ### smartyme — SmartyMe [drawing] — start.smartymeapp.com/quiz
-steps=45 stop=timeout email@44 paywall@— popups=0 prices=— discount=— timer=false trial=false moneyBack=false
-- [REMOVED] previous screen 46 info "What's your name?": data/runs/2026-10-13/funnels/smartyme/5353a564ba54/46.webp
-- [REMOVED] previous screen 47 info "Your personalized communication plan is ready!": data/runs/2026-10-13/funnels/smartyme/5353a564ba54/47.webp
-- [REMOVED] previous screen 48 info "Transform your life!": data/runs/2026-10-13/funnels/smartyme/5353a564ba54/48.webp
-- [REMOVED] previous screen 49 paywall "Your Small Talk Communication plan is ready!": data/runs/2026-10-13/funnels/smartyme/5353a564ba54/49.webp
+steps=49 stop=paywall email@44 paywall@49 popups=0 prices=$31.99 $79.99 $15.19 $38.99 $47.99 $119.99 discount=60 timer=true trial=false moneyBack=true
+- [CHANGED] screen 49 paywall "Your Small Talk Communication plan is ready!" (1 changed regions): data/runs/2026-10-13/funnels/smartyme/5353a564ba54/49.webp → data/runs/2026-10-21/funnels/smartyme/5353a564ba54/49.webp
 
 ### simply-draw — Simply Draw [drawing] — join-draw.hellosimply.com/start?flow=baw
 steps=3 stop=paywall email@2 paywall@3 popups=0 prices=$89.99 $7.50 $15.00 $14.99 discount=50 timer=false trial=true moneyBack=false

@@ -1,33 +1,5 @@
 [
   {
-    "id": "imprint",
-    "active": 740,
-    "newInWindow": 0,
-    "landings": 4,
-    "errors": 0
-  },
-  {
-    "id": "breeze",
-    "active": 30,
-    "newInWindow": 0,
-    "landings": 2,
-    "errors": 0
-  },
-  {
-    "id": "memoryos",
-    "active": 3,
-    "newInWindow": 3,
-    "landings": 3,
-    "errors": 0
-  },
-  {
-    "id": "chillio",
-    "active": 20,
-    "newInWindow": 3,
-    "landings": 2,
-    "errors": 0
-  },
-  {
     "id": "simply-sing",
     "active": 83,
     "newInWindow": 1,
@@ -35,16 +7,9 @@
     "errors": 0
   },
   {
-    "id": "yousician",
-    "active": 19,
-    "newInWindow": 8,
-    "landings": 2,
-    "errors": 0
-  },
-  {
     "id": "smartyme",
-    "active": 124,
-    "newInWindow": 61,
+    "active": 109,
+    "newInWindow": 51,
     "landings": 2,
     "errors": 0
   }
