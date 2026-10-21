@@ -1080,14 +1080,26 @@
  ],
  "ideas": [
   {
-   "title": "Test the funnel without the email code.",
-   "detail": "Let Vocal 2.0 and Drawing go from email straight to the paywall, without the verification code. It should move Email → Paywall (19–25% there now).",
+   "title": "Test going from email straight to the paywall in Vocal 2.0 and Drawing, without the code.",
+   "detail": "It should move Email → Paywall (19–25% there now).",
    "seen_in": "Copymind dropped “Verify your email”"
   },
   {
-   "title": "Test an auto-applied promo code on the paywall.",
-   "detail": "Show “Your promo code applied!” with a 10-minute timer above the plans. It should move Paywall → Purchase.",
-   "seen_in": "Copymind paywall; Imprint and Chillio do the same"
+   "title": "Show an auto-applied promo code with a 10-minute timer on the paywall.",
+   "detail": "It should move Paywall → Purchase.",
+   "seen_in": "Copymind; Imprint and Chillio do the same"
+  },
+  {
+   "title": "Reframe the Vocal 2.0 and Drawing email gate as \"Your results are ready\" with a blurred preview.",
+   "detail": "It should move Loader → Email (12–13% vs 35% in Scanner).",
+   "seen_in": "Skillsta Vocal Scanner"
   }
+ ],
+ "findings": [
+  "All 3 Skillsta funnels still have an email-code screen before the paywall. Copymind, the only competitor that had one, removed it this run.",
+  "Loader → Email is weakest in Vocal 2.0 and Drawing (12–13% vs 35% in Scanner, which frames email as \"your results are ready\").",
+  "Email → Paywall: 99% in Scanner but 19–25% in Vocal 2.0 and Drawing. Worth investigating.",
+  "Auto-applied promo codes with a countdown are spreading: Copymind added one this run; Imprint (SUMMER2026) and Chillio (scratch card) already do it.",
+  "Vocal Scanner starts tripled (13,481 vs 4,581), so read its conversion changes with care."
  ]
 }

@@ -56,6 +56,7 @@ the changed screens, and writes one small JSON file, so it stays cheap. Do not b
       ]
     }
   ],
+  "findings": ["3–5 one-line key findings for the Slack message: Skillsta funnel numbers next to what competitors do."],
   "ideas": [
     { "title": "Short imperative title.", "detail": "What to test in the Skillsta funnel and which step it should move.", "seen_in": "Breeze paywall" }
   ]
