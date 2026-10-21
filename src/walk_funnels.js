@@ -242,10 +242,23 @@ async function restoreScroller(page) {
 /** Full-page screenshot (webp, 390 px wide). The visual hash uses only the first screen (390×844),
  *  so a longer capture alone never counts as a change. Returns { dhash, h } with h = image height. */
 async function shot(page, file) {
+  // Keep the page at phone scale: without minimum-scale the mobile browser zooms out to fit content
+  // parked beside the screen (slide-in quizzes), which makes the shot tiny and very tall.
+  const rescaled = await page.evaluate(() => {
+    if (innerWidth <= 400) return false;
+    let m = document.querySelector('meta[name=viewport]');
+    if (!m) { m = document.createElement('meta'); m.name = 'viewport'; document.head.appendChild(m); }
+    m.content = 'width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1';
+    return true;
+  }).catch(() => false);
+  if (rescaled) await sleep(400);
   const expanded = await expandScroller(page);
   if (expanded) await sleep(300);
   let buf;
-  try { buf = await page.screenshot({ type: 'png', fullPage: true, timeout: 20000 }); }
+  // Clip to the phone width: slide-in quizzes park other screens beside the current one, which would
+  // otherwise widen the full-page shot and shrink everything when it is scaled back to 390 px.
+  const docH = await page.evaluate(() => Math.max(document.documentElement.scrollHeight, document.body?.scrollHeight || 0, innerHeight)).catch(() => 844);
+  try { buf = await page.screenshot({ type: 'png', fullPage: true, clip: { x: 0, y: 0, width: 390, height: Math.min(docH, MAX_SHOT_H) }, timeout: 20000 }); }
   catch { buf = await page.screenshot({ type: 'png' }); }
   finally { if (expanded) await restoreScroller(page); }
   const meta = await sharp(buf).metadata();
