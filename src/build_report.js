@@ -178,7 +178,7 @@ const html = `<!doctype html>
 <p>Vocal and drawing competitors, ${fmtLong(date)}${diff.previous ? ` compared with ${fmtLong(diff.previous)}` : ' (baseline run)'}. Only what moved since the last run is shown; full funnels for every run stay in the repo.</p>
 <p class="headline">${esc(A.headline || autoHeadline)}</p></header>
 <div class="bar" role="toolbar" aria-label="Filter by topic"><button type="button" data-f="all" aria-pressed="true">All</button><button type="button" data-f="vocal" aria-pressed="false">Vocal</button><button type="button" data-f="drawing" aria-pressed="false">Drawing</button>
-<nav aria-label="Sections"><a href="#changed">What changed</a><a href="#screens">Screens</a><a href="#ads">Ads</a><a href="#links">Links</a><a href="#skillsta">Skillsta</a><a href="#coverage">Coverage</a></nav></div>
+<nav aria-label="Sections"><a href="#changed">What changed</a><a href="#screens">Screens</a><a href="#ads">Ads</a><a href="#links">Links</a><a href="#skillsta">Skillsta</a>${cov.length ? '<a href="#coverage">Coverage</a>' : ''}</nav></div>
 <section id="changed"><h2>What changed</h2><div class="wcbox">${wcHTML}</div>
 <div class="legend"><span>Funnel screens changed</span><span class="minor">Links or ads changed</span></div></section>
 <section id="screens"><h2>Changed screens</h2><p class="sub">Previous on the left, current on the right. Yellow boxes mark what changed; tap a screen to enlarge.</p>${screensHTML}</section>
@@ -187,7 +187,7 @@ const html = `<!doctype html>
 <section id="links"><h2>Funnel link changes</h2><p class="sub">Only new, changed or removed links. Tracking parameters are ignored.</p>${linksHTML}</section>
 <section id="skillsta"><h2>Skillsta funnels</h2>${ampHTML}<div class="wcbox" style="margin-top:14px">${skWC}</div></section>
 ${ideas ? `<section id="ideas"><h2>Ideas from this update</h2><div class="hyp"><ol>${ideas}</ol></div></section>` : ''}
-<section id="coverage"><h2>Coverage</h2><p class="sub">Funnels where the capture didn’t reach the paywall this run.</p><div class="cov" style="display:block">${covHTML}</div>${signupHTML}</section>
+${cov.length || signups.length ? `<section id="coverage"><h2>${cov.length ? 'Coverage' : 'Test accounts'}</h2>${cov.length ? `<p class="sub">Funnels where the capture didn’t reach the paywall this run.</p><div class="cov" style="display:block">${covHTML}</div>` : ''}${signupHTML}</section>` : ''}
 <footer>Full funnels: <code>data/runs/${date}/</code>${diff.previous ? ` and <code>data/runs/${diff.previous}/</code>` : ''}. Funnels are walked automatically on a 390×844 phone screen with fixed neutral answers and a test email; nothing is bought.</footer>
 </div>
 <dialog id="zoom"><img alt=""><p></p></dialog>
