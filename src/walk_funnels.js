@@ -25,8 +25,18 @@ const SIGNUP_BTN = /^(sign ?up|create (my |an |your )?account|register|join( now
 function emailFor(app, idx) {
   const m = BASE_EMAIL.match(/^([^@+]+)(?:\+[^@]*)?@(.+)$/);
   if (!m || S.plus_address === false) return BASE_EMAIL;
-  const d = path.basename(RUN).replace(/-/g, '').slice(2); // YYMMDD
-  return `${m[1]}+fw${d}${app.id.replace(/[^a-z0-9]/gi, '').toLowerCase()}${idx + 1}@${m[2]}`;
+  return `${m[1]}+fw${RUN_TAG}${app.id.replace(/[^a-z0-9]/gi, '').toLowerCase()}${idx + 1}@${m[2]}`;
+}
+// YYMMDD + start time (HHMM UTC), so a rerun on the same day never reuses an address that already has an account.
+const RUN_TAG = path.basename(RUN).replace(/-/g, '').slice(2) + new Date().toISOString().slice(11, 16).replace(':', '');
+/** Gmail ignores dots: a dotted variant of the base address, for funnels that reject "+" (unique per funnel). */
+function dottedFor(app, idx) {
+  const m = BASE_EMAIL.match(/^([^@+]+)(?:\+[^@]*)?@(.+)$/); if (!m) return BASE_EMAIL;
+  const local = m[1].replace(/\./g, ''); let h = 0; for (const c of app.id + idx + RUN_TAG) h = (h * 31 + c.charCodeAt(0)) >>> 0;
+  const a = 1 + (h % (local.length - 2)), b = 1 + ((h >>> 8) % (local.length - 2));
+  const pos = [...new Set([a, b])].sort((x, y) => y - x);
+  let out = local; for (const p of pos) out = out.slice(0, p) + '.' + out.slice(p);
+  return `${out}@${m[2]}`;
 }
 const NAME = S.test_name || 'Alex';
 const MAX_STEPS = S.max_steps || 90;
@@ -275,6 +285,9 @@ async function findPopup(page) {
         || ctrls.find(c => CLOSE.test((c.innerText || c.textContent || '').trim()))
         || ctrls.find(c => { const r = c.getBoundingClientRect(); return ['BUTTON'].includes(c.tagName) && !(c.innerText || '').trim() && r.width < 64 && r.top < er.top + er.height * 0.3 && r.left > er.left + er.width * 0.6; });
       const isDialog = el.matches('[role=dialog],[role=alertdialog],[aria-modal=true],dialog');
+      // A bottom sheet asking a question with answer buttons is a quiz step, not a popup: answer it normally.
+      const answers = ctrls.filter(c => (c.tagName === 'BUTTON' || c.getAttribute('role') === 'button' || c.getAttribute('role') === 'radio') && (c.innerText || '').trim() && !CLOSE.test((c.innerText || '').trim()));
+      if (/\?/.test(text) && answers.length >= 2) continue;
       if (!closeEl && !isDialog) continue;
       if (closeEl) (closeEl.closest('button,[role=button],a') || closeEl).setAttribute('data-cfw-close', '1');
       el.setAttribute('data-cfw-pop', '1');
@@ -358,7 +371,8 @@ async function emailError(page) {
 }
 
 async function walk(browser, app, entry, dir, idx = 0, ctl = {}) {
-  const EMAIL = emailFor(app, idx);
+  let EMAIL = emailFor(app, idx);
+  let restartUrl = null, triedDots = false;
   const proxy = proxyFor(app.geo);
   const ctx = await browser.newContext({
     permissions: ['microphone', 'camera'],
@@ -422,6 +436,7 @@ async function walk(browser, app, entry, dir, idx = 0, ctl = {}) {
           (steps.length > 8 && (early.has(steps[n - 1].path) || steps[n - 1].path === '/') && !early.has(steps[n - 2].path)) ||
           (steps[n - 1].textHash === firstText && steps.slice(0, -1).some(x => x.kind === 'email')));
         if (backToStart) {
+          restartUrl = steps[n - 1].url;
           try { fs.unlinkSync(path.join(dir, file)); } catch {}
           steps.pop();
           stop = steps.some(x => x.kind === 'email') ? 'email_loop' : 'looped_to_start';
@@ -575,7 +590,17 @@ async function walk(browser, app, entry, dir, idx = 0, ctl = {}) {
           await sleep(800);
           const flashed = await page.evaluate(() => window.__cfwErr || null).catch(() => null);
           if (flashed) emailNote = flashed;
-          const err = await emailError(page) || (flashed && await page.evaluate(() => !!document.querySelector('input[type=email],input[name*=mail i],input[placeholder*=mail i]')).catch(() => false) ? flashed : null);
+          let err = await emailError(page) || (flashed && await page.evaluate(() => !!document.querySelector('input[type=email],input[name*=mail i],input[placeholder*=mail i]')).catch(() => false) ? flashed : null);
+          if (err && /valid/i.test(err) && EMAIL.includes('+') && !triedDots) {
+            // The funnel rejects "+" addresses: retry with a dotted variant (Gmail delivers it to the same inbox).
+            triedDots = true; EMAIL = dottedFor(app, idx); act.email = EMAIL;
+            log(app.id, 'plus-address rejected, retrying with', EMAIL);
+            const box = page.locator('input[type=email],input[name*=mail i],input[placeholder*=mail i]').first();
+            await box.fill('').catch(() => {}); await box.fill(EMAIL).catch(() => {});
+            await sleep(400); await pressCTA(await inspect(page)); await sleep(1500);
+            emailAt = Date.now() - 5000;
+            err = await emailError(page);
+          }
           if (err) { emailNote = err; if (steps.length) { steps[steps.length - 1].action = act; steps[steps.length - 1].emailError = err; } stop = 'email_rejected'; break; }
         }
       }
@@ -603,7 +628,8 @@ async function walk(browser, app, entry, dir, idx = 0, ctl = {}) {
       if (!(await changed())) {
         // Loader or animated screen: wait for it to move on by itself.
         let moved = false;
-        for (let w = 0; w < 25 && !moved; w++) { await sleep(1000); moved = await changed(); }
+        const blank = !(await page.evaluate(() => (document.body?.innerText || '').trim().length).catch(() => 0));
+        for (let w = 0; w < (blank ? 75 : 25) && !moved; w++) { await sleep(1000); moved = await changed(); }
         if (!moved) {
           // Last resort: try each answer and button on the screen until one moves the funnel forward.
           const st = await inspect(page);
@@ -641,7 +667,7 @@ async function walk(browser, app, entry, dir, idx = 0, ctl = {}) {
     } catch {}
   }
   await ctx.close().catch(() => {});
-  return { steps, stop, proxied: !!proxy, email: EMAIL, emailNote, signedUp };
+  return { steps, stop, proxied: !!proxy, email: EMAIL, emailNote, signedUp, restartUrl, finalUrl: page.url?.() || null };
 }
 
 /** Structural features used for the Skillsta comparison table (no AI needed). */
@@ -701,7 +727,7 @@ async function main() {
       const t0 = Date.now();
       const r = await walk(await browserFor(app), app, e.url, fdir, ei, ctl).catch(err => ({ steps: [], stop: 'error: ' + String(err.message || err).slice(0, 160), proxied: false, email: null }));
       clearTimeout(timer);
-      const f = { ...e, dir: path.relative(RUN, fdir), stop: r.stop, proxied: r.proxied, email: r.email, emailNote: r.emailNote, signedUp: r.signedUp || null, steps: r.steps, features: features(r.steps, r.stop) };
+      const f = { ...e, dir: path.relative(RUN, fdir), stop: r.stop, proxied: r.proxied, email: r.email, emailNote: r.emailNote, signedUp: r.signedUp || null, restartUrl: r.restartUrl || null, finalUrl: r.finalUrl || null, steps: r.steps, features: features(r.steps, r.stop) };
       writeJSON(path.join(fdir, 'steps.json'), f);
       index.funnels.push({ key: e.key, dir: f.dir, stop: r.stop, steps: r.steps.length, why: e.why, ads: e.ads });
       log('✓', app.id, `${r.steps.length} screens, stop=${r.stop}, ${Math.round((Date.now() - t0) / 1000)}s${r.emailNote ? ` (email step: ${r.emailNote})` : ''}`);

@@ -71,8 +71,9 @@ function changes(app, f) {
   const label = it => `${KIND[(it.cur || it.prev).kind] || 'Screen'}, step ${(it.cur || it.prev).n}`;
   const cards = items.slice(0, MAX_CARDS).map(it => {
     const n = noteFor(app.id, f.key, (it.cur || it.prev).n, it.type === 'Removed');
-    const title = n?.title || ({ Changed: `“${(it.cur.title || '').slice(0, 70)}” changed`, Replaced: `New screen “${(it.cur.title || '').slice(0, 50)}” replaces “${(it.prev.title || '').slice(0, 50)}”`, New: `New screen: “${(it.cur.title || '').slice(0, 70)}”`, Removed: `Screen removed: “${(it.prev.title || '').slice(0, 70)}”`, Popup: `Popup: “${(it.cur.title || '').slice(0, 70)}”` })[it.type];
-    const notes = n?.notes?.length ? n.notes : [({ Changed: 'Changed areas are boxed in yellow.', Replaced: 'The screen at this point of the funnel is different.', New: 'This screen was not in the previous run.', Removed: 'This screen is no longer in the funnel.', Popup: `Closed automatically (${it.cur.closed || 'closed'}) and the screen behind it was captured.` })[it.type]];
+    const tt = s => (s?.title || 'untitled screen').slice(0, 70);
+    const title = n?.title || ({ Changed: () => `“${tt(it.cur)}” changed`, Replaced: () => `New screen “${tt(it.cur)}” replaces “${tt(it.prev)}”`, New: () => `New screen: “${tt(it.cur)}”`, Removed: () => `Screen removed: “${tt(it.prev)}”`, Popup: () => `Popup: “${tt(it.cur)}”` })[it.type]();
+    const notes = n?.notes?.length ? n.notes : [({ Changed: () => 'Changed areas are boxed in yellow.', Replaced: () => 'The screen at this point of the funnel is different.', New: () => 'This screen was not in the previous run.', Removed: () => 'This screen is no longer in the funnel.', Popup: () => `Closed automatically (${it.cur?.closed || 'closed'}) and the screen behind it was captured.` })[it.type]()];
     const cap = (s, when) => `${app.name} · ${when} · ${s.n}. ${s.title || ''}`;
     let pair;
     if (it.type === 'Popup') pair = `<div class="pair">${phone(path.join(curDir, it.cur.file), cap(it.cur, 'popup'), 'cur', 'Popup', [], it.cur.h)}${it.behind ? phone(path.join(curDir, it.behind.file), cap(it.behind, 'behind the popup'), 'prev', 'Behind the popup', [], it.behind.h) : ''}</div>`;
@@ -162,7 +163,7 @@ const ideas = (A.ideas || []).map(h => typeof h === 'string' ? `<li>${esc(h)}</l
 const cov = perApp.flatMap(p => p.noPaywall.map(f => {
   const last = f.steps[f.steps.length - 1];
   const src = last && img(path.join(RUN, f.dir, last.file));
-  return `<li data-topic="${topicOf(p.app)}">${src ? `<div class="frame"><div class="canvas"><img src="${src}" alt="${esc(last.title || '')}" data-cap="${esc(p.app.name)} · where the walk stopped: ${last.n}. ${esc(last.title || '')}"></div></div>` : '<span></span>'}<div><p><b>${esc(p.app.name)}</b>: ${esc(stopText(f))}${f.emailNote ? `. The email step said: “${esc(f.emailNote)}”` : ''}.</p><p class="why">${esc(short(f.key))}${last ? ` · stopped at step ${last.n}, “${esc((last.title || '').slice(0, 60))}”` : ''}</p></div></li>`;
+  return `<li data-topic="${topicOf(p.app)}">${src ? `<div class="frame"><div class="canvas"><img src="${src}" alt="${esc(last.title || '')}" data-cap="${esc(p.app.name)} · where the walk stopped: ${last.n}. ${esc(last.title || '')}"></div></div>` : '<span></span>'}<div><p><b>${esc(p.app.name)}</b>: ${esc(stopText(f))}${f.emailNote ? `. The email step said: “${esc(f.emailNote)}”` : ''}${f.restartUrl ? `. It went back to ${esc(f.restartUrl.replace(/^https?:\/\//, '').slice(0, 70))}` : ''}.</p><p class="why">${esc(short(f.key))}${last ? ` · stopped at step ${last.n}, “${esc((last.title || '').slice(0, 60))}”` : ''}</p></div></li>`;
 }));
 const signups = perApp.flatMap(p => p.list.filter(f => f.signedUp).map(f => `<li><b>${esc(p.app.name)}</b>: ${esc(f.signedUp)}</li>`));
 const signupHTML = signups.length ? `<div class="hyp" style="margin-top:14px"><p class="who" style="margin:0 0 8px;font-weight:600">Test accounts created this run</p><ul style="margin:0;padding-left:18px">${signups.join('')}</ul><p class="why" style="margin:8px 0 0">Password: the TEST_ACCOUNT_PASSWORD secret.</p></div>` : '';
