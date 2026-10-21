@@ -1,0 +1,25 @@
+{
+  "id": "memoryos",
+  "name": "MemoryOS",
+  "geo": "US",
+  "skillsta": false,
+  "storeOnly": false,
+  "funnels": [
+    {
+      "key": "start.memoryos.com/new-h2?thm=light",
+      "dir": "funnels/memoryos/7488926e110a",
+      "stop": "email_rejected",
+      "steps": 32,
+      "why": "ad",
+      "ads": 1
+    },
+    {
+      "key": "start.memoryos.com/new-s",
+      "dir": "funnels/memoryos/8df162c3ae21",
+      "stop": "email_rejected",
+      "steps": 32,
+      "why": "ad",
+      "ads": 1
+    }
+  ]
+}

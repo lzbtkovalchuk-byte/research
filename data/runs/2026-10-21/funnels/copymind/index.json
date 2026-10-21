@@ -1,0 +1,17 @@
+{
+  "id": "copymind",
+  "name": "Copymind",
+  "geo": "GB",
+  "skillsta": false,
+  "storeOnly": false,
+  "funnels": [
+    {
+      "key": "app.copymind.me/welcome-quiz/gender",
+      "dir": "funnels/copymind/2162dca161b4",
+      "stop": "paywall",
+      "steps": 36,
+      "why": "seed",
+      "ads": 0
+    }
+  ]
+}

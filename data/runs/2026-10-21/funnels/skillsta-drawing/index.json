@@ -1,0 +1,17 @@
+{
+  "id": "skillsta-drawing",
+  "name": "Skillsta · Drawing funnel",
+  "geo": "US",
+  "skillsta": true,
+  "storeOnly": null,
+  "funnels": [
+    {
+      "key": "start.getskillnow.com/quiz",
+      "dir": "funnels/skillsta-drawing/953d129ce40c",
+      "stop": "email_loop",
+      "steps": 35,
+      "why": "seed",
+      "ads": 0
+    }
+  ]
+}

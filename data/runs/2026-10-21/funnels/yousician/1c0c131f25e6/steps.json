@@ -1,0 +1,63 @@
+{
+  "url": "https://yousician.com/?utm_source=facebook",
+  "key": "yousician.com/",
+  "why": "seed",
+  "ads": 0,
+  "adShot": null,
+  "adId": null,
+  "dir": "funnels/yousician/1c0c131f25e6",
+  "stop": "account_creation",
+  "proxied": false,
+  "email": "yelyzavetabazyla+fw261021yousician1@gmail.com",
+  "emailNote": null,
+  "signedUp": null,
+  "steps": [
+    {
+      "n": 1,
+      "file": "01.webp",
+      "url": "https://yousician.com/?utm_source=facebook",
+      "path": "/",
+      "title": "Unleash your inner musician with Yousician",
+      "kind": "paywall",
+      "text": "Instruments\nBlog\nFamily plan\nHelp\nLanguages\nLog in\nLet's get started\nUnleash your inner musician with Yousician\nThe first step of learning to play an instrument? Wanting to play. Explore your love of music with us, whether you’re a complete beginner or a seasoned pro. Let’s play!\nLet’s get started\nGuitar\nPiano\nBass\nUkulele\nSinging\nFUN & EASY\nLearn to play music at home, at your own pace\nYousician makes learning to play an instrument fun and easy, no matter your skill level.\nFollow lesson plans created by real music teachers, learn fast with interactive tutorials, and stay motivated with goals and progress tracking.\nOur award-winning technology listens to you play and gives instant feedback on your accuracy and timing. You always know when you’re hitting the right notes.\n20M+\nYousician and GuitarTuna monthly active users\n17 min\nAverage session length\n2000+\nNumber of songs\n9000+\nNumber of lessons\n\"Yousician raises $28M to make music education more accessible\"\nRead more\n\"Want Guitar Lessons From Metallica? Music education platform Yousician is launching its first-ever artist partnership series with lessons by Metallica, Jason Mraz and Juanes.\"\nRead more\n\"It’s All In The Game—Growing A $50 Million Music Education Business In A Crowded Market\"\nRead more\nPLAY\nFun, easy-to-follow lessons\nPlay along with the app and get instant feedback on your precision and timing. Earn rewards, beat high scores, and level up as you learn new skills.\nLEARN\nPersonal learning path\nLearn the right skil",
+      "textHash": "39417121fc0b",
+      "dhash": "1000000110100001110101101100000010100000100010001100010010111010",
+      "h": 6000,
+      "prices": [
+        "$28",
+        "$50"
+      ],
+      "action": {
+        "opt": "Let’s get started"
+      }
+    },
+    {
+      "n": 2,
+      "file": "02.webp",
+      "url": "https://account.yousician.com/login?continue=%2F",
+      "path": "/login",
+      "title": "eye",
+      "kind": "account",
+      "text": "Languages\nchevron_down\nEnglish\nFrançais\nDeutsch\nEspañol\nItaliano\nPortuguês\nРусский\n日本語\n简体中文\n繁體中文\nSign in with Apple\nor\nEmail address or username\nPassword\neye\nForgot your password?\nLog in\nBy using our service, you agree with our Terms of Service, CCPA Notice and Privacy Notice that details what personal data we collect and use to provide you with the best learning experience. You can manage your choices in Cookie Preferences.\nDon't have an account?\nSign up",
+      "textHash": "ae7a6262afcf",
+      "dhash": "1100010011010100110101000000000101110001011100010100010001110001",
+      "h": 932,
+      "prices": []
+    }
+  ],
+  "features": {
+    "totalSteps": 2,
+    "stop": "account_creation",
+    "emailStep": null,
+    "paywallStep": null,
+    "questions": 0,
+    "socialProof": 0,
+    "popups": 0,
+    "loader": false,
+    "prices": [],
+    "discount": null,
+    "timer": false,
+    "trial": false,
+    "moneyBack": false
+  }
+}

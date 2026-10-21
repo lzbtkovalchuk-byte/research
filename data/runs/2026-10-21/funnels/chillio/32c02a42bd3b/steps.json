@@ -1,0 +1,629 @@
+{
+  "url": "https://quiz.get-chillio.app/qs/cleaning-game?utm_source=CHI_web_fb&utm_campaign={{campaign.name}}&utm_content={{adset.name}}&utm_ad={{ad.name}}&utm_id={{campaign.id}}&utm_term={{adset.id}}&ad_id={{ad.id}}",
+  "key": "quiz.get-chillio.app/qs/cleaning-game",
+  "why": "ad",
+  "ads": 45,
+  "adShot": "chillio-32c02a42bd3b.webp",
+  "adId": "3382189468612584",
+  "dir": "funnels/chillio/32c02a42bd3b",
+  "stop": "stuck+paywall_direct",
+  "proxied": false,
+  "email": "yelyzavetabazyla+fw261021chillio1@gmail.com",
+  "emailNote": null,
+  "signedUp": null,
+  "steps": [
+    {
+      "n": 1,
+      "file": "01.webp",
+      "url": "https://my-chillio.com/qs/cleaning-game?utm_source=CHI_web_fb&utm_campaign=%7B%7Bcampaign.name%7D%7D&utm_content=%7B%7Badset.name%7D%7D&utm_ad=%7B%7Bad.name%7D%7D&utm_id=%7B%7Bcampaign.id%7D%7D&utm_term=%7B%7Badset.id%7D%7D&ad_id=%7B%7Bad.id%7D%7D&quizName=cleaning-game&customToken=eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiIxMDk3NDg1Mzk4ODkwLWNvbXB1dGVAZGV2ZWxvcGVyLmdzZXJ2aWNlYWNjb3VudC5jb20iLCJhdWQiOiJodHRwczovL2lkZW50aXR5dG9vbGtpdC5nb29nbGVhcGlzLmNvbS9nb29nbGUuaWRlbnRpdHkuaWRlbnRpdHl0b29sa2l0LnYxLklkZW50aXR5VG9vbGtpdCIsImV4cCI6MTc5MjU5MDc0NywiaWF0IjoxNzkyNTg3MTQ3LCJzdWIiOiIxMDk3NDg1Mzk4ODkwLWNvbXB1dGVAZGV2ZWxvcGVyLmdzZXJ2aWNlYWNjb3VudC5jb20iLCJ1aWQiOiJQVE44Sk8xcEx6WTJzbmRENlV5VVVMTHRHVkMzIn0.B9fCJaTVxFDEMFlsOrtByDE66TYNfLvHQ9j07PhAPnFrFrX1EAi4E6vJuIbxBVJ-fHCPjprAwepnP3MqVV9M03bJ6kVgwnvGzy5H4K9hWE_fSRblYPvY-dSZjnvNTeZhh9KCyWxhI-C-hlazOrHPHplehL1-KLWtBl6phxcZy2guc0umEMPf3r0a0-SsT6Eb-UC_xTDriwffPRJ7qUE5ujgBd4p39zYQtutEtZ44dfUUvqxg2QuurbjLs_CZDBog9SgiaPayozm3hPen1kO04qx7XDjkewBXYobLTkazMRO6Z_YB6PCKD2wQG8cS4pZQ2CTqqoBPYg9vvuYaeni2HQ#profile",
+      "path": "/qs/cleaning-game",
+      "title": "Turn your cleaning into a game",
+      "kind": "question",
+      "text": "Turn your cleaning\ninto a game\nAccording to your type and triggers\n⏳ 3 minute quiz\nMale\nFemale\nOther\nBy continuing, I agree with Terms of Use, Privacy Policy and Refund Policy.",
+      "textHash": "4e054baa5193",
+      "dhash": "1111000011110000110011001100111010101010000000011000000000000000",
+      "h": 844,
+      "prices": [],
+      "action": {
+        "opt": "Male"
+      }
+    },
+    {
+      "n": 2,
+      "file": "02.webp",
+      "url": "https://my-chillio.com/qs/cleaning-game?utm_source=CHI_web_fb&utm_campaign=%7B%7Bcampaign.name%7D%7D&utm_content=%7B%7Badset.name%7D%7D&utm_ad=%7B%7Bad.name%7D%7D&utm_id=%7B%7Bcampaign.id%7D%7D&utm_term=%7B%7Badset.id%7D%7D&ad_id=%7B%7Bad.id%7D%7D&quizName=cleaning-game&customToken=eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiIxMDk3NDg1Mzk4ODkwLWNvbXB1dGVAZGV2ZWxvcGVyLmdzZXJ2aWNlYWNjb3VudC5jb20iLCJhdWQiOiJodHRwczovL2lkZW50aXR5dG9vbGtpdC5nb29nbGVhcGlzLmNvbS9nb29nbGUuaWRlbnRpdHkuaWRlbnRpdHl0b29sa2l0LnYxLklkZW50aXR5VG9vbGtpdCIsImV4cCI6MTc5MjU5MDc0NywiaWF0IjoxNzkyNTg3MTQ3LCJzdWIiOiIxMDk3NDg1Mzk4ODkwLWNvbXB1dGVAZGV2ZWxvcGVyLmdzZXJ2aWNlYWNjb3VudC5jb20iLCJ1aWQiOiJQVE44Sk8xcEx6WTJzbmRENlV5VVVMTHRHVkMzIn0.B9fCJaTVxFDEMFlsOrtByDE66TYNfLvHQ9j07PhAPnFrFrX1EAi4E6vJuIbxBVJ-fHCPjprAwepnP3MqVV9M03bJ6kVgwnvGzy5H4K9hWE_fSRblYPvY-dSZjnvNTeZhh9KCyWxhI-C-hlazOrHPHplehL1-KLWtBl6phxcZy2guc0umEMPf3r0a0-SsT6Eb-UC_xTDriwffPRJ7qUE5ujgBd4p39zYQtutEtZ44dfUUvqxg2QuurbjLs_CZDBog9SgiaPayozm3hPen1kO04qx7XDjkewBXYobLTkazMRO6Z_YB6PCKD2wQG8cS4pZQ2CTqqoBPYg9vvuYaeni2HQ&profile=male#age",
+      "path": "/qs/cleaning-game",
+      "title": "What is your age?",
+      "kind": "question",
+      "text": "What is your age?\nYour answers will help us create your profile summary and personalized plan\n18-25 years\n26-35 years\n36-45 years\n46-55 years\n55+ years",
+      "textHash": "6e1906561a4d",
+      "dhash": "0111000011001000100000011000000110000001010000000000000000000000",
+      "h": 844,
+      "prices": [],
+      "action": {
+        "opt": "26-35 years"
+      }
+    },
+    {
+      "n": 3,
+      "file": "03.webp",
+      "url": "https://my-chillio.com/qs/cleaning-game?utm_source=CHI_web_fb&utm_campaign=%7B%7Bcampaign.name%7D%7D&utm_content=%7B%7Badset.name%7D%7D&utm_ad=%7B%7Bad.name%7D%7D&utm_id=%7B%7Bcampaign.id%7D%7D&utm_term=%7B%7Badset.id%7D%7D&ad_id=%7B%7Bad.id%7D%7D&quizName=cleaning-game&customToken=eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiIxMDk3NDg1Mzk4ODkwLWNvbXB1dGVAZGV2ZWxvcGVyLmdzZXJ2aWNlYWNjb3VudC5jb20iLCJhdWQiOiJodHRwczovL2lkZW50aXR5dG9vbGtpdC5nb29nbGVhcGlzLmNvbS9nb29nbGUuaWRlbnRpdHkuaWRlbnRpdHl0b29sa2l0LnYxLklkZW50aXR5VG9vbGtpdCIsImV4cCI6MTc5MjU5MDc0NywiaWF0IjoxNzkyNTg3MTQ3LCJzdWIiOiIxMDk3NDg1Mzk4ODkwLWNvbXB1dGVAZGV2ZWxvcGVyLmdzZXJ2aWNlYWNjb3VudC5jb20iLCJ1aWQiOiJQVE44Sk8xcEx6WTJzbmRENlV5VVVMTHRHVkMzIn0.B9fCJaTVxFDEMFlsOrtByDE66TYNfLvHQ9j07PhAPnFrFrX1EAi4E6vJuIbxBVJ-fHCPjprAwepnP3MqVV9M03bJ6kVgwnvGzy5H4K9hWE_fSRblYPvY-dSZjnvNTeZhh9KCyWxhI-C-hlazOrHPHplehL1-KLWtBl6phxcZy2guc0umEMPf3r0a0-SsT6Eb-UC_xTDriwffPRJ7qUE5ujgBd4p39zYQtutEtZ44dfUUvqxg2QuurbjLs_CZDBog9SgiaPayozm3hPen1kO04qx7XDjkewBXYobLTkazMRO6Z_YB6PCKD2wQG8cS4pZQ2CTqqoBPYg9vvuYaeni2HQ&profile=male#over_people_have_chosen",
+      "path": "/qs/cleaning-game",
+      "title": "Over 250,000 people have chosen Chillio",
+      "kind": "social_proof",
+      "text": "Over 250,000 people\nhave chosen Chillio\nChillio is not affiliated with, endorsed by, or sponsored by media platforms. References reflect published research that informed our approach\nContinue",
+      "textHash": "571132879d20",
+      "dhash": "0111000011001100111100001111000011001000011100001000100010001110",
+      "h": 844,
+      "prices": [],
+      "action": {
+        "cta": "Continue"
+      }
+    },
+    {
+      "n": 4,
+      "file": "04.webp",
+      "url": "https://my-chillio.com/qs/cleaning-game?utm_source=CHI_web_fb&utm_campaign=%7B%7Bcampaign.name%7D%7D&utm_content=%7B%7Badset.name%7D%7D&utm_ad=%7B%7Bad.name%7D%7D&utm_id=%7B%7Bcampaign.id%7D%7D&utm_term=%7B%7Badset.id%7D%7D&ad_id=%7B%7Bad.id%7D%7D&quizName=cleaning-game&customToken=eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiIxMDk3NDg1Mzk4ODkwLWNvbXB1dGVAZGV2ZWxvcGVyLmdzZXJ2aWNlYWNjb3VudC5jb20iLCJhdWQiOiJodHRwczovL2lkZW50aXR5dG9vbGtpdC5nb29nbGVhcGlzLmNvbS9nb29nbGUuaWRlbnRpdHkuaWRlbnRpdHl0b29sa2l0LnYxLklkZW50aXR5VG9vbGtpdCIsImV4cCI6MTc5MjU5MDc0NywiaWF0IjoxNzkyNTg3MTQ3LCJzdWIiOiIxMDk3NDg1Mzk4ODkwLWNvbXB1dGVAZGV2ZWxvcGVyLmdzZXJ2aWNlYWNjb3VudC5jb20iLCJ1aWQiOiJQVE44Sk8xcEx6WTJzbmRENlV5VVVMTHRHVkMzIn0.B9fCJaTVxFDEMFlsOrtByDE66TYNfLvHQ9j07PhAPnFrFrX1EAi4E6vJuIbxBVJ-fHCPjprAwepnP3MqVV9M03bJ6kVgwnvGzy5H4K9hWE_fSRblYPvY-dSZjnvNTeZhh9KCyWxhI-C-hlazOrHPHplehL1-KLWtBl6phxcZy2guc0umEMPf3r0a0-SsT6Eb-UC_xTDriwffPRJ7qUE5ujgBd4p39zYQtutEtZ44dfUUvqxg2QuurbjLs_CZDBog9SgiaPayozm3hPen1kO04qx7XDjkewBXYobLTkazMRO6Z_YB6PCKD2wQG8cS4pZQ2CTqqoBPYg9vvuYaeni2HQ&profile=male#goal",
+      "path": "/qs/cleaning-game",
+      "title": "What's your main goal to achieve with Chillio?",
+      "kind": "question",
+      "text": "What's your main goal to achieve with Chillio?\n🏠 Manage household\n🪄 Reduce clutter\n🔄 Stop procrastinating\n✨ Make chores easy\n🧠 Have less mental load\n😊 Other\nContinue",
+      "textHash": "7a1f98aaa61d",
+      "dhash": "1011001010100010100000011010000110010001100010000001000010110010",
+      "h": 844,
+      "prices": [],
+      "action": {
+        "opt": "🏠 Manage household",
+        "cta": "Continue"
+      }
+    },
+    {
+      "n": 5,
+      "file": "05.webp",
+      "url": "https://my-chillio.com/qs/cleaning-game?utm_source=CHI_web_fb&utm_campaign=%7B%7Bcampaign.name%7D%7D&utm_content=%7B%7Badset.name%7D%7D&utm_ad=%7B%7Bad.name%7D%7D&utm_id=%7B%7Bcampaign.id%7D%7D&utm_term=%7B%7Badset.id%7D%7D&ad_id=%7B%7Bad.id%7D%7D&quizName=cleaning-game&customToken=eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiIxMDk3NDg1Mzk4ODkwLWNvbXB1dGVAZGV2ZWxvcGVyLmdzZXJ2aWNlYWNjb3VudC5jb20iLCJhdWQiOiJodHRwczovL2lkZW50aXR5dG9vbGtpdC5nb29nbGVhcGlzLmNvbS9nb29nbGUuaWRlbnRpdHkuaWRlbnRpdHl0b29sa2l0LnYxLklkZW50aXR5VG9vbGtpdCIsImV4cCI6MTc5MjU5MDc0NywiaWF0IjoxNzkyNTg3MTQ3LCJzdWIiOiIxMDk3NDg1Mzk4ODkwLWNvbXB1dGVAZGV2ZWxvcGVyLmdzZXJ2aWNlYWNjb3VudC5jb20iLCJ1aWQiOiJQVE44Sk8xcEx6WTJzbmRENlV5VVVMTHRHVkMzIn0.B9fCJaTVxFDEMFlsOrtByDE66TYNfLvHQ9j07PhAPnFrFrX1EAi4E6vJuIbxBVJ-fHCPjprAwepnP3MqVV9M03bJ6kVgwnvGzy5H4K9hWE_fSRblYPvY-dSZjnvNTeZhh9KCyWxhI-C-hlazOrHPHplehL1-KLWtBl6phxcZy2guc0umEMPf3r0a0-SsT6Eb-UC_xTDriwffPRJ7qUE5ujgBd4p39zYQtutEtZ44dfUUvqxg2QuurbjLs_CZDBog9SgiaPayozm3hPen1kO04qx7XDjkewBXYobLTkazMRO6Z_YB6PCKD2wQG8cS4pZQ2CTqqoBPYg9vvuYaeni2HQ&profile=male#yourFirstGoal",
+      "path": "/qs/cleaning-game",
+      "title": "Great, you just set your first goal! We'll help you manage your household on autopilot",
+      "kind": "info",
+      "text": "Great, you just set your first goal! We'll help you manage your household on autopilot\nContinue",
+      "textHash": "661e77185e1a",
+      "dhash": "0011001010001100110100000111000011100000000111001000001010001110",
+      "h": 844,
+      "prices": [],
+      "action": {
+        "cta": "Continue"
+      }
+    },
+    {
+      "n": 6,
+      "file": "06.webp",
+      "url": "https://my-chillio.com/qs/cleaning-game?utm_source=CHI_web_fb&utm_campaign=%7B%7Bcampaign.name%7D%7D&utm_content=%7B%7Badset.name%7D%7D&utm_ad=%7B%7Bad.name%7D%7D&utm_id=%7B%7Bcampaign.id%7D%7D&utm_term=%7B%7Badset.id%7D%7D&ad_id=%7B%7Bad.id%7D%7D&quizName=cleaning-game&customToken=eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiIxMDk3NDg1Mzk4ODkwLWNvbXB1dGVAZGV2ZWxvcGVyLmdzZXJ2aWNlYWNjb3VudC5jb20iLCJhdWQiOiJodHRwczovL2lkZW50aXR5dG9vbGtpdC5nb29nbGVhcGlzLmNvbS9nb29nbGUuaWRlbnRpdHkuaWRlbnRpdHl0b29sa2l0LnYxLklkZW50aXR5VG9vbGtpdCIsImV4cCI6MTc5MjU5MDc0NywiaWF0IjoxNzkyNTg3MTQ3LCJzdWIiOiIxMDk3NDg1Mzk4ODkwLWNvbXB1dGVAZGV2ZWxvcGVyLmdzZXJ2aWNlYWNjb3VudC5jb20iLCJ1aWQiOiJQVE44Sk8xcEx6WTJzbmRENlV5VVVMTHRHVkMzIn0.B9fCJaTVxFDEMFlsOrtByDE66TYNfLvHQ9j07PhAPnFrFrX1EAi4E6vJuIbxBVJ-fHCPjprAwepnP3MqVV9M03bJ6kVgwnvGzy5H4K9hWE_fSRblYPvY-dSZjnvNTeZhh9KCyWxhI-C-hlazOrHPHplehL1-KLWtBl6phxcZy2guc0umEMPf3r0a0-SsT6Eb-UC_xTDriwffPRJ7qUE5ujgBd4p39zYQtutEtZ44dfUUvqxg2QuurbjLs_CZDBog9SgiaPayozm3hPen1kO04qx7XDjkewBXYobLTkazMRO6Z_YB6PCKD2wQG8cS4pZQ2CTqqoBPYg9vvuYaeni2HQ&profile=male#what_your_current_living_situation",
+      "path": "/qs/cleaning-game",
+      "title": "What’s your current living situation?",
+      "kind": "question",
+      "text": "What’s your current living situation?\n🧑 Living alone\n🏡 Living with family\n👩‍❤️‍👨 Living with a partner\n👭 Shared space (e.g. roommates)",
+      "textHash": "51ad744f48ca",
+      "dhash": "1011000010100000100001011001000000001010000000000000000000000000",
+      "h": 844,
+      "prices": [],
+      "action": {
+        "opt": "🧑 Living alone"
+      }
+    },
+    {
+      "n": 7,
+      "file": "07.webp",
+      "url": "https://my-chillio.com/qs/cleaning-game?utm_source=CHI_web_fb&utm_campaign=%7B%7Bcampaign.name%7D%7D&utm_content=%7B%7Badset.name%7D%7D&utm_ad=%7B%7Bad.name%7D%7D&utm_id=%7B%7Bcampaign.id%7D%7D&utm_term=%7B%7Badset.id%7D%7D&ad_id=%7B%7Bad.id%7D%7D&quizName=cleaning-game&customToken=eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiIxMDk3NDg1Mzk4ODkwLWNvbXB1dGVAZGV2ZWxvcGVyLmdzZXJ2aWNlYWNjb3VudC5jb20iLCJhdWQiOiJodHRwczovL2lkZW50aXR5dG9vbGtpdC5nb29nbGVhcGlzLmNvbS9nb29nbGUuaWRlbnRpdHkuaWRlbnRpdHl0b29sa2l0LnYxLklkZW50aXR5VG9vbGtpdCIsImV4cCI6MTc5MjU5MDc0NywiaWF0IjoxNzkyNTg3MTQ3LCJzdWIiOiIxMDk3NDg1Mzk4ODkwLWNvbXB1dGVAZGV2ZWxvcGVyLmdzZXJ2aWNlYWNjb3VudC5jb20iLCJ1aWQiOiJQVE44Sk8xcEx6WTJzbmRENlV5VVVMTHRHVkMzIn0.B9fCJaTVxFDEMFlsOrtByDE66TYNfLvHQ9j07PhAPnFrFrX1EAi4E6vJuIbxBVJ-fHCPjprAwepnP3MqVV9M03bJ6kVgwnvGzy5H4K9hWE_fSRblYPvY-dSZjnvNTeZhh9KCyWxhI-C-hlazOrHPHplehL1-KLWtBl6phxcZy2guc0umEMPf3r0a0-SsT6Eb-UC_xTDriwffPRJ7qUE5ujgBd4p39zYQtutEtZ44dfUUvqxg2QuurbjLs_CZDBog9SgiaPayozm3hPen1kO04qx7XDjkewBXYobLTkazMRO6Z_YB6PCKD2wQG8cS4pZQ2CTqqoBPYg9vvuYaeni2HQ&profile=male#how_clean_is_your_space_right_now",
+      "path": "/qs/cleaning-game",
+      "title": "How clean is your space right now?",
+      "kind": "question",
+      "text": "How clean is your space right now?\n🚨 It's chaotic\n🌀 It's a bit messy\n😌 Fairly tidy\n🌟 Super organized",
+      "textHash": "f5e3e48a899c",
+      "dhash": "1011001010010010110000011100000100100000000000000000000000000000",
+      "h": 844,
+      "prices": [],
+      "action": {
+        "opt": "🚨 It's chaotic"
+      }
+    },
+    {
+      "n": 8,
+      "file": "08.webp",
+      "url": "https://my-chillio.com/qs/cleaning-game?utm_source=CHI_web_fb&utm_campaign=%7B%7Bcampaign.name%7D%7D&utm_content=%7B%7Badset.name%7D%7D&utm_ad=%7B%7Bad.name%7D%7D&utm_id=%7B%7Bcampaign.id%7D%7D&utm_term=%7B%7Badset.id%7D%7D&ad_id=%7B%7Bad.id%7D%7D&quizName=cleaning-game&customToken=eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiIxMDk3NDg1Mzk4ODkwLWNvbXB1dGVAZGV2ZWxvcGVyLmdzZXJ2aWNlYWNjb3VudC5jb20iLCJhdWQiOiJodHRwczovL2lkZW50aXR5dG9vbGtpdC5nb29nbGVhcGlzLmNvbS9nb29nbGUuaWRlbnRpdHkuaWRlbnRpdHl0b29sa2l0LnYxLklkZW50aXR5VG9vbGtpdCIsImV4cCI6MTc5MjU5MDc0NywiaWF0IjoxNzkyNTg3MTQ3LCJzdWIiOiIxMDk3NDg1Mzk4ODkwLWNvbXB1dGVAZGV2ZWxvcGVyLmdzZXJ2aWNlYWNjb3VudC5jb20iLCJ1aWQiOiJQVE44Sk8xcEx6WTJzbmRENlV5VVVMTHRHVkMzIn0.B9fCJaTVxFDEMFlsOrtByDE66TYNfLvHQ9j07PhAPnFrFrX1EAi4E6vJuIbxBVJ-fHCPjprAwepnP3MqVV9M03bJ6kVgwnvGzy5H4K9hWE_fSRblYPvY-dSZjnvNTeZhh9KCyWxhI-C-hlazOrHPHplehL1-KLWtBl6phxcZy2guc0umEMPf3r0a0-SsT6Eb-UC_xTDriwffPRJ7qUE5ujgBd4p39zYQtutEtZ44dfUUvqxg2QuurbjLs_CZDBog9SgiaPayozm3hPen1kO04qx7XDjkewBXYobLTkazMRO6Z_YB6PCKD2wQG8cS4pZQ2CTqqoBPYg9vvuYaeni2HQ&profile=male#how_often_do_you_feel_overwhelmed_by_cleaning_tasks",
+      "path": "/qs/cleaning-game",
+      "title": "How often do you feel overwhelmed by household tasks?",
+      "kind": "question",
+      "text": "How often do you feel overwhelmed by household tasks?\n🥴 Every day\n‍‍😵‍💫 A few times a week\n🤷 Sometimes\n💪 Rarely or never",
+      "textHash": "ce9a1d650f68",
+      "dhash": "1111000011001100100000111000000100100000000000000000000000000000",
+      "h": 844,
+      "prices": [],
+      "action": {
+        "opt": "🥴 Every day"
+      }
+    },
+    {
+      "n": 9,
+      "file": "09.webp",
+      "url": "https://my-chillio.com/qs/cleaning-game?utm_source=CHI_web_fb&utm_campaign=%7B%7Bcampaign.name%7D%7D&utm_content=%7B%7Badset.name%7D%7D&utm_ad=%7B%7Bad.name%7D%7D&utm_id=%7B%7Bcampaign.id%7D%7D&utm_term=%7B%7Badset.id%7D%7D&ad_id=%7B%7Bad.id%7D%7D&quizName=cleaning-game&customToken=eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiIxMDk3NDg1Mzk4ODkwLWNvbXB1dGVAZGV2ZWxvcGVyLmdzZXJ2aWNlYWNjb3VudC5jb20iLCJhdWQiOiJodHRwczovL2lkZW50aXR5dG9vbGtpdC5nb29nbGVhcGlzLmNvbS9nb29nbGUuaWRlbnRpdHkuaWRlbnRpdHl0b29sa2l0LnYxLklkZW50aXR5VG9vbGtpdCIsImV4cCI6MTc5MjU5MDc0NywiaWF0IjoxNzkyNTg3MTQ3LCJzdWIiOiIxMDk3NDg1Mzk4ODkwLWNvbXB1dGVAZGV2ZWxvcGVyLmdzZXJ2aWNlYWNjb3VudC5jb20iLCJ1aWQiOiJQVE44Sk8xcEx6WTJzbmRENlV5VVVMTHRHVkMzIn0.B9fCJaTVxFDEMFlsOrtByDE66TYNfLvHQ9j07PhAPnFrFrX1EAi4E6vJuIbxBVJ-fHCPjprAwepnP3MqVV9M03bJ6kVgwnvGzy5H4K9hWE_fSRblYPvY-dSZjnvNTeZhh9KCyWxhI-C-hlazOrHPHplehL1-KLWtBl6phxcZy2guc0umEMPf3r0a0-SsT6Eb-UC_xTDriwffPRJ7qUE5ujgBd4p39zYQtutEtZ44dfUUvqxg2QuurbjLs_CZDBog9SgiaPayozm3hPen1kO04qx7XDjkewBXYobLTkazMRO6Z_YB6PCKD2wQG8cS4pZQ2CTqqoBPYg9vvuYaeni2HQ&profile=male#which_areas_stress_you_out_most",
+      "path": "/qs/cleaning-game",
+      "title": "Which parts of running your home stress you out most?",
+      "kind": "question",
+      "text": "Which parts of running your home stress you out most?\nChoose all that apply\n🧹 Cleaning\n🍳 Cooking\n🛒 Groceries shopping\n🧺 Laundry\n📋 Daily planning\n💸 Bills & errands\nContinue",
+      "textHash": "62f250d35632",
+      "dhash": "1001000011001000110000011000000110000001100000000000000010110010",
+      "h": 844,
+      "prices": [],
+      "action": {
+        "opt": "🧹 Cleaning",
+        "cta": "Continue"
+      }
+    },
+    {
+      "n": 10,
+      "file": "10.webp",
+      "url": "https://my-chillio.com/qs/cleaning-game?utm_source=CHI_web_fb&utm_campaign=%7B%7Bcampaign.name%7D%7D&utm_content=%7B%7Badset.name%7D%7D&utm_ad=%7B%7Bad.name%7D%7D&utm_id=%7B%7Bcampaign.id%7D%7D&utm_term=%7B%7Badset.id%7D%7D&ad_id=%7B%7Bad.id%7D%7D&quizName=cleaning-game&customToken=eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiIxMDk3NDg1Mzk4ODkwLWNvbXB1dGVAZGV2ZWxvcGVyLmdzZXJ2aWNlYWNjb3VudC5jb20iLCJhdWQiOiJodHRwczovL2lkZW50aXR5dG9vbGtpdC5nb29nbGVhcGlzLmNvbS9nb29nbGUuaWRlbnRpdHkuaWRlbnRpdHl0b29sa2l0LnYxLklkZW50aXR5VG9vbGtpdCIsImV4cCI6MTc5MjU5MDc0NywiaWF0IjoxNzkyNTg3MTQ3LCJzdWIiOiIxMDk3NDg1Mzk4ODkwLWNvbXB1dGVAZGV2ZWxvcGVyLmdzZXJ2aWNlYWNjb3VudC5jb20iLCJ1aWQiOiJQVE44Sk8xcEx6WTJzbmRENlV5VVVMTHRHVkMzIn0.B9fCJaTVxFDEMFlsOrtByDE66TYNfLvHQ9j07PhAPnFrFrX1EAi4E6vJuIbxBVJ-fHCPjprAwepnP3MqVV9M03bJ6kVgwnvGzy5H4K9hWE_fSRblYPvY-dSZjnvNTeZhh9KCyWxhI-C-hlazOrHPHplehL1-KLWtBl6phxcZy2guc0umEMPf3r0a0-SsT6Eb-UC_xTDriwffPRJ7qUE5ujgBd4p39zYQtutEtZ44dfUUvqxg2QuurbjLs_CZDBog9SgiaPayozm3hPen1kO04qx7XDjkewBXYobLTkazMRO6Z_YB6PCKD2wQG8cS4pZQ2CTqqoBPYg9vvuYaeni2HQ&profile=male#what_makes_it_hard_for_you_to_clean",
+      "path": "/qs/cleaning-game",
+      "title": "What makes it hard for you to get started?",
+      "kind": "question",
+      "text": "What makes it hard for you to get started?\nChoose all that apply\n😩 I feel too tired\n🧠 I get overwhelmed\n⏰ I don’t have time\n🧽 I don’t enjoy it\nContinue",
+      "textHash": "985334441f71",
+      "dhash": "1011001011110000101000011100010101000000000000000000000010110010",
+      "h": 844,
+      "prices": [],
+      "action": {
+        "opt": "😩 I feel too tired",
+        "cta": "Continue"
+      }
+    },
+    {
+      "n": 11,
+      "file": "11.webp",
+      "url": "https://my-chillio.com/qs/cleaning-game?utm_source=CHI_web_fb&utm_campaign=%7B%7Bcampaign.name%7D%7D&utm_content=%7B%7Badset.name%7D%7D&utm_ad=%7B%7Bad.name%7D%7D&utm_id=%7B%7Bcampaign.id%7D%7D&utm_term=%7B%7Badset.id%7D%7D&ad_id=%7B%7Bad.id%7D%7D&quizName=cleaning-game&customToken=eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiIxMDk3NDg1Mzk4ODkwLWNvbXB1dGVAZGV2ZWxvcGVyLmdzZXJ2aWNlYWNjb3VudC5jb20iLCJhdWQiOiJodHRwczovL2lkZW50aXR5dG9vbGtpdC5nb29nbGVhcGlzLmNvbS9nb29nbGUuaWRlbnRpdHkuaWRlbnRpdHl0b29sa2l0LnYxLklkZW50aXR5VG9vbGtpdCIsImV4cCI6MTc5MjU5MDc0NywiaWF0IjoxNzkyNTg3MTQ3LCJzdWIiOiIxMDk3NDg1Mzk4ODkwLWNvbXB1dGVAZGV2ZWxvcGVyLmdzZXJ2aWNlYWNjb3VudC5jb20iLCJ1aWQiOiJQVE44Sk8xcEx6WTJzbmRENlV5VVVMTHRHVkMzIn0.B9fCJaTVxFDEMFlsOrtByDE66TYNfLvHQ9j07PhAPnFrFrX1EAi4E6vJuIbxBVJ-fHCPjprAwepnP3MqVV9M03bJ6kVgwnvGzy5H4K9hWE_fSRblYPvY-dSZjnvNTeZhh9KCyWxhI-C-hlazOrHPHplehL1-KLWtBl6phxcZy2guc0umEMPf3r0a0-SsT6Eb-UC_xTDriwffPRJ7qUE5ujgBd4p39zYQtutEtZ44dfUUvqxg2QuurbjLs_CZDBog9SgiaPayozm3hPen1kO04qx7XDjkewBXYobLTkazMRO6Z_YB6PCKD2wQG8cS4pZQ2CTqqoBPYg9vvuYaeni2HQ&profile=male#challenge",
+      "path": "/qs/cleaning-game",
+      "title": "What’s the toughest part about keeping your home tidy?",
+      "kind": "question",
+      "text": "What’s the toughest part about keeping your home tidy?\nChoose all that apply to you\n🔁 Sticking to routines\n🗑 Dealing with clutter\n👫 Managing messes from others\n⚖️ Balancing work and chores\n🧸 Keeping up with kids' stuff\n✨ Other\nContinue",
+      "textHash": "5e880132619e",
+      "dhash": "1011001011000100110000011100000110010001100001000001000010110010",
+      "h": 844,
+      "prices": [],
+      "action": {
+        "opt": "🔁 Sticking to routines",
+        "cta": "Continue"
+      }
+    },
+    {
+      "n": 12,
+      "file": "12.webp",
+      "url": "https://my-chillio.com/qs/cleaning-game?utm_source=CHI_web_fb&utm_campaign=%7B%7Bcampaign.name%7D%7D&utm_content=%7B%7Badset.name%7D%7D&utm_ad=%7B%7Bad.name%7D%7D&utm_id=%7B%7Bcampaign.id%7D%7D&utm_term=%7B%7Badset.id%7D%7D&ad_id=%7B%7Bad.id%7D%7D&quizName=cleaning-game&customToken=eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiIxMDk3NDg1Mzk4ODkwLWNvbXB1dGVAZGV2ZWxvcGVyLmdzZXJ2aWNlYWNjb3VudC5jb20iLCJhdWQiOiJodHRwczovL2lkZW50aXR5dG9vbGtpdC5nb29nbGVhcGlzLmNvbS9nb29nbGUuaWRlbnRpdHkuaWRlbnRpdHl0b29sa2l0LnYxLklkZW50aXR5VG9vbGtpdCIsImV4cCI6MTc5MjU5MDc0NywiaWF0IjoxNzkyNTg3MTQ3LCJzdWIiOiIxMDk3NDg1Mzk4ODkwLWNvbXB1dGVAZGV2ZWxvcGVyLmdzZXJ2aWNlYWNjb3VudC5jb20iLCJ1aWQiOiJQVE44Sk8xcEx6WTJzbmRENlV5VVVMTHRHVkMzIn0.B9fCJaTVxFDEMFlsOrtByDE66TYNfLvHQ9j07PhAPnFrFrX1EAi4E6vJuIbxBVJ-fHCPjprAwepnP3MqVV9M03bJ6kVgwnvGzy5H4K9hWE_fSRblYPvY-dSZjnvNTeZhh9KCyWxhI-C-hlazOrHPHplehL1-KLWtBl6phxcZy2guc0umEMPf3r0a0-SsT6Eb-UC_xTDriwffPRJ7qUE5ujgBd4p39zYQtutEtZ44dfUUvqxg2QuurbjLs_CZDBog9SgiaPayozm3hPen1kO04qx7XDjkewBXYobLTkazMRO6Z_YB6PCKD2wQG8cS4pZQ2CTqqoBPYg9vvuYaeni2HQ&profile=male#do_you_want_to_make_your_cleaning_easier_and_more_fun",
+      "path": "/qs/cleaning-game",
+      "title": "Do you want to make your cleaning easier and more fun?",
+      "kind": "question",
+      "text": "Do you want to make your cleaning easier and more fun?\n😍 Yes, totally\n🤔 Maybe\n😕 No",
+      "textHash": "f17e3c370c8e",
+      "dhash": "1111000011001100100100110010000000000000000000000000000000000000",
+      "h": 844,
+      "prices": [],
+      "action": {
+        "opt": "😍 Yes, totally"
+      }
+    },
+    {
+      "n": 13,
+      "file": "13.webp",
+      "url": "https://my-chillio.com/qs/cleaning-game?utm_source=CHI_web_fb&utm_campaign=%7B%7Bcampaign.name%7D%7D&utm_content=%7B%7Badset.name%7D%7D&utm_ad=%7B%7Bad.name%7D%7D&utm_id=%7B%7Bcampaign.id%7D%7D&utm_term=%7B%7Badset.id%7D%7D&ad_id=%7B%7Bad.id%7D%7D&quizName=cleaning-game&customToken=eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiIxMDk3NDg1Mzk4ODkwLWNvbXB1dGVAZGV2ZWxvcGVyLmdzZXJ2aWNlYWNjb3VudC5jb20iLCJhdWQiOiJodHRwczovL2lkZW50aXR5dG9vbGtpdC5nb29nbGVhcGlzLmNvbS9nb29nbGUuaWRlbnRpdHkuaWRlbnRpdHl0b29sa2l0LnYxLklkZW50aXR5VG9vbGtpdCIsImV4cCI6MTc5MjU5MDc0NywiaWF0IjoxNzkyNTg3MTQ3LCJzdWIiOiIxMDk3NDg1Mzk4ODkwLWNvbXB1dGVAZGV2ZWxvcGVyLmdzZXJ2aWNlYWNjb3VudC5jb20iLCJ1aWQiOiJQVE44Sk8xcEx6WTJzbmRENlV5VVVMTHRHVkMzIn0.B9fCJaTVxFDEMFlsOrtByDE66TYNfLvHQ9j07PhAPnFrFrX1EAi4E6vJuIbxBVJ-fHCPjprAwepnP3MqVV9M03bJ6kVgwnvGzy5H4K9hWE_fSRblYPvY-dSZjnvNTeZhh9KCyWxhI-C-hlazOrHPHplehL1-KLWtBl6phxcZy2guc0umEMPf3r0a0-SsT6Eb-UC_xTDriwffPRJ7qUE5ujgBd4p39zYQtutEtZ44dfUUvqxg2QuurbjLs_CZDBog9SgiaPayozm3hPen1kO04qx7XDjkewBXYobLTkazMRO6Z_YB6PCKD2wQG8cS4pZQ2CTqqoBPYg9vvuYaeni2HQ&profile=male#scientifically_proven_tools_to_get_a_more_organized_life",
+      "path": "/qs/cleaning-game",
+      "title": "Chillio is built on evidence-based productivity methods",
+      "kind": "info",
+      "text": "Chillio is built on evidence-based productivity methods\nYour plan draws on CBT techniques from peer-reviewed behavioral research.\nChillio is not affiliated with, endorsed by, or sponsored by these institutions. References reflect published research that informed our approach\nContinue",
+      "textHash": "d0c64c95b284",
+      "dhash": "1011000011001100111100001111000011110000100101001000001010001110",
+      "h": 844,
+      "prices": [],
+      "action": {
+        "cta": "Continue"
+      }
+    },
+    {
+      "n": 14,
+      "file": "14.webp",
+      "url": "https://my-chillio.com/qs/cleaning-game?utm_source=CHI_web_fb&utm_campaign=%7B%7Bcampaign.name%7D%7D&utm_content=%7B%7Badset.name%7D%7D&utm_ad=%7B%7Bad.name%7D%7D&utm_id=%7B%7Bcampaign.id%7D%7D&utm_term=%7B%7Badset.id%7D%7D&ad_id=%7B%7Bad.id%7D%7D&quizName=cleaning-game&customToken=eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiIxMDk3NDg1Mzk4ODkwLWNvbXB1dGVAZGV2ZWxvcGVyLmdzZXJ2aWNlYWNjb3VudC5jb20iLCJhdWQiOiJodHRwczovL2lkZW50aXR5dG9vbGtpdC5nb29nbGVhcGlzLmNvbS9nb29nbGUuaWRlbnRpdHkuaWRlbnRpdHl0b29sa2l0LnYxLklkZW50aXR5VG9vbGtpdCIsImV4cCI6MTc5MjU5MDc0NywiaWF0IjoxNzkyNTg3MTQ3LCJzdWIiOiIxMDk3NDg1Mzk4ODkwLWNvbXB1dGVAZGV2ZWxvcGVyLmdzZXJ2aWNlYWNjb3VudC5jb20iLCJ1aWQiOiJQVE44Sk8xcEx6WTJzbmRENlV5VVVMTHRHVkMzIn0.B9fCJaTVxFDEMFlsOrtByDE66TYNfLvHQ9j07PhAPnFrFrX1EAi4E6vJuIbxBVJ-fHCPjprAwepnP3MqVV9M03bJ6kVgwnvGzy5H4K9hWE_fSRblYPvY-dSZjnvNTeZhh9KCyWxhI-C-hlazOrHPHplehL1-KLWtBl6phxcZy2guc0umEMPf3r0a0-SsT6Eb-UC_xTDriwffPRJ7qUE5ujgBd4p39zYQtutEtZ44dfUUvqxg2QuurbjLs_CZDBog9SgiaPayozm3hPen1kO04qx7XDjkewBXYobLTkazMRO6Z_YB6PCKD2wQG8cS4pZQ2CTqqoBPYg9vvuYaeni2HQ&profile=male#i_waste_more_time_deciding_what_to_clean_than_actually_cleaning",
+      "path": "/qs/cleaning-game",
+      "title": "Do you relate to the statement below?",
+      "kind": "question",
+      "text": "Do you relate to the statement below?\n👎\nNo\n🤷\nNeutral\n👍\nYes",
+      "textHash": "7257ac291881",
+      "dhash": "1011001011110000111010001110000011110000000001001011001010110010",
+      "h": 844,
+      "prices": [],
+      "action": {
+        "opt": "👍 Yes"
+      }
+    },
+    {
+      "n": 15,
+      "file": "15.webp",
+      "url": "https://my-chillio.com/qs/cleaning-game?utm_source=CHI_web_fb&utm_campaign=%7B%7Bcampaign.name%7D%7D&utm_content=%7B%7Badset.name%7D%7D&utm_ad=%7B%7Bad.name%7D%7D&utm_id=%7B%7Bcampaign.id%7D%7D&utm_term=%7B%7Badset.id%7D%7D&ad_id=%7B%7Bad.id%7D%7D&quizName=cleaning-game&customToken=eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiIxMDk3NDg1Mzk4ODkwLWNvbXB1dGVAZGV2ZWxvcGVyLmdzZXJ2aWNlYWNjb3VudC5jb20iLCJhdWQiOiJodHRwczovL2lkZW50aXR5dG9vbGtpdC5nb29nbGVhcGlzLmNvbS9nb29nbGUuaWRlbnRpdHkuaWRlbnRpdHl0b29sa2l0LnYxLklkZW50aXR5VG9vbGtpdCIsImV4cCI6MTc5MjU5MDc0NywiaWF0IjoxNzkyNTg3MTQ3LCJzdWIiOiIxMDk3NDg1Mzk4ODkwLWNvbXB1dGVAZGV2ZWxvcGVyLmdzZXJ2aWNlYWNjb3VudC5jb20iLCJ1aWQiOiJQVE44Sk8xcEx6WTJzbmRENlV5VVVMTHRHVkMzIn0.B9fCJaTVxFDEMFlsOrtByDE66TYNfLvHQ9j07PhAPnFrFrX1EAi4E6vJuIbxBVJ-fHCPjprAwepnP3MqVV9M03bJ6kVgwnvGzy5H4K9hWE_fSRblYPvY-dSZjnvNTeZhh9KCyWxhI-C-hlazOrHPHplehL1-KLWtBl6phxcZy2guc0umEMPf3r0a0-SsT6Eb-UC_xTDriwffPRJ7qUE5ujgBd4p39zYQtutEtZ44dfUUvqxg2QuurbjLs_CZDBog9SgiaPayozm3hPen1kO04qx7XDjkewBXYobLTkazMRO6Z_YB6PCKD2wQG8cS4pZQ2CTqqoBPYg9vvuYaeni2HQ&profile=male#i_keep_a_running_list_in_my_head_and_it_never_gets_shorter",
+      "path": "/qs/cleaning-game",
+      "title": "Do you relate to the statement below?",
+      "kind": "question",
+      "text": "Do you relate to the statement below?\n👎\nNo\n🤷\nNeutral\n👍\nYes",
+      "textHash": "d6c3f261ec8d",
+      "dhash": "1011001011110000111010001110000011100000000011001011001010110010",
+      "h": 844,
+      "prices": [],
+      "action": {
+        "opt": "👍 Yes"
+      }
+    },
+    {
+      "n": 16,
+      "file": "16.webp",
+      "url": "https://my-chillio.com/qs/cleaning-game?utm_source=CHI_web_fb&utm_campaign=%7B%7Bcampaign.name%7D%7D&utm_content=%7B%7Badset.name%7D%7D&utm_ad=%7B%7Bad.name%7D%7D&utm_id=%7B%7Bcampaign.id%7D%7D&utm_term=%7B%7Badset.id%7D%7D&ad_id=%7B%7Bad.id%7D%7D&quizName=cleaning-game&customToken=eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiIxMDk3NDg1Mzk4ODkwLWNvbXB1dGVAZGV2ZWxvcGVyLmdzZXJ2aWNlYWNjb3VudC5jb20iLCJhdWQiOiJodHRwczovL2lkZW50aXR5dG9vbGtpdC5nb29nbGVhcGlzLmNvbS9nb29nbGUuaWRlbnRpdHkuaWRlbnRpdHl0b29sa2l0LnYxLklkZW50aXR5VG9vbGtpdCIsImV4cCI6MTc5MjU5MDc0NywiaWF0IjoxNzkyNTg3MTQ3LCJzdWIiOiIxMDk3NDg1Mzk4ODkwLWNvbXB1dGVAZGV2ZWxvcGVyLmdzZXJ2aWNlYWNjb3VudC5jb20iLCJ1aWQiOiJQVE44Sk8xcEx6WTJzbmRENlV5VVVMTHRHVkMzIn0.B9fCJaTVxFDEMFlsOrtByDE66TYNfLvHQ9j07PhAPnFrFrX1EAi4E6vJuIbxBVJ-fHCPjprAwepnP3MqVV9M03bJ6kVgwnvGzy5H4K9hWE_fSRblYPvY-dSZjnvNTeZhh9KCyWxhI-C-hlazOrHPHplehL1-KLWtBl6phxcZy2guc0umEMPf3r0a0-SsT6Eb-UC_xTDriwffPRJ7qUE5ujgBd4p39zYQtutEtZ44dfUUvqxg2QuurbjLs_CZDBog9SgiaPayozm3hPen1kO04qx7XDjkewBXYobLTkazMRO6Z_YB6PCKD2wQG8cS4pZQ2CTqqoBPYg9vvuYaeni2HQ&profile=male#at_the_end_of_the_day_i_often_regret_not_getting_more_done",
+      "path": "/qs/cleaning-game",
+      "title": "Do you relate to the statement below?",
+      "kind": "question",
+      "text": "Do you relate to the statement below?\n👎\nNo\n🤷\nNeutral\n👍\nYes",
+      "textHash": "1a1fb00f2170",
+      "dhash": "1011001011110000110010001100000011100000000010001011001010110010",
+      "h": 844,
+      "prices": [],
+      "action": {
+        "opt": "👍 Yes"
+      }
+    },
+    {
+      "n": 17,
+      "file": "17.webp",
+      "url": "https://my-chillio.com/qs/cleaning-game?utm_source=CHI_web_fb&utm_campaign=%7B%7Bcampaign.name%7D%7D&utm_content=%7B%7Badset.name%7D%7D&utm_ad=%7B%7Bad.name%7D%7D&utm_id=%7B%7Bcampaign.id%7D%7D&utm_term=%7B%7Badset.id%7D%7D&ad_id=%7B%7Bad.id%7D%7D&quizName=cleaning-game&customToken=eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiIxMDk3NDg1Mzk4ODkwLWNvbXB1dGVAZGV2ZWxvcGVyLmdzZXJ2aWNlYWNjb3VudC5jb20iLCJhdWQiOiJodHRwczovL2lkZW50aXR5dG9vbGtpdC5nb29nbGVhcGlzLmNvbS9nb29nbGUuaWRlbnRpdHkuaWRlbnRpdHl0b29sa2l0LnYxLklkZW50aXR5VG9vbGtpdCIsImV4cCI6MTc5MjU5MDc0NywiaWF0IjoxNzkyNTg3MTQ3LCJzdWIiOiIxMDk3NDg1Mzk4ODkwLWNvbXB1dGVAZGV2ZWxvcGVyLmdzZXJ2aWNlYWNjb3VudC5jb20iLCJ1aWQiOiJQVE44Sk8xcEx6WTJzbmRENlV5VVVMTHRHVkMzIn0.B9fCJaTVxFDEMFlsOrtByDE66TYNfLvHQ9j07PhAPnFrFrX1EAi4E6vJuIbxBVJ-fHCPjprAwepnP3MqVV9M03bJ6kVgwnvGzy5H4K9hWE_fSRblYPvY-dSZjnvNTeZhh9KCyWxhI-C-hlazOrHPHplehL1-KLWtBl6phxcZy2guc0umEMPf3r0a0-SsT6Eb-UC_xTDriwffPRJ7qUE5ujgBd4p39zYQtutEtZ44dfUUvqxg2QuurbjLs_CZDBog9SgiaPayozm3hPen1kO04qx7XDjkewBXYobLTkazMRO6Z_YB6PCKD2wQG8cS4pZQ2CTqqoBPYg9vvuYaeni2HQ&profile=male#i_find_myself_stuck_in_unhealthy_routines_that_are_hard_to_break",
+      "path": "/qs/cleaning-game",
+      "title": "Do you relate to the statement below?",
+      "kind": "question",
+      "text": "Do you relate to the statement below?\n👎\nNo\n🤷\nNeutral\n👍\nYes",
+      "textHash": "7eef0caee5b6",
+      "dhash": "1011001011110000111000001110000011001100000010001011001010110010",
+      "h": 844,
+      "prices": [],
+      "action": {
+        "opt": "👍 Yes"
+      }
+    },
+    {
+      "n": 18,
+      "file": "18.webp",
+      "url": "https://my-chillio.com/qs/cleaning-game?utm_source=CHI_web_fb&utm_campaign=%7B%7Bcampaign.name%7D%7D&utm_content=%7B%7Badset.name%7D%7D&utm_ad=%7B%7Bad.name%7D%7D&utm_id=%7B%7Bcampaign.id%7D%7D&utm_term=%7B%7Badset.id%7D%7D&ad_id=%7B%7Bad.id%7D%7D&quizName=cleaning-game&customToken=eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiIxMDk3NDg1Mzk4ODkwLWNvbXB1dGVAZGV2ZWxvcGVyLmdzZXJ2aWNlYWNjb3VudC5jb20iLCJhdWQiOiJodHRwczovL2lkZW50aXR5dG9vbGtpdC5nb29nbGVhcGlzLmNvbS9nb29nbGUuaWRlbnRpdHkuaWRlbnRpdHl0b29sa2l0LnYxLklkZW50aXR5VG9vbGtpdCIsImV4cCI6MTc5MjU5MDc0NywiaWF0IjoxNzkyNTg3MTQ3LCJzdWIiOiIxMDk3NDg1Mzk4ODkwLWNvbXB1dGVAZGV2ZWxvcGVyLmdzZXJ2aWNlYWNjb3VudC5jb20iLCJ1aWQiOiJQVE44Sk8xcEx6WTJzbmRENlV5VVVMTHRHVkMzIn0.B9fCJaTVxFDEMFlsOrtByDE66TYNfLvHQ9j07PhAPnFrFrX1EAi4E6vJuIbxBVJ-fHCPjprAwepnP3MqVV9M03bJ6kVgwnvGzy5H4K9hWE_fSRblYPvY-dSZjnvNTeZhh9KCyWxhI-C-hlazOrHPHplehL1-KLWtBl6phxcZy2guc0umEMPf3r0a0-SsT6Eb-UC_xTDriwffPRJ7qUE5ujgBd4p39zYQtutEtZ44dfUUvqxg2QuurbjLs_CZDBog9SgiaPayozm3hPen1kO04qx7XDjkewBXYobLTkazMRO6Z_YB6PCKD2wQG8cS4pZQ2CTqqoBPYg9vvuYaeni2HQ&profile=male#i_get_anxious_when_i_have_too_much_to_do_and_dont_know_where_to_begin",
+      "path": "/qs/cleaning-game",
+      "title": "Do you relate to the statement below?",
+      "kind": "question",
+      "text": "Do you relate to the statement below?\n👎\nNo\n🤷\nNeutral\n👍\nYes",
+      "textHash": "2caad8d7fefc",
+      "dhash": "1011001011110000110000001111000010000100000010001011001010110010",
+      "h": 844,
+      "prices": [],
+      "action": {
+        "opt": "👍 Yes"
+      }
+    },
+    {
+      "n": 19,
+      "file": "19.webp",
+      "url": "https://my-chillio.com/qs/cleaning-game?utm_source=CHI_web_fb&utm_campaign=%7B%7Bcampaign.name%7D%7D&utm_content=%7B%7Badset.name%7D%7D&utm_ad=%7B%7Bad.name%7D%7D&utm_id=%7B%7Bcampaign.id%7D%7D&utm_term=%7B%7Badset.id%7D%7D&ad_id=%7B%7Bad.id%7D%7D&quizName=cleaning-game&customToken=eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiIxMDk3NDg1Mzk4ODkwLWNvbXB1dGVAZGV2ZWxvcGVyLmdzZXJ2aWNlYWNjb3VudC5jb20iLCJhdWQiOiJodHRwczovL2lkZW50aXR5dG9vbGtpdC5nb29nbGVhcGlzLmNvbS9nb29nbGUuaWRlbnRpdHkuaWRlbnRpdHl0b29sa2l0LnYxLklkZW50aXR5VG9vbGtpdCIsImV4cCI6MTc5MjU5MDc0NywiaWF0IjoxNzkyNTg3MTQ3LCJzdWIiOiIxMDk3NDg1Mzk4ODkwLWNvbXB1dGVAZGV2ZWxvcGVyLmdzZXJ2aWNlYWNjb3VudC5jb20iLCJ1aWQiOiJQVE44Sk8xcEx6WTJzbmRENlV5VVVMTHRHVkMzIn0.B9fCJaTVxFDEMFlsOrtByDE66TYNfLvHQ9j07PhAPnFrFrX1EAi4E6vJuIbxBVJ-fHCPjprAwepnP3MqVV9M03bJ6kVgwnvGzy5H4K9hWE_fSRblYPvY-dSZjnvNTeZhh9KCyWxhI-C-hlazOrHPHplehL1-KLWtBl6phxcZy2guc0umEMPf3r0a0-SsT6Eb-UC_xTDriwffPRJ7qUE5ujgBd4p39zYQtutEtZ44dfUUvqxg2QuurbjLs_CZDBog9SgiaPayozm3hPen1kO04qx7XDjkewBXYobLTkazMRO6Z_YB6PCKD2wQG8cS4pZQ2CTqqoBPYg9vvuYaeni2HQ&profile=male#i_tend_to_avoid_cleaning_until_its_truly_necessary",
+      "path": "/qs/cleaning-game",
+      "title": "Do you relate to the statement below?",
+      "kind": "question",
+      "text": "Do you relate to the statement below?\n👎\nNo\n🤷\nNeutral\n👍\nYes",
+      "textHash": "6ab16d261476",
+      "dhash": "1011001011110000111000001110000010010000000010001011001010110010",
+      "h": 844,
+      "prices": [],
+      "action": {
+        "opt": "👍 Yes"
+      }
+    },
+    {
+      "n": 20,
+      "file": "20.webp",
+      "url": "https://my-chillio.com/qs/cleaning-game?utm_source=CHI_web_fb&utm_campaign=%7B%7Bcampaign.name%7D%7D&utm_content=%7B%7Badset.name%7D%7D&utm_ad=%7B%7Bad.name%7D%7D&utm_id=%7B%7Bcampaign.id%7D%7D&utm_term=%7B%7Badset.id%7D%7D&ad_id=%7B%7Bad.id%7D%7D&quizName=cleaning-game&customToken=eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiIxMDk3NDg1Mzk4ODkwLWNvbXB1dGVAZGV2ZWxvcGVyLmdzZXJ2aWNlYWNjb3VudC5jb20iLCJhdWQiOiJodHRwczovL2lkZW50aXR5dG9vbGtpdC5nb29nbGVhcGlzLmNvbS9nb29nbGUuaWRlbnRpdHkuaWRlbnRpdHl0b29sa2l0LnYxLklkZW50aXR5VG9vbGtpdCIsImV4cCI6MTc5MjU5MDc0NywiaWF0IjoxNzkyNTg3MTQ3LCJzdWIiOiIxMDk3NDg1Mzk4ODkwLWNvbXB1dGVAZGV2ZWxvcGVyLmdzZXJ2aWNlYWNjb3VudC5jb20iLCJ1aWQiOiJQVE44Sk8xcEx6WTJzbmRENlV5VVVMTHRHVkMzIn0.B9fCJaTVxFDEMFlsOrtByDE66TYNfLvHQ9j07PhAPnFrFrX1EAi4E6vJuIbxBVJ-fHCPjprAwepnP3MqVV9M03bJ6kVgwnvGzy5H4K9hWE_fSRblYPvY-dSZjnvNTeZhh9KCyWxhI-C-hlazOrHPHplehL1-KLWtBl6phxcZy2guc0umEMPf3r0a0-SsT6Eb-UC_xTDriwffPRJ7qUE5ujgBd4p39zYQtutEtZ44dfUUvqxg2QuurbjLs_CZDBog9SgiaPayozm3hPen1kO04qx7XDjkewBXYobLTkazMRO6Z_YB6PCKD2wQG8cS4pZQ2CTqqoBPYg9vvuYaeni2HQ&profile=male#summary_of_your_cleaning_personality_profile",
+      "path": "/qs/cleaning-game",
+      "title": "Summary of your Personality Profile",
+      "kind": "info",
+      "text": "Summary of your Personality Profile\nOverthinking and procrastination play a big role in how you manage your home\nContinue",
+      "textHash": "ec9ea2dbaa09",
+      "dhash": "1011001010110000110111001100010011101110111010001000011010001110",
+      "h": 844,
+      "prices": [],
+      "action": {
+        "cta": "Continue"
+      }
+    },
+    {
+      "n": 21,
+      "file": "21.webp",
+      "url": "https://my-chillio.com/qs/cleaning-game?utm_source=CHI_web_fb&utm_campaign=%7B%7Bcampaign.name%7D%7D&utm_content=%7B%7Badset.name%7D%7D&utm_ad=%7B%7Bad.name%7D%7D&utm_id=%7B%7Bcampaign.id%7D%7D&utm_term=%7B%7Badset.id%7D%7D&ad_id=%7B%7Bad.id%7D%7D&quizName=cleaning-game&customToken=eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiIxMDk3NDg1Mzk4ODkwLWNvbXB1dGVAZGV2ZWxvcGVyLmdzZXJ2aWNlYWNjb3VudC5jb20iLCJhdWQiOiJodHRwczovL2lkZW50aXR5dG9vbGtpdC5nb29nbGVhcGlzLmNvbS9nb29nbGUuaWRlbnRpdHkuaWRlbnRpdHl0b29sa2l0LnYxLklkZW50aXR5VG9vbGtpdCIsImV4cCI6MTc5MjU5MDc0NywiaWF0IjoxNzkyNTg3MTQ3LCJzdWIiOiIxMDk3NDg1Mzk4ODkwLWNvbXB1dGVAZGV2ZWxvcGVyLmdzZXJ2aWNlYWNjb3VudC5jb20iLCJ1aWQiOiJQVE44Sk8xcEx6WTJzbmRENlV5VVVMTHRHVkMzIn0.B9fCJaTVxFDEMFlsOrtByDE66TYNfLvHQ9j07PhAPnFrFrX1EAi4E6vJuIbxBVJ-fHCPjprAwepnP3MqVV9M03bJ6kVgwnvGzy5H4K9hWE_fSRblYPvY-dSZjnvNTeZhh9KCyWxhI-C-hlazOrHPHplehL1-KLWtBl6phxcZy2guc0umEMPf3r0a0-SsT6Eb-UC_xTDriwffPRJ7qUE5ujgBd4p39zYQtutEtZ44dfUUvqxg2QuurbjLs_CZDBog9SgiaPayozm3hPen1kO04qx7XDjkewBXYobLTkazMRO6Z_YB6PCKD2wQG8cS4pZQ2CTqqoBPYg9vvuYaeni2HQ&profile=male#what_habits_would_you_like_to_start",
+      "path": "/qs/cleaning-game",
+      "title": "What habits would you like to start?",
+      "kind": "question",
+      "text": "What habits would you like to start?\nChoose all that apply\n🛏️ Make my bed\n🧹 Tidy up daily\n🧺 Do laundry regularly\n🍳 Plan meals ahead\n🛒 Stay on top of groceries\n🌙 Clean before bed\n😊 Other\nContinue",
+      "textHash": "ac51b42efc35",
+      "dhash": "1011000011110000110010011010000110000001100001010101000010110010",
+      "h": 844,
+      "prices": [],
+      "action": {
+        "opt": "🛏️ Make my bed",
+        "cta": "Continue"
+      }
+    },
+    {
+      "n": 22,
+      "file": "22.webp",
+      "url": "https://my-chillio.com/qs/cleaning-game?utm_source=CHI_web_fb&utm_campaign=%7B%7Bcampaign.name%7D%7D&utm_content=%7B%7Badset.name%7D%7D&utm_ad=%7B%7Bad.name%7D%7D&utm_id=%7B%7Bcampaign.id%7D%7D&utm_term=%7B%7Badset.id%7D%7D&ad_id=%7B%7Bad.id%7D%7D&quizName=cleaning-game&customToken=eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiIxMDk3NDg1Mzk4ODkwLWNvbXB1dGVAZGV2ZWxvcGVyLmdzZXJ2aWNlYWNjb3VudC5jb20iLCJhdWQiOiJodHRwczovL2lkZW50aXR5dG9vbGtpdC5nb29nbGVhcGlzLmNvbS9nb29nbGUuaWRlbnRpdHkuaWRlbnRpdHl0b29sa2l0LnYxLklkZW50aXR5VG9vbGtpdCIsImV4cCI6MTc5MjU5MDc0NywiaWF0IjoxNzkyNTg3MTQ3LCJzdWIiOiIxMDk3NDg1Mzk4ODkwLWNvbXB1dGVAZGV2ZWxvcGVyLmdzZXJ2aWNlYWNjb3VudC5jb20iLCJ1aWQiOiJQVE44Sk8xcEx6WTJzbmRENlV5VVVMTHRHVkMzIn0.B9fCJaTVxFDEMFlsOrtByDE66TYNfLvHQ9j07PhAPnFrFrX1EAi4E6vJuIbxBVJ-fHCPjprAwepnP3MqVV9M03bJ6kVgwnvGzy5H4K9hWE_fSRblYPvY-dSZjnvNTeZhh9KCyWxhI-C-hlazOrHPHplehL1-KLWtBl6phxcZy2guc0umEMPf3r0a0-SsT6Eb-UC_xTDriwffPRJ7qUE5ujgBd4p39zYQtutEtZ44dfUUvqxg2QuurbjLs_CZDBog9SgiaPayozm3hPen1kO04qx7XDjkewBXYobLTkazMRO6Z_YB6PCKD2wQG8cS4pZQ2CTqqoBPYg9vvuYaeni2HQ&profile=male#what_habits_would_you_like_to_break",
+      "path": "/qs/cleaning-game",
+      "title": "What habits would you like to break?",
+      "kind": "question",
+      "text": "What habits would you like to break?\nChoose all that apply\n🍽️ Piling up dishes\n🧺 Leaving laundry around\n🧳 Letting clutter grow\n🚫 Skipping chores\n🔁 All-or-nothing approach\n😊 Other\nContinue",
+      "textHash": "fb5b48c4e1e1",
+      "dhash": "1011000011110000110000011000000110000001100001000010000010110010",
+      "h": 844,
+      "prices": [],
+      "action": {
+        "opt": "🍽️ Piling up dishes",
+        "cta": "Continue"
+      }
+    },
+    {
+      "n": 23,
+      "file": "23.webp",
+      "url": "https://my-chillio.com/qs/cleaning-game?utm_source=CHI_web_fb&utm_campaign=%7B%7Bcampaign.name%7D%7D&utm_content=%7B%7Badset.name%7D%7D&utm_ad=%7B%7Bad.name%7D%7D&utm_id=%7B%7Bcampaign.id%7D%7D&utm_term=%7B%7Badset.id%7D%7D&ad_id=%7B%7Bad.id%7D%7D&quizName=cleaning-game&customToken=eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiIxMDk3NDg1Mzk4ODkwLWNvbXB1dGVAZGV2ZWxvcGVyLmdzZXJ2aWNlYWNjb3VudC5jb20iLCJhdWQiOiJodHRwczovL2lkZW50aXR5dG9vbGtpdC5nb29nbGVhcGlzLmNvbS9nb29nbGUuaWRlbnRpdHkuaWRlbnRpdHl0b29sa2l0LnYxLklkZW50aXR5VG9vbGtpdCIsImV4cCI6MTc5MjU5MDc0NywiaWF0IjoxNzkyNTg3MTQ3LCJzdWIiOiIxMDk3NDg1Mzk4ODkwLWNvbXB1dGVAZGV2ZWxvcGVyLmdzZXJ2aWNlYWNjb3VudC5jb20iLCJ1aWQiOiJQVE44Sk8xcEx6WTJzbmRENlV5VVVMTHRHVkMzIn0.B9fCJaTVxFDEMFlsOrtByDE66TYNfLvHQ9j07PhAPnFrFrX1EAi4E6vJuIbxBVJ-fHCPjprAwepnP3MqVV9M03bJ6kVgwnvGzy5H4K9hWE_fSRblYPvY-dSZjnvNTeZhh9KCyWxhI-C-hlazOrHPHplehL1-KLWtBl6phxcZy2guc0umEMPf3r0a0-SsT6Eb-UC_xTDriwffPRJ7qUE5ujgBd4p39zYQtutEtZ44dfUUvqxg2QuurbjLs_CZDBog9SgiaPayozm3hPen1kO04qx7XDjkewBXYobLTkazMRO6Z_YB6PCKD2wQG8cS4pZQ2CTqqoBPYg9vvuYaeni2HQ&profile=male#what_would_make_your_plan_more_fun_or_helpful",
+      "path": "/qs/cleaning-game",
+      "title": "What would make your plan more fun or helpful?",
+      "kind": "question",
+      "text": "What would make your plan more fun or helpful?\nChoose all that apply\n🎯 Get points for tasks\n📈 Track my progress\n📘 Learn something new\n🙌 Get encouragement\n😌 Other\nContinue",
+      "textHash": "d5fce46a9161",
+      "dhash": "1011000011101000101000011010001110000000010000000000000010110010",
+      "h": 844,
+      "prices": [],
+      "action": {
+        "opt": "🎯 Get points for tasks",
+        "cta": "Continue"
+      }
+    },
+    {
+      "n": 24,
+      "file": "24.webp",
+      "url": "https://my-chillio.com/qs/cleaning-game?utm_source=CHI_web_fb&utm_campaign=%7B%7Bcampaign.name%7D%7D&utm_content=%7B%7Badset.name%7D%7D&utm_ad=%7B%7Bad.name%7D%7D&utm_id=%7B%7Bcampaign.id%7D%7D&utm_term=%7B%7Badset.id%7D%7D&ad_id=%7B%7Bad.id%7D%7D&quizName=cleaning-game&customToken=eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiIxMDk3NDg1Mzk4ODkwLWNvbXB1dGVAZGV2ZWxvcGVyLmdzZXJ2aWNlYWNjb3VudC5jb20iLCJhdWQiOiJodHRwczovL2lkZW50aXR5dG9vbGtpdC5nb29nbGVhcGlzLmNvbS9nb29nbGUuaWRlbnRpdHkuaWRlbnRpdHl0b29sa2l0LnYxLklkZW50aXR5VG9vbGtpdCIsImV4cCI6MTc5MjU5MDc0NywiaWF0IjoxNzkyNTg3MTQ3LCJzdWIiOiIxMDk3NDg1Mzk4ODkwLWNvbXB1dGVAZGV2ZWxvcGVyLmdzZXJ2aWNlYWNjb3VudC5jb20iLCJ1aWQiOiJQVE44Sk8xcEx6WTJzbmRENlV5VVVMTHRHVkMzIn0.B9fCJaTVxFDEMFlsOrtByDE66TYNfLvHQ9j07PhAPnFrFrX1EAi4E6vJuIbxBVJ-fHCPjprAwepnP3MqVV9M03bJ6kVgwnvGzy5H4K9hWE_fSRblYPvY-dSZjnvNTeZhh9KCyWxhI-C-hlazOrHPHplehL1-KLWtBl6phxcZy2guc0umEMPf3r0a0-SsT6Eb-UC_xTDriwffPRJ7qUE5ujgBd4p39zYQtutEtZ44dfUUvqxg2QuurbjLs_CZDBog9SgiaPayozm3hPen1kO04qx7XDjkewBXYobLTkazMRO6Z_YB6PCKD2wQG8cS4pZQ2CTqqoBPYg9vvuYaeni2HQ&profile=male#chillio_is_building_a_daily_routine_you_ll_actually_enjoy",
+      "path": "/qs/cleaning-game",
+      "title": "Chillio is building a daily routine you’ll actually enjoy",
+      "kind": "loader",
+      "text": "Chillio is building a daily routine you’ll actually enjoy\nFun, rewarding, and designed to make progress feel effortless — no stress, just good vibes.\nLet’s go!",
+      "textHash": "3bb9d439a7a8",
+      "dhash": "1011000011001000101101101101100011011000100001101000100010001110",
+      "h": 844,
+      "prices": [],
+      "action": {
+        "opt": "Let’s go!"
+      }
+    },
+    {
+      "n": 25,
+      "file": "25.webp",
+      "url": "https://my-chillio.com/qs/cleaning-game?utm_source=CHI_web_fb&utm_campaign=%7B%7Bcampaign.name%7D%7D&utm_content=%7B%7Badset.name%7D%7D&utm_ad=%7B%7Bad.name%7D%7D&utm_id=%7B%7Bcampaign.id%7D%7D&utm_term=%7B%7Badset.id%7D%7D&ad_id=%7B%7Bad.id%7D%7D&quizName=cleaning-game&customToken=eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiIxMDk3NDg1Mzk4ODkwLWNvbXB1dGVAZGV2ZWxvcGVyLmdzZXJ2aWNlYWNjb3VudC5jb20iLCJhdWQiOiJodHRwczovL2lkZW50aXR5dG9vbGtpdC5nb29nbGVhcGlzLmNvbS9nb29nbGUuaWRlbnRpdHkuaWRlbnRpdHl0b29sa2l0LnYxLklkZW50aXR5VG9vbGtpdCIsImV4cCI6MTc5MjU5MDc0NywiaWF0IjoxNzkyNTg3MTQ3LCJzdWIiOiIxMDk3NDg1Mzk4ODkwLWNvbXB1dGVAZGV2ZWxvcGVyLmdzZXJ2aWNlYWNjb3VudC5jb20iLCJ1aWQiOiJQVE44Sk8xcEx6WTJzbmRENlV5VVVMTHRHVkMzIn0.B9fCJaTVxFDEMFlsOrtByDE66TYNfLvHQ9j07PhAPnFrFrX1EAi4E6vJuIbxBVJ-fHCPjprAwepnP3MqVV9M03bJ6kVgwnvGzy5H4K9hWE_fSRblYPvY-dSZjnvNTeZhh9KCyWxhI-C-hlazOrHPHplehL1-KLWtBl6phxcZy2guc0umEMPf3r0a0-SsT6Eb-UC_xTDriwffPRJ7qUE5ujgBd4p39zYQtutEtZ44dfUUvqxg2QuurbjLs_CZDBog9SgiaPayozm3hPen1kO04qx7XDjkewBXYobLTkazMRO6Z_YB6PCKD2wQG8cS4pZQ2CTqqoBPYg9vvuYaeni2HQ&profile=male#move_now_become_the_best_version_of_yourself",
+      "path": "/qs/cleaning-game",
+      "title": "Move now! Become the best version of yourself",
+      "kind": "info",
+      "text": "Move now! Become the best version of yourself\nResults may vary. Illustrated for reference only.\nContinue",
+      "textHash": "12ee8ad2b392",
+      "dhash": "1011000011001100110011001100110010001000010001001000101010001110",
+      "h": 844,
+      "prices": [],
+      "action": {
+        "cta": "Continue"
+      }
+    },
+    {
+      "n": 26,
+      "file": "26.webp",
+      "url": "https://my-chillio.com/qs/cleaning-game?utm_source=CHI_web_fb&utm_campaign=%7B%7Bcampaign.name%7D%7D&utm_content=%7B%7Badset.name%7D%7D&utm_ad=%7B%7Bad.name%7D%7D&utm_id=%7B%7Bcampaign.id%7D%7D&utm_term=%7B%7Badset.id%7D%7D&ad_id=%7B%7Bad.id%7D%7D&quizName=cleaning-game&customToken=eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiIxMDk3NDg1Mzk4ODkwLWNvbXB1dGVAZGV2ZWxvcGVyLmdzZXJ2aWNlYWNjb3VudC5jb20iLCJhdWQiOiJodHRwczovL2lkZW50aXR5dG9vbGtpdC5nb29nbGVhcGlzLmNvbS9nb29nbGUuaWRlbnRpdHkuaWRlbnRpdHl0b29sa2l0LnYxLklkZW50aXR5VG9vbGtpdCIsImV4cCI6MTc5MjU5MDc0NywiaWF0IjoxNzkyNTg3MTQ3LCJzdWIiOiIxMDk3NDg1Mzk4ODkwLWNvbXB1dGVAZGV2ZWxvcGVyLmdzZXJ2aWNlYWNjb3VudC5jb20iLCJ1aWQiOiJQVE44Sk8xcEx6WTJzbmRENlV5VVVMTHRHVkMzIn0.B9fCJaTVxFDEMFlsOrtByDE66TYNfLvHQ9j07PhAPnFrFrX1EAi4E6vJuIbxBVJ-fHCPjprAwepnP3MqVV9M03bJ6kVgwnvGzy5H4K9hWE_fSRblYPvY-dSZjnvNTeZhh9KCyWxhI-C-hlazOrHPHplehL1-KLWtBl6phxcZy2guc0umEMPf3r0a0-SsT6Eb-UC_xTDriwffPRJ7qUE5ujgBd4p39zYQtutEtZ44dfUUvqxg2QuurbjLs_CZDBog9SgiaPayozm3hPen1kO04qx7XDjkewBXYobLTkazMRO6Z_YB6PCKD2wQG8cS4pZQ2CTqqoBPYg9vvuYaeni2HQ&profile=male#how_do_you_want_to_feel_at_home",
+      "path": "/qs/cleaning-game",
+      "title": "How do you want to feel at home?",
+      "kind": "question",
+      "text": "How do you want to feel at home?\nChoose all that apply\n😌 Calm\n👏 Proud\n✅ In control\n🏡 Comfortable\n✨ Motivated\nContinue",
+      "textHash": "e19c26fc47dc",
+      "dhash": "1011000010101000100001011100000110000000000000000000000010110010",
+      "h": 844,
+      "prices": [],
+      "action": {
+        "opt": "😌 Calm",
+        "cta": "Continue"
+      }
+    },
+    {
+      "n": 27,
+      "file": "27.webp",
+      "url": "https://my-chillio.com/qs/cleaning-game?utm_source=CHI_web_fb&utm_campaign=%7B%7Bcampaign.name%7D%7D&utm_content=%7B%7Badset.name%7D%7D&utm_ad=%7B%7Bad.name%7D%7D&utm_id=%7B%7Bcampaign.id%7D%7D&utm_term=%7B%7Badset.id%7D%7D&ad_id=%7B%7Bad.id%7D%7D&quizName=cleaning-game&customToken=eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiIxMDk3NDg1Mzk4ODkwLWNvbXB1dGVAZGV2ZWxvcGVyLmdzZXJ2aWNlYWNjb3VudC5jb20iLCJhdWQiOiJodHRwczovL2lkZW50aXR5dG9vbGtpdC5nb29nbGVhcGlzLmNvbS9nb29nbGUuaWRlbnRpdHkuaWRlbnRpdHl0b29sa2l0LnYxLklkZW50aXR5VG9vbGtpdCIsImV4cCI6MTc5MjU5MDc0NywiaWF0IjoxNzkyNTg3MTQ3LCJzdWIiOiIxMDk3NDg1Mzk4ODkwLWNvbXB1dGVAZGV2ZWxvcGVyLmdzZXJ2aWNlYWNjb3VudC5jb20iLCJ1aWQiOiJQVE44Sk8xcEx6WTJzbmRENlV5VVVMTHRHVkMzIn0.B9fCJaTVxFDEMFlsOrtByDE66TYNfLvHQ9j07PhAPnFrFrX1EAi4E6vJuIbxBVJ-fHCPjprAwepnP3MqVV9M03bJ6kVgwnvGzy5H4K9hWE_fSRblYPvY-dSZjnvNTeZhh9KCyWxhI-C-hlazOrHPHplehL1-KLWtBl6phxcZy2guc0umEMPf3r0a0-SsT6Eb-UC_xTDriwffPRJ7qUE5ujgBd4p39zYQtutEtZ44dfUUvqxg2QuurbjLs_CZDBog9SgiaPayozm3hPen1kO04qx7XDjkewBXYobLTkazMRO6Z_YB6PCKD2wQG8cS4pZQ2CTqqoBPYg9vvuYaeni2HQ&profile=male#dailyCommitment",
+      "path": "/qs/cleaning-game",
+      "title": "How much time can you dedicate daily to achieve your goal?",
+      "kind": "question",
+      "text": "How much time can you dedicate daily to achieve your goal?\n🖐️️ 5 min/day\n🕙️️ 10 min/day\n🧼️️ 15 min/day\n🧽️️ 20 min/day",
+      "textHash": "f01351b78362",
+      "dhash": "1011001011000100110000011100000100100000000000000000000000000000",
+      "h": 844,
+      "prices": [],
+      "action": {
+        "opt": "🖐️️ 5 min/day"
+      }
+    },
+    {
+      "n": 28,
+      "file": "28.webp",
+      "url": "https://my-chillio.com/qs/cleaning-game?utm_source=CHI_web_fb&utm_campaign=%7B%7Bcampaign.name%7D%7D&utm_content=%7B%7Badset.name%7D%7D&utm_ad=%7B%7Bad.name%7D%7D&utm_id=%7B%7Bcampaign.id%7D%7D&utm_term=%7B%7Badset.id%7D%7D&ad_id=%7B%7Bad.id%7D%7D&quizName=cleaning-game&customToken=eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiIxMDk3NDg1Mzk4ODkwLWNvbXB1dGVAZGV2ZWxvcGVyLmdzZXJ2aWNlYWNjb3VudC5jb20iLCJhdWQiOiJodHRwczovL2lkZW50aXR5dG9vbGtpdC5nb29nbGVhcGlzLmNvbS9nb29nbGUuaWRlbnRpdHkuaWRlbnRpdHl0b29sa2l0LnYxLklkZW50aXR5VG9vbGtpdCIsImV4cCI6MTc5MjU5MDc0NywiaWF0IjoxNzkyNTg3MTQ3LCJzdWIiOiIxMDk3NDg1Mzk4ODkwLWNvbXB1dGVAZGV2ZWxvcGVyLmdzZXJ2aWNlYWNjb3VudC5jb20iLCJ1aWQiOiJQVE44Sk8xcEx6WTJzbmRENlV5VVVMTHRHVkMzIn0.B9fCJaTVxFDEMFlsOrtByDE66TYNfLvHQ9j07PhAPnFrFrX1EAi4E6vJuIbxBVJ-fHCPjprAwepnP3MqVV9M03bJ6kVgwnvGzy5H4K9hWE_fSRblYPvY-dSZjnvNTeZhh9KCyWxhI-C-hlazOrHPHplehL1-KLWtBl6phxcZy2guc0umEMPf3r0a0-SsT6Eb-UC_xTDriwffPRJ7qUE5ujgBd4p39zYQtutEtZ44dfUUvqxg2QuurbjLs_CZDBog9SgiaPayozm3hPen1kO04qx7XDjkewBXYobLTkazMRO6Z_YB6PCKD2wQG8cS4pZQ2CTqqoBPYg9vvuYaeni2HQ&profile=male#the_only_app_you_need_to_keep_your_home_running_smoothly",
+      "path": "/qs/cleaning-game",
+      "title": "The only app you need to keep your home running smoothly",
+      "kind": "info",
+      "text": "The only app you need to keep your home running smoothly\nInvest just 5 min a day in small habits — and feel more in control of your space within\n3 months.\nThe chart is a non-customized illustration and results may vary.\nLet’s go!",
+      "textHash": "991590bb903c",
+      "dhash": "1011001011010000111111000111111010000110100001101000001010001110",
+      "h": 844,
+      "prices": [],
+      "action": {
+        "opt": "Let’s go!"
+      }
+    },
+    {
+      "n": 29,
+      "file": "29.webp",
+      "url": "https://my-chillio.com/qs/cleaning-game?utm_source=CHI_web_fb&utm_campaign=%7B%7Bcampaign.name%7D%7D&utm_content=%7B%7Badset.name%7D%7D&utm_ad=%7B%7Bad.name%7D%7D&utm_id=%7B%7Bcampaign.id%7D%7D&utm_term=%7B%7Badset.id%7D%7D&ad_id=%7B%7Bad.id%7D%7D&quizName=cleaning-game&customToken=eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiIxMDk3NDg1Mzk4ODkwLWNvbXB1dGVAZGV2ZWxvcGVyLmdzZXJ2aWNlYWNjb3VudC5jb20iLCJhdWQiOiJodHRwczovL2lkZW50aXR5dG9vbGtpdC5nb29nbGVhcGlzLmNvbS9nb29nbGUuaWRlbnRpdHkuaWRlbnRpdHl0b29sa2l0LnYxLklkZW50aXR5VG9vbGtpdCIsImV4cCI6MTc5MjU5MDc0NywiaWF0IjoxNzkyNTg3MTQ3LCJzdWIiOiIxMDk3NDg1Mzk4ODkwLWNvbXB1dGVAZGV2ZWxvcGVyLmdzZXJ2aWNlYWNjb3VudC5jb20iLCJ1aWQiOiJQVE44Sk8xcEx6WTJzbmRENlV5VVVMTHRHVkMzIn0.B9fCJaTVxFDEMFlsOrtByDE66TYNfLvHQ9j07PhAPnFrFrX1EAi4E6vJuIbxBVJ-fHCPjprAwepnP3MqVV9M03bJ6kVgwnvGzy5H4K9hWE_fSRblYPvY-dSZjnvNTeZhh9KCyWxhI-C-hlazOrHPHplehL1-KLWtBl6phxcZy2guc0umEMPf3r0a0-SsT6Eb-UC_xTDriwffPRJ7qUE5ujgBd4p39zYQtutEtZ44dfUUvqxg2QuurbjLs_CZDBog9SgiaPayozm3hPen1kO04qx7XDjkewBXYobLTkazMRO6Z_YB6PCKD2wQG8cS4pZQ2CTqqoBPYg9vvuYaeni2HQ&profile=male#generating_your_cleaning_plan",
+      "path": "/qs/cleaning-game",
+      "title": "We’re setting up your transformation...",
+      "kind": "social_proof",
+      "text": "We’re setting up your transformation...\nDefining your goals\nTo move forward, specify\nDo you easily stick to plans?\n🌟\nAbsolutely\n☹️️\nNot really\nTrusted by over 250,000 people\nThis app is motivational and it takes...\nErica\nThis app is motivational and it takes the overwhelm out of things I once avoided like the plague until they couldn't be ignored. This app has helped with task paralysis and not knowing where to start.\nTimer Idea, Genius! Thank you!\nRobyn\nI really like the idea of little things to do with a timer, I never thought of that. It makes it less overwhelming for me and I can do little increments throughout the day at my leisure that won't overwhelm me.\nThis app is very helpful in my everyday...\nShon\nThis app is very helpful in my everyday life. Easy to understand and implement. I'm better understanding the way my mind works now. Thank you.\nTaking baby steps works for me\nAnnette\nGiving myself permission to take baby steps each day towards cleaning the clutter has been a huge help. I feel like decluttering is more doable now.\nFeatured reviews from Trustpilot.",
+      "textHash": "838ef0b05984",
+      "dhash": "0011001110000010011001010111000101110001000000011000000001000010",
+      "h": 844,
+      "prices": [],
+      "action": {
+        "opt": "🌟 Absolutely"
+      }
+    },
+    {
+      "n": 30,
+      "file": "30.webp",
+      "url": "https://my-chillio.com/qs/cleaning-game?utm_source=CHI_web_fb&utm_campaign=%7B%7Bcampaign.name%7D%7D&utm_content=%7B%7Badset.name%7D%7D&utm_ad=%7B%7Bad.name%7D%7D&utm_id=%7B%7Bcampaign.id%7D%7D&utm_term=%7B%7Badset.id%7D%7D&ad_id=%7B%7Bad.id%7D%7D&quizName=cleaning-game&customToken=eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiIxMDk3NDg1Mzk4ODkwLWNvbXB1dGVAZGV2ZWxvcGVyLmdzZXJ2aWNlYWNjb3VudC5jb20iLCJhdWQiOiJodHRwczovL2lkZW50aXR5dG9vbGtpdC5nb29nbGVhcGlzLmNvbS9nb29nbGUuaWRlbnRpdHkuaWRlbnRpdHl0b29sa2l0LnYxLklkZW50aXR5VG9vbGtpdCIsImV4cCI6MTc5MjU5MDc0NywiaWF0IjoxNzkyNTg3MTQ3LCJzdWIiOiIxMDk3NDg1Mzk4ODkwLWNvbXB1dGVAZGV2ZWxvcGVyLmdzZXJ2aWNlYWNjb3VudC5jb20iLCJ1aWQiOiJQVE44Sk8xcEx6WTJzbmRENlV5VVVMTHRHVkMzIn0.B9fCJaTVxFDEMFlsOrtByDE66TYNfLvHQ9j07PhAPnFrFrX1EAi4E6vJuIbxBVJ-fHCPjprAwepnP3MqVV9M03bJ6kVgwnvGzy5H4K9hWE_fSRblYPvY-dSZjnvNTeZhh9KCyWxhI-C-hlazOrHPHplehL1-KLWtBl6phxcZy2guc0umEMPf3r0a0-SsT6Eb-UC_xTDriwffPRJ7qUE5ujgBd4p39zYQtutEtZ44dfUUvqxg2QuurbjLs_CZDBog9SgiaPayozm3hPen1kO04qx7XDjkewBXYobLTkazMRO6Z_YB6PCKD2wQG8cS4pZQ2CTqqoBPYg9vvuYaeni2HQ&profile=male#generating_your_cleaning_plan",
+      "path": "/qs/cleaning-game",
+      "title": "We’re setting up your transformation...",
+      "kind": "social_proof",
+      "text": "We’re setting up your transformation...\nDefining your goals\nLearning about your space\nTo move forward, specify\nDo you have a habit you never skip?\n🌟\nAbsolutely\n☹️️\nNot really\nTrusted by over 250,000 people\nThis app is motivational and it takes...\nErica\nThis app is motivational and it takes the overwhelm out of things I once avoided like the plague until they couldn't be ignored. This app has helped with task paralysis and not knowing where to start.\nTimer Idea, Genius! Thank you!\nRobyn\nI really like the idea of little things to do with a timer, I never thought of that. It makes it less overwhelming for me and I can do little increments throughout the day at my leisure that won't overwhelm me.\nThis app is very helpful in my everyday...\nShon\nThis app is very helpful in my everyday life. Easy to understand and implement. I'm better understanding the way my mind works now. Thank you.\nTaking baby steps works for me\nAnnette\nGiving myself permission to take baby steps each day towards cleaning the clutter has been a huge help. I feel like decluttering is more doable now.\nFeatured reviews from Trustpilot.",
+      "textHash": "8be1a83a21fa",
+      "dhash": "0111001010100010000000010111000101110001000000111000000001100001",
+      "h": 844,
+      "prices": [],
+      "action": {
+        "opt": "🌟 Absolutely"
+      }
+    },
+    {
+      "n": 31,
+      "file": "31.webp",
+      "url": "https://my-chillio.com/qs/cleaning-game?utm_source=CHI_web_fb&utm_campaign=%7B%7Bcampaign.name%7D%7D&utm_content=%7B%7Badset.name%7D%7D&utm_ad=%7B%7Bad.name%7D%7D&utm_id=%7B%7Bcampaign.id%7D%7D&utm_term=%7B%7Badset.id%7D%7D&ad_id=%7B%7Bad.id%7D%7D&quizName=cleaning-game&customToken=eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiIxMDk3NDg1Mzk4ODkwLWNvbXB1dGVAZGV2ZWxvcGVyLmdzZXJ2aWNlYWNjb3VudC5jb20iLCJhdWQiOiJodHRwczovL2lkZW50aXR5dG9vbGtpdC5nb29nbGVhcGlzLmNvbS9nb29nbGUuaWRlbnRpdHkuaWRlbnRpdHl0b29sa2l0LnYxLklkZW50aXR5VG9vbGtpdCIsImV4cCI6MTc5MjU5MDc0NywiaWF0IjoxNzkyNTg3MTQ3LCJzdWIiOiIxMDk3NDg1Mzk4ODkwLWNvbXB1dGVAZGV2ZWxvcGVyLmdzZXJ2aWNlYWNjb3VudC5jb20iLCJ1aWQiOiJQVE44Sk8xcEx6WTJzbmRENlV5VVVMTHRHVkMzIn0.B9fCJaTVxFDEMFlsOrtByDE66TYNfLvHQ9j07PhAPnFrFrX1EAi4E6vJuIbxBVJ-fHCPjprAwepnP3MqVV9M03bJ6kVgwnvGzy5H4K9hWE_fSRblYPvY-dSZjnvNTeZhh9KCyWxhI-C-hlazOrHPHplehL1-KLWtBl6phxcZy2guc0umEMPf3r0a0-SsT6Eb-UC_xTDriwffPRJ7qUE5ujgBd4p39zYQtutEtZ44dfUUvqxg2QuurbjLs_CZDBog9SgiaPayozm3hPen1kO04qx7XDjkewBXYobLTkazMRO6Z_YB6PCKD2wQG8cS4pZQ2CTqqoBPYg9vvuYaeni2HQ&profile=male#generating_your_cleaning_plan",
+      "path": "/qs/cleaning-game",
+      "title": "We’re setting up your transformation...",
+      "kind": "loader",
+      "text": "We’re setting up your transformation...\nDefining your goals\nLearning about your space\nCreating your cleaning plan\nTo move forward, specify\nWould a clear plan help you stay on track?\n🌟\nAbsolutely\n☹️️\nNot really\nTrusted by over 250,000 people\nThis app is motivational and it takes...\nErica\nThis app is motivational and it takes the overwhelm out of things I once avoided like the plague until they couldn't be ignored. This app has helped with task paralysis and not knowing where to start.\nTimer Idea, Genius! Thank you!\nRobyn\nI really like the idea of little things to do with a timer, I never thought of that. It makes it less overwhelming for me and I can do little increments throughout the day at my leisure that won't overwhelm me.\nThis app is very helpful in my everyday...\nShon\nThis app is very helpful in my everyday life. Easy to understand and implement. I'm better understanding the way my mind works now. Thank you.\nTaking baby steps works for me\nAnnette\nGiving myself permission to take baby steps each day towards cleaning the clutter has been a huge help. I feel like decluttering is more doable now.\nFeatured reviews from Trustpilot.",
+      "textHash": "e8bd1b4f4d77",
+      "dhash": "0111001010000011000000010111100101110001000000011000010000110001",
+      "h": 844,
+      "prices": [],
+      "action": {
+        "opt": "🌟 Absolutely"
+      }
+    },
+    {
+      "n": 32,
+      "file": "32.webp",
+      "url": "https://my-chillio.com/qs/cleaning-game?utm_source=CHI_web_fb&utm_campaign=%7B%7Bcampaign.name%7D%7D&utm_content=%7B%7Badset.name%7D%7D&utm_ad=%7B%7Bad.name%7D%7D&utm_id=%7B%7Bcampaign.id%7D%7D&utm_term=%7B%7Badset.id%7D%7D&ad_id=%7B%7Bad.id%7D%7D&quizName=cleaning-game&customToken=eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiIxMDk3NDg1Mzk4ODkwLWNvbXB1dGVAZGV2ZWxvcGVyLmdzZXJ2aWNlYWNjb3VudC5jb20iLCJhdWQiOiJodHRwczovL2lkZW50aXR5dG9vbGtpdC5nb29nbGVhcGlzLmNvbS9nb29nbGUuaWRlbnRpdHkuaWRlbnRpdHl0b29sa2l0LnYxLklkZW50aXR5VG9vbGtpdCIsImV4cCI6MTc5MjU5MDc0NywiaWF0IjoxNzkyNTg3MTQ3LCJzdWIiOiIxMDk3NDg1Mzk4ODkwLWNvbXB1dGVAZGV2ZWxvcGVyLmdzZXJ2aWNlYWNjb3VudC5jb20iLCJ1aWQiOiJQVE44Sk8xcEx6WTJzbmRENlV5VVVMTHRHVkMzIn0.B9fCJaTVxFDEMFlsOrtByDE66TYNfLvHQ9j07PhAPnFrFrX1EAi4E6vJuIbxBVJ-fHCPjprAwepnP3MqVV9M03bJ6kVgwnvGzy5H4K9hWE_fSRblYPvY-dSZjnvNTeZhh9KCyWxhI-C-hlazOrHPHplehL1-KLWtBl6phxcZy2guc0umEMPf3r0a0-SsT6Eb-UC_xTDriwffPRJ7qUE5ujgBd4p39zYQtutEtZ44dfUUvqxg2QuurbjLs_CZDBog9SgiaPayozm3hPen1kO04qx7XDjkewBXYobLTkazMRO6Z_YB6PCKD2wQG8cS4pZQ2CTqqoBPYg9vvuYaeni2HQ&profile=male#capture_email_for_cleaning_plan",
+      "path": "/qs/cleaning-game",
+      "title": "Enter your email to get your personalized plan",
+      "kind": "email",
+      "text": "Enter your email to get your personalized plan\nWe respect your privacy and are committed to protecting your personal data. Your data will be processed in accordance with our Privacy Policy\nIncluded with your plan:\nPrintable Cleaning Planner\nContinue",
+      "textHash": "1ba9c91ab32a",
+      "dhash": "1111000011001000100001100001000110001000001100101111000011100000",
+      "h": 844,
+      "prices": [],
+      "action": {
+        "filled": true,
+        "cta": "Continue",
+        "email": "yelyzavetabazyla+fw261021chillio1@gmail.com"
+      }
+    },
+    {
+      "n": 33,
+      "file": "33.webp",
+      "url": "https://my-chillio.com/qs/cleaning-game?utm_source=CHI_web_fb&utm_campaign=%7B%7Bcampaign.name%7D%7D&utm_content=%7B%7Badset.name%7D%7D&utm_ad=%7B%7Bad.name%7D%7D&utm_id=%7B%7Bcampaign.id%7D%7D&utm_term=%7B%7Badset.id%7D%7D&ad_id=%7B%7Bad.id%7D%7D&quizName=cleaning-game&customToken=eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiIxMDk3NDg1Mzk4ODkwLWNvbXB1dGVAZGV2ZWxvcGVyLmdzZXJ2aWNlYWNjb3VudC5jb20iLCJhdWQiOiJodHRwczovL2lkZW50aXR5dG9vbGtpdC5nb29nbGVhcGlzLmNvbS9nb29nbGUuaWRlbnRpdHkuaWRlbnRpdHl0b29sa2l0LnYxLklkZW50aXR5VG9vbGtpdCIsImV4cCI6MTc5MjU5MDc0NywiaWF0IjoxNzkyNTg3MTQ3LCJzdWIiOiIxMDk3NDg1Mzk4ODkwLWNvbXB1dGVAZGV2ZWxvcGVyLmdzZXJ2aWNlYWNjb3VudC5jb20iLCJ1aWQiOiJQVE44Sk8xcEx6WTJzbmRENlV5VVVMTHRHVkMzIn0.B9fCJaTVxFDEMFlsOrtByDE66TYNfLvHQ9j07PhAPnFrFrX1EAi4E6vJuIbxBVJ-fHCPjprAwepnP3MqVV9M03bJ6kVgwnvGzy5H4K9hWE_fSRblYPvY-dSZjnvNTeZhh9KCyWxhI-C-hlazOrHPHplehL1-KLWtBl6phxcZy2guc0umEMPf3r0a0-SsT6Eb-UC_xTDriwffPRJ7qUE5ujgBd4p39zYQtutEtZ44dfUUvqxg2QuurbjLs_CZDBog9SgiaPayozm3hPen1kO04qx7XDjkewBXYobLTkazMRO6Z_YB6PCKD2wQG8cS4pZQ2CTqqoBPYg9vvuYaeni2HQ&profile=male#first_name",
+      "path": "/qs/cleaning-game",
+      "title": "What is your first name? 👋",
+      "kind": "info",
+      "text": "What is your first name? 👋\nWe’ll use it to personalize your plan\nYour name\nContinue",
+      "textHash": "f27d051b559c",
+      "dhash": "1011000011110000001100010000000000000000000010001011000010110010",
+      "h": 844,
+      "prices": [],
+      "action": {
+        "filled": true,
+        "cta": "Continue"
+      }
+    },
+    {
+      "n": 34,
+      "file": "34.webp",
+      "url": "https://my-chillio.com/qs/cleaning-game?utm_source=CHI_web_fb&utm_campaign=%7B%7Bcampaign.name%7D%7D&utm_content=%7B%7Badset.name%7D%7D&utm_ad=%7B%7Bad.name%7D%7D&utm_id=%7B%7Bcampaign.id%7D%7D&utm_term=%7B%7Badset.id%7D%7D&ad_id=%7B%7Bad.id%7D%7D&quizName=cleaning-game&customToken=eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiIxMDk3NDg1Mzk4ODkwLWNvbXB1dGVAZGV2ZWxvcGVyLmdzZXJ2aWNlYWNjb3VudC5jb20iLCJhdWQiOiJodHRwczovL2lkZW50aXR5dG9vbGtpdC5nb29nbGVhcGlzLmNvbS9nb29nbGUuaWRlbnRpdHkuaWRlbnRpdHl0b29sa2l0LnYxLklkZW50aXR5VG9vbGtpdCIsImV4cCI6MTc5MjU5MDc0NywiaWF0IjoxNzkyNTg3MTQ3LCJzdWIiOiIxMDk3NDg1Mzk4ODkwLWNvbXB1dGVAZGV2ZWxvcGVyLmdzZXJ2aWNlYWNjb3VudC5jb20iLCJ1aWQiOiJQVE44Sk8xcEx6WTJzbmRENlV5VVVMTHRHVkMzIn0.B9fCJaTVxFDEMFlsOrtByDE66TYNfLvHQ9j07PhAPnFrFrX1EAi4E6vJuIbxBVJ-fHCPjprAwepnP3MqVV9M03bJ6kVgwnvGzy5H4K9hWE_fSRblYPvY-dSZjnvNTeZhh9KCyWxhI-C-hlazOrHPHplehL1-KLWtBl6phxcZy2guc0umEMPf3r0a0-SsT6Eb-UC_xTDriwffPRJ7qUE5ujgBd4p39zYQtutEtZ44dfUUvqxg2QuurbjLs_CZDBog9SgiaPayozm3hPen1kO04qx7XDjkewBXYobLTkazMRO6Z_YB6PCKD2wQG8cS4pZQ2CTqqoBPYg9vvuYaeni2HQ&profile=male#percent_of_chillio_users_feel_in_control_of_their_home_in_just_4_weeks",
+      "path": "/qs/cleaning-game",
+      "title": "92% of Chillio users are building their routine from day one!",
+      "kind": "info",
+      "text": "92% of Chillio users are building their routine from day one!\nBased on Chillio app data, August 2026\nContinue",
+      "textHash": "46ddc79d2ab0",
+      "dhash": "1111001011111100001110001011000010010100000000011000111010001110",
+      "h": 844,
+      "prices": [],
+      "action": {
+        "cta": "Continue"
+      }
+    },
+    {
+      "n": 35,
+      "file": "35.webp",
+      "url": "https://my-chillio.com/qs/cleaning-game?utm_source=CHI_web_fb&utm_campaign=%7B%7Bcampaign.name%7D%7D&utm_content=%7B%7Badset.name%7D%7D&utm_ad=%7B%7Bad.name%7D%7D&utm_id=%7B%7Bcampaign.id%7D%7D&utm_term=%7B%7Badset.id%7D%7D&ad_id=%7B%7Bad.id%7D%7D&quizName=cleaning-game&customToken=eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiIxMDk3NDg1Mzk4ODkwLWNvbXB1dGVAZGV2ZWxvcGVyLmdzZXJ2aWNlYWNjb3VudC5jb20iLCJhdWQiOiJodHRwczovL2lkZW50aXR5dG9vbGtpdC5nb29nbGVhcGlzLmNvbS9nb29nbGUuaWRlbnRpdHkuaWRlbnRpdHl0b29sa2l0LnYxLklkZW50aXR5VG9vbGtpdCIsImV4cCI6MTc5MjU5MDc0NywiaWF0IjoxNzkyNTg3MTQ3LCJzdWIiOiIxMDk3NDg1Mzk4ODkwLWNvbXB1dGVAZGV2ZWxvcGVyLmdzZXJ2aWNlYWNjb3VudC5jb20iLCJ1aWQiOiJQVE44Sk8xcEx6WTJzbmRENlV5VVVMTHRHVkMzIn0.B9fCJaTVxFDEMFlsOrtByDE66TYNfLvHQ9j07PhAPnFrFrX1EAi4E6vJuIbxBVJ-fHCPjprAwepnP3MqVV9M03bJ6kVgwnvGzy5H4K9hWE_fSRblYPvY-dSZjnvNTeZhh9KCyWxhI-C-hlazOrHPHplehL1-KLWtBl6phxcZy2guc0umEMPf3r0a0-SsT6Eb-UC_xTDriwffPRJ7qUE5ujgBd4p39zYQtutEtZ44dfUUvqxg2QuurbjLs_CZDBog9SgiaPayozm3hPen1kO04qx7XDjkewBXYobLTkazMRO6Z_YB6PCKD2wQG8cS4pZQ2CTqqoBPYg9vvuYaeni2HQ&profile=male#scratch_card_cleaning_game",
+      "path": "/qs/cleaning-game",
+      "title": "50%",
+      "kind": "info",
+      "text": "Scratch to reveal your discount!\nWe want you to start your journey with a nice surprise\n50%\ndiscount\non your personalized plan\nYour promo code!\nalex_october26",
+      "textHash": "97ec6d4b55dc",
+      "dhash": "1111000011110000110011001100110011000100110101000000001110000000",
+      "h": 844,
+      "prices": [],
+      "action": {}
+    },
+    {
+      "n": 36,
+      "file": "36.webp",
+      "url": "https://my-chillio.com/checkout?customToken=eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiIxMDk3NDg1Mzk4ODkwLWNvbXB1dGVAZGV2ZWxvcGVyLmdzZXJ2aWNlYWNjb3VudC5jb20iLCJhdWQiOiJodHRwczovL2lkZW50aXR5dG9vbGtpdC5nb29nbGVhcGlzLmNvbS9nb29nbGUuaWRlbnRpdHkuaWRlbnRpdHl0b29sa2l0LnYxLklkZW50aXR5VG9vbGtpdCIsImV4cCI6MTc5MjU5MTMwOCwiaWF0IjoxNzkyNTg3NzA4LCJzdWIiOiIxMDk3NDg1Mzk4ODkwLWNvbXB1dGVAZGV2ZWxvcGVyLmdzZXJ2aWNlYWNjb3VudC5jb20iLCJ1aWQiOiJQVE44Sk8xcEx6WTJzbmRENlV5VVVMTHRHVkMzIn0.ppHXSObzXBwq4OvgvsHnGS3mSD-cn3tMfecQrGCxOD2x5G1U8NW3NcYFVlueWUlKshAbtu1_v4iHB2v7foEgsp3UPSSjrq9FejZxcpOIJjH7GA9ii_fdm1h4s-sSKtk3risYYLYVsAsL3Xna1jgyYGC1Ze31Nx5p9WiV8NikhD0v25ogCN5sw3ZNCxvt7j_Kw1rhrRWsHr2SVatH5KYqwgK1jMPklihHdGrhjnuSc8TjrHIR8YMI-JgGGjo9h187QU0VoJfpOXEocUJUCc5l56YUj71__jiqG3moORMu3FFSzNsnHuKVI0of4ZUO2tQx6eMpactEznvUez8Ps5OVzQ",
+      "path": "/checkout",
+      "title": "Choose your plan",
+      "kind": "paywall",
+      "direct": true,
+      "h": 2703,
+      "gate": "stuck",
+      "text": "Get my plan\nChoose your plan\n1-Week Trial\n4-Week Plan\nFirst week for $10.50\n$21.00\n$10.50\n50% Off\nMost popular\n4-Week Plan\nFirst 4 weeks for $19.99\n$39.99\n$19.99\n50% Off\nCleaning planner (PDF)\n12-Week Plan\nFirst 12 weeks for $34.99\n$79.99\n$34.99\n50% Off\nGet my plan\nBy clicking Get my plan, I agree to pay $19.99 for my plan and that if I do not cancel before the end of the 4-week introductory plan, it will convert to a 4 weeks subscription and Chillio will automatically charge my payment method the regular price $39.99 every 4 weeks thereafter until I cancel. I can cancel online by visiting Account Setting page in my profile on website or contact us at support@my-chillio.com to avoid being charged for the next billing cycle.\nBecome a better person every day\nHighlights of your plan\n🧩\nPersonalized action plan\nStep-by-step strategies to improve productivity with a science-based approach\n🎯️\nFocus exercises\nSimple techniques to maintain attention when tasks feel overwhelming\n⚡️\nCBT techniques\nProven methods to boost motivation and align your strengths with your goals\n📚\nVariety of tools\nLessons and tools to address your unique challenges and build lasting habits\n📱\nBite-sized format\nStructured sessions designed to fit busy schedules and deliver consistent progress\nChoose your plan\n1-Week Trial\n4-Week Plan\nFirst week for $10.50\n$21.00\n$10.50\n50% Off\nMost popular\n4-Week Plan\nFirst 4 weeks for $19.99\n$39.99\n$19.99\n50% Off\nCleaning planner (PDF)\n12-Week Plan\nFirst 12 weeks for $34.99",
+      "textHash": "cf06d022e598",
+      "dhash": "1001010011001100110001101110010011000100111000001101100010110000",
+      "prices": [
+        "$10.50",
+        "$21.00",
+        "$19.99",
+        "$39.99",
+        "$34.99",
+        "$79.99"
+      ]
+    }
+  ],
+  "features": {
+    "totalSteps": 36,
+    "stop": "stuck+paywall_direct",
+    "emailStep": 32,
+    "paywallStep": 36,
+    "questions": 21,
+    "socialProof": 3,
+    "popups": 0,
+    "loader": true,
+    "prices": [
+      "$10.50",
+      "$21.00",
+      "$19.99",
+      "$39.99",
+      "$34.99",
+      "$79.99"
+    ],
+    "discount": "50",
+    "timer": false,
+    "trial": true,
+    "moneyBack": false
+  }
+}

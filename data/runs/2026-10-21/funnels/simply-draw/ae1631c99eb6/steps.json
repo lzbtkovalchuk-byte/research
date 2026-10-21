@@ -1,0 +1,88 @@
+{
+  "url": "https://join-draw.hellosimply.com/start?flow=baw&utm_source=facebook&utm_medium={{adset.id}}&utm_campaign={{campaign.id}}&utm_content={{ad.name}}&placement={{placement}}&sitesource={{site_source_name}}&ad_id={{ad.id}}",
+  "key": "join-draw.hellosimply.com/start?flow=baw",
+  "why": "ad",
+  "ads": 9,
+  "adShot": "simply-draw-ae1631c99eb6.webp",
+  "adId": "28655835314068070",
+  "dir": "funnels/simply-draw/ae1631c99eb6",
+  "stop": "paywall",
+  "proxied": false,
+  "email": "yelyzavetabazyla+fw261021simplydraw1@gmail.com",
+  "emailNote": null,
+  "signedUp": null,
+  "steps": [
+    {
+      "n": 1,
+      "file": "01.webp",
+      "url": "https://join-draw.hellosimply.com/start/drawOnePagerIntro?flow=baw&utm_source=facebook&utm_medium={{adset.id}}&utm_campaign={{campaign.id}}&utm_content={{ad.name}}&placement={{placement}}&sitesource={{site_source_name}}&ad_id={{ad.id}}",
+      "path": "/start/drawOnePagerIntro",
+      "title": "Creativity that helps your child grow",
+      "kind": "info",
+      "text": "Step 1 of 4\nCreativity that helps your child grow\nEasy, step-by-step lessons kids love\nChild safe with no ads\nLearn to draw with a real pencil and paper\nCreated with love by teachers & artists\nGrow Your Child’s Skills",
+      "textHash": "c5fa739bf7bd",
+      "dhash": "0000011000001111011011110101101100111100110011100101011111001101",
+      "h": 844,
+      "prices": [],
+      "action": {
+        "cta": "Grow Your Child’s Skills"
+      }
+    },
+    {
+      "n": 2,
+      "file": "02.webp",
+      "url": "https://join-draw.hellosimply.com/start/drawCreateAccount?flow=baw&utm_source=facebook&utm_medium={{adset.id}}&utm_campaign={{campaign.id}}&utm_content={{ad.name}}&placement={{placement}}&sitesource={{site_source_name}}&ad_id={{ad.id}}",
+      "path": "/start/drawCreateAccount",
+      "title": "Create your account to access your FREE 7 day trial!",
+      "kind": "email",
+      "text": "Step 2 of 4\nStep 2 of 4\nCreate your account to access your FREE 7 day trial!\nCREATE FREE ACCOUNT",
+      "textHash": "7626bae67429",
+      "dhash": "0111011100001111000010110011001100110011110010000010001000000000",
+      "h": 844,
+      "prices": [],
+      "action": {
+        "filled": true,
+        "email": "yelyzavetabazyla+fw261021simplydraw1@gmail.com",
+        "fallback": "CREATE FREE ACCOUNT"
+      }
+    },
+    {
+      "n": 3,
+      "file": "03.webp",
+      "url": "https://join-draw.hellosimply.com/start/drawSubscribe?flow=baw&utm_source=facebook&utm_medium={{adset.id}}&utm_campaign={{campaign.id}}&utm_content={{ad.name}}&placement={{placement}}&sitesource={{site_source_name}}&ad_id={{ad.id}}",
+      "path": "/start/drawSubscribe",
+      "title": "Start your 7-day free trial",
+      "kind": "paywall",
+      "text": "Step 3 of 4\nStart your 7-day free trial\n7-day free trial\nSave 50%\n12 months\n$89.99 billed annually\nPrice after discount:\n$7.50/mo\nOriginal price:\n$15.00/mo\n1 month\n$14.99 billed monthly\nPrice after discount:\n$14.99/mo\n7-DAY FREE TRIAL\nNo commitment. Cancel anytime.\nor with credit card\nSTART MY FREE TRIAL\nCancel AnytimeSecure Payment\nWhat you get\n↓\nYou won’t be charged till Oct 28, 2026.\ncancel anytime before that date.\nAfter your free trial, the annual subscription is US$89.99 and automatically renews every year until you cancel.\nWhat you get\n👨‍👩‍👧‍👦\nUp to 5 profiles\nFor any kids (or grownups!) who want to draw\n🎯\nStructured learning paths\nChoose what you love to draw, and follow a structured path that builds real skills\n✨\nUnlimited access to all lessons\nHundreds of professionally designed lessons, with new ones added weekly — no limits, no locked content\n📓\nPersonal Journal\nEach profile can create their journal, a digital gallery of their artwork, where they can share their own thoughts and get feedback from family and friends on the ones they're most proud of\n🎨\nPlayground\nFor more freestyle drawing, using skills in new and novel ways\n🛡️\nKid-Friendly, Ad-Free Experience\nNo ads, no distractions, no external links, no strangers — just a safe, focused space for creativity\nThe #1 Drawing App for Kids\nWhy we charge a subscription fee\nSubscriptions keep Draw safe, ad-free, and constantly improving.\nWe are a dedicated team of 35+ educators, artists, developers, and creators w",
+      "textHash": "2d2c639e36fa",
+      "dhash": "0010101100001111010001010011001101000101111010000101100110010110",
+      "h": 4018,
+      "prices": [
+        "$89.99",
+        "$7.50",
+        "$15.00",
+        "$14.99"
+      ]
+    }
+  ],
+  "features": {
+    "totalSteps": 3,
+    "stop": "paywall",
+    "emailStep": 2,
+    "paywallStep": 3,
+    "questions": 0,
+    "socialProof": 0,
+    "popups": 0,
+    "loader": false,
+    "prices": [
+      "$89.99",
+      "$7.50",
+      "$15.00",
+      "$14.99"
+    ],
+    "discount": "50",
+    "timer": false,
+    "trial": true,
+    "moneyBack": false
+  }
+}

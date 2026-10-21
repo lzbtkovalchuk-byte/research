@@ -1,0 +1,547 @@
+{
+  "url": "https://start.memoryos.com/new-h2?thm=light",
+  "key": "start.memoryos.com/new-h2?thm=light",
+  "why": "ad",
+  "ads": 1,
+  "adShot": "memoryos-7488926e110a.webp",
+  "adId": "1637536248103962",
+  "dir": "funnels/memoryos/7488926e110a",
+  "stop": "email_rejected",
+  "proxied": false,
+  "email": "yelyzavetabazyla+fw261021memoryos1@gmail.com",
+  "emailNote": "Please enter a valid email address",
+  "signedUp": null,
+  "steps": [
+    {
+      "n": 1,
+      "file": "01.webp",
+      "url": "https://start.memoryos.com/new-h2?thm=light&gbv=eyJnYl92YWx1ZSI6Miwic2F2ZWRfYXQiOiIyMDI2LTEwLTIxVDEyOjQ4OjM5LjY2NVoifQ%3D%3D&u=eyJjaWQiOiJkMzFlODk5MGNmMGQ0NzU1ZjljNCIsImdjaWQiOiIxNTIzMTE5NTIxLjE3OTI1ODY5MjAiLCJhbmFseXRpY3NfdHJhY2tlZCI6eyJldmVudHNUcmFja2VkIjpmYWxzZSwibGFzdFRyYWNrZWRWYWx1ZXMiOnsiY2lkIjpudWxsLCJlbWFpbCI6bnVsbCwibmFtZSI6bnVsbH19LCJwYXltZW50X2JhY2tfcGF0aCI6InBsYW4iLCJkZXZpY2VfaWQiOiI1YmFiZTBjMi03ZDVkLTRiNjMtYWI2Ni03M2Y4YWY5OGI0ODkifQ%3D%3D&ds=ZmFsc2U%3D&tpd=eyJ0cFByb2R1Y3RUaXRsZSI6IjEyIFdlZWtzIEV4cGVydCBQbGFuIn0%3D",
+      "path": "/new-h2",
+      "title": "Forgetting names and details even though you’re capable?",
+      "kind": "loader",
+      "text": "Forgetting names and details even though you’re capable?\nMemory slips are common and frustrating\n– but they’re reversible\nMost people struggle with these\nPreparing your memory insights\n91%",
+      "textHash": "47629dbf345e",
+      "dhash": "1100110011110000111100000111000011010100110110001100000010000100",
+      "h": 844,
+      "prices": [],
+      "action": {
+        "opt": "Preparing your memory insights"
+      }
+    },
+    {
+      "n": 2,
+      "file": "02.webp",
+      "url": "https://start.memoryos.com/new-h2/quiz/1?thm=light&gbv=eyJnYl92YWx1ZSI6Miwic2F2ZWRfYXQiOiIyMDI2LTEwLTIxVDEyOjQ4OjM5LjY2NVoifQ%3D%3D&u=eyJjaWQiOiJkMzFlODk5MGNmMGQ0NzU1ZjljNCIsImdjaWQiOiIxNTIzMTE5NTIxLjE3OTI1ODY5MjAiLCJhbmFseXRpY3NfdHJhY2tlZCI6eyJldmVudHNUcmFja2VkIjpmYWxzZSwibGFzdFRyYWNrZWRWYWx1ZXMiOnsiY2lkIjpudWxsLCJlbWFpbCI6bnVsbCwibmFtZSI6bnVsbH19LCJwYXltZW50X2JhY2tfcGF0aCI6InBsYW4iLCJkZXZpY2VfaWQiOiI1YmFiZTBjMi03ZDVkLTRiNjMtYWI2Ni03M2Y4YWY5OGI0ODkifQ%3D%3D&ds=ZmFsc2U%3D&tpd=eyJ0cFByb2R1Y3RUaXRsZSI6IjEyIFdlZWtzIEV4cGVydCBQbGFuIn0%3D",
+      "path": "/new-h2/quiz/1",
+      "title": "Your Age Range",
+      "kind": "question",
+      "text": "PROFILE\nYour Age Range\nCompare your results with others in your age group\n☀️ 65+\n💼 55 - 64\n📊️ 45 - 54\n⚡️ 35 - 44\n🧠 25 - 34\n🎓️ 18 - 24",
+      "textHash": "4a007c05af58",
+      "dhash": "0011000011101000101100001000011010010000100000001000000000000000",
+      "h": 844,
+      "prices": [],
+      "action": {
+        "opt": "☀️ 65+"
+      }
+    },
+    {
+      "n": 3,
+      "file": "03.webp",
+      "url": "https://start.memoryos.com/new-h2/quiz/2?thm=light&gbv=eyJnYl92YWx1ZSI6Miwic2F2ZWRfYXQiOiIyMDI2LTEwLTIxVDEyOjQ4OjM5LjY2NVoifQ%3D%3D&u=eyJjaWQiOiJkMzFlODk5MGNmMGQ0NzU1ZjljNCIsImdjaWQiOiIxNTIzMTE5NTIxLjE3OTI1ODY5MjAiLCJ1c2VyX2FnZV9yYW5nZSI6IjU1IiwiYW5hbHl0aWNzX3RyYWNrZWQiOnsiZXZlbnRzVHJhY2tlZCI6ZmFsc2UsImxhc3RUcmFja2VkVmFsdWVzIjp7ImNpZCI6bnVsbCwiZW1haWwiOm51bGwsIm5hbWUiOm51bGx9fSwicGF5bWVudF9iYWNrX3BhdGgiOiJwbGFuIiwiZGV2aWNlX2lkIjoiNWJhYmUwYzItN2Q1ZC00YjYzLWFiNjYtNzNmOGFmOThiNDg5In0%3D&ds=ZmFsc2U%3D&tpd=eyJ0cFByb2R1Y3RUaXRsZSI6IjEyIFdlZWtzIEV4cGVydCBQbGFuIn0%3D",
+      "path": "/new-h2/quiz/2",
+      "title": "Kickstarter's #1 App",
+      "kind": "info",
+      "text": "Kickstarter's #1 App\nBY THE WORLD MEMORY CHAMPION\n“memoryOS is light years Ahead of Others in Memory Space”\nGoogle Brands Accelerator\nAPP AND FOUNDER FEATURED ON\nContinue",
+      "textHash": "32ec7cf8bd5a",
+      "dhash": "1111000011001100111101001110110011111000111010001000111000000000",
+      "h": 844,
+      "prices": [],
+      "action": {
+        "cta": "Continue"
+      }
+    },
+    {
+      "n": 4,
+      "file": "04.webp",
+      "url": "https://start.memoryos.com/new-h2/quiz/3?thm=light&gbv=eyJnYl92YWx1ZSI6Miwic2F2ZWRfYXQiOiIyMDI2LTEwLTIxVDEyOjQ4OjM5LjY2NVoifQ%3D%3D&u=eyJjaWQiOiJkMzFlODk5MGNmMGQ0NzU1ZjljNCIsImdjaWQiOiIxNTIzMTE5NTIxLjE3OTI1ODY5MjAiLCJ1c2VyX2FnZV9yYW5nZSI6IjU1IiwiYW5hbHl0aWNzX3RyYWNrZWQiOnsiZXZlbnRzVHJhY2tlZCI6ZmFsc2UsImxhc3RUcmFja2VkVmFsdWVzIjp7ImNpZCI6bnVsbCwiZW1haWwiOm51bGwsIm5hbWUiOm51bGx9fSwicGF5bWVudF9iYWNrX3BhdGgiOiJwbGFuIiwiZGV2aWNlX2lkIjoiNWJhYmUwYzItN2Q1ZC00YjYzLWFiNjYtNzNmOGFmOThiNDg5In0%3D&ds=ZmFsc2U%3D&tpd=eyJ0cFByb2R1Y3RUaXRsZSI6IjEyIFdlZWtzIEV4cGVydCBQbGFuIn0%3D",
+      "path": "/new-h2/quiz/3",
+      "title": "Select your gender",
+      "kind": "question",
+      "text": "Back\nPROFILE\nSelect your gender\n👨 Male\n👩 Female\n🤐 Skip",
+      "textHash": "00d4f9059935",
+      "dhash": "0011001011001000100000001000001010000000000000000000000000000000",
+      "h": 844,
+      "prices": [],
+      "action": {
+        "opt": "👨 Male"
+      }
+    },
+    {
+      "n": 5,
+      "file": "05.webp",
+      "url": "https://start.memoryos.com/new-h2/quiz/4?thm=light&gbv=eyJnYl92YWx1ZSI6Miwic2F2ZWRfYXQiOiIyMDI2LTEwLTIxVDEyOjQ4OjM5LjY2NVoifQ%3D%3D&u=eyJjaWQiOiJkMzFlODk5MGNmMGQ0NzU1ZjljNCIsImdjaWQiOiIxNTIzMTE5NTIxLjE3OTI1ODY5MjAiLCJ1c2VyX2FnZV9yYW5nZSI6IjU1IiwidXNlcl9nZW5kZXIiOiJtYWxlIiwiYW5hbHl0aWNzX3RyYWNrZWQiOnsiZXZlbnRzVHJhY2tlZCI6ZmFsc2UsImxhc3RUcmFja2VkVmFsdWVzIjp7ImNpZCI6bnVsbCwiZW1haWwiOm51bGwsIm5hbWUiOm51bGx9fSwicGF5bWVudF9iYWNrX3BhdGgiOiJwbGFuIiwiZGV2aWNlX2lkIjoiNWJhYmUwYzItN2Q1ZC00YjYzLWFiNjYtNzNmOGFmOThiNDg5In0%3D&ds=ZmFsc2U%3D&tpd=eyJ0cFByb2R1Y3RUaXRsZSI6IjEyIFdlZWtzIEV4cGVydCBQbGFuIn0%3D",
+      "path": "/new-h2/quiz/4",
+      "title": "What would you use your superior memory for?",
+      "kind": "question",
+      "text": "Back\nPROFILE\nWhat would you use your superior memory for?\n🧠 Personal development\n👩‍💻 Professional advancement\n📚 Academic success\n🤝 Better social connections\n🧓 Health and aging concerns",
+      "textHash": "c445de534ce1",
+      "dhash": "0011000011010100110100001010001010010000110100000000000000000000",
+      "h": 844,
+      "prices": [],
+      "action": {
+        "opt": "🧠 Personal development"
+      }
+    },
+    {
+      "n": 6,
+      "file": "06.webp",
+      "url": "https://start.memoryos.com/new-h2/quiz/5?thm=light&gbv=eyJnYl92YWx1ZSI6Miwic2F2ZWRfYXQiOiIyMDI2LTEwLTIxVDEyOjQ4OjM5LjY2NVoifQ%3D%3D&u=eyJjaWQiOiJkMzFlODk5MGNmMGQ0NzU1ZjljNCIsImdjaWQiOiIxNTIzMTE5NTIxLjE3OTI1ODY5MjAiLCJ1c2VyX2FnZV9yYW5nZSI6IjU1IiwidXNlcl9nZW5kZXIiOiJtYWxlIiwidXNlcl9nb2FsIjoiUGVyc29uYWwgZGV2ZWxvcG1lbnQiLCJhbmFseXRpY3NfdHJhY2tlZCI6eyJldmVudHNUcmFja2VkIjpmYWxzZSwibGFzdFRyYWNrZWRWYWx1ZXMiOnsiY2lkIjpudWxsLCJlbWFpbCI6bnVsbCwibmFtZSI6bnVsbH19LCJwYXltZW50X2JhY2tfcGF0aCI6InBsYW4iLCJkZXZpY2VfaWQiOiI1YmFiZTBjMi03ZDVkLTRiNjMtYWI2Ni03M2Y4YWY5OGI0ODkifQ%3D%3D&ds=ZmFsc2U%3D&tpd=eyJ0cFByb2R1Y3RUaXRsZSI6IjEyIFdlZWtzIEV4cGVydCBQbGFuIn0%3D",
+      "path": "/new-h2/quiz/5",
+      "title": "Glad you're here!",
+      "kind": "info",
+      "text": "Back\nPROFILE\nGlad you're here!\nWe'll help you acquire the lifelong skill of remembering. First, let's dive into tailoring your personal plan.\nContinue",
+      "textHash": "edbcc12b63cc",
+      "dhash": "1011000111010010111100000110000011100000110011001010101000000000",
+      "h": 844,
+      "prices": [],
+      "action": {
+        "cta": "Continue"
+      }
+    },
+    {
+      "n": 7,
+      "file": "07.webp",
+      "url": "https://start.memoryos.com/new-h2/quiz/6?thm=light&gbv=eyJnYl92YWx1ZSI6Miwic2F2ZWRfYXQiOiIyMDI2LTEwLTIxVDEyOjQ4OjM5LjY2NVoifQ%3D%3D&u=eyJjaWQiOiJkMzFlODk5MGNmMGQ0NzU1ZjljNCIsImdjaWQiOiIxNTIzMTE5NTIxLjE3OTI1ODY5MjAiLCJ1c2VyX2FnZV9yYW5nZSI6IjU1IiwidXNlcl9nZW5kZXIiOiJtYWxlIiwidXNlcl9nb2FsIjoiUGVyc29uYWwgZGV2ZWxvcG1lbnQiLCJhbmFseXRpY3NfdHJhY2tlZCI6eyJldmVudHNUcmFja2VkIjpmYWxzZSwibGFzdFRyYWNrZWRWYWx1ZXMiOnsiY2lkIjpudWxsLCJlbWFpbCI6bnVsbCwibmFtZSI6bnVsbH19LCJwYXltZW50X2JhY2tfcGF0aCI6InBsYW4iLCJkZXZpY2VfaWQiOiI1YmFiZTBjMi03ZDVkLTRiNjMtYWI2Ni03M2Y4YWY5OGI0ODkifQ%3D%3D&ds=ZmFsc2U%3D&tpd=eyJ0cFByb2R1Y3RUaXRsZSI6IjEyIFdlZWtzIEV4cGVydCBQbGFuIn0%3D",
+      "path": "/new-h2/quiz/6",
+      "title": "How often do you find yourself forgetting important information?",
+      "kind": "question",
+      "text": "Back\nPROFILE\nHow often do you find yourself forgetting important information?\n😌 Rarely\n🤔 Sometimes\n😅 Often\n😖 Always",
+      "textHash": "374b2afbe4d9",
+      "dhash": "1011000011100000111100001000011010000000100000000000000000000000",
+      "h": 844,
+      "prices": [],
+      "action": {
+        "opt": "😌 Rarely"
+      }
+    },
+    {
+      "n": 8,
+      "file": "08.webp",
+      "url": "https://start.memoryos.com/new-h2/quiz/7?thm=light&gbv=eyJnYl92YWx1ZSI6Miwic2F2ZWRfYXQiOiIyMDI2LTEwLTIxVDEyOjQ4OjM5LjY2NVoifQ%3D%3D&u=eyJjaWQiOiJkMzFlODk5MGNmMGQ0NzU1ZjljNCIsImdjaWQiOiIxNTIzMTE5NTIxLjE3OTI1ODY5MjAiLCJ1c2VyX2FnZV9yYW5nZSI6IjU1IiwidXNlcl9nZW5kZXIiOiJtYWxlIiwidXNlcl9nb2FsIjoiUGVyc29uYWwgZGV2ZWxvcG1lbnQiLCJhbmFseXRpY3NfdHJhY2tlZCI6eyJldmVudHNUcmFja2VkIjpmYWxzZSwibGFzdFRyYWNrZWRWYWx1ZXMiOnsiY2lkIjpudWxsLCJlbWFpbCI6bnVsbCwibmFtZSI6bnVsbH19LCJwYXltZW50X2JhY2tfcGF0aCI6InBsYW4iLCJkZXZpY2VfaWQiOiI1YmFiZTBjMi03ZDVkLTRiNjMtYWI2Ni03M2Y4YWY5OGI0ODkifQ%3D%3D&ds=ZmFsc2U%3D&tpd=eyJ0cFByb2R1Y3RUaXRsZSI6IjEyIFdlZWtzIEV4cGVydCBQbGFuIn0%3D",
+      "path": "/new-h2/quiz/7",
+      "title": "Weak memory is not your fault",
+      "kind": "info",
+      "text": "Back\nPROFILE\nWeak memory is not your fault\n50% of what we try to learn slips away after the first hour, and over 90% after the first week. But don't worry! We have a powerful tool that will help you solve this problem.\nContinue",
+      "textHash": "182e26b56605",
+      "dhash": "1011001011110000111010001110100010100010101101101010101000000000",
+      "h": 844,
+      "prices": [],
+      "action": {
+        "cta": "Continue"
+      }
+    },
+    {
+      "n": 9,
+      "file": "09.webp",
+      "url": "https://start.memoryos.com/new-h2/quiz/8?thm=light&gbv=eyJnYl92YWx1ZSI6Miwic2F2ZWRfYXQiOiIyMDI2LTEwLTIxVDEyOjQ4OjM5LjY2NVoifQ%3D%3D&u=eyJjaWQiOiJkMzFlODk5MGNmMGQ0NzU1ZjljNCIsImdjaWQiOiIxNTIzMTE5NTIxLjE3OTI1ODY5MjAiLCJ1c2VyX2FnZV9yYW5nZSI6IjU1IiwidXNlcl9nZW5kZXIiOiJtYWxlIiwidXNlcl9nb2FsIjoiUGVyc29uYWwgZGV2ZWxvcG1lbnQiLCJhbmFseXRpY3NfdHJhY2tlZCI6eyJldmVudHNUcmFja2VkIjpmYWxzZSwibGFzdFRyYWNrZWRWYWx1ZXMiOnsiY2lkIjpudWxsLCJlbWFpbCI6bnVsbCwibmFtZSI6bnVsbH19LCJwYXltZW50X2JhY2tfcGF0aCI6InBsYW4iLCJkZXZpY2VfaWQiOiI1YmFiZTBjMi03ZDVkLTRiNjMtYWI2Ni03M2Y4YWY5OGI0ODkifQ%3D%3D&ds=ZmFsc2U%3D&tpd=eyJ0cFByb2R1Y3RUaXRsZSI6IjEyIFdlZWtzIEV4cGVydCBQbGFuIn0%3D",
+      "path": "/new-h2/quiz/8",
+      "title": "Forgetting what frustrates you the most?",
+      "kind": "question",
+      "text": "Back\nPROFILE\nForgetting what frustrates you the most?\n🤓 Names\n📅 Dates & Birthdays\n💯 Numbers & Passwords\n✅ Daily routines & To-do lists\n📚 Learned knowledge & Facts\n🌍 Language Vocab\nContinue",
+      "textHash": "879500c5b836",
+      "dhash": "1011000010110000101000111000001010010010100000101000101000000000",
+      "h": 844,
+      "prices": [],
+      "action": {
+        "opt": "🤓 Names",
+        "cta": "Continue"
+      }
+    },
+    {
+      "n": 10,
+      "file": "10.webp",
+      "url": "https://start.memoryos.com/new-h2/quiz/9?thm=light&gbv=eyJnYl92YWx1ZSI6Miwic2F2ZWRfYXQiOiIyMDI2LTEwLTIxVDEyOjQ4OjM5LjY2NVoifQ%3D%3D&u=eyJjaWQiOiJkMzFlODk5MGNmMGQ0NzU1ZjljNCIsImdjaWQiOiIxNTIzMTE5NTIxLjE3OTI1ODY5MjAiLCJ1c2VyX2FnZV9yYW5nZSI6IjU1IiwidXNlcl9nZW5kZXIiOiJtYWxlIiwidXNlcl9nb2FsIjoiUGVyc29uYWwgZGV2ZWxvcG1lbnQiLCJhbmFseXRpY3NfdHJhY2tlZCI6eyJldmVudHNUcmFja2VkIjpmYWxzZSwibGFzdFRyYWNrZWRWYWx1ZXMiOnsiY2lkIjpudWxsLCJlbWFpbCI6bnVsbCwibmFtZSI6bnVsbH19LCJwYXltZW50X2JhY2tfcGF0aCI6InBsYW4iLCJkZXZpY2VfaWQiOiI1YmFiZTBjMi03ZDVkLTRiNjMtYWI2Ni03M2Y4YWY5OGI0ODkifQ%3D%3D&ds=ZmFsc2U%3D&tpd=eyJ0cFByb2R1Y3RUaXRsZSI6IjEyIFdlZWtzIEV4cGVydCBQbGFuIn0%3D",
+      "path": "/new-h2/quiz/9",
+      "title": "No worries! We got you!",
+      "kind": "info",
+      "text": "Back\nPROFILE\nNo worries! We got you!\nWith memoryOS you'll be able to easily remember all the important information!\nContinue",
+      "textHash": "1158d009fa00",
+      "dhash": "0011001011001000111011001111100110110010100011101000101000000000",
+      "h": 844,
+      "prices": [],
+      "action": {
+        "cta": "Continue"
+      }
+    },
+    {
+      "n": 11,
+      "file": "11.webp",
+      "url": "https://start.memoryos.com/new-h2/quiz/10?thm=light&gbv=eyJnYl92YWx1ZSI6Miwic2F2ZWRfYXQiOiIyMDI2LTEwLTIxVDEyOjQ4OjM5LjY2NVoifQ%3D%3D&u=eyJjaWQiOiJkMzFlODk5MGNmMGQ0NzU1ZjljNCIsImdjaWQiOiIxNTIzMTE5NTIxLjE3OTI1ODY5MjAiLCJ1c2VyX2FnZV9yYW5nZSI6IjU1IiwidXNlcl9nZW5kZXIiOiJtYWxlIiwidXNlcl9nb2FsIjoiUGVyc29uYWwgZGV2ZWxvcG1lbnQiLCJhbmFseXRpY3NfdHJhY2tlZCI6eyJldmVudHNUcmFja2VkIjpmYWxzZSwibGFzdFRyYWNrZWRWYWx1ZXMiOnsiY2lkIjpudWxsLCJlbWFpbCI6bnVsbCwibmFtZSI6bnVsbH19LCJwYXltZW50X2JhY2tfcGF0aCI6InBsYW4iLCJkZXZpY2VfaWQiOiI1YmFiZTBjMi03ZDVkLTRiNjMtYWI2Ni03M2Y4YWY5OGI0ODkifQ%3D%3D&ds=ZmFsc2U%3D&tpd=eyJ0cFByb2R1Y3RUaXRsZSI6IjEyIFdlZWtzIEV4cGVydCBQbGFuIn0%3D",
+      "path": "/new-h2/quiz/10",
+      "title": "Ever forget names right after an introduction?",
+      "kind": "question",
+      "text": "Back\nPROFILE\nEver forget names right after an introduction?\n😬 Often forget immediately\n🤔 Hit or miss with names\n😊 Usually remember well",
+      "textHash": "973b10b8ec90",
+      "dhash": "1011000011101000111100001000000000100000000000000000000000000000",
+      "h": 844,
+      "prices": [],
+      "action": {
+        "opt": "😬 Often forget immediately"
+      }
+    },
+    {
+      "n": 12,
+      "file": "12.webp",
+      "url": "https://start.memoryos.com/new-h2/quiz/11?thm=light&gbv=eyJnYl92YWx1ZSI6Miwic2F2ZWRfYXQiOiIyMDI2LTEwLTIxVDEyOjQ4OjM5LjY2NVoifQ%3D%3D&u=eyJjaWQiOiJkMzFlODk5MGNmMGQ0NzU1ZjljNCIsImdjaWQiOiIxNTIzMTE5NTIxLjE3OTI1ODY5MjAiLCJ1c2VyX2FnZV9yYW5nZSI6IjU1IiwidXNlcl9nZW5kZXIiOiJtYWxlIiwidXNlcl9nb2FsIjoiUGVyc29uYWwgZGV2ZWxvcG1lbnQiLCJhbmFseXRpY3NfdHJhY2tlZCI6eyJldmVudHNUcmFja2VkIjpmYWxzZSwibGFzdFRyYWNrZWRWYWx1ZXMiOnsiY2lkIjpudWxsLCJlbWFpbCI6bnVsbCwibmFtZSI6bnVsbH19LCJwYXltZW50X2JhY2tfcGF0aCI6InBsYW4iLCJkZXZpY2VfaWQiOiI1YmFiZTBjMi03ZDVkLTRiNjMtYWI2Ni03M2Y4YWY5OGI0ODkifQ%3D%3D&ds=ZmFsc2U%3D&tpd=eyJ0cFByb2R1Y3RUaXRsZSI6IjEyIFdlZWtzIEV4cGVydCBQbGFuIn0%3D",
+      "path": "/new-h2/quiz/11",
+      "title": "You'll easily remember names",
+      "kind": "info",
+      "text": "Back\nPROFILE\nYou'll easily remember names\nWith our gamified Names & Faces techniques, you'll effortlessly recall people's names!\nContinue",
+      "textHash": "b817de8a3861",
+      "dhash": "1011000000101110011011000110000110110010101010101000011000000000",
+      "h": 844,
+      "prices": [],
+      "action": {
+        "cta": "Continue"
+      }
+    },
+    {
+      "n": 13,
+      "file": "13.webp",
+      "url": "https://start.memoryos.com/new-h2/quiz/12?thm=light&gbv=eyJnYl92YWx1ZSI6Miwic2F2ZWRfYXQiOiIyMDI2LTEwLTIxVDEyOjQ4OjM5LjY2NVoifQ%3D%3D&u=eyJjaWQiOiJkMzFlODk5MGNmMGQ0NzU1ZjljNCIsImdjaWQiOiIxNTIzMTE5NTIxLjE3OTI1ODY5MjAiLCJ1c2VyX2FnZV9yYW5nZSI6IjU1IiwidXNlcl9nZW5kZXIiOiJtYWxlIiwidXNlcl9nb2FsIjoiUGVyc29uYWwgZGV2ZWxvcG1lbnQiLCJhbmFseXRpY3NfdHJhY2tlZCI6eyJldmVudHNUcmFja2VkIjpmYWxzZSwibGFzdFRyYWNrZWRWYWx1ZXMiOnsiY2lkIjpudWxsLCJlbWFpbCI6bnVsbCwibmFtZSI6bnVsbH19LCJwYXltZW50X2JhY2tfcGF0aCI6InBsYW4iLCJkZXZpY2VfaWQiOiI1YmFiZTBjMi03ZDVkLTRiNjMtYWI2Ni03M2Y4YWY5OGI0ODkifQ%3D%3D&ds=ZmFsc2U%3D&tpd=eyJ0cFByb2R1Y3RUaXRsZSI6IjEyIFdlZWtzIEV4cGVydCBQbGFuIn0%3D",
+      "path": "/new-h2/quiz/12",
+      "title": "Is age-related memory decline or dementia a concern for you or your loved ones?",
+      "kind": "question",
+      "text": "Back\nPROFILE\nIs age-related memory decline or dementia a concern for you or your loved ones?\n😟 Yes, it's a significant concern\n🤔 It's in the back of my mind\n😌 No, it's not really a concern at the moment",
+      "textHash": "81de947a613b",
+      "dhash": "1011000011001010111000001010001010100000000000000000000000000000",
+      "h": 844,
+      "prices": [],
+      "action": {
+        "opt": "😟 Yes, it's a significant concern"
+      }
+    },
+    {
+      "n": 14,
+      "file": "14.webp",
+      "url": "https://start.memoryos.com/new-h2/quiz/13?thm=light&gbv=eyJnYl92YWx1ZSI6Miwic2F2ZWRfYXQiOiIyMDI2LTEwLTIxVDEyOjQ4OjM5LjY2NVoifQ%3D%3D&u=eyJjaWQiOiJkMzFlODk5MGNmMGQ0NzU1ZjljNCIsImdjaWQiOiIxNTIzMTE5NTIxLjE3OTI1ODY5MjAiLCJ1c2VyX2FnZV9yYW5nZSI6IjU1IiwidXNlcl9nZW5kZXIiOiJtYWxlIiwidXNlcl9nb2FsIjoiUGVyc29uYWwgZGV2ZWxvcG1lbnQiLCJhbmFseXRpY3NfdHJhY2tlZCI6eyJldmVudHNUcmFja2VkIjpmYWxzZSwibGFzdFRyYWNrZWRWYWx1ZXMiOnsiY2lkIjpudWxsLCJlbWFpbCI6bnVsbCwibmFtZSI6bnVsbH19LCJwYXltZW50X2JhY2tfcGF0aCI6InBsYW4iLCJkZXZpY2VfaWQiOiI1YmFiZTBjMi03ZDVkLTRiNjMtYWI2Ni03M2Y4YWY5OGI0ODkifQ%3D%3D&ds=ZmFsc2U%3D&tpd=eyJ0cFByb2R1Y3RUaXRsZSI6IjEyIFdlZWtzIEV4cGVydCBQbGFuIn0%3D",
+      "path": "/new-h2/quiz/13",
+      "title": "Does recalling family stories take effort?",
+      "kind": "question",
+      "text": "Back\nPROFILE\nDoes recalling family stories take effort?\n😔 Yes, I have to try hard\n😐 Sometimes it's a struggle\n🙂 No, it comes naturally",
+      "textHash": "8887a09c87e7",
+      "dhash": "1011000010101010101000101101001000100000000000000000000000000000",
+      "h": 844,
+      "prices": [],
+      "action": {
+        "opt": "😔 Yes, I have to try hard"
+      }
+    },
+    {
+      "n": 15,
+      "file": "15.webp",
+      "url": "https://start.memoryos.com/new-h2/quiz/14?thm=light&gbv=eyJnYl92YWx1ZSI6Miwic2F2ZWRfYXQiOiIyMDI2LTEwLTIxVDEyOjQ4OjM5LjY2NVoifQ%3D%3D&u=eyJjaWQiOiJkMzFlODk5MGNmMGQ0NzU1ZjljNCIsImdjaWQiOiIxNTIzMTE5NTIxLjE3OTI1ODY5MjAiLCJ1c2VyX2FnZV9yYW5nZSI6IjU1IiwidXNlcl9nZW5kZXIiOiJtYWxlIiwidXNlcl9nb2FsIjoiUGVyc29uYWwgZGV2ZWxvcG1lbnQiLCJhbmFseXRpY3NfdHJhY2tlZCI6eyJldmVudHNUcmFja2VkIjpmYWxzZSwibGFzdFRyYWNrZWRWYWx1ZXMiOnsiY2lkIjpudWxsLCJlbWFpbCI6bnVsbCwibmFtZSI6bnVsbH19LCJwYXltZW50X2JhY2tfcGF0aCI6InBsYW4iLCJkZXZpY2VfaWQiOiI1YmFiZTBjMi03ZDVkLTRiNjMtYWI2Ni03M2Y4YWY5OGI0ODkifQ%3D%3D&ds=ZmFsc2U%3D&tpd=eyJ0cFByb2R1Y3RUaXRsZSI6IjEyIFdlZWtzIEV4cGVydCBQbGFuIn0%3D",
+      "path": "/new-h2/quiz/14",
+      "title": "We all want to remember happy moments with our loved ones",
+      "kind": "info",
+      "text": "Back\nPROFILE\nWe all want to remember happy moments with our loved ones\nWith memoryOS, you'll be able to relive even more of those cherished memories.\nContinue",
+      "textHash": "155b70cd7e9b",
+      "dhash": "1011001001101000111000001100110011011000101000101000111000000000",
+      "h": 844,
+      "prices": [],
+      "action": {
+        "cta": "Continue"
+      }
+    },
+    {
+      "n": 16,
+      "file": "16.webp",
+      "url": "https://start.memoryos.com/new-h2/quiz/15?thm=light&gbv=eyJnYl92YWx1ZSI6Miwic2F2ZWRfYXQiOiIyMDI2LTEwLTIxVDEyOjQ4OjM5LjY2NVoifQ%3D%3D&u=eyJjaWQiOiJkMzFlODk5MGNmMGQ0NzU1ZjljNCIsImdjaWQiOiIxNTIzMTE5NTIxLjE3OTI1ODY5MjAiLCJ1c2VyX2FnZV9yYW5nZSI6IjU1IiwidXNlcl9nZW5kZXIiOiJtYWxlIiwidXNlcl9nb2FsIjoiUGVyc29uYWwgZGV2ZWxvcG1lbnQiLCJhbmFseXRpY3NfdHJhY2tlZCI6eyJldmVudHNUcmFja2VkIjpmYWxzZSwibGFzdFRyYWNrZWRWYWx1ZXMiOnsiY2lkIjpudWxsLCJlbWFpbCI6bnVsbCwibmFtZSI6bnVsbH19LCJwYXltZW50X2JhY2tfcGF0aCI6InBsYW4iLCJkZXZpY2VfaWQiOiI1YmFiZTBjMi03ZDVkLTRiNjMtYWI2Ni03M2Y4YWY5OGI0ODkifQ%3D%3D&ds=ZmFsc2U%3D&tpd=eyJ0cFByb2R1Y3RUaXRsZSI6IjEyIFdlZWtzIEV4cGVydCBQbGFuIn0%3D",
+      "path": "/new-h2/quiz/15",
+      "title": "Which memory skills would you love to obtain?",
+      "kind": "question",
+      "text": "Back\nPERSONALITY\nWhich memory skills would you love to obtain?\n🧑‍🤝‍🧑 Recalling Names & Faces\n📚 Facts & Information\n🔑 Passwords & Codes\n📅 Dates, Tasks and Events\n🌍 Language Vocab\nContinue",
+      "textHash": "73ed47d615f2",
+      "dhash": "1011001011001000111000101010001010000010100011101000000000000000",
+      "h": 844,
+      "prices": [],
+      "action": {
+        "opt": "🧑‍🤝‍🧑 Recalling Names & Faces",
+        "cta": "Continue"
+      }
+    },
+    {
+      "n": 17,
+      "file": "17.webp",
+      "url": "https://start.memoryos.com/new-h2/quiz/16?thm=light&gbv=eyJnYl92YWx1ZSI6Miwic2F2ZWRfYXQiOiIyMDI2LTEwLTIxVDEyOjQ4OjM5LjY2NVoifQ%3D%3D&u=eyJjaWQiOiJkMzFlODk5MGNmMGQ0NzU1ZjljNCIsImdjaWQiOiIxNTIzMTE5NTIxLjE3OTI1ODY5MjAiLCJ1c2VyX2FnZV9yYW5nZSI6IjU1IiwidXNlcl9nZW5kZXIiOiJtYWxlIiwidXNlcl9nb2FsIjoiUGVyc29uYWwgZGV2ZWxvcG1lbnQiLCJhbmFseXRpY3NfdHJhY2tlZCI6eyJldmVudHNUcmFja2VkIjpmYWxzZSwibGFzdFRyYWNrZWRWYWx1ZXMiOnsiY2lkIjpudWxsLCJlbWFpbCI6bnVsbCwibmFtZSI6bnVsbH19LCJwYXltZW50X2JhY2tfcGF0aCI6InBsYW4iLCJkZXZpY2VfaWQiOiI1YmFiZTBjMi03ZDVkLTRiNjMtYWI2Ni03M2Y4YWY5OGI0ODkifQ%3D%3D&ds=ZmFsc2U%3D&tpd=eyJ0cFByb2R1Y3RUaXRsZSI6IjEyIFdlZWtzIEV4cGVydCBQbGFuIn0%3D",
+      "path": "/new-h2/quiz/16",
+      "title": "How many languages do you speak?",
+      "kind": "question",
+      "text": "Back\nPERSONALITY\nHow many languages do you speak?\n1\n2\n3\n4+",
+      "textHash": "4359aef31e8a",
+      "dhash": "1011000010110010101100100000100000000000000000000000000000000000",
+      "h": 844,
+      "prices": [],
+      "action": {
+        "opt": "1"
+      }
+    },
+    {
+      "n": 18,
+      "file": "18.webp",
+      "url": "https://start.memoryos.com/new-h2/quiz/17?thm=light&gbv=eyJnYl92YWx1ZSI6Miwic2F2ZWRfYXQiOiIyMDI2LTEwLTIxVDEyOjQ4OjM5LjY2NVoifQ%3D%3D&u=eyJjaWQiOiJkMzFlODk5MGNmMGQ0NzU1ZjljNCIsImdjaWQiOiIxNTIzMTE5NTIxLjE3OTI1ODY5MjAiLCJ1c2VyX2FnZV9yYW5nZSI6IjU1IiwidXNlcl9nZW5kZXIiOiJtYWxlIiwidXNlcl9nb2FsIjoiUGVyc29uYWwgZGV2ZWxvcG1lbnQiLCJhbmFseXRpY3NfdHJhY2tlZCI6eyJldmVudHNUcmFja2VkIjpmYWxzZSwibGFzdFRyYWNrZWRWYWx1ZXMiOnsiY2lkIjpudWxsLCJlbWFpbCI6bnVsbCwibmFtZSI6bnVsbH19LCJwYXltZW50X2JhY2tfcGF0aCI6InBsYW4iLCJkZXZpY2VfaWQiOiI1YmFiZTBjMi03ZDVkLTRiNjMtYWI2Ni03M2Y4YWY5OGI0ODkifQ%3D%3D&ds=ZmFsc2U%3D&tpd=eyJ0cFByb2R1Y3RUaXRsZSI6IjEyIFdlZWtzIEV4cGVydCBQbGFuIn0%3D",
+      "path": "/new-h2/quiz/17",
+      "title": "Would a better memory help your career?",
+      "kind": "question",
+      "text": "Back\nPERSONALITY\nWould a better memory help your career?\n👍 Yes\n🤷 Not sure",
+      "textHash": "4cc0e362f853",
+      "dhash": "1011000011101000101010001000001000000000000000000000000000000000",
+      "h": 844,
+      "prices": [],
+      "action": {
+        "opt": "👍 Yes"
+      }
+    },
+    {
+      "n": 19,
+      "file": "19.webp",
+      "url": "https://start.memoryos.com/new-h2/quiz/18?thm=light&gbv=eyJnYl92YWx1ZSI6Miwic2F2ZWRfYXQiOiIyMDI2LTEwLTIxVDEyOjQ4OjM5LjY2NVoifQ%3D%3D&u=eyJjaWQiOiJkMzFlODk5MGNmMGQ0NzU1ZjljNCIsImdjaWQiOiIxNTIzMTE5NTIxLjE3OTI1ODY5MjAiLCJ1c2VyX2FnZV9yYW5nZSI6IjU1IiwidXNlcl9nZW5kZXIiOiJtYWxlIiwidXNlcl9nb2FsIjoiUGVyc29uYWwgZGV2ZWxvcG1lbnQiLCJhbmFseXRpY3NfdHJhY2tlZCI6eyJldmVudHNUcmFja2VkIjpmYWxzZSwibGFzdFRyYWNrZWRWYWx1ZXMiOnsiY2lkIjpudWxsLCJlbWFpbCI6bnVsbCwibmFtZSI6bnVsbH19LCJwYXltZW50X2JhY2tfcGF0aCI6InBsYW4iLCJkZXZpY2VfaWQiOiI1YmFiZTBjMi03ZDVkLTRiNjMtYWI2Ni03M2Y4YWY5OGI0ODkifQ%3D%3D&ds=ZmFsc2U%3D&tpd=eyJ0cFByb2R1Y3RUaXRsZSI6IjEyIFdlZWtzIEV4cGVydCBQbGFuIn0%3D",
+      "path": "/new-h2/quiz/18",
+      "title": "Do you associate regular brain and memory workouts with better performance at work?",
+      "kind": "question",
+      "text": "Back\nPERSONALITY\nDo you associate regular brain and memory workouts with better performance at work?\n🧠 Yes\n🤷 Not really",
+      "textHash": "8b37e0d5e688",
+      "dhash": "0011000010101010101000001000000110000000000000000000000000000000",
+      "h": 844,
+      "prices": [],
+      "action": {
+        "opt": "🧠 Yes"
+      }
+    },
+    {
+      "n": 20,
+      "file": "20.webp",
+      "url": "https://start.memoryos.com/new-h2/quiz/19?thm=light&gbv=eyJnYl92YWx1ZSI6Miwic2F2ZWRfYXQiOiIyMDI2LTEwLTIxVDEyOjQ4OjM5LjY2NVoifQ%3D%3D&u=eyJjaWQiOiJkMzFlODk5MGNmMGQ0NzU1ZjljNCIsImdjaWQiOiIxNTIzMTE5NTIxLjE3OTI1ODY5MjAiLCJ1c2VyX2FnZV9yYW5nZSI6IjU1IiwidXNlcl9nZW5kZXIiOiJtYWxlIiwidXNlcl9nb2FsIjoiUGVyc29uYWwgZGV2ZWxvcG1lbnQiLCJhbmFseXRpY3NfdHJhY2tlZCI6eyJldmVudHNUcmFja2VkIjpmYWxzZSwibGFzdFRyYWNrZWRWYWx1ZXMiOnsiY2lkIjpudWxsLCJlbWFpbCI6bnVsbCwibmFtZSI6bnVsbH19LCJwYXltZW50X2JhY2tfcGF0aCI6InBsYW4iLCJkZXZpY2VfaWQiOiI1YmFiZTBjMi03ZDVkLTRiNjMtYWI2Ni03M2Y4YWY5OGI0ODkifQ%3D%3D&ds=ZmFsc2U%3D&tpd=eyJ0cFByb2R1Y3RUaXRsZSI6IjEyIFdlZWtzIEV4cGVydCBQbGFuIn0%3D",
+      "path": "/new-h2/quiz/19",
+      "title": "Do you sometimes need a friendly push to keep moving forward?",
+      "kind": "question",
+      "text": "Back\nPERSONALITY\nDo you sometimes need a friendly push to keep moving forward?\n🤝 Yes\n🤷 Not really",
+      "textHash": "f8794ec08c09",
+      "dhash": "0011000011010010101100101000110000000000000000000000000000000000",
+      "h": 844,
+      "prices": [],
+      "action": {
+        "opt": "🤝 Yes"
+      }
+    },
+    {
+      "n": 21,
+      "file": "21.webp",
+      "url": "https://start.memoryos.com/new-h2/quiz/20?thm=light&gbv=eyJnYl92YWx1ZSI6Miwic2F2ZWRfYXQiOiIyMDI2LTEwLTIxVDEyOjQ4OjM5LjY2NVoifQ%3D%3D&u=eyJjaWQiOiJkMzFlODk5MGNmMGQ0NzU1ZjljNCIsImdjaWQiOiIxNTIzMTE5NTIxLjE3OTI1ODY5MjAiLCJ1c2VyX2FnZV9yYW5nZSI6IjU1IiwidXNlcl9nZW5kZXIiOiJtYWxlIiwidXNlcl9nb2FsIjoiUGVyc29uYWwgZGV2ZWxvcG1lbnQiLCJhbmFseXRpY3NfdHJhY2tlZCI6eyJldmVudHNUcmFja2VkIjpmYWxzZSwibGFzdFRyYWNrZWRWYWx1ZXMiOnsiY2lkIjpudWxsLCJlbWFpbCI6bnVsbCwibmFtZSI6bnVsbH19LCJwYXltZW50X2JhY2tfcGF0aCI6InBsYW4iLCJkZXZpY2VfaWQiOiI1YmFiZTBjMi03ZDVkLTRiNjMtYWI2Ni03M2Y4YWY5OGI0ODkifQ%3D%3D&ds=ZmFsc2U%3D&tpd=eyJ0cFByb2R1Y3RUaXRsZSI6IjEyIFdlZWtzIEV4cGVydCBQbGFuIn0%3D",
+      "path": "/new-h2/quiz/20",
+      "title": "A friendly push now and then can be a great motivator",
+      "kind": "loader",
+      "text": "Back\nPERSONALITY\nA friendly push now and then can be a great motivator\nWe'll consider how you feel about it for creating your growth plan.\nContinue",
+      "textHash": "25e81de88259",
+      "dhash": "1011000011001100110110001101001011010100110011001000111000000000",
+      "h": 844,
+      "prices": [],
+      "action": {
+        "cta": "Continue"
+      }
+    },
+    {
+      "n": 22,
+      "file": "22.webp",
+      "url": "https://start.memoryos.com/new-h2/quiz/21?thm=light&gbv=eyJnYl92YWx1ZSI6Miwic2F2ZWRfYXQiOiIyMDI2LTEwLTIxVDEyOjQ4OjM5LjY2NVoifQ%3D%3D&u=eyJjaWQiOiJkMzFlODk5MGNmMGQ0NzU1ZjljNCIsImdjaWQiOiIxNTIzMTE5NTIxLjE3OTI1ODY5MjAiLCJ1c2VyX2FnZV9yYW5nZSI6IjU1IiwidXNlcl9nZW5kZXIiOiJtYWxlIiwidXNlcl9nb2FsIjoiUGVyc29uYWwgZGV2ZWxvcG1lbnQiLCJhbmFseXRpY3NfdHJhY2tlZCI6eyJldmVudHNUcmFja2VkIjpmYWxzZSwibGFzdFRyYWNrZWRWYWx1ZXMiOnsiY2lkIjpudWxsLCJlbWFpbCI6bnVsbCwibmFtZSI6bnVsbH19LCJwYXltZW50X2JhY2tfcGF0aCI6InBsYW4iLCJkZXZpY2VfaWQiOiI1YmFiZTBjMi03ZDVkLTRiNjMtYWI2Ni03M2Y4YWY5OGI0ODkifQ%3D%3D&ds=ZmFsc2U%3D&tpd=eyJ0cFByb2R1Y3RUaXRsZSI6IjEyIFdlZWtzIEV4cGVydCBQbGFuIn0%3D",
+      "path": "/new-h2/quiz/21",
+      "title": "You came to the right place!",
+      "kind": "social_proof",
+      "text": "Back\nPERSONALITY\nYou came to the right place!\nGet ready to join 100,000 early adopters who on average see a rapid increase in recall precision by +79% and recall speed by +57%\nContinue",
+      "textHash": "f1bd74e2bcc1",
+      "dhash": "1011001000111000101101001100010011001000101100101000111000000000",
+      "h": 844,
+      "prices": [],
+      "action": {
+        "cta": "Continue"
+      }
+    },
+    {
+      "n": 23,
+      "file": "23.webp",
+      "url": "https://start.memoryos.com/new-h2/quiz/22?thm=light&gbv=eyJnYl92YWx1ZSI6Miwic2F2ZWRfYXQiOiIyMDI2LTEwLTIxVDEyOjQ4OjM5LjY2NVoifQ%3D%3D&u=eyJjaWQiOiJkMzFlODk5MGNmMGQ0NzU1ZjljNCIsImdjaWQiOiIxNTIzMTE5NTIxLjE3OTI1ODY5MjAiLCJ1c2VyX2FnZV9yYW5nZSI6IjU1IiwidXNlcl9nZW5kZXIiOiJtYWxlIiwidXNlcl9nb2FsIjoiUGVyc29uYWwgZGV2ZWxvcG1lbnQiLCJhbmFseXRpY3NfdHJhY2tlZCI6eyJldmVudHNUcmFja2VkIjpmYWxzZSwibGFzdFRyYWNrZWRWYWx1ZXMiOnsiY2lkIjpudWxsLCJlbWFpbCI6bnVsbCwibmFtZSI6bnVsbH19LCJwYXltZW50X2JhY2tfcGF0aCI6InBsYW4iLCJkZXZpY2VfaWQiOiI1YmFiZTBjMi03ZDVkLTRiNjMtYWI2Ni03M2Y4YWY5OGI0ODkifQ%3D%3D&ds=ZmFsc2U%3D&tpd=eyJ0cFByb2R1Y3RUaXRsZSI6IjEyIFdlZWtzIEV4cGVydCBQbGFuIn0%3D",
+      "path": "/new-h2/quiz/22",
+      "title": "Have you ever heard of a Mind Palace technique that Sherlock uses?",
+      "kind": "question",
+      "text": "Back\nPREFERENCES\nHave you ever heard of a Mind Palace technique that Sherlock uses?\n🧐 Yes\n🤔 Not sure",
+      "textHash": "03beb0bc462b",
+      "dhash": "1011000010110010101100101000100010010000000000000000000000000000",
+      "h": 844,
+      "prices": [],
+      "action": {
+        "opt": "🧐 Yes"
+      }
+    },
+    {
+      "n": 24,
+      "file": "24.webp",
+      "url": "https://start.memoryos.com/new-h2/quiz/23?thm=light&gbv=eyJnYl92YWx1ZSI6Miwic2F2ZWRfYXQiOiIyMDI2LTEwLTIxVDEyOjQ4OjM5LjY2NVoifQ%3D%3D&u=eyJjaWQiOiJkMzFlODk5MGNmMGQ0NzU1ZjljNCIsImdjaWQiOiIxNTIzMTE5NTIxLjE3OTI1ODY5MjAiLCJ1c2VyX2FnZV9yYW5nZSI6IjU1IiwidXNlcl9nZW5kZXIiOiJtYWxlIiwidXNlcl9nb2FsIjoiUGVyc29uYWwgZGV2ZWxvcG1lbnQiLCJhbmFseXRpY3NfdHJhY2tlZCI6eyJldmVudHNUcmFja2VkIjpmYWxzZSwibGFzdFRyYWNrZWRWYWx1ZXMiOnsiY2lkIjpudWxsLCJlbWFpbCI6bnVsbCwibmFtZSI6bnVsbH19LCJwYXltZW50X2JhY2tfcGF0aCI6InBsYW4iLCJkZXZpY2VfaWQiOiI1YmFiZTBjMi03ZDVkLTRiNjMtYWI2Ni03M2Y4YWY5OGI0ODkifQ%3D%3D&ds=ZmFsc2U%3D&tpd=eyJ0cFByb2R1Y3RUaXRsZSI6IjEyIFdlZWtzIEV4cGVydCBQbGFuIn0%3D",
+      "path": "/new-h2/quiz/23",
+      "title": "See how it works for yourself!",
+      "kind": "info",
+      "text": "Back\nPREFERENCES\nSee how it works for yourself!\nOur patented Virtual Memory Palace technology, combined with Duolingo-like microlessons and proven learning techniques, helps people overcome the forgetting curve and retain essential knowledge.\nContinue",
+      "textHash": "cd6efb655f4d",
+      "dhash": "0011000011011100110011001011010010110010101010100000000000000000",
+      "h": 844,
+      "prices": [],
+      "action": {
+        "cta": "Continue"
+      }
+    },
+    {
+      "n": 25,
+      "file": "25.webp",
+      "url": "https://start.memoryos.com/new-h2/quiz/24?thm=light&gbv=eyJnYl92YWx1ZSI6Miwic2F2ZWRfYXQiOiIyMDI2LTEwLTIxVDEyOjQ4OjM5LjY2NVoifQ%3D%3D&u=eyJjaWQiOiJkMzFlODk5MGNmMGQ0NzU1ZjljNCIsImdjaWQiOiIxNTIzMTE5NTIxLjE3OTI1ODY5MjAiLCJ1c2VyX2FnZV9yYW5nZSI6IjU1IiwidXNlcl9nZW5kZXIiOiJtYWxlIiwidXNlcl9nb2FsIjoiUGVyc29uYWwgZGV2ZWxvcG1lbnQiLCJhbmFseXRpY3NfdHJhY2tlZCI6eyJldmVudHNUcmFja2VkIjpmYWxzZSwibGFzdFRyYWNrZWRWYWx1ZXMiOnsiY2lkIjpudWxsLCJlbWFpbCI6bnVsbCwibmFtZSI6bnVsbH19LCJwYXltZW50X2JhY2tfcGF0aCI6InBsYW4iLCJkZXZpY2VfaWQiOiI1YmFiZTBjMi03ZDVkLTRiNjMtYWI2Ni03M2Y4YWY5OGI0ODkifQ%3D%3D&ds=ZmFsc2U%3D&tpd=eyJ0cFByb2R1Y3RUaXRsZSI6IjEyIFdlZWtzIEV4cGVydCBQbGFuIn0%3D",
+      "path": "/new-h2/quiz/24",
+      "title": "Do you believe that everyone can develop a great memory?",
+      "kind": "question",
+      "text": "Back\nPREFERENCES\nDo you believe that everyone can develop a great memory?\n💡 Yes\n🤔 Not sure",
+      "textHash": "2884f2376c21",
+      "dhash": "0011000010000110100001101000000000000000000000000000000000000000",
+      "h": 844,
+      "prices": [],
+      "action": {
+        "opt": "💡 Yes"
+      }
+    },
+    {
+      "n": 26,
+      "file": "26.webp",
+      "url": "https://start.memoryos.com/new-h2/quiz/25?thm=light&gbv=eyJnYl92YWx1ZSI6Miwic2F2ZWRfYXQiOiIyMDI2LTEwLTIxVDEyOjQ4OjM5LjY2NVoifQ%3D%3D&u=eyJjaWQiOiJkMzFlODk5MGNmMGQ0NzU1ZjljNCIsImdjaWQiOiIxNTIzMTE5NTIxLjE3OTI1ODY5MjAiLCJ1c2VyX2FnZV9yYW5nZSI6IjU1IiwidXNlcl9nZW5kZXIiOiJtYWxlIiwidXNlcl9nb2FsIjoiUGVyc29uYWwgZGV2ZWxvcG1lbnQiLCJhbmFseXRpY3NfdHJhY2tlZCI6eyJldmVudHNUcmFja2VkIjpmYWxzZSwibGFzdFRyYWNrZWRWYWx1ZXMiOnsiY2lkIjpudWxsLCJlbWFpbCI6bnVsbCwibmFtZSI6bnVsbH19LCJwYXltZW50X2JhY2tfcGF0aCI6InBsYW4iLCJkZXZpY2VfaWQiOiI1YmFiZTBjMi03ZDVkLTRiNjMtYWI2Ni03M2Y4YWY5OGI0ODkifQ%3D%3D&ds=ZmFsc2U%3D&tpd=eyJ0cFByb2R1Y3RUaXRsZSI6IjEyIFdlZWtzIEV4cGVydCBQbGFuIn0%3D",
+      "path": "/new-h2/quiz/25",
+      "title": "Meet the average “Joe” who perfected his memory",
+      "kind": "social_proof",
+      "text": "Back\nPREFERENCES\nMeet the average “Joe” who perfected his memory\nBefore co-founding memoryOS, Jonas von Essen went from struggling to remember to becoming a legend.\nTwo Times World Memory Champion\nWon “Jeopardy” TV show in Sweden\nWon “Who Wants to be a Millionaire”\nMemorized the first 100,000 Pi digits\nContinue",
+      "textHash": "3bfdbf22536b",
+      "dhash": "1010000000110010111100001100110010110100110011001000111010100000",
+      "h": 844,
+      "prices": [],
+      "action": {
+        "cta": "Continue"
+      }
+    },
+    {
+      "n": 27,
+      "file": "27.webp",
+      "url": "https://start.memoryos.com/new-h2/quiz/26?thm=light&gbv=eyJnYl92YWx1ZSI6Miwic2F2ZWRfYXQiOiIyMDI2LTEwLTIxVDEyOjQ4OjM5LjY2NVoifQ%3D%3D&u=eyJjaWQiOiJkMzFlODk5MGNmMGQ0NzU1ZjljNCIsImdjaWQiOiIxNTIzMTE5NTIxLjE3OTI1ODY5MjAiLCJ1c2VyX2FnZV9yYW5nZSI6IjU1IiwidXNlcl9nZW5kZXIiOiJtYWxlIiwidXNlcl9nb2FsIjoiUGVyc29uYWwgZGV2ZWxvcG1lbnQiLCJhbmFseXRpY3NfdHJhY2tlZCI6eyJldmVudHNUcmFja2VkIjpmYWxzZSwibGFzdFRyYWNrZWRWYWx1ZXMiOnsiY2lkIjpudWxsLCJlbWFpbCI6bnVsbCwibmFtZSI6bnVsbH19LCJwYXltZW50X2JhY2tfcGF0aCI6InBsYW4iLCJkZXZpY2VfaWQiOiI1YmFiZTBjMi03ZDVkLTRiNjMtYWI2Ni03M2Y4YWY5OGI0ODkifQ%3D%3D&ds=ZmFsc2U%3D&tpd=eyJ0cFByb2R1Y3RUaXRsZSI6IjEyIFdlZWtzIEV4cGVydCBQbGFuIn0%3D",
+      "path": "/new-h2/quiz/26",
+      "title": "You can achieve greatness too!",
+      "kind": "info",
+      "text": "Back\nPREFERENCES\nYou can achieve greatness too!\nJust make a quick memoryOS session a part of your daily routine. But don't worry, it's a joyful experience!\nContinue",
+      "textHash": "0e85b82aed8a",
+      "dhash": "1011001001111000111010001111000010110100111010001000101000000000",
+      "h": 844,
+      "prices": [],
+      "action": {
+        "cta": "Continue"
+      }
+    },
+    {
+      "n": 28,
+      "file": "28.webp",
+      "url": "https://start.memoryos.com/new-h2/quiz/27?thm=light&gbv=eyJnYl92YWx1ZSI6Miwic2F2ZWRfYXQiOiIyMDI2LTEwLTIxVDEyOjQ4OjM5LjY2NVoifQ%3D%3D&u=eyJjaWQiOiJkMzFlODk5MGNmMGQ0NzU1ZjljNCIsImdjaWQiOiIxNTIzMTE5NTIxLjE3OTI1ODY5MjAiLCJ1c2VyX2FnZV9yYW5nZSI6IjU1IiwidXNlcl9nZW5kZXIiOiJtYWxlIiwidXNlcl9nb2FsIjoiUGVyc29uYWwgZGV2ZWxvcG1lbnQiLCJhbmFseXRpY3NfdHJhY2tlZCI6eyJldmVudHNUcmFja2VkIjpmYWxzZSwibGFzdFRyYWNrZWRWYWx1ZXMiOnsiY2lkIjpudWxsLCJlbWFpbCI6bnVsbCwibmFtZSI6bnVsbH19LCJwYXltZW50X2JhY2tfcGF0aCI6InBsYW4iLCJkZXZpY2VfaWQiOiI1YmFiZTBjMi03ZDVkLTRiNjMtYWI2Ni03M2Y4YWY5OGI0ODkifQ%3D%3D&ds=ZmFsc2U%3D&tpd=eyJ0cFByb2R1Y3RUaXRsZSI6IjEyIFdlZWtzIEV4cGVydCBQbGFuIn0%3D",
+      "path": "/new-h2/quiz/27",
+      "title": "What type of learning do you prefer?",
+      "kind": "question",
+      "text": "Back\nPREFERENCES\nWhat type of learning do you prefer?\n🖼️ Visual - videos, images\n🎧 Auditory - podcasts, lectures\n📚 Reading - books, articles\n🛠️ Kinesthetic hands-on activities\n🎨 I have a mix of learning types",
+      "textHash": "91d834eb4c23",
+      "dhash": "1011000010110000101100001010001010001000101010000000000000000000",
+      "h": 844,
+      "prices": [],
+      "action": {
+        "opt": "🖼️ Visual - videos, images"
+      }
+    },
+    {
+      "n": 29,
+      "file": "29.webp",
+      "url": "https://start.memoryos.com/new-h2/quiz/28?thm=light&gbv=eyJnYl92YWx1ZSI6Miwic2F2ZWRfYXQiOiIyMDI2LTEwLTIxVDEyOjQ4OjM5LjY2NVoifQ%3D%3D&u=eyJjaWQiOiJkMzFlODk5MGNmMGQ0NzU1ZjljNCIsImdjaWQiOiIxNTIzMTE5NTIxLjE3OTI1ODY5MjAiLCJ1c2VyX2FnZV9yYW5nZSI6IjU1IiwidXNlcl9nZW5kZXIiOiJtYWxlIiwidXNlcl9nb2FsIjoiUGVyc29uYWwgZGV2ZWxvcG1lbnQiLCJhbmFseXRpY3NfdHJhY2tlZCI6eyJldmVudHNUcmFja2VkIjpmYWxzZSwibGFzdFRyYWNrZWRWYWx1ZXMiOnsiY2lkIjpudWxsLCJlbWFpbCI6bnVsbCwibmFtZSI6bnVsbH19LCJwYXltZW50X2JhY2tfcGF0aCI6InBsYW4iLCJkZXZpY2VfaWQiOiI1YmFiZTBjMi03ZDVkLTRiNjMtYWI2Ni03M2Y4YWY5OGI0ODkifQ%3D%3D&ds=ZmFsc2U%3D&tpd=eyJ0cFByb2R1Y3RUaXRsZSI6IjEyIFdlZWtzIEV4cGVydCBQbGFuIn0%3D",
+      "path": "/new-h2/quiz/28",
+      "title": "What motivates you to stick to a memory improvement routine?",
+      "kind": "question",
+      "text": "Back\nPREFERENCES\nWhat motivates you to stick to a memory improvement routine?\n📈 Seeing tangible progress\n🎮 Gamified elements (points, rewards)\n🤝 Accountability from friends or community\n🌱 Personal satisfaction and growth\n🎨 I have a mix of motivations",
+      "textHash": "db9166b7d5fe",
+      "dhash": "1011000010100010110100001100000011101000101100000000000000000000",
+      "h": 844,
+      "prices": [],
+      "action": {
+        "opt": "📈 Seeing tangible progress"
+      }
+    },
+    {
+      "n": 30,
+      "file": "30.webp",
+      "url": "https://start.memoryos.com/new-h2/quiz/29?thm=light&gbv=eyJnYl92YWx1ZSI6Miwic2F2ZWRfYXQiOiIyMDI2LTEwLTIxVDEyOjQ4OjM5LjY2NVoifQ%3D%3D&u=eyJjaWQiOiJkMzFlODk5MGNmMGQ0NzU1ZjljNCIsImdjaWQiOiIxNTIzMTE5NTIxLjE3OTI1ODY5MjAiLCJ1c2VyX2FnZV9yYW5nZSI6IjU1IiwidXNlcl9nZW5kZXIiOiJtYWxlIiwidXNlcl9nb2FsIjoiUGVyc29uYWwgZGV2ZWxvcG1lbnQiLCJhbmFseXRpY3NfdHJhY2tlZCI6eyJldmVudHNUcmFja2VkIjpmYWxzZSwibGFzdFRyYWNrZWRWYWx1ZXMiOnsiY2lkIjpudWxsLCJlbWFpbCI6bnVsbCwibmFtZSI6bnVsbH19LCJwYXltZW50X2JhY2tfcGF0aCI6InBsYW4iLCJkZXZpY2VfaWQiOiI1YmFiZTBjMi03ZDVkLTRiNjMtYWI2Ni03M2Y4YWY5OGI0ODkifQ%3D%3D&ds=ZmFsc2U%3D&tpd=eyJ0cFByb2R1Y3RUaXRsZSI6IjEyIFdlZWtzIEV4cGVydCBQbGFuIn0%3D",
+      "path": "/new-h2/quiz/29",
+      "title": "Ready to embark on a journey to enhance your memory?",
+      "kind": "question",
+      "text": "Back\nPREFERENCES\nReady to embark on a journey to enhance your memory?\n🚀 Absolutely, let's get started!\n🤔 I'm curious to try",
+      "textHash": "80ee092519eb",
+      "dhash": "0011000010100100100000001100000000000000000000000000000000000000",
+      "h": 844,
+      "prices": [],
+      "action": {
+        "opt": "🚀 Absolutely, let's get started!"
+      }
+    },
+    {
+      "n": 31,
+      "file": "31.webp",
+      "url": "https://start.memoryos.com/new-h2/quiz/30?thm=light&gbv=eyJnYl92YWx1ZSI6Miwic2F2ZWRfYXQiOiIyMDI2LTEwLTIxVDEyOjQ4OjM5LjY2NVoifQ%3D%3D&u=eyJjaWQiOiJkMzFlODk5MGNmMGQ0NzU1ZjljNCIsImdjaWQiOiIxNTIzMTE5NTIxLjE3OTI1ODY5MjAiLCJ1c2VyX2FnZV9yYW5nZSI6IjU1IiwidXNlcl9nZW5kZXIiOiJtYWxlIiwidXNlcl9nb2FsIjoiUGVyc29uYWwgZGV2ZWxvcG1lbnQiLCJhbmFseXRpY3NfdHJhY2tlZCI6eyJldmVudHNUcmFja2VkIjpmYWxzZSwibGFzdFRyYWNrZWRWYWx1ZXMiOnsiY2lkIjpudWxsLCJlbWFpbCI6bnVsbCwibmFtZSI6bnVsbH19LCJwYXltZW50X2JhY2tfcGF0aCI6InBsYW4iLCJkZXZpY2VfaWQiOiI1YmFiZTBjMi03ZDVkLTRiNjMtYWI2Ni03M2Y4YWY5OGI0ODkifQ%3D%3D&ds=ZmFsc2U%3D&tpd=eyJ0cFByb2R1Y3RUaXRsZSI6IjEyIFdlZWtzIEV4cGVydCBQbGFuIn0%3D",
+      "path": "/new-h2/quiz/30",
+      "title": "Set your daily commitment to develop a habit and stay motivated",
+      "kind": "question",
+      "text": "Back\nPREFERENCES\nSet your daily commitment to develop a habit and stay motivated\n🌱 5 min / day - Build Basics\n🌟 10 min / day - Enhance Skills\n🎯 15 min / day - Expand Knowledge\n🏆 20 min / day - Achieve Mastery",
+      "textHash": "4a7780fcd138",
+      "dhash": "0011000011011000111100001001000010111000000100000000000000000000",
+      "h": 844,
+      "prices": [],
+      "action": {
+        "opt": "🌱 5 min / day - Build Basics"
+      }
+    },
+    {
+      "n": 32,
+      "file": "32.webp",
+      "url": "https://start.memoryos.com/new-h2/quiz/32?thm=light&gbv=eyJnYl92YWx1ZSI6Miwic2F2ZWRfYXQiOiIyMDI2LTEwLTIxVDEyOjQ4OjM5LjY2NVoifQ%3D%3D&u=eyJjaWQiOiJkMzFlODk5MGNmMGQ0NzU1ZjljNCIsImdjaWQiOiIxNTIzMTE5NTIxLjE3OTI1ODY5MjAiLCJ1c2VyX2FnZV9yYW5nZSI6IjU1IiwidXNlcl9nZW5kZXIiOiJtYWxlIiwidXNlcl9nb2FsIjoiUGVyc29uYWwgZGV2ZWxvcG1lbnQiLCJhbmFseXRpY3NfdHJhY2tlZCI6eyJldmVudHNUcmFja2VkIjpmYWxzZSwibGFzdFRyYWNrZWRWYWx1ZXMiOnsiY2lkIjpudWxsLCJlbWFpbCI6bnVsbCwibmFtZSI6bnVsbH19LCJwYXltZW50X2JhY2tfcGF0aCI6InBsYW4iLCJkZXZpY2VfaWQiOiI1YmFiZTBjMi03ZDVkLTRiNjMtYWI2Ni03M2Y4YWY5OGI0ODkifQ%3D%3D&ds=ZmFsc2U%3D&tpd=eyJ0cFByb2R1Y3RUaXRsZSI6IjEyIFdlZWtzIEV4cGVydCBQbGFuIn0%3D",
+      "path": "/new-h2/quiz/32",
+      "title": "Enter your email to get your memoryOS plan",
+      "kind": "email",
+      "text": "Enter your email to get your memoryOS plan\n🔐 We respect your privacy and are committed to protecting your personal data.\nContinue\nBy continuing you indicate that you've read and agree to our Terms Conditions & Privacy Policy",
+      "textHash": "f3a91bb1f16d",
+      "dhash": "1111000011101000100001001000100001100000000000000000000000000000",
+      "h": 844,
+      "prices": [],
+      "action": {
+        "filled": true,
+        "email": "yelyzavetabazyla+fw261021memoryos1@gmail.com"
+      },
+      "emailError": "Please enter a valid email address"
+    }
+  ],
+  "features": {
+    "totalSteps": 32,
+    "stop": "email_rejected",
+    "emailStep": 32,
+    "paywallStep": null,
+    "questions": 19,
+    "socialProof": 2,
+    "popups": 0,
+    "loader": true,
+    "prices": [],
+    "discount": null,
+    "timer": false,
+    "trial": false,
+    "moneyBack": false
+  }
+}

@@ -1,0 +1,661 @@
+{
+  "url": "https://onboarding.ailearna.com/onboarding",
+  "key": "onboarding.ailearna.com/onboarding",
+  "why": "seed",
+  "ads": 0,
+  "adShot": null,
+  "adId": null,
+  "dir": "funnels/learna/8c5e7e4aa4f9",
+  "stop": "paywall",
+  "proxied": false,
+  "email": "yelyzavetabazyla+fw261021learna1@gmail.com",
+  "emailNote": null,
+  "signedUp": null,
+  "steps": [
+    {
+      "n": 1,
+      "file": "01.webp",
+      "url": "https://onboarding.ailearna.com/onboarding",
+      "path": "/onboarding",
+      "title": "Discover Your English Potential",
+      "kind": "question",
+      "text": "Master English with AI: Personalized Language Tutoring by Learna\nDiscover Your English Potential\nGet your personalized learning plan tailored to your language goals.\n3 MINUTE QUIZ\nAge: 18-24\nAge: 25-34\nAge: 35-44\nAge: 45+\nBy continuing, you agree to our Privacy Policy and Terms & Conditions.\nDigital Park, Dubai Silicon Oasis, Dubai 341041, UAE\nPrivacy Policy • Terms & Conditions • Subscription Policy\nWe value your privacy\nWe use cookies to enhance your browsing experience, serve personalised ads or content, and analyse our traffic. By clicking \"Accept All\", you consent to our use of cookies.\nCustomize\nReject All\nAccept All",
+      "textHash": "39f0a2ab3929",
+      "dhash": "1010100010110010110011001100110011001100110011000001000011000100",
+      "h": 997,
+      "prices": [],
+      "action": {
+        "opt": "Age: 18-24"
+      }
+    },
+    {
+      "n": 2,
+      "file": "02.webp",
+      "url": "https://onboarding.ailearna.com/onboarding",
+      "path": "/onboarding",
+      "title": "What is your native language?",
+      "kind": "question",
+      "text": "Master English with AI: Personalized Language Tutoring by Learna\nWhat is your native language?\nContinue\nDigital Park, Dubai Silicon Oasis, Dubai 341041, UAE\nPrivacy Policy • Terms & Conditions • Subscription Policy\nWe value your privacy\nWe use cookies to enhance your browsing experience, serve personalised ads or content, and analyse our traffic. By clicking \"Accept All\", you consent to our use of cookies.\nCustomize\nReject All\nAccept All",
+      "textHash": "4adce024fac8",
+      "dhash": "1101010010110000100000100001000000000000000000001000101010001110",
+      "h": 997,
+      "prices": [],
+      "action": {
+        "opt": "",
+        "cta": "Continue"
+      }
+    },
+    {
+      "n": 3,
+      "file": "03.webp",
+      "url": "https://onboarding.ailearna.com/onboarding",
+      "path": "/onboarding",
+      "title": "What is your English level?",
+      "kind": "question",
+      "text": "Master English with AI: Personalized Language Tutoring by Learna\nWhat is your English level?\nBeginner\nPre Intermediate\nIntermediate\nUpper Intermediate\nAdvanced\nProficient\nDigital Park, Dubai Silicon Oasis, Dubai 341041, UAE\nPrivacy Policy • Terms & Conditions • Subscription Policy\nWe value your privacy\nWe use cookies to enhance your browsing experience, serve personalised ads or content, and analyse our traffic. By clicking \"Accept All\", you consent to our use of cookies.\nCustomize\nReject All\nAccept All",
+      "textHash": "d7c72c07eac1",
+      "dhash": "1101000011010100110011001100110011001100110011000000000011000100",
+      "h": 997,
+      "prices": [],
+      "action": {
+        "opt": "Beginner"
+      }
+    },
+    {
+      "n": 4,
+      "file": "04.webp",
+      "url": "https://onboarding.ailearna.com/onboarding",
+      "path": "/onboarding",
+      "title": "80M+ people",
+      "kind": "social_proof",
+      "text": "Master English with AI: Personalized Language Tutoring by Learna\n80M+ people\nare learning English with Learna\nfrom users\nContinue\nDigital Park, Dubai Silicon Oasis, Dubai 341041, UAE\nPrivacy Policy • Terms & Conditions • Subscription Policy\nWe value your privacy\nWe use cookies to enhance your browsing experience, serve personalised ads or content, and analyse our traffic. By clicking \"Accept All\", you consent to our use of cookies.\nCustomize\nReject All\nAccept All",
+      "textHash": "840bb8065872",
+      "dhash": "0100100011010000100100011101000001100000011000011000101010001110",
+      "h": 997,
+      "prices": [],
+      "action": {
+        "cta": "Continue"
+      }
+    },
+    {
+      "n": 5,
+      "file": "05.webp",
+      "url": "https://onboarding.ailearna.com/onboarding",
+      "path": "/onboarding",
+      "title": "Why do you want to learn English?",
+      "kind": "question",
+      "text": "Master English with AI: Personalized Language Tutoring by Learna\nWhy do you want to learn English?\n💼\nCareer, job\n👫\nFamily and friends\n✈️\nTravels\n👩‍❤️‍👨\nCommunicating with partners\n🧠\nBrain training\n🎓\nEducation\nDigital Park, Dubai Silicon Oasis, Dubai 341041, UAE\nPrivacy Policy • Terms & Conditions • Subscription Policy\nWe value your privacy\nWe use cookies to enhance your browsing experience, serve personalised ads or content, and analyse our traffic. By clicking \"Accept All\", you consent to our use of cookies.\nCustomize\nReject All\nAccept All",
+      "textHash": "9437db8b3e98",
+      "dhash": "1011101010100010100000011000100111000000100000010000000010000100",
+      "h": 997,
+      "prices": [],
+      "action": {
+        "opt": "💼 Career, job"
+      }
+    },
+    {
+      "n": 6,
+      "file": "06.webp",
+      "url": "https://onboarding.ailearna.com/onboarding",
+      "path": "/onboarding",
+      "title": "What kind of work do you do?",
+      "kind": "question",
+      "text": "Master English with AI: Personalized Language Tutoring by Learna\nWhat kind of work do you do?\n💼\nFinance & Business\n🧑‍💻\nTechnology & Engineering\n🎓\nEducation & Academia\n🎨\nCreative, Media & Design\n🧰\nSkilled Trades & Technical\n🏛️\nGovernment & Public Services\n🧹\nService & Hospitality\n🚚\nTransportation & Logistics\n⚕\nHealthcare & Science\n📈\nMarketing & Sales\n🚀\nEntrepreneurship & Freelance\n🌍\nOther\nContinue\nDigital Park, Dubai Silicon Oasis, Dubai 341041, UAE\nPrivacy Policy • Terms & Conditions • Subscription Policy\nWe value your privacy\nWe use cookies to enhance your browsing experience, serve personalised ads or content, and analyse our traffic. By clicking \"Accept All\", you consent to our use of cookies.\nCustomize\nReject All\nAccept All",
+      "textHash": "6593b408581c",
+      "dhash": "1011010010010100110011001000110011001100110011001000010010000110",
+      "h": 997,
+      "prices": [],
+      "action": {
+        "opt": "💼",
+        "cta": "Continue"
+      }
+    },
+    {
+      "n": 7,
+      "file": "07.webp",
+      "url": "https://onboarding.ailearna.com/onboarding",
+      "path": "/onboarding",
+      "title": "What's your main area in business or management?",
+      "kind": "question",
+      "text": "Master English with AI: Personalized Language Tutoring by Learna\nWhat's your main area in business or management?\nWe ask this to tailor your plan to your needs.\n💰\nAccounting / Finance\n💬\nHuman Resources\n🗓️\nProject / Operations Management\n🧠\nConsulting / Strategy\n🗃️\nAdministration\n❓\nOther\nDigital Park, Dubai Silicon Oasis, Dubai 341041, UAE\nPrivacy Policy • Terms & Conditions • Subscription Policy\nWe value your privacy\nWe use cookies to enhance your browsing experience, serve personalised ads or content, and analyse our traffic. By clicking \"Accept All\", you consent to our use of cookies.\nCustomize\nReject All\nAccept All",
+      "textHash": "34cfeb92086d",
+      "dhash": "1000101010011000110000001100000011000001100000001000000010000100",
+      "h": 997,
+      "prices": [],
+      "action": {
+        "opt": "💰 Accounting / Finance"
+      }
+    },
+    {
+      "n": 8,
+      "file": "08.webp",
+      "url": "https://onboarding.ailearna.com/onboarding",
+      "path": "/onboarding",
+      "title": "What level of English do you aim to achieve?",
+      "kind": "question",
+      "text": "Master English with AI: Personalized Language Tutoring by Learna\nWhat level of English do you aim to achieve?\nSpeak confidently with natives\nWatch movies without subtitles\nUnderstand conversations effortlessly\nRead texts fluently\nDigital Park, Dubai Silicon Oasis, Dubai 341041, UAE\nPrivacy Policy • Terms & Conditions • Subscription Policy\nWe value your privacy\nWe use cookies to enhance your browsing experience, serve personalised ads or content, and analyse our traffic. By clicking \"Accept All\", you consent to our use of cookies.\nCustomize\nReject All\nAccept All",
+      "textHash": "0bddcd2b0e27",
+      "dhash": "1000100011001100110011001100110011001100100000000000000010000100",
+      "h": 997,
+      "prices": [],
+      "action": {
+        "opt": "Speak confidently with natives"
+      }
+    },
+    {
+      "n": 9,
+      "file": "09.webp",
+      "url": "https://onboarding.ailearna.com/onboarding",
+      "path": "/onboarding",
+      "title": "\"",
+      "kind": "info",
+      "text": "Master English with AI: Personalized Language Tutoring by Learna\nSet your own goal!\n\"\nDiscipline is the bridge between goals and accomplishment.\n- Jim Rohn\nContinue\nDigital Park, Dubai Silicon Oasis, Dubai 341041, UAE\nPrivacy Policy • Terms & Conditions • Subscription Policy\nWe value your privacy\nWe use cookies to enhance your browsing experience, serve personalised ads or content, and analyse our traffic. By clicking \"Accept All\", you consent to our use of cookies.\nCustomize\nReject All\nAccept All",
+      "textHash": "21ca7457fe7b",
+      "dhash": "1100010011010000110100000110110011110010000100011000101010001110",
+      "h": 997,
+      "prices": [],
+      "action": {
+        "cta": "Continue"
+      }
+    },
+    {
+      "n": 10,
+      "file": "10.webp",
+      "url": "https://onboarding.ailearna.com/onboarding",
+      "path": "/onboarding",
+      "title": "When was the last time you learned a new language?",
+      "kind": "question",
+      "text": "Master English with AI: Personalized Language Tutoring by Learna\nWhen was the last time you learned a new language?\n⏰\nRecently\n📅\nA year ago\n⌛\nMore than a year ago\n🚫\nNever\nDigital Park, Dubai Silicon Oasis, Dubai 341041, UAE\nPrivacy Policy • Terms & Conditions • Subscription Policy\nWe value your privacy\nWe use cookies to enhance your browsing experience, serve personalised ads or content, and analyse our traffic. By clicking \"Accept All\", you consent to our use of cookies.\nCustomize\nReject All\nAccept All",
+      "textHash": "e0daf6d5d33b",
+      "dhash": "1010000011110000110000011000000010000001000000000000000010000100",
+      "h": 997,
+      "prices": [],
+      "action": {
+        "opt": "⏰ Recently"
+      }
+    },
+    {
+      "n": 11,
+      "file": "11.webp",
+      "url": "https://onboarding.ailearna.com/onboarding",
+      "path": "/onboarding",
+      "title": "How did you try to learn?",
+      "kind": "question",
+      "text": "Master English with AI: Personalized Language Tutoring by Learna\nHow did you try to learn?\n📱\nMobile app\n💻\nOnline teacher\n📚\nSchool\n🏬\nLanguage courses\n📹\nYoutube\nDigital Park, Dubai Silicon Oasis, Dubai 341041, UAE\nPrivacy Policy • Terms & Conditions • Subscription Policy\nWe value your privacy\nWe use cookies to enhance your browsing experience, serve personalised ads or content, and analyse our traffic. By clicking \"Accept All\", you consent to our use of cookies.\nCustomize\nReject All\nAccept All",
+      "textHash": "8a9c1f2bc5ee",
+      "dhash": "1000011010000010100000001000000110000001000000000000000010000100",
+      "h": 997,
+      "prices": [],
+      "action": {
+        "opt": "📱 Mobile app"
+      }
+    },
+    {
+      "n": 12,
+      "file": "12.webp",
+      "url": "https://onboarding.ailearna.com/onboarding",
+      "path": "/onboarding",
+      "title": "How would you describe your previous English learning experiences?",
+      "kind": "question",
+      "text": "Master English with AI: Personalized Language Tutoring by Learna\nHow would you describe your previous English learning experiences?\n💸\nIt was too expensive, and I didn't want to spend that much money.\n⏳\nI struggled to dedicate time and couldn't continue.\n🙈\nI didn't want to practice speaking in front of others.\n🎯\nThere wasn't a personalized program for me.\n📅\nMy schedule didn't match with my teacher's.\n📈\nI made progress but want to improve further.\nDigital Park, Dubai Silicon Oasis, Dubai 341041, UAE\nPrivacy Policy • Terms & Conditions • Subscription Policy\nWe value your privacy\nWe use cookies to enhance your browsing experience, serve personalised ads or content, and analyse our traffic. By clicking \"Accept All\", you consent to our use of cookies.\nCustomize\nReject All\nAccept All",
+      "textHash": "b6eb8529f3ab",
+      "dhash": "1110010011110100110100101100110010000100110010001100100010000100",
+      "h": 997,
+      "prices": [],
+      "action": {
+        "opt": "⏳ I struggled to dedicate time and couldn't continue."
+      }
+    },
+    {
+      "n": 13,
+      "file": "13.webp",
+      "url": "https://onboarding.ailearna.com/onboarding",
+      "path": "/onboarding",
+      "title": "We know life gets busy—that's why Learna fits into your schedule. You decide when to study, and we'll make every minute count.",
+      "kind": "info",
+      "text": "Master English with AI: Personalized Language Tutoring by Learna\nWe know life gets busy—that's why Learna fits into your schedule. You decide when to study, and we'll make every minute count.\nContinue\nDigital Park, Dubai Silicon Oasis, Dubai 341041, UAE\nPrivacy Policy • Terms & Conditions • Subscription Policy\nWe value your privacy\nWe use cookies to enhance your browsing experience, serve personalised ads or content, and analyse our traffic. By clicking \"Accept All\", you consent to our use of cookies.\nCustomize\nReject All\nAccept All",
+      "textHash": "6928aaa1560e",
+      "dhash": "0100110011001110101001101100000110101100001000011000101010001110",
+      "h": 997,
+      "prices": [],
+      "action": {
+        "cta": "Continue"
+      }
+    },
+    {
+      "n": 14,
+      "file": "14.webp",
+      "url": "https://onboarding.ailearna.com/onboarding",
+      "path": "/onboarding",
+      "title": "I don't understand when fluent English is spoken.",
+      "kind": "question",
+      "text": "Master English with AI: Personalized Language Tutoring by Learna\nI don't understand when fluent English is spoken.\nIs the following statement true for you?\n✅\nTrue\n😐\nPartially true\n❌\nThat's not true for me\nDigital Park, Dubai Silicon Oasis, Dubai 341041, UAE\nPrivacy Policy • Terms & Conditions • Subscription Policy\nWe value your privacy\nWe use cookies to enhance your browsing experience, serve personalised ads or content, and analyse our traffic. By clicking \"Accept All\", you consent to our use of cookies.\nCustomize\nReject All\nAccept All",
+      "textHash": "ecc6fca0486e",
+      "dhash": "1010011010110100100000001100000000010000000000000000000010000100",
+      "h": 997,
+      "prices": [],
+      "action": {
+        "opt": "✅ True"
+      }
+    },
+    {
+      "n": 15,
+      "file": "15.webp",
+      "url": "https://onboarding.ailearna.com/onboarding",
+      "path": "/onboarding",
+      "title": "I get stuck while speaking because I know too few words.",
+      "kind": "question",
+      "text": "Master English with AI: Personalized Language Tutoring by Learna\nI get stuck while speaking because I know too few words.\nIs the following statement true for you?\n✅\nTrue\n😐\nPartially true\n❌\nThat's not true for me\nDigital Park, Dubai Silicon Oasis, Dubai 341041, UAE\nPrivacy Policy • Terms & Conditions • Subscription Policy\nWe value your privacy\nWe use cookies to enhance your browsing experience, serve personalised ads or content, and analyse our traffic. By clicking \"Accept All\", you consent to our use of cookies.\nCustomize\nReject All\nAccept All",
+      "textHash": "951c2a7ca249",
+      "dhash": "1001001010110010100000001100001000010000000000000000000010000100",
+      "h": 997,
+      "prices": [],
+      "action": {
+        "opt": "✅ True"
+      }
+    },
+    {
+      "n": 16,
+      "file": "16.webp",
+      "url": "https://onboarding.ailearna.com/onboarding",
+      "path": "/onboarding",
+      "title": "I always form sentences incorrectly when speaking.",
+      "kind": "question",
+      "text": "Master English with AI: Personalized Language Tutoring by Learna\nI always form sentences incorrectly when speaking.\nIs the following statement true for you?\n✅\nTrue\n😐\nPartially true\n❌\nThat's not true for me\nDigital Park, Dubai Silicon Oasis, Dubai 341041, UAE\nPrivacy Policy • Terms & Conditions • Subscription Policy\nWe value your privacy\nWe use cookies to enhance your browsing experience, serve personalised ads or content, and analyse our traffic. By clicking \"Accept All\", you consent to our use of cookies.\nCustomize\nReject All\nAccept All",
+      "textHash": "c141896e8aa7",
+      "dhash": "1100010011010100100000011100000000010000000000000000000010000100",
+      "h": 997,
+      "prices": [],
+      "action": {
+        "opt": "✅ True"
+      }
+    },
+    {
+      "n": 17,
+      "file": "17.webp",
+      "url": "https://onboarding.ailearna.com/onboarding",
+      "path": "/onboarding",
+      "title": "I understand but can't speak.",
+      "kind": "question",
+      "text": "Master English with AI: Personalized Language Tutoring by Learna\nI understand but can't speak.\nIs the following statement true for you?\n✅\nTrue\n😐\nPartially true\n❌\nThat's not true for me\nDigital Park, Dubai Silicon Oasis, Dubai 341041, UAE\nPrivacy Policy • Terms & Conditions • Subscription Policy\nWe value your privacy\nWe use cookies to enhance your browsing experience, serve personalised ads or content, and analyse our traffic. By clicking \"Accept All\", you consent to our use of cookies.\nCustomize\nReject All\nAccept All",
+      "textHash": "a2d03b88c8cd",
+      "dhash": "1101000011110000100010001000000000100000000000000000000010000100",
+      "h": 997,
+      "prices": [],
+      "action": {
+        "opt": "✅ True"
+      }
+    },
+    {
+      "n": 18,
+      "file": "18.webp",
+      "url": "https://onboarding.ailearna.com/onboarding",
+      "path": "/onboarding",
+      "title": "I can speak English but need to be more fluent.",
+      "kind": "question",
+      "text": "Master English with AI: Personalized Language Tutoring by Learna\nI can speak English but need to be more fluent.\nIs the following statement true for you?\n✅\nTrue\n😐\nPartially true\n❌\nThat's not true for me\nDigital Park, Dubai Silicon Oasis, Dubai 341041, UAE\nPrivacy Policy • Terms & Conditions • Subscription Policy\nWe value your privacy\nWe use cookies to enhance your browsing experience, serve personalised ads or content, and analyse our traffic. By clicking \"Accept All\", you consent to our use of cookies.\nCustomize\nReject All\nAccept All",
+      "textHash": "094b938e2368",
+      "dhash": "1110000010010100100000001000000000100000000000000000000010000100",
+      "h": 997,
+      "prices": [],
+      "action": {
+        "opt": "✅ True"
+      }
+    },
+    {
+      "n": 19,
+      "file": "19.webp",
+      "url": "https://onboarding.ailearna.com/onboarding",
+      "path": "/onboarding",
+      "title": "I don't have a friend to practice speaking with whenever I want.",
+      "kind": "question",
+      "text": "Master English with AI: Personalized Language Tutoring by Learna\nI don't have a friend to practice speaking with whenever I want.\nIs the following statement true for you?\n✅\nTrue\n😐\nPartially true\n❌\nThat's not true for me\nDigital Park, Dubai Silicon Oasis, Dubai 341041, UAE\nPrivacy Policy • Terms & Conditions • Subscription Policy\nWe value your privacy\nWe use cookies to enhance your browsing experience, serve personalised ads or content, and analyse our traffic. By clicking \"Accept All\", you consent to our use of cookies.\nCustomize\nReject All\nAccept All",
+      "textHash": "e35ebdc10212",
+      "dhash": "1100000011000100100010001100000100010000000000000000000010000100",
+      "h": 997,
+      "prices": [],
+      "action": {
+        "opt": "✅ True"
+      }
+    },
+    {
+      "n": 20,
+      "file": "20.webp",
+      "url": "https://onboarding.ailearna.com/onboarding",
+      "path": "/onboarding",
+      "title": "I struggle when watching English movies.",
+      "kind": "question",
+      "text": "Master English with AI: Personalized Language Tutoring by Learna\nI struggle when watching English movies.\nIs the following statement true for you?\n✅\nTrue\n😐\nPartially true\n❌\nThat's not true for me\nDigital Park, Dubai Silicon Oasis, Dubai 341041, UAE\nPrivacy Policy • Terms & Conditions • Subscription Policy\nWe value your privacy\nWe use cookies to enhance your browsing experience, serve personalised ads or content, and analyse our traffic. By clicking \"Accept All\", you consent to our use of cookies.\nCustomize\nReject All\nAccept All",
+      "textHash": "6d93fd52d16e",
+      "dhash": "1100000011100000100000001100000100010000000000000000000010000100",
+      "h": 997,
+      "prices": [],
+      "action": {
+        "opt": "✅ True"
+      }
+    },
+    {
+      "n": 21,
+      "file": "21.webp",
+      "url": "https://onboarding.ailearna.com/onboarding",
+      "path": "/onboarding",
+      "title": "What area would you like to improve?",
+      "kind": "question",
+      "text": "Master English with AI: Personalized Language Tutoring by Learna\nWhat area would you like to improve?\n🗣\nSpeaking\n👂\nListening\n📖\nVocabulary\nDigital Park, Dubai Silicon Oasis, Dubai 341041, UAE\nPrivacy Policy • Terms & Conditions • Subscription Policy\nWe value your privacy\nWe use cookies to enhance your browsing experience, serve personalised ads or content, and analyse our traffic. By clicking \"Accept All\", you consent to our use of cookies.\nCustomize\nReject All\nAccept All",
+      "textHash": "2dd598843825",
+      "dhash": "1111001011000000110000001100000100000000100000000000000010000100",
+      "h": 997,
+      "prices": [],
+      "action": {
+        "opt": "🗣 Speaking"
+      }
+    },
+    {
+      "n": 22,
+      "file": "22.webp",
+      "url": "https://onboarding.ailearna.com/onboarding",
+      "path": "/onboarding",
+      "title": "Learna creates a personalized program for you!",
+      "kind": "info",
+      "text": "Master English with AI: Personalized Language Tutoring by Learna\nLearna creates a personalized program for you!\nHelps you strengthen your weak points over time!\nContinue\nDigital Park, Dubai Silicon Oasis, Dubai 341041, UAE\nPrivacy Policy • Terms & Conditions • Subscription Policy\nWe value your privacy\nWe use cookies to enhance your browsing experience, serve personalised ads or content, and analyse our traffic. By clicking \"Accept All\", you consent to our use of cookies.\nCustomize\nReject All\nAccept All",
+      "textHash": "dd192a799b0d",
+      "dhash": "1100100101001001110001101111000011110000001010111000101010001110",
+      "h": 997,
+      "prices": [],
+      "action": {
+        "cta": "Continue"
+      }
+    },
+    {
+      "n": 23,
+      "file": "23.webp",
+      "url": "https://onboarding.ailearna.com/onboarding",
+      "path": "/onboarding",
+      "title": "Select all the words you know:",
+      "kind": "question",
+      "text": "Master English with AI: Personalized Language Tutoring by Learna\nSelect all the words you know:\nA1-A2 Beginner Level\nlaugh\nrun\ndrink\nsky\nflower\neat\nlisten\nbook\nchair\nhappy\nwalk\nsleep\nfriend\nfamily\ncar\nplay\ndog\ndance\nwater\nred\nmorning\nContinue\nDigital Park, Dubai Silicon Oasis, Dubai 341041, UAE\nPrivacy Policy • Terms & Conditions • Subscription Policy\nWe value your privacy\nWe use cookies to enhance your browsing experience, serve personalised ads or content, and analyse our traffic. By clicking \"Accept All\", you consent to our use of cookies.\nCustomize\nReject All\nAccept All",
+      "textHash": "3b62e7b87ca3",
+      "dhash": "1011000011110000100101001001010010010100100101001000101010001100",
+      "h": 997,
+      "prices": [],
+      "action": {
+        "opt": "laugh",
+        "cta": "Continue"
+      }
+    },
+    {
+      "n": 24,
+      "file": "24.webp",
+      "url": "https://onboarding.ailearna.com/onboarding",
+      "path": "/onboarding",
+      "title": "Select all the words you know:",
+      "kind": "question",
+      "text": "Master English with AI: Personalized Language Tutoring by Learna\nSelect all the words you know:\nB1-B2 Intermediate Level\nchallenge\ndisappointment\nconcentrate\nrecommendation\nresponsibility\nambition\ncreativity\nabandon\nbeyond\ndecrease\nemerge\nhonesty\nmaintain\nperception\nsimilarity\nContinue\nDigital Park, Dubai Silicon Oasis, Dubai 341041, UAE\nPrivacy Policy • Terms & Conditions • Subscription Policy\nWe value your privacy\nWe use cookies to enhance your browsing experience, serve personalised ads or content, and analyse our traffic. By clicking \"Accept All\", you consent to our use of cookies.\nCustomize\nReject All\nAccept All",
+      "textHash": "5356b5d37104",
+      "dhash": "1011000011110000110110001000010011001000110010001000011010001110",
+      "h": 997,
+      "prices": [],
+      "action": {
+        "cta": "Continue"
+      }
+    },
+    {
+      "n": 25,
+      "file": "25.webp",
+      "url": "https://onboarding.ailearna.com/onboarding",
+      "path": "/onboarding",
+      "title": "Select all the words you know:",
+      "kind": "question",
+      "text": "Master English with AI: Personalized Language Tutoring by Learna\nSelect all the words you know:\nC1-C2 Advanced Level\nambiguity\nintricate\narticulate\ningenuity\nresilience\nabsence\nintrospection\nmeticulous\ncredibility\narchitectural\ncultivate\ndefault\nnoble\nresidential\nsketch\nContinue\nDigital Park, Dubai Silicon Oasis, Dubai 341041, UAE\nPrivacy Policy • Terms & Conditions • Subscription Policy\nWe value your privacy\nWe use cookies to enhance your browsing experience, serve personalised ads or content, and analyse our traffic. By clicking \"Accept All\", you consent to our use of cookies.\nCustomize\nReject All\nAccept All",
+      "textHash": "1e718bd74a3c",
+      "dhash": "1011000011110000110010001100100011010100010010001000101010001100",
+      "h": 997,
+      "prices": [],
+      "action": {
+        "opt": "ambiguity",
+        "cta": "Continue"
+      }
+    },
+    {
+      "n": 26,
+      "file": "26.webp",
+      "url": "https://onboarding.ailearna.com/onboarding",
+      "path": "/onboarding",
+      "title": "Let's answer a few more questions!",
+      "kind": "info",
+      "text": "Master English with AI: Personalized Language Tutoring by Learna\nLet's answer a few more questions!\nSo, Learna can understand how to personalize your program.\nContinue\nDigital Park, Dubai Silicon Oasis, Dubai 341041, UAE\nPrivacy Policy • Terms & Conditions • Subscription Policy\nWe value your privacy\nWe use cookies to enhance your browsing experience, serve personalised ads or content, and analyse our traffic. By clicking \"Accept All\", you consent to our use of cookies.\nCustomize\nReject All\nAccept All",
+      "textHash": "1cca6d1cbacc",
+      "dhash": "1001101010110010011010001010101010110000000100011000101010001100",
+      "h": 997,
+      "prices": [],
+      "action": {
+        "cta": "Continue"
+      }
+    },
+    {
+      "n": 27,
+      "file": "27.webp",
+      "url": "https://onboarding.ailearna.com/onboarding",
+      "path": "/onboarding",
+      "title": "What's your personal interests?",
+      "kind": "question",
+      "text": "Master English with AI: Personalized Language Tutoring by Learna\nWhat's your personal interests?\nThe choice won't limit your experience\n🔬\nScience\n📖\nLiterature\n🌍\nLanguages\n🏛\nPolitics\n🧠\nPsychology\n💭\nPhilosophy\n🌐\nSociology\n🚀\nEntrepreneurship\n📰\nNews\n💰\nFinance\n🌠\nAstronomy\n➗\nMathematics\n🏗️\nArchitecture\n🎥\nAnimation\n📈\nMarketing\n🖋️\nJournalism\n💻\nSoftware\n🎤\nPop Culture\n🍳\nCooking\n🥑\nFood\n🧳\nTravel\n🐾\nPets\n🛍️\nShopping\n🍿\nMovies\n🤖\nTechnology\n⚽\nSports\n🎻\nMusic\n🥗\nHealth & Fitness\n💅\nFashion\n🏺\nCulture\n💼\nJobs\n♻️\nEnvironment\n🏰\nHistory\n📱\nSocial Media\n🎨\nArt & Creativity\nContinue\nDigital Park, Dubai Silicon Oasis, Dubai 341041, UAE\nPrivacy Policy • Terms & Conditions • Subscription Policy\nWe value your privacy\nWe use cookies to enhance your browsing experience, serve personalised ads or content, and analyse our traffic. By clicking \"Accept All\", you consent to our use of cookies.\nCustomize\nReject All\nAccept All",
+      "textHash": "e1d0808a1db8",
+      "dhash": "1101000011110000110011001100110010001000100010001110110010110110",
+      "h": 1188,
+      "prices": [],
+      "action": {
+        "opt": "🔬 Science",
+        "cta": "Continue"
+      }
+    },
+    {
+      "n": 28,
+      "file": "28.webp",
+      "url": "https://onboarding.ailearna.com/onboarding",
+      "path": "/onboarding",
+      "title": "Are there any occasions in your life you'd like to be prepared for?",
+      "kind": "question",
+      "text": "Master English with AI: Personalized Language Tutoring by Learna\nAre there any occasions in your life you'd like to be prepared for?\nThe choice won't limit your experience\n💼\nNew job\n🏡\nMoving to a another country\n🤝🏻\nJob interview\n📝\nExam\n🏖\nVacation abroad\n🤷‍♂️\nNone of above\nDigital Park, Dubai Silicon Oasis, Dubai 341041, UAE\nPrivacy Policy • Terms & Conditions • Subscription Policy\nWe value your privacy\nWe use cookies to enhance your browsing experience, serve personalised ads or content, and analyse our traffic. By clicking \"Accept All\", you consent to our use of cookies.\nCustomize\nReject All\nAccept All",
+      "textHash": "8d2c2c34c882",
+      "dhash": "1100100011101000100000001100100110000100110000000010000111000100",
+      "h": 997,
+      "prices": [],
+      "action": {
+        "opt": "💼 New job"
+      }
+    },
+    {
+      "n": 29,
+      "file": "29.webp",
+      "url": "https://onboarding.ailearna.com/onboarding",
+      "path": "/onboarding",
+      "title": "When is the event planned?",
+      "kind": "loader",
+      "text": "Master English with AI: Personalized Language Tutoring by Learna\nWhen is the event planned?\nWe will consider this date when preparing your personalized plan.\nEvent Starts\nContinue\nDigital Park, Dubai Silicon Oasis, Dubai 341041, UAE\nPrivacy Policy • Terms & Conditions • Subscription Policy\nWe value your privacy\nWe use cookies to enhance your browsing experience, serve personalised ads or content, and analyse our traffic. By clicking \"Accept All\", you consent to our use of cookies.\nCustomize\nReject All\nAccept All",
+      "textHash": "70458db786b8",
+      "dhash": "1110100010110010100000100000000010000010000000001000101010001110",
+      "h": 997,
+      "prices": [],
+      "action": {
+        "opt": "Event Starts",
+        "cta": "Continue"
+      }
+    },
+    {
+      "n": 30,
+      "file": "30.webp",
+      "url": "https://onboarding.ailearna.com/onboarding",
+      "path": "/onboarding",
+      "title": "”",
+      "kind": "loader",
+      "text": "Master English with AI: Personalized Language Tutoring by Learna\n%35\nCreating your personal experience...\n✨\nCreating diverse topics\nDone\n💬\nPreparing interactive dialogues\nLoading...\n👩🏻‍🏫\nOptimizing your learning path\nLoading...\n🏁\nFinalizing your plan\nLoading...\n”\nLearna customized just for me. It feels like a personal tutor in my pocket.\nFig Nelson\nWe value your privacy\nWe use cookies to enhance your browsing experience, serve personalised ads or content, and analyse our traffic. By clicking \"Accept All\", you consent to our use of cookies.\nCustomize\nReject All\nAccept All\nTO MAKE PROGRESS, PLEASE CLARIFY\nWhat is your daily practice goal?\n5 min/day\n10 min/day\n15 min/day",
+      "textHash": "832b52d6ab0b",
+      "dhash": "0011001011110000010001010110100101010101010101011110000000100001",
+      "h": 997,
+      "prices": [],
+      "action": {
+        "opt": "5 min/day"
+      }
+    },
+    {
+      "n": 31,
+      "file": "31.webp",
+      "url": "https://onboarding.ailearna.com/onboarding",
+      "path": "/onboarding",
+      "title": "”",
+      "kind": "loader",
+      "text": "Master English with AI: Personalized Language Tutoring by Learna\n%70\nCreating your personal experience...\n✨\nCreating diverse topics\nDone\n💬\nPreparing interactive dialogues\nDone\n👩🏻‍🏫\nOptimizing your learning path\nLoading...\n🏁\nFinalizing your plan\nLoading...\n”\nLearna customized just for me. It feels like a personal tutor in my pocket.\nFig Nelson\nWe value your privacy\nWe use cookies to enhance your browsing experience, serve personalised ads or content, and analyse our traffic. By clicking \"Accept All\", you consent to our use of cookies.\nCustomize\nReject All\nAccept All\nTO MAKE PROGRESS, PLEASE CLARIFY\nWhen would you like to start your daily practice?\nChoose start time",
+      "textHash": "faf2e0bf836b",
+      "dhash": "0011001011110010011001010101010101010101011100011110000000100001",
+      "h": 997,
+      "prices": [],
+      "action": {
+        "opt": "Choose start time"
+      }
+    },
+    {
+      "n": 32,
+      "file": "32.webp",
+      "url": "https://onboarding.ailearna.com/onboarding",
+      "path": "/onboarding",
+      "title": "”",
+      "kind": "loader",
+      "text": "Master English with AI: Personalized Language Tutoring by Learna\n%70\nCreating your personal experience...\n✨\nCreating diverse topics\nDone\n💬\nPreparing interactive dialogues\nDone\n👩🏻‍🏫\nOptimizing your learning path\nLoading...\n🏁\nFinalizing your plan\nLoading...\n”\nLearna customized just for me. It feels like a personal tutor in my pocket.\nFig Nelson\nWe value your privacy\nWe use cookies to enhance your browsing experience, serve personalised ads or content, and analyse our traffic. By clicking \"Accept All\", you consent to our use of cookies.\nCustomize\nReject All\nAccept All\nTO MAKE PROGRESS, PLEASE CLARIFY\nWhen would you like to start your daily practice?\nChoose start time\n19:30\n20:00\n20:30\n21:00\n21:30\n22:00\n22:30\n23:00\n23:30\n00:00\n00:30\n01:00\n01:30\n02:00\n02:30\n03:00\n03:30\n04:00\n04:30\n05:00\n05:30\n06:00\n06:30\n07:00\n07:30\n08:00\n08:30\n09:00\n09:30\n10:00\n10:30\n11:00\n11:30\n12:00\n12:30\n13:00\n13:30\n14:00\n14:30\n15:00\n15:30\n16:00\n16:30\n17:00\n17:30\n18:00\n18:30\n19:00",
+      "textHash": "0e91241c1e04",
+      "dhash": "0011001011110010011001010101010101010101010010011110100100100000",
+      "h": 997,
+      "prices": [],
+      "action": {
+        "opt": "00:30"
+      }
+    },
+    {
+      "n": 33,
+      "file": "33.webp",
+      "url": "https://onboarding.ailearna.com/onboarding",
+      "path": "/onboarding",
+      "title": "Achieve your goals with Learna",
+      "kind": "email",
+      "text": "Master English with AI: Personalized Language Tutoring by Learna\nAchieve your goals with\nLearna\nEnter your email to learn your english level\nEmail Address\nI agree to receive the latest Learna news and updates via email.\nI accept the Learna Terms & Conditions and Privacy Policy\nJoin over 80M+ people\n#1\nin Top Charts\nEducation Category\nMost Downloaded App\nContinue\nDigital Park, Dubai Silicon Oasis, Dubai 341041, UAE\nPrivacy Policy • Terms & Conditions • Subscription Policy\nWe value your privacy\nWe use cookies to enhance your browsing experience, serve personalised ads or content, and analyse our traffic. By clicking \"Accept All\", you consent to our use of cookies.\nCustomize\nReject All\nAccept All",
+      "textHash": "3a427fd64b1e",
+      "dhash": "1011001010000100100010001101010001010100011100011001000010001100",
+      "h": 997,
+      "prices": [],
+      "action": {
+        "filled": true,
+        "cta": "Continue",
+        "email": "yelyzavetabazyla+fw261021learna1@gmail.com"
+      }
+    },
+    {
+      "n": 34,
+      "file": "34.webp",
+      "url": "https://onboarding.ailearna.com/onboarding",
+      "path": "/onboarding",
+      "title": "Achieve your goals with Learna",
+      "kind": "email",
+      "text": "Master English with AI: Personalized Language Tutoring by Learna\nAchieve your goals with\nLearna\nEnter your email to learn your english level\nEmail Address\nI agree to receive the latest Learna news and updates via email.\nI accept the Learna Terms & Conditions and Privacy Policy\nJoin over 80M+ people\n#1\nin Top Charts\nEducation Category\nMost Downloaded App\nDigital Park, Dubai Silicon Oasis, Dubai 341041, UAE\nPrivacy Policy • Terms & Conditions • Subscription Policy\nWe value your privacy\nWe use cookies to enhance your browsing experience, serve personalised ads or content, and analyse our traffic. By clicking \"Accept All\", you consent to our use of cookies.\nCustomize\nReject All\nAccept All",
+      "textHash": "009ad56f806f",
+      "dhash": "1011001010010100100010001001010001010100011100011001000010001000",
+      "h": 997,
+      "prices": [],
+      "action": {
+        "opt": "Email Address"
+      }
+    },
+    {
+      "n": 35,
+      "file": "35.webp",
+      "url": "https://onboarding.ailearna.com/onboarding",
+      "path": "/onboarding",
+      "title": "Your vocabulary test result",
+      "kind": "loader",
+      "text": "Master English with AI: Personalized Language Tutoring by Learna\nYour vocabulary test result\nEstimated Vocabulary Knowledge\n≈ 100 words\n100\n2575\n5050\n7525\n10000\nA1\nA2\nB1\nB2\nC1\nEstimated Level\nBeginner\nStarting out can feel tough, but it's totally doable with a solid plan. 💪 We'll focus on building your vocabulary step by step, making sure you get the basics down for a meaningful transformation. 🚀\nContinue\nDigital Park, Dubai Silicon Oasis, Dubai 341041, UAE\nPrivacy Policy • Terms & Conditions • Subscription Policy\nWe value your privacy\nWe use cookies to enhance your browsing experience, serve personalised ads or content, and analyse our traffic. By clicking \"Accept All\", you consent to our use of cookies.\nCustomize\nReject All\nAccept All",
+      "textHash": "5d50587244e9",
+      "dhash": "1110000001110000100101101000010010100000000000001000101010001110",
+      "h": 997,
+      "prices": [],
+      "action": {
+        "cta": "Continue"
+      }
+    },
+    {
+      "n": 36,
+      "file": "36.webp",
+      "url": "https://onboarding.ailearna.com/onboarding",
+      "path": "/onboarding",
+      "title": "What's your name?",
+      "kind": "info",
+      "text": "Master English with AI: Personalized Language Tutoring by Learna\nWhat's your name?\nContinue\nDigital Park, Dubai Silicon Oasis, Dubai 341041, UAE\nPrivacy Policy • Terms & Conditions • Subscription Policy\nWe value your privacy\nWe use cookies to enhance your browsing experience, serve personalised ads or content, and analyse our traffic. By clicking \"Accept All\", you consent to our use of cookies.\nCustomize\nReject All\nAccept All",
+      "textHash": "c4c836483d4d",
+      "dhash": "1100010010000000000000000000000000000000000000001000001010001110",
+      "h": 997,
+      "prices": [],
+      "action": {
+        "filled": true,
+        "cta": "Continue"
+      }
+    },
+    {
+      "n": 37,
+      "file": "37.webp",
+      "url": "https://onboarding.ailearna.com/onboarding",
+      "path": "/onboarding",
+      "title": "Alex, your personalized plan is ready!",
+      "kind": "info",
+      "text": "Master English with AI: Personalized Language Tutoring by Learna\nAlex, your personalized plan is ready!\nWe've crafted a self-growth plan based on your responses.\nContinue\nWe value your privacy\nWe use cookies to enhance your browsing experience, serve personalised ads or content, and analyse our traffic. By clicking \"Accept All\", you consent to our use of cookies.\nCustomize\nReject All\nAccept All",
+      "textHash": "74f05fbcf06d",
+      "dhash": "0001111011010110110001101101100011110000000000001010000010001010",
+      "h": 997,
+      "prices": [],
+      "action": {
+        "cta": "Continue"
+      }
+    },
+    {
+      "n": 38,
+      "file": "38.webp",
+      "url": "https://onboarding.ailearna.com/payment?oid=default",
+      "path": "/payment",
+      "title": "10.00",
+      "kind": "paywall",
+      "text": "Payment | Master English with AI: Personalized Language Tutoring by Learna\n60% discount is reserved for:\n9:59\nContinue\nGet Unlimited Access\nAccessible anytime, anywhere for flexible learning.\n👥\nUnlimited Interactive Practice\n📝\nPersonalized Study Plan\n💯\nReal-time AI feedback\n⛳\nControl & Track Your Progress\nMOST POPULAR\n1 Week Plan\nSAVE 60%\n$24.99\n$\n10.00\n1 Month Plan\nSAVE 60%\n$74.99\n$\n30.00\n1 Year Plan\nSAVE 60%\n$249.99\n$\n100.00\nYou'll pay $10.00 for your first week, then $24.99/week starting October 28, 2026\nStart Learning\nPay safe & secure\nBy clicking Start Learning, I agree to pay $10.00 on October 21, 2026. Unless I cancel, I'll be charged $24.99 on October 28, 2026 and every 1 week thereafter. I can cancel my subscription anytime by contacting support.learna@codeway.co.\nBy continuing, you agree to our Terms of Service, Privacy & Cookie Statement and Refund & Cancellation Policy.\nWhat you get with\nLearna\nAccess limitless learning opportunities\n✨Diverse topics\n💬Interactive dialogues\n👩🏻‍🏫Learning path\nFrequently Asked Questions\nGet fast answers about general questions\nHow to cancel my subscription?\nHow do I report a bug or make suggestions?\nWhat are the subscription benefits?\nIs my personal information secure?\nPeople love Learna\nBecome a member of our global community of thousands of people\nUsed by Thousands\n4.7\n4.3\nSofia M.\nThe AI tutor is incredible at identifying my pronunciation struggles with English 'th' sounds. Love how it gives extra practice on problem areas. ",
+      "textHash": "3221e6cb432f",
+      "dhash": "1100010011010100111100001100110011001100110001001100110011100000",
+      "h": 4031,
+      "prices": [
+        "$24.99",
+        "$\n10.00",
+        "$74.99",
+        "$\n30.00",
+        "$249.99",
+        "$\n100.00",
+        "$10.00"
+      ]
+    }
+  ],
+  "features": {
+    "totalSteps": 38,
+    "stop": "paywall",
+    "emailStep": 33,
+    "paywallStep": 38,
+    "questions": 23,
+    "socialProof": 1,
+    "popups": 0,
+    "loader": true,
+    "prices": [
+      "$24.99",
+      "$\n10.00",
+      "$74.99",
+      "$\n30.00",
+      "$249.99",
+      "$\n100.00",
+      "$10.00"
+    ],
+    "discount": "60",
+    "timer": true,
+    "trial": false,
+    "moneyBack": true
+  }
+}

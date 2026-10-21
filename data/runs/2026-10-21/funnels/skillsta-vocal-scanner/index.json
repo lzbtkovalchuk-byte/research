@@ -1,0 +1,17 @@
+{
+  "id": "skillsta-vocal-scanner",
+  "name": "Skillsta · Vocal Scanner funnel",
+  "geo": "US",
+  "skillsta": true,
+  "storeOnly": null,
+  "funnels": [
+    {
+      "key": "getskillnow.com/quiz/voice_assessment/voice_assessment",
+      "dir": "funnels/skillsta-vocal-scanner/64e78223efd7",
+      "stop": "stuck",
+      "steps": 32,
+      "why": "seed",
+      "ads": 0
+    }
+  ]
+}

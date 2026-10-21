@@ -1,0 +1,24 @@
+{
+  "id": "copymind",
+  "name": "Copymind",
+  "geo": "GB",
+  "collected": "2026-10-21",
+  "windowStart": "2026-10-13",
+  "sources": [
+    {
+      "type": "domain",
+      "value": "copymind.me",
+      "url": "https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=GB&media_type=all&search_type=keyword_unordered&q=copymind.me",
+      "results": null,
+      "parsed": 0,
+      "kept": 0
+    }
+  ],
+  "ads": [],
+  "landing": {},
+  "pageIds": {},
+  "activeEstimate": 0,
+  "parsedCreatives": 0,
+  "newInWindow": 0,
+  "newCreativesInWindow": 0
+}

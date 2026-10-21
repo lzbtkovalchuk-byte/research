@@ -1,0 +1,568 @@
+{
+  "url": "https://try-breeze.com/childhood/",
+  "key": "try-breeze.com/childhood",
+  "why": "ad",
+  "ads": 2,
+  "adShot": "breeze-cdffb5cb8655.webp",
+  "adId": "1378595517529870",
+  "dir": "funnels/breeze/cdffb5cb8655",
+  "stop": "popup_blocked+paywall_direct",
+  "proxied": false,
+  "email": "yelyzavetabazyla+fw261021breeze2@gmail.com",
+  "emailNote": null,
+  "signedUp": null,
+  "steps": [
+    {
+      "n": 1,
+      "file": "01.webp",
+      "url": "https://try-breeze.com/funnel/childhood/",
+      "path": "/funnel/childhood/",
+      "title": "Choose your age",
+      "kind": "question",
+      "text": "Choose your age\n18-24\n25-34\n35-44\n45+\n2026 © All Rights Reserved.\nTerms of Service\n|\nPrivacy Policy\n|\nSubscription Terms\nCookie Policy",
+      "textHash": "d0210bd73497",
+      "dhash": "0000100001100110100001100000101101001101010010011001011000001111",
+      "h": 844,
+      "prices": [],
+      "action": {
+        "opt": "25-34"
+      }
+    },
+    {
+      "n": 2,
+      "file": "02.webp",
+      "url": "https://try-breeze.com/funnel/childhood/gender_select_tile/?stepId=gender_select_tile_childhood",
+      "path": "/funnel/childhood/gender_select_tile/",
+      "title": "What is your gender identity?",
+      "kind": "question",
+      "text": "What is your gender\nidentity?\nWhy we ask\nMale\nFemale",
+      "textHash": "df63881db18b",
+      "dhash": "0000010000110000000001110000111100110011001100111100110000110011",
+      "h": 844,
+      "prices": [],
+      "action": {
+        "opt": "Male"
+      }
+    },
+    {
+      "n": 3,
+      "file": "03.webp",
+      "url": "https://try-breeze.com/funnel/childhood/parents_relationships_block/",
+      "path": "/funnel/childhood/parents_relationships_block/",
+      "title": "In your childhood, your parents were...",
+      "kind": "question",
+      "text": "Your history\n2\n3\n4\nIn your childhood, your parents were...\nHappily married\nUnhappily married\nDivorced\nI had only one parent\nI had no parents",
+      "textHash": "b6a70cd6eb01",
+      "dhash": "0101000101011001010011110000110101000101000001000000000000000000",
+      "h": 844,
+      "prices": [],
+      "action": {
+        "opt": "Happily married"
+      }
+    },
+    {
+      "n": 4,
+      "file": "04.webp",
+      "url": "https://try-breeze.com/funnel/childhood/growing_environment_childhood/",
+      "path": "/funnel/childhood/growing_environment_childhood/",
+      "title": "How can you describe the environment you were growing up in?",
+      "kind": "question",
+      "text": "Your history\n2\n3\n4\nHow can you describe the environment you were growing up in?\nChoose as many as you like\nNurturing and supportive\nChaotic and unpredictable\nUnstable and unsafe\nChallenging and demanding\nEconomic hardship and scarcity\nNeglectful and lonely\nNext",
+      "textHash": "c39d5f5b8005",
+      "dhash": "0110010001011101010110010101110101101101010111010001000101001001",
+      "h": 844,
+      "prices": [],
+      "action": {
+        "opt": "Nurturing and supportive",
+        "cta": "Next"
+      }
+    },
+    {
+      "n": 5,
+      "file": "05.webp",
+      "url": "https://try-breeze.com/funnel/childhood/audio_question/?stepId=audio_stop_or_breeze",
+      "path": "/funnel/childhood/audio_question/",
+      "title": "What do you hear first?",
+      "kind": "question",
+      "text": "Your history\n2\n3\n4\nYou’re about to hear a short sound. It may feel unusual or slightly uncomfortable.\nWhat do you hear first?\nPlease stop\nBreeze mom\nContinue without sound",
+      "textHash": "a4c9dd7082e0",
+      "dhash": "0111001111001100110011000011001101001101010011011010000000000110",
+      "h": 844,
+      "prices": [],
+      "action": {
+        "opt": "Play audio",
+        "cta": "Continue without sound"
+      }
+    },
+    {
+      "n": 6,
+      "file": "06.webp",
+      "url": "https://try-breeze.com/funnel/childhood/image_eyes_fire_childhood/",
+      "path": "/funnel/childhood/image_eyes_fire_childhood/",
+      "title": "What do you see first?",
+      "kind": "question",
+      "text": "Your history\n2\n3\n4\nWhat do you see first?\nEvil eyes\nFire",
+      "textHash": "7aa4e28224c4",
+      "dhash": "0010111100001111000011110000111100101011010011010001000000000000",
+      "h": 844,
+      "prices": [],
+      "action": {
+        "opt": "Evil eyes"
+      }
+    },
+    {
+      "n": 7,
+      "file": "07.webp",
+      "url": "https://try-breeze.com/funnel/childhood/image_skull_woman_childhood/",
+      "path": "/funnel/childhood/image_skull_woman_childhood/",
+      "title": "What do you see first?",
+      "kind": "question",
+      "text": "Your history\n2\n3\n4\nWhat do you see first?\nYoung woman\nSkull",
+      "textHash": "fe65efca7b16",
+      "dhash": "0100111100000111000101110000001100101111010011010001000000000000",
+      "h": 844,
+      "prices": [],
+      "action": {
+        "opt": "Young woman"
+      }
+    },
+    {
+      "n": 8,
+      "file": "08.webp",
+      "url": "https://try-breeze.com/funnel/childhood/state_substance_abuse/",
+      "path": "/funnel/childhood/state_substance_abuse/",
+      "title": "Can you relate to this statement? \"I tend to cope with difficult emotions or memories in non-constructive ways\"",
+      "kind": "question",
+      "text": "Your history\n2\n3\n4\nCan you relate to this statement?\n\"I tend to cope with difficult emotions or memories in non-constructive ways\"\nStrongly relate\nSomewhat relate\nHardly relate\nCan't relate",
+      "textHash": "b285f6fade75",
+      "dhash": "0111010001111111001110110011001100110011001100111100010000100000",
+      "h": 844,
+      "prices": [],
+      "action": {
+        "opt": "Strongly relate"
+      }
+    },
+    {
+      "n": 9,
+      "file": "09.webp",
+      "url": "https://try-breeze.com/funnel/childhood/depression_as_normal/",
+      "path": "/funnel/childhood/depression_as_normal/",
+      "title": "Do you see depression or low mood as \"normal\" or just a part of who you are?",
+      "kind": "question",
+      "text": "Your history\n2\n3\n4\nDo you see depression or low mood as \"normal\" or just a part of who you are?\nYes\nNo\nNot sure",
+      "textHash": "ab8527b98ab1",
+      "dhash": "0111011001011101010010010100110100001001000100000000000000000000",
+      "h": 844,
+      "prices": [],
+      "action": {
+        "opt": "Yes"
+      }
+    },
+    {
+      "n": 10,
+      "file": "10.webp",
+      "url": "https://try-breeze.com/funnel/childhood/feeling_duration/",
+      "path": "/funnel/childhood/feeling_duration/",
+      "title": "How long have you been feeling this way?",
+      "kind": "question",
+      "text": "Your history\n2\n3\n4\nHow long have you been feeling this way?\nThe last few weeks\nIn recent months\nA few years\nMy whole life\nI'm not sure",
+      "textHash": "b4b9d4ef0f06",
+      "dhash": "0111110100011101010001110100110101001101000001000000000000000000",
+      "h": 844,
+      "prices": [],
+      "action": {
+        "opt": "The last few weeks"
+      }
+    },
+    {
+      "n": 11,
+      "file": "11.webp",
+      "url": "https://try-breeze.com/funnel/childhood/breathe_pause/",
+      "path": "/funnel/childhood/breathe_pause/",
+      "title": "Let's take a moment",
+      "kind": "info",
+      "text": "Let's take a moment\nTake one slow breath before we\ncontinue\nBreathe in\nBreathe out\nNext",
+      "textHash": "18d71bcceae5",
+      "dhash": "0000001100001111111100001000111000010111000011111100110001001101",
+      "h": 844,
+      "prices": [],
+      "action": {
+        "cta": "Next"
+      }
+    },
+    {
+      "n": 12,
+      "file": "12.webp",
+      "url": "https://try-breeze.com/funnel/childhood/image_shark_leg/",
+      "path": "/funnel/childhood/image_shark_leg/",
+      "title": "What do you see first?",
+      "kind": "question",
+      "text": "Your history\n2\n3\n4\nWhat do you see first?\nShark\nLeg",
+      "textHash": "3d215486a53d",
+      "dhash": "0011000101101101100001101001011001101001000011010001000000000000",
+      "h": 844,
+      "prices": [],
+      "action": {
+        "opt": "Shark"
+      }
+    },
+    {
+      "n": 13,
+      "file": "13.webp",
+      "url": "https://try-breeze.com/funnel/childhood/section_divider_childhood_1/",
+      "path": "/funnel/childhood/section_divider_childhood_1/",
+      "title": "Did you know?",
+      "kind": "loader",
+      "text": "Did you know?\nChildhood trauma has different lasting mental effects on each gender.\nThat's why creating a tailored treatment plan is key to addressing individual’s unique challenges.\nNext",
+      "textHash": "f2e42b2fd4db",
+      "dhash": "0100110001001100010101110110011101100000000000011010000001001101",
+      "h": 844,
+      "prices": [],
+      "action": {
+        "cta": "Next"
+      }
+    },
+    {
+      "n": 14,
+      "file": "14.webp",
+      "url": "https://try-breeze.com/funnel/childhood/image_mysterious_evil_woman_childhood/",
+      "path": "/funnel/childhood/image_mysterious_evil_woman_childhood/",
+      "title": "What do you see first?",
+      "kind": "question",
+      "text": "Tendencies\n3\n4\nWhat do you see first?\nMysterious woman\nEvil woman",
+      "textHash": "cfdb33a44333",
+      "dhash": "1001110000001111000011110000101100111101010011010010000000000000",
+      "h": 844,
+      "prices": [],
+      "action": {
+        "opt": "Mysterious woman"
+      }
+    },
+    {
+      "n": 15,
+      "file": "15.webp",
+      "url": "https://try-breeze.com/funnel/childhood/feel_in_spotlight/",
+      "path": "/funnel/childhood/feel_in_spotlight/",
+      "title": "What do you feel when being in the spotlight?",
+      "kind": "question",
+      "text": "Tendencies\n3\n4\nWhat do you feel when being in the spotlight?\nChoose as many as you like\nSatisfaction\nStress\nDisconnection\nShyness\nNext",
+      "textHash": "9c42a15b816d",
+      "dhash": "0101010101001101011010010111010101100001100000000000000000011001",
+      "h": 844,
+      "prices": [],
+      "action": {
+        "opt": "Satisfaction",
+        "cta": "Next"
+      }
+    },
+    {
+      "n": 16,
+      "file": "16.webp",
+      "url": "https://try-breeze.com/funnel/childhood/image_child_eye/",
+      "path": "/funnel/childhood/image_child_eye/",
+      "title": "What do you see first?",
+      "kind": "question",
+      "text": "Tendencies\n3\n4\nWhat do you see first?\nChild\nEye",
+      "textHash": "c37468a6b01e",
+      "dhash": "0101110000110111000011110101110100101011010011010000000000000000",
+      "h": 844,
+      "prices": [],
+      "action": {
+        "opt": "Child"
+      }
+    },
+    {
+      "n": 17,
+      "file": "17.webp",
+      "url": "https://try-breeze.com/funnel/childhood/feedback_screen_childhood/",
+      "path": "/funnel/childhood/feedback_screen_childhood/",
+      "title": "With Breeze, I finally embraced my past",
+      "kind": "info",
+      "text": "With Breeze, I finally embraced my past\nOliver\n4.9\n“Breeze showed me a safe way to express my anger. Now the emotional balance is an integral part of me!”\nOliver is among many individuals who have overcome the barriers of childhood experiences and are now living free from its effects.\nNext",
+      "textHash": "d6db6664adbd",
+      "dhash": "0011101101011001010010010110001100010111000000011010000001001101",
+      "h": 844,
+      "prices": [],
+      "action": {
+        "cta": "Next"
+      }
+    },
+    {
+      "n": 18,
+      "file": "18.webp",
+      "url": "https://try-breeze.com/funnel/childhood/image_woman_tree_childhood/",
+      "path": "/funnel/childhood/image_woman_tree_childhood/",
+      "title": "What do you see first?",
+      "kind": "question",
+      "text": "Tendencies\n3\n4\nWhat do you see first?\nWoman\nTree",
+      "textHash": "ba55db65a162",
+      "dhash": "0101110100011111000011110000011100101011010011010001000000000000",
+      "h": 844,
+      "prices": [],
+      "action": {
+        "opt": "Woman"
+      }
+    },
+    {
+      "n": 19,
+      "file": "19.webp",
+      "url": "https://try-breeze.com/funnel/childhood/relationships_behavior/",
+      "path": "/funnel/childhood/relationships_behavior/",
+      "title": "In your relationships with others you often...",
+      "kind": "question",
+      "text": "Tendencies\n3\n4\nIn your relationships with others you often...\nChoose as many as you like\nKeep the distance\nEasily open after knowing someone\nTry not to get attached\nAttach too quickly\nStruggle to express your feelings\nAvoid conflict at all costs\nStruggle to trust\nOther\nNext",
+      "textHash": "df4c6ea454ef",
+      "dhash": "0101110101001101011101010101110101110101010111010111100101001001",
+      "h": 844,
+      "prices": [],
+      "action": {
+        "opt": "Keep the distance",
+        "cta": "Next"
+      }
+    },
+    {
+      "n": 20,
+      "file": "20.webp",
+      "url": "https://try-breeze.com/funnel/childhood/drawn_to_people_who_treat_poorly/",
+      "path": "/funnel/childhood/drawn_to_people_who_treat_poorly/",
+      "title": "Can you relate to this statement? \"I'm repeatedly drawn to people who treat me poorly.\"",
+      "kind": "question",
+      "text": "Tendencies\n3\n4\nCan you relate to this statement?\n\"I'm repeatedly drawn to people who treat me poorly.\"\nStrongly relate\nSomewhat relate\nHardly relate\nCan't relate",
+      "textHash": "79e7f21cda43",
+      "dhash": "0101110001110111001100110011001100110011001100111100110000100010",
+      "h": 844,
+      "prices": [],
+      "action": {
+        "opt": "Strongly relate"
+      }
+    },
+    {
+      "n": 21,
+      "file": "21.webp",
+      "url": "https://try-breeze.com/funnel/childhood/section_divider_childhood_2/",
+      "path": "/funnel/childhood/section_divider_childhood_2/",
+      "title": "We understand that each childhood experience is unique.",
+      "kind": "info",
+      "text": "We understand that each childhood experience is unique.\nSo we use an approach, sensitive to each person's specific needs and experiences.\nNext",
+      "textHash": "41228ac4543d",
+      "dhash": "0100110001001100010101110101011100101000000000011010000001001101",
+      "h": 844,
+      "prices": [],
+      "action": {
+        "cta": "Next"
+      }
+    },
+    {
+      "n": 22,
+      "file": "22.webp",
+      "url": "https://try-breeze.com/funnel/childhood/image_home_horse_childhood/",
+      "path": "/funnel/childhood/image_home_horse_childhood/",
+      "title": "What do you see first?",
+      "kind": "info",
+      "text": "Struggles signs\n4\nWhat do you see first?\nHome\nHorse",
+      "textHash": "459f3a5e5eb6",
+      "dhash": "0111000100001111000011010111001100101011010010010001000000000000",
+      "h": 844,
+      "prices": [],
+      "action": {
+        "opt": "Horse"
+      }
+    },
+    {
+      "n": 23,
+      "file": "23.webp",
+      "url": "https://try-breeze.com/funnel/childhood/fear_of_being_rejected/",
+      "path": "/funnel/childhood/fear_of_being_rejected/",
+      "title": "Have you ever struggled with a fear of being judged or rejected by others?",
+      "kind": "question",
+      "text": "Struggles signs\n4\nHave you ever struggled with a fear of being judged or rejected by others?\nYes\nNo\nNot sure",
+      "textHash": "3ef736df067c",
+      "dhash": "0101011001111001010010010100111100001001000100000000000000000000",
+      "h": 844,
+      "prices": [],
+      "action": {
+        "opt": "Yes"
+      }
+    },
+    {
+      "n": 24,
+      "file": "24.webp",
+      "url": "https://try-breeze.com/funnel/childhood/delay_between_feelings_and_articulation/",
+      "path": "/funnel/childhood/delay_between_feelings_and_articulation/",
+      "title": "Can you relate to this statement? \"I feel like there is a delay between my feelings and my ability to articulate them.\"",
+      "kind": "question",
+      "text": "Struggles signs\n4\nCan you relate to this statement?\n\"I feel like there is a delay between my feelings and my ability to articulate them.\"\nStrongly relate\nSomewhat relate\nHardly relate\nCan't relate",
+      "textHash": "50d03058c02b",
+      "dhash": "0101011101110111001100110011001100110011001100111100010000100000",
+      "h": 844,
+      "prices": [],
+      "action": {
+        "opt": "Strongly relate"
+      }
+    },
+    {
+      "n": 25,
+      "file": "25.webp",
+      "url": "https://try-breeze.com/funnel/childhood/image_people_monster/",
+      "path": "/funnel/childhood/image_people_monster/",
+      "title": "What do you see first?",
+      "kind": "question",
+      "text": "Struggles signs\n4\nWhat do you see first?\nTwo people\nMonster face",
+      "textHash": "056e09fd5196",
+      "dhash": "0101001100010111000101110101010100101011010011010010000000000000",
+      "h": 844,
+      "prices": [],
+      "action": {
+        "opt": "Two people"
+      }
+    },
+    {
+      "n": 26,
+      "file": "26.webp",
+      "url": "https://try-breeze.com/funnel/childhood/low_self_esteem/",
+      "path": "/funnel/childhood/low_self_esteem/",
+      "title": "Do you struggle with low self-worth or self-esteem?",
+      "kind": "question",
+      "text": "Struggles signs\n4\nDo you struggle with low self-worth or self-esteem?\nYes\nNo\nNot sure",
+      "textHash": "fffbd9355133",
+      "dhash": "0101010101111101011010110100110100001100000000000000000000000000",
+      "h": 844,
+      "prices": [],
+      "action": {
+        "opt": "Yes"
+      }
+    },
+    {
+      "n": 27,
+      "file": "27.webp",
+      "url": "https://try-breeze.com/funnel/childhood/what_do_you_hope/",
+      "path": "/funnel/childhood/what_do_you_hope/",
+      "title": "What do you hope to gain from working through your childhood experiences?",
+      "kind": "question",
+      "text": "Struggles signs\n4\nWhat do you hope to gain from working through your childhood experiences?\nChoose as many as you like\nImprove my love life\nEnhance overall happiness\nLearn to express myself\nImprove my career\nReconnect with my parents\nLearn to set boundaries\nAccept myself as I am\nNext",
+      "textHash": "176892cc61b5",
+      "dhash": "0101011101101101011110010101110101011001010011010101100101101101",
+      "h": 844,
+      "prices": [],
+      "action": {
+        "opt": "Improve my love life",
+        "cta": "Next"
+      }
+    },
+    {
+      "n": 28,
+      "file": "28.webp",
+      "url": "https://try-breeze.com/funnel/childhood/time_for_personalized_childhood_applovin/",
+      "path": "/funnel/childhood/time_for_personalized_childhood_applovin/",
+      "title": "How much time are you willing to dedicate to a personalized plan for exploring your childhood experiences?",
+      "kind": "question",
+      "text": "Final question\nHow much time are you willing to dedicate to a personalized plan for exploring your childhood experiences?\n2 weeks\n1 month\n2-3 months\n6 months",
+      "textHash": "8dea338dafc7",
+      "dhash": "0101011001111101010010010100111101001101000010010000000000000000",
+      "h": 844,
+      "prices": [],
+      "action": {
+        "opt": "2 weeks"
+      }
+    },
+    {
+      "n": 29,
+      "file": "29.webp",
+      "url": "https://try-breeze.com/funnel/childhood/username/",
+      "path": "/funnel/childhood/username/",
+      "title": "Hey there, what should we call you?",
+      "kind": "info",
+      "text": "Hey there, what should we call you?\nContinue",
+      "textHash": "4cba67c19289",
+      "dhash": "0100110000001101000101010100110100000001000000000000000000000000",
+      "h": 844,
+      "prices": [],
+      "action": {
+        "filled": true,
+        "cta": "Continue"
+      }
+    },
+    {
+      "n": 30,
+      "file": "30.webp",
+      "url": "https://try-breeze.com/funnel/childhood/graph_childhood/",
+      "path": "/funnel/childhood/graph_childhood/",
+      "title": "Breeze Effect",
+      "kind": "info",
+      "text": "Breeze Effect\nBefore processing\nchildhood experiences\nAfter processing\nchildhood experiences\nQuality\nSleep\nRelationships\nHealth\nSelf-acceptance\nResults shown are for illustrative purposes only.\nIndividual results may vary.\nNext",
+      "textHash": "6658bea2b830",
+      "dhash": "0110000000010110000101110010010101100101000110111010001001001101",
+      "h": 844,
+      "prices": [],
+      "action": {
+        "cta": "Next"
+      }
+    },
+    {
+      "n": 31,
+      "file": "31.webp",
+      "url": "https://try-breeze.com/funnel/childhood/growth_journey/",
+      "path": "/funnel/childhood/growth_journey/",
+      "title": "You did something beautiful for yourself",
+      "kind": "info",
+      "text": "You did something beautiful for yourself\nYour courage to reflect and grow is the first step toward real change.\nNext",
+      "textHash": "938b02f5d2f3",
+      "dhash": "0000000000001000100011010101110001001011011001010010010001001001",
+      "h": 844,
+      "prices": [],
+      "action": {
+        "cta": "Next"
+      }
+    },
+    {
+      "n": 32,
+      "file": "32.webp",
+      "url": "https://try-breeze.com/funnel/childhood/calculating_results_childhood/",
+      "path": "/funnel/childhood/calculating_results_childhood/",
+      "title": "Do you find yourself frequently avoiding places, people, or activities that remind you of your past? No Yes",
+      "kind": "popup",
+      "text": "Do you find yourself frequently avoiding places, people, or activities that remind you of your past?\n\nNo\n\nYes",
+      "textHash": "3150eb419314",
+      "dhash": "0001101101011101011001010001011100110011010011011000000000000000",
+      "h": 844,
+      "prices": [],
+      "closed": "could not close"
+    },
+    {
+      "n": 33,
+      "file": "33.webp",
+      "url": "https://try-breeze.com/checkout/",
+      "path": "/checkout/",
+      "title": "Start your journey",
+      "kind": "paywall",
+      "direct": true,
+      "h": 1987,
+      "gate": "popup_blocked",
+      "text": "Start your journey\nLet Breeze be your guide to a more focused and tranquil life\n7-day trial for $1\nthen $29.99 every 4 weeks\nNo commitment. Cancel anytime.\nStep 1\nEnter your email\nWe promise not to use your email for any activities, and we guarantee its 100% safety and privacy.\nContinue\nOver 7.5 million use the Breeze app\nto improve their mental health\nOver 7.5M\nDownloads\nTop 10\nat App Store\n100k +\nin Breeze Community\n4.8\nRate from You\nBreeze App Reviews\nMade by Mental Health Enthusiasts for Self-Care Lovers\nBreeze is a game-changer for me. The mood tracker helps me recognize triggers and patterns in my moods, and the mini-courses give me practical stress management tools and anxiety relief tricks. The insights are so accurate, and I feel like the app understands me better than anyone else. I am in awe of it!\nSarah, US\nThe app is great and I really enjoy using the program. It calms my anxiety and has fun activities where I learn a lot of new things. When tracking my mood, it has plenty of options to click, which is good. Beautiful design, informative articles I love to read, and tests on mental health are very insightful.\nLea, UK\nI recently started AD and have been looking for an app to track my moods during the day. This is super helpful for me to track all things, other than my meds, that could be influencing my moods. It's better than any mindfulness apps that I've tried before.\nRebecca, US\nI'm pretty happy with the insights I’m gaining through all the tests I'm taking. Th",
+      "textHash": "579dfa59ebf6",
+      "dhash": "1110110011001100111010001110000011110000011100011110010011000100",
+      "prices": [
+        "$1",
+        "$29.99"
+      ]
+    }
+  ],
+  "features": {
+    "totalSteps": 33,
+    "stop": "popup_blocked+paywall_direct",
+    "emailStep": null,
+    "paywallStep": 33,
+    "questions": 23,
+    "socialProof": 0,
+    "popups": 1,
+    "loader": true,
+    "prices": [
+      "$1",
+      "$29.99"
+    ],
+    "discount": null,
+    "timer": false,
+    "trial": true,
+    "moneyBack": true
+  }
+}

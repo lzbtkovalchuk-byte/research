@@ -1,0 +1,25 @@
+{
+  "id": "chillio",
+  "name": "Chillio",
+  "geo": "US",
+  "skillsta": false,
+  "storeOnly": false,
+  "funnels": [
+    {
+      "key": "quiz.get-chillio.app/qs/cleaning-game",
+      "dir": "funnels/chillio/32c02a42bd3b",
+      "stop": "stuck+paywall_direct",
+      "steps": 36,
+      "why": "ad",
+      "ads": 45
+    },
+    {
+      "key": "quiz.get-chillio.app/qs/house-ai",
+      "dir": "funnels/chillio/7b6db541533d",
+      "stop": "stuck+paywall_direct",
+      "steps": 35,
+      "why": "ad",
+      "ads": 2
+    }
+  ]
+}

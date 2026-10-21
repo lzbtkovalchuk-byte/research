@@ -1,0 +1,117 @@
+{
+  "id": "memoryos",
+  "name": "MemoryOS",
+  "geo": "US",
+  "collected": "2026-10-21",
+  "windowStart": "2026-10-13",
+  "sources": [
+    {
+      "type": "domain",
+      "value": "memoryos.com",
+      "url": "https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=US&media_type=all&search_type=keyword_unordered&q=memoryos.com",
+      "results": 150,
+      "parsed": 30,
+      "kept": 3
+    }
+  ],
+  "ads": [
+    {
+      "id": "1637536248103962",
+      "started": "Oct 16, 2026",
+      "versions": 1,
+      "page": "memoryOS",
+      "body": "memoryOS combines gamified micro lessons with pre-made virtual mind palaces to improve your memory skills drastically. Proprietary technology and scientifically proven methods. Co-founded by 2X World Memory Champion Jonas von Essen.",
+      "caption": "MEMORYOS.COM",
+      "headline": "Unlock Your Sharper Mind",
+      "cta": "Learn more",
+      "video": false,
+      "link": "https://start.memoryos.com/new-h2?thm=light",
+      "startedISO": "2026-10-16",
+      "key": "start.memoryos.com/new-h2?thm=light",
+      "store": false
+    },
+    {
+      "id": "1508288567779763",
+      "started": "Oct 16, 2026",
+      "versions": 1,
+      "page": "Brain Wellness Daily",
+      "body": "memoryOS combines gamified micro lessons with pre-made virtual mind palaces to improve your memory skills drastically. Proprietary technology and scientifically proven methods. Co-founded by 2X World Memory Champion Jonas von Essen.",
+      "caption": "MEMORYOS.COM",
+      "headline": "Unlock Your Sharper Mind",
+      "cta": "Learn more",
+      "video": false,
+      "link": "https://start.memoryos.com/new-s",
+      "startedISO": "2026-10-16",
+      "key": "start.memoryos.com/new-s",
+      "store": false
+    },
+    {
+      "id": "3221094764767965",
+      "started": "Oct 17, 2026",
+      "versions": 1,
+      "page": "memoryOS",
+      "body": "Remember everything you read – in just 15 minutes a day 🧠📖",
+      "caption": "MEMORYOS.COM",
+      "headline": "Unlock Your Sharper Mind",
+      "cta": "Learn more",
+      "video": false,
+      "link": "https://start.memoryos.com/new-h?mos_cfg=read003b",
+      "startedISO": "2026-10-17",
+      "key": "start.memoryos.com/new-h?mos_cfg=read003b",
+      "store": false
+    }
+  ],
+  "landing": {
+    "start.memoryos.com/new-h2?thm=light": {
+      "key": "start.memoryos.com/new-h2?thm=light",
+      "sample": "https://start.memoryos.com/new-h2?thm=light",
+      "store": false,
+      "ads": 1,
+      "creatives": 1,
+      "first": "2026-10-16",
+      "last": "2026-10-16",
+      "adIds": [
+        "1637536248103962"
+      ],
+      "shot": "memoryos-7488926e110a.webp",
+      "shotAd": "1637536248103962"
+    },
+    "start.memoryos.com/new-s": {
+      "key": "start.memoryos.com/new-s",
+      "sample": "https://start.memoryos.com/new-s",
+      "store": false,
+      "ads": 1,
+      "creatives": 1,
+      "first": "2026-10-16",
+      "last": "2026-10-16",
+      "adIds": [
+        "1508288567779763"
+      ],
+      "shot": "memoryos-8df162c3ae21.webp",
+      "shotAd": "1508288567779763"
+    },
+    "start.memoryos.com/new-h?mos_cfg=read003b": {
+      "key": "start.memoryos.com/new-h?mos_cfg=read003b",
+      "sample": "https://start.memoryos.com/new-h?mos_cfg=read003b",
+      "store": false,
+      "ads": 1,
+      "creatives": 1,
+      "first": "2026-10-17",
+      "last": "2026-10-17",
+      "adIds": [
+        "3221094764767965"
+      ],
+      "shot": "memoryos-fd7abf79784e.webp",
+      "shotAd": "3221094764767965"
+    }
+  },
+  "pageIds": {
+    "memoryOS": "107666117414750",
+    "Brian Calloway": "1174831152374584",
+    "Brain Wellness Daily": "1287216024481100"
+  },
+  "activeEstimate": 3,
+  "parsedCreatives": 3,
+  "newInWindow": 3,
+  "newCreativesInWindow": 3
+}

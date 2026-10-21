@@ -1,0 +1,548 @@
+{
+  "url": "https://www.getskillnow.com/quiz/voice_assessment/voice_assessment?utm_adname=CF_voice_assessment",
+  "key": "getskillnow.com/quiz/voice_assessment/voice_assessment",
+  "why": "seed",
+  "ads": 0,
+  "adShot": null,
+  "adId": null,
+  "dir": "funnels/skillsta-vocal-scanner/64e78223efd7",
+  "stop": "stuck",
+  "proxied": false,
+  "email": "yelyzavetabazyla+fw261021skillstavocalscanner1@gmail.com",
+  "emailNote": null,
+  "signedUp": null,
+  "steps": [
+    {
+      "n": 1,
+      "file": "01.webp",
+      "url": "https://www.getskillnow.com/quiz/voice_assessment/voice_assessment?utm_adname=CF_voice_assessment",
+      "path": "/quiz/voice_assessment/voice_assessment",
+      "title": "DISCOVER YOUR VOCAL POTENTIAL IN 3 MINUTES",
+      "kind": "info",
+      "text": "DISCOVER YOUR  \nVOCAL POTENTIAL  \nIN 3 MINUTES\nStart the test\nTerms & Conditions • Privacy Policy • Subscription Policy",
+      "textHash": "fa27c0657403",
+      "dhash": "0001101001100101100100010101010100011110100001100101010101110001",
+      "h": 844,
+      "prices": [],
+      "action": {
+        "cta": "Start the test"
+      }
+    },
+    {
+      "n": 2,
+      "file": "02.webp",
+      "url": "https://www.getskillnow.com/quiz/voice_assessment/voice_assessment?utm_adname=CF_voice_assessment",
+      "path": "/quiz/voice_assessment/voice_assessment",
+      "title": "First, how old are you?",
+      "kind": "question",
+      "text": "First, how old are you?\n18-24\n25-34\n35-44\n45-54\n55+\nTerms & Conditions • Privacy Policy • Subscription Policy",
+      "textHash": "50fc72575e1c",
+      "dhash": "0000001101001101010011010100100100010000000000001000000000100011",
+      "h": 844,
+      "prices": [],
+      "action": {
+        "opt": "25-34"
+      }
+    },
+    {
+      "n": 3,
+      "file": "03.webp",
+      "url": "https://www.getskillnow.com/quiz/voice_assessment/voice_assessment?utm_adname=CF_voice_assessment&funnel-state=stepNumber:2",
+      "path": "/quiz/voice_assessment/voice_assessment",
+      "title": "What's your gender?",
+      "kind": "question",
+      "text": "What's your gender?\n👨\nMale\n👩\nFemale\n🧑\nOther\nTerms & Conditions • Privacy Policy • Subscription Policy",
+      "textHash": "1a2a255b2f9b",
+      "dhash": "0010001101100111011010010110000110000000010000001000000000100011",
+      "h": 844,
+      "prices": [],
+      "action": {
+        "opt": "👨 Male"
+      }
+    },
+    {
+      "n": 4,
+      "file": "04.webp",
+      "url": "https://www.getskillnow.com/quiz/voice_assessment/voice_assessment?utm_adname=CF_voice_assessment&funnel-state=stepNumber:3",
+      "path": "/quiz/voice_assessment/voice_assessment",
+      "title": "What do you want to discover about your voice?",
+      "kind": "question",
+      "text": "What do you want to discover about your voice?\nThe choice won't limit your experience\n🎯\nMy true vocal range\n🌟\nMy celebrity voice match\n📈\nMy hidden vocal potential\n🎤\nWhat makes my voice unique\n🎶\nWhat songs match my range\n✍️\nOther\nTerms & Conditions • Privacy Policy • Subscription Policy",
+      "textHash": "9edf2d63a06e",
+      "dhash": "0010101100011011010111010100110101010101011001010110000100000011",
+      "h": 844,
+      "prices": [],
+      "action": {
+        "opt": "🎯 My true vocal range",
+        "cta": "Continue"
+      }
+    },
+    {
+      "n": 5,
+      "file": "05.webp",
+      "url": "https://www.getskillnow.com/quiz/voice_assessment/voice_assessment?utm_adname=CF_voice_assessment&funnel-state=stepNumber:4",
+      "path": "/quiz/voice_assessment/voice_assessment",
+      "title": "Your voice has untapped potential",
+      "kind": "info",
+      "text": "Your voice has untapped potential\nIn the next few minutes, we will reveal your vocal strengths, range, and celebrity voice match\nContinue\nTerms & Conditions • Privacy Policy • Subscription Policy",
+      "textHash": "7aeca744f396",
+      "dhash": "0000111101001101000011110001011101000111010110000111000101110001",
+      "h": 844,
+      "prices": [],
+      "action": {
+        "cta": "Continue"
+      }
+    },
+    {
+      "n": 6,
+      "file": "06.webp",
+      "url": "https://www.getskillnow.com/quiz/voice_assessment/voice_assessment?utm_adname=CF_voice_assessment&funnel-state=stepNumber:5",
+      "path": "/quiz/voice_assessment/voice_assessment",
+      "title": "What brings you here today?",
+      "kind": "question",
+      "text": "What brings you here today?\n🤔\nI want to know if I'm secretly good\n👂\nPeople say I should sing more\n💖\nI love singing and want to get better\n🔍\nPure curiosity\nTerms & Conditions • Privacy Policy • Subscription Policy",
+      "textHash": "7cac1efb8c21",
+      "dhash": "0011010101010111010001110101101101010101100000001000010000100011",
+      "h": 844,
+      "prices": [],
+      "action": {
+        "opt": "🤔 I want to know if I'm secretly good"
+      }
+    },
+    {
+      "n": 7,
+      "file": "07.webp",
+      "url": "https://www.getskillnow.com/quiz/voice_assessment/voice_assessment?utm_adname=CF_voice_assessment&funnel-state=stepNumber:6",
+      "path": "/quiz/voice_assessment/voice_assessment",
+      "title": "Have you ever tried vocal training?",
+      "kind": "question",
+      "text": "Have you ever tried vocal training?\n🎓\nYes, with a teacher\n📱\nVideos and guesswork\n🎵\nChoir or school growing up\n🤔\nLooked into it, never started\n🚫\nNever tried it\nTerms & Conditions • Privacy Policy • Subscription Policy",
+      "textHash": "7126165ec20b",
+      "dhash": "0011010100001101001111010100110101110101000100011000000000100011",
+      "h": 844,
+      "prices": [],
+      "action": {
+        "opt": "🎓 Yes, with a teacher"
+      }
+    },
+    {
+      "n": 8,
+      "file": "08.webp",
+      "url": "https://www.getskillnow.com/quiz/voice_assessment/voice_assessment?utm_adname=CF_voice_assessment&funnel-state=stepNumber:7",
+      "path": "/quiz/voice_assessment/voice_assessment",
+      "title": "Your voice can improve faster than you think",
+      "kind": "info",
+      "text": "Your voice can improve faster than you think\nJust a few minutes of focused training can noticeably improve your pitch, control, and confidence\nContinue\nTerms & Conditions • Privacy Policy • Subscription Policy",
+      "textHash": "4fd253c37d8f",
+      "dhash": "0000011100001111010001110100001100100101111000100101000101110001",
+      "h": 844,
+      "prices": [],
+      "action": {
+        "cta": "Continue"
+      }
+    },
+    {
+      "n": 9,
+      "file": "09.webp",
+      "url": "https://www.getskillnow.com/quiz/voice_assessment/voice_assessment?utm_adname=CF_voice_assessment&funnel-state=stepNumber:8",
+      "path": "/quiz/voice_assessment/voice_assessment",
+      "title": "Do you hold back from singing because you're not sure how you sound?",
+      "kind": "question",
+      "text": "Do you hold back from singing because you're not sure how you sound?\n😢\nYes, often\n🤫\nSometimes\n😎\nNot really\nTerms & Conditions • Privacy Policy • Subscription Policy",
+      "textHash": "63c273cd6e12",
+      "dhash": "0001100100000101011101010111000100100001000000001000000000100011",
+      "h": 844,
+      "prices": [],
+      "action": {
+        "opt": "😢 Yes, often"
+      }
+    },
+    {
+      "n": 10,
+      "file": "10.webp",
+      "url": "https://www.getskillnow.com/quiz/voice_assessment/voice_assessment?utm_adname=CF_voice_assessment&funnel-state=stepNumber:9",
+      "path": "/quiz/voice_assessment/voice_assessment",
+      "title": "What would knowing your true vocal potential mean to you?",
+      "kind": "question",
+      "text": "What would knowing your true vocal potential mean to you?\n💪\nConfidence to sing in front of others\n🧭\nKnowing if it's worth training\n😊\nSatisfying my curiosity\n📈\nProof I'm better than I think\nTerms & Conditions • Privacy Policy • Subscription Policy",
+      "textHash": "65f20964931e",
+      "dhash": "0001101101001101010011110101110101011101100000100100010000100011",
+      "h": 844,
+      "prices": [],
+      "action": {
+        "opt": "💪 Confidence to sing in front of others"
+      }
+    },
+    {
+      "n": 11,
+      "file": "11.webp",
+      "url": "https://www.getskillnow.com/quiz/voice_assessment/voice_assessment?utm_adname=CF_voice_assessment&funnel-state=stepNumber:10",
+      "path": "/quiz/voice_assessment/voice_assessment",
+      "title": "Vocal skills are 10% genetics, 90% training",
+      "kind": "info",
+      "text": "Vocal skills are 10% genetics, 90% training\nWe'll show you the whole picture of your voice, so you can see the room to grow\nContinue\nTerms & Conditions • Privacy Policy • Subscription Policy",
+      "textHash": "46667aaafc6b",
+      "dhash": "0001011100100011000110110010101101001111100101100111000101110001",
+      "h": 844,
+      "prices": [],
+      "action": {
+        "cta": "Continue"
+      }
+    },
+    {
+      "n": 12,
+      "file": "12.webp",
+      "url": "https://www.getskillnow.com/quiz/voice_assessment/voice_assessment?utm_adname=CF_voice_assessment&funnel-state=stepNumber:11",
+      "path": "/quiz/voice_assessment/voice_assessment",
+      "title": "“I want to sing freely, but I feel like my voice just doesn’t work like it should”",
+      "kind": "question",
+      "text": "“I want to sing freely, but I feel like my voice just doesn’t work like it should”\nDoes this seem like you?\n👎\n👎\n🤷\n👍\n👍\nTerms & Conditions • Privacy Policy • Subscription Policy",
+      "textHash": "f713e92acd82",
+      "dhash": "0100110100000111010011010100100100010100000000001000000000100011",
+      "h": 844,
+      "prices": [],
+      "action": {
+        "opt": "👎"
+      }
+    },
+    {
+      "n": 13,
+      "file": "13.webp",
+      "url": "https://www.getskillnow.com/quiz/voice_assessment/voice_assessment?utm_adname=CF_voice_assessment&funnel-state=stepNumber:12",
+      "path": "/quiz/voice_assessment/voice_assessment",
+      "title": "“I feel too exposed and vulnerable when I sing in front of others”",
+      "kind": "question",
+      "text": "“I feel too exposed and vulnerable when I sing in front of others”\nDoes this seem like you?\n👎\n👎\n🤷\n👍\n👍\nTerms & Conditions • Privacy Policy • Subscription Policy",
+      "textHash": "37b005d5730e",
+      "dhash": "0011101100001111010011010110100100010100000000001000000000100011",
+      "h": 844,
+      "prices": [],
+      "action": {
+        "opt": "👎"
+      }
+    },
+    {
+      "n": 14,
+      "file": "14.webp",
+      "url": "https://www.getskillnow.com/quiz/voice_assessment/voice_assessment?utm_adname=CF_voice_assessment&funnel-state=stepNumber:13",
+      "path": "/quiz/voice_assessment/voice_assessment",
+      "title": "“I overthink how I sound so much that I forget to enjoy the song”",
+      "kind": "question",
+      "text": "“I overthink how I sound so much that I forget to enjoy the song”\nDoes this seem like you?\n👎\n👎\n🤷\n👍\n👍\nTerms & Conditions • Privacy Policy • Subscription Policy",
+      "textHash": "5fcc391125f5",
+      "dhash": "0001100100001111010011010100100100010100000000001000000000100011",
+      "h": 844,
+      "prices": [],
+      "action": {
+        "opt": "👎"
+      }
+    },
+    {
+      "n": 15,
+      "file": "15.webp",
+      "url": "https://www.getskillnow.com/quiz/voice_assessment/voice_assessment?utm_adname=CF_voice_assessment&funnel-state=stepNumber:14",
+      "path": "/quiz/voice_assessment/voice_assessment",
+      "title": "“Nerves make my voice tremble and impossible to control”",
+      "kind": "question",
+      "text": "“Nerves make my voice tremble and impossible to control”\nDoes this seem like you?\n👎\n👎\n🤷\n👍\n👍\nTerms & Conditions • Privacy Policy • Subscription Policy",
+      "textHash": "7c5d867aca3c",
+      "dhash": "0010111100001111010011010100100100010100000000001000000000100011",
+      "h": 844,
+      "prices": [],
+      "action": {
+        "opt": "👎"
+      }
+    },
+    {
+      "n": 16,
+      "file": "16.webp",
+      "url": "https://www.getskillnow.com/quiz/voice_assessment/voice_assessment?utm_adname=CF_voice_assessment&funnel-state=stepNumber:15",
+      "path": "/quiz/voice_assessment/voice_assessment",
+      "title": "Whose voice impresses you the most?",
+      "kind": "question",
+      "text": "Whose voice impresses you the most?\nAdele\nBruno Mars\nBeyoncé\nThe Weeknd\nLady Gaga\nBad Bunny\nTaylor Swift\nEd Sheeran\nOther\nTerms & Conditions • Privacy Policy • Subscription Policy",
+      "textHash": "ba4352a5e779",
+      "dhash": "0001011101001101011010010100110101001001011010011011011000101011",
+      "h": 844,
+      "prices": [],
+      "action": {
+        "opt": "Adele",
+        "cta": "Continue"
+      }
+    },
+    {
+      "n": 17,
+      "file": "17.webp",
+      "url": "https://www.getskillnow.com/quiz/voice_assessment/voice_assessment?utm_adname=CF_voice_assessment&funnel-state=stepNumber:16",
+      "path": "/quiz/voice_assessment/voice_assessment",
+      "title": "You might share a voice type with a superstar",
+      "kind": "info",
+      "text": "You might share a voice type with a superstar\nIn just 30 seconds, AI will analyze your singing voice and reveal your closest celebrity vocal match\nContinue\nTerms & Conditions • Privacy Policy • Subscription Policy",
+      "textHash": "6af1c6f39c6c",
+      "dhash": "0001111101100111010101010001011100010110101010000101000101110001",
+      "h": 844,
+      "prices": [],
+      "action": {
+        "cta": "Continue"
+      }
+    },
+    {
+      "n": 18,
+      "file": "18.webp",
+      "url": "https://www.getskillnow.com/quiz/voice_assessment/voice_assessment?utm_adname=CF_voice_assessment&funnel-state=stepNumber:17",
+      "path": "/quiz/voice_assessment/voice_assessment",
+      "title": "When do you find yourself singing most often?",
+      "kind": "question",
+      "text": "When do you find yourself singing most often?\nChoose all that apply\n🚿\nIn the shower\n🚗\nDriving\n🎉\nKaraoke or parties\n🎧\nAlone with headphones\n🙅\nI barely sing at all\nTerms & Conditions • Privacy Policy • Subscription Policy",
+      "textHash": "807dc602f7f1",
+      "dhash": "0000011100010111011101010111110101011101010110011010010000010011",
+      "h": 844,
+      "prices": [],
+      "action": {
+        "opt": "🚿 In the shower",
+        "cta": "Continue"
+      }
+    },
+    {
+      "n": 19,
+      "file": "19.webp",
+      "url": "https://www.getskillnow.com/quiz/voice_assessment/voice_assessment?utm_adname=CF_voice_assessment&funnel-state=stepNumber:18",
+      "path": "/quiz/voice_assessment/voice_assessment",
+      "title": "Which describes your speaking voice best?",
+      "kind": "question",
+      "text": "Which describes your speaking voice best?\n🎙️\nDeep and resonant\n🌬️\nLight and airy\n🔥\nRaspy and textured\n🤷\nNot sure\nTerms & Conditions • Privacy Policy • Subscription Policy",
+      "textHash": "8f13eaca3745",
+      "dhash": "0011011100011011010110010111100101100001100000000000000000100011",
+      "h": 844,
+      "prices": [],
+      "action": {
+        "opt": "🎙️ Deep and resonant"
+      }
+    },
+    {
+      "n": 20,
+      "file": "20.webp",
+      "url": "https://www.getskillnow.com/quiz/voice_assessment/voice_assessment?utm_adname=CF_voice_assessment&funnel-state=stepNumber:19",
+      "path": "/quiz/voice_assessment/voice_assessment",
+      "title": "What do people usually say about your voice?",
+      "kind": "question",
+      "text": "What do people usually say about your voice?\n👂\nThat I have a good ear\n🎤\nThat singing is not for me\n🤫\nNothing, they've never heard me sing\n🤷\nDepends who you ask\nTerms & Conditions • Privacy Policy • Subscription Policy",
+      "textHash": "ba66ab02ec7a",
+      "dhash": "0000101100001011010111010101111101001101100000000000000000100011",
+      "h": 844,
+      "prices": [],
+      "action": {
+        "opt": "👂 That I have a good ear"
+      }
+    },
+    {
+      "n": 21,
+      "file": "21.webp",
+      "url": "https://www.getskillnow.com/quiz/voice_assessment/voice_assessment?utm_adname=CF_voice_assessment&funnel-state=stepNumber:20",
+      "path": "/quiz/voice_assessment/voice_assessment",
+      "title": "Which genre pulls at your voice the most?",
+      "kind": "question",
+      "text": "Which genre pulls at your voice the most?\nChoose all that apply\n🎤\nPop\n🎷\nR&B\n🎸\nRock\n🎭\nMusical theatre\n🪕\nFolk and acoustic\n✍️\nOther\nTerms & Conditions • Privacy Policy • Subscription Policy",
+      "textHash": "52f52cadc3d2",
+      "dhash": "0001011100010111011001010111110101011101011111010110010100101011",
+      "h": 844,
+      "prices": [],
+      "action": {
+        "opt": "🎤 Pop",
+        "cta": "Continue"
+      }
+    },
+    {
+      "n": 22,
+      "file": "22.webp",
+      "url": "https://www.getskillnow.com/quiz/voice_assessment/voice_assessment?utm_adname=CF_voice_assessment&funnel-state=stepNumber:21",
+      "path": "/quiz/voice_assessment/voice_assessment",
+      "title": "Your personalized vocal report is almost ready",
+      "kind": "info",
+      "text": "Your personalized vocal report is almost ready\nIn just a moment, you’ll discover the traits that make your voice one of a kind\nContinue\nTerms & Conditions • Privacy Policy • Subscription Policy",
+      "textHash": "788a63d03d22",
+      "dhash": "0010101100110011001100110011001100110001101001100101000101110001",
+      "h": 844,
+      "prices": [],
+      "action": {
+        "cta": "Continue"
+      }
+    },
+    {
+      "n": 23,
+      "file": "23.webp",
+      "url": "https://www.getskillnow.com/quiz/voice_assessment/voice_assessment?utm_adname=CF_voice_assessment&funnel-state=stepNumber:22",
+      "path": "/quiz/voice_assessment/voice_assessment",
+      "title": "Get your voice analyzed to discover your true potential",
+      "kind": "question",
+      "text": "Get your voice analyzed to discover your true potential\nOur AI Voice Analyzer will reveal your vocal range, voice type, and personalized tips to help you sing with more confidence\nAnalyze my voice\nTry later\nTerms & Conditions • Privacy Policy • Subscription Policy",
+      "textHash": "b4a56ec4c751",
+      "dhash": "0110001100010011001011110000111010010110011011010100110110001010",
+      "h": 844,
+      "prices": [],
+      "action": {
+        "opt": "Analyze my voice"
+      }
+    },
+    {
+      "n": 24,
+      "file": "24.webp",
+      "url": "https://www.getskillnow.com/quiz/voice_assessment/voice_assessment?utm_adname=CF_voice_assessment&funnel-state=stepNumber:22",
+      "path": "/quiz/voice_assessment/voice_assessment",
+      "title": "Find your range",
+      "kind": "info",
+      "text": "AI VOICE ANALYZER\nSkip\n1\n2\n3\nFind your range\nStart as low as you can, then glide all the way up to your highest note — like a slow siren on \"ooh.\" It doesn't need to sound good, go for the full stretch.\nTap to start recording\nYOUR RECORDINGS ARE PRIVATE\nTerms & Conditions • Privacy Policy • Subscription Policy",
+      "textHash": "aed65506fac8",
+      "dhash": "1001010000010111010011010011000000001110010011000100110100110011",
+      "h": 844,
+      "prices": [],
+      "action": {
+        "opt": "Tap to start recording"
+      }
+    },
+    {
+      "n": 25,
+      "file": "25.webp",
+      "url": "https://www.getskillnow.com/quiz/voice_assessment/voice_assessment?utm_adname=CF_voice_assessment&funnel-state=stepNumber:22",
+      "path": "/quiz/voice_assessment/voice_assessment",
+      "title": "Got it!",
+      "kind": "info",
+      "text": "AI VOICE ANALYZER\nSkip\n1\n2\n3\nGot it!\nThat's all we need for this one\nRetry\nContinue\nTerms & Conditions • Privacy Policy • Subscription Policy",
+      "textHash": "73ccb7e245fe",
+      "dhash": "1001010000010010001010000100110100001110001000010010010100100011",
+      "h": 844,
+      "prices": [],
+      "action": {
+        "cta": "Continue"
+      }
+    },
+    {
+      "n": 26,
+      "file": "26.webp",
+      "url": "https://www.getskillnow.com/quiz/voice_assessment/voice_assessment?utm_adname=CF_voice_assessment&funnel-state=stepNumber:22",
+      "path": "/quiz/voice_assessment/voice_assessment",
+      "title": "Climb the notes",
+      "kind": "info",
+      "text": "AI VOICE ANALYZER\nSkip\n2\n3\nClimb the notes\nHum a comfortable note, then sing upward in steps, like climbing stairs — one, two, three, four, five. Hold each note for a beat before the next.\nTap to start recording\nYOUR RECORDINGS ARE PRIVATE\nTerms & Conditions • Privacy Policy • Subscription Policy",
+      "textHash": "5f55d406671f",
+      "dhash": "1000110000011111010010010011000000001110010011000100110100110011",
+      "h": 844,
+      "prices": [],
+      "action": {
+        "opt": "Tap to start recording"
+      }
+    },
+    {
+      "n": 27,
+      "file": "27.webp",
+      "url": "https://www.getskillnow.com/quiz/voice_assessment/voice_assessment?utm_adname=CF_voice_assessment&funnel-state=stepNumber:22",
+      "path": "/quiz/voice_assessment/voice_assessment",
+      "title": "Got it!",
+      "kind": "info",
+      "text": "AI VOICE ANALYZER\nSkip\n2\n3\nGot it!\nThat's all we need for this one\nRetry\nContinue\nTerms & Conditions • Privacy Policy • Subscription Policy",
+      "textHash": "3b7ae9aa3409",
+      "dhash": "0000110000001010001010000100110100001110001000010010010100100011",
+      "h": 844,
+      "prices": [],
+      "action": {
+        "cta": "Continue"
+      }
+    },
+    {
+      "n": 28,
+      "file": "28.webp",
+      "url": "https://www.getskillnow.com/quiz/voice_assessment/voice_assessment?utm_adname=CF_voice_assessment&funnel-state=stepNumber:22",
+      "path": "/quiz/voice_assessment/voice_assessment",
+      "title": "Hold steady",
+      "kind": "info",
+      "text": "AI VOICE ANALYZER\nSkip\n3\nHold steady\nPick a comfortable note and hold it on \"mmm\" for as long as you can — a calm, even hum. Volume doesn't matter, keep the note as level as you can.\nTap to start recording\nYOUR RECORDINGS ARE PRIVATE\nTerms & Conditions • Privacy Policy • Subscription Policy",
+      "textHash": "934c6c2792d1",
+      "dhash": "1000010000010111010010010011000000001110010011000100110100110011",
+      "h": 844,
+      "prices": [],
+      "action": {
+        "opt": "Tap to start recording"
+      }
+    },
+    {
+      "n": 29,
+      "file": "29.webp",
+      "url": "https://www.getskillnow.com/quiz/voice_assessment/voice_assessment?utm_adname=CF_voice_assessment&funnel-state=stepNumber:22",
+      "path": "/quiz/voice_assessment/voice_assessment",
+      "title": "Got it!",
+      "kind": "info",
+      "text": "AI VOICE ANALYZER\nSkip\n3\nGot it!\nThat's all we need for this one\nRetry\nContinue\nTerms & Conditions • Privacy Policy • Subscription Policy",
+      "textHash": "1b9091e6c50c",
+      "dhash": "0000010000010110001010000100110100001110001000010010010100100011",
+      "h": 844,
+      "prices": [],
+      "action": {
+        "cta": "Continue"
+      }
+    },
+    {
+      "n": 30,
+      "file": "30.webp",
+      "url": "https://www.getskillnow.com/quiz/voice_assessment/voice_assessment/sign-up?utm_adname=CF_voice_assessment&funnel-state=stepNumber:24",
+      "path": "/quiz/voice_assessment/voice_assessment/sign-up",
+      "title": "Your results are ready Enter your email to get a full voice analysis that reveals your vocal strengths, range, and celebrity voice match",
+      "kind": "email",
+      "text": "Your results are ready\nEnter your email to get a full voice analysis that reveals your vocal strengths, range, and celebrity voice match\nBy continuing you indicate that you've read and agree to our Terms & Conditions, Privacy Policy and Subscription Policy\nI agree to receive the latest news and updates via email\nGet my report\nTerms & Conditions • Privacy Policy • Subscription Policy",
+      "textHash": "16f23a6224e1",
+      "dhash": "0001101100010111010010100100000101110001000000011000000000010011",
+      "h": 844,
+      "prices": [],
+      "action": {
+        "filled": true,
+        "email": "yelyzavetabazyla+fw261021skillstavocalscanner1@gmail.com",
+        "fallback": "Get my report"
+      }
+    },
+    {
+      "n": 31,
+      "file": "31.webp",
+      "url": "https://www.getskillnow.com/quiz/voice_assessment/voice_assessment/sign-up?utm_adname=CF_voice_assessment&funnel-state=stepNumber:24",
+      "path": "/quiz/voice_assessment/voice_assessment/sign-up",
+      "title": "Enter verification code",
+      "kind": "info",
+      "text": "Enter verification code\nWe've sent the code to yelyzavetabazyla+fw261021skillstavocalscanner1@gmail.com\nContinue\nCan’t find the code? Check your Spam folder\nTerms & Conditions • Privacy Policy • Subscription Policy",
+      "textHash": "e8cbaa59a3ce",
+      "dhash": "1000111101010001001100011000000001000000000000100001001001000000",
+      "h": 844,
+      "prices": [],
+      "action": {
+        "code": "entered from inbox",
+        "cta": "Continue"
+      }
+    },
+    {
+      "n": 32,
+      "file": "32.webp",
+      "url": "https://www.getskillnow.com/quiz/voice_assessment/voice_assessment/pricing-plans?utm_adname=CF_voice_assessment&funnel-state=stepNumber:25",
+      "path": "/quiz/voice_assessment/voice_assessment/pricing-plans",
+      "title": "",
+      "kind": "info",
+      "text": "",
+      "textHash": "3eb416223e9e",
+      "dhash": "0000000000000000000000000000000000000000000000000000000000000000",
+      "h": 844,
+      "prices": [],
+      "action": {}
+    }
+  ],
+  "features": {
+    "totalSteps": 32,
+    "stop": "stuck",
+    "emailStep": 30,
+    "paywallStep": null,
+    "questions": 17,
+    "socialProof": 0,
+    "popups": 0,
+    "loader": false,
+    "prices": [],
+    "discount": null,
+    "timer": false,
+    "trial": false,
+    "moneyBack": false
+  }
+}

@@ -1,0 +1,623 @@
+{
+  "url": "https://app.copymind.me/welcome-quiz/gender",
+  "key": "app.copymind.me/welcome-quiz/gender",
+  "why": "seed",
+  "ads": 0,
+  "adShot": null,
+  "adId": null,
+  "dir": "funnels/copymind/2162dca161b4",
+  "stop": "paywall",
+  "proxied": false,
+  "email": "yelyzavetabazyla+fw261021copymind1@gmail.com",
+  "emailNote": null,
+  "signedUp": null,
+  "steps": [
+    {
+      "n": 1,
+      "file": "01.webp",
+      "url": "https://app.copymind.me/welcome-quiz/gender",
+      "path": "/welcome-quiz/gender",
+      "title": "MAKE THE RIGHT DECISIONS ON TIME",
+      "kind": "question",
+      "text": "MAKE THE RIGHT DECISIONS ON TIME\nPass this quiz to personalize your subscription\nMale\nFemale\nBy clicking \"Male\" or \"Female\" you agree with the Terms of Service, Privacy Policy, Cookie Policy (e.g. Meta Pixel), Subscription Terms and Progress-Based Refund Options. Please review before continuing\nCOPYMIND product by Antipadia Enterprises Limited.\nVasili Michailidi, 9, 3026, Limassol, Cyprus\n2025 ©All Rights Reserved.",
+      "textHash": "f599360a0365",
+      "dhash": "0011011100110011001011010000101100110011010100010010111100010111",
+      "h": 844,
+      "prices": [],
+      "action": {
+        "opt": "Male"
+      }
+    },
+    {
+      "n": 2,
+      "file": "02.webp",
+      "url": "https://app.copymind.me/welcome-quiz/age",
+      "path": "/welcome-quiz/age",
+      "title": "Select Your Age",
+      "kind": "question",
+      "text": "Select Your Age\n18-29\n30-39\n40-49\n50+",
+      "textHash": "7377a198ef5e",
+      "dhash": "1100111000110011001100110011001100110011010101011000101000000000",
+      "h": 844,
+      "prices": [],
+      "action": {
+        "opt": "30-39"
+      }
+    },
+    {
+      "n": 3,
+      "file": "03.webp",
+      "url": "https://app.copymind.me/welcome-quiz/quote",
+      "path": "/welcome-quiz/quote",
+      "title": "Over 100 000 people",
+      "kind": "info",
+      "text": "Over 100 000 people\nstarted decoding emotional patterns with their AI Twin\nUS\nPublished on Trustpilot\nImmediate Care!\nThis app immediately got to some of the core things I've been struggling with. Instant crying and addressing the things I have been wanting to discuss for years.\nThe AI speaks with genuine care towards me. I didn't realize how much I needed something like this in my life.\nKira\nNovember 21, 2025\nContinue",
+      "textHash": "4ca1c1beda0c",
+      "dhash": "0000101100110111001101010000011101111101010011010000010101110001",
+      "h": 844,
+      "prices": [],
+      "action": {
+        "cta": "Continue"
+      }
+    },
+    {
+      "n": 4,
+      "file": "04.webp",
+      "url": "https://app.copymind.me/welcome-quiz/biggest_worry",
+      "path": "/welcome-quiz/biggest_worry",
+      "title": "What worries you the most?",
+      "kind": "question",
+      "text": "What worries you the most?\nChoose all that apply\n💔\nRelationship problems\n💰\nFinancial problems\n💼\nCareer problems\n🎯\nFear of failure\n⏰\nProcrastination\n🔥\nBurnout\n🧠\nFeeling overwhelmed\n⏳\nAnxiety about the future\n👥\nFear of missing out\n😟\nLack of confidence\n❓\nOther\nNext",
+      "textHash": "42c575a6e890",
+      "dhash": "0100110100001111001111010001110101011001011110010110110101001101",
+      "h": 1206,
+      "prices": [],
+      "action": {
+        "opt": "💔 Relationship problems",
+        "cta": "Next"
+      }
+    },
+    {
+      "n": 5,
+      "file": "05.webp",
+      "url": "https://app.copymind.me/welcome-quiz/relationship_status",
+      "path": "/welcome-quiz/relationship_status",
+      "title": "What is your relationship status?",
+      "kind": "question",
+      "text": "What is your relationship status?\n🙂\nSingle\n💑\nIn a relationship\n💍\nEngaged\n💒\nMarried\n💔\nDivorced\n❓\nOther",
+      "textHash": "7918af6ecdd7",
+      "dhash": "0100110101001101011110010011000101100001011000010110000000000000",
+      "h": 844,
+      "prices": [],
+      "action": {
+        "opt": "🙂 Single"
+      }
+    },
+    {
+      "n": 6,
+      "file": "06.webp",
+      "url": "https://app.copymind.me/welcome-quiz/career_status",
+      "path": "/welcome-quiz/career_status",
+      "title": "What is your current work status?",
+      "kind": "question",
+      "text": "What is your current work status?\n💼\nEmployed\n📈\nSelf-employed / Business owner\n📚\nStudent\n🛌\nNot working\n❓\nOther",
+      "textHash": "4f8b843fdedc",
+      "dhash": "0100110101001101011100110111000100110001011000010000000000000000",
+      "h": 844,
+      "prices": [],
+      "action": {
+        "opt": "💼 Employed"
+      }
+    },
+    {
+      "n": 7,
+      "file": "07.webp",
+      "url": "https://app.copymind.me/welcome-quiz/daily_activity",
+      "path": "/welcome-quiz/daily_activity",
+      "title": "How active are you during the day?",
+      "kind": "question",
+      "text": "How active are you during the day?\n🏃\nAlways on the move\n⚖️\nBalanced between moving and sitting\n🛋️\nMostly sedentary, want to be more active\n🛌\nLimited movement due to health reasons",
+      "textHash": "56a238414809",
+      "dhash": "0100110101001101001111110110001100101011001000111000000000000000",
+      "h": 844,
+      "prices": [],
+      "action": {
+        "opt": "🏃 Always on the move"
+      }
+    },
+    {
+      "n": 8,
+      "file": "08.webp",
+      "url": "https://app.copymind.me/welcome-quiz/future_planning",
+      "path": "/welcome-quiz/future_planning",
+      "title": "Do you usually know what you'll be doing in the near future?",
+      "kind": "question",
+      "text": "Do you usually know what you'll be doing in the near future?\n🗓️\nYes, I plan ahead and know my schedule\n🤔\nI have a general idea, but things may change\n😌\nNot really, I take things as they come\n🎭\nI prefer spontaneity over planning",
+      "textHash": "65f2655087fd",
+      "dhash": "0100110100001101011011110111101101100111010000111000000000000000",
+      "h": 844,
+      "prices": [],
+      "action": {
+        "opt": "🗓️ Yes, I plan ahead and know my schedule"
+      }
+    },
+    {
+      "n": 9,
+      "file": "09.webp",
+      "url": "https://app.copymind.me/welcome-quiz/resolutions_are_hard",
+      "path": "/welcome-quiz/resolutions_are_hard",
+      "title": "Resolutions are Hard. Here's Proof",
+      "kind": "info",
+      "text": "Resolutions are Hard. Here's Proof\nA Surprising Statistic\n92%\nof people who set New Year's resolutions fail to achieve them. This highlights how challenging it is to stick to long-term goals, even with the best intentions.\nUniversity of Scranton, Psychology Professor John C. Norcross, 2016\nContinue",
+      "textHash": "6d70fc44085f",
+      "dhash": "0010101100000111000001110000111100101111001100110000001101110001",
+      "h": 844,
+      "prices": [],
+      "action": {
+        "cta": "Continue"
+      }
+    },
+    {
+      "n": 10,
+      "file": "10.webp",
+      "url": "https://app.copymind.me/welcome-quiz/life_satisfaction",
+      "path": "/welcome-quiz/life_satisfaction",
+      "title": "How satisfied are you with your life right now?",
+      "kind": "info",
+      "text": "How satisfied are you with your life right now?\nNeutral / Balanced\nVery dissatisfied\nVery satisfied\nNext",
+      "textHash": "2b562d5ba162",
+      "dhash": "0100111100110011011000010100110101101001110100000100100101001101",
+      "h": 844,
+      "prices": [],
+      "action": {
+        "cta": "Next"
+      }
+    },
+    {
+      "n": 11,
+      "file": "11.webp",
+      "url": "https://app.copymind.me/welcome-quiz/twin_thoughts",
+      "path": "/welcome-quiz/twin_thoughts",
+      "title": "Have you ever thought it would be cool to have a clone?",
+      "kind": "question",
+      "text": "Have you ever thought it would be cool to have a clone?\n👍\nYes, absolutely!\n👎\nNo, not really\n🤷\nUnsure, it's complicated",
+      "textHash": "a86ec7e84302",
+      "dhash": "0110100100001111010111010111110100001101000100000000000000000000",
+      "h": 844,
+      "prices": [],
+      "action": {
+        "opt": "👍 Yes, absolutely!"
+      }
+    },
+    {
+      "n": 12,
+      "file": "12.webp",
+      "url": "https://app.copymind.me/welcome-quiz/building_your_ai_mind",
+      "path": "/welcome-quiz/building_your_ai_mind",
+      "title": "Building Your AI Mind Begins Now!",
+      "kind": "loader",
+      "text": "Building Your AI Mind Begins Now!\n37%\nYour AI Mind Is Taking Shape! Let's Explore Further.\nIn the next section, we'll assess how factors like procrastination, distractions, and external influences impact your decisions.\nContinue",
+      "textHash": "6f3210263007",
+      "dhash": "0100110100011111000101111001001101110000001101110000111101110001",
+      "h": 844,
+      "prices": [],
+      "action": {
+        "cta": "Continue"
+      }
+    },
+    {
+      "n": 13,
+      "file": "13.webp",
+      "url": "https://app.copymind.me/welcome-quiz/decision_procrastination",
+      "path": "/welcome-quiz/decision_procrastination",
+      "title": "How often do you postpone on important decisions?",
+      "kind": "info",
+      "text": "How often do you postpone on important decisions?\nSometimes\nNever\nAlways\nNext",
+      "textHash": "0d530bf77332",
+      "dhash": "0010100100010111010011010110110101001101100100000100100101001101",
+      "h": 844,
+      "prices": [],
+      "action": {
+        "cta": "Next"
+      }
+    },
+    {
+      "n": 14,
+      "file": "14.webp",
+      "url": "https://app.copymind.me/welcome-quiz/delay_reasons",
+      "path": "/welcome-quiz/delay_reasons",
+      "title": "What are the main reasons you delay decisions?",
+      "kind": "question",
+      "text": "What are the main reasons you delay decisions?\nChoose all that apply\n⏳\nWaiting for the perfect moment\n😨\nFear of making the wrong choice\n😵\nFeeling overwhelmed\n🔄\nGetting sidetracked\n🔁\nIt's out of habit\n🤷\nNot knowing where to begin\n😣\nAvoiding stress\n🔢\nToo many options\n🗣️\nSeeking others' opinions first\nNext",
+      "textHash": "617d2a6bf8d6",
+      "dhash": "0100110100010111010011110100111101011101010111010101110101001001",
+      "h": 1053,
+      "prices": [],
+      "action": {
+        "opt": "⏳ Waiting for the perfect moment",
+        "cta": "Next"
+      }
+    },
+    {
+      "n": 15,
+      "file": "15.webp",
+      "url": "https://app.copymind.me/welcome-quiz/focus_level",
+      "path": "/welcome-quiz/focus_level",
+      "title": "How easily can you stay focused when making a decision?",
+      "kind": "info",
+      "text": "How easily can you stay focused when making a decision?\nNeutral\nEasily distracted\nFully focused\nNext",
+      "textHash": "cd4111b6c91f",
+      "dhash": "0100100100011111110011000110100100001111101100100100110101001101",
+      "h": 844,
+      "prices": [],
+      "action": {
+        "cta": "Next"
+      }
+    },
+    {
+      "n": 16,
+      "file": "16.webp",
+      "url": "https://app.copymind.me/welcome-quiz/organized_home",
+      "path": "/welcome-quiz/organized_home",
+      "title": "How do you feel about keeping your home clean and organized?",
+      "kind": "question",
+      "text": "How do you feel about keeping your home clean and organized?\n🧹\nI can't stand clutter, everything must be neat.\n😕\nI force myself to keep it clean, but I don't enjoy it.\n🏠\nI try to stay organized, but things pile up.\n😌\nI don't mind a little mess.\n🤷\nI really don't care about cleanliness.",
+      "textHash": "29673e40e326",
+      "dhash": "0100110100010111001010110111001101011001011011110000001100001000",
+      "h": 844,
+      "prices": [],
+      "action": {
+        "opt": "🧹 I can't stand clutter, everything must be neat."
+      }
+    },
+    {
+      "n": 17,
+      "file": "17.webp",
+      "url": "https://app.copymind.me/welcome-quiz/past_decision_dwelling",
+      "path": "/welcome-quiz/past_decision_dwelling",
+      "title": "How often do you dwell on past decisions?",
+      "kind": "info",
+      "text": "How often do you dwell on past decisions?\nSometimes\nNever\nAlways\nNext",
+      "textHash": "86e15ea84af0",
+      "dhash": "0000101100010111010011010110110101001101100100000100100101001101",
+      "h": 844,
+      "prices": [],
+      "action": {
+        "cta": "Next"
+      }
+    },
+    {
+      "n": 18,
+      "file": "18.webp",
+      "url": "https://app.copymind.me/welcome-quiz/reflection_past_choices",
+      "path": "/welcome-quiz/reflection_past_choices",
+      "title": "What do you typically do when reflecting on past choices?",
+      "kind": "question",
+      "text": "What do you typically do when reflecting on past choices?\nChoose all that apply\n🔄\nReview and replay\n😔\nBeat myself up\n🗣️\nAsk others for feedback\n📚\nLearn from it\n🏃\nI don't dwell on past decisions\nNext",
+      "textHash": "e2d40bf3c714",
+      "dhash": "0100100101000101010011100101100101101101001101110100110101001101",
+      "h": 844,
+      "prices": [],
+      "action": {
+        "opt": "🔄 Review and replay",
+        "cta": "Next"
+      }
+    },
+    {
+      "n": 19,
+      "file": "19.webp",
+      "url": "https://app.copymind.me/welcome-quiz/influence_of_others",
+      "path": "/welcome-quiz/influence_of_others",
+      "title": "How much do others' opinions affect your decisions?",
+      "kind": "info",
+      "text": "How much do others' opinions affect your decisions?\nSometimes\nNot at all\nA lot\nNext",
+      "textHash": "77425abe3ac5",
+      "dhash": "0000101100010111110101000110100101001101101100000100100101001101",
+      "h": 844,
+      "prices": [],
+      "action": {
+        "cta": "Next"
+      }
+    },
+    {
+      "n": 20,
+      "file": "20.webp",
+      "url": "https://app.copymind.me/welcome-quiz/decision_external_factors",
+      "path": "/welcome-quiz/decision_external_factors",
+      "title": "What external factor has the greatest impact on decision-making?",
+      "kind": "question",
+      "text": "What external factor has the greatest impact on decision-making?\n👥\nAdvice from others\n👀\nFear of judgment\n🏙️\nSocial pressure\n💻\nResearch and reviews\n🚫\nNone of these",
+      "textHash": "2703b3b0aa20",
+      "dhash": "0100110100010011000110110101100101011101001110011000000000000000",
+      "h": 844,
+      "prices": [],
+      "action": {
+        "opt": "👥 Advice from others"
+      }
+    },
+    {
+      "n": 21,
+      "file": "21.webp",
+      "url": "https://app.copymind.me/welcome-quiz/sleep_disruption_past_events",
+      "path": "/welcome-quiz/sleep_disruption_past_events",
+      "title": "How often do you have trouble falling asleep due to replaying past unpleasant events?",
+      "kind": "info",
+      "text": "How often do you have trouble falling asleep due to replaying past unpleasant events?\nSometimes\nVery Often\nAlmost Never\nNext",
+      "textHash": "e51d8322fd14",
+      "dhash": "0100110100010011000011110100100101001101001000000100110101001101",
+      "h": 844,
+      "prices": [],
+      "action": {
+        "cta": "Next"
+      }
+    },
+    {
+      "n": 22,
+      "file": "22.webp",
+      "url": "https://app.copymind.me/welcome-quiz/satisfaction_quick_decisions",
+      "path": "/welcome-quiz/satisfaction_quick_decisions",
+      "title": "Would you be satisfied if you could easily and quickly make the right decisions?",
+      "kind": "question",
+      "text": "Would you be satisfied if you could easily and quickly make the right decisions?\n✅\nYes,absolutely\n🚫\nNot necessarily",
+      "textHash": "be596182cf0a",
+      "dhash": "0100111100000111010111010111000110000000000000000000000000000000",
+      "h": 844,
+      "prices": [],
+      "action": {
+        "opt": "✅ Yes,absolutely"
+      }
+    },
+    {
+      "n": 23,
+      "file": "23.webp",
+      "url": "https://app.copymind.me/welcome-quiz/decision_making_profile_summary",
+      "path": "/welcome-quiz/decision_making_profile_summary",
+      "title": "Summary of Your Decision-Making Profile",
+      "kind": "info",
+      "text": "Summary of Your Decision-Making Profile\nDecision Style: Exploratory\nLow\nIntermediate\nHigh\nYou may struggle with\nstress, overthinking, and decision paralysis caused by too many choices.\nReady to explore your potential for change?\nThinking Pattern\nBalanced\nConfidence Pattern\nBuilding\nMain Challenge\nOverwhelming choices\nStress Awareness\nActive\nNext",
+      "textHash": "a835e4360512",
+      "dhash": "0100111100010111000111010101001101110011011001110111011100001001",
+      "h": 844,
+      "prices": [],
+      "action": {
+        "cta": "Next"
+      }
+    },
+    {
+      "n": 24,
+      "file": "24.webp",
+      "url": "https://app.copymind.me/welcome-quiz/extroversion_level",
+      "path": "/welcome-quiz/extroversion_level",
+      "title": "How extroverted are you?",
+      "kind": "info",
+      "text": "How extroverted are you?\nBalanced\nVery introverted\nVery extroverted\nNext",
+      "textHash": "dadd21662cda",
+      "dhash": "0100111101010101010010010100110100010001100000000100100101001101",
+      "h": 844,
+      "prices": [],
+      "action": {
+        "cta": "Next"
+      }
+    },
+    {
+      "n": 25,
+      "file": "25.webp",
+      "url": "https://app.copymind.me/welcome-quiz/handling_changes",
+      "path": "/welcome-quiz/handling_changes",
+      "title": "How do you usually handle changes?",
+      "kind": "question",
+      "text": "How do you usually handle changes?\n🚀\nI love changes\n🤷\nI tolerate changes\n🙅\nI avoid changes",
+      "textHash": "f3006aad33f9",
+      "dhash": "0100111100010101011110010101110100000000000000000000000000000000",
+      "h": 844,
+      "prices": [],
+      "action": {
+        "opt": "🚀 I love changes"
+      }
+    },
+    {
+      "n": 26,
+      "file": "26.webp",
+      "url": "https://app.copymind.me/welcome-quiz/coping_mechanisms",
+      "path": "/welcome-quiz/coping_mechanisms",
+      "title": "How do you cope with stress or tough situations?",
+      "kind": "question",
+      "text": "How do you cope with stress or tough situations?\nChoose all that apply\n🗣️\nTalking to someone\n🧘\nMeditating\n🌍\nChanging surroundings\n🎮\nHobbies or entertainment\n🚶\nExercising\n🎵\nListening to music\n📖\nJournaling or writing\nNext",
+      "textHash": "97fcb3bc1866",
+      "dhash": "0100111100010011001111000111110100101101001101010101110101001101",
+      "h": 900,
+      "prices": [],
+      "action": {
+        "opt": "🗣️ Talking to someone",
+        "cta": "Next"
+      }
+    },
+    {
+      "n": 27,
+      "file": "27.webp",
+      "url": "https://app.copymind.me/welcome-quiz/risk_taking_comfort",
+      "path": "/welcome-quiz/risk_taking_comfort",
+      "title": "How comfortable are you with taking risks?",
+      "kind": "info",
+      "text": "How comfortable are you with taking risks?\nOccasionally take risks\nNot comfortable at all\nVery comfortable with risks\nNext",
+      "textHash": "079c6daa15e0",
+      "dhash": "0000111100010111011010010100110101001001110100000100110101001101",
+      "h": 844,
+      "prices": [],
+      "action": {
+        "cta": "Next"
+      }
+    },
+    {
+      "n": 28,
+      "file": "28.webp",
+      "url": "https://app.copymind.me/welcome-quiz/annoying_traits",
+      "path": "/welcome-quiz/annoying_traits",
+      "title": "What annoys you the most about people?",
+      "kind": "question",
+      "text": "What annoys you the most about people?\nChoose all that apply\n🤥\nDishonesty\n😑\nIndifference\n🙄\nDisrespect\n⚔️\nConflict-proneness\n⏳\nLack of time management\n🗣️\nInterrupting while speaking\n👂\nLack of active listening\n🤯\nOverthinking or excessive complaining\nNext",
+      "textHash": "a99799403bdf",
+      "dhash": "0100111100010111011100010111000100111101000011010000110101001101",
+      "h": 998,
+      "prices": [],
+      "action": {
+        "opt": "🤥 Dishonesty",
+        "cta": "Next"
+      }
+    },
+    {
+      "n": 29,
+      "file": "29.webp",
+      "url": "https://app.copymind.me/welcome-quiz/improve_for_right_decisions",
+      "path": "/welcome-quiz/improve_for_right_decisions",
+      "title": "To consistently make the right decisions, what do you feel needs improvement?",
+      "kind": "question",
+      "text": "To consistently make the right decisions, what do you feel needs improvement?\nChoose all that apply\n✨\nMy Intuition\n⚡️\nMy Decisiveness\n🤝\nMy Self-Trust\n😌\nMy Emotional Balance\n⏳\nMy Patience\n🌱\nMy Mindset\nNext",
+      "textHash": "f2844c195f91",
+      "dhash": "0100100100010011100101100011100101011001010111010011010101001101",
+      "h": 896,
+      "prices": [],
+      "action": {
+        "opt": "✨ My Intuition",
+        "cta": "Next"
+      }
+    },
+    {
+      "n": 30,
+      "file": "30.webp",
+      "url": "https://app.copymind.me/welcome-quiz/special_achievement_relationships",
+      "path": "/welcome-quiz/special_achievement_relationships",
+      "title": "Is there something special you wish to achieve?",
+      "kind": "question",
+      "text": "Is there something special you wish to achieve?\n🏡\nBuy a House\n💒\nA Perfect Wedding\n🏖️\nVacation\n🚗\nBuy a Car\n🛋️\nWorry-free Retirement\n👶\nStart a Family\n❤️\nFind a Soulmate\n🎉\nCelebrate a Significant Anniversary\n✨\nOther",
+      "textHash": "ddca1cbce95c",
+      "dhash": "0100111100110011011110010111000101101101010111010001101101100001",
+      "h": 945,
+      "prices": [],
+      "action": {
+        "opt": "🏡 Buy a House"
+      }
+    },
+    {
+      "n": 31,
+      "file": "31.webp",
+      "url": "https://app.copymind.me/welcome-quiz/ai_mind_potential",
+      "path": "/welcome-quiz/ai_mind_potential",
+      "title": "Here's Your AI Mind Potential",
+      "kind": "info",
+      "text": "Here's Your AI Mind Potential\nReadiness Score\nHIGH\nLow\nIntermediate\nHigh\nReady for Change\nYou're equipped with the mindset and resilience to embrace challenges, adapt, and make confident decisions with the right guidance.\nNext",
+      "textHash": "cc000b56e926",
+      "dhash": "1000111100001111000111010101001100110011001101010000101001001101",
+      "h": 844,
+      "prices": [],
+      "action": {
+        "cta": "Next"
+      }
+    },
+    {
+      "n": 32,
+      "file": "32.webp",
+      "url": "https://app.copymind.me/welcome-quiz/loader",
+      "path": "/welcome-quiz/loader",
+      "title": "Preparing Your AI Twin To Guide You",
+      "kind": "loader",
+      "text": "To move forward, specify\nDo you believe you're utilizing your full potential?\nNo\nYes\nPreparing Your AI Twin To Guide You\nIdentifying Your Strengths...\n36%\nEvery step brings your AI Twin closer to helping you make better choices",
+      "textHash": "778ccfc4acac",
+      "dhash": "0100110100001111000001110001011100010011001000110000000000000000",
+      "h": 934,
+      "prices": [],
+      "action": {
+        "opt": "Yes"
+      }
+    },
+    {
+      "n": 33,
+      "file": "33.webp",
+      "url": "https://app.copymind.me/welcome-quiz/loader",
+      "path": "/welcome-quiz/loader",
+      "title": "Preparing Your AI Twin To Guide You",
+      "kind": "loader",
+      "text": "To move forward, specify\nAre you inclined to finish what you start?\nNo\nYes\nPreparing Your AI Twin To Guide You\nLearning Your Preferences...\n62%\nEvery step brings your AI Twin closer to helping you make better choices",
+      "textHash": "2021e8dde358",
+      "dhash": "0000110100001111000101110001011100001111001000110000000000000000",
+      "h": 934,
+      "prices": [],
+      "action": {
+        "opt": "Yes"
+      }
+    },
+    {
+      "n": 34,
+      "file": "34.webp",
+      "url": "https://app.copymind.me/welcome-quiz/loader",
+      "path": "/welcome-quiz/loader",
+      "title": "Preparing Your AI Twin To Guide You",
+      "kind": "loader",
+      "text": "To move forward, specify\nWould you leave your AI mind copy to your descendants?\nNo\nYes\nPreparing Your AI Twin To Guide You\nEnhancing Decision Skills...\n90%\nEvery step brings your AI Twin closer to helping you make better choices",
+      "textHash": "b5f3a5eface0",
+      "dhash": "0100110100001111000001110011011100100011000100110000000000000000",
+      "h": 934,
+      "prices": [],
+      "action": {
+        "opt": "Yes",
+        "cta": "Continue"
+      }
+    },
+    {
+      "n": 35,
+      "file": "35.webp",
+      "url": "https://app.copymind.me/welcome-quiz/email",
+      "path": "/welcome-quiz/email",
+      "title": "Let's Make It Personal",
+      "kind": "email",
+      "text": "Let's Make It Personal\nEnter your email to create a secure space for your AI Twin and access your personalized insights anytime.\nWe respect your privacy and use your data only to personalize your experience.\nContinue",
+      "textHash": "9e375a5382a7",
+      "dhash": "0000111100010011010011000100110101001101101000000000100100000000",
+      "h": 844,
+      "prices": [],
+      "action": {
+        "filled": true,
+        "cta": "Continue",
+        "email": "yelyzavetabazyla+fw261021copymind1@gmail.com"
+      }
+    },
+    {
+      "n": 36,
+      "file": "36.webp",
+      "url": "https://app.copymind.me/welcome-quiz/paywall/decision-making?variant=",
+      "path": "/welcome-quiz/paywall/decision-making",
+      "title": "09",
+      "kind": "paywall",
+      "text": "Discount expires in\n09\nmin\n:\n58\nsec\nSUBSCRIBE\nNow\nWith COPYMIND*\nStress Level\nConfidence Level\nDecision Quality\nStress Level\nConfidence Level\nDecision Quality\n* Individual results may vary.\nWhat's holding you back?\nIntuition\nYour Plan Is Set!\nDiscount expires in 09:58 min\nYour promo code applied!\nSave on your first purchase\n09:58\nMinutes • Seconds\nyelyzavetabazyla+fw261021copymind1_oct26\nThinking Pattern\nBalanced\nGoal\nBuy a House\n1-WEEK PLAN\n$9.99 for the first week, then auto-renews at $39.99 every 4 weeks\n$9.99\nMost Recommended by Us\n4-WEEK PLAN\n$19.99 for the first 4 weeks, then auto-renews at $39.99 every 4 weeks\n$19.99\n$39.99\n12-WEEK PLAN\n$39.99 for the first 12 weeks, then auto-renews at $79.99 every 12 weeks\n$39.99\n$79.99\nSUBSCRIBE\nWhat You Get\nDesider\nBreaks down tough choices into simple, clear steps.\nAchiever\nKeeps you focused and on track with your goals.\nAI Twin\nAsk anything, reflect deeply, and get real-time support.\nMindCores\nVisualize your thoughts and uncover hidden patterns.\nAnd More\nPersonalized content, guided reflections, and powerful AI tools to support your growth every day.\nPeople Just Like You\nFind Clarity\nWith AI Twin\n48%\n73%\n87%\nMany users report meaningful improvements over 4-8 weeks of regular use\nMany Copymind users come seeking clarity in decision-making\nMany users notice clearer thought patterns after just a few sessions\nProgress-Based Refund Options\nWe believe in our service so much that we're offering a 30-day full refund if you don't see init",
+      "textHash": "9b343bf27652",
+      "dhash": "0110001100111011001100110011001101100111011100110011001100110111",
+      "h": 5911,
+      "prices": [
+        "$9.99",
+        "$39.99",
+        "$19.99",
+        "$79.99"
+      ]
+    }
+  ],
+  "features": {
+    "totalSteps": 36,
+    "stop": "paywall",
+    "emailStep": 35,
+    "paywallStep": 36,
+    "questions": 18,
+    "socialProof": 0,
+    "popups": 0,
+    "loader": true,
+    "prices": [
+      "$9.99",
+      "$39.99",
+      "$19.99",
+      "$79.99"
+    ],
+    "discount": null,
+    "timer": true,
+    "trial": false,
+    "moneyBack": true
+  }
+}

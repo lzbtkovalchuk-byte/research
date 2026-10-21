@@ -1,0 +1,47 @@
+{
+  "url": "https://join-sing.hellosimply.com/welcome/?utm_source=Facebook Ads&af_adset_id={{adset.id}}&utm_campaign={{campaign.name}}&af_c_id={{campaign.id}}&utm_content={{ad.name}}&placemnt={{placement}}&sitesource={{site_source_name}}&af_click_lookback=30d&platform=iOS&campaign_type=web_to_app&af_ad={{ad.name}}&af_ad_id={{ad.id}}",
+  "key": "join-sing.hellosimply.com/welcome?campaign_type=web_to_app&platform=iOS",
+  "why": "ad",
+  "ads": 35,
+  "adShot": "simply-sing-6f241d946bf3.webp",
+  "adId": "1145661104456809",
+  "dir": "funnels/simply-sing/6f241d946bf3",
+  "stop": "stuck",
+  "proxied": false,
+  "email": "yelyzavetabazyla+fw261021simplysing1@gmail.com",
+  "emailNote": null,
+  "signedUp": null,
+  "steps": [
+    {
+      "n": 1,
+      "file": "01.webp",
+      "url": "https://join-sing.hellosimply.com/welcome/?utm_source=Facebook%20Ads&af_adset_id={{adset.id}}&utm_campaign={{campaign.name}}&af_c_id={{campaign.id}}&utm_content={{ad.name}}&placemnt={{placement}}&sitesource={{site_source_name}}&af_click_lookback=30d&platform=iOS&campaign_type=web_to_app&af_ad={{ad.name}}&af_ad_id={{ad.id}}",
+      "path": "/welcome/",
+      "title": "Start singing like you always wanted",
+      "kind": "question",
+      "text": "Start singing like you always wanted\nDiscover your voice type and adjust all songs to fit you\nFind My Voice Type\nDownload Now",
+      "textHash": "2d2bc9a104fe",
+      "dhash": "0101011100001111000011110001001100010111000011110000111000100001",
+      "h": 844,
+      "prices": [],
+      "action": {
+        "opt": "Find My Voice Type"
+      }
+    }
+  ],
+  "features": {
+    "totalSteps": 1,
+    "stop": "stuck",
+    "emailStep": null,
+    "paywallStep": null,
+    "questions": 1,
+    "socialProof": 0,
+    "popups": 0,
+    "loader": false,
+    "prices": [],
+    "discount": null,
+    "timer": false,
+    "trial": false,
+    "moneyBack": false
+  }
+}
