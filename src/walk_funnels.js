@@ -11,7 +11,11 @@ const RUN = runDir();
 const cfg = loadConfig();
 const S = cfg.settings || {};
 const BASE_EMAIL = process.env[S.test_email_env || 'TEST_EMAIL'] || S.test_email || '';
-let EMAIL = BASE_EMAIL; // set per funnel in walk()
+const FUNNEL_MAX_MS = (S.funnel_max_minutes || 14) * 60e3; // hard cap per funnel
+const PARALLEL = Number(process.env.PARALLEL || S.parallel || 3);
+// Progress log saved with the run data (walk.log), so a run can be followed from the repo.
+const LOG = path.join(RUN, 'walk.log');
+const log = (...a) => { const line = `${new Date().toISOString().slice(11, 19)} ${a.join(' ')}`; console.log(line); try { fs.appendFileSync(LOG, line + '\n'); } catch {} };
 const SIGNUP_PASSWORD = process.env.TEST_ACCOUNT_PASSWORD || '';
 const CAN_READ_CODES = !!(process.env.GMAIL_APP_PASSWORD || process.env.CODE_OVERRIDE);
 const VERIFY = /(one-time code|verification code|enter (the |your )?code|confirmation code|\botp\b|verify your email|check your (e-?mail|inbox)|we.ve sent (you )?a code|code (was )?sent)/i;
@@ -130,7 +134,7 @@ async function inspect(page) {
   }, { ctaSrc: CTA.source, neverSrc: NEVER.source });
 }
 
-function inputValue(i) {
+function inputValue(i, EMAIL) {
   const k = `${i.type} ${i.name} ${i.ph} ${i.label}`.toLowerCase();
   if (i.type === 'email' || /e-?mail/.test(k) || /@/.test(i.ph)) return EMAIL ? { v: EMAIL, kind: 'email' } : { stop: 'email_gate' };
   if (/name/.test(k)) return { v: NAME };
@@ -353,8 +357,8 @@ async function emailError(page) {
   }, EMAIL_ERR.source).catch(() => null);
 }
 
-async function walk(browser, app, entry, dir, idx = 0) {
-  EMAIL = emailFor(app, idx);
+async function walk(browser, app, entry, dir, idx = 0, ctl = {}) {
+  const EMAIL = emailFor(app, idx);
   const proxy = proxyFor(app.geo);
   const ctx = await browser.newContext({
     permissions: ['microphone', 'camera'],
@@ -362,6 +366,7 @@ async function walk(browser, app, entry, dir, idx = 0) {
     locale: app.geo === 'GB' ? 'en-GB' : 'en-US', timezoneId: app.geo === 'GB' ? 'Europe/London' : 'America/New_York',
     ...(proxy ? { proxy } : {}),
   });
+  ctl.ctx = ctx;
   const page = await ctx.newPage();
   page.setDefaultTimeout(15000);
   const steps = [];
@@ -390,7 +395,7 @@ async function walk(browser, app, entry, dir, idx = 0) {
           steps.push({ n, file, url: page.url(), path: new URL(page.url()).pathname, title: pop.title, kind: 'popup', text: pop.text, textHash: sha(pkey.slice(0, 2000)), dhash, h, prices: [] });
           const how = await closePopup(page, pop);
           steps[n - 1].closed = how || 'could not close';
-          console.log(`  popup "${pop.title.slice(0, 40)}" → ${how || 'could not close'}`);
+          log(app.id, `popup "${pop.title.slice(0, 40)}" → ${how || 'could not close'}`);
           if (!how) { stop = 'popup_blocked'; break; }
           await settle(page, 3000);
           continue;
@@ -433,8 +438,8 @@ async function walk(browser, app, entry, dir, idx = 0) {
         const codeIns = s.inputs.filter(i => !['email', 'checkbox', 'password'].includes(i.type));
         if (!CAN_READ_CODES || !codeIns.length || codeTries >= 2) { stop = 'email_verification'; break; }
         codeTries++;
-        console.log('  waiting for the email code…');
-        const code = await waitForCode(EMAIL, emailAt).catch(e => { console.log('  inbox error:', String(e.message || e).slice(0, 120)); return null; });
+        log(app.id, 'waiting for the email code');
+        const code = await waitForCode(EMAIL, emailAt).catch(e => { log(app.id, 'inbox error:', String(e.message || e).slice(0, 120)); return null; });
         if (!code) { stop = 'email_code_not_received'; break; }
         const act = { code: 'entered from inbox' };
         await page.locator(codeIns[0].sel).click({ force: true }).catch(() => {});
@@ -471,7 +476,7 @@ async function walk(browser, app, entry, dir, idx = 0) {
         emailAt = Date.now();
         signedUp = EMAIL;
         if (steps.length) steps[steps.length - 1].action = { signup: true, cta: btn || st.primary?.text };
-        console.log('  signed up as', EMAIL);
+        log(app.id, 'signed up as', EMAIL);
         await sleep(2500);
         prevScreen = null;
         continue;
@@ -511,7 +516,7 @@ async function walk(browser, app, entry, dir, idx = 0) {
         }
         if (inp.tag === 'select') { await page.locator(inp.sel).selectOption({ index: 1 }).catch(() => {}); filled = true; continue; }
         if (inp.value) continue;
-        const v = inputValue(inp);
+        const v = inputValue(inp, EMAIL);
         if (!v) continue;
         if (v.stop) { gate = v.stop; break; }
         await page.locator(inp.sel).fill(v.v).catch(() => {});
@@ -614,9 +619,10 @@ async function walk(browser, app, entry, dir, idx = 0) {
   }
   // Keep the page markup when the walk got stuck, so the answering rules can be fixed.
   if (/stuck|timeout/.test(stop)) { try { fs.writeFileSync(path.join(dir, 'stuck.html'), (await page.content()).slice(0, 400000)); } catch {} }
+  if (ctl.timedOut) stop = 'timeout';
   // Every flow should end on a paywall. If a gate we can't pass (email code, account, mic test, stuck screen)
   // stopped the walk, open the paywall directly in the same session (answers and email are kept) and capture it.
-  if (!steps.some(x => x.kind === 'paywall')) {
+  if (!steps.some(x => x.kind === 'paywall') && !ctl.timedOut) {
     try {
       const here = new URL(page.url());
       const guesses = [...(app.paywall_urls || []), ...['/paywall', '/plans', '/pricing', '/checkout', '/subscription', '/payment', '/offer', '/plan', '/selling-page', '/get-plan'].map(p => here.origin + p)];
@@ -634,7 +640,7 @@ async function walk(browser, app, entry, dir, idx = 0) {
       }
     } catch {}
   }
-  await ctx.close();
+  await ctx.close().catch(() => {});
   return { steps, stop, proxied: !!proxy, email: EMAIL, emailNote, signedUp };
 }
 
@@ -675,8 +681,7 @@ async function main() {
     headedBrowser ||= await chromium.launch({ headless: false, args });
     return headedBrowser;
   };
-  for (const app of apps) {
-    if (only && !only.includes(app.id)) continue;
+  const runApp = async app => {
     const ads = readJSON(path.join(RUN, 'ads', `${app.id}.json`), null);
     const entries = [];
     const add = (url, why, g) => { const n = normalizeUrl(url); if (!n || isStoreOrSocial(n.host) || entries.some(e => e.key === n.key)) return; entries.push({ url, key: n.key, why, ads: g?.ads || 0, adShot: g?.shot || null, adId: g?.shotAd || null }); };
@@ -690,15 +695,24 @@ async function main() {
     for (const [ei, e] of chosen.entries()) {
       const fdir = path.join(appDir, sha(e.key));
       fs.mkdirSync(fdir, { recursive: true });
-      console.log(`→ ${app.id} ${e.key}`);
-      const r = await walk(await browserFor(app), app, e.url, fdir, ei);
+      log('→', app.id, e.key);
+      const ctl = {};
+      const timer = setTimeout(() => { ctl.timedOut = true; log(app.id, `time limit (${FUNNEL_MAX_MS / 60e3} min) reached, closing`); ctl.ctx?.close().catch(() => {}); }, FUNNEL_MAX_MS);
+      const t0 = Date.now();
+      const r = await walk(await browserFor(app), app, e.url, fdir, ei, ctl).catch(err => ({ steps: [], stop: 'error: ' + String(err.message || err).slice(0, 160), proxied: false, email: null }));
+      clearTimeout(timer);
       const f = { ...e, dir: path.relative(RUN, fdir), stop: r.stop, proxied: r.proxied, email: r.email, emailNote: r.emailNote, signedUp: r.signedUp || null, steps: r.steps, features: features(r.steps, r.stop) };
       writeJSON(path.join(fdir, 'steps.json'), f);
       index.funnels.push({ key: e.key, dir: f.dir, stop: r.stop, steps: r.steps.length, why: e.why, ads: e.ads });
-      console.log(`  ${r.steps.length} screens, stop=${r.stop}, email=${r.email}${r.emailNote ? ` (${r.emailNote})` : ''}`);
+      log('✓', app.id, `${r.steps.length} screens, stop=${r.stop}, ${Math.round((Date.now() - t0) / 1000)}s${r.emailNote ? ` (email step: ${r.emailNote})` : ''}`);
+      writeJSON(path.join(appDir, 'index.json'), index);
     }
     writeJSON(path.join(appDir, 'index.json'), index);
-  }
+  };
+  // Walk several apps at once (each in its own browser context).
+  const queue = apps.filter(a => !only || only.includes(a.id));
+  log(`walking ${queue.length} apps, ${PARALLEL} at a time`);
+  await Promise.all(Array.from({ length: Math.min(PARALLEL, queue.length) }, async () => { while (queue.length) await runApp(queue.shift()); }));
   await browser.close();
   if (headedBrowser) await headedBrowser.close();
 }

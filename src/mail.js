@@ -20,12 +20,18 @@ export function extractCode(subject, text) {
 }
 
 /** Polls the inbox (and Spam) for a code sent to `to` after `since`. Returns the code or null. */
-export async function waitForCode(to, since, { timeoutMs = 120000 } = {}) {
+export async function waitForCode(to, since, opts = {}) {
+  // Never let the inbox check hang the walk: give up after the timeout plus a margin.
+  const limit = (opts.timeoutMs || 120000) + 45000;
+  return Promise.race([pollForCode(to, since, opts), new Promise(r => setTimeout(() => r(null), limit))]);
+}
+
+async function pollForCode(to, since, { timeoutMs = 120000 } = {}) {
   if (process.env.CODE_OVERRIDE) return process.env.CODE_OVERRIDE; // local tests
   const pass = process.env.GMAIL_APP_PASSWORD;
   const user = to.replace(/\+[^@]*@/, '@');
   if (!pass || !/@gmail\.com$/i.test(user)) return null;
-  const client = new ImapFlow({ host: 'imap.gmail.com', port: 993, secure: true, auth: { user, pass: pass.replace(/\s+/g, '') }, logger: false });
+  const client = new ImapFlow({ host: 'imap.gmail.com', port: 993, secure: true, auth: { user, pass: pass.replace(/\s+/g, '') }, logger: false, connectionTimeout: 20000, greetingTimeout: 15000, socketTimeout: 60000 });
   await client.connect();
   try {
     const boxes = await client.list();

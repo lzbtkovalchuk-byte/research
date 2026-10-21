@@ -38,6 +38,8 @@ jobs:
         run: node src/collect_ads.js
       - name: Walk funnels
         if: steps.due.outputs.run == 'true'
+        timeout-minutes: 100
+        continue-on-error: true
         env:
           ONLY: "${{ inputs.only }}"
           RUN_DATE: "${{ inputs.run_date }}"
@@ -48,15 +50,15 @@ jobs:
           PROXY_US: ${{ secrets.PROXY_US }}
         run: if command -v xvfb-run >/dev/null; then xvfb-run -a node src/walk_funnels.js; else node src/walk_funnels.js; fi   # virtual display for apps marked headed: true
       - name: Diff + draft report
-        if: steps.due.outputs.run == 'true'
+        if: always() && steps.due.outputs.run == 'true'
         env: { RUN_DATE: "${{ inputs.run_date }}" }
         run: node src/diff.js && node src/build_report.js
       - name: Keep draft reports as a downloadable artifact
-        if: steps.due.outputs.run == 'true'
+        if: always() && steps.due.outputs.run == 'true'
         uses: actions/upload-artifact@v4
         with: { name: draft-report, path: "data/runs/*/report.html", retention-days: 30 }
       - name: Commit run data
-        if: steps.due.outputs.run == 'true'
+        if: always() && steps.due.outputs.run == 'true'
         run: |
           git config user.name "funnel-watch-bot"; git config user.email "actions@users.noreply.github.com"
           git add data/runs
