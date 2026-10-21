@@ -22,17 +22,17 @@ const VERIFY = /(one-time code|verification code|enter (the |your )?code|confirm
 const SIGNUP_BTN = /^(sign ?up|create (my |an |your )?account|register|join( now)?|continue|next|submit|get started)$/i;
 
 /** A fresh plus-address per funnel and run (elza+fw261025imprint1@gmail.com), so no funnel says "already registered". */
-function emailFor(app, idx) {
+function emailFor(app, idx, attempt = 0) {
   const m = BASE_EMAIL.match(/^([^@+]+)(?:\+[^@]*)?@(.+)$/);
   if (!m || S.plus_address === false) return BASE_EMAIL;
-  return `${m[1]}+fw${RUN_TAG}${app.id.replace(/[^a-z0-9]/gi, '').toLowerCase()}${idx + 1}@${m[2]}`;
+  return `${m[1]}+fw${RUN_TAG}${app.id.replace(/[^a-z0-9]/gi, '').toLowerCase()}${idx + 1}${attempt ? 'r' + attempt : ''}@${m[2]}`;
 }
 // YYMMDD + start time (HHMM UTC), so a rerun on the same day never reuses an address that already has an account.
 const RUN_TAG = path.basename(RUN).replace(/-/g, '').slice(2) + new Date().toISOString().slice(11, 16).replace(':', '');
 /** Gmail ignores dots: a dotted variant of the base address, for funnels that reject "+" (unique per funnel). */
-function dottedFor(app, idx) {
+function dottedFor(app, idx, attempt = 0) {
   const m = BASE_EMAIL.match(/^([^@+]+)(?:\+[^@]*)?@(.+)$/); if (!m) return BASE_EMAIL;
-  const local = m[1].replace(/\./g, ''); let h = 0; for (const c of app.id + idx + RUN_TAG) h = (h * 31 + c.charCodeAt(0)) >>> 0;
+  const local = m[1].replace(/\./g, ''); let h = 0; for (const c of app.id + idx + RUN_TAG + attempt) h = (h * 31 + c.charCodeAt(0)) >>> 0;
   const a = 1 + (h % (local.length - 2)), b = 1 + ((h >>> 8) % (local.length - 2));
   const pos = [...new Set([a, b])].sort((x, y) => y - x);
   let out = local; for (const p of pos) out = out.slice(0, p) + '.' + out.slice(p);
@@ -80,7 +80,8 @@ async function settle(page, maxMs = 6000) {
 async function inspect(page) {
   return page.evaluate(({ ctaSrc, neverSrc }) => {
     const CTA = new RegExp(ctaSrc, 'i'), NEVER = new RegExp(neverSrc, 'i');
-    const vis = el => { const r = el.getBoundingClientRect(); const s = getComputedStyle(el); return r.width > 4 && r.height > 4 && r.bottom > 0 && r.top < innerHeight * 1.6 && s.visibility !== 'hidden' && s.display !== 'none' && Number(s.opacity) > 0.05; };
+    // On screen horizontally too: slide-in quizzes keep the previous screen in the DOM, moved off to the side.
+    const vis = el => { const r = el.getBoundingClientRect(); const s = getComputedStyle(el); return r.width > 4 && r.height > 4 && r.bottom > 0 && r.top < innerHeight * 1.6 && r.right > 4 && r.left < innerWidth - 4 && s.visibility !== 'hidden' && s.display !== 'none' && Number(s.opacity) > 0.05; };
     document.querySelectorAll('[data-cfw]').forEach(e => e.removeAttribute('data-cfw'));
     const text = (document.body?.innerText || '').replace(/\n{2,}/g, '\n').trim();
     // Title = largest visible text near the top.
@@ -122,7 +123,8 @@ async function inspect(page) {
       el.setAttribute('data-cfw', 'c' + n);
       const r = el.getBoundingClientRect();
       const disabled = el.disabled || el.getAttribute('aria-disabled') === 'true' || getComputedStyle(el).opacity < 0.5;
-      const item = { sel: `[data-cfw="c${n}"]`, text: t.slice(0, 80), top: Math.round(r.top), disabled };
+      const check = !!(el.matches('[role=checkbox],[aria-checked]') || el.querySelector('input[type=checkbox],[role=checkbox],[aria-checked]'));
+      const item = { sel: `[data-cfw="c${n}"]`, text: t.slice(0, 80), top: Math.round(r.top), disabled, check };
       if (CTA.test(t) && t.length <= 32 && !/receive|news|updates|offers|marketing/i.test(t)) ctas.push(item);
       else if (t && t.length <= 60) opts.push(item);
       else if (!t) opts.push({ ...item, icon: true });
@@ -140,7 +142,8 @@ async function inspect(page) {
     }
     const imgs = [...document.images].filter(i => i.getBoundingClientRect().width > 80 && i.getBoundingClientRect().top < innerHeight).map(i => (i.currentSrc || i.src).slice(-80) + i.alt).join(',');
     const alts = [...document.images].filter(i => i.getBoundingClientRect().width > 80 && i.getBoundingClientRect().top < innerHeight).map(i => i.alt).filter(Boolean).join(' / ');
-    return { url: location.href, title, text: text.slice(0, 4000), imgs, alts, inputs, hasPassword, hasCard, ctas, opts, primary };
+    const checks = opts.filter(o => o.check).length + [...document.querySelectorAll('input[type=checkbox]')].filter(vis).length;
+    return { url: location.href, title, text: text.slice(0, 4000), imgs, alts, inputs, hasPassword, hasCard, ctas, opts, primary, checks };
   }, { ctaSrc: CTA.source, neverSrc: NEVER.source });
 }
 
@@ -173,7 +176,8 @@ function classify(s) {
 
 const AGE = /^(under\s?\d+|\d{1,2}\s?[-–]\s?\d{1,2}|\d{1,2}\+|\d{1,2} or (older|more))/i;
 /** How many options a multi-select screen needs (e.g. "Choose your top 3"). 0 = single choice. */
-function multiCount(text) {
+function multiCount(text, checks = 0) {
+  if (checks >= 3) return 1; // a list of checkboxes is a multi-select even without "select all that apply"
   const m = text.match(/(?:choose|select|pick)\s+(?:your\s+)?(?:top\s+|at least\s+|up to\s+)?(\d)/i);
   if (m) return Number(m[1]);
   return /(all that apply|select all|choose all|multiple answers|select one or more|choose one or more)/i.test(text) ? 1 : 0;
@@ -185,7 +189,8 @@ function pickOption(s) {
   if (!o.length) return null;
   // Voice/mic tests can't run headless → skip them.
   if (/(couldn.t access your mic|microphone (is )?blocked|allow (access to )?(your )?microphone)/i.test(s.text)) { const sk = o.find(x => /^(skip|finish|not now|later|continue without)/i.test(x.text)); if (sk) return sk; }
-  const yes = o.find(x => /^(yes|👍\s*yes|yes,? .{0,20})$/i.test(x.text)); if (yes && o.length <= 4) return yes;
+  const yes = o.find(x => /^(yes|👍\s*yes|yes,? .{0,20})$/i.test(x.text));
+  if (yes && (o.length <= 4 || o.some(x => /^(no|👎\s*no)$/i.test(x.text)))) return yes;
   // Time pickers: pick a time from the open list.
   const times = o.filter(x => /^\d{1,2}:\d{2}(\s?[ap]m)?$/i.test(x.text));
   if (times.length) return times[Math.floor(times.length / 2)];
@@ -286,8 +291,8 @@ async function findPopup(page) {
         || ctrls.find(c => { const r = c.getBoundingClientRect(); return ['BUTTON'].includes(c.tagName) && !(c.innerText || '').trim() && r.width < 64 && r.top < er.top + er.height * 0.3 && r.left > er.left + er.width * 0.6; });
       const isDialog = el.matches('[role=dialog],[role=alertdialog],[aria-modal=true],dialog');
       // A bottom sheet asking a question with answer buttons is a quiz step, not a popup: answer it normally.
-      const answers = ctrls.filter(c => (c.tagName === 'BUTTON' || c.getAttribute('role') === 'button' || c.getAttribute('role') === 'radio') && (c.innerText || '').trim() && !CLOSE.test((c.innerText || '').trim()));
-      if (/\?/.test(text) && answers.length >= 2) continue;
+      const answers = ctrls.filter(c => { const t = (c.innerText || '').trim(); return t && t.length <= 40 && !CLOSE.test(t) && (c.tagName === 'BUTTON' || ['button', 'radio', 'option'].includes(c.getAttribute('role')) || getComputedStyle(c).cursor === 'pointer'); });
+      if (/\?/.test(text) && new Set(answers.map(c => c.innerText.trim())).size >= 2) continue;
       if (!closeEl && !isDialog) continue;
       if (closeEl) (closeEl.closest('button,[role=button],a') || closeEl).setAttribute('data-cfw-close', '1');
       el.setAttribute('data-cfw-pop', '1');
@@ -370,8 +375,8 @@ async function emailError(page) {
   }, EMAIL_ERR.source).catch(() => null);
 }
 
-async function walk(browser, app, entry, dir, idx = 0, ctl = {}) {
-  let EMAIL = emailFor(app, idx);
+async function walk(browser, app, entry, dir, idx = 0, ctl = {}, attempt = 0) {
+  let EMAIL = emailFor(app, idx, attempt);
   let restartUrl = null, triedDots = false;
   const proxy = proxyFor(app.geo);
   const ctx = await browser.newContext({
@@ -381,8 +386,10 @@ async function walk(browser, app, entry, dir, idx = 0, ctl = {}) {
     ...(proxy ? { proxy } : {}),
   });
   ctl.ctx = ctx;
-  const page = await ctx.newPage();
+  let page = await ctx.newPage();
   page.setDefaultTimeout(15000);
+  // A button that opens the funnel in a new tab: follow the new tab.
+  ctx.on('page', p => { page = p; p.setDefaultTimeout(15000); log(app.id, 'followed a new tab'); });
   const steps = [];
   const seen = new Map();
   let stop = 'max_steps', lastKey = '', prevScreen = null, popups = 0, emailNote = null;
@@ -522,6 +529,28 @@ async function walk(browser, app, entry, dir, idx = 0, ctl = {}) {
         }).catch(() => false);
         if (ok && picked) { await sleep(800); s = await inspect(page); }
       }
+      // Scratch cards ("Scratch to reveal your discount"): rub across the card, then let the next pass continue.
+      if (/scratch/i.test(s.text) && !s.inputs.length && !s.ctas.some(c => !c.disabled) && (seen.get(nkey) || 0) <= 2) {
+        const box = await page.evaluate(() => {
+          let best = null, area = 0;
+          for (const e of document.querySelectorAll('canvas,img,svg,div')) {
+            const r = e.getBoundingClientRect(), a = r.width * r.height;
+            if (r.top > 80 && r.width > 120 && r.height > 80 && r.right <= innerWidth && a < innerWidth * innerHeight * 0.5 && (e.tagName === 'CANVAS' ? a * 4 : a) > area) { area = e.tagName === 'CANVAS' ? a * 4 : a; best = { x: r.left, y: r.top, w: r.width, h: r.height }; }
+          }
+          return best;
+        }).catch(() => null);
+        if (box) {
+          for (let row = 1; row <= 6; row++) {
+            const y = box.y + box.h * row / 7;
+            await page.mouse.move(box.x + 8, y); await page.mouse.down();
+            await page.mouse.move(box.x + box.w - 8, y, { steps: 12 }); await page.mouse.up();
+          }
+          await sleep(1500);
+          if (steps.length) steps[steps.length - 1].action = { scratched: true };
+          prevScreen = null;
+          continue;
+        }
+      }
       // Fill inputs.
       let filled = false, gate = null, emailFilled = false;
       for (const inp of s.inputs) {
@@ -591,9 +620,10 @@ async function walk(browser, app, entry, dir, idx = 0, ctl = {}) {
           const flashed = await page.evaluate(() => window.__cfwErr || null).catch(() => null);
           if (flashed) emailNote = flashed;
           let err = await emailError(page) || (flashed && await page.evaluate(() => !!document.querySelector('input[type=email],input[name*=mail i],input[placeholder*=mail i]')).catch(() => false) ? flashed : null);
-          if (err && /valid/i.test(err) && EMAIL.includes('+') && !triedDots) {
-            // The funnel rejects "+" addresses: retry with a dotted variant (Gmail delivers it to the same inbox).
-            triedDots = true; EMAIL = dottedFor(app, idx); act.email = EMAIL;
+          if (err && EMAIL.includes('+') && !triedDots) {
+            // The funnel rejects "+" addresses (invalid, or "already exists" because it drops the +part):
+            // retry with a dotted variant (Gmail delivers it to the same inbox).
+            triedDots = true; EMAIL = dottedFor(app, idx, attempt); act.email = EMAIL;
             log(app.id, 'plus-address rejected, retrying with', EMAIL);
             const box = page.locator('input[type=email],input[name*=mail i],input[placeholder*=mail i]').first();
             await box.fill('').catch(() => {}); await box.fill(EMAIL).catch(() => {});
@@ -607,9 +637,9 @@ async function walk(browser, app, entry, dir, idx = 0, ctl = {}) {
       else {
         let moved = false;
         if (same) moved = await pressCTA(s) && await changed();
-        if (!moved && !same && !/\?/.test(s.title + ' ' + s.text.slice(0, 300)) && !multiCount(s.text) && s.ctas.some(c => !c.disabled)) moved = await pressCTA(s) && await changed();
+        if (!moved && !same && !/\?/.test(s.title + ' ' + s.text.slice(0, 300)) && !multiCount(s.text, s.checks) && s.ctas.some(c => !c.disabled)) moved = await pressCTA(s) && await changed();
         if (!moved) {
-          const multi = multiCount(s.text);
+          const multi = multiCount(s.text, s.checks);
           if (multi) {
             const picks = s.opts.filter(x => !x.disabled && !/prefer not|^other$|^none/i.test(x.text)).slice(0, multi);
             for (const p of picks) { await click(p.sel, true); await sleep(350); }
@@ -636,6 +666,13 @@ async function walk(browser, app, entry, dir, idx = 0, ctl = {}) {
           const tries = [...st.opts.filter(o => !o.icon), ...st.ctas, ...(st.primary ? [st.primary] : []), ...st.opts.filter(o => o.icon)].slice(0, 8);
           for (const t of tries) { await click(t.sel); await sleep(800); if (await changed()) { moved = true; act.fallback = t.text; break; } }
           if (!moved) { await page.keyboard.press('Enter').catch(() => {}); await sleep(1200); moved = await changed(); }
+          if (!moved) {
+            // Select one answer without re-tapping it (taps can toggle it off again), then press the button directly.
+            const st2 = await inspect(page), o = pickOption(st2);
+            if (o) { await page.locator(o.sel).first().click({ timeout: 3000 }).catch(() => {}); await sleep(600); }
+            const b = await clickButton(page, /^(continue|next|next step|submit|done|get my plan|see (my )?results?)$/i);
+            if (b) { await sleep(1500); moved = await changed(); if (moved) act.fallback = `${o?.text || ''} + ${b}`; }
+          }
           if (!moved) { stop = 'stuck'; break; }
         }
       }
@@ -725,8 +762,22 @@ async function main() {
       const ctl = {};
       const timer = setTimeout(() => { ctl.timedOut = true; log(app.id, `time limit (${FUNNEL_MAX_MS / 60e3} min) reached, closing`); ctl.ctx?.close().catch(() => {}); }, FUNNEL_MAX_MS);
       const t0 = Date.now();
-      const r = await walk(await browserFor(app), app, e.url, fdir, ei, ctl).catch(err => ({ steps: [], stop: 'error: ' + String(err.message || err).slice(0, 160), proxied: false, email: null }));
+      let r = await walk(await browserFor(app), app, e.url, fdir, ei, ctl).catch(err => ({ steps: [], stop: 'error: ' + String(err.message || err).slice(0, 160), proxied: false, email: null }));
       clearTimeout(timer);
+      // No paywall reached in the flow (stuck, rejected email, looped back…): walk it once more from scratch
+      // in a separate folder with a new address, and keep whichever attempt got further.
+      const inFlow = x => x.steps.some(st => st.kind === 'paywall' && !st.direct);
+      if (!inFlow(r) && !/^(app_store|account_creation|payment_form)/.test(r.stop) && !process.env.NO_RETRY) {
+        log('↻', app.id, `retrying (${r.stop})`);
+        const rdir = fdir + '_retry'; fs.rmSync(rdir, { recursive: true, force: true }); fs.mkdirSync(rdir, { recursive: true });
+        const ctl2 = {}; const timer2 = setTimeout(() => { ctl2.timedOut = true; ctl2.ctx?.close().catch(() => {}); }, FUNNEL_MAX_MS);
+        const r2 = await walk(await browserFor(app), app, e.url, rdir, ei, ctl2, 1).catch(err => ({ steps: [], stop: 'error: ' + String(err.message || err).slice(0, 160) }));
+        clearTimeout(timer2);
+        const better = (inFlow(r2) && !inFlow(r)) || (!inFlow(r) && r2.steps.length > r.steps.length);
+        if (better) { fs.rmSync(fdir, { recursive: true, force: true }); fs.renameSync(rdir, fdir); r = r2; }
+        else fs.rmSync(rdir, { recursive: true, force: true });
+        log('↻', app.id, `retry ${better ? 'kept' : 'discarded'}: ${r2.steps.length} screens, stop=${r2.stop}`);
+      }
       const f = { ...e, dir: path.relative(RUN, fdir), stop: r.stop, proxied: r.proxied, email: r.email, emailNote: r.emailNote, signedUp: r.signedUp || null, restartUrl: r.restartUrl || null, finalUrl: r.finalUrl || null, steps: r.steps, features: features(r.steps, r.stop) };
       writeJSON(path.join(fdir, 'steps.json'), f);
       index.funnels.push({ key: e.key, dir: f.dir, stop: r.stop, steps: r.steps.length, why: e.why, ads: e.ads });

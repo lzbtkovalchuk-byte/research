@@ -19,22 +19,25 @@ settings:
   max_steps: 90
   slack_channel: C09C8NJA1F1      # #skillsta-product-marketing (used if SLACK_CHANNEL_ID isn't set)
 
-skillsta:
-  - id: skillsta-vocal-2
-    name: Skillsta · Vocal funnel 2.0
-    topic: vocal
-    geo: US
-    seeds: ["https://www.getskillnow.com/quiz?utm_adname=cf_new_vocal"]
-  - id: skillsta-vocal-scanner
-    name: Skillsta · Vocal Scanner funnel
-    topic: vocal
-    geo: US
-    seeds: ["https://www.getskillnow.com/quiz/voice_assessment/voice_assessment?utm_adname=CF_voice_assessment"]
-  - id: skillsta-drawing
-    name: Skillsta · Drawing funnel
-    topic: drawing
-    geo: US
-    seeds: ["https://start.getskillnow.com/quiz?utm_adname=cf_drawing"]
+# Skillsta's own funnels are not walked for now (their conversion still comes from Amplitude in the analysis step).
+# To walk them again, uncomment this block.
+skillsta: []
+# skillsta:
+#   - id: skillsta-vocal-2
+#     name: Skillsta · Vocal funnel 2.0
+#     topic: vocal
+#     geo: US
+#     seeds: ["https://www.getskillnow.com/quiz?utm_adname=cf_new_vocal"]
+#   - id: skillsta-vocal-scanner
+#     name: Skillsta · Vocal Scanner funnel
+#     topic: vocal
+#     geo: US
+#     seeds: ["https://www.getskillnow.com/quiz/voice_assessment/voice_assessment?utm_adname=CF_voice_assessment"]
+#   - id: skillsta-drawing
+#     name: Skillsta · Drawing funnel
+#     topic: drawing
+#     geo: US
+#     seeds: ["https://start.getskillnow.com/quiz?utm_adname=cf_drawing"]
 
 competitors:
   - id: imprint
@@ -100,6 +103,7 @@ competitors:
     geo: US
     ads: { page_ids: ["245680685625507"] }
     seeds: ["https://yousician.com/?utm_source=facebook"]
+    allow_signup: true   # "Let's get started" opens log-in / sign-up: creates a test account like Imprint
     paywall_urls: ["https://account.yousician.com/plans", "https://yousician.com/pricing"]   # behind account creation; opened directly
 
   - id: smartyme

@@ -30,9 +30,27 @@ const q=new URLSearchParams(location.search);
 // code=1: an email verification screen with 6 boxes (code 123456). signup=1: a create-account screen with a password.
 if(q.get('signup')) S.splice(7,0,()=>`<h1>Create your account</h1><input type="email" placeholder="Email" value=""><input type="password" placeholder="Password"><label><input type="checkbox" id="t"> I agree to the Terms</label><button onclick="if(document.querySelector('[type=password]').value&&document.getElementById('t').checked)go()">Create account</button>`);
 if(q.get('code')) S.splice(7,0,()=>`<h1>Enter verification code</h1><p>We've sent a code to your email</p><div>${[0,1,2,3,4,5].map(k=>`<input class="d" maxlength="1" inputmode="numeric" style="width:30px" oninput="if(this.value&&this.nextElementSibling)this.nextElementSibling.focus()">`).join('')}</div><p id="cerr"></p><button onclick="const v=[...document.querySelectorAll('.d')].map(x=>x.value).join('');v==='123456'?go():document.getElementById('cerr').textContent='Wrong code'">Verify</button>`);
+// hard=1: screens that used to get the walker stuck (Oct 2026 run).
+if(q.get('hard')){
+  // A checkbox list without "select all that apply"; Continue does nothing until one is ticked; a second tap unticks.
+  S.splice(2,0,()=>`<h1>What are your blockers?</h1>${['I procrastinate','I lose interest','I fear judgment','Other'].map(a=>`<div class="opt" role="checkbox" aria-checked="false" onclick="this.setAttribute('aria-checked',this.getAttribute('aria-checked')==='true'?'false':'true')">${a} <span>☐</span></div>`).join('')}<button style="position:fixed;bottom:16px;left:16px;right:16px;width:auto" onclick="if(document.querySelector('[aria-checked=true]'))go()">Continue</button>`,
+  // Slide transition: the previous question stays in the DOM, moved off screen; the current one is a yes/no card.
+  ()=>`<div style="position:absolute;left:-420px;top:0;width:390px"><h2>Which topics intrigue you?</h2>${['Foundations','Daily life','Traditions','Teachings','Figures'].map(a=>`<div class="opt">${a}</div>`).join('')}</div><h1>Does this topic interest you?</h1><p>Impermanence</p><div class="cards"><div class="card" onclick="go()">No ✕</div><div class="card" onclick="go()">Yes ✓</div></div>`,
+  // A question popup over a loader (no close button): it has to be answered, not closed.
+  ()=>{ setTimeout(()=>{ const d=document.createElement('div'); d.setAttribute('role','dialog'); d.style.cssText='position:fixed;inset:0;z-index:50;background:rgba(0,0,0,.7);display:flex;align-items:center;justify-content:center';
+      d.innerHTML='<div style="background:#123;color:#fff;padding:20px;border-radius:12px;width:80%"><p>Do you avoid places that remind you of your past?</p><div style="display:flex;gap:8px"><div style="flex:1;cursor:pointer;padding:12px;background:#234" onclick="this.closest(\'[role=dialog]\').remove();go()">No</div><div style="flex:1;cursor:pointer;padding:12px;background:#234" onclick="this.closest(\'[role=dialog]\').remove();go()">Yes</div></div></div>';
+      document.body.appendChild(d); }, 600); return `<h1>Calculating your results...</h1><p>Analysing your answers about sleep, stress and focus.</p>`; },
+  // A scratch card: drag across it to reveal the discount, then Continue appears.
+  ()=>{ setTimeout(()=>{ const c=document.getElementById('sc'); let n=0, down=false; c.onmousedown=()=>down=true; c.onmouseup=()=>down=false; c.onmousemove=()=>{ if(down && ++n===40){ c.remove(); document.getElementById('rev').innerHTML='<p>50% discount</p><button onclick="go()">Continue</button>'; } }; },50);
+      return `<h1>Scratch to reveal your discount!</h1><canvas id="sc" width="300" height="160" style="background:#a8f;display:block;margin:20px auto"></canvas><div id="rev"></div>`; });
+}
+// newtab=1: the first button opens the funnel in a new tab.
+if(q.get('newtab')==='1') S.unshift(()=>`<h1>Start singing like you always wanted</h1><button onclick="window.open(location.href.replace('newtab=1','newtab=0'),'_blank')">Find My Voice Type</button>`);
 function go(){ i++; render(); }
 function emailGo(){ const v=document.querySelector('input').value; if(!v) return;
-  if(q.get('strict') && !v.includes('+')){ document.getElementById('err').textContent='An account already exists with this email.'; if(q.get('strict')==='loop') setTimeout(()=>{i=0;render();},2500); return; }
+  // strict=plus: "+" addresses are treated as the base address, which already has an account.
+  if(q.get('strict')==='plus' && v.includes('+')){ document.getElementById('err').textContent='An account already exists with this email.'; return; }
+  if(q.get('strict') && q.get('strict')!=='plus' && !v.includes('+')){ document.getElementById('err').textContent='An account already exists with this email.'; if(q.get('strict')==='loop') setTimeout(()=>{i=0;render();},2500); return; }
   go(); }
 function render(){ document.getElementById('app').innerHTML=S[i](); }
 render();

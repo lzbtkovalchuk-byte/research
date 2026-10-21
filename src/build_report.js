@@ -103,7 +103,7 @@ const perApp = apps.map(app => {
   const screens = ch.reduce((s, c) => s + c.count, 0);
   const links = linkChanges(app.id);
   const ads = dApp(app.id).ads;
-  const noPaywall = list.filter(f => !f.steps.some(s => s.kind === 'paywall'));
+  const noPaywall = list.filter(f => !f.steps.some(s => s.kind === 'paywall' && s.n > 1)); // a landing page with prices is not a paywall
   let line = A.what_changed?.[app.id];
   if (!line) {
     if (firstRun) line = 'First capture.';
@@ -190,7 +190,7 @@ const html = `<!doctype html>
 <section id="ads"><h2>Meta ads activity</h2><p class="sub">Active ads now, change since ${fmtDate(diff.previous)}, and ads started in the window. Counts are Meta’s estimates; each app uses its own geo.</p>
 <div class="tbl"><table><thead><tr><th>App</th><th>Topic</th><th>Geo</th><th class="r">Active</th><th class="r">Δ</th><th class="r">New</th></tr></thead><tbody>${adRows}</tbody></table></div></section>
 <section id="links"><h2>Funnel link changes</h2><p class="sub">Only new, changed or removed links. Tracking parameters are ignored.</p>${linksHTML}</section>
-<section id="skillsta"><h2>Skillsta funnels</h2>${ampHTML}<div class="wcbox" style="margin-top:14px">${skWC}</div></section>
+<section id="skillsta"><h2>Skillsta funnels</h2>${ampHTML}${sk.length ? `<div class="wcbox" style="margin-top:14px">${skWC}</div>` : ''}</section>
 ${ideas ? `<section id="ideas"><h2>Ideas from this update</h2><div class="hyp"><ol>${ideas}</ol></div></section>` : ''}
 ${cov.length || signups.length ? `<section id="coverage"><h2>${cov.length ? 'Coverage' : 'Test accounts'}</h2>${cov.length ? `<p class="sub">Funnels where the capture didn’t reach the paywall this run.</p><div class="cov" style="display:block">${covHTML}</div>` : ''}${signupHTML}</section>` : ''}
 <footer>Full funnels: <code>data/runs/${date}/</code>${diff.previous ? ` and <code>data/runs/${diff.previous}/</code>` : ''}. Funnels are walked automatically on a 390×844 phone screen with fixed neutral answers and a test email; nothing is bought.</footer>
