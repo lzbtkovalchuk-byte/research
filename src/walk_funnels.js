@@ -400,7 +400,7 @@ async function walk(browser, app, entry, dir, idx = 0, ctl = {}, attempt = 0) {
     await sleep(2500);
     await rejectCookies(page);
     for (let i = 0; i < MAX_STEPS; i++) {
-      if (Date.now() - t0 > 25 * 60e3) { stop = 'timeout'; break; }
+      if (Date.now() - t0 > Math.max(25, app.max_minutes || 0) * 60e3) { stop = 'timeout'; break; }
       await settle(page);
       if (i < 3 || i % 5 === 0) await rejectCookies(page);
       await page.addStyleTag({ content: HIDE_CSS }).catch(() => {});
@@ -747,7 +747,8 @@ async function main() {
   const runApp = async app => {
     const ads = readJSON(path.join(RUN, 'ads', `${app.id}.json`), null);
     const entries = [];
-    const add = (url, why, g) => { const n = normalizeUrl(url); if (!n || isStoreOrSocial(n.host) || entries.some(e => e.key === n.key)) return; entries.push({ url, key: n.key, why, ads: g?.ads || 0, adShot: g?.shot || null, adId: g?.shotAd || null }); };
+    // skip_links: funnels that can't be walked automatically (e.g. a live singing test); others are walked instead.
+    const add = (url, why, g) => { const n = normalizeUrl(url); if (!n || isStoreOrSocial(n.host) || entries.some(e => e.key === n.key) || (app.skip_links || []).some(k => n.key.includes(k))) return; entries.push({ url, key: n.key, why, ads: g?.ads || 0, adShot: g?.shot || null, adId: g?.shotAd || null }); };
     if (ads) Object.values(ads.landing).filter(g => !g.store).sort((a, b) => b.ads - a.ads).forEach(g => add(g.sample, 'ad', g));
     (app.seeds || []).forEach(u => add(u, 'seed'));
     const chosen = entries.slice(0, app.skillsta ? 5 : MAX_FUNNELS);
@@ -760,7 +761,8 @@ async function main() {
       fs.mkdirSync(fdir, { recursive: true });
       log('→', app.id, e.key);
       const ctl = {};
-      const timer = setTimeout(() => { ctl.timedOut = true; log(app.id, `time limit (${FUNNEL_MAX_MS / 60e3} min) reached, closing`); ctl.ctx?.close().catch(() => {}); }, FUNNEL_MAX_MS);
+      const maxMs = app.max_minutes ? app.max_minutes * 60e3 : FUNNEL_MAX_MS; // long funnels can get more time
+      const timer = setTimeout(() => { ctl.timedOut = true; log(app.id, `time limit (${maxMs / 60e3} min) reached, closing`); ctl.ctx?.close().catch(() => {}); }, maxMs);
       const t0 = Date.now();
       let r = await walk(await browserFor(app), app, e.url, fdir, ei, ctl).catch(err => ({ steps: [], stop: 'error: ' + String(err.message || err).slice(0, 160), proxied: false, email: null }));
       clearTimeout(timer);
@@ -770,7 +772,7 @@ async function main() {
       if (!inFlow(r) && !/^(app_store|account_creation|payment_form)/.test(r.stop) && !process.env.NO_RETRY) {
         log('↻', app.id, `retrying (${r.stop})`);
         const rdir = fdir + '_retry'; fs.rmSync(rdir, { recursive: true, force: true }); fs.mkdirSync(rdir, { recursive: true });
-        const ctl2 = {}; const timer2 = setTimeout(() => { ctl2.timedOut = true; ctl2.ctx?.close().catch(() => {}); }, FUNNEL_MAX_MS);
+        const ctl2 = {}; const timer2 = setTimeout(() => { ctl2.timedOut = true; ctl2.ctx?.close().catch(() => {}); }, maxMs);
         const r2 = await walk(await browserFor(app), app, e.url, rdir, ei, ctl2, 1).catch(err => ({ steps: [], stop: 'error: ' + String(err.message || err).slice(0, 160) }));
         clearTimeout(timer2);
         const better = (inFlow(r2) && !inFlow(r)) || (!inFlow(r) && r2.steps.length > r.steps.length);

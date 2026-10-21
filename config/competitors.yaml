@@ -94,7 +94,8 @@ competitors:
     topics: [vocal]
     geo: US
     ads: { page_ids: ["105597079032619"] }
-    seeds: ["https://join-sing.hellosimply.com/start"]
+    seeds: ["https://welcome.hellosimply.com/singyourheartout?campaign_type=web_to_app&platform=iOS"]
+    skip_links: ["join-sing.hellosimply.com"]   # these start with a live voice-type test the walker can't pass
     headed: true         # voice-type test: run in a full browser with the sung-melody mic input
 
   - id: yousician
@@ -112,6 +113,7 @@ competitors:
     geo: US
     ads: { page_ids: ["837158766142027"], domains: ["smartymeapp.com"] }
     seeds: ["https://start.smartymeapp.com/quiz"]
+    max_minutes: 25      # ~50 screens with long loaders: the default 14 minutes runs out before the paywall
 
   - id: simply-draw
     name: Simply Draw
