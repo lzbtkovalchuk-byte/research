@@ -28,7 +28,7 @@ const STOP = {
   paywall: 'reached the paywall', account_creation: 'stops at account creation (needs a password)', payment_form: 'stops at the payment form',
   email_gate: 'stops at the email gate (no test email set)', email_verification: 'stops at the email verification code', app_store: 'sends people to the app store',
   stuck: 'the automatic walk got stuck', looped_to_start: 'goes back to its first screen (account needed to go further)',
-  email_loop: 'goes back to its first screen after the email', email_rejected: 'rejects the test email', popup_blocked: 'a popup could not be closed',
+  email_loop: 'goes back to its first screen after the email', email_code_not_received: 'the email code did not arrive in the test inbox', email_rejected: 'rejects the test email', popup_blocked: 'a popup could not be closed',
   timeout: 'the walk timed out', max_steps: 'step limit reached',
 };
 const stopText = f => { const [s0, extra] = String(f.stop).split('+'); const t = STOP[s0] || (s0.startsWith('error') ? 'the page failed to load' : s0); return extra === 'paywall_direct' ? `${t}; paywall opened directly` : t; };
@@ -164,6 +164,8 @@ const cov = perApp.flatMap(p => p.noPaywall.map(f => {
   const src = last && img(path.join(RUN, f.dir, last.file));
   return `<li data-topic="${topicOf(p.app)}">${src ? `<div class="frame"><div class="canvas"><img src="${src}" alt="${esc(last.title || '')}" data-cap="${esc(p.app.name)} · where the walk stopped: ${last.n}. ${esc(last.title || '')}"></div></div>` : '<span></span>'}<div><p><b>${esc(p.app.name)}</b>: ${esc(stopText(f))}${f.emailNote ? `. The email step said: “${esc(f.emailNote)}”` : ''}.</p><p class="why">${esc(short(f.key))}${last ? ` · stopped at step ${last.n}, “${esc((last.title || '').slice(0, 60))}”` : ''}</p></div></li>`;
 }));
+const signups = perApp.flatMap(p => p.list.filter(f => f.signedUp).map(f => `<li><b>${esc(p.app.name)}</b>: ${esc(f.signedUp)}</li>`));
+const signupHTML = signups.length ? `<div class="hyp" style="margin-top:14px"><p class="who" style="margin:0 0 8px;font-weight:600">Test accounts created this run</p><ul style="margin:0;padding-left:18px">${signups.join('')}</ul><p class="why" style="margin:8px 0 0">Password: the TEST_ACCOUNT_PASSWORD secret.</p></div>` : '';
 const covHTML = cov.length ? `<ul class="covl">${cov.join('')}</ul>` : '<p class="empty-note">Every funnel reached its paywall.</p>';
 
 const html = `<!doctype html>
@@ -185,7 +187,7 @@ const html = `<!doctype html>
 <section id="links"><h2>Funnel link changes</h2><p class="sub">Only new, changed or removed links. Tracking parameters are ignored.</p>${linksHTML}</section>
 <section id="skillsta"><h2>Skillsta funnels</h2>${ampHTML}<div class="wcbox" style="margin-top:14px">${skWC}</div></section>
 ${ideas ? `<section id="ideas"><h2>Ideas from this update</h2><div class="hyp"><ol>${ideas}</ol></div></section>` : ''}
-<section id="coverage"><h2>Coverage</h2><p class="sub">Funnels where the capture didn’t reach the paywall this run.</p><div class="cov" style="display:block">${covHTML}</div></section>
+<section id="coverage"><h2>Coverage</h2><p class="sub">Funnels where the capture didn’t reach the paywall this run.</p><div class="cov" style="display:block">${covHTML}</div>${signupHTML}</section>
 <footer>Full funnels: <code>data/runs/${date}/</code>${diff.previous ? ` and <code>data/runs/${diff.previous}/</code>` : ''}. Funnels are walked automatically on a 390×844 phone screen with fixed neutral answers and a test email; nothing is bought.</footer>
 </div>
 <dialog id="zoom"><img alt=""><p></p></dialog>

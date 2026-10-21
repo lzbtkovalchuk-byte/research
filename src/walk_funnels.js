@@ -4,13 +4,18 @@ import fs from 'node:fs';
 import path from 'node:path';
 import { chromium, devices } from 'playwright';
 import sharp from 'sharp';
-import { loadConfig, allApps, runDir, readJSON, writeJSON, normalizeUrl, isStoreOrSocial, normText, sleep, sha, proxyFor } from './lib.js';
+import { loadConfig, allApps, runDir, readJSON, writeJSON, normalizeUrl, isStoreOrSocial, normText, sleep, sha, proxyFor, ROOT } from './lib.js';
+import { waitForCode } from './mail.js';
 
 const RUN = runDir();
 const cfg = loadConfig();
 const S = cfg.settings || {};
 const BASE_EMAIL = process.env[S.test_email_env || 'TEST_EMAIL'] || S.test_email || '';
 let EMAIL = BASE_EMAIL; // set per funnel in walk()
+const SIGNUP_PASSWORD = process.env.TEST_ACCOUNT_PASSWORD || '';
+const CAN_READ_CODES = !!(process.env.GMAIL_APP_PASSWORD || process.env.CODE_OVERRIDE);
+const VERIFY = /(one-time code|verification code|enter (the |your )?code|confirmation code|\botp\b|verify your email|check your (e-?mail|inbox)|we.ve sent (you )?a code|code (was )?sent)/i;
+const SIGNUP_BTN = /^(sign ?up|create (my |an |your )?account|register|join( now)?|continue|next|submit|get started)$/i;
 
 /** A fresh plus-address per funnel and run (elza+fw261025imprint1@gmail.com), so no funnel says "already registered". */
 function emailFor(app, idx) {
@@ -319,6 +324,19 @@ async function closePopup(page, pop) {
   return null;
 }
 
+/** Clicks the first visible, enabled button whose text matches re. Returns its text, or null. */
+async function clickButton(page, re) {
+  const t = await page.evaluate(src => {
+    const r = new RegExp(src, 'i');
+    document.querySelectorAll('[data-cfw-btn]').forEach(e => e.removeAttribute('data-cfw-btn'));
+    const b = [...document.querySelectorAll('button,[role=button],input[type=submit]')].filter(e => { const x = e.getBoundingClientRect(); return x.width > 40 && x.height > 20 && !e.disabled && e.getAttribute('aria-disabled') !== 'true'; })
+      .find(e => r.test((e.innerText || e.value || '').trim().replace(/\s+/g, ' ')));
+    if (!b) return null; b.setAttribute('data-cfw-btn', '1'); return (b.innerText || b.value || '').trim();
+  }, re.source).catch(() => null);
+  if (t) await page.locator('[data-cfw-btn]').first().click({ timeout: 4000 }).catch(() => page.locator('[data-cfw-btn]').first().click({ force: true }).catch(() => {}));
+  return t;
+}
+
 const EMAIL_ERR = /(already (exists|registered|in use|taken|been used|have an account)|account (already )?exists|email (is )?(already )?(taken|in use|registered)|invalid e-?mail|enter a valid e-?mail|use a different e-?mail)/i;
 /** After the email is submitted: the funnel's error message if it rejected the address. */
 async function emailError(page) {
@@ -349,6 +367,7 @@ async function walk(browser, app, entry, dir, idx = 0) {
   const steps = [];
   const seen = new Map();
   let stop = 'max_steps', lastKey = '', prevScreen = null, popups = 0, emailNote = null;
+  let emailAt = Date.now(), codeTries = 0, signedUp = null, signupTries = 0;
   const t0 = Date.now();
   try {
     await page.goto(entry, { waitUntil: 'domcontentloaded', timeout: 60000 });
@@ -409,8 +428,54 @@ async function walk(browser, app, entry, dir, idx = 0) {
       if (isStoreOrSocial(host)) { stop = 'app_store'; break; }
       if (kind === 'paywall' && steps.length > 1) { stop = 'paywall'; break; }
       if (kind === 'payment') { stop = 'payment_form'; break; }
-      if (kind === 'account') { stop = 'account_creation'; break; }
-      if (/(one-time code|verification code|enter (the )?code|\botp\b|verify your email|check your (e-?mail|inbox))/i.test(s.text)) { stop = 'email_verification'; break; }
+      // Email verification code: read it from the test inbox (only mail to this funnel's plus-address).
+      if (VERIFY.test(s.text) && kind !== 'account') {
+        const codeIns = s.inputs.filter(i => !['email', 'checkbox', 'password'].includes(i.type));
+        if (!CAN_READ_CODES || !codeIns.length || codeTries >= 2) { stop = 'email_verification'; break; }
+        codeTries++;
+        console.log('  waiting for the email code…');
+        const code = await waitForCode(EMAIL, emailAt).catch(e => { console.log('  inbox error:', String(e.message || e).slice(0, 120)); return null; });
+        if (!code) { stop = 'email_code_not_received'; break; }
+        const act = { code: 'entered from inbox' };
+        await page.locator(codeIns[0].sel).click({ force: true }).catch(() => {});
+        if (codeIns.length > 1) await page.keyboard.type(code, { delay: 90 });
+        else await page.locator(codeIns[0].sel).fill(code).catch(() => {});
+        await sleep(1500);
+        const after = await inspect(page);
+        if (VERIFY.test(after.text) && after.url === s.url) {
+          const t = await clickButton(page, /^(verify|confirm|continue|submit|next|done|ok|sign in|log ?in)( (code|email|my email))?$/i);
+          if (t) act.cta = t;
+          await sleep(2000);
+        }
+        if (steps.length) steps[steps.length - 1].action = act;
+        prevScreen = null;
+        continue;
+      }
+      // Account creation: only for apps marked allow_signup, with the password from TEST_ACCOUNT_PASSWORD.
+      if (kind === 'account') {
+        if (!app.allow_signup || !SIGNUP_PASSWORD || signupTries >= 2) { stop = 'account_creation'; break; }
+        signupTries++;
+        for (const inp of s.inputs) {
+          const k = `${inp.type} ${inp.name} ${inp.ph} ${inp.label}`.toLowerCase();
+          if (inp.type === 'password') await page.locator(inp.sel).fill(SIGNUP_PASSWORD).catch(() => {});
+          else if (inp.type === 'checkbox') { if (/terms|privacy|agree|policy/.test(k) && !/news|offer|update|marketing|promot/.test(k) && !inp.value) await page.locator(inp.sel).check({ force: true }).catch(() => {}); }
+          else if (!inp.value && (inp.type === 'email' || /e-?mail/.test(k))) await page.locator(inp.sel).fill(EMAIL).catch(() => {});
+          else if (!inp.value && /name/.test(k)) await page.locator(inp.sel).fill(NAME).catch(() => {});
+        }
+        await sleep(600);
+        const st = await inspect(page);
+        const btn = await clickButton(page, SIGNUP_BTN);
+        if (btn) {}
+        else if (st.primary && !st.primary.disabled) await page.locator(st.primary.sel).first().click({ timeout: 4000 }).catch(() => {});
+        else { stop = 'account_creation'; break; }
+        emailAt = Date.now();
+        signedUp = EMAIL;
+        if (steps.length) steps[steps.length - 1].action = { signup: true, cta: btn || st.primary?.text };
+        console.log('  signed up as', EMAIL);
+        await sleep(2500);
+        prevScreen = null;
+        continue;
+      }
 
       // Date pickers (readonly "Choose date" inputs): open the calendar and pick a day about a month ahead.
       const dateIn = s.inputs.find(i => !i.value && /date|dd\/|mm\//i.test(`${i.ph} ${i.name} ${i.label}`));
@@ -501,6 +566,7 @@ async function walk(browser, app, entry, dir, idx = 0) {
         await pressCTA(await inspect(page)); answered = true;
         if (emailFilled) {
           act.email = EMAIL;
+          emailAt = Date.now() - 5000;
           await sleep(800);
           const flashed = await page.evaluate(() => window.__cfwErr || null).catch(() => null);
           if (flashed) emailNote = flashed;
@@ -569,7 +635,7 @@ async function walk(browser, app, entry, dir, idx = 0) {
     } catch {}
   }
   await ctx.close();
-  return { steps, stop, proxied: !!proxy, email: EMAIL, emailNote };
+  return { steps, stop, proxied: !!proxy, email: EMAIL, emailNote, signedUp };
 }
 
 /** Structural features used for the Skillsta comparison table (no AI needed). */
@@ -597,8 +663,18 @@ function features(steps, stop) {
 async function main() {
   const only = process.env.ONLY ? process.env.ONLY.split(',') : null;
   const apps = allApps(cfg);
-  // Fake mic/camera so voice and drawing tests in funnels can run (they hear a test tone).
-  const browser = await chromium.launch({ args: ['--use-fake-ui-for-media-stream', '--use-fake-device-for-media-stream', '--autoplay-policy=no-user-gesture-required'] });
+  // Fake mic/camera so voice and drawing tests in funnels can run. The mic plays a recorded sung melody
+  // (assets/voice.wav) instead of Chromium's beep, so pitch/voice-type tests get something to analyse.
+  const voice = path.join(ROOT, 'assets/voice.wav');
+  const args = ['--use-fake-ui-for-media-stream', '--use-fake-device-for-media-stream', '--autoplay-policy=no-user-gesture-required', ...(fs.existsSync(voice) ? [`--use-file-for-fake-audio-capture=${voice}`] : [])];
+  const browser = await chromium.launch({ args });
+  // Apps marked headed: true run in a full browser (CI provides a virtual display via xvfb-run).
+  let headedBrowser = null;
+  const browserFor = async app => {
+    if (!app.headed || !process.env.DISPLAY) return browser;
+    headedBrowser ||= await chromium.launch({ headless: false, args });
+    return headedBrowser;
+  };
   for (const app of apps) {
     if (only && !only.includes(app.id)) continue;
     const ads = readJSON(path.join(RUN, 'ads', `${app.id}.json`), null);
@@ -615,8 +691,8 @@ async function main() {
       const fdir = path.join(appDir, sha(e.key));
       fs.mkdirSync(fdir, { recursive: true });
       console.log(`→ ${app.id} ${e.key}`);
-      const r = await walk(browser, app, e.url, fdir, ei);
-      const f = { ...e, dir: path.relative(RUN, fdir), stop: r.stop, proxied: r.proxied, email: r.email, emailNote: r.emailNote, steps: r.steps, features: features(r.steps, r.stop) };
+      const r = await walk(await browserFor(app), app, e.url, fdir, ei);
+      const f = { ...e, dir: path.relative(RUN, fdir), stop: r.stop, proxied: r.proxied, email: r.email, emailNote: r.emailNote, signedUp: r.signedUp || null, steps: r.steps, features: features(r.steps, r.stop) };
       writeJSON(path.join(fdir, 'steps.json'), f);
       index.funnels.push({ key: e.key, dir: f.dir, stop: r.stop, steps: r.steps.length, why: e.why, ads: e.ads });
       console.log(`  ${r.steps.length} screens, stop=${r.stop}, email=${r.email}${r.emailNote ? ` (${r.emailNote})` : ''}`);
@@ -624,6 +700,7 @@ async function main() {
     writeJSON(path.join(appDir, 'index.json'), index);
   }
   await browser.close();
+  if (headedBrowser) await headedBrowser.close();
 }
 
 main().catch(e => { console.error(e); process.exit(1); });

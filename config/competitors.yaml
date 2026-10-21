@@ -4,11 +4,13 @@
 #   page_ids  - Meta page ids (exact)
 #   domains   - search the Ad Library for this text and keep only ads whose link goes to this domain
 # seeds: funnel links to walk even if no ad currently points there.
+# allow_signup: true = may create a test account (password from the TEST_ACCOUNT_PASSWORD secret).
+# headed: true = walk in a full (non-headless) browser.
 # max_funnels: how many distinct funnel variants (by link) to walk per run.
 
 settings:
-  test_email_env: TEST_EMAIL      # GitHub secret; falls back to test_email below
-  test_email: elza280204@gmail.com
+  test_email_env: TEST_EMAIL      # GitHub secret with the test Gmail address (also used to read email codes)
+  test_email: ''                  # fallback for local runs only
   # Each funnel gets its own plus-address per run (e.g. elza280204+fw261025imprint@gmail.com),
   # so a funnel never rejects the address as "already registered". Mail lands in the same inbox.
   plus_address: true
@@ -39,6 +41,7 @@ competitors:
     name: Imprint
     topics: [vocal, drawing]
     geo: US
+    allow_signup: true   # creates a test account with TEST_ACCOUNT_PASSWORD and that run's plus-address
     ads: { page_ids: ["2093351790978732"] }
 
   - id: breeze
@@ -89,6 +92,7 @@ competitors:
     geo: US
     ads: { page_ids: ["105597079032619"] }
     seeds: ["https://join-sing.hellosimply.com/start"]
+    headed: true         # voice-type test: run in a full browser with the sung-melody mic input
 
   - id: yousician
     name: Yousician

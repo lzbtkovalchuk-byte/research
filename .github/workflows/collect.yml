@@ -42,9 +42,11 @@ jobs:
           ONLY: "${{ inputs.only }}"
           RUN_DATE: "${{ inputs.run_date }}"
           TEST_EMAIL: ${{ secrets.TEST_EMAIL }}
+          GMAIL_APP_PASSWORD: ${{ secrets.GMAIL_APP_PASSWORD }}
+          TEST_ACCOUNT_PASSWORD: ${{ secrets.TEST_ACCOUNT_PASSWORD }}
           PROXY_UK: ${{ secrets.PROXY_UK }}
           PROXY_US: ${{ secrets.PROXY_US }}
-        run: node src/walk_funnels.js
+        run: if command -v xvfb-run >/dev/null; then xvfb-run -a node src/walk_funnels.js; else node src/walk_funnels.js; fi   # virtual display for apps marked headed: true
       - name: Diff + draft report
         if: steps.due.outputs.run == 'true'
         env: { RUN_DATE: "${{ inputs.run_date }}" }
