@@ -36,10 +36,12 @@ async function sortByImpressions(page, shotFile) {
   const firstId = () => page.evaluate(() => (document.body.innerText.match(/Library ID: (\d+)/) || [])[1] || null).catch(() => null);
   const before = await firstId(), url0 = page.url();
   const out = { before };
-  const opener = page.getByRole('button', { name: /sort by/i }).first();
-  const alt = page.locator('div[role=button],[role=button],button').filter({ hasText: /^\W*sort by\W*$/i }).first();
-  const btn = (await opener.isVisible().catch(() => false)) ? opener : alt;
-  await btn.click({ timeout: 5000 }).catch(e => { out.openError = String(e.message || e).slice(0, 120); });
+  // The control's text is "\u200b Sort by" next to an icon: match the text, then click its clickable ancestor.
+  const txt = page.getByText(/sort by/i).first();
+  if (await txt.isVisible().catch(() => false)) {
+    const h = await txt.elementHandle();
+    await h.evaluate(e => (e.closest('[role=button],button,[tabindex]') || e).click()).catch(e => { out.openError = String(e.message || e).slice(0, 120); });
+  } else out.openError = 'no "Sort by" text visible';
   await sleep(1500);
   out.options = await page.evaluate(() => [...document.querySelectorAll('[role=radio],[role=menuitemradio],[role=option],[role=menuitem],input[type=radio],label')]
     .filter(e => { const r = e.getBoundingClientRect(); return r.width > 0 && r.height > 0; })
