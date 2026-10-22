@@ -8,8 +8,8 @@
     {
       "key": "app.copymind.me/welcome-quiz/gender",
       "dir": "funnels/copymind/2162dca161b4",
-      "stop": "paywall",
-      "steps": 36,
+      "stop": "error: Invalid URL",
+      "steps": 0,
       "why": "seed",
       "ads": 0
     }

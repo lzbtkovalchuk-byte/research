@@ -176,12 +176,43 @@ steps=38 stop=paywall email@33 paywall@38 popups=0 prices=$24.99 $
 - [REMOVED] previous screen 38 paywall "10.00": data/runs/2026-10-13/funnels/learna/8c5e7e4aa4f9/38.webp
 
 ### copymind — Copymind [vocal+drawing] — app.copymind.me/welcome-quiz/gender
-steps=36 stop=paywall email@35 paywall@36 popups=0 prices=$9.99 $39.99 $19.99 $79.99 discount=— timer=true trial=false moneyBack=true (captured from US, no UK proxy yet)
-- [CHANGED] screen 14 question "What are the main reasons you delay decisions?" (1 changed regions): data/runs/2026-10-13/funnels/copymind/2162dca161b4/14.webp → data/runs/2026-10-21/funnels/copymind/2162dca161b4/14.webp
-- [CHANGED] screen 28 question "What annoys you the most about people?" (2 changed regions): data/runs/2026-10-13/funnels/copymind/2162dca161b4/28.webp → data/runs/2026-10-21/funnels/copymind/2162dca161b4/28.webp
-- [CHANGED] screen 29 question "To consistently make the right decisions, what do you feel n" (2 changed regions): data/runs/2026-10-13/funnels/copymind/2162dca161b4/29.webp → data/runs/2026-10-21/funnels/copymind/2162dca161b4/29.webp
-- [NEW] screen 36 paywall "09": data/runs/2026-10-21/funnels/copymind/2162dca161b4/36.webp
+steps=0 stop=error: Invalid URL email@— paywall@— popups=0 prices=— discount=— timer=false trial=false moneyBack=false (captured from US, no UK proxy yet)
+- [REMOVED] previous screen 1 question "MAKE THE RIGHT DECISIONS ON TIME": data/runs/2026-10-13/funnels/copymind/2162dca161b4/01.webp
+- [REMOVED] previous screen 2 question "Select Your Age": data/runs/2026-10-13/funnels/copymind/2162dca161b4/02.webp
+- [REMOVED] previous screen 3 info "Over 100 000 people": data/runs/2026-10-13/funnels/copymind/2162dca161b4/03.webp
+- [REMOVED] previous screen 4 question "What worries you the most?": data/runs/2026-10-13/funnels/copymind/2162dca161b4/04.webp
+- [REMOVED] previous screen 5 question "What is your relationship status?": data/runs/2026-10-13/funnels/copymind/2162dca161b4/05.webp
+- [REMOVED] previous screen 6 question "What is your current work status?": data/runs/2026-10-13/funnels/copymind/2162dca161b4/06.webp
+- [REMOVED] previous screen 7 question "How active are you during the day?": data/runs/2026-10-13/funnels/copymind/2162dca161b4/07.webp
+- [REMOVED] previous screen 8 question "Do you usually know what you'll be doing in the near future?": data/runs/2026-10-13/funnels/copymind/2162dca161b4/08.webp
+- [REMOVED] previous screen 9 info "Resolutions are Hard. Here's Proof": data/runs/2026-10-13/funnels/copymind/2162dca161b4/09.webp
+- [REMOVED] previous screen 10 info "How satisfied are you with your life right now?": data/runs/2026-10-13/funnels/copymind/2162dca161b4/10.webp
+- [REMOVED] previous screen 11 question "Have you ever thought it would be cool to have a clone?": data/runs/2026-10-13/funnels/copymind/2162dca161b4/11.webp
+- [REMOVED] previous screen 12 loader "Building Your AI Mind Begins Now!": data/runs/2026-10-13/funnels/copymind/2162dca161b4/12.webp
+- [REMOVED] previous screen 13 info "How often do you postpone on important decisions?": data/runs/2026-10-13/funnels/copymind/2162dca161b4/13.webp
+- [REMOVED] previous screen 14 question "What are the main reasons you delay decisions?": data/runs/2026-10-13/funnels/copymind/2162dca161b4/14.webp
+- [REMOVED] previous screen 15 info "How easily can you stay focused when making a decision?": data/runs/2026-10-13/funnels/copymind/2162dca161b4/15.webp
+- [REMOVED] previous screen 16 question "How do you feel about keeping your home clean and organized?": data/runs/2026-10-13/funnels/copymind/2162dca161b4/16.webp
+- [REMOVED] previous screen 17 info "How often do you dwell on past decisions?": data/runs/2026-10-13/funnels/copymind/2162dca161b4/17.webp
+- [REMOVED] previous screen 18 question "What do you typically do when reflecting on past choices?": data/runs/2026-10-13/funnels/copymind/2162dca161b4/18.webp
+- [REMOVED] previous screen 19 info "How much do others' opinions affect your decisions?": data/runs/2026-10-13/funnels/copymind/2162dca161b4/19.webp
+- [REMOVED] previous screen 20 question "What external factor has the greatest impact on decision-mak": data/runs/2026-10-13/funnels/copymind/2162dca161b4/20.webp
+- [REMOVED] previous screen 21 info "How often do you have trouble falling asleep due to replayin": data/runs/2026-10-13/funnels/copymind/2162dca161b4/21.webp
+- [REMOVED] previous screen 22 question "Would you be satisfied if you could easily and quickly make ": data/runs/2026-10-13/funnels/copymind/2162dca161b4/22.webp
+- [REMOVED] previous screen 23 info "Summary of Your Decision-Making Profile": data/runs/2026-10-13/funnels/copymind/2162dca161b4/23.webp
+- [REMOVED] previous screen 24 info "How extroverted are you?": data/runs/2026-10-13/funnels/copymind/2162dca161b4/24.webp
+- [REMOVED] previous screen 25 question "How do you usually handle changes?": data/runs/2026-10-13/funnels/copymind/2162dca161b4/25.webp
+- [REMOVED] previous screen 26 question "How do you cope with stress or tough situations?": data/runs/2026-10-13/funnels/copymind/2162dca161b4/26.webp
+- [REMOVED] previous screen 27 info "How comfortable are you with taking risks?": data/runs/2026-10-13/funnels/copymind/2162dca161b4/27.webp
+- [REMOVED] previous screen 28 question "What annoys you the most about people?": data/runs/2026-10-13/funnels/copymind/2162dca161b4/28.webp
+- [REMOVED] previous screen 29 question "To consistently make the right decisions, what do you feel n": data/runs/2026-10-13/funnels/copymind/2162dca161b4/29.webp
+- [REMOVED] previous screen 30 question "Is there something special you wish to achieve?": data/runs/2026-10-13/funnels/copymind/2162dca161b4/30.webp
+- [REMOVED] previous screen 31 info "Here's Your AI Mind Potential": data/runs/2026-10-13/funnels/copymind/2162dca161b4/31.webp
+- [REMOVED] previous screen 32 loader "Preparing Your AI Twin To Guide You": data/runs/2026-10-13/funnels/copymind/2162dca161b4/32.webp
+- [REMOVED] previous screen 33 loader "Preparing Your AI Twin To Guide You": data/runs/2026-10-13/funnels/copymind/2162dca161b4/33.webp
+- [REMOVED] previous screen 34 loader "Preparing Your AI Twin To Guide You": data/runs/2026-10-13/funnels/copymind/2162dca161b4/34.webp
 - [REMOVED] previous screen 35 loader "Preparing Your AI Twin To Guide You": data/runs/2026-10-13/funnels/copymind/2162dca161b4/35.webp
+- [REMOVED] previous screen 36 email "Let's Make It Personal": data/runs/2026-10-13/funnels/copymind/2162dca161b4/36.webp
 - [REMOVED] previous screen 37 question "Verify your email": data/runs/2026-10-13/funnels/copymind/2162dca161b4/37.webp
 - [REMOVED] previous screen 38 paywall "09": data/runs/2026-10-13/funnels/copymind/2162dca161b4/38.webp
 
@@ -213,5 +244,7 @@ steps=49 stop=paywall email@44 paywall@49 popups=0 prices=$31.99 $79.99 $15.19 $
 - [CHANGED] screen 49 paywall "Your Small Talk Communication plan is ready!" (1 changed regions): data/runs/2026-10-13/funnels/smartyme/5353a564ba54/49.webp → data/runs/2026-10-21/funnels/smartyme/5353a564ba54/49.webp
 
 ### simply-draw — Simply Draw [drawing] — join-draw.hellosimply.com/start?flow=baw
-steps=3 stop=paywall email@2 paywall@3 popups=0 prices=$89.99 $7.50 $15.00 $14.99 discount=50 timer=false trial=true moneyBack=false
-no screen changes
+steps=0 stop=error: Invalid URL email@— paywall@— popups=0 prices=— discount=— timer=false trial=false moneyBack=false
+- [REMOVED] previous screen 1 info "Creativity that helps your child grow": data/runs/2026-10-13/funnels/simply-draw/ae1631c99eb6/01.webp
+- [REMOVED] previous screen 2 email "Create your account to access your FREE 7 day trial!": data/runs/2026-10-13/funnels/simply-draw/ae1631c99eb6/02.webp
+- [REMOVED] previous screen 3 paywall "Start your 7-day free trial": data/runs/2026-10-13/funnels/simply-draw/ae1631c99eb6/03.webp

@@ -2911,263 +2911,223 @@
           "comparedWith": "app.copymind.me/welcome-quiz/gender",
           "prevDir": "funnels/copymind/2162dca161b4",
           "prevSteps": 38,
-          "status": [
-            {
-              "s": "same",
-              "prev": 1,
-              "why": "text",
-              "prevFile": "01.webp"
-            },
-            {
-              "s": "same",
-              "prev": 2,
-              "why": "text",
-              "prevFile": "02.webp"
-            },
-            {
-              "s": "same",
-              "prev": 3,
-              "why": "text",
-              "prevFile": "03.webp"
-            },
-            {
-              "s": "same",
-              "prev": 4,
-              "why": "text",
-              "prevFile": "04.webp"
-            },
-            {
-              "s": "same",
-              "prev": 5,
-              "why": "text",
-              "prevFile": "05.webp"
-            },
-            {
-              "s": "same",
-              "prev": 6,
-              "why": "text",
-              "prevFile": "06.webp"
-            },
-            {
-              "s": "same",
-              "prev": 7,
-              "why": "text",
-              "prevFile": "07.webp"
-            },
-            {
-              "s": "same",
-              "prev": 8,
-              "why": "text",
-              "prevFile": "08.webp"
-            },
-            {
-              "s": "same",
-              "prev": 9,
-              "why": "text",
-              "prevFile": "09.webp"
-            },
-            {
-              "s": "same",
-              "prev": 10,
-              "why": "text",
-              "prevFile": "10.webp"
-            },
-            {
-              "s": "same",
-              "prev": 11,
-              "why": "text",
-              "prevFile": "11.webp"
-            },
-            {
-              "s": "same",
-              "prev": 12,
-              "why": "text",
-              "prevFile": "12.webp"
-            },
-            {
-              "s": "same",
-              "prev": 13,
-              "why": "text",
-              "prevFile": "13.webp"
-            },
-            {
-              "s": "changed",
-              "prev": 14,
-              "why": "text",
-              "prevFile": "14.webp",
-              "boxes": [
-                {
-                  "t": 67.52,
-                  "l": 9.23,
-                  "w": 81.54,
-                  "h": 4.56
-                }
-              ]
-            },
-            {
-              "s": "same",
-              "prev": 15,
-              "why": "text",
-              "prevFile": "15.webp"
-            },
-            {
-              "s": "same",
-              "prev": 16,
-              "why": "text",
-              "prevFile": "16.webp"
-            },
-            {
-              "s": "same",
-              "prev": 17,
-              "why": "text",
-              "prevFile": "17.webp"
-            },
-            {
-              "s": "same",
-              "prev": 18,
-              "why": "text",
-              "prevFile": "18.webp"
-            },
-            {
-              "s": "same",
-              "prev": 19,
-              "why": "text",
-              "prevFile": "19.webp"
-            },
-            {
-              "s": "same",
-              "prev": 20,
-              "why": "text",
-              "prevFile": "20.webp"
-            },
-            {
-              "s": "same",
-              "prev": 21,
-              "why": "text",
-              "prevFile": "21.webp"
-            },
-            {
-              "s": "same",
-              "prev": 22,
-              "why": "text",
-              "prevFile": "22.webp"
-            },
-            {
-              "s": "same",
-              "prev": 23,
-              "why": "text",
-              "prevFile": "23.webp"
-            },
-            {
-              "s": "same",
-              "prev": 24,
-              "why": "text",
-              "prevFile": "24.webp"
-            },
-            {
-              "s": "same",
-              "prev": 25,
-              "why": "text",
-              "prevFile": "25.webp"
-            },
-            {
-              "s": "same",
-              "prev": 26,
-              "why": "text",
-              "prevFile": "26.webp"
-            },
-            {
-              "s": "same",
-              "prev": 27,
-              "why": "text",
-              "prevFile": "27.webp"
-            },
-            {
-              "s": "changed",
-              "prev": 28,
-              "why": "text",
-              "prevFile": "28.webp",
-              "boxes": [
-                {
-                  "t": 71.17,
-                  "l": 5.38,
-                  "w": 93.08,
-                  "h": 6.31
-                },
-                {
-                  "t": 78.68,
-                  "l": 5.38,
-                  "w": 89.23,
-                  "h": 3.3
-                }
-              ]
-            },
-            {
-              "s": "changed",
-              "prev": 29,
-              "why": "text",
-              "prevFile": "29.webp",
-              "boxes": [
-                {
-                  "t": 77.59,
-                  "l": 1.54,
-                  "w": 96.92,
-                  "h": 8.7
-                },
-                {
-                  "t": 87.63,
-                  "l": 5.38,
-                  "w": 89.23,
-                  "h": 3.68
-                }
-              ]
-            },
-            {
-              "s": "same",
-              "prev": 30,
-              "why": "text",
-              "prevFile": "30.webp"
-            },
-            {
-              "s": "same",
-              "prev": 31,
-              "why": "text",
-              "prevFile": "31.webp"
-            },
-            {
-              "s": "same",
-              "prev": 32,
-              "why": "text",
-              "prevFile": "32.webp"
-            },
-            {
-              "s": "same",
-              "prev": 33,
-              "why": "text",
-              "prevFile": "33.webp"
-            },
-            {
-              "s": "same",
-              "prev": 34,
-              "why": "text",
-              "prevFile": "34.webp"
-            },
-            {
-              "s": "same",
-              "prev": 36,
-              "why": "text",
-              "prevFile": "36.webp"
-            },
-            {
-              "s": "new"
-            }
-          ],
+          "status": [],
           "removed": [
+            {
+              "n": 1,
+              "title": "MAKE THE RIGHT DECISIONS ON TIME",
+              "kind": "question",
+              "file": "01.webp"
+            },
+            {
+              "n": 2,
+              "title": "Select Your Age",
+              "kind": "question",
+              "file": "02.webp"
+            },
+            {
+              "n": 3,
+              "title": "Over 100 000 people",
+              "kind": "info",
+              "file": "03.webp"
+            },
+            {
+              "n": 4,
+              "title": "What worries you the most?",
+              "kind": "question",
+              "file": "04.webp"
+            },
+            {
+              "n": 5,
+              "title": "What is your relationship status?",
+              "kind": "question",
+              "file": "05.webp"
+            },
+            {
+              "n": 6,
+              "title": "What is your current work status?",
+              "kind": "question",
+              "file": "06.webp"
+            },
+            {
+              "n": 7,
+              "title": "How active are you during the day?",
+              "kind": "question",
+              "file": "07.webp"
+            },
+            {
+              "n": 8,
+              "title": "Do you usually know what you'll be doing in the near future?",
+              "kind": "question",
+              "file": "08.webp"
+            },
+            {
+              "n": 9,
+              "title": "Resolutions are Hard. Here's Proof",
+              "kind": "info",
+              "file": "09.webp"
+            },
+            {
+              "n": 10,
+              "title": "How satisfied are you with your life right now?",
+              "kind": "info",
+              "file": "10.webp"
+            },
+            {
+              "n": 11,
+              "title": "Have you ever thought it would be cool to have a clone?",
+              "kind": "question",
+              "file": "11.webp"
+            },
+            {
+              "n": 12,
+              "title": "Building Your AI Mind Begins Now!",
+              "kind": "loader",
+              "file": "12.webp"
+            },
+            {
+              "n": 13,
+              "title": "How often do you postpone on important decisions?",
+              "kind": "info",
+              "file": "13.webp"
+            },
+            {
+              "n": 14,
+              "title": "What are the main reasons you delay decisions?",
+              "kind": "question",
+              "file": "14.webp"
+            },
+            {
+              "n": 15,
+              "title": "How easily can you stay focused when making a decision?",
+              "kind": "info",
+              "file": "15.webp"
+            },
+            {
+              "n": 16,
+              "title": "How do you feel about keeping your home clean and organized?",
+              "kind": "question",
+              "file": "16.webp"
+            },
+            {
+              "n": 17,
+              "title": "How often do you dwell on past decisions?",
+              "kind": "info",
+              "file": "17.webp"
+            },
+            {
+              "n": 18,
+              "title": "What do you typically do when reflecting on past choices?",
+              "kind": "question",
+              "file": "18.webp"
+            },
+            {
+              "n": 19,
+              "title": "How much do others' opinions affect your decisions?",
+              "kind": "info",
+              "file": "19.webp"
+            },
+            {
+              "n": 20,
+              "title": "What external factor has the greatest impact on decision-making?",
+              "kind": "question",
+              "file": "20.webp"
+            },
+            {
+              "n": 21,
+              "title": "How often do you have trouble falling asleep due to replaying past unpleasant events?",
+              "kind": "info",
+              "file": "21.webp"
+            },
+            {
+              "n": 22,
+              "title": "Would you be satisfied if you could easily and quickly make the right decisions?",
+              "kind": "question",
+              "file": "22.webp"
+            },
+            {
+              "n": 23,
+              "title": "Summary of Your Decision-Making Profile",
+              "kind": "info",
+              "file": "23.webp"
+            },
+            {
+              "n": 24,
+              "title": "How extroverted are you?",
+              "kind": "info",
+              "file": "24.webp"
+            },
+            {
+              "n": 25,
+              "title": "How do you usually handle changes?",
+              "kind": "question",
+              "file": "25.webp"
+            },
+            {
+              "n": 26,
+              "title": "How do you cope with stress or tough situations?",
+              "kind": "question",
+              "file": "26.webp"
+            },
+            {
+              "n": 27,
+              "title": "How comfortable are you with taking risks?",
+              "kind": "info",
+              "file": "27.webp"
+            },
+            {
+              "n": 28,
+              "title": "What annoys you the most about people?",
+              "kind": "question",
+              "file": "28.webp"
+            },
+            {
+              "n": 29,
+              "title": "To consistently make the right decisions, what do you feel needs improvement?",
+              "kind": "question",
+              "file": "29.webp"
+            },
+            {
+              "n": 30,
+              "title": "Is there something special you wish to achieve?",
+              "kind": "question",
+              "file": "30.webp"
+            },
+            {
+              "n": 31,
+              "title": "Here's Your AI Mind Potential",
+              "kind": "info",
+              "file": "31.webp"
+            },
+            {
+              "n": 32,
+              "title": "Preparing Your AI Twin To Guide You",
+              "kind": "loader",
+              "file": "32.webp"
+            },
+            {
+              "n": 33,
+              "title": "Preparing Your AI Twin To Guide You",
+              "kind": "loader",
+              "file": "33.webp"
+            },
+            {
+              "n": 34,
+              "title": "Preparing Your AI Twin To Guide You",
+              "kind": "loader",
+              "file": "34.webp"
+            },
             {
               "n": 35,
               "title": "Preparing Your AI Twin To Guide You",
               "kind": "loader",
               "file": "35.webp"
+            },
+            {
+              "n": 36,
+              "title": "Let's Make It Personal",
+              "kind": "email",
+              "file": "36.webp"
             },
             {
               "n": 37,
@@ -3799,27 +3759,27 @@
           "comparedWith": "join-draw.hellosimply.com/start?flow=baw",
           "prevDir": "funnels/simply-draw/ae1631c99eb6",
           "prevSteps": 3,
-          "status": [
+          "status": [],
+          "removed": [
             {
-              "s": "same",
-              "prev": 1,
-              "why": "text",
-              "prevFile": "01.webp"
+              "n": 1,
+              "title": "Creativity that helps your child grow",
+              "kind": "info",
+              "file": "01.webp"
             },
             {
-              "s": "same",
-              "prev": 2,
-              "why": "text",
-              "prevFile": "02.webp"
+              "n": 2,
+              "title": "Create your account to access your FREE 7 day trial!",
+              "kind": "email",
+              "file": "02.webp"
             },
             {
-              "s": "same",
-              "prev": 3,
-              "why": "text",
-              "prevFile": "03.webp"
+              "n": 3,
+              "title": "Start your 7-day free trial",
+              "kind": "paywall",
+              "file": "03.webp"
             }
-          ],
-          "removed": []
+          ]
         }
       }
     }
