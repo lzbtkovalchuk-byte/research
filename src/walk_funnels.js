@@ -399,6 +399,11 @@ async function walk(browser, app, entry, dir, idx = 0, ctl = {}, attempt = 0) {
     ...(proxy ? { proxy } : {}),
   });
   ctl.ctx = ctx;
+  // Which country the walk really comes from (through the proxy, if any), so the report can show it.
+  let exitCountry = null;
+  try { const r = await ctx.request.get('https://ipinfo.io/json', { timeout: 15000 }); if (r.ok()) exitCountry = (await r.json()).country || null; } catch {}
+  if (app.geo === 'GB' && !proxy) log(app.id, 'geo GB but PROXY_UK is not set: walking from', exitCountry || 'the runner (US)');
+  else if (proxy && exitCountry && exitCountry !== app.geo) log(app.id, `proxy exits from ${exitCountry}, expected ${app.geo}`);
   // debug: true (per app in the config) records what the page does, to find out why a walk stalls:
   // console errors, failed requests, JS errors and microphone/audio calls. Saved as debug.json next to the shots.
   const dbg = app.debug ? { console: [], failed: [], errors: [], http: [], media: [] } : null;
@@ -749,7 +754,7 @@ async function walk(browser, app, entry, dir, idx = 0, ctl = {}, attempt = 0) {
     try { fs.writeFileSync(path.join(dir, 'debug.json'), JSON.stringify(dbg, null, 1)); } catch {}
   }
   await ctx.close().catch(() => {});
-  return { steps, stop, proxied: !!proxy, email: EMAIL, emailNote, signedUp, restartUrl, storeLink, finalUrl: page.url?.() || null };
+  return { steps, stop, proxied: !!proxy, exitCountry, email: EMAIL, emailNote, signedUp, restartUrl, storeLink, finalUrl: page.url?.() || null };
 }
 
 /** Structural features used for the Skillsta comparison table (no AI needed). */
@@ -832,7 +837,7 @@ async function main() {
         else fs.rmSync(rdir, { recursive: true, force: true });
         log('↻', app.id, `retry ${better ? 'kept' : 'discarded'}: ${r2.steps.length} screens, stop=${r2.stop}`);
       }
-      const f = { ...e, dir: path.relative(RUN, fdir), stop: r.stop, proxied: r.proxied, email: r.email, emailNote: r.emailNote, signedUp: r.signedUp || null, restartUrl: r.restartUrl || null, storeLink: r.storeLink || null, finalUrl: r.finalUrl || null, steps: r.steps, features: features(r.steps, r.stop) };
+      const f = { ...e, dir: path.relative(RUN, fdir), stop: r.stop, proxied: r.proxied, exitCountry: r.exitCountry || null, email: r.email, emailNote: r.emailNote, signedUp: r.signedUp || null, restartUrl: r.restartUrl || null, storeLink: r.storeLink || null, finalUrl: r.finalUrl || null, steps: r.steps, features: features(r.steps, r.stop) };
       writeJSON(path.join(fdir, 'steps.json'), f);
       index.funnels.push({ key: e.key, dir: f.dir, stop: r.stop, steps: r.steps.length, why: e.why, ads: e.ads });
       log('✓', app.id, `${r.steps.length} screens, stop=${r.stop}, ${Math.round((Date.now() - t0) / 1000)}s${r.emailNote ? ` (email step: ${r.emailNote})` : ''}`);
