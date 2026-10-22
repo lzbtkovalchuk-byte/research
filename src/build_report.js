@@ -141,15 +141,16 @@ const adRows = comps.map(a => { const x = dApp(a.id).ads; const dc = x?.delta > 
 // ---------- top creative by impressions (Ad Library sorted high to low) ----------
 const adsOf = (dir, id) => dir ? readJSON(path.join(dir, 'ads', `${id}.json`), null) : null;
 const topCards = comps.map(a => {
-  const t = adsOf(RUN, a.id)?.top; if (!t) return '';
+  const t = adsOf(RUN, a.id)?.top; if (!t || t.sortedByImpressions !== true) return ''; // only a confirmed impressions sort counts as "top"
   const pt = adsOf(PREV, a.id)?.top;
   const was = !pt ? '<span class="badge c">First check</span>' : pt.id === t.id ? `<span class="badge">Same as ${fmtDate(diff.previous)}</span>` : '<span class="badge n">New top creative</span>';
   const src = t.shot && img(path.join(RUN, 'ads', t.shot));
   const since = t.started ? `Running since ${fmtDate(t.started)}${t.daysRunning != null ? ` (${t.daysRunning} days)` : ''}` : 'Start date not shown';
   const where = t.key ? (t.store ? 'App store' : esc(short(t.key))) : 'No link';
-  return `<article class="topc" data-topic="${topicOf(a)}">${src ? `<div class="frame"><img src="${src}" alt="Top ad of ${esc(a.name)}" loading="lazy" data-cap="${esc(a.name)} · top creative by impressions · Library ID ${esc(t.id)}"></div>` : '<div class="noimg">No screenshot</div>'}<div class="tb"><h4>${esc(a.name)} ${was}</h4>${t.body ? `<p class="copy">${esc(t.body)}</p>` : ''}<p>${since}${t.versions > 1 ? ` · ${t.versions} versions` : ''}${t.video ? ' · video' : ''}</p><p>Leads to <code>${where}</code></p>${t.sortedByImpressions === false ? '<p>Sorting by impressions could not be confirmed for this app.</p>' : ''}</div></article>`;
+  return `<article class="topc" data-topic="${topicOf(a)}">${src ? `<div class="frame"><img src="${src}" alt="Top ad of ${esc(a.name)}" loading="lazy" data-cap="${esc(a.name)} · top creative by impressions · Library ID ${esc(t.id)}"></div>` : '<div class="noimg">No screenshot</div>'}<div class="tb"><h4>${esc(a.name)} ${was}</h4>${t.body ? `<p class="copy">${esc(t.body)}</p>` : ''}<p>${since}${t.versions > 1 ? ` · ${t.versions} versions` : ''}${t.video ? ' · video' : ''}</p><p>Leads to <code>${where}</code></p></div></article>`;
 }).filter(Boolean);
-const topsHTML = topCards.length ? `<h3 style="margin-top:28px">Top creative by impressions</h3><p class="sub">The first ad in Meta’s Ad Library sorted by impressions, high to low, in each app’s geo. Meta doesn’t publish the numbers for these ads, only the order.</p><div class="tops">${topCards.join('')}</div>` : '';
+const topsMissing = comps.filter(a => { const t = adsOf(RUN, a.id)?.top; return t && t.sortedByImpressions !== true; }).map(a => a.name);
+const topsHTML = topCards.length ? `<h3 style="margin-top:28px">Top creative by impressions</h3><p class="sub">The first ad in Meta’s Ad Library sorted by impressions, high to low, in each app’s geo. Meta doesn’t publish the numbers for these ads, only the order.</p><div class="tops">${topCards.join('')}</div>${topsMissing.length ? `<p class="sub" style="margin-top:10px">Not sorted by impressions this run, so not shown: ${esc(topsMissing.join(', '))}.</p>` : ''}` : '';
 
 const allLinks = apps.flatMap(a => linkChanges(a.id).map(l => ({ ...l, a })));
 const linkRows = allLinks.map(l => `<tr data-topic="${topicOf(l.a)}"><td>${esc(l.a.name)}</td><td><span class="badge ${{ new: 'n', changed: 'c', removed: 'x' }[l.status]}">${l.status[0].toUpperCase() + l.status.slice(1)}</span></td><td class="lk">${l.status === 'changed' ? `<del>${esc(l.from)}</del> <ins>${esc(l.key)}</ins>` : l.status === 'removed' ? `<del>${esc(l.key)}</del>` : `<ins>${esc(l.key)}</ins>`}</td><td class="r">${l.ads ?? l.prevAds ?? 0}</td></tr>`).join('');

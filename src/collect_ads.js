@@ -29,10 +29,43 @@ async function dismissCookies(page) {
 }
 
 /** Scrolls the results list and returns parsed ad cards. */
-async function scrape(page, url, { scroll = true } = {}) {
+/** Ad Library ignores sort in the URL: open the sort control and pick impressions, high to low.
+ *  Returns what happened (and the control texts it saw), so a failed attempt can be diagnosed from the JSON. */
+async function sortByImpressions(page, shotFile) {
+  const seen = await page.evaluate(() => [...document.querySelectorAll('div[role=button],button,[role=combobox],[aria-haspopup]')]
+    .map(e => (e.innerText || e.getAttribute('aria-label') || '').trim().replace(/\s+/g, ' ')).filter(t => t && t.length < 40)).catch(() => []);
+  const out = { controls: [...new Set(seen)].slice(0, 40) };
+  const clickText = async (re, scope = page) => {
+    const loc = scope.locator('div[role=button],button,[role=option],[role=radio],[role=menuitem],[role=menuitemradio],label,span,div').filter({ hasText: re });
+    const n = await loc.count().catch(() => 0);
+    for (let i = n - 1; i >= 0; i--) { // innermost match last in DOM order; try from the most specific
+      const el = loc.nth(i);
+      if (!(await el.isVisible().catch(() => false))) continue;
+      const t = ((await el.innerText().catch(() => '')) || '').trim();
+      if (t.length > 60) continue;
+      await el.click({ timeout: 3000 }).catch(() => {}); return t;
+    }
+    return null;
+  };
+  // 1) A "Sort by" control on the results page, else 2) the "Filters" dialog, which has a "Sort by" group.
+  out.opened = await clickText(/^sort( by)?\b/i) || await clickText(/^filters?$/i);
+  await sleep(1200);
+  out.picked = await clickText(/impressions.*(high to low|highest)|(high to low|highest).*impressions/i) || await clickText(/^(total )?impressions\b/i);
+  await sleep(800);
+  out.applied = await clickText(/^(apply( filters)?|show results|done)$/i);
+  await sleep(4000);
+  const label = await page.evaluate(() => document.body.innerText.match(/[^\n]{0,30}impressions[^\n]{0,30}/i)?.[0] || null).catch(() => null);
+  out.label = label;
+  out.ok = !!(out.picked && /impressions/i.test(label || ''));
+  if (!out.ok && shotFile) { try { await sharp(await page.screenshot()).resize({ width: 900 }).webp({ quality: 60 }).toFile(shotFile); out.shot = path.basename(shotFile); } catch {} }
+  return out;
+}
+
+async function scrape(page, url, { scroll = true, sort = null, sortShot = null } = {}) {
   await page.goto(url, { waitUntil: 'domcontentloaded', timeout: 60000 });
   await sleep(3000);
   await dismissCookies(page);
+  const sortInfo = sort === 'impressions' ? await sortByImpressions(page, sortShot) : null;
   let last = -1;
   let flat = 0;
   for (let i = 0; i < (scroll ? 60 : 0) && flat < 3; i++) {
@@ -79,10 +112,8 @@ async function scrape(page, url, { scroll = true } = {}) {
         link,
       });
     }
-    // Is the list really sorted by impressions? The sort control shows its label once it applies.
-    const sortedByImpressions = /impressions[^\n]{0,30}(high to low|highest)|sort[^\n]{0,40}impressions/i.test(txt);
-    return { results: results ? Number(results.replace(/,/g, '')) : null, pageIds, cards, sortedByImpressions };
-  });
+    return { results: results ? Number(results.replace(/,/g, '')) : null, pageIds, cards };
+  }).then(r => ({ ...r, sortInfo, sortedByImpressions: sortInfo ? sortInfo.ok : null }));
 }
 
 const toISO = s => { if (!s) return null; const d = new Date(s + ' UTC'); return isNaN(d) ? null : d.toISOString().slice(0, 10); };
@@ -156,9 +187,10 @@ async function main() {
     for (const src of srcs) {
       const url = libUrl(app.geo, src, 'impressions');
       try {
-        const r = await scrape(page, url, { scroll: false });
+        const r = await scrape(page, url, { scroll: false, sort: 'impressions', sortShot: path.join(OUT, `${app.id}-sort-${sha(src.value)}.webp`) });
         let cards = r.cards;
         if (src.type === 'domain') cards = cards.filter(c => c.link && new URL(c.link).hostname.endsWith(src.value.replace(/^www\./, '')));
+        out.sortInfo = r.sortInfo;
         if (cards[0]) tops.push({ src, url, card: cards[0], rank: cards.slice(0, 5).map(c => c.id), sorted: r.sortedByImpressions, weight: out.sources.find(x => x.value === src.value)?.[src.type === 'page' ? 'results' : 'kept'] || 0 });
       } catch (e) { out.sources.push({ ...src, url, error: 'top: ' + String(e).slice(0, 160) }); continue; }
       const best = tops.at(-1);
