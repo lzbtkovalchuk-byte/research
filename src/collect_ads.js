@@ -67,7 +67,9 @@ async function sortByImpressions(page, shotFile) {
   for (let w = 0; w < 15 && after === before; w++) { await sleep(1000); after = await firstId(); }
   out.after = after; out.url = page.url().slice(0, 300);
   out.checked = await page.evaluate(() => [...document.querySelectorAll('[aria-checked=true],input[type=radio]:checked')].map(e => (e.innerText || e.getAttribute('aria-label') || e.closest('label')?.innerText || '').trim().slice(0, 40))).catch(() => []);
-  out.ok = !!out.picked && (after !== before || page.url() !== url0 || out.checked.some(t => /impressions/i.test(t)));
+  // The Ad Library applies sort_data from the URL (its dropdown opens with "Impressions: high to low" already
+  // selected, and that is also its default order), so the first ad often stays the same: that is still sorted.
+  out.ok = !!out.picked && (after !== before || /sort_data\[mode\]=total_impressions/.test(page.url()) || out.checked.some(t => /impressions/i.test(t)));
   if (!out.ok && shotFile) { try { await sharp(await page.screenshot()).resize({ width: 900 }).webp({ quality: 60 }).toFile(shotFile); out.shot = path.basename(shotFile); } catch {} }
   return out;
 }
