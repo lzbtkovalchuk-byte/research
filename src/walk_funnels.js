@@ -399,10 +399,31 @@ async function walk(browser, app, entry, dir, idx = 0, ctl = {}, attempt = 0) {
     ...(proxy ? { proxy } : {}),
   });
   ctl.ctx = ctx;
+  // debug: true (per app in the config) records what the page does, to find out why a walk stalls:
+  // console errors, failed requests, JS errors and microphone/audio calls. Saved as debug.json next to the shots.
+  const dbg = app.debug ? { console: [], failed: [], errors: [], http: [], media: [] } : null;
+  if (dbg) {
+    await ctx.addInitScript(() => {
+      window.__cfwMedia = [];
+      const md = navigator.mediaDevices;
+      if (md?.getUserMedia) { const g = md.getUserMedia.bind(md); md.getUserMedia = c => { window.__cfwMedia.push('getUserMedia ' + JSON.stringify(c)); return g(c).then(s => { window.__cfwMedia.push('getUserMedia ok'); return s; }, e => { window.__cfwMedia.push('getUserMedia failed: ' + e.name); throw e; }); }; }
+      if (navigator.permissions?.query) { const q = navigator.permissions.query.bind(navigator.permissions); navigator.permissions.query = d => q(d).then(r => { window.__cfwMedia.push(`permission ${d?.name}: ${r.state}`); return r; }); }
+      const AC = window.AudioContext; if (AC) window.AudioContext = class extends AC { constructor(...a) { super(...a); window.__cfwMedia.push('AudioContext ' + this.state); } };
+    });
+  }
+  const watch = p => {
+    if (!dbg) return;
+    const push = (arr, v) => { if (arr.length < 200) arr.push(`${new Date().toISOString().slice(11, 19)} ${v}`.slice(0, 400)); };
+    p.on('console', m => { if (['error', 'warning'].includes(m.type())) push(dbg.console, `${m.type()}: ${m.text()}`); });
+    p.on('pageerror', e => push(dbg.errors, String(e.message || e)));
+    p.on('requestfailed', r => push(dbg.failed, `${r.failure()?.errorText} ${r.url()}`));
+    p.on('response', r => { if (r.status() >= 400) push(dbg.http, `${r.status()} ${r.url()}`); });
+  };
   let page = await ctx.newPage();
+  watch(page);
   page.setDefaultTimeout(15000);
   // A button that opens the funnel in a new tab: follow the new tab.
-  ctx.on('page', p => { page = p; p.setDefaultTimeout(15000); log(app.id, 'followed a new tab'); });
+  ctx.on('page', p => { page = p; watch(p); p.setDefaultTimeout(15000); log(app.id, 'followed a new tab'); });
   const steps = [];
   const seen = new Map();
   let stop = 'max_steps', lastKey = '', prevScreen = null, popups = 0, emailNote = null;
@@ -715,6 +736,11 @@ async function walk(browser, app, entry, dir, idx = 0, ctl = {}, attempt = 0) {
         break;
       }
     } catch {}
+  }
+  if (dbg) {
+    dbg.media = await page.evaluate(() => window.__cfwMedia || []).catch(() => ['(page closed)']);
+    dbg.finalUrl = page.url?.() || null; dbg.stop = stop;
+    try { fs.writeFileSync(path.join(dir, 'debug.json'), JSON.stringify(dbg, null, 1)); } catch {}
   }
   await ctx.close().catch(() => {});
   return { steps, stop, proxied: !!proxy, email: EMAIL, emailNote, signedUp, restartUrl, finalUrl: page.url?.() || null };

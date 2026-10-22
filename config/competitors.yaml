@@ -94,8 +94,10 @@ competitors:
     topics: [vocal]
     geo: US
     ads: { page_ids: ["105597079032619"] }
-    seeds: ["https://welcome.hellosimply.com/singyourheartout?campaign_type=web_to_app&platform=iOS"]
-    skip_links: ["join-sing.hellosimply.com"]   # these start with a live voice-type test the walker can't pass
+    seeds: ["https://join-sing.hellosimply.com/start"]
+    # singyourheartout redirects to the Simply Piano funnel (join-piano), so it is not walked for Simply Sing.
+    skip_links: ["welcome.hellosimply.com/singyourheartout"]
+    debug: true          # join-sing stalls at "What best describes your voice?": record what the page does (debug.json)
     headed: true         # voice-type test: run in a full browser with the sung-melody mic input
 
   - id: yousician
