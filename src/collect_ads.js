@@ -29,34 +29,43 @@ async function dismissCookies(page) {
 }
 
 /** Scrolls the results list and returns parsed ad cards. */
-/** Ad Library ignores sort in the URL: open the sort control and pick impressions, high to low.
- *  Returns what happened (and the control texts it saw), so a failed attempt can be diagnosed from the JSON. */
+/** Ad Library ignores sort in the URL: open its "Sort by" control and pick "Impressions: high to low".
+ *  Confirmed when the first ad or the page address changes, or the option reads as checked. Records what it saw
+ *  (controls, dropdown options, screenshots) so a failed attempt can be diagnosed from the JSON. */
 async function sortByImpressions(page, shotFile) {
-  const seen = await page.evaluate(() => [...document.querySelectorAll('div[role=button],button,[role=combobox],[aria-haspopup]')]
-    .map(e => (e.innerText || e.getAttribute('aria-label') || '').trim().replace(/\s+/g, ' ')).filter(t => t && t.length < 40)).catch(() => []);
-  const out = { controls: [...new Set(seen)].slice(0, 40) };
-  const clickText = async (re, scope = page) => {
-    const loc = scope.locator('div[role=button],button,[role=option],[role=radio],[role=menuitem],[role=menuitemradio],label,span,div').filter({ hasText: re });
-    const n = await loc.count().catch(() => 0);
-    for (let i = n - 1; i >= 0; i--) { // innermost match last in DOM order; try from the most specific
-      const el = loc.nth(i);
-      if (!(await el.isVisible().catch(() => false))) continue;
-      const t = ((await el.innerText().catch(() => '')) || '').trim();
-      if (t.length > 60) continue;
-      await el.click({ timeout: 3000 }).catch(() => {}); return t;
-    }
-    return null;
-  };
-  // 1) A "Sort by" control on the results page, else 2) the "Filters" dialog, which has a "Sort by" group.
-  out.opened = await clickText(/^sort( by)?\b/i) || await clickText(/^filters?$/i);
-  await sleep(1200);
-  out.picked = await clickText(/impressions.*(high to low|highest)|(high to low|highest).*impressions/i) || await clickText(/^(total )?impressions\b/i);
-  await sleep(800);
-  out.applied = await clickText(/^(apply( filters)?|show results|done)$/i);
-  await sleep(4000);
-  const label = await page.evaluate(() => document.body.innerText.match(/[^\n]{0,30}impressions[^\n]{0,30}/i)?.[0] || null).catch(() => null);
-  out.label = label;
-  out.ok = !!(out.picked && /impressions/i.test(label || ''));
+  const firstId = () => page.evaluate(() => (document.body.innerText.match(/Library ID: (\d+)/) || [])[1] || null).catch(() => null);
+  const before = await firstId(), url0 = page.url();
+  const out = { before };
+  const opener = page.getByRole('button', { name: /sort by/i }).first();
+  const alt = page.locator('div[role=button],[role=button],button').filter({ hasText: /^\W*sort by\W*$/i }).first();
+  const btn = (await opener.isVisible().catch(() => false)) ? opener : alt;
+  await btn.click({ timeout: 5000 }).catch(e => { out.openError = String(e.message || e).slice(0, 120); });
+  await sleep(1500);
+  out.options = await page.evaluate(() => [...document.querySelectorAll('[role=radio],[role=menuitemradio],[role=option],[role=menuitem],input[type=radio],label')]
+    .filter(e => { const r = e.getBoundingClientRect(); return r.width > 0 && r.height > 0; })
+    .map(e => `${e.getAttribute('role') || e.tagName.toLowerCase()}: ${(e.innerText || e.getAttribute('aria-label') || e.value || '').trim().replace(/\s+/g, ' ').slice(0, 50)} ${e.getAttribute('aria-checked') || ''}`)).catch(() => []);
+  if (shotFile) { try { await sharp(await page.screenshot()).resize({ width: 900 }).webp({ quality: 60 }).toFile(shotFile.replace('.webp', '-open.webp')); out.openShot = path.basename(shotFile.replace('.webp', '-open.webp')); } catch {} }
+  const RE = /impressions:?\s*high to low|high to low.*impressions/i;
+  const tries = [
+    page.getByRole('radio', { name: RE }), page.getByRole('menuitemradio', { name: RE }), page.getByRole('option', { name: RE }),
+    page.getByRole('menuitem', { name: RE }), page.getByText(RE, { exact: false }),
+  ];
+  for (const [k, loc] of tries.entries()) {
+    const el = loc.first();
+    if (!(await el.isVisible().catch(() => false))) continue;
+    await el.click({ timeout: 4000 }).catch(() => el.click({ force: true, timeout: 3000 }).catch(() => {}));
+    out.picked = ['radio', 'menuitemradio', 'option', 'menuitem', 'text'][k];
+    break;
+  }
+  await sleep(1000);
+  out.applied = await (async () => { const b = page.getByRole('button', { name: /^(apply|show results|done)$/i }).first(); if (await b.isVisible().catch(() => false)) { await b.click().catch(() => {}); return true; } return false; })();
+  await page.keyboard.press('Escape').catch(() => {});
+  // The list reloads after a sort: wait for the first ad to change (or give up after ~15 s).
+  let after = before;
+  for (let w = 0; w < 15 && after === before; w++) { await sleep(1000); after = await firstId(); }
+  out.after = after; out.url = page.url().slice(0, 300);
+  out.checked = await page.evaluate(() => [...document.querySelectorAll('[aria-checked=true],input[type=radio]:checked')].map(e => (e.innerText || e.getAttribute('aria-label') || e.closest('label')?.innerText || '').trim().slice(0, 40))).catch(() => []);
+  out.ok = !!out.picked && (after !== before || page.url() !== url0 || out.checked.some(t => /impressions/i.test(t)));
   if (!out.ok && shotFile) { try { await sharp(await page.screenshot()).resize({ width: 900 }).webp({ quality: 60 }).toFile(shotFile); out.shot = path.basename(shotFile); } catch {} }
   return out;
 }
