@@ -427,11 +427,14 @@ async function walk(browser, app, entry, dir, idx = 0, ctl = {}, attempt = 0) {
   // A button that hands over to the App Store / Google Play (itms-apps://, market://, store pages) ends the web funnel.
   let storeLink = null;
   const storeWatch = p => p.on('request', r => { const u = r.url(); if (!storeLink && (/^(itms-apps?s?|itms|market|intent):/i.test(u) || /^https:\/\/(apps\.apple\.com|itunes\.apple\.com|play\.google\.com)\//i.test(u))) storeLink = u.slice(0, 200); });
+  // Traffic used by the walk (what a paid proxy bills): response headers + bodies of every finished request.
+  let bytes = 0;
+  const meter = p => p.on('requestfinished', r => r.sizes().then(z => { bytes += (z.responseBodySize || 0) + (z.responseHeadersSize || 0); }).catch(() => {}));
   let page = await ctx.newPage();
-  watch(page); storeWatch(page);
+  watch(page); storeWatch(page); meter(page);
   page.setDefaultTimeout(15000);
   // A button that opens the funnel in a new tab: follow the new tab.
-  ctx.on('page', p => { page = p; watch(p); storeWatch(p); p.setDefaultTimeout(15000); log(app.id, 'followed a new tab'); });
+  ctx.on('page', p => { page = p; watch(p); storeWatch(p); meter(p); p.setDefaultTimeout(15000); log(app.id, 'followed a new tab'); });
   const steps = [];
   const seen = new Map();
   let stop = 'max_steps', lastKey = '', prevScreen = null, popups = 0, emailNote = null;
@@ -754,7 +757,7 @@ async function walk(browser, app, entry, dir, idx = 0, ctl = {}, attempt = 0) {
     try { fs.writeFileSync(path.join(dir, 'debug.json'), JSON.stringify(dbg, null, 1)); } catch {}
   }
   await ctx.close().catch(() => {});
-  return { steps, stop, proxied: !!proxy, exitCountry, email: EMAIL, emailNote, signedUp, restartUrl, storeLink, finalUrl: page.url?.() || null };
+  return { steps, stop, proxied: !!proxy, exitCountry, mb: Math.round(bytes / 1e5) / 10, email: EMAIL, emailNote, signedUp, restartUrl, storeLink, finalUrl: page.url?.() || null };
 }
 
 /** Structural features used for the Skillsta comparison table (no AI needed). */
@@ -837,10 +840,10 @@ async function main() {
         else fs.rmSync(rdir, { recursive: true, force: true });
         log('↻', app.id, `retry ${better ? 'kept' : 'discarded'}: ${r2.steps.length} screens, stop=${r2.stop}`);
       }
-      const f = { ...e, dir: path.relative(RUN, fdir), stop: r.stop, proxied: r.proxied, exitCountry: r.exitCountry || null, email: r.email, emailNote: r.emailNote, signedUp: r.signedUp || null, restartUrl: r.restartUrl || null, storeLink: r.storeLink || null, finalUrl: r.finalUrl || null, steps: r.steps, features: features(r.steps, r.stop) };
+      const f = { ...e, dir: path.relative(RUN, fdir), stop: r.stop, proxied: r.proxied, exitCountry: r.exitCountry || null, mb: r.mb ?? null, email: r.email, emailNote: r.emailNote, signedUp: r.signedUp || null, restartUrl: r.restartUrl || null, storeLink: r.storeLink || null, finalUrl: r.finalUrl || null, steps: r.steps, features: features(r.steps, r.stop) };
       writeJSON(path.join(fdir, 'steps.json'), f);
       index.funnels.push({ key: e.key, dir: f.dir, stop: r.stop, steps: r.steps.length, why: e.why, ads: e.ads });
-      log('✓', app.id, `${r.steps.length} screens, stop=${r.stop}, ${Math.round((Date.now() - t0) / 1000)}s${r.emailNote ? ` (email step: ${r.emailNote})` : ''}`);
+      log('✓', app.id, `${r.steps.length} screens, stop=${r.stop}, ${r.mb ?? '?'} MB${r.exitCountry ? ' from ' + r.exitCountry : ''}, ${Math.round((Date.now() - t0) / 1000)}s${r.emailNote ? ` (email step: ${r.emailNote})` : ''}`);
       writeJSON(path.join(appDir, 'index.json'), index);
     }
     writeJSON(path.join(appDir, 'index.json'), index);
