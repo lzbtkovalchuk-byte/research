@@ -419,11 +419,14 @@ async function walk(browser, app, entry, dir, idx = 0, ctl = {}, attempt = 0) {
     p.on('requestfailed', r => push(dbg.failed, `${r.failure()?.errorText} ${r.url()}`));
     p.on('response', r => { if (r.status() >= 400) push(dbg.http, `${r.status()} ${r.url()}`); });
   };
+  // A button that hands over to the App Store / Google Play (itms-apps://, market://, store pages) ends the web funnel.
+  let storeLink = null;
+  const storeWatch = p => p.on('request', r => { const u = r.url(); if (!storeLink && (/^(itms-apps?s?|itms|market|intent):/i.test(u) || /^https:\/\/(apps\.apple\.com|itunes\.apple\.com|play\.google\.com)\//i.test(u))) storeLink = u.slice(0, 200); });
   let page = await ctx.newPage();
-  watch(page);
+  watch(page); storeWatch(page);
   page.setDefaultTimeout(15000);
   // A button that opens the funnel in a new tab: follow the new tab.
-  ctx.on('page', p => { page = p; watch(p); p.setDefaultTimeout(15000); log(app.id, 'followed a new tab'); });
+  ctx.on('page', p => { page = p; watch(p); storeWatch(p); p.setDefaultTimeout(15000); log(app.id, 'followed a new tab'); });
   const steps = [];
   const seen = new Map();
   let stop = 'max_steps', lastKey = '', prevScreen = null, popups = 0, emailNote = null;
@@ -485,6 +488,7 @@ async function walk(browser, app, entry, dir, idx = 0, ctl = {}, attempt = 0) {
         }
       }
       seen.set(nkey, (seen.get(nkey) || 0) + 1);
+      if (storeLink) { stop = 'app_store'; break; }
       if (seen.get(nkey) > 4) { stop = 'stuck'; break; }
       if (isStoreOrSocial(host)) { stop = 'app_store'; break; }
       if (kind === 'paywall' && steps.length > 1) { stop = 'paywall'; break; }
@@ -714,12 +718,14 @@ async function walk(browser, app, entry, dir, idx = 0, ctl = {}, attempt = 0) {
   } catch (e) {
     stop = 'error: ' + String(e.message || e).slice(0, 160);
   }
+  // A click that only tried to open the app store leaves the page as it was: that's the end of the web funnel, not a stall.
+  if (storeLink && /^stuck/.test(stop)) stop = 'app_store';
   // Keep the page markup when the walk got stuck, so the answering rules can be fixed.
   if (/stuck|timeout/.test(stop)) { try { fs.writeFileSync(path.join(dir, 'stuck.html'), (await page.content()).slice(0, 400000)); } catch {} }
   if (ctl.timedOut) stop = 'timeout';
   // Every flow should end on a paywall. If a gate we can't pass (email code, account, mic test, stuck screen)
   // stopped the walk, open the paywall directly in the same session (answers and email are kept) and capture it.
-  if (!steps.some(x => x.kind === 'paywall') && !ctl.timedOut) {
+  if (!steps.some(x => x.kind === 'paywall') && !ctl.timedOut && stop !== 'app_store') {
     try {
       const here = new URL(page.url());
       const guesses = [...(app.paywall_urls || []), ...['/paywall', '/plans', '/pricing', '/checkout', '/subscription', '/payment', '/offer', '/plan', '/selling-page', '/get-plan'].map(p => here.origin + p)];
@@ -743,7 +749,7 @@ async function walk(browser, app, entry, dir, idx = 0, ctl = {}, attempt = 0) {
     try { fs.writeFileSync(path.join(dir, 'debug.json'), JSON.stringify(dbg, null, 1)); } catch {}
   }
   await ctx.close().catch(() => {});
-  return { steps, stop, proxied: !!proxy, email: EMAIL, emailNote, signedUp, restartUrl, finalUrl: page.url?.() || null };
+  return { steps, stop, proxied: !!proxy, email: EMAIL, emailNote, signedUp, restartUrl, storeLink, finalUrl: page.url?.() || null };
 }
 
 /** Structural features used for the Skillsta comparison table (no AI needed). */
@@ -777,11 +783,18 @@ async function main() {
   const args = ['--use-fake-ui-for-media-stream', '--use-fake-device-for-media-stream', '--autoplay-policy=no-user-gesture-required', ...(fs.existsSync(voice) ? [`--use-file-for-fake-audio-capture=${voice}`] : [])];
   const browser = await chromium.launch({ args });
   // Apps marked headed: true run in a full browser (CI provides a virtual display via xvfb-run).
-  let headedBrowser = null;
+  // browser: chrome uses installed Google Chrome, which plays AAC/MP4 audio and video that Playwright's
+  // open-source Chromium can't decode (Simply Sing's voice step waits for such a sound). Falls back to Chromium.
+  const extra = new Map();
   const browserFor = async app => {
-    if (!app.headed || !process.env.DISPLAY) return browser;
-    headedBrowser ||= await chromium.launch({ headless: false, args });
-    return headedBrowser;
+    const headed = !!(app.headed && process.env.DISPLAY), chrome = app.browser === 'chrome';
+    if (!headed && !chrome) return browser;
+    const k = `${headed}|${chrome}`;
+    if (!extra.has(k)) extra.set(k, (async () => {
+      if (chrome) { try { return await chromium.launch({ headless: !headed, channel: 'chrome', args }); } catch (e) { log(app.id, 'Google Chrome not available, using Chromium:', String(e.message || e).split('\n')[0].slice(0, 100)); } }
+      return chromium.launch({ headless: !headed, args });
+    })());
+    return extra.get(k);
   };
   const runApp = async app => {
     const ads = readJSON(path.join(RUN, 'ads', `${app.id}.json`), null);
@@ -819,7 +832,7 @@ async function main() {
         else fs.rmSync(rdir, { recursive: true, force: true });
         log('↻', app.id, `retry ${better ? 'kept' : 'discarded'}: ${r2.steps.length} screens, stop=${r2.stop}`);
       }
-      const f = { ...e, dir: path.relative(RUN, fdir), stop: r.stop, proxied: r.proxied, email: r.email, emailNote: r.emailNote, signedUp: r.signedUp || null, restartUrl: r.restartUrl || null, finalUrl: r.finalUrl || null, steps: r.steps, features: features(r.steps, r.stop) };
+      const f = { ...e, dir: path.relative(RUN, fdir), stop: r.stop, proxied: r.proxied, email: r.email, emailNote: r.emailNote, signedUp: r.signedUp || null, restartUrl: r.restartUrl || null, storeLink: r.storeLink || null, finalUrl: r.finalUrl || null, steps: r.steps, features: features(r.steps, r.stop) };
       writeJSON(path.join(fdir, 'steps.json'), f);
       index.funnels.push({ key: e.key, dir: f.dir, stop: r.stop, steps: r.steps.length, why: e.why, ads: e.ads });
       log('✓', app.id, `${r.steps.length} screens, stop=${r.stop}, ${Math.round((Date.now() - t0) / 1000)}s${r.emailNote ? ` (email step: ${r.emailNote})` : ''}`);
@@ -832,7 +845,7 @@ async function main() {
   log(`walking ${queue.length} apps, ${PARALLEL} at a time`);
   await Promise.all(Array.from({ length: Math.min(PARALLEL, queue.length) }, async () => { while (queue.length) await runApp(queue.shift()); }));
   await browser.close();
-  if (headedBrowser) await headedBrowser.close();
+  for (const b of extra.values()) await (await b).close().catch(() => {});
 }
 
 main().catch(e => { console.error(e); process.exit(1); });

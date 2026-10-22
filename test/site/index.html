@@ -44,6 +44,8 @@ if(q.get('hard')){
   ()=>{ setTimeout(()=>{ const c=document.getElementById('sc'); let n=0, down=false; c.onmousedown=()=>down=true; c.onmouseup=()=>down=false; c.onmousemove=()=>{ if(down && ++n===40){ c.remove(); document.getElementById('rev').innerHTML='<p>50% discount</p><button onclick="go()">Continue</button>'; } }; },50);
       return `<h1>Scratch to reveal your discount!</h1><canvas id="sc" width="300" height="160" style="background:#a8f;display:block;margin:20px auto"></canvas><div id="rev"></div>`; });
 }
+// store=1: a web-to-app landing whose button only opens the App Store.
+if(q.get('store')) S.unshift(()=>`<h1>Start singing like you always wanted</h1><button onclick="location.href='itms-appss://apps.apple.com/US/app/id1592900217'">Find My Voice Type</button>`);
 // newtab=1: the first button opens the funnel in a new tab.
 if(q.get('newtab')==='1') S.unshift(()=>`<h1>Start singing like you always wanted</h1><button onclick="window.open(location.href.replace('newtab=1','newtab=0'),'_blank')">Find My Voice Type</button>`);
 function go(){ i++; render(); }

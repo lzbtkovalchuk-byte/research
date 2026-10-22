@@ -103,7 +103,8 @@ const perApp = apps.map(app => {
   const screens = ch.reduce((s, c) => s + c.count, 0);
   const links = linkChanges(app.id);
   const ads = dApp(app.id).ads;
-  const noPaywall = list.filter(f => !f.steps.some(s => s.kind === 'paywall' && s.n > 1)); // a landing page with prices is not a paywall
+  // A landing page with prices is not a paywall; a landing that only hands over to the app store has no web paywall.
+  const noPaywall = list.filter(f => !String(f.stop).startsWith('app_store') && !f.steps.some(s => s.kind === 'paywall' && s.n > 1));
   let line = A.what_changed?.[app.id];
   if (!line) {
     if (firstRun) line = 'First capture.';
