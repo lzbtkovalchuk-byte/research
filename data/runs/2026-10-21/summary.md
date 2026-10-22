@@ -6,28 +6,30 @@ screenshot paths to open (previous → current). Open only those.
 ## Ads
 | app | topics | geo | active | Δ | new in window |
 |---|---|---|---|---|---|
-| Imprint | vocal+drawing | US | 740 | 140 | 0 |
+| Imprint | vocal+drawing | US | 700 | 100 | 2 |
 | Breeze | vocal+drawing | US | 30 | 0 | 0 |
-| Simply Piano | vocal+drawing | US | 510 | 80 | 2 |
-| MemoryOS | vocal+drawing | US | 3 | -4 | 3 |
-| Chillio | vocal+drawing | US | 20 | -5 | 3 |
-| Learna | vocal+drawing | US | 644 | 480 | 46 |
+| Simply Piano | vocal+drawing | US | 540 | 110 | 6 |
+| MemoryOS | vocal+drawing | US | 5 | -2 | 5 |
+| Chillio | vocal+drawing | US | 22 | -3 | 3 |
+| Learna | vocal+drawing | US | 805 | 641 | 50 |
 | Copymind | vocal+drawing | GB | 0 | 0 | 0 |
 | Simply Sing | vocal | US | 84 | -26 | 6 |
 | Yousician | vocal | US | 19 | 3 | 8 |
-| SmartyMe | drawing | US | 109 | -91 | 51 |
+| SmartyMe | drawing | US | 99 | -101 | 38 |
 | Simply Draw | drawing | US | 9 | 3 | 3 |
 
 ## Link changes
 - imprint (Imprint): removed imprintapp.com/start-art (2 ads)
 - breeze (Breeze): new try-breeze.com/childhood (2 ads)
 - breeze (Breeze): removed try-breeze.com/funnel/childhood_nontrial (1 ads)
-- memoryos (MemoryOS): new start.memoryos.com/new-h2?thm=light (1 ads)
+- memoryos (MemoryOS): new start.memoryos.com/new-h2?thm=light (2 ads)
 - memoryos (MemoryOS): changed start.memoryos.com/new-h?mos_cfg=seniors_s → start.memoryos.com/new-h?mos_cfg=read003b (1 ads)
 - memoryos (MemoryOS): removed start.memoryos.com/new-h?mos_cfg=seniors_o (3 ads)
-- learna (Learna): new instagram.com/_u/minienglishstories (7 ads)
+- learna (Learna): new instagram.com/_u/minienglishstories (14 ads)
 - learna (Learna): new itunes.apple.com/app/id6478287397 (3 ads)
+- learna (Learna): new onboarding.ailearna.com/onboarding-x5j8n9p2k7m4 (2 ads)
 - simply-sing (Simply Sing): new welcome.hellosimply.com/singyourheartout?campaign_type=web_to_app&platform=iOS (2 ads)
+- smartyme (SmartyMe): new feedback.smartymeapp.com/ (1 ads)
 
 ## Funnels
 ### imprint — Imprint [vocal+drawing] — imprintapp.com/start-buddhism
