@@ -3205,7 +3205,7 @@
         {
           "status": "new",
           "key": "welcome.hellosimply.com/singyourheartout?campaign_type=web_to_app&platform=iOS",
-          "ads": 2,
+          "ads": 1,
           "first": "2026-10-20",
           "store": false
         }
@@ -3440,14 +3440,14 @@
         "active": 99,
         "prevActive": 200,
         "delta": -101,
-        "newInWindow": 38,
-        "newCreatives": 18
+        "newInWindow": 37,
+        "newCreatives": 17
       },
       "links": [
         {
           "status": "same",
           "key": "start.smartymeapp.com/quiz",
-          "ads": 120,
+          "ads": 124,
           "prevAds": 171,
           "first": "2026-09-15",
           "store": false
@@ -3459,13 +3459,6 @@
           "prevAds": 21,
           "first": "2026-10-21",
           "store": true
-        },
-        {
-          "status": "new",
-          "key": "feedback.smartymeapp.com/",
-          "ads": 1,
-          "first": "2026-10-19",
-          "store": false
         }
       ],
       "funnels": {

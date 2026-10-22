@@ -531,6 +531,41 @@
     "John Smith": "992857770568956",
     "Survive and Thrive": "105423825920694"
   },
+  "sortInfo": {
+    "before": "2070971387147257",
+    "options": [
+      "menuitem: Ad Library Report ",
+      "menuitem: Ad Library API ",
+      "menuitem: Branded Content ",
+      "menuitem: ​ ",
+      "label: Search by keyword or advertiser ",
+      "menuitem: Close navigation panel ",
+      "menuitem: Ad Library Report ",
+      "menuitem: Ad Library API ",
+      "menuitem: Branded Content ",
+      "menuitem: System status ",
+      "menuitem: Subscribe to email updates ",
+      "menuitem: FAQ ",
+      "menuitem: About ads and data use ",
+      "menuitem: Privacy ",
+      "menuitem: Terms ",
+      "menuitem: Cookies ",
+      "label: Sort ",
+      "option: Impressions: high to low ",
+      "option: Most recent "
+    ],
+    "openShot": "breeze-sort-67c928d1e24b-open.webp",
+    "picked": "option",
+    "applied": false,
+    "after": "2070971387147257",
+    "url": "https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=US&is_targeted_country=false&media_type=all&q=try-breeze.com&search_type=keyword_unordered&sort_data[mode]=total_impressions&sort_data[direction]=desc",
+    "checked": [
+      "",
+      "",
+      ""
+    ],
+    "ok": true
+  },
   "top": {
     "id": "2070971387147257",
     "started": "2026-07-21",
@@ -551,7 +586,7 @@
       "871951109182245",
       "3295528553963872"
     ],
-    "sortedByImpressions": false,
+    "sortedByImpressions": true,
     "url": "https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=US&media_type=all&sort_data[direction]=desc&sort_data[mode]=total_impressions&search_type=keyword_unordered&q=try-breeze.com"
   },
   "activeEstimate": 30,

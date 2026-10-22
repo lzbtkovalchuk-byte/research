@@ -9,7 +9,7 @@
       "type": "domain",
       "value": "get-chillio.app",
       "url": "https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=US&media_type=all&search_type=keyword_unordered&q=get-chillio.app",
-      "results": 560,
+      "results": 550,
       "parsed": 26,
       "kept": 22
     }
@@ -404,6 +404,41 @@
     "Julia Ray": "992165040635354",
     "Chillio App": "1317046298157194"
   },
+  "sortInfo": {
+    "before": "2120356698570693",
+    "options": [
+      "menuitem: Ad Library Report ",
+      "menuitem: Ad Library API ",
+      "menuitem: Branded Content ",
+      "menuitem: ​ ",
+      "label: Search by keyword or advertiser ",
+      "menuitem: Close navigation panel ",
+      "menuitem: Ad Library Report ",
+      "menuitem: Ad Library API ",
+      "menuitem: Branded Content ",
+      "menuitem: System status ",
+      "menuitem: Subscribe to email updates ",
+      "menuitem: FAQ ",
+      "menuitem: About ads and data use ",
+      "menuitem: Privacy ",
+      "menuitem: Terms ",
+      "menuitem: Cookies ",
+      "label: Sort ",
+      "option: Impressions: high to low ",
+      "option: Most recent "
+    ],
+    "openShot": "chillio-sort-d804aa1e6329-open.webp",
+    "picked": "option",
+    "applied": false,
+    "after": "2120356698570693",
+    "url": "https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=US&is_targeted_country=false&media_type=all&q=get-chillio.app&search_type=keyword_unordered&sort_data[mode]=total_impressions&sort_data[direction]=desc",
+    "checked": [
+      "",
+      "",
+      ""
+    ],
+    "ok": true
+  },
   "top": {
     "id": "2120356698570693",
     "started": "2026-10-09",
@@ -424,7 +459,7 @@
       "1384970086960254",
       "1788048892398789"
     ],
-    "sortedByImpressions": false,
+    "sortedByImpressions": true,
     "url": "https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=US&media_type=all&sort_data[direction]=desc&sort_data[mode]=total_impressions&search_type=keyword_unordered&q=get-chillio.app"
   },
   "activeEstimate": 22,

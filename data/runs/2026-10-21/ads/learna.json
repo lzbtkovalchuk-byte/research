@@ -1777,8 +1777,7 @@
       "",
       ""
     ],
-    "ok": false,
-    "shot": "learna-sort-59f84251a4de.webp"
+    "ok": true
   },
   "top": {
     "id": "1085505094365694",
@@ -1800,7 +1799,7 @@
       "1754966105772456",
       "1675332060823368"
     ],
-    "sortedByImpressions": false,
+    "sortedByImpressions": true,
     "url": "https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=US&media_type=all&sort_data[direction]=desc&sort_data[mode]=total_impressions&search_type=page&view_all_page_id=521600091028761"
   },
   "activeEstimate": 805,

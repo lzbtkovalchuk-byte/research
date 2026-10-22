@@ -15,7 +15,7 @@ screenshot paths to open (previous → current). Open only those.
 | Copymind | vocal+drawing | GB | 0 | 0 | 0 |
 | Simply Sing | vocal | US | 84 | -26 | 6 |
 | Yousician | vocal | US | 19 | 3 | 8 |
-| SmartyMe | drawing | US | 99 | -101 | 38 |
+| SmartyMe | drawing | US | 99 | -101 | 37 |
 | Simply Draw | drawing | US | 9 | 3 | 3 |
 
 ## Link changes
@@ -28,8 +28,7 @@ screenshot paths to open (previous → current). Open only those.
 - learna (Learna): new instagram.com/_u/minienglishstories (14 ads)
 - learna (Learna): new itunes.apple.com/app/id6478287397 (3 ads)
 - learna (Learna): new onboarding.ailearna.com/onboarding-x5j8n9p2k7m4 (2 ads)
-- simply-sing (Simply Sing): new welcome.hellosimply.com/singyourheartout?campaign_type=web_to_app&platform=iOS (2 ads)
-- smartyme (SmartyMe): new feedback.smartymeapp.com/ (1 ads)
+- simply-sing (Simply Sing): new welcome.hellosimply.com/singyourheartout?campaign_type=web_to_app&platform=iOS (1 ads)
 
 ## Funnels
 ### imprint — Imprint [vocal+drawing] — imprintapp.com/start-buddhism
