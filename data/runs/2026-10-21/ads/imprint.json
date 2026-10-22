@@ -553,6 +553,38 @@
   "pageIds": {
     "Imprint: Learn Visually": "2093351790978732"
   },
+  "sortInfo": {
+    "controls": [
+      "United States ​",
+      "​ ​ All ads ​",
+      "Clear",
+      "Filters",
+      "​ Sort by",
+      "Remove ​",
+      "Open Dropdown ​",
+      "See summary details",
+      "Play video",
+      "Play",
+      "Settings",
+      "Enter fullscreen",
+      "Unmute",
+      "See ad details",
+      "ITUNES.APPLE.COM",
+      "Start Your Free Trial Today.",
+      "Install now",
+      "APPS.APPLE.COM",
+      "IMPRINTAPP.COM",
+      "Start learning today.",
+      "See details",
+      "PLAY.GOOGLE.COM"
+    ],
+    "opened": "Sort by",
+    "picked": "Impressions: high to low",
+    "applied": null,
+    "label": null,
+    "ok": false,
+    "shot": "imprint-sort-26cd1bd16356.webp"
+  },
   "top": {
     "id": "4543052735970964",
     "started": "2026-10-01",
