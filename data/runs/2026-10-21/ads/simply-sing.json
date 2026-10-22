@@ -2,14 +2,14 @@
   "id": "simply-sing",
   "name": "Simply Sing",
   "geo": "US",
-  "collected": "2026-10-21",
+  "collected": "2026-10-22",
   "windowStart": "2026-10-13",
   "sources": [
     {
       "type": "page",
       "value": "105597079032619",
       "url": "https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=US&media_type=all&search_type=page&view_all_page_id=105597079032619",
-      "results": 83,
+      "results": 84,
       "parsed": 29,
       "kept": 29
     }
@@ -196,6 +196,36 @@
       "store": false
     },
     {
+      "id": "1145661104456809",
+      "started": "Oct 20, 2026",
+      "versions": 1,
+      "page": "Simply Sing",
+      "body": "Simply Sing recognizes your vocal range 🎵 and makes it fun and easy to sing 🤘",
+      "caption": null,
+      "headline": "",
+      "cta": "",
+      "video": false,
+      "link": "https://join-sing.hellosimply.com/welcome/?utm_source=Facebook Ads&af_adset_id={{adset.id}}&utm_campaign={{campaign.name}}&af_c_id={{campaign.id}}&utm_content={{ad.name}}&placemnt={{placement}}&sitesource={{site_source_name}}&af_click_lookback=30d&platform=iOS&campaign_type=web_to_app&af_ad={{ad.name}}&af_ad_id={{ad.id}}",
+      "startedISO": "2026-10-20",
+      "key": "join-sing.hellosimply.com/welcome?campaign_type=web_to_app&platform=iOS",
+      "store": false
+    },
+    {
+      "id": "1128428116323337",
+      "started": "Oct 20, 2026",
+      "versions": 1,
+      "page": "Simply Sing",
+      "body": "Simply Sing recognizes your vocal range 🎵 and makes it fun and easy to sing 🤘",
+      "caption": null,
+      "headline": "",
+      "cta": "",
+      "video": false,
+      "link": "https://join-sing.hellosimply.com/welcome/?utm_source=Facebook Ads&af_adset_id={{adset.id}}&utm_campaign={{campaign.name}}&af_c_id={{campaign.id}}&utm_content={{ad.name}}&placemnt={{placement}}&sitesource={{site_source_name}}&af_click_lookback=30d&platform=iOS&campaign_type=web_to_app&af_ad={{ad.name}}&af_ad_id={{ad.id}}",
+      "startedISO": "2026-10-20",
+      "key": "join-sing.hellosimply.com/welcome?campaign_type=web_to_app&platform=iOS",
+      "store": false
+    },
+    {
       "id": "1333936798868150",
       "started": "Jun 29, 2026",
       "versions": 1,
@@ -331,6 +361,21 @@
       "store": false
     },
     {
+      "id": "1153362070573233",
+      "started": "Oct 20, 2026",
+      "versions": 1,
+      "page": "Simply Sing",
+      "body": "Simply Sing recognizes your vocal range 🎵 and makes it fun and easy to sing 🤘",
+      "caption": null,
+      "headline": "",
+      "cta": "",
+      "video": false,
+      "link": "https://welcome.hellosimply.com/singyourheartout?utm_source=Facebook Ads&af_adset_id={{adset.id}}&utm_campaign={{campaign.name}}&af_c_id={{campaign.id}}&utm_content={{ad.name}}&placemnt={{placement}}&sitesource={{site_source_name}}&af_click_lookback=30d&platform=iOS&campaign_type=web_to_app",
+      "startedISO": "2026-10-20",
+      "key": "welcome.hellosimply.com/singyourheartout?campaign_type=web_to_app&platform=iOS",
+      "store": false
+    },
+    {
       "id": "1561497829042723",
       "started": "Jun 29, 2026",
       "versions": 1,
@@ -342,6 +387,51 @@
       "video": false,
       "link": "https://join-sing.hellosimply.com/welcome/?utm_source=Facebook Ads&af_adset_id={{adset.id}}&utm_campaign={{campaign.name}}&af_c_id={{campaign.id}}&utm_content={{ad.name}}&placemnt={{placement}}&sitesource={{site_source_name}}&af_click_lookback=30d&platform=iOS&campaign_type=web_to_app&af_ad={{ad.name}}&af_ad_id={{ad.id}}",
       "startedISO": "2026-06-29",
+      "key": "join-sing.hellosimply.com/welcome?campaign_type=web_to_app&platform=iOS",
+      "store": false
+    },
+    {
+      "id": "28879093118390354",
+      "started": "Oct 20, 2026",
+      "versions": 1,
+      "page": "Simply Sing",
+      "body": "Simply Sing recognizes your vocal range 🎵 and makes it fun and easy to sing 🤘",
+      "caption": null,
+      "headline": "",
+      "cta": "",
+      "video": false,
+      "link": "https://join-sing.hellosimply.com/welcome/?utm_source=Facebook Ads&af_adset_id={{adset.id}}&utm_campaign={{campaign.name}}&af_c_id={{campaign.id}}&utm_content={{ad.name}}&placemnt={{placement}}&sitesource={{site_source_name}}&af_click_lookback=30d&platform=iOS&campaign_type=web_to_app&af_ad={{ad.name}}&af_ad_id={{ad.id}}",
+      "startedISO": "2026-10-20",
+      "key": "join-sing.hellosimply.com/welcome?campaign_type=web_to_app&platform=iOS",
+      "store": false
+    },
+    {
+      "id": "1410239874548188",
+      "started": "Oct 20, 2026",
+      "versions": 1,
+      "page": "Simply Sing",
+      "body": "Simply Sing recognizes your vocal range 🎵 and makes it fun and easy to sing 🤘",
+      "caption": null,
+      "headline": "",
+      "cta": "",
+      "video": false,
+      "link": "https://welcome.hellosimply.com/singyourheartout?utm_source=Facebook Ads&af_adset_id={{adset.id}}&utm_campaign={{campaign.name}}&af_c_id={{campaign.id}}&utm_content={{ad.name}}&placemnt={{placement}}&sitesource={{site_source_name}}&af_click_lookback=30d&platform=iOS&campaign_type=web_to_app",
+      "startedISO": "2026-10-20",
+      "key": "welcome.hellosimply.com/singyourheartout?campaign_type=web_to_app&platform=iOS",
+      "store": false
+    },
+    {
+      "id": "1113932854620522",
+      "started": "Oct 20, 2026",
+      "versions": 1,
+      "page": "Simply Sing",
+      "body": "Simply Sing recognizes your vocal range 🎵 and makes it fun and easy to sing 🤘",
+      "caption": null,
+      "headline": "",
+      "cta": "",
+      "video": false,
+      "link": "https://join-sing.hellosimply.com/welcome/?utm_source=Facebook Ads&af_adset_id={{adset.id}}&utm_campaign={{campaign.name}}&af_c_id={{campaign.id}}&utm_content={{ad.name}}&placemnt={{placement}}&sitesource={{site_source_name}}&af_click_lookback=30d&platform=iOS&campaign_type=web_to_app&af_ad={{ad.name}}&af_ad_id={{ad.id}}",
+      "startedISO": "2026-10-20",
       "key": "join-sing.hellosimply.com/welcome?campaign_type=web_to_app&platform=iOS",
       "store": false
     },
@@ -359,96 +449,6 @@
       "startedISO": "2026-08-17",
       "key": "join-sing.hellosimply.com/welcome?campaign_type=web_to_app&platform=iOS",
       "store": false
-    },
-    {
-      "id": "1097828503074410",
-      "started": "May 26, 2026",
-      "versions": 1,
-      "page": "Simply Sing",
-      "body": "Simply Sing recognizes your vocal range 🎵 and makes it fun and easy to sing 🤘",
-      "caption": null,
-      "headline": "",
-      "cta": "",
-      "video": false,
-      "link": "https://join-sing.hellosimply.com/welcome/?utm_source=Facebook Ads&af_adset_id={{adset.id}}&utm_campaign={{campaign.name}}&af_c_id={{campaign.id}}&utm_content={{ad.name}}&placemnt={{placement}}&sitesource={{site_source_name}}&af_click_lookback=30d&platform=iOS&campaign_type=web_to_app&af_ad={{ad.name}}&af_ad_id={{ad.id}}",
-      "startedISO": "2026-05-26",
-      "key": "join-sing.hellosimply.com/welcome?campaign_type=web_to_app&platform=iOS",
-      "store": false
-    },
-    {
-      "id": "1076877778138745",
-      "started": "Aug 17, 2026",
-      "versions": 1,
-      "page": "Simply Sing",
-      "body": "Simply Sing recognizes your vocal range 🎵 and makes it fun and easy to sing 🤘",
-      "caption": null,
-      "headline": "",
-      "cta": "",
-      "video": false,
-      "link": "https://join-sing.hellosimply.com/welcome/?utm_source=Facebook Ads&af_adset_id={{adset.id}}&utm_campaign={{campaign.name}}&af_c_id={{campaign.id}}&utm_content={{ad.name}}&placemnt={{placement}}&sitesource={{site_source_name}}&af_click_lookback=30d&platform=iOS&campaign_type=web_to_app&af_ad={{ad.name}}&af_ad_id={{ad.id}}",
-      "startedISO": "2026-08-17",
-      "key": "join-sing.hellosimply.com/welcome?campaign_type=web_to_app&platform=iOS",
-      "store": false
-    },
-    {
-      "id": "1145661104456809",
-      "started": "Oct 20, 2026",
-      "versions": 1,
-      "page": "Simply Sing",
-      "body": "Simply Sing recognizes your vocal range 🎵 and makes it fun and easy to sing 🤘",
-      "caption": null,
-      "headline": "",
-      "cta": "",
-      "video": false,
-      "link": "https://join-sing.hellosimply.com/welcome/?utm_source=Facebook Ads&af_adset_id={{adset.id}}&utm_campaign={{campaign.name}}&af_c_id={{campaign.id}}&utm_content={{ad.name}}&placemnt={{placement}}&sitesource={{site_source_name}}&af_click_lookback=30d&platform=iOS&campaign_type=web_to_app&af_ad={{ad.name}}&af_ad_id={{ad.id}}",
-      "startedISO": "2026-10-20",
-      "key": "join-sing.hellosimply.com/welcome?campaign_type=web_to_app&platform=iOS",
-      "store": false
-    },
-    {
-      "id": "1274241124467855",
-      "started": "May 26, 2026",
-      "versions": 1,
-      "page": "Simply Sing",
-      "body": "Simply Sing recognizes your vocal range 🎵 and makes it fun and easy to sing 🤘",
-      "caption": null,
-      "headline": "",
-      "cta": "",
-      "video": false,
-      "link": "https://join-sing.hellosimply.com/welcome/?utm_source=Facebook Ads&af_adset_id={{adset.id}}&utm_campaign={{campaign.name}}&af_c_id={{campaign.id}}&utm_content={{ad.name}}&placemnt={{placement}}&sitesource={{site_source_name}}&af_click_lookback=30d&platform=iOS&campaign_type=web_to_app&af_ad={{ad.name}}&af_ad_id={{ad.id}}",
-      "startedISO": "2026-05-26",
-      "key": "join-sing.hellosimply.com/welcome?campaign_type=web_to_app&platform=iOS",
-      "store": false
-    },
-    {
-      "id": "1807440120268775",
-      "started": "Aug 17, 2026",
-      "versions": 1,
-      "page": "Simply Sing",
-      "body": "Simply Sing recognizes your vocal range 🎵 and makes it fun and easy to sing 🤘",
-      "caption": null,
-      "headline": "",
-      "cta": "",
-      "video": false,
-      "link": "https://join-sing.hellosimply.com/welcome/?utm_source=Facebook Ads&af_adset_id={{adset.id}}&utm_campaign={{campaign.name}}&af_c_id={{campaign.id}}&utm_content={{ad.name}}&placemnt={{placement}}&sitesource={{site_source_name}}&af_click_lookback=30d&platform=iOS&campaign_type=web_to_app&af_ad={{ad.name}}&af_ad_id={{ad.id}}",
-      "startedISO": "2026-08-17",
-      "key": "join-sing.hellosimply.com/welcome?campaign_type=web_to_app&platform=iOS",
-      "store": false
-    },
-    {
-      "id": "873723729016714",
-      "started": "Mar 8, 2026",
-      "versions": 1,
-      "page": "Simply Sing",
-      "body": "Simply Sing recognizes your vocal range 🎵 and makes it fun and easy to sing 🤘",
-      "caption": null,
-      "headline": "",
-      "cta": "",
-      "video": false,
-      "link": "https://join-sing.hellosimply.com/welcome/?utm_source=Facebook Ads&af_adset_id={{adset.id}}&utm_campaign={{campaign.name}}&af_c_id={{campaign.id}}&utm_content={{ad.name}}&placemnt={{placement}}&sitesource={{site_source_name}}&af_click_lookback=30d&platform=iOS&campaign_type=web_to_app&af_ad={{ad.name}}&af_ad_id={{ad.id}}",
-      "startedISO": "2026-03-08",
-      "key": "join-sing.hellosimply.com/welcome?campaign_type=web_to_app&platform=iOS",
-      "store": false
     }
   ],
   "landing": {
@@ -456,8 +456,8 @@
       "key": "join-sing.hellosimply.com/welcome?campaign_type=web_to_app&platform=iOS",
       "sample": "https://join-sing.hellosimply.com/welcome/?utm_source=Facebook Ads&af_adset_id={{adset.id}}&utm_campaign={{campaign.name}}&af_c_id={{campaign.id}}&utm_content={{ad.name}}&placemnt={{placement}}&sitesource={{site_source_name}}&af_click_lookback=30d&platform=iOS&campaign_type=web_to_app&af_ad={{ad.name}}&af_ad_id={{ad.id}}",
       "store": false,
-      "ads": 30,
-      "creatives": 29,
+      "ads": 28,
+      "creatives": 27,
       "first": "2026-02-15",
       "last": "2026-10-20",
       "adIds": [
@@ -473,6 +473,8 @@
         "1447156696786922",
         "1583837286422102",
         "975492168422039",
+        "1145661104456809",
+        "1128428116323337",
         "1333936798868150",
         "1309926317876996",
         "992598569832632",
@@ -483,23 +485,34 @@
         "2495826724213453",
         "2235780320574447",
         "1561497829042723",
-        "1723000335578788",
-        "1097828503074410",
-        "1076877778138745",
-        "1145661104456809",
-        "1274241124467855",
-        "1807440120268775",
-        "873723729016714"
+        "28879093118390354",
+        "1113932854620522",
+        "1723000335578788"
       ],
       "shot": "simply-sing-6f241d946bf3.webp",
       "shotAd": "1145661104456809"
+    },
+    "welcome.hellosimply.com/singyourheartout?campaign_type=web_to_app&platform=iOS": {
+      "key": "welcome.hellosimply.com/singyourheartout?campaign_type=web_to_app&platform=iOS",
+      "sample": "https://welcome.hellosimply.com/singyourheartout?utm_source=Facebook Ads&af_adset_id={{adset.id}}&utm_campaign={{campaign.name}}&af_c_id={{campaign.id}}&utm_content={{ad.name}}&placemnt={{placement}}&sitesource={{site_source_name}}&af_click_lookback=30d&platform=iOS&campaign_type=web_to_app",
+      "store": false,
+      "ads": 2,
+      "creatives": 2,
+      "first": "2026-10-20",
+      "last": "2026-10-20",
+      "adIds": [
+        "1153362070573233",
+        "1410239874548188"
+      ],
+      "shot": "simply-sing-d3a8651c929e.webp",
+      "shotAd": "1153362070573233"
     }
   },
   "pageIds": {
     "Simply Sing": "105597079032619"
   },
-  "activeEstimate": 83,
+  "activeEstimate": 84,
   "parsedCreatives": 29,
-  "newInWindow": 1,
-  "newCreativesInWindow": 1
+  "newInWindow": 6,
+  "newCreativesInWindow": 6
 }

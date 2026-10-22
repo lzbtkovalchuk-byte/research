@@ -3180,121 +3180,106 @@
     },
     "simply-sing": {
       "ads": {
-        "active": 83,
+        "active": 84,
         "prevActive": 110,
-        "delta": -27,
-        "newInWindow": 1,
-        "newCreatives": 1
+        "delta": -26,
+        "newInWindow": 6,
+        "newCreatives": 6
       },
       "links": [
         {
           "status": "same",
           "key": "join-sing.hellosimply.com/welcome?campaign_type=web_to_app&platform=iOS",
-          "ads": 30,
+          "ads": 28,
           "prevAds": 37,
           "first": "2026-02-15",
+          "store": false
+        },
+        {
+          "status": "new",
+          "key": "welcome.hellosimply.com/singyourheartout?campaign_type=web_to_app&platform=iOS",
+          "ads": 2,
+          "first": "2026-10-20",
           "store": false
         }
       ],
       "funnels": {
-        "welcome.hellosimply.com/singyourheartout?campaign_type=web_to_app&platform=iOS": {
-          "firstRun": true,
+        "join-sing.hellosimply.com/welcome?campaign_type=web_to_app&platform=iOS": {
+          "firstRun": false,
+          "comparedWith": "join-sing.hellosimply.com/welcome?campaign_type=web_to_app&platform=iOS",
+          "prevDir": "funnels/simply-sing/6f241d946bf3",
+          "prevSteps": 1,
           "status": [
             {
-              "s": "baseline"
+              "s": "same",
+              "prev": 1,
+              "why": "",
+              "prevFile": "01.webp"
+            }
+          ],
+          "removed": []
+        },
+        "join-sing.hellosimply.com/start": {
+          "firstRun": false,
+          "comparedWith": "join-sing.hellosimply.com/start",
+          "prevDir": "funnels/simply-sing/228524b7bc31",
+          "prevSteps": 7,
+          "status": [
+            {
+              "s": "same",
+              "prev": 1,
+              "why": "",
+              "prevFile": "01.webp"
             },
             {
-              "s": "baseline"
+              "s": "same",
+              "prev": 2,
+              "why": "",
+              "prevFile": "02.webp"
             },
             {
-              "s": "baseline"
+              "s": "same",
+              "prev": 3,
+              "why": "text",
+              "prevFile": "03.webp"
             },
             {
-              "s": "baseline"
+              "s": "same",
+              "prev": 4,
+              "why": "",
+              "prevFile": "04.webp"
             },
             {
-              "s": "baseline"
+              "s": "changed",
+              "prev": 5,
+              "why": "text",
+              "prevFile": "05.webp",
+              "boxes": [
+                {
+                  "t": 9.07,
+                  "l": 47.69,
+                  "w": 43.08,
+                  "h": 7.37
+                },
+                {
+                  "t": 71.39,
+                  "l": 24.62,
+                  "w": 39.23,
+                  "h": 9.07
+                }
+              ]
             },
             {
-              "s": "baseline"
+              "s": "same",
+              "prev": 6,
+              "why": "",
+              "prevFile": "06.webp"
             },
             {
-              "s": "baseline"
-            },
-            {
-              "s": "baseline"
-            },
-            {
-              "s": "baseline"
-            },
-            {
-              "s": "baseline"
-            },
-            {
-              "s": "baseline"
-            },
-            {
-              "s": "baseline"
-            },
-            {
-              "s": "baseline"
-            },
-            {
-              "s": "baseline"
-            },
-            {
-              "s": "baseline"
-            },
-            {
-              "s": "baseline"
-            },
-            {
-              "s": "baseline"
-            },
-            {
-              "s": "baseline"
-            },
-            {
-              "s": "baseline"
-            },
-            {
-              "s": "baseline"
-            },
-            {
-              "s": "baseline"
-            },
-            {
-              "s": "baseline"
-            },
-            {
-              "s": "baseline"
-            },
-            {
-              "s": "baseline"
-            },
-            {
-              "s": "baseline"
-            },
-            {
-              "s": "baseline"
-            },
-            {
-              "s": "baseline"
-            },
-            {
-              "s": "baseline"
-            },
-            {
-              "s": "baseline"
-            },
-            {
-              "s": "baseline"
-            },
-            {
-              "s": "baseline"
-            },
-            {
-              "s": "baseline"
+              "s": "same",
+              "prev": 7,
+              "why": "",
+              "prevFile": "07.webp"
             }
           ],
           "removed": []

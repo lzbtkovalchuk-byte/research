@@ -13,7 +13,7 @@ screenshot paths to open (previous → current). Open only those.
 | Chillio | vocal+drawing | US | 20 | -5 | 3 |
 | Learna | vocal+drawing | US | 644 | 480 | 46 |
 | Copymind | vocal+drawing | GB | 0 | 0 | 0 |
-| Simply Sing | vocal | US | 83 | -27 | 1 |
+| Simply Sing | vocal | US | 84 | -26 | 6 |
 | Yousician | vocal | US | 19 | 3 | 8 |
 | SmartyMe | drawing | US | 109 | -91 | 51 |
 | Simply Draw | drawing | US | 9 | 3 | 3 |
@@ -27,6 +27,7 @@ screenshot paths to open (previous → current). Open only those.
 - memoryos (MemoryOS): removed start.memoryos.com/new-h?mos_cfg=seniors_o (3 ads)
 - learna (Learna): new instagram.com/_u/minienglishstories (7 ads)
 - learna (Learna): new itunes.apple.com/app/id6478287397 (3 ads)
+- simply-sing (Simply Sing): new welcome.hellosimply.com/singyourheartout?campaign_type=web_to_app&platform=iOS (2 ads)
 
 ## Funnels
 ### imprint — Imprint [vocal+drawing] — imprintapp.com/start-buddhism
@@ -183,9 +184,13 @@ steps=36 stop=paywall email@35 paywall@36 popups=0 prices=$9.99 $39.99 $19.99 $7
 - [REMOVED] previous screen 37 question "Verify your email": data/runs/2026-10-13/funnels/copymind/2162dca161b4/37.webp
 - [REMOVED] previous screen 38 paywall "09": data/runs/2026-10-13/funnels/copymind/2162dca161b4/38.webp
 
-### simply-sing — Simply Sing [vocal] — welcome.hellosimply.com/singyourheartout?campaign_type=web_to_app&platform=iOS
-steps=32 stop=paywall email@29 paywall@32 popups=1 prices=$17.49 $34.99 $209.90 $14.16 $24.99 $169.90 discount=50 timer=true trial=true moneyBack=false
-first capture of this funnel (no comparison)
+### simply-sing — Simply Sing [vocal] — join-sing.hellosimply.com/welcome?campaign_type=web_to_app&platform=iOS
+steps=1 stop=stuck email@— paywall@— popups=0 prices=— discount=— timer=false trial=false moneyBack=false
+no screen changes
+
+### simply-sing — Simply Sing [vocal] — join-sing.hellosimply.com/start
+steps=7 stop=stuck email@— paywall@— popups=0 prices=— discount=— timer=false trial=false moneyBack=false
+- [CHANGED] screen 5 question "What kinds of songs do you like to sing?" (2 changed regions): data/runs/2026-10-13/funnels/simply-sing/228524b7bc31/05.webp → data/runs/2026-10-21/funnels/simply-sing/228524b7bc31/05.webp
 
 ### yousician — Yousician [vocal] — yousician.com/
 steps=9 stop=paywall email@— paywall@9 popups=0 prices=$13.33 $159.99 discount=50 timer=false trial=true moneyBack=false
