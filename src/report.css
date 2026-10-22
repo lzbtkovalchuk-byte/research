@@ -119,3 +119,14 @@ footer{margin-top:50px;color:var(--muted);font-size:13px}
 .headline{font-size:17px;max-width:70ch;margin:14px 0 0}
 dialog{max-height:92vh;overflow:auto}
 .hyp .why{color:var(--muted)}
+/* top creative by impressions, one card per competitor */
+.tops{display:grid;grid-template-columns:repeat(auto-fill,minmax(230px,1fr));gap:14px;margin-top:16px}
+.topc{background:var(--surface);border:1px solid var(--line);border-radius:14px;overflow:hidden;display:flex;flex-direction:column}
+.topc .frame{cursor:zoom-in;background:var(--bg);max-height:420px;overflow:hidden;border-bottom:1px solid var(--line)}
+.topc img{display:block;width:100%;height:auto}
+.topc .noimg{padding:40px 14px;text-align:center;color:var(--muted);font-size:13px}
+.topc .tb{padding:12px 14px;display:flex;flex-direction:column;gap:6px;font-size:13px}
+.topc .tb h4{margin:0;font-size:15px;display:flex;gap:8px;align-items:baseline;flex-wrap:wrap}
+.topc .tb p{margin:0;color:var(--muted)}
+.topc .tb .copy{color:var(--ink);display:-webkit-box;-webkit-line-clamp:4;-webkit-box-orient:vertical;overflow:hidden}
+.topc .tb code{white-space:normal;word-break:break-all}

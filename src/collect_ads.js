@@ -13,8 +13,9 @@ const runDate = path.basename(RUN);
 const prev = previousRun(runDate);
 const windowStart = prev ? path.basename(prev) : new Date(Date.now() - 14 * 864e5).toISOString().slice(0, 10);
 
-const libUrl = (geo, src) => {
-  const base = `https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=${geo}&media_type=all`;
+// sort = 'impressions' opens the list as "Impressions: high to low" (Ad Library's own sort), for the top creative.
+const libUrl = (geo, src, sort) => {
+  const base = `https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=${geo}&media_type=all${sort === 'impressions' ? '&sort_data[direction]=desc&sort_data[mode]=total_impressions' : ''}`;
   return src.type === 'page'
     ? `${base}&search_type=page&view_all_page_id=${src.value}`
     : `${base}&search_type=keyword_unordered&q=${encodeURIComponent(src.value)}`;
@@ -28,13 +29,13 @@ async function dismissCookies(page) {
 }
 
 /** Scrolls the results list and returns parsed ad cards. */
-async function scrape(page, url) {
+async function scrape(page, url, { scroll = true } = {}) {
   await page.goto(url, { waitUntil: 'domcontentloaded', timeout: 60000 });
   await sleep(3000);
   await dismissCookies(page);
   let last = -1;
   let flat = 0;
-  for (let i = 0; i < 60 && flat < 3; i++) {
+  for (let i = 0; i < (scroll ? 60 : 0) && flat < 3; i++) {
     const n = await page.evaluate(() => document.body.innerText.split('Library ID: ').length - 1);
     flat = n === last ? flat + 1 : 0;
     last = n;
@@ -78,7 +79,9 @@ async function scrape(page, url) {
         link,
       });
     }
-    return { results: results ? Number(results.replace(/,/g, '')) : null, pageIds, cards };
+    // Is the list really sorted by impressions? The sort control shows its label once it applies.
+    const sortedByImpressions = /impressions[^\n]{0,30}(high to low|highest)|sort[^\n]{0,40}impressions/i.test(txt);
+    return { results: results ? Number(results.replace(/,/g, '')) : null, pageIds, cards, sortedByImpressions };
   });
 }
 
@@ -88,7 +91,8 @@ async function main() {
   const cfg = loadConfig();
   const apps = allApps(cfg).filter(a => a.ads);
   const only = process.env.ONLY ? process.env.ONLY.split(',') : null;
-  const browser = await chromium.launch();
+  // Google Chrome plays Meta's H.264 videos, so video ads show a frame instead of "trouble playing this video".
+  const browser = await chromium.launch({ channel: 'chrome' }).catch(() => chromium.launch());
   // Ad Library geo is a URL filter, so no proxy is needed here.
   const ctx = await browser.newContext({ viewport: { width: 1280, height: 1600 }, locale: 'en-US' });
   const page = await ctx.newPage();
@@ -146,6 +150,41 @@ async function main() {
         } catch {}
       }
     }
+    // Top creative: the first card of the list sorted by impressions (high to low). Several sources (one page per
+    // language, or a domain search) → the source with the most active ads. Screenshot kept as ads/<app>-top.webp.
+    const tops = [];
+    for (const src of srcs) {
+      const url = libUrl(app.geo, src, 'impressions');
+      try {
+        const r = await scrape(page, url, { scroll: false });
+        let cards = r.cards;
+        if (src.type === 'domain') cards = cards.filter(c => c.link && new URL(c.link).hostname.endsWith(src.value.replace(/^www\./, '')));
+        if (cards[0]) tops.push({ src, url, card: cards[0], rank: cards.slice(0, 5).map(c => c.id), sorted: r.sortedByImpressions, weight: out.sources.find(x => x.value === src.value)?.[src.type === 'page' ? 'results' : 'kept'] || 0 });
+      } catch (e) { out.sources.push({ ...src, url, error: 'top: ' + String(e).slice(0, 160) }); continue; }
+      const best = tops.at(-1);
+      if (best && best.src === src) {
+        const loc = page.locator(`[data-cfw-id="${best.card.id}"]`);
+        try {
+          await loc.scrollIntoViewIfNeeded();
+          await loc.evaluate(c => c.querySelectorAll('video').forEach(v => {
+            if (!v.poster) return;
+            const img = document.createElement('img'); img.src = v.poster; img.style.cssText = 'width:100%;height:auto;display:block';
+            v.replaceWith(img);
+          })).catch(() => {});
+          await sleep(1500);
+          best.file = `${app.id}-top-${sha(src.value)}.webp`;
+          await sharp(await loc.screenshot({ timeout: 15000 })).resize({ width: 600, withoutEnlargement: true }).webp({ quality: 72 }).toFile(path.join(OUT, best.file));
+        } catch { best.file = null; }
+      }
+    }
+    const top = tops.sort((a, b) => b.weight - a.weight)[0];
+    if (top) {
+      const c = top.card, n = c.link ? normalizeUrl(c.link) : null;
+      const started = toISO(c.started);
+      out.top = { id: c.id, started, daysRunning: started ? Math.round((Date.parse(runDate) - Date.parse(started)) / 864e5) : null, versions: c.versions,
+        page: c.page, body: c.body, headline: c.headline, cta: c.cta, video: c.video, link: c.link, key: n?.key || null, store: n ? isStoreOrSocial(n.host) : null,
+        shot: top.file || null, next: top.rank.slice(1), sortedByImpressions: top.sorted, url: top.url };
+    }
     // Page result counts are Meta's estimates; for domain searches use the filtered count.
     // Domain searches can match other advertisers; trust Meta's total only when nearly all parsed ads were the app's own.
     out.activeEstimate = out.sources.reduce((s, x) => s + (x.type === 'page' ? (x.results || 0) : (x.kept || 0)), 0);
@@ -153,7 +192,7 @@ async function main() {
     out.newInWindow = out.ads.filter(a => a.startedISO && a.startedISO >= windowStart).reduce((s, a) => s + a.versions, 0);
     out.newCreativesInWindow = out.ads.filter(a => a.startedISO && a.startedISO >= windowStart).length;
     writeJSON(path.join(OUT, `${app.id}.json`), out);
-    summary.push({ id: app.id, active: out.activeEstimate, newInWindow: out.newInWindow, landings: Object.keys(out.landing).length, errors: out.sources.filter(s => s.error).length });
+    summary.push({ id: app.id, active: out.activeEstimate, newInWindow: out.newInWindow, landings: Object.keys(out.landing).length, top: out.top?.id || null, topSorted: out.top?.sortedByImpressions ?? null, errors: out.sources.filter(s => s.error).length });
     console.log(app.id, JSON.stringify(summary.at(-1)));
   }
   await browser.close();

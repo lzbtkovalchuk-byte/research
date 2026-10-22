@@ -9,6 +9,7 @@ on:
       force: { description: "Run even if the last run was less than 13 days ago", type: boolean, default: true }
       only:  { description: "Comma-separated app ids to test (empty = all)", required: false, default: "" }
       run_date: { description: "Write into an existing run folder (YYYY-MM-DD) instead of today's", required: false, default: "" }
+      ads_only: { description: "Only collect Meta ads (skip walking funnels)", type: boolean, default: false }
 permissions:
   contents: write
 concurrency: { group: collect, cancel-in-progress: false }
@@ -37,7 +38,7 @@ jobs:
         env: { ONLY: "${{ inputs.only }}", RUN_DATE: "${{ inputs.run_date }}" }
         run: node src/collect_ads.js
       - name: Walk funnels
-        if: steps.due.outputs.run == 'true'
+        if: steps.due.outputs.run == 'true' && inputs.ads_only != true
         timeout-minutes: 100
         continue-on-error: true
         env:

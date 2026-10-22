@@ -138,6 +138,19 @@ const screensHTML = firstRun
 
 const adRows = comps.map(a => { const x = dApp(a.id).ads; const dc = x?.delta > 0 ? 'up' : x?.delta < 0 ? 'down' : ''; return `<tr data-topic="${topicOf(a)}"><td>${esc(a.name)}</td><td><span class="tags">${TAGS[topicOf(a)]}</span></td><td>${a.geo === 'GB' ? 'UK' : 'US'}</td><td class="r">${x ? x.active.toLocaleString('en-US') : '—'}</td><td class="r ${dc}">${x?.delta == null ? '—' : (x.delta > 0 ? '+' : x.delta < 0 ? '−' : '') + Math.abs(x.delta)}</td><td class="r">${x?.newInWindow ?? '—'}</td></tr>`; }).join('');
 
+// ---------- top creative by impressions (Ad Library sorted high to low) ----------
+const adsOf = (dir, id) => dir ? readJSON(path.join(dir, 'ads', `${id}.json`), null) : null;
+const topCards = comps.map(a => {
+  const t = adsOf(RUN, a.id)?.top; if (!t) return '';
+  const pt = adsOf(PREV, a.id)?.top;
+  const was = !pt ? '<span class="badge c">First check</span>' : pt.id === t.id ? `<span class="badge">Same as ${fmtDate(diff.previous)}</span>` : '<span class="badge n">New top creative</span>';
+  const src = t.shot && img(path.join(RUN, 'ads', t.shot));
+  const since = t.started ? `Running since ${fmtDate(t.started)}${t.daysRunning != null ? ` (${t.daysRunning} days)` : ''}` : 'Start date not shown';
+  const where = t.key ? (t.store ? 'App store' : esc(short(t.key))) : 'No link';
+  return `<article class="topc" data-topic="${topicOf(a)}">${src ? `<div class="frame"><img src="${src}" alt="Top ad of ${esc(a.name)}" loading="lazy" data-cap="${esc(a.name)} · top creative by impressions · Library ID ${esc(t.id)}"></div>` : '<div class="noimg">No screenshot</div>'}<div class="tb"><h4>${esc(a.name)} ${was}</h4>${t.body ? `<p class="copy">${esc(t.body)}</p>` : ''}<p>${since}${t.versions > 1 ? ` · ${t.versions} versions` : ''}${t.video ? ' · video' : ''}</p><p>Leads to <code>${where}</code></p>${t.sortedByImpressions === false ? '<p>Sorting by impressions could not be confirmed for this app.</p>' : ''}</div></article>`;
+}).filter(Boolean);
+const topsHTML = topCards.length ? `<h3 style="margin-top:28px">Top creative by impressions</h3><p class="sub">The first ad in Meta’s Ad Library sorted by impressions, high to low, in each app’s geo. Meta doesn’t publish the numbers for these ads, only the order.</p><div class="tops">${topCards.join('')}</div>` : '';
+
 const allLinks = apps.flatMap(a => linkChanges(a.id).map(l => ({ ...l, a })));
 const linkRows = allLinks.map(l => `<tr data-topic="${topicOf(l.a)}"><td>${esc(l.a.name)}</td><td><span class="badge ${{ new: 'n', changed: 'c', removed: 'x' }[l.status]}">${l.status[0].toUpperCase() + l.status.slice(1)}</span></td><td class="lk">${l.status === 'changed' ? `<del>${esc(l.from)}</del> <ins>${esc(l.key)}</ins>` : l.status === 'removed' ? `<del>${esc(l.key)}</del>` : `<ins>${esc(l.key)}</ins>`}</td><td class="r">${l.ads ?? l.prevAds ?? 0}</td></tr>`).join('');
 const linksHTML = firstRun ? '<p class="empty-note">Baseline run: link changes are tracked from the next run.</p>'
@@ -189,7 +202,7 @@ const html = `<!doctype html>
 <div class="legend"><span>Funnel screens changed</span><span class="minor">Links or ads changed</span></div></section>
 <section id="screens"><h2>Changed screens</h2><p class="sub">Previous on the left, current on the right. Yellow boxes mark what changed; tap a screen to enlarge.</p>${screensHTML}</section>
 <section id="ads"><h2>Meta ads activity</h2><p class="sub">Active ads now, change since ${fmtDate(diff.previous)}, and ads started in the window. Counts are Meta’s estimates; each app uses its own geo.</p>
-<div class="tbl"><table><thead><tr><th>App</th><th>Topic</th><th>Geo</th><th class="r">Active</th><th class="r">Δ</th><th class="r">New</th></tr></thead><tbody>${adRows}</tbody></table></div></section>
+<div class="tbl"><table><thead><tr><th>App</th><th>Topic</th><th>Geo</th><th class="r">Active</th><th class="r">Δ</th><th class="r">New</th></tr></thead><tbody>${adRows}</tbody></table></div>${topsHTML}</section>
 <section id="links"><h2>Funnel link changes</h2><p class="sub">Only new, changed or removed links. Tracking parameters are ignored.</p>${linksHTML}</section>
 <section id="skillsta"><h2>Skillsta funnels</h2>${ampHTML}${sk.length ? `<div class="wcbox" style="margin-top:14px">${skWC}</div>` : ''}</section>
 ${ideas ? `<section id="ideas"><h2>Ideas from this update</h2><div class="hyp"><ol>${ideas}</ol></div></section>` : ''}
