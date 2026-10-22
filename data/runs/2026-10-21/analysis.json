@@ -9,7 +9,7 @@
   "learna": "No screen changes. Ads: 46 new in two weeks, +480 active (644 now).",
   "memoryos": "No screen changes. Ad links changed: new new-h2 funnel, mos_cfg seniors_s → read003b, seniors_o removed.",
   "smartyme": "No screen changes. Ads: 51 new in two weeks, −91 active (109 now).",
-  "simply-sing": "No screen changes. Its funnel from ads (singyourheartout) reaches the same paywall as Simply Piano.",
+  "simply-sing": "No screen changes. Paywall captured for the first time: no free trial, 12 months $4.99/mo ($59.88/yr) or 1 month $14.99. Its ad landing (join-sing/welcome) only links to the App Store.",
   "chillio": "No changes.",
   "simply-draw": "No changes."
  },
@@ -974,6 +974,88 @@
    "n": 49,
    "hide": true,
    "title": "capture difference, checked on the screenshots",
+   "notes": []
+  },
+  {
+   "app": "simply-sing",
+   "funnel": "join-sing.hellosimply.com/start",
+   "n": 14,
+   "title": "Paywall captured for the first time",
+   "notes": [
+    "Last run the walk stopped at “What best describes your voice?” (the voice step plays audio the old browser could not decode).",
+    "“No Commitment. Cancel Anytime.”, no free trial: 12 months $4.99/mo ($59.88 billed annually, “Save 67%”, crossed-out $14.99/mo) or 1 month $14.99; PayPal or card."
+   ]
+  },
+  {
+   "app": "simply-sing",
+   "funnel": "join-sing.hellosimply.com/start",
+   "n": 1,
+   "hide": true,
+   "title": "capture difference / first capture past step 7",
+   "notes": []
+  },
+  {
+   "app": "simply-sing",
+   "funnel": "join-sing.hellosimply.com/start",
+   "n": 3,
+   "hide": true,
+   "title": "capture difference / first capture past step 7",
+   "notes": []
+  },
+  {
+   "app": "simply-sing",
+   "funnel": "join-sing.hellosimply.com/start",
+   "n": 5,
+   "hide": true,
+   "title": "capture difference / first capture past step 7",
+   "notes": []
+  },
+  {
+   "app": "simply-sing",
+   "funnel": "join-sing.hellosimply.com/start",
+   "n": 8,
+   "hide": true,
+   "title": "capture difference / first capture past step 7",
+   "notes": []
+  },
+  {
+   "app": "simply-sing",
+   "funnel": "join-sing.hellosimply.com/start",
+   "n": 9,
+   "hide": true,
+   "title": "capture difference / first capture past step 7",
+   "notes": []
+  },
+  {
+   "app": "simply-sing",
+   "funnel": "join-sing.hellosimply.com/start",
+   "n": 10,
+   "hide": true,
+   "title": "capture difference / first capture past step 7",
+   "notes": []
+  },
+  {
+   "app": "simply-sing",
+   "funnel": "join-sing.hellosimply.com/start",
+   "n": 11,
+   "hide": true,
+   "title": "capture difference / first capture past step 7",
+   "notes": []
+  },
+  {
+   "app": "simply-sing",
+   "funnel": "join-sing.hellosimply.com/start",
+   "n": 12,
+   "hide": true,
+   "title": "capture difference / first capture past step 7",
+   "notes": []
+  },
+  {
+   "app": "simply-sing",
+   "funnel": "join-sing.hellosimply.com/start",
+   "n": 13,
+   "hide": true,
+   "title": "capture difference / first capture past step 7",
    "notes": []
   }
  ],

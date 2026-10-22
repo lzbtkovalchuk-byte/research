@@ -97,7 +97,6 @@ competitors:
     seeds: ["https://join-sing.hellosimply.com/start"]
     # singyourheartout redirects to the Simply Piano funnel (join-piano), so it is not walked for Simply Sing.
     skip_links: ["welcome.hellosimply.com/singyourheartout"]
-    debug: true          # records console/network/audio errors to debug.json (the voice step failed to decode its audio)
     browser: chrome      # Google Chrome: plays the AAC/MP4 audio the voice step waits for (Playwright's Chromium can't)
     headed: true         # voice-type test: run in a full browser with the sung-melody mic input
 
