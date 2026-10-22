@@ -185,12 +185,21 @@ steps=36 stop=paywall email@35 paywall@36 popups=0 prices=$9.99 $39.99 $19.99 $7
 - [REMOVED] previous screen 38 paywall "09": data/runs/2026-10-13/funnels/copymind/2162dca161b4/38.webp
 
 ### simply-sing — Simply Sing [vocal] — join-sing.hellosimply.com/welcome?campaign_type=web_to_app&platform=iOS
-steps=1 stop=stuck email@— paywall@— popups=0 prices=— discount=— timer=false trial=false moneyBack=false
+steps=1 stop=app_store email@— paywall@— popups=0 prices=— discount=— timer=false trial=false moneyBack=false
 no screen changes
 
 ### simply-sing — Simply Sing [vocal] — join-sing.hellosimply.com/start
-steps=7 stop=stuck email@— paywall@— popups=0 prices=— discount=— timer=false trial=false moneyBack=false
+steps=14 stop=paywall email@13 paywall@14 popups=0 prices=$59.88 $4.99 $14.99 discount=67 timer=false trial=false moneyBack=false
+- [CHANGED] screen 1 info "No song is out of reach" (1 changed regions): data/runs/2026-10-13/funnels/simply-sing/228524b7bc31/01.webp → data/runs/2026-10-21/funnels/simply-sing/228524b7bc31/01.webp
+- [CHANGED] screen 3 question "Why do you sing?" (1 changed regions): data/runs/2026-10-13/funnels/simply-sing/228524b7bc31/03.webp → data/runs/2026-10-21/funnels/simply-sing/228524b7bc31/03.webp
 - [CHANGED] screen 5 question "What kinds of songs do you like to sing?" (2 changed regions): data/runs/2026-10-13/funnels/simply-sing/228524b7bc31/05.webp → data/runs/2026-10-21/funnels/simply-sing/228524b7bc31/05.webp
+- [NEW] screen 8 question "How old are you?": data/runs/2026-10-21/funnels/simply-sing/228524b7bc31/08.webp
+- [NEW] screen 9 info "About 45% of your favorite songs fit comfortably in your ran": data/runs/2026-10-21/funnels/simply-sing/228524b7bc31/09.webp
+- [NEW] screen 10 question "How much do you relate to this?": data/runs/2026-10-21/funnels/simply-sing/228524b7bc31/10.webp
+- [NEW] screen 11 info "We get it! 87% find high notes hard 💪": data/runs/2026-10-21/funnels/simply-sing/228524b7bc31/11.webp
+- [NEW] screen 12 info "Why Simply Sing is the #1 singing experience": data/runs/2026-10-21/funnels/simply-sing/228524b7bc31/12.webp
+- [NEW] screen 13 email "Sign up to start your musical journey with Simply Sing CREAT": data/runs/2026-10-21/funnels/simply-sing/228524b7bc31/13.webp
+- [NEW] screen 14 paywall "No Commitment. Cancel Anytime.": data/runs/2026-10-21/funnels/simply-sing/228524b7bc31/14.webp
 
 ### yousician — Yousician [vocal] — yousician.com/
 steps=9 stop=paywall email@— paywall@9 popups=0 prices=$13.33 $159.99 discount=50 timer=false trial=true moneyBack=false

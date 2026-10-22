@@ -6,13 +6,14 @@
   "adShot": null,
   "adId": null,
   "dir": "funnels/simply-sing/228524b7bc31",
-  "stop": "stuck",
+  "stop": "paywall",
   "proxied": false,
-  "email": "yelyzavetabazyla+fw2610210830simplysing2@gmail.com",
+  "email": "yelyzavetabazyla+fw2610210855simplysing2@gmail.com",
   "emailNote": null,
   "signedUp": null,
   "restartUrl": null,
-  "finalUrl": "https://join-sing.hellosimply.com/get-plan",
+  "storeLink": null,
+  "finalUrl": "https://join-sing.hellosimply.com/start/subscribe",
   "steps": [
     {
       "n": 1,
@@ -22,8 +23,8 @@
       "title": "No song is out of reach",
       "kind": "info",
       "text": "No song is out of reach\nEnjoy singing your favorite songs adjusted to your voice\nGET STARTED\n4.7 stars from over 200k singers",
-      "textHash": "a6cb87a66917",
-      "dhash": "0000101000001100000001001011001000111101000111100000011100000111",
+      "textHash": "4b7342734e18",
+      "dhash": "1110100011000100111011001111010001110011001101110001010100010111",
       "h": 844,
       "prices": [],
       "action": {
@@ -53,9 +54,9 @@
       "path": "/start/conversation/why_do_you_sing",
       "title": "Why do you sing?",
       "kind": "question",
-      "text": "Why do you sing?\nYou can pick more than one\nIt helps me relax\nIts helps me express myself\nIt makes me feel good\nOther\nCONTINUE",
-      "textHash": "f1d571d8dc92",
-      "dhash": "0111000100101011110011001001011010010100000000010000000000001101",
+      "text": "Why do you sing?\nYou can pick more than one\nIt makes me feel good\nIt helps me relax\nIts helps me express myself\nOther\nCONTINUE",
+      "textHash": "6f02a2c4deff",
+      "dhash": "0110100100101011110001001001110010010000000000010000000000001101",
       "h": 844,
       "prices": [],
       "action": {
@@ -86,13 +87,13 @@
       "path": "/start/conversation/song_generes",
       "title": "What kinds of songs do you like to sing?",
       "kind": "question",
-      "text": "What kinds of songs do you like to sing?\nChoose your top 3 genres\nHip Hop & Rap\nDisney\nCountry & Folk\nTV & Movies\nPop\nChristian & Gospel\nJazz & Blues\nRock\nMusicals\nR&B & Soul\nCONTINUE",
-      "textHash": "b5c5d743f979",
-      "dhash": "0011101100000111100001101001100010011000100111001001110010011000",
+      "text": "What kinds of songs do you like to sing?\nChoose your top 3 genres\nDisney\nMusicals\nJazz & Blues\nHip Hop & Rap\nTV & Movies\nChristian & Gospel\nR&B & Soul\nRock\nPop\nCountry & Folk\nCONTINUE",
+      "textHash": "bcc97a378472",
+      "dhash": "0011101100000111100101101001100010011000100111001001110010110000",
       "h": 1059,
       "prices": [],
       "action": {
-        "opt": "Hip Hop & Rap + Disney + Country & Folk",
+        "opt": "Disney + Musicals + Jazz & Blues",
         "cta": "CONTINUE"
       }
     },
@@ -127,19 +128,138 @@
       "action": {
         "opt": "Female voice"
       }
+    },
+    {
+      "n": 8,
+      "file": "08.webp",
+      "url": "https://join-sing.hellosimply.com/start/conversation/your_age",
+      "path": "/start/conversation/your_age",
+      "title": "How old are you?",
+      "kind": "question",
+      "text": "How old are you?\nYour age can impact your vocal range\n7-12\n13-18\n19-24\n25-34\n35-44\n45-54\n55-64\n65+",
+      "textHash": "c06e08f2260c",
+      "dhash": "0110101100101011111001001110010011100100111001001110010011000000",
+      "h": 844,
+      "prices": [],
+      "action": {
+        "opt": "25-34"
+      }
+    },
+    {
+      "n": 9,
+      "file": "09.webp",
+      "url": "https://join-sing.hellosimply.com/start/conversation/age_fact",
+      "path": "/start/conversation/age_fact",
+      "title": "About 45% of your favorite songs fit comfortably in your range",
+      "kind": "info",
+      "text": "About 45% of your favorite songs fit comfortably in your range\nCONTINUE",
+      "textHash": "ffbd8a2557aa",
+      "dhash": "0110100100010111100101101001100110011110000101000110000000001101",
+      "h": 844,
+      "prices": [],
+      "action": {
+        "cta": "CONTINUE"
+      }
+    },
+    {
+      "n": 10,
+      "file": "10.webp",
+      "url": "https://join-sing.hellosimply.com/start/conversation/singing_hardship",
+      "path": "/start/conversation/singing_hardship",
+      "title": "How much do you relate to this?",
+      "kind": "question",
+      "text": "How much do you relate to this?\nI struggle with those high notes. I either strain or have to stop singing when it gets too high.\n1\n2\n3\n4\n5\nNot at all\nVery much\nCONTINUE",
+      "textHash": "2a38ffae87ff",
+      "dhash": "0011001100010011010011010101000101001001110100000100000100001101",
+      "h": 844,
+      "prices": [],
+      "action": {
+        "opt": "3"
+      }
+    },
+    {
+      "n": 11,
+      "file": "11.webp",
+      "url": "https://join-sing.hellosimply.com/start/conversation/singing_hardship_response",
+      "path": "/start/conversation/singing_hardship_response",
+      "title": "We get it! 87% find high notes hard 💪",
+      "kind": "info",
+      "text": "We get it! 87% find high notes hard 💪\nHigh or low, Simply Sing puts every song within your reach\nSee how it works",
+      "textHash": "afac02cf93f9",
+      "dhash": "0111001101110011000011110100110101001100010011001100110000010111",
+      "h": 844,
+      "prices": [],
+      "action": {
+        "opt": "See how it works"
+      }
+    },
+    {
+      "n": 12,
+      "file": "12.webp",
+      "url": "https://join-sing.hellosimply.com/start/conversation/start_free_trial",
+      "path": "/start/conversation/start_free_trial",
+      "title": "Why Simply Sing is the #1 singing experience",
+      "kind": "info",
+      "text": "Why Simply Sing is the #1 singing experience\nFull voice type analysis\nEvery song adjusted to your voice\nResponsive pitch feedback\nJoin millions already singing worldwide\nSinging with Simply Sing makes me feel so happy and free!\nMatilda M.\nToronto, Canada\nMy voice is no longer breaking and I can reach the high notes\nLena S.\nBoston, USA\nI can now nail the hard songs I always wanted to sing\nKevin T.\nBristol, UK\nIt’s fun and I’m not straining anymore when I sing\nJessica R.\nLos Angeles, USA\nIt’s helped me sing with more confidence\nJake P.\nLondon, UK\nSinging with Simply Sing makes me feel so happy and free!\nMatilda M.\nToronto, Canada\nMy voice is no longer breaking and I can reach the high notes\nLena S.\nBoston, USA\nI can now nail the hard songs I always wanted to sing\nKevin T.\nBristol, UK\nIt’s fun and I’m not straining anymore when I sing\nJessica R.\nLos Angeles, USA\nIt’s helped me sing with more confidence\nJake P.\nLondon, UK\nSinging with Simply Sing makes me feel so happy and free!\nMatilda M.\nToronto, Canada\nMy voice is no longer breaking and I can reach the high notes\nLena S.\nBoston, USA\nI can now nail the hard songs I always wanted to sing\nKevin T.\nBristol, UK\nIt’s fun and I’m not straining anymore when I sing\nJessica R.\nLos Angeles, USA\nIt’s helped me sing with more confidence\nJake P.\nLondon, UK\nTry it now",
+      "textHash": "ce460be82e09",
+      "dhash": "0101101100010111001001000010010100100101011001000010100100010111",
+      "h": 1458,
+      "prices": [],
+      "action": {
+        "opt": "Try it now"
+      }
+    },
+    {
+      "n": 13,
+      "file": "13.webp",
+      "url": "https://join-sing.hellosimply.com/start/createAccount",
+      "path": "/start/createAccount",
+      "title": "Sign up to start your musical journey with Simply Sing CREATE FREE ACCOUNT",
+      "kind": "email",
+      "text": "Sign up to start your musical journey with Simply Sing\nCREATE FREE ACCOUNT",
+      "textHash": "a6f295069232",
+      "dhash": "1100110011001100001101110001011100101011001000110100100000000000",
+      "h": 844,
+      "prices": [],
+      "action": {
+        "filled": true,
+        "email": "yelyzavetabazyla+fw2610210855simplysing2@gmail.com",
+        "fallback": "CREATE FREE ACCOUNT"
+      }
+    },
+    {
+      "n": 14,
+      "file": "14.webp",
+      "url": "https://join-sing.hellosimply.com/start/subscribe",
+      "path": "/start/subscribe",
+      "title": "No Commitment. Cancel Anytime.",
+      "kind": "paywall",
+      "text": "No Commitment. Cancel Anytime.\nSave 67%\n12 months\n$59.88 billed annually\n$4.99/mo\n$14.99/mo\n1 month\n$14.99 billed monthly\n$14.99/mo\nor with credit card\nSUBSCRIBE\nCancel AnytimeSecure Payment\nYour 60% discount ends soon: NaN:0NaN\nSUBSCRIBE\nSing the songs you love with confidence!\nHit every note, every time\nDiscover your unique voice\nFind your own tone\nAvailable on iOS and Android\nTerms of use and privacy policy\nThis site is protected by reCAPTCHA and the Google Privacy Policy and Terms of Service apply.",
+      "textHash": "71439a1fc326",
+      "dhash": "0100110000001111001101110100010100110011011010010111100101001011",
+      "h": 1507,
+      "prices": [
+        "$59.88",
+        "$4.99",
+        "$14.99"
+      ]
     }
   ],
   "features": {
-    "totalSteps": 7,
-    "stop": "stuck",
-    "emailStep": null,
-    "paywallStep": null,
-    "questions": 3,
+    "totalSteps": 14,
+    "stop": "paywall",
+    "emailStep": 13,
+    "paywallStep": 14,
+    "questions": 5,
     "socialProof": 0,
     "popups": 0,
     "loader": false,
-    "prices": [],
-    "discount": null,
+    "prices": [
+      "$59.88",
+      "$4.99",
+      "$14.99"
+    ],
+    "discount": "67",
     "timer": false,
     "trial": false,
     "moneyBack": false

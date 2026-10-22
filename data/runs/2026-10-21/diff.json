@@ -3226,10 +3226,18 @@
           "prevSteps": 7,
           "status": [
             {
-              "s": "same",
+              "s": "changed",
               "prev": 1,
-              "why": "",
-              "prevFile": "01.webp"
+              "why": "text",
+              "prevFile": "01.webp",
+              "boxes": [
+                {
+                  "t": 0,
+                  "l": 0,
+                  "w": 100,
+                  "h": 78.65
+                }
+              ]
             },
             {
               "s": "same",
@@ -3238,10 +3246,18 @@
               "prevFile": "02.webp"
             },
             {
-              "s": "same",
+              "s": "changed",
               "prev": 3,
               "why": "text",
-              "prevFile": "03.webp"
+              "prevFile": "03.webp",
+              "boxes": [
+                {
+                  "t": 29.18,
+                  "l": 28.46,
+                  "w": 54.62,
+                  "h": 5.69
+                }
+              ]
             },
             {
               "s": "same",
@@ -3280,6 +3296,27 @@
               "prev": 7,
               "why": "",
               "prevFile": "07.webp"
+            },
+            {
+              "s": "new"
+            },
+            {
+              "s": "new"
+            },
+            {
+              "s": "new"
+            },
+            {
+              "s": "new"
+            },
+            {
+              "s": "new"
+            },
+            {
+              "s": "new"
+            },
+            {
+              "s": "new"
             }
           ],
           "removed": []

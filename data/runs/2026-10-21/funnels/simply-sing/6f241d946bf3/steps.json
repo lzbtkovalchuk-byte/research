@@ -6,13 +6,14 @@
   "adShot": "simply-sing-6f241d946bf3.webp",
   "adId": "1145661104456809",
   "dir": "funnels/simply-sing/6f241d946bf3",
-  "stop": "stuck",
+  "stop": "app_store",
   "proxied": false,
-  "email": "yelyzavetabazyla+fw2610210830simplysing1@gmail.com",
+  "email": "yelyzavetabazyla+fw2610210855simplysing1@gmail.com",
   "emailNote": null,
   "signedUp": null,
   "restartUrl": null,
-  "finalUrl": "https://join-sing.hellosimply.com/get-plan",
+  "storeLink": "https://apps.apple.com/US/app/id1592900217?mt=8&at=666934&ct=Facebook%20Ads-%7B%7Bcampaign.name%7D%7D",
+  "finalUrl": "https://join-sing.hellosimply.com/welcome/?utm_source=Facebook%20Ads&af_adset_id={{adset.id}}&utm_campaign={{campaign.name}}&af_c_id={{campaign.id}}&utm_content={{ad.name}}&placemnt={{placement}}&sitesource={{site_source_name}}&af_click_lookback=30d&platform=iOS&campaign_type=web_to_app&af_ad={{ad.name}}&af_ad_id={{ad.id}}",
   "steps": [
     {
       "n": 1,
@@ -33,7 +34,7 @@
   ],
   "features": {
     "totalSteps": 1,
-    "stop": "stuck",
+    "stop": "app_store",
     "emailStep": null,
     "paywallStep": null,
     "questions": 1,

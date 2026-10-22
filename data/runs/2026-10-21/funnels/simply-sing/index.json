@@ -8,7 +8,7 @@
     {
       "key": "join-sing.hellosimply.com/welcome?campaign_type=web_to_app&platform=iOS",
       "dir": "funnels/simply-sing/6f241d946bf3",
-      "stop": "stuck",
+      "stop": "app_store",
       "steps": 1,
       "why": "ad",
       "ads": 28
@@ -16,8 +16,8 @@
     {
       "key": "join-sing.hellosimply.com/start",
       "dir": "funnels/simply-sing/228524b7bc31",
-      "stop": "stuck",
-      "steps": 7,
+      "stop": "paywall",
+      "steps": 14,
       "why": "seed",
       "ads": 0
     }
