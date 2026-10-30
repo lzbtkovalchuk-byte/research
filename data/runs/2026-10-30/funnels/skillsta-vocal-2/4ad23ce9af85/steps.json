@@ -1,0 +1,32 @@
+{
+  "url": "https://www.getskillnow.com/quiz?utm_adname=cf_new_vocal",
+  "key": "getskillnow.com/quiz",
+  "why": "seed",
+  "ads": 0,
+  "adShot": null,
+  "adId": null,
+  "dir": "funnels/skillsta-vocal-2/4ad23ce9af85",
+  "stop": "error: Invalid URL",
+  "proxied": false,
+  "email": null,
+  "signedUp": null,
+  "restartUrl": null,
+  "finalUrl": null,
+  "exitCountry": null,
+  "steps": [],
+  "features": {
+    "totalSteps": 0,
+    "stop": "error: Invalid URL",
+    "emailStep": null,
+    "paywallStep": null,
+    "questions": 0,
+    "socialProof": 0,
+    "popups": 0,
+    "loader": false,
+    "prices": [],
+    "discount": null,
+    "timer": false,
+    "trial": false,
+    "moneyBack": false
+  }
+}

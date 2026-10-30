@@ -1,0 +1,32 @@
+{
+  "url": "https://join-draw.hellosimply.com/start?flow=baw&utm_source=facebook&utm_medium={{adset.id}}&utm_campaign={{campaign.id}}&utm_content={{ad.name}}&placement={{placement}}&sitesource={{site_source_name}}&ad_id={{ad.id}}",
+  "key": "join-draw.hellosimply.com/start?flow=baw",
+  "why": "ad",
+  "ads": 9,
+  "adShot": "simply-draw-ae1631c99eb6.webp",
+  "adId": "28655835314068070",
+  "dir": "funnels/simply-draw/ae1631c99eb6",
+  "stop": "error: Invalid URL",
+  "proxied": false,
+  "email": null,
+  "signedUp": null,
+  "restartUrl": null,
+  "finalUrl": null,
+  "exitCountry": null,
+  "steps": [],
+  "features": {
+    "totalSteps": 0,
+    "stop": "error: Invalid URL",
+    "emailStep": null,
+    "paywallStep": null,
+    "questions": 0,
+    "socialProof": 0,
+    "popups": 0,
+    "loader": false,
+    "prices": [],
+    "discount": null,
+    "timer": false,
+    "trial": false,
+    "moneyBack": false
+  }
+}

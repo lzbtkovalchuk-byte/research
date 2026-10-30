@@ -1,0 +1,32 @@
+{
+  "url": "https://www.getskillnow.com/quiz/voice_assessment/voice_assessment?utm_adname=CF_voice_assessment",
+  "key": "getskillnow.com/quiz/voice_assessment/voice_assessment",
+  "why": "seed",
+  "ads": 0,
+  "adShot": null,
+  "adId": null,
+  "dir": "funnels/skillsta-vocal-scanner/64e78223efd7",
+  "stop": "error: Invalid URL",
+  "proxied": false,
+  "email": null,
+  "signedUp": null,
+  "restartUrl": null,
+  "finalUrl": null,
+  "exitCountry": null,
+  "steps": [],
+  "features": {
+    "totalSteps": 0,
+    "stop": "error: Invalid URL",
+    "emailStep": null,
+    "paywallStep": null,
+    "questions": 0,
+    "socialProof": 0,
+    "popups": 0,
+    "loader": false,
+    "prices": [],
+    "discount": null,
+    "timer": false,
+    "trial": false,
+    "moneyBack": false
+  }
+}

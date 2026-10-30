@@ -1,0 +1,32 @@
+{
+  "url": "https://start.memoryos.com/new-h2?thm=light",
+  "key": "start.memoryos.com/new-h2?thm=light",
+  "why": "ad",
+  "ads": 6,
+  "adShot": "memoryos-7488926e110a.webp",
+  "adId": "1654587386058717",
+  "dir": "funnels/memoryos/7488926e110a",
+  "stop": "error: Invalid URL",
+  "proxied": false,
+  "email": null,
+  "signedUp": null,
+  "restartUrl": null,
+  "finalUrl": null,
+  "exitCountry": null,
+  "steps": [],
+  "features": {
+    "totalSteps": 0,
+    "stop": "error: Invalid URL",
+    "emailStep": null,
+    "paywallStep": null,
+    "questions": 0,
+    "socialProof": 0,
+    "popups": 0,
+    "loader": false,
+    "prices": [],
+    "discount": null,
+    "timer": false,
+    "trial": false,
+    "moneyBack": false
+  }
+}

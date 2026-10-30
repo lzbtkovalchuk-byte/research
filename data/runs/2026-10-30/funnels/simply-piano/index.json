@@ -1,0 +1,25 @@
+{
+  "id": "simply-piano",
+  "name": "Simply Piano",
+  "geo": "US",
+  "skillsta": false,
+  "storeOnly": false,
+  "funnels": [
+    {
+      "key": "join-piano.hellosimply.com/start",
+      "dir": "funnels/simply-piano/81a94aaa84e1",
+      "stop": "error: Invalid URL",
+      "steps": 0,
+      "why": "ad",
+      "ads": 30
+    },
+    {
+      "key": "hellosimply.com/family/esa",
+      "dir": "funnels/simply-piano/684145bcfb5c",
+      "stop": "error: Invalid URL",
+      "steps": 0,
+      "why": "ad",
+      "ads": 5
+    }
+  ]
+}

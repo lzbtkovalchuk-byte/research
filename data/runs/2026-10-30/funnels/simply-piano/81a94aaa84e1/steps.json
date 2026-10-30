@@ -1,0 +1,32 @@
+{
+  "url": "https://join-piano.hellosimply.com/start?utm_source=facebook&utm_medium={{adset.id}}&utm_campaign={{campaign.id}}&utm_content={{ad.name}}&placement={{placement}}&sitesource={{site_source_name}}&ad_id={{ad.id}}",
+  "key": "join-piano.hellosimply.com/start",
+  "why": "ad",
+  "ads": 30,
+  "adShot": "simply-piano-81a94aaa84e1.webp",
+  "adId": "1631900042281301",
+  "dir": "funnels/simply-piano/81a94aaa84e1",
+  "stop": "error: Invalid URL",
+  "proxied": false,
+  "email": null,
+  "signedUp": null,
+  "restartUrl": null,
+  "finalUrl": null,
+  "exitCountry": null,
+  "steps": [],
+  "features": {
+    "totalSteps": 0,
+    "stop": "error: Invalid URL",
+    "emailStep": null,
+    "paywallStep": null,
+    "questions": 0,
+    "socialProof": 0,
+    "popups": 0,
+    "loader": false,
+    "prices": [],
+    "discount": null,
+    "timer": false,
+    "trial": false,
+    "moneyBack": false
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "url": "https://start.memoryos.com/new-s",
+  "key": "start.memoryos.com/new-s",
+  "why": "ad",
+  "ads": 1,
+  "adShot": "memoryos-8df162c3ae21.webp",
+  "adId": "1092248183621988",
+  "dir": "funnels/memoryos/8df162c3ae21",
+  "stop": "error: Invalid URL",
+  "proxied": false,
+  "email": null,
+  "signedUp": null,
+  "restartUrl": null,
+  "finalUrl": null,
+  "exitCountry": null,
+  "steps": [],
+  "features": {
+    "totalSteps": 0,
+    "stop": "error: Invalid URL",
+    "emailStep": null,
+    "paywallStep": null,
+    "questions": 0,
+    "socialProof": 0,
+    "popups": 0,
+    "loader": false,
+    "prices": [],
+    "discount": null,
+    "timer": false,
+    "trial": false,
+    "moneyBack": false
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "url": "https://quiz.get-chillio.app/qs/house-ai?utm_source=CHI_web_fb&utm_campaign={{campaign.name}}&utm_content={{adset.name}}&utm_ad={{ad.name}}&utm_id={{campaign.id}}&utm_term={{adset.id}}&ad_id={{ad.id}}",
+  "key": "quiz.get-chillio.app/qs/house-ai",
+  "why": "ad",
+  "ads": 4,
+  "adShot": "chillio-7b6db541533d.webp",
+  "adId": "1313799237423184",
+  "dir": "funnels/chillio/7b6db541533d",
+  "stop": "error: Invalid URL",
+  "proxied": false,
+  "email": null,
+  "signedUp": null,
+  "restartUrl": null,
+  "finalUrl": null,
+  "exitCountry": null,
+  "steps": [],
+  "features": {
+    "totalSteps": 0,
+    "stop": "error: Invalid URL",
+    "emailStep": null,
+    "paywallStep": null,
+    "questions": 0,
+    "socialProof": 0,
+    "popups": 0,
+    "loader": false,
+    "prices": [],
+    "discount": null,
+    "timer": false,
+    "trial": false,
+    "moneyBack": false
+  }
+}

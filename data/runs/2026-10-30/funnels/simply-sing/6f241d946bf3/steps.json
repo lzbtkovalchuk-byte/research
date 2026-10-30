@@ -1,0 +1,32 @@
+{
+  "url": "https://join-sing.hellosimply.com/welcome/?utm_source=Facebook Ads&af_adset_id={{adset.id}}&utm_campaign={{campaign.name}}&af_c_id={{campaign.id}}&utm_content={{ad.name}}&placemnt={{placement}}&sitesource={{site_source_name}}&af_click_lookback=30d&platform=iOS&campaign_type=web_to_app&af_ad={{ad.name}}&af_ad_id={{ad.id}}",
+  "key": "join-sing.hellosimply.com/welcome?campaign_type=web_to_app&platform=iOS",
+  "why": "ad",
+  "ads": 30,
+  "adShot": "simply-sing-6f241d946bf3.webp",
+  "adId": "1654620119508330",
+  "dir": "funnels/simply-sing/6f241d946bf3",
+  "stop": "error: Invalid URL",
+  "proxied": false,
+  "email": null,
+  "signedUp": null,
+  "restartUrl": null,
+  "finalUrl": null,
+  "exitCountry": null,
+  "steps": [],
+  "features": {
+    "totalSteps": 0,
+    "stop": "error: Invalid URL",
+    "emailStep": null,
+    "paywallStep": null,
+    "questions": 0,
+    "socialProof": 0,
+    "popups": 0,
+    "loader": false,
+    "prices": [],
+    "discount": null,
+    "timer": false,
+    "trial": false,
+    "moneyBack": false
+  }
+}

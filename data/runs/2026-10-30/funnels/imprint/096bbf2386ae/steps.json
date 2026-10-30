@@ -1,0 +1,32 @@
+{
+  "url": "https://www.imprintapp.com/start-buddhism",
+  "key": "imprintapp.com/start-buddhism",
+  "why": "ad",
+  "ads": 1,
+  "adShot": "imprint-096bbf2386ae.webp",
+  "adId": "2288997868602835",
+  "dir": "funnels/imprint/096bbf2386ae",
+  "stop": "error: Invalid URL",
+  "proxied": false,
+  "email": null,
+  "signedUp": null,
+  "restartUrl": null,
+  "finalUrl": null,
+  "exitCountry": null,
+  "steps": [],
+  "features": {
+    "totalSteps": 0,
+    "stop": "error: Invalid URL",
+    "emailStep": null,
+    "paywallStep": null,
+    "questions": 0,
+    "socialProof": 0,
+    "popups": 0,
+    "loader": false,
+    "prices": [],
+    "discount": null,
+    "timer": false,
+    "trial": false,
+    "moneyBack": false
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "url": "https://try-breeze.com/childhood/",
+  "key": "try-breeze.com/childhood",
+  "why": "ad",
+  "ads": 2,
+  "adShot": "breeze-cdffb5cb8655.webp",
+  "adId": "1378595517529870",
+  "dir": "funnels/breeze/cdffb5cb8655",
+  "stop": "error: Invalid URL",
+  "proxied": false,
+  "email": null,
+  "signedUp": null,
+  "restartUrl": null,
+  "finalUrl": null,
+  "exitCountry": null,
+  "steps": [],
+  "features": {
+    "totalSteps": 0,
+    "stop": "error: Invalid URL",
+    "emailStep": null,
+    "paywallStep": null,
+    "questions": 0,
+    "socialProof": 0,
+    "popups": 0,
+    "loader": false,
+    "prices": [],
+    "discount": null,
+    "timer": false,
+    "trial": false,
+    "moneyBack": false
+  }
+}

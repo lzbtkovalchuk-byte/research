@@ -1,0 +1,169 @@
+{
+  "id": "memoryos",
+  "name": "MemoryOS",
+  "geo": "US",
+  "collected": "2026-10-30",
+  "windowStart": "2026-10-21",
+  "sources": [
+    {
+      "type": "domain",
+      "value": "memoryos.com",
+      "url": "https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=US&media_type=all&search_type=keyword_unordered&q=memoryos.com",
+      "results": 180,
+      "parsed": 29,
+      "kept": 6
+    }
+  ],
+  "ads": [
+    {
+      "id": "1092248183621988",
+      "started": "Oct 20, 2026",
+      "versions": 1,
+      "page": "Brain Wellness Daily",
+      "body": "memoryOS combines gamified micro lessons with pre-made virtual mind palaces to improve your memory skills drastically. Proprietary technology and scientifically proven methods. Co-founded by 2X World Memory Champion Jonas von Essen.",
+      "caption": "MEMORYOS.COM",
+      "headline": "Unlock Your Sharper Mind",
+      "cta": "Learn more",
+      "video": false,
+      "link": "https://start.memoryos.com/new-s",
+      "startedISO": "2026-10-20",
+      "key": "start.memoryos.com/new-s",
+      "store": false
+    },
+    {
+      "id": "2290484515135370",
+      "started": "Oct 19, 2026",
+      "versions": 1,
+      "page": "memoryOS",
+      "body": "A personal trainer for your memory – in 5 minutes a day 🧠💪🏻",
+      "caption": "MEMORYOS.COM",
+      "headline": "Unlock Your Sharper Mind",
+      "cta": "memoryOS combines gamified micro lessons with pre-made virtual mind palaces to improve your memory skills drastically. Proprietary technology and scientifically proven methods. Co-founded by 2X World Memory Champion Jonas von Essen.",
+      "video": false,
+      "link": "https://start.memoryos.com/new-h2?thm=light",
+      "startedISO": "2026-10-19",
+      "key": "start.memoryos.com/new-h2?thm=light",
+      "store": false
+    },
+    {
+      "id": "1654587386058717",
+      "started": "Oct 27, 2026",
+      "versions": 2,
+      "page": "memoryOS",
+      "body": "A personal trainer for your memory – in 5 minutes a day 🧠💪🏻",
+      "caption": null,
+      "headline": "",
+      "cta": "",
+      "video": false,
+      "link": "https://start.memoryos.com/new-h2?thm=light",
+      "startedISO": "2026-10-27",
+      "key": "start.memoryos.com/new-h2?thm=light",
+      "store": false
+    },
+    {
+      "id": "1009290828860463",
+      "started": "Oct 20, 2026",
+      "versions": 1,
+      "page": "memoryOS",
+      "body": "A personal trainer for your memory – in 5 minutes a day 🧠💪🏻",
+      "caption": "MEMORYOS.COM",
+      "headline": "Unlock Your Sharper Mind",
+      "cta": "memoryOS combines gamified micro lessons with pre-made virtual mind palaces to improve your memory skills drastically. Proprietary technology and scientifically proven methods. Co-founded by 2X World Memory Champion Jonas von Essen.",
+      "video": false,
+      "link": "https://start.memoryos.com/new-h2?thm=light",
+      "startedISO": "2026-10-20",
+      "key": "start.memoryos.com/new-h2?thm=light",
+      "store": false
+    },
+    {
+      "id": "27922702717402757",
+      "started": "Oct 19, 2026",
+      "versions": 1,
+      "page": "memoryOS",
+      "body": "A personal trainer for your memory – in 5 minutes a day 🧠💪🏻",
+      "caption": "MEMORYOS.COM",
+      "headline": "Unlock Your Sharper Mind",
+      "cta": "Learn More",
+      "video": false,
+      "link": "https://start.memoryos.com/new-h2?thm=light",
+      "startedISO": "2026-10-19",
+      "key": "start.memoryos.com/new-h2?thm=light",
+      "store": false
+    },
+    {
+      "id": "2238607193718154",
+      "started": "Oct 19, 2026",
+      "versions": 1,
+      "page": "memoryOS",
+      "body": "A personal trainer for your memory – in 5 minutes a day 🧠💪🏻",
+      "caption": "MEMORYOS.COM",
+      "headline": "Unlock Your Sharper Mind",
+      "cta": "Learn more",
+      "video": false,
+      "link": "https://start.memoryos.com/new-h2?thm=light",
+      "startedISO": "2026-10-19",
+      "key": "start.memoryos.com/new-h2?thm=light",
+      "store": false
+    }
+  ],
+  "landing": {
+    "start.memoryos.com/new-s": {
+      "key": "start.memoryos.com/new-s",
+      "sample": "https://start.memoryos.com/new-s",
+      "store": false,
+      "ads": 1,
+      "creatives": 1,
+      "first": "2026-10-20",
+      "last": "2026-10-20",
+      "adIds": [
+        "1092248183621988"
+      ],
+      "shot": "memoryos-8df162c3ae21.webp",
+      "shotAd": "1092248183621988"
+    },
+    "start.memoryos.com/new-h2?thm=light": {
+      "key": "start.memoryos.com/new-h2?thm=light",
+      "sample": "https://start.memoryos.com/new-h2?thm=light",
+      "store": false,
+      "ads": 6,
+      "creatives": 5,
+      "first": "2026-10-19",
+      "last": "2026-10-27",
+      "adIds": [
+        "2290484515135370",
+        "1654587386058717",
+        "1009290828860463",
+        "27922702717402757",
+        "2238607193718154"
+      ],
+      "shot": "memoryos-7488926e110a.webp",
+      "shotAd": "1654587386058717"
+    }
+  },
+  "pageIds": {
+    "memoryOS": "107666117414750",
+    "Brian Calloway": "1174831152374584",
+    "Brain Wellness Daily": "1287216024481100"
+  },
+  "top": {
+    "id": "1092248183621988",
+    "started": "Oct 20, 2026",
+    "versions": 1,
+    "page": "Brain Wellness Daily",
+    "body": "memoryOS combines gamified micro lessons with pre-made virtual mind palaces to improve your memory skills drastically. Proprietary technology and scientifically proven methods. Co-founded by 2X World Memory Champion Jonas von Essen.",
+    "caption": "MEMORYOS.COM",
+    "headline": "Unlock Your Sharper Mind",
+    "cta": "Learn more",
+    "video": false,
+    "link": "https://start.memoryos.com/new-s",
+    "startedISO": "2026-10-20",
+    "key": "start.memoryos.com/new-s",
+    "store": false,
+    "url": "https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=US&media_type=all&search_type=keyword_unordered&q=memoryos.com&sort_data[direction]=desc&sort_data[mode]=total_impressions",
+    "shot": "memoryos-top.webp"
+  },
+  "activeEstimate": 6,
+  "parsedCreatives": 6,
+  "newInWindow": 2,
+  "newCreativesInWindow": 1
+}

@@ -1,0 +1,32 @@
+{
+  "url": "https://start.smartymeapp.com/quiz",
+  "key": "start.smartymeapp.com/quiz",
+  "why": "ad",
+  "ads": 143,
+  "adShot": "smartyme-5353a564ba54.webp",
+  "adId": "1647391446902466",
+  "dir": "funnels/smartyme/5353a564ba54",
+  "stop": "error: Invalid URL",
+  "proxied": false,
+  "email": null,
+  "signedUp": null,
+  "restartUrl": null,
+  "finalUrl": null,
+  "exitCountry": null,
+  "steps": [],
+  "features": {
+    "totalSteps": 0,
+    "stop": "error: Invalid URL",
+    "emailStep": null,
+    "paywallStep": null,
+    "questions": 0,
+    "socialProof": 0,
+    "popups": 0,
+    "loader": false,
+    "prices": [],
+    "discount": null,
+    "timer": false,
+    "trial": false,
+    "moneyBack": false
+  }
+}

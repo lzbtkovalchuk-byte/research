@@ -1,0 +1,32 @@
+{
+  "url": "https://yousician.com/?utm_medium=display&utm_source=facebook&utm_campaign=meta_web_android-users",
+  "key": "yousician.com/",
+  "why": "ad",
+  "ads": 6,
+  "adShot": "yousician-1c0c131f25e6.webp",
+  "adId": "1132066426190405",
+  "dir": "funnels/yousician/1c0c131f25e6",
+  "stop": "error: Invalid URL",
+  "proxied": false,
+  "email": null,
+  "signedUp": null,
+  "restartUrl": null,
+  "finalUrl": null,
+  "exitCountry": null,
+  "steps": [],
+  "features": {
+    "totalSteps": 0,
+    "stop": "error: Invalid URL",
+    "emailStep": null,
+    "paywallStep": null,
+    "questions": 0,
+    "socialProof": 0,
+    "popups": 0,
+    "loader": false,
+    "prices": [],
+    "discount": null,
+    "timer": false,
+    "trial": false,
+    "moneyBack": false
+  }
+}

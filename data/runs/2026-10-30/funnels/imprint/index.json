@@ -1,0 +1,17 @@
+{
+  "id": "imprint",
+  "name": "Imprint",
+  "geo": "US",
+  "skillsta": false,
+  "storeOnly": false,
+  "funnels": [
+    {
+      "key": "imprintapp.com/start-buddhism",
+      "dir": "funnels/imprint/096bbf2386ae",
+      "stop": "error: Invalid URL",
+      "steps": 0,
+      "why": "ad",
+      "ads": 1
+    }
+  ]
+}
