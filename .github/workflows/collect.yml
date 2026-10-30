@@ -14,7 +14,7 @@ permissions:
 concurrency: { group: collect, cancel-in-progress: false }
 jobs:
   collect:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
     timeout-minutes: 300
     steps:
       - uses: actions/checkout@v4
@@ -30,6 +30,7 @@ jobs:
         if: steps.due.outputs.run == 'true'
         with: { node-version: 22, cache: npm }
       - name: Install
+        id: install
         if: steps.due.outputs.run == 'true'
         run: npm ci || npm install && npx playwright install --with-deps chromium
       - name: Meta ads
@@ -50,15 +51,15 @@ jobs:
           PROXY_US: ${{ secrets.PROXY_US }}
         run: if command -v xvfb-run >/dev/null; then xvfb-run -a node src/walk_funnels.js; else node src/walk_funnels.js; fi   # virtual display for apps marked headed: true
       - name: Diff + draft report
-        if: always() && steps.due.outputs.run == 'true'
+        if: always() && steps.due.outputs.run == 'true' && steps.install.outcome == 'success'
         env: { RUN_DATE: "${{ inputs.run_date }}" }
         run: node src/diff.js && node src/build_report.js
       - name: Keep draft reports as a downloadable artifact
-        if: always() && steps.due.outputs.run == 'true'
+        if: always() && steps.due.outputs.run == 'true' && steps.install.outcome == 'success'
         uses: actions/upload-artifact@v4
         with: { name: draft-report, path: "data/runs/*/report.html", retention-days: 30 }
       - name: Commit run data
-        if: always() && steps.due.outputs.run == 'true'
+        if: always() && steps.due.outputs.run == 'true' && steps.install.outcome == 'success'
         run: |
           git config user.name "funnel-watch-bot"; git config user.email "actions@users.noreply.github.com"
           git add data/runs
