@@ -76,9 +76,22 @@ export function esc(s) {
   return String(s ?? '').replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
 }
 
-export function proxyFor(geo) {
-  const v = geo === 'GB' ? process.env.PROXY_UK : process.env.PROXY_US;
+/** Proxy for a geo from PROXY_UK / PROXY_US. Accepts the common formats:
+ *  http(s)://user:pass@host:port, socks5://host:port, user:pass@host:port, host:port:user:pass, host:port. */
+export function parseProxy(raw) {
+  let v = String(raw || '').trim();
   if (!v) return undefined;
-  const u = new URL(v);
-  return { server: `${u.protocol}//${u.host}`, username: decodeURIComponent(u.username) || undefined, password: decodeURIComponent(u.password) || undefined };
+  if (!/^[a-z0-9]+:\/\//i.test(v)) {
+    const parts = v.split(':');
+    if (!v.includes('@') && parts.length >= 4) v = `http://${encodeURIComponent(parts[2])}:${encodeURIComponent(parts.slice(3).join(':'))}@${parts[0]}:${parts[1]}`;
+    else v = 'http://' + v;
+  }
+  let u;
+  try { u = new URL(v); } catch { return undefined; }
+  const port = u.port || ({ 'http:': '80', 'https:': '443' }[u.protocol]);
+  if (!u.hostname || !port) return undefined;
+  return { server: `${u.protocol}//${u.hostname}:${port}`, username: decodeURIComponent(u.username) || undefined, password: decodeURIComponent(u.password) || undefined };
+}
+export function proxyFor(geo) {
+  return parseProxy(geo === 'GB' ? process.env.PROXY_UK : process.env.PROXY_US);
 }

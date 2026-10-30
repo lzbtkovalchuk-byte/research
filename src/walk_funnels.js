@@ -744,6 +744,7 @@ async function main() {
   // Walk several apps at once (each in its own browser context).
   const queue = apps.filter(a => !only || only.includes(a.id));
   log(`walking ${queue.length} apps, ${PARALLEL} at a time`);
+  for (const [g, k] of [['GB', 'PROXY_UK'], ['US', 'PROXY_US']]) if (process.env[k]) log(`${k}: ${proxyFor(g) ? 'set, ' + proxyFor(g).server.replace(/\/\/.*:/, '//…:') : 'set but not understood, walking without it'}`);
   await Promise.all(Array.from({ length: Math.min(PARALLEL, queue.length) }, async () => { while (queue.length) await runApp(queue.shift()); }));
   await browser.close();
   if (headedBrowser) await headedBrowser.close();
