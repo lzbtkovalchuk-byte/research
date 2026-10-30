@@ -8,16 +8,16 @@
     {
       "key": "start.memoryos.com/new-h2?thm=light",
       "dir": "funnels/memoryos/7488926e110a",
-      "stop": "error: Invalid URL",
-      "steps": 0,
+      "stop": "paywall",
+      "steps": 35,
       "why": "ad",
       "ads": 6
     },
     {
       "key": "start.memoryos.com/new-s",
       "dir": "funnels/memoryos/8df162c3ae21",
-      "stop": "error: Invalid URL",
-      "steps": 0,
+      "stop": "paywall",
+      "steps": 35,
       "why": "ad",
       "ads": 1
     }

@@ -8,8 +8,8 @@
     {
       "key": "yousician.com/",
       "dir": "funnels/yousician/1c0c131f25e6",
-      "stop": "error: Invalid URL",
-      "steps": 0,
+      "stop": "paywall",
+      "steps": 9,
       "why": "ad",
       "ads": 6
     }

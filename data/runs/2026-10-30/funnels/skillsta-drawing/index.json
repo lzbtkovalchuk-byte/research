@@ -8,8 +8,8 @@
     {
       "key": "start.getskillnow.com/quiz",
       "dir": "funnels/skillsta-drawing/953d129ce40c",
-      "stop": "error: Invalid URL",
-      "steps": 0,
+      "stop": "email_loop",
+      "steps": 34,
       "why": "seed",
       "ads": 0
     }

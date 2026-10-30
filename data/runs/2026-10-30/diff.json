@@ -11,207 +11,207 @@
           "comparedWith": "getskillnow.com/quiz",
           "prevDir": "funnels/skillsta-vocal-2/4ad23ce9af85",
           "prevSteps": 33,
-          "status": [],
-          "removed": [
+          "status": [
             {
-              "n": 1,
-              "title": "First, how old are you?",
-              "kind": "question",
-              "file": "01.webp"
+              "s": "same",
+              "prev": 1,
+              "why": "",
+              "prevFile": "01.webp"
             },
             {
-              "n": 2,
-              "title": "What’s your gender?",
-              "kind": "question",
-              "file": "02.webp"
+              "s": "same",
+              "prev": 2,
+              "why": "",
+              "prevFile": "02.webp"
             },
             {
-              "n": 3,
-              "title": "Over 1,000,000 people",
-              "kind": "social_proof",
-              "file": "03.webp"
+              "s": "same",
+              "prev": 3,
+              "why": "",
+              "prevFile": "03.webp"
             },
             {
-              "n": 4,
-              "title": "I’ll feel like I nailed it when I finally…",
-              "kind": "question",
-              "file": "04.webp"
+              "s": "same",
+              "prev": 4,
+              "why": "",
+              "prevFile": "04.webp"
             },
             {
-              "n": 5,
-              "title": "Why do you want to sing?",
-              "kind": "question",
-              "file": "05.webp"
+              "s": "same",
+              "prev": 5,
+              "why": "",
+              "prevFile": "05.webp"
             },
             {
-              "n": 6,
-              "title": "Now that your goal is clear, you’re 3x more likely to nail it",
-              "kind": "info",
-              "file": "06.webp"
+              "s": "same",
+              "prev": 6,
+              "why": "",
+              "prevFile": "06.webp"
             },
             {
-              "n": 7,
-              "title": "What gets in the way when you want to sing?",
-              "kind": "question",
-              "file": "07.webp"
+              "s": "same",
+              "prev": 7,
+              "why": "",
+              "prevFile": "07.webp"
             },
             {
-              "n": 8,
-              "title": "Whose voice impresses you the most?",
-              "kind": "question",
-              "file": "08.webp"
+              "s": "same",
+              "prev": 8,
+              "why": "",
+              "prevFile": "08.webp"
             },
             {
-              "n": 9,
-              "title": "Have you ever tried working on your voice?",
-              "kind": "question",
-              "file": "09.webp"
+              "s": "same",
+              "prev": 9,
+              "why": "",
+              "prevFile": "09.webp"
             },
             {
-              "n": 10,
-              "title": "Singing is a skill, not a gift",
-              "kind": "info",
-              "file": "10.webp"
+              "s": "same",
+              "prev": 10,
+              "why": "",
+              "prevFile": "10.webp"
             },
             {
-              "n": 11,
-              "title": "Where do you actually let yourself sing?",
-              "kind": "question",
-              "file": "11.webp"
+              "s": "same",
+              "prev": 11,
+              "why": "",
+              "prevFile": "11.webp"
             },
             {
-              "n": 12,
-              "title": "When do you usually feel the urge to sing?",
-              "kind": "question",
-              "file": "12.webp"
+              "s": "same",
+              "prev": 12,
+              "why": "",
+              "prevFile": "12.webp"
             },
             {
-              "n": 13,
-              "title": "Do you ever catch yourself doing any of these?",
-              "kind": "question",
-              "file": "13.webp"
+              "s": "same",
+              "prev": 13,
+              "why": "",
+              "prevFile": "13.webp"
             },
             {
-              "n": 14,
-              "title": "You’ve never been bad at singing. You just haven’t practiced the right way",
-              "kind": "info",
-              "file": "14.webp"
+              "s": "same",
+              "prev": 14,
+              "why": "",
+              "prevFile": "14.webp"
             },
             {
-              "n": 15,
-              "title": "“I want to sing freely, but I feel like my voice just doesn’t work like it should”",
-              "kind": "question",
-              "file": "15.webp"
+              "s": "same",
+              "prev": 15,
+              "why": "",
+              "prevFile": "15.webp"
             },
             {
-              "n": 16,
-              "title": "“I can feel the music, but my voice often comes out flat and weak”",
-              "kind": "question",
-              "file": "16.webp"
+              "s": "same",
+              "prev": 16,
+              "why": "",
+              "prevFile": "16.webp"
             },
             {
-              "n": 17,
-              "title": "“I stop singing the moment the note gets too high or low”",
-              "kind": "question",
-              "file": "17.webp"
+              "s": "same",
+              "prev": 17,
+              "why": "",
+              "prevFile": "17.webp"
             },
             {
-              "n": 18,
-              "title": "Your voice has more range than you think",
-              "kind": "info",
-              "file": "18.webp"
+              "s": "same",
+              "prev": 18,
+              "why": "",
+              "prevFile": "18.webp"
             },
             {
-              "n": 19,
-              "title": "\"The moment someone might hear me, my voice does the exact wrong thing\"",
-              "kind": "question",
-              "file": "19.webp"
+              "s": "same",
+              "prev": 19,
+              "why": "",
+              "prevFile": "19.webp"
             },
             {
-              "n": 20,
-              "title": "\"I feel too exposed and vulnerable when I sing in front of others\"",
-              "kind": "question",
-              "file": "20.webp"
+              "s": "same",
+              "prev": 20,
+              "why": "",
+              "prevFile": "20.webp"
             },
             {
-              "n": 21,
-              "title": "“I overthink how I sound so much that I forget to enjoy the song”",
-              "kind": "question",
-              "file": "21.webp"
+              "s": "same",
+              "prev": 21,
+              "why": "",
+              "prevFile": "21.webp"
             },
             {
-              "n": 22,
-              "title": "Training your voice quiets the overthinking",
-              "kind": "info",
-              "file": "22.webp"
+              "s": "same",
+              "prev": 22,
+              "why": "",
+              "prevFile": "22.webp"
             },
             {
-              "n": 23,
-              "title": "What stops you from working on your singing?",
-              "kind": "question",
-              "file": "23.webp"
+              "s": "same",
+              "prev": 23,
+              "why": "",
+              "prevFile": "23.webp"
             },
             {
-              "n": 24,
-              "title": "What feels the hardest about singing?",
-              "kind": "question",
-              "file": "24.webp"
+              "s": "same",
+              "prev": 24,
+              "why": "",
+              "prevFile": "24.webp"
             },
             {
-              "n": 25,
-              "title": "My singing journey will feel worth it when I…",
-              "kind": "question",
-              "file": "25.webp"
+              "s": "same",
+              "prev": 25,
+              "why": "",
+              "prevFile": "25.webp"
             },
             {
-              "n": 26,
-              "title": "Is there a specific moment you're working toward?",
-              "kind": "question",
-              "file": "26.webp"
+              "s": "same",
+              "prev": 26,
+              "why": "",
+              "prevFile": "26.webp"
             },
             {
-              "n": 27,
-              "title": "Thanks for being honest!",
-              "kind": "social_proof",
-              "file": "27.webp"
+              "s": "same",
+              "prev": 27,
+              "why": "",
+              "prevFile": "27.webp"
             },
             {
-              "n": 28,
-              "title": "How much time can you carve out daily to achieve your goal?",
-              "kind": "question",
-              "file": "28.webp"
+              "s": "same",
+              "prev": 28,
+              "why": "",
+              "prevFile": "28.webp"
             },
             {
-              "n": 29,
-              "title": "We’re tailoring your personal confident singing plan...",
-              "kind": "question",
-              "file": "29.webp"
+              "s": "same",
+              "prev": 29,
+              "why": "",
+              "prevFile": "29.webp"
             },
             {
-              "n": 30,
-              "title": "✅",
-              "kind": "question",
-              "file": "30.webp"
+              "s": "same",
+              "prev": 30,
+              "why": "",
+              "prevFile": "30.webp"
             },
             {
-              "n": 31,
-              "title": "✅",
-              "kind": "question",
-              "file": "31.webp"
+              "s": "same",
+              "prev": 31,
+              "why": "",
+              "prevFile": "31.webp"
             },
             {
-              "n": 32,
-              "title": "✅",
-              "kind": "question",
-              "file": "32.webp"
+              "s": "same",
+              "prev": 32,
+              "why": "",
+              "prevFile": "32.webp"
             },
             {
-              "n": 33,
-              "title": "Enter your email to get your personal plan Don't worry, no ads or spam from us. We promise!",
-              "kind": "email",
-              "file": "33.webp"
+              "s": "same",
+              "prev": 33,
+              "why": "",
+              "prevFile": "33.webp"
             }
-          ]
+          ],
+          "removed": []
         }
       }
     },
@@ -224,195 +224,195 @@
           "comparedWith": "getskillnow.com/quiz/voice_assessment/voice_assessment",
           "prevDir": "funnels/skillsta-vocal-scanner/64e78223efd7",
           "prevSteps": 31,
-          "status": [],
-          "removed": [
+          "status": [
             {
-              "n": 1,
-              "title": "DISCOVER YOUR VOCAL POTENTIAL IN 3 MINUTES",
-              "kind": "info",
-              "file": "01.webp"
+              "s": "same",
+              "prev": 1,
+              "why": "",
+              "prevFile": "01.webp"
             },
             {
-              "n": 2,
-              "title": "First, how old are you?",
-              "kind": "question",
-              "file": "02.webp"
+              "s": "same",
+              "prev": 2,
+              "why": "",
+              "prevFile": "02.webp"
             },
             {
-              "n": 3,
-              "title": "What's your gender?",
-              "kind": "question",
-              "file": "03.webp"
+              "s": "same",
+              "prev": 3,
+              "why": "",
+              "prevFile": "03.webp"
             },
             {
-              "n": 4,
-              "title": "What do you want to discover about your voice?",
-              "kind": "question",
-              "file": "04.webp"
+              "s": "same",
+              "prev": 4,
+              "why": "",
+              "prevFile": "04.webp"
             },
             {
-              "n": 5,
-              "title": "Your voice has untapped potential",
-              "kind": "info",
-              "file": "05.webp"
+              "s": "same",
+              "prev": 5,
+              "why": "",
+              "prevFile": "05.webp"
             },
             {
-              "n": 6,
-              "title": "What brings you here today?",
-              "kind": "question",
-              "file": "06.webp"
+              "s": "same",
+              "prev": 6,
+              "why": "",
+              "prevFile": "06.webp"
             },
             {
-              "n": 7,
-              "title": "Have you ever tried vocal training?",
-              "kind": "question",
-              "file": "07.webp"
+              "s": "same",
+              "prev": 7,
+              "why": "",
+              "prevFile": "07.webp"
             },
             {
-              "n": 8,
-              "title": "Your voice can improve faster than you think",
-              "kind": "info",
-              "file": "08.webp"
+              "s": "same",
+              "prev": 8,
+              "why": "",
+              "prevFile": "08.webp"
             },
             {
-              "n": 9,
-              "title": "Do you hold back from singing because you're not sure how you sound?",
-              "kind": "question",
-              "file": "09.webp"
+              "s": "same",
+              "prev": 9,
+              "why": "",
+              "prevFile": "09.webp"
             },
             {
-              "n": 10,
-              "title": "What would knowing your true vocal potential mean to you?",
-              "kind": "question",
-              "file": "10.webp"
+              "s": "same",
+              "prev": 10,
+              "why": "",
+              "prevFile": "10.webp"
             },
             {
-              "n": 11,
-              "title": "Vocal skills are 10% genetics, 90% training",
-              "kind": "info",
-              "file": "11.webp"
+              "s": "same",
+              "prev": 11,
+              "why": "",
+              "prevFile": "11.webp"
             },
             {
-              "n": 12,
-              "title": "“I want to sing freely, but I feel like my voice just doesn’t work like it should”",
-              "kind": "question",
-              "file": "12.webp"
+              "s": "same",
+              "prev": 12,
+              "why": "",
+              "prevFile": "12.webp"
             },
             {
-              "n": 13,
-              "title": "“I feel too exposed and vulnerable when I sing in front of others”",
-              "kind": "question",
-              "file": "13.webp"
+              "s": "same",
+              "prev": 13,
+              "why": "",
+              "prevFile": "13.webp"
             },
             {
-              "n": 14,
-              "title": "“I overthink how I sound so much that I forget to enjoy the song”",
-              "kind": "question",
-              "file": "14.webp"
+              "s": "same",
+              "prev": 14,
+              "why": "",
+              "prevFile": "14.webp"
             },
             {
-              "n": 15,
-              "title": "“Nerves make my voice tremble and impossible to control”",
-              "kind": "question",
-              "file": "15.webp"
+              "s": "same",
+              "prev": 15,
+              "why": "",
+              "prevFile": "15.webp"
             },
             {
-              "n": 16,
-              "title": "Whose voice impresses you the most?",
-              "kind": "question",
-              "file": "16.webp"
+              "s": "same",
+              "prev": 16,
+              "why": "",
+              "prevFile": "16.webp"
             },
             {
-              "n": 17,
-              "title": "You might share a voice type with a superstar",
-              "kind": "info",
-              "file": "17.webp"
+              "s": "same",
+              "prev": 17,
+              "why": "",
+              "prevFile": "17.webp"
             },
             {
-              "n": 18,
-              "title": "When do you find yourself singing most often?",
-              "kind": "question",
-              "file": "18.webp"
+              "s": "same",
+              "prev": 18,
+              "why": "",
+              "prevFile": "18.webp"
             },
             {
-              "n": 19,
-              "title": "Which describes your speaking voice best?",
-              "kind": "question",
-              "file": "19.webp"
+              "s": "same",
+              "prev": 19,
+              "why": "",
+              "prevFile": "19.webp"
             },
             {
-              "n": 20,
-              "title": "What do people usually say about your voice?",
-              "kind": "question",
-              "file": "20.webp"
+              "s": "same",
+              "prev": 20,
+              "why": "",
+              "prevFile": "20.webp"
             },
             {
-              "n": 21,
-              "title": "Which genre pulls at your voice the most?",
-              "kind": "question",
-              "file": "21.webp"
+              "s": "same",
+              "prev": 21,
+              "why": "",
+              "prevFile": "21.webp"
             },
             {
-              "n": 22,
-              "title": "Your personalized vocal report is almost ready",
-              "kind": "info",
-              "file": "22.webp"
+              "s": "same",
+              "prev": 22,
+              "why": "",
+              "prevFile": "22.webp"
             },
             {
-              "n": 23,
-              "title": "Get your voice analyzed to discover your true potential",
-              "kind": "question",
-              "file": "23.webp"
+              "s": "same",
+              "prev": 23,
+              "why": "",
+              "prevFile": "23.webp"
             },
             {
-              "n": 24,
-              "title": "Find your range",
-              "kind": "info",
-              "file": "24.webp"
+              "s": "same",
+              "prev": 24,
+              "why": "",
+              "prevFile": "24.webp"
             },
             {
-              "n": 25,
-              "title": "Got it!",
-              "kind": "info",
-              "file": "25.webp"
+              "s": "same",
+              "prev": 25,
+              "why": "",
+              "prevFile": "25.webp"
             },
             {
-              "n": 26,
-              "title": "Climb the notes",
-              "kind": "info",
-              "file": "26.webp"
+              "s": "same",
+              "prev": 26,
+              "why": "",
+              "prevFile": "26.webp"
             },
             {
-              "n": 27,
-              "title": "Got it!",
-              "kind": "info",
-              "file": "27.webp"
+              "s": "same",
+              "prev": 27,
+              "why": "",
+              "prevFile": "27.webp"
             },
             {
-              "n": 28,
-              "title": "Hold steady",
-              "kind": "info",
-              "file": "28.webp"
+              "s": "same",
+              "prev": 28,
+              "why": "",
+              "prevFile": "28.webp"
             },
             {
-              "n": 29,
-              "title": "Got it!",
-              "kind": "info",
-              "file": "29.webp"
+              "s": "same",
+              "prev": 29,
+              "why": "",
+              "prevFile": "29.webp"
             },
             {
-              "n": 30,
-              "title": "Your results are ready Enter your email to get a full voice analysis that reveals your vocal strengths, range, and celebrity voice match",
-              "kind": "email",
-              "file": "30.webp"
+              "s": "same",
+              "prev": 30,
+              "why": "",
+              "prevFile": "30.webp"
             },
             {
-              "n": 31,
-              "title": "",
-              "kind": "info",
-              "file": "31.webp"
+              "s": "same",
+              "prev": 31,
+              "why": "",
+              "prevFile": "31.webp"
             }
-          ]
+          ],
+          "removed": []
         }
       }
     },
@@ -425,213 +425,213 @@
           "comparedWith": "start.getskillnow.com/quiz",
           "prevDir": "funnels/skillsta-drawing/953d129ce40c",
           "prevSteps": 34,
-          "status": [],
-          "removed": [
+          "status": [
             {
-              "n": 1,
-              "title": "First, how old are you?",
-              "kind": "question",
-              "file": "01.webp"
+              "s": "same",
+              "prev": 1,
+              "why": "",
+              "prevFile": "01.webp"
             },
             {
-              "n": 2,
-              "title": "What's your gender?",
-              "kind": "question",
-              "file": "02.webp"
+              "s": "same",
+              "prev": 2,
+              "why": "",
+              "prevFile": "02.webp"
             },
             {
-              "n": 3,
-              "title": "Over 850,000 people",
-              "kind": "social_proof",
-              "file": "03.webp"
+              "s": "same",
+              "prev": 3,
+              "why": "",
+              "prevFile": "03.webp"
             },
             {
-              "n": 4,
-              "title": "What would you like to achieve with us?",
-              "kind": "question",
-              "file": "04.webp"
+              "s": "same",
+              "prev": 4,
+              "why": "",
+              "prevFile": "04.webp"
             },
             {
-              "n": 5,
-              "title": "Now that your goal is clear, you’re 3x more likely to nail it",
-              "kind": "info",
-              "file": "05.webp"
+              "s": "same",
+              "prev": 5,
+              "why": "",
+              "prevFile": "05.webp"
             },
             {
-              "n": 6,
-              "title": "Why do you draw?",
-              "kind": "question",
-              "file": "06.webp"
+              "s": "same",
+              "prev": 6,
+              "why": "",
+              "prevFile": "06.webp"
             },
             {
-              "n": 7,
-              "title": "Which sounds most like you?",
-              "kind": "question",
-              "file": "07.webp"
+              "s": "same",
+              "prev": 7,
+              "why": "",
+              "prevFile": "07.webp"
             },
             {
-              "n": 8,
-              "title": "What do you dream of drawing?",
-              "kind": "question",
-              "file": "08.webp"
+              "s": "same",
+              "prev": 8,
+              "why": "",
+              "prevFile": "08.webp"
             },
             {
-              "n": 9,
-              "title": "How would you describe your drawing experience?",
-              "kind": "question",
-              "file": "09.webp"
+              "s": "same",
+              "prev": 9,
+              "why": "",
+              "prevFile": "09.webp"
             },
             {
-              "n": 10,
-              "title": "When do you usually feel the urge to draw?",
-              "kind": "question",
-              "file": "10.webp"
+              "s": "same",
+              "prev": 10,
+              "why": "",
+              "prevFile": "10.webp"
             },
             {
-              "n": 11,
-              "title": "Do you ever catch yourself doing any of these?",
-              "kind": "question",
-              "file": "11.webp"
+              "s": "same",
+              "prev": 11,
+              "why": "",
+              "prevFile": "11.webp"
             },
             {
-              "n": 12,
-              "title": "You're in the right place",
-              "kind": "info",
-              "file": "12.webp"
+              "s": "same",
+              "prev": 12,
+              "why": "",
+              "prevFile": "12.webp"
             },
             {
-              "n": 13,
-              "title": "“Sometimes I stare at the blank page with no idea where to even begin”",
-              "kind": "question",
-              "file": "13.webp"
+              "s": "same",
+              "prev": 13,
+              "why": "",
+              "prevFile": "13.webp"
             },
             {
-              "n": 14,
-              "title": "“The picture in my head often doesn’t match what ends up on the page”",
-              "kind": "question",
-              "file": "14.webp"
+              "s": "same",
+              "prev": 14,
+              "why": "",
+              "prevFile": "14.webp"
             },
             {
-              "n": 15,
-              "title": "“I feel exposed and vulnerable when someone sees my art”",
-              "kind": "question",
-              "file": "15.webp"
+              "s": "same",
+              "prev": 15,
+              "why": "",
+              "prevFile": "15.webp"
             },
             {
-              "n": 16,
-              "title": "“I compare my drawings to others and lose confidence”",
-              "kind": "question",
-              "file": "16.webp"
+              "s": "same",
+              "prev": 16,
+              "why": "",
+              "prevFile": "16.webp"
             },
             {
-              "n": 17,
-              "title": "“It’s hard for me to finish paintings I started”",
-              "kind": "question",
-              "file": "17.webp"
+              "s": "same",
+              "prev": 17,
+              "why": "",
+              "prevFile": "17.webp"
             },
             {
-              "n": 18,
-              "title": "“Sometimes I think it's too late for me to ever learn to draw”",
-              "kind": "question",
-              "file": "18.webp"
+              "s": "same",
+              "prev": 18,
+              "why": "",
+              "prevFile": "18.webp"
             },
             {
-              "n": 19,
-              "title": "You're not alone",
-              "kind": "info",
-              "file": "19.webp"
+              "s": "same",
+              "prev": 19,
+              "why": "",
+              "prevFile": "19.webp"
             },
             {
-              "n": 20,
-              "title": "Have you ever tried to improve your drawing skills?",
-              "kind": "question",
-              "file": "20.webp"
+              "s": "same",
+              "prev": 20,
+              "why": "",
+              "prevFile": "20.webp"
             },
             {
-              "n": 21,
-              "title": "What stands in the way of your consistent progress?",
-              "kind": "question",
-              "file": "21.webp"
+              "s": "same",
+              "prev": 21,
+              "why": "",
+              "prevFile": "21.webp"
             },
             {
-              "n": 22,
-              "title": "Whose art impresses you the most?",
-              "kind": "question",
-              "file": "22.webp"
+              "s": "same",
+              "prev": 22,
+              "why": "",
+              "prevFile": "22.webp"
             },
             {
-              "n": 23,
-              "title": "Learn techniques inspired by your favorite artists!",
-              "kind": "info",
-              "file": "23.webp"
+              "s": "same",
+              "prev": 23,
+              "why": "",
+              "prevFile": "23.webp"
             },
             {
-              "n": 24,
-              "title": "What feels the hardest about drawing?",
-              "kind": "question",
-              "file": "24.webp"
+              "s": "same",
+              "prev": 24,
+              "why": "",
+              "prevFile": "24.webp"
             },
             {
-              "n": 25,
-              "title": "What's your motivation to improve your drawing skills?",
-              "kind": "question",
-              "file": "25.webp"
+              "s": "same",
+              "prev": 25,
+              "why": "",
+              "prevFile": "25.webp"
             },
             {
-              "n": 26,
-              "title": "Do you have a special reason for improving your drawing skills?",
-              "kind": "question",
-              "file": "26.webp"
+              "s": "same",
+              "prev": 26,
+              "why": "",
+              "prevFile": "26.webp"
             },
             {
-              "n": 27,
-              "title": "How do you want your drawing practice to feel?",
-              "kind": "question",
-              "file": "27.webp"
+              "s": "same",
+              "prev": 27,
+              "why": "",
+              "prevFile": "27.webp"
             },
             {
-              "n": 28,
-              "title": "Thanks for being honest!",
-              "kind": "social_proof",
-              "file": "28.webp"
+              "s": "same",
+              "prev": 28,
+              "why": "",
+              "prevFile": "28.webp"
             },
             {
-              "n": 29,
-              "title": "How much time can you carve out daily to achieve your goal?",
-              "kind": "question",
-              "file": "29.webp"
+              "s": "same",
+              "prev": 29,
+              "why": "",
+              "prevFile": "29.webp"
             },
             {
-              "n": 30,
-              "title": "We're tailoring your personal confident drawing plan…",
-              "kind": "question",
-              "file": "30.webp"
+              "s": "same",
+              "prev": 30,
+              "why": "",
+              "prevFile": "30.webp"
             },
             {
-              "n": 31,
-              "title": "✅",
-              "kind": "question",
-              "file": "31.webp"
+              "s": "same",
+              "prev": 31,
+              "why": "",
+              "prevFile": "31.webp"
             },
             {
-              "n": 32,
-              "title": "✅",
-              "kind": "question",
-              "file": "32.webp"
+              "s": "same",
+              "prev": 32,
+              "why": "",
+              "prevFile": "32.webp"
             },
             {
-              "n": 33,
-              "title": "✅",
-              "kind": "question",
-              "file": "33.webp"
+              "s": "same",
+              "prev": 33,
+              "why": "",
+              "prevFile": "33.webp"
             },
             {
-              "n": 34,
-              "title": "Enter your email to get your personal plan",
-              "kind": "email",
-              "file": "34.webp"
+              "s": "same",
+              "prev": 34,
+              "why": "",
+              "prevFile": "34.webp"
             }
-          ]
+          ],
+          "removed": []
         }
       }
     },
@@ -682,57 +682,57 @@
           "comparedWith": "imprintapp.com/start-buddhism",
           "prevDir": "funnels/imprint/096bbf2386ae",
           "prevSteps": 8,
-          "status": [],
-          "removed": [
+          "status": [
             {
-              "n": 1,
-              "title": "Replace scrolling withBuddhism",
-              "kind": "info",
-              "file": "01.webp"
+              "s": "same",
+              "prev": 1,
+              "why": "",
+              "prevFile": "01.webp"
             },
             {
-              "n": 2,
-              "title": "What is your age?",
-              "kind": "question",
-              "file": "02.webp"
+              "s": "same",
+              "prev": 2,
+              "why": "",
+              "prevFile": "02.webp"
             },
             {
-              "n": 3,
-              "title": "What is your age?",
-              "kind": "social_proof",
-              "file": "03.webp"
+              "s": "same",
+              "prev": 3,
+              "why": "",
+              "prevFile": "03.webp"
             },
             {
-              "n": 4,
-              "title": "What best describes you?",
-              "kind": "social_proof",
-              "file": "04.webp"
+              "s": "same",
+              "prev": 4,
+              "why": "",
+              "prevFile": "04.webp"
             },
             {
-              "n": 5,
-              "title": "Why are you interested in learning Buddhism?",
-              "kind": "social_proof",
-              "file": "05.webp"
+              "s": "same",
+              "prev": 5,
+              "why": "",
+              "prevFile": "05.webp"
             },
             {
-              "n": 6,
-              "title": "Why are you interested in learning Buddhism?",
-              "kind": "question",
-              "file": "06.webp"
+              "s": "same",
+              "prev": 6,
+              "why": "",
+              "prevFile": "06.webp"
             },
             {
-              "n": 7,
-              "title": "Which aspects of Buddhism intrigue you most?",
-              "kind": "question",
-              "file": "07.webp"
+              "s": "same",
+              "prev": 7,
+              "why": "",
+              "prevFile": "07.webp"
             },
             {
-              "n": 8,
-              "title": "Which aspects of Buddhism intrigue you most?",
-              "kind": "question",
-              "file": "08.webp"
+              "s": "same",
+              "prev": 8,
+              "why": "",
+              "prevFile": "08.webp"
             }
-          ]
+          ],
+          "removed": []
         }
       }
     },
@@ -768,486 +768,536 @@
           "comparedWith": "try-breeze.com/funnel/childhood",
           "prevDir": "funnels/breeze/1e1f86ca9474",
           "prevSteps": 39,
-          "status": [],
-          "removed": [
+          "status": [
             {
-              "n": 1,
-              "title": "Choose your age",
-              "kind": "question",
-              "file": "01.webp"
+              "s": "same",
+              "prev": 1,
+              "why": "",
+              "prevFile": "01.webp"
             },
             {
-              "n": 2,
-              "title": "What is your gender identity?",
-              "kind": "question",
-              "file": "02.webp"
+              "s": "same",
+              "prev": 2,
+              "why": "",
+              "prevFile": "02.webp"
             },
             {
-              "n": 3,
-              "title": "In your childhood, your parents were...",
-              "kind": "question",
-              "file": "03.webp"
+              "s": "same",
+              "prev": 3,
+              "why": "",
+              "prevFile": "03.webp"
             },
             {
-              "n": 4,
-              "title": "How can you describe the environment you were growing up in?",
-              "kind": "question",
-              "file": "04.webp"
+              "s": "same",
+              "prev": 4,
+              "why": "",
+              "prevFile": "04.webp"
             },
             {
-              "n": 5,
-              "title": "What do you hear first?",
-              "kind": "question",
-              "file": "05.webp"
+              "s": "same",
+              "prev": 5,
+              "why": "",
+              "prevFile": "05.webp"
             },
             {
-              "n": 6,
-              "title": "What do you see first?",
-              "kind": "question",
-              "file": "06.webp"
+              "s": "same",
+              "prev": 6,
+              "why": "",
+              "prevFile": "06.webp"
             },
             {
-              "n": 7,
-              "title": "What do you see first?",
-              "kind": "question",
-              "file": "07.webp"
+              "s": "same",
+              "prev": 7,
+              "why": "",
+              "prevFile": "07.webp"
             },
             {
-              "n": 8,
-              "title": "Can you relate to this statement? \"I tend to cope with difficult emotions or memories in non-constructive ways\"",
-              "kind": "question",
-              "file": "08.webp"
+              "s": "same",
+              "prev": 8,
+              "why": "",
+              "prevFile": "08.webp"
             },
             {
-              "n": 9,
-              "title": "Do you see depression or low mood as \"normal\" or just a part of who you are?",
-              "kind": "question",
-              "file": "09.webp"
+              "s": "same",
+              "prev": 9,
+              "why": "",
+              "prevFile": "09.webp"
             },
             {
-              "n": 10,
-              "title": "How long have you been feeling this way?",
-              "kind": "question",
-              "file": "10.webp"
+              "s": "same",
+              "prev": 10,
+              "why": "",
+              "prevFile": "10.webp"
             },
             {
-              "n": 11,
-              "title": "Let's take a moment",
-              "kind": "info",
-              "file": "11.webp"
+              "s": "changed",
+              "prev": 11,
+              "why": "visual",
+              "prevFile": "11.webp",
+              "boxes": [
+                {
+                  "t": 30.96,
+                  "l": 9.23,
+                  "w": 81.54,
+                  "h": 44.84
+                }
+              ]
             },
             {
-              "n": 12,
-              "title": "What do you see first?",
-              "kind": "question",
-              "file": "12.webp"
+              "s": "same",
+              "prev": 12,
+              "why": "",
+              "prevFile": "12.webp"
             },
             {
-              "n": 13,
-              "title": "Did you know?",
-              "kind": "loader",
-              "file": "13.webp"
+              "s": "same",
+              "prev": 13,
+              "why": "",
+              "prevFile": "13.webp"
             },
             {
-              "n": 14,
-              "title": "What do you see first?",
-              "kind": "question",
-              "file": "14.webp"
+              "s": "same",
+              "prev": 14,
+              "why": "",
+              "prevFile": "14.webp"
             },
             {
-              "n": 15,
-              "title": "What do you feel when being in the spotlight?",
-              "kind": "question",
-              "file": "15.webp"
+              "s": "same",
+              "prev": 15,
+              "why": "",
+              "prevFile": "15.webp"
             },
             {
-              "n": 16,
-              "title": "What do you see first?",
-              "kind": "question",
-              "file": "16.webp"
+              "s": "same",
+              "prev": 16,
+              "why": "",
+              "prevFile": "16.webp"
             },
             {
-              "n": 17,
-              "title": "With Breeze, I finally embraced my past",
-              "kind": "info",
-              "file": "17.webp"
+              "s": "same",
+              "prev": 17,
+              "why": "",
+              "prevFile": "17.webp"
             },
             {
-              "n": 18,
-              "title": "What do you see first?",
-              "kind": "question",
-              "file": "18.webp"
+              "s": "same",
+              "prev": 18,
+              "why": "",
+              "prevFile": "18.webp"
             },
             {
-              "n": 19,
-              "title": "In your relationships with others you often...",
-              "kind": "question",
-              "file": "19.webp"
+              "s": "same",
+              "prev": 19,
+              "why": "",
+              "prevFile": "19.webp"
             },
             {
-              "n": 20,
-              "title": "Can you relate to this statement? \"I'm repeatedly drawn to people who treat me poorly.\"",
-              "kind": "question",
-              "file": "20.webp"
+              "s": "same",
+              "prev": 20,
+              "why": "",
+              "prevFile": "20.webp"
             },
             {
-              "n": 21,
-              "title": "We understand that each childhood experience is unique.",
-              "kind": "info",
-              "file": "21.webp"
+              "s": "same",
+              "prev": 21,
+              "why": "",
+              "prevFile": "21.webp"
             },
             {
-              "n": 22,
-              "title": "What do you see first?",
-              "kind": "info",
-              "file": "22.webp"
+              "s": "same",
+              "prev": 22,
+              "why": "",
+              "prevFile": "22.webp"
             },
             {
-              "n": 23,
-              "title": "Have you ever struggled with a fear of being judged or rejected by others?",
-              "kind": "question",
-              "file": "23.webp"
+              "s": "same",
+              "prev": 23,
+              "why": "",
+              "prevFile": "23.webp"
             },
             {
-              "n": 24,
-              "title": "Can you relate to this statement? \"I feel like there is a delay between my feelings and my ability to articulate them.\"",
-              "kind": "question",
-              "file": "24.webp"
+              "s": "same",
+              "prev": 24,
+              "why": "",
+              "prevFile": "24.webp"
             },
             {
-              "n": 25,
-              "title": "What do you see first?",
-              "kind": "question",
-              "file": "25.webp"
+              "s": "same",
+              "prev": 25,
+              "why": "",
+              "prevFile": "25.webp"
             },
             {
-              "n": 26,
-              "title": "Do you struggle with low self-worth or self-esteem?",
-              "kind": "question",
-              "file": "26.webp"
+              "s": "same",
+              "prev": 26,
+              "why": "",
+              "prevFile": "26.webp"
             },
             {
-              "n": 27,
-              "title": "What do you hope to gain from working through your childhood experiences?",
-              "kind": "question",
-              "file": "27.webp"
+              "s": "same",
+              "prev": 27,
+              "why": "",
+              "prevFile": "27.webp"
             },
             {
-              "n": 28,
-              "title": "How much time are you willing to dedicate to a personalized plan for exploring your childhood experiences?",
-              "kind": "question",
-              "file": "28.webp"
+              "s": "same",
+              "prev": 28,
+              "why": "",
+              "prevFile": "28.webp"
             },
             {
-              "n": 29,
-              "title": "Hey there, what should we call you?",
-              "kind": "info",
-              "file": "29.webp"
+              "s": "same",
+              "prev": 29,
+              "why": "",
+              "prevFile": "29.webp"
             },
             {
-              "n": 30,
-              "title": "Breeze Effect",
-              "kind": "info",
-              "file": "30.webp"
+              "s": "same",
+              "prev": 30,
+              "why": "",
+              "prevFile": "30.webp"
             },
             {
-              "n": 31,
-              "title": "You did something beautiful for yourself",
-              "kind": "info",
-              "file": "31.webp"
+              "s": "same",
+              "prev": 31,
+              "why": "",
+              "prevFile": "31.webp"
             },
             {
-              "n": 32,
-              "title": "Calculating your results...",
-              "kind": "loader",
-              "file": "32.webp"
+              "s": "same",
+              "prev": 32,
+              "why": "",
+              "prevFile": "32.webp"
             },
             {
-              "n": 33,
-              "title": "Calculating your results...",
-              "kind": "loader",
-              "file": "33.webp"
+              "s": "same",
+              "prev": 33,
+              "why": "",
+              "prevFile": "33.webp"
             },
             {
-              "n": 34,
-              "title": "Calculating your results...",
-              "kind": "loader",
-              "file": "34.webp"
+              "s": "same",
+              "prev": 34,
+              "why": "",
+              "prevFile": "34.webp"
             },
             {
-              "n": 35,
-              "title": "Your results are ready",
-              "kind": "email",
-              "file": "35.webp"
+              "s": "same",
+              "prev": 35,
+              "why": "",
+              "prevFile": "35.webp"
             },
             {
-              "n": 36,
-              "title": "🇺🇸 United States",
-              "kind": "question",
-              "file": "36.webp"
+              "s": "same",
+              "prev": 36,
+              "why": "",
+              "prevFile": "36.webp"
             },
             {
-              "n": 37,
-              "title": "Feel the difference in just 7 days *Results may vary",
-              "kind": "info",
-              "file": "37.webp"
+              "s": "same",
+              "prev": 37,
+              "why": "",
+              "prevFile": "37.webp"
             },
             {
-              "n": 38,
-              "title": "Your personalized childhood experience profile is ready",
-              "kind": "info",
-              "file": "38.webp"
+              "s": "same",
+              "prev": 38,
+              "why": "",
+              "prevFile": "38.webp"
             },
             {
-              "n": 39,
-              "title": "Alex,",
-              "kind": "paywall",
-              "file": "39.webp"
+              "s": "changed",
+              "prev": 39,
+              "why": "text",
+              "prevFile": "39.webp",
+              "boxes": [
+                {
+                  "t": 4.6,
+                  "l": 5.38,
+                  "w": 93.08,
+                  "h": 18.18
+                },
+                {
+                  "t": 25.96,
+                  "l": 1.54,
+                  "w": 96.92,
+                  "h": 2.3
+                }
+              ]
             }
-          ]
+          ],
+          "removed": []
         },
         "try-breeze.com/childhood": {
           "firstRun": false,
           "comparedWith": "try-breeze.com/childhood",
           "prevDir": "funnels/breeze/cdffb5cb8655",
           "prevSteps": 39,
-          "status": [],
-          "removed": [
+          "status": [
             {
-              "n": 1,
-              "title": "Choose your age",
-              "kind": "question",
-              "file": "01.webp"
+              "s": "same",
+              "prev": 1,
+              "why": "",
+              "prevFile": "01.webp"
             },
             {
-              "n": 2,
-              "title": "What is your gender identity?",
-              "kind": "question",
-              "file": "02.webp"
+              "s": "same",
+              "prev": 2,
+              "why": "",
+              "prevFile": "02.webp"
             },
             {
-              "n": 3,
-              "title": "In your childhood, your parents were...",
-              "kind": "question",
-              "file": "03.webp"
+              "s": "same",
+              "prev": 3,
+              "why": "",
+              "prevFile": "03.webp"
             },
             {
-              "n": 4,
-              "title": "How can you describe the environment you were growing up in?",
-              "kind": "question",
-              "file": "04.webp"
+              "s": "same",
+              "prev": 4,
+              "why": "",
+              "prevFile": "04.webp"
             },
             {
-              "n": 5,
-              "title": "What do you hear first?",
-              "kind": "question",
-              "file": "05.webp"
+              "s": "same",
+              "prev": 5,
+              "why": "",
+              "prevFile": "05.webp"
             },
             {
-              "n": 6,
-              "title": "What do you see first?",
-              "kind": "question",
-              "file": "06.webp"
+              "s": "same",
+              "prev": 6,
+              "why": "",
+              "prevFile": "06.webp"
             },
             {
-              "n": 7,
-              "title": "What do you see first?",
-              "kind": "question",
-              "file": "07.webp"
+              "s": "same",
+              "prev": 7,
+              "why": "",
+              "prevFile": "07.webp"
             },
             {
-              "n": 8,
-              "title": "Can you relate to this statement? \"I tend to cope with difficult emotions or memories in non-constructive ways\"",
-              "kind": "question",
-              "file": "08.webp"
+              "s": "same",
+              "prev": 8,
+              "why": "",
+              "prevFile": "08.webp"
             },
             {
-              "n": 9,
-              "title": "Do you see depression or low mood as \"normal\" or just a part of who you are?",
-              "kind": "question",
-              "file": "09.webp"
+              "s": "same",
+              "prev": 9,
+              "why": "",
+              "prevFile": "09.webp"
             },
             {
-              "n": 10,
-              "title": "How long have you been feeling this way?",
-              "kind": "question",
-              "file": "10.webp"
+              "s": "same",
+              "prev": 10,
+              "why": "",
+              "prevFile": "10.webp"
             },
             {
-              "n": 11,
-              "title": "Let's take a moment",
-              "kind": "info",
-              "file": "11.webp"
+              "s": "changed",
+              "prev": 11,
+              "why": "visual",
+              "prevFile": "11.webp",
+              "boxes": [
+                {
+                  "t": 30.96,
+                  "l": 9.23,
+                  "w": 81.54,
+                  "h": 43.06
+                }
+              ]
             },
             {
-              "n": 12,
-              "title": "What do you see first?",
-              "kind": "question",
-              "file": "12.webp"
+              "s": "same",
+              "prev": 12,
+              "why": "",
+              "prevFile": "12.webp"
             },
             {
-              "n": 13,
-              "title": "Did you know?",
-              "kind": "loader",
-              "file": "13.webp"
+              "s": "same",
+              "prev": 13,
+              "why": "",
+              "prevFile": "13.webp"
             },
             {
-              "n": 14,
-              "title": "What do you see first?",
-              "kind": "question",
-              "file": "14.webp"
+              "s": "same",
+              "prev": 14,
+              "why": "",
+              "prevFile": "14.webp"
             },
             {
-              "n": 15,
-              "title": "What do you feel when being in the spotlight?",
-              "kind": "question",
-              "file": "15.webp"
+              "s": "same",
+              "prev": 15,
+              "why": "",
+              "prevFile": "15.webp"
             },
             {
-              "n": 16,
-              "title": "What do you see first?",
-              "kind": "question",
-              "file": "16.webp"
+              "s": "same",
+              "prev": 16,
+              "why": "",
+              "prevFile": "16.webp"
             },
             {
-              "n": 17,
-              "title": "With Breeze, I finally embraced my past",
-              "kind": "info",
-              "file": "17.webp"
+              "s": "same",
+              "prev": 17,
+              "why": "",
+              "prevFile": "17.webp"
             },
             {
-              "n": 18,
-              "title": "What do you see first?",
-              "kind": "question",
-              "file": "18.webp"
+              "s": "same",
+              "prev": 18,
+              "why": "",
+              "prevFile": "18.webp"
             },
             {
-              "n": 19,
-              "title": "In your relationships with others you often...",
-              "kind": "question",
-              "file": "19.webp"
+              "s": "same",
+              "prev": 19,
+              "why": "",
+              "prevFile": "19.webp"
             },
             {
-              "n": 20,
-              "title": "Can you relate to this statement? \"I'm repeatedly drawn to people who treat me poorly.\"",
-              "kind": "question",
-              "file": "20.webp"
+              "s": "same",
+              "prev": 20,
+              "why": "",
+              "prevFile": "20.webp"
             },
             {
-              "n": 21,
-              "title": "We understand that each childhood experience is unique.",
-              "kind": "info",
-              "file": "21.webp"
+              "s": "same",
+              "prev": 21,
+              "why": "",
+              "prevFile": "21.webp"
             },
             {
-              "n": 22,
-              "title": "What do you see first?",
-              "kind": "info",
-              "file": "22.webp"
+              "s": "same",
+              "prev": 22,
+              "why": "",
+              "prevFile": "22.webp"
             },
             {
-              "n": 23,
-              "title": "Have you ever struggled with a fear of being judged or rejected by others?",
-              "kind": "question",
-              "file": "23.webp"
+              "s": "same",
+              "prev": 23,
+              "why": "",
+              "prevFile": "23.webp"
             },
             {
-              "n": 24,
-              "title": "Can you relate to this statement? \"I feel like there is a delay between my feelings and my ability to articulate them.\"",
-              "kind": "question",
-              "file": "24.webp"
+              "s": "same",
+              "prev": 24,
+              "why": "",
+              "prevFile": "24.webp"
             },
             {
-              "n": 25,
-              "title": "What do you see first?",
-              "kind": "question",
-              "file": "25.webp"
+              "s": "same",
+              "prev": 25,
+              "why": "",
+              "prevFile": "25.webp"
             },
             {
-              "n": 26,
-              "title": "Do you struggle with low self-worth or self-esteem?",
-              "kind": "question",
-              "file": "26.webp"
+              "s": "same",
+              "prev": 26,
+              "why": "",
+              "prevFile": "26.webp"
             },
             {
-              "n": 27,
-              "title": "What do you hope to gain from working through your childhood experiences?",
-              "kind": "question",
-              "file": "27.webp"
+              "s": "same",
+              "prev": 27,
+              "why": "",
+              "prevFile": "27.webp"
             },
             {
-              "n": 28,
-              "title": "How much time are you willing to dedicate to a personalized plan for exploring your childhood experiences?",
-              "kind": "question",
-              "file": "28.webp"
+              "s": "same",
+              "prev": 28,
+              "why": "",
+              "prevFile": "28.webp"
             },
             {
-              "n": 29,
-              "title": "Hey there, what should we call you?",
-              "kind": "info",
-              "file": "29.webp"
+              "s": "same",
+              "prev": 29,
+              "why": "",
+              "prevFile": "29.webp"
             },
             {
-              "n": 30,
-              "title": "Breeze Effect",
-              "kind": "info",
-              "file": "30.webp"
+              "s": "same",
+              "prev": 30,
+              "why": "",
+              "prevFile": "30.webp"
             },
             {
-              "n": 31,
-              "title": "You did something beautiful for yourself",
-              "kind": "info",
-              "file": "31.webp"
+              "s": "same",
+              "prev": 31,
+              "why": "",
+              "prevFile": "31.webp"
             },
             {
-              "n": 32,
-              "title": "Calculating your results...",
-              "kind": "loader",
-              "file": "32.webp"
+              "s": "same",
+              "prev": 32,
+              "why": "",
+              "prevFile": "32.webp"
             },
             {
-              "n": 33,
-              "title": "Calculating your results...",
-              "kind": "loader",
-              "file": "33.webp"
+              "s": "same",
+              "prev": 33,
+              "why": "",
+              "prevFile": "33.webp"
             },
             {
-              "n": 34,
-              "title": "Calculating your results...",
-              "kind": "loader",
-              "file": "34.webp"
+              "s": "same",
+              "prev": 34,
+              "why": "",
+              "prevFile": "34.webp"
             },
             {
-              "n": 35,
-              "title": "Your results are ready",
-              "kind": "email",
-              "file": "35.webp"
+              "s": "same",
+              "prev": 35,
+              "why": "",
+              "prevFile": "35.webp"
             },
             {
-              "n": 36,
-              "title": "🇺🇸 United States",
-              "kind": "question",
-              "file": "36.webp"
+              "s": "same",
+              "prev": 36,
+              "why": "",
+              "prevFile": "36.webp"
             },
             {
-              "n": 37,
-              "title": "Feel the difference in just 7 days *Results may vary",
-              "kind": "info",
-              "file": "37.webp"
+              "s": "same",
+              "prev": 37,
+              "why": "",
+              "prevFile": "37.webp"
             },
             {
-              "n": 38,
-              "title": "Your personalized childhood experience profile is ready",
-              "kind": "info",
-              "file": "38.webp"
+              "s": "same",
+              "prev": 38,
+              "why": "",
+              "prevFile": "38.webp"
             },
             {
-              "n": 39,
-              "title": "Alex,",
-              "kind": "paywall",
-              "file": "39.webp"
+              "s": "changed",
+              "prev": 39,
+              "why": "text",
+              "prevFile": "39.webp",
+              "boxes": [
+                {
+                  "t": 5.7,
+                  "l": 9.23,
+                  "w": 81.54,
+                  "h": 9.42
+                },
+                {
+                  "t": 15.55,
+                  "l": 20.77,
+                  "w": 73.85,
+                  "h": 5.59
+                },
+                {
+                  "t": 25.96,
+                  "l": 1.54,
+                  "w": 96.92,
+                  "h": 2.3
+                }
+              ]
             }
-          ]
+          ],
+          "removed": []
         }
       }
     },
@@ -1299,14 +1349,216 @@
           "comparedWith": "join-piano.hellosimply.com/start",
           "prevDir": "funnels/simply-piano/81a94aaa84e1",
           "prevSteps": 33,
-          "status": [],
-          "removed": [
+          "status": [
             {
-              "n": 1,
-              "title": "What motivates you to play the piano?",
-              "kind": "question",
-              "file": "01.webp"
+              "s": "changed",
+              "prev": 1,
+              "why": "text",
+              "prevFile": "01.webp",
+              "boxes": [
+                {
+                  "t": 27.4,
+                  "l": 13.08,
+                  "w": 35.38,
+                  "h": 12.81
+                },
+                {
+                  "t": 43.42,
+                  "l": 16.92,
+                  "w": 31.54,
+                  "h": 14.59
+                }
+              ]
             },
+            {
+              "s": "new"
+            },
+            {
+              "s": "new"
+            },
+            {
+              "s": "same",
+              "prev": 4,
+              "why": "",
+              "prevFile": "04.webp"
+            },
+            {
+              "s": "new"
+            },
+            {
+              "s": "new"
+            },
+            {
+              "s": "new"
+            },
+            {
+              "s": "new"
+            },
+            {
+              "s": "new"
+            },
+            {
+              "s": "new"
+            },
+            {
+              "s": "new"
+            },
+            {
+              "s": "new"
+            },
+            {
+              "s": "new"
+            },
+            {
+              "s": "new"
+            },
+            {
+              "s": "new"
+            },
+            {
+              "s": "new"
+            },
+            {
+              "s": "changed",
+              "prev": 18,
+              "why": "text",
+              "prevFile": "18.webp",
+              "boxes": [
+                {
+                  "t": 16.73,
+                  "l": 13.08,
+                  "w": 77.69,
+                  "h": 9.25
+                },
+                {
+                  "t": 38.08,
+                  "l": 20.77,
+                  "w": 54.62,
+                  "h": 23.49
+                },
+                {
+                  "t": 73.67,
+                  "l": 5.38,
+                  "w": 89.23,
+                  "h": 12.81
+                }
+              ]
+            },
+            {
+              "s": "new"
+            },
+            {
+              "s": "new"
+            },
+            {
+              "s": "new"
+            },
+            {
+              "s": "new"
+            },
+            {
+              "s": "changed",
+              "prev": 26,
+              "why": "text",
+              "prevFile": "26.webp",
+              "boxes": [
+                {
+                  "t": 18.51,
+                  "l": 20.77,
+                  "w": 70,
+                  "h": 14.59
+                }
+              ]
+            },
+            {
+              "s": "new"
+            },
+            {
+              "s": "new"
+            },
+            {
+              "s": "new"
+            },
+            {
+              "s": "new"
+            },
+            {
+              "s": "changed",
+              "prev": 29,
+              "why": "text",
+              "prevFile": "29.webp",
+              "boxes": [
+                {
+                  "t": 14.95,
+                  "l": 13.08,
+                  "w": 73.85,
+                  "h": 28.83
+                }
+              ]
+            },
+            {
+              "s": "changed",
+              "prev": 30,
+              "why": "text",
+              "prevFile": "30.webp",
+              "boxes": [
+                {
+                  "t": 48.75,
+                  "l": 5.38,
+                  "w": 43.08,
+                  "h": 12.81
+                },
+                {
+                  "t": 48.75,
+                  "l": 51.54,
+                  "w": 43.08,
+                  "h": 12.81
+                }
+              ]
+            },
+            {
+              "s": "new"
+            },
+            {
+              "s": "same",
+              "prev": 32,
+              "why": "",
+              "prevFile": "32.webp"
+            },
+            {
+              "s": "changed",
+              "prev": 33,
+              "why": "text",
+              "prevFile": "33.webp",
+              "boxes": [
+                {
+                  "t": 55.7,
+                  "l": 9.23,
+                  "w": 81.54,
+                  "h": 1.72
+                },
+                {
+                  "t": 57.92,
+                  "l": 5.38,
+                  "w": 89.23,
+                  "h": 10.06
+                },
+                {
+                  "t": 65.98,
+                  "l": 5.38,
+                  "w": 89.23,
+                  "h": 27.57
+                },
+                {
+                  "t": 93.77,
+                  "l": 9.23,
+                  "w": 81.54,
+                  "h": 2.28
+                }
+              ]
+            }
+          ],
+          "removed": [
             {
               "n": 2,
               "title": "You're in good hands!",
@@ -1318,12 +1570,6 @@
               "title": "What is your age?",
               "kind": "question",
               "file": "03.webp"
-            },
-            {
-              "n": 4,
-              "title": "Do you have a piano or keyboard?",
-              "kind": "question",
-              "file": "04.webp"
             },
             {
               "n": 5,
@@ -1404,12 +1650,6 @@
               "file": "17.webp"
             },
             {
-              "n": 18,
-              "title": "Awesome choices!",
-              "kind": "info",
-              "file": "18.webp"
-            },
-            {
               "n": 19,
               "title": "What’s the best way to help you learn?",
               "kind": "question",
@@ -1452,12 +1692,6 @@
               "file": "25.webp"
             },
             {
-              "n": 26,
-              "title": "Read and play sheet music in 18 days",
-              "kind": "info",
-              "file": "26.webp"
-            },
-            {
               "n": 27,
               "title": "Here’s what’s waiting for you",
               "kind": "info",
@@ -1470,34 +1704,10 @@
               "file": "28.webp"
             },
             {
-              "n": 29,
-              "title": "Great choice!",
-              "kind": "info",
-              "file": "29.webp"
-            },
-            {
-              "n": 30,
-              "title": "Achieve your goals with Simply Piano",
-              "kind": "email",
-              "file": "30.webp"
-            },
-            {
               "n": 31,
               "title": "We’ll guide you every step of the way",
               "kind": "info",
               "file": "31.webp"
-            },
-            {
-              "n": 32,
-              "title": "Welcome Freebie!",
-              "kind": "popup",
-              "file": "32.webp"
-            },
-            {
-              "n": 33,
-              "title": "Start your 7-day free trial",
-              "kind": "paywall",
-              "file": "33.webp"
             }
           ]
         },
@@ -1506,20 +1716,228 @@
           "comparedWith": "hellosimply.com/family/esa",
           "prevDir": "funnels/simply-piano/684145bcfb5c",
           "prevSteps": 33,
-          "status": [],
+          "status": [
+            {
+              "s": "same",
+              "prev": 1,
+              "why": "",
+              "prevFile": "01.webp"
+            },
+            {
+              "s": "changed",
+              "prev": 2,
+              "why": "text",
+              "prevFile": "02.webp",
+              "boxes": [
+                {
+                  "t": 27.4,
+                  "l": 13.08,
+                  "w": 35.38,
+                  "h": 12.81
+                },
+                {
+                  "t": 27.4,
+                  "l": 51.54,
+                  "w": 39.23,
+                  "h": 12.81
+                },
+                {
+                  "t": 43.42,
+                  "l": 51.54,
+                  "w": 35.38,
+                  "h": 12.81
+                }
+              ]
+            },
+            {
+              "s": "new"
+            },
+            {
+              "s": "new"
+            },
+            {
+              "s": "same",
+              "prev": 5,
+              "why": "",
+              "prevFile": "05.webp"
+            },
+            {
+              "s": "new"
+            },
+            {
+              "s": "new"
+            },
+            {
+              "s": "new"
+            },
+            {
+              "s": "new"
+            },
+            {
+              "s": "new"
+            },
+            {
+              "s": "new"
+            },
+            {
+              "s": "new"
+            },
+            {
+              "s": "new"
+            },
+            {
+              "s": "new"
+            },
+            {
+              "s": "new"
+            },
+            {
+              "s": "new"
+            },
+            {
+              "s": "new"
+            },
+            {
+              "s": "changed",
+              "prev": 18,
+              "why": "text",
+              "prevFile": "18.webp",
+              "boxes": [
+                {
+                  "t": 16.73,
+                  "l": 13.08,
+                  "w": 77.69,
+                  "h": 9.25
+                },
+                {
+                  "t": 38.08,
+                  "l": 20.77,
+                  "w": 54.62,
+                  "h": 23.49
+                },
+                {
+                  "t": 73.67,
+                  "l": 5.38,
+                  "w": 89.23,
+                  "h": 12.81
+                }
+              ]
+            },
+            {
+              "s": "new"
+            },
+            {
+              "s": "new"
+            },
+            {
+              "s": "new"
+            },
+            {
+              "s": "new"
+            },
+            {
+              "s": "changed",
+              "prev": 26,
+              "why": "text",
+              "prevFile": "26.webp",
+              "boxes": [
+                {
+                  "t": 18.51,
+                  "l": 20.77,
+                  "w": 70,
+                  "h": 14.59
+                }
+              ]
+            },
+            {
+              "s": "new"
+            },
+            {
+              "s": "new"
+            },
+            {
+              "s": "new"
+            },
+            {
+              "s": "new"
+            },
+            {
+              "s": "changed",
+              "prev": 29,
+              "why": "text",
+              "prevFile": "29.webp",
+              "boxes": [
+                {
+                  "t": 14.95,
+                  "l": 20.77,
+                  "w": 58.46,
+                  "h": 28.83
+                }
+              ]
+            },
+            {
+              "s": "changed",
+              "prev": 30,
+              "why": "text",
+              "prevFile": "30.webp",
+              "boxes": [
+                {
+                  "t": 48.75,
+                  "l": 5.38,
+                  "w": 43.08,
+                  "h": 12.81
+                },
+                {
+                  "t": 48.75,
+                  "l": 51.54,
+                  "w": 43.08,
+                  "h": 12.81
+                }
+              ]
+            },
+            {
+              "s": "new"
+            },
+            {
+              "s": "same",
+              "prev": 32,
+              "why": "",
+              "prevFile": "32.webp"
+            },
+            {
+              "s": "changed",
+              "prev": 33,
+              "why": "text",
+              "prevFile": "33.webp",
+              "boxes": [
+                {
+                  "t": 55.7,
+                  "l": 9.23,
+                  "w": 81.54,
+                  "h": 1.72
+                },
+                {
+                  "t": 57.92,
+                  "l": 5.38,
+                  "w": 89.23,
+                  "h": 10.06
+                },
+                {
+                  "t": 65.98,
+                  "l": 5.38,
+                  "w": 89.23,
+                  "h": 27.57
+                },
+                {
+                  "t": 93.77,
+                  "l": 9.23,
+                  "w": 81.54,
+                  "h": 2.28
+                }
+              ]
+            }
+          ],
           "removed": [
-            {
-              "n": 1,
-              "title": "ESA funds for piano learning",
-              "kind": "question",
-              "file": "01.webp"
-            },
-            {
-              "n": 2,
-              "title": "What motivates you to play the piano?",
-              "kind": "question",
-              "file": "02.webp"
-            },
             {
               "n": 3,
               "title": "You're in good hands!",
@@ -1531,12 +1949,6 @@
               "title": "What is your age?",
               "kind": "question",
               "file": "04.webp"
-            },
-            {
-              "n": 5,
-              "title": "Do you have a piano or keyboard?",
-              "kind": "question",
-              "file": "05.webp"
             },
             {
               "n": 6,
@@ -1611,12 +2023,6 @@
               "file": "17.webp"
             },
             {
-              "n": 18,
-              "title": "Awesome choices!",
-              "kind": "info",
-              "file": "18.webp"
-            },
-            {
               "n": 19,
               "title": "What’s the best way to help you learn?",
               "kind": "question",
@@ -1659,12 +2065,6 @@
               "file": "25.webp"
             },
             {
-              "n": 26,
-              "title": "Read and play sheet music in 18 days",
-              "kind": "info",
-              "file": "26.webp"
-            },
-            {
               "n": 27,
               "title": "Here’s what’s waiting for you",
               "kind": "info",
@@ -1677,34 +2077,10 @@
               "file": "28.webp"
             },
             {
-              "n": 29,
-              "title": "Great choice!",
-              "kind": "info",
-              "file": "29.webp"
-            },
-            {
-              "n": 30,
-              "title": "Achieve your goals with Simply Piano",
-              "kind": "email",
-              "file": "30.webp"
-            },
-            {
               "n": 31,
               "title": "We’ll guide you every step of the way",
               "kind": "info",
               "file": "31.webp"
-            },
-            {
-              "n": 32,
-              "title": "Welcome Freebie!",
-              "kind": "popup",
-              "file": "32.webp"
-            },
-            {
-              "n": 33,
-              "title": "Start your 7-day free trial",
-              "kind": "paywall",
-              "file": "33.webp"
             }
           ]
         }
@@ -1749,212 +2125,216 @@
           "comparedWith": "start.memoryos.com/new-h2?thm=light",
           "prevDir": "funnels/memoryos/7488926e110a",
           "prevSteps": 35,
-          "status": [],
+          "status": [
+            {
+              "s": "same",
+              "prev": 1,
+              "why": "",
+              "prevFile": "01.webp"
+            },
+            {
+              "s": "same",
+              "prev": 2,
+              "why": "",
+              "prevFile": "02.webp"
+            },
+            {
+              "s": "same",
+              "prev": 3,
+              "why": "",
+              "prevFile": "03.webp"
+            },
+            {
+              "s": "same",
+              "prev": 4,
+              "why": "",
+              "prevFile": "04.webp"
+            },
+            {
+              "s": "same",
+              "prev": 5,
+              "why": "",
+              "prevFile": "05.webp"
+            },
+            {
+              "s": "same",
+              "prev": 6,
+              "why": "",
+              "prevFile": "06.webp"
+            },
+            {
+              "s": "same",
+              "prev": 7,
+              "why": "",
+              "prevFile": "07.webp"
+            },
+            {
+              "s": "same",
+              "prev": 8,
+              "why": "",
+              "prevFile": "08.webp"
+            },
+            {
+              "s": "same",
+              "prev": 9,
+              "why": "",
+              "prevFile": "09.webp"
+            },
+            {
+              "s": "same",
+              "prev": 10,
+              "why": "",
+              "prevFile": "10.webp"
+            },
+            {
+              "s": "same",
+              "prev": 11,
+              "why": "",
+              "prevFile": "11.webp"
+            },
+            {
+              "s": "same",
+              "prev": 12,
+              "why": "",
+              "prevFile": "12.webp"
+            },
+            {
+              "s": "same",
+              "prev": 13,
+              "why": "",
+              "prevFile": "13.webp"
+            },
+            {
+              "s": "same",
+              "prev": 14,
+              "why": "",
+              "prevFile": "14.webp"
+            },
+            {
+              "s": "same",
+              "prev": 15,
+              "why": "",
+              "prevFile": "15.webp"
+            },
+            {
+              "s": "same",
+              "prev": 16,
+              "why": "",
+              "prevFile": "16.webp"
+            },
+            {
+              "s": "same",
+              "prev": 17,
+              "why": "",
+              "prevFile": "17.webp"
+            },
+            {
+              "s": "same",
+              "prev": 18,
+              "why": "",
+              "prevFile": "18.webp"
+            },
+            {
+              "s": "same",
+              "prev": 19,
+              "why": "",
+              "prevFile": "19.webp"
+            },
+            {
+              "s": "same",
+              "prev": 20,
+              "why": "",
+              "prevFile": "20.webp"
+            },
+            {
+              "s": "same",
+              "prev": 21,
+              "why": "",
+              "prevFile": "21.webp"
+            },
+            {
+              "s": "same",
+              "prev": 22,
+              "why": "",
+              "prevFile": "22.webp"
+            },
+            {
+              "s": "same",
+              "prev": 23,
+              "why": "",
+              "prevFile": "23.webp"
+            },
+            {
+              "s": "same",
+              "prev": 24,
+              "why": "",
+              "prevFile": "24.webp"
+            },
+            {
+              "s": "same",
+              "prev": 25,
+              "why": "",
+              "prevFile": "25.webp"
+            },
+            {
+              "s": "same",
+              "prev": 26,
+              "why": "",
+              "prevFile": "26.webp"
+            },
+            {
+              "s": "same",
+              "prev": 27,
+              "why": "",
+              "prevFile": "27.webp"
+            },
+            {
+              "s": "same",
+              "prev": 28,
+              "why": "",
+              "prevFile": "28.webp"
+            },
+            {
+              "s": "same",
+              "prev": 29,
+              "why": "",
+              "prevFile": "29.webp"
+            },
+            {
+              "s": "same",
+              "prev": 30,
+              "why": "",
+              "prevFile": "30.webp"
+            },
+            {
+              "s": "same",
+              "prev": 31,
+              "why": "",
+              "prevFile": "31.webp"
+            },
+            {
+              "s": "same",
+              "prev": 32,
+              "why": "",
+              "prevFile": "32.webp"
+            },
+            {
+              "s": "same",
+              "prev": 33,
+              "why": "",
+              "prevFile": "33.webp"
+            },
+            {
+              "s": "same",
+              "prev": 34,
+              "why": "",
+              "prevFile": "34.webp"
+            },
+            {
+              "s": "new"
+            }
+          ],
           "removed": [
-            {
-              "n": 1,
-              "title": "Forgetting names and details even though you’re capable?",
-              "kind": "loader",
-              "file": "01.webp"
-            },
-            {
-              "n": 2,
-              "title": "Your Age Range",
-              "kind": "question",
-              "file": "02.webp"
-            },
-            {
-              "n": 3,
-              "title": "Kickstarter's #1 App",
-              "kind": "info",
-              "file": "03.webp"
-            },
-            {
-              "n": 4,
-              "title": "Select your gender",
-              "kind": "question",
-              "file": "04.webp"
-            },
-            {
-              "n": 5,
-              "title": "What would you use your superior memory for?",
-              "kind": "question",
-              "file": "05.webp"
-            },
-            {
-              "n": 6,
-              "title": "Glad you're here!",
-              "kind": "info",
-              "file": "06.webp"
-            },
-            {
-              "n": 7,
-              "title": "How often do you find yourself forgetting important information?",
-              "kind": "question",
-              "file": "07.webp"
-            },
-            {
-              "n": 8,
-              "title": "Weak memory is not your fault",
-              "kind": "info",
-              "file": "08.webp"
-            },
-            {
-              "n": 9,
-              "title": "Forgetting what frustrates you the most?",
-              "kind": "question",
-              "file": "09.webp"
-            },
-            {
-              "n": 10,
-              "title": "No worries! We got you!",
-              "kind": "info",
-              "file": "10.webp"
-            },
-            {
-              "n": 11,
-              "title": "Ever forget names right after an introduction?",
-              "kind": "question",
-              "file": "11.webp"
-            },
-            {
-              "n": 12,
-              "title": "You'll easily remember names",
-              "kind": "info",
-              "file": "12.webp"
-            },
-            {
-              "n": 13,
-              "title": "Is age-related memory decline or dementia a concern for you or your loved ones?",
-              "kind": "question",
-              "file": "13.webp"
-            },
-            {
-              "n": 14,
-              "title": "Does recalling family stories take effort?",
-              "kind": "question",
-              "file": "14.webp"
-            },
-            {
-              "n": 15,
-              "title": "We all want to remember happy moments with our loved ones",
-              "kind": "info",
-              "file": "15.webp"
-            },
-            {
-              "n": 16,
-              "title": "Which memory skills would you love to obtain?",
-              "kind": "question",
-              "file": "16.webp"
-            },
-            {
-              "n": 17,
-              "title": "How many languages do you speak?",
-              "kind": "question",
-              "file": "17.webp"
-            },
-            {
-              "n": 18,
-              "title": "Would a better memory help your career?",
-              "kind": "question",
-              "file": "18.webp"
-            },
-            {
-              "n": 19,
-              "title": "Do you associate regular brain and memory workouts with better performance at work?",
-              "kind": "question",
-              "file": "19.webp"
-            },
-            {
-              "n": 20,
-              "title": "Do you sometimes need a friendly push to keep moving forward?",
-              "kind": "question",
-              "file": "20.webp"
-            },
-            {
-              "n": 21,
-              "title": "A friendly push now and then can be a great motivator",
-              "kind": "loader",
-              "file": "21.webp"
-            },
-            {
-              "n": 22,
-              "title": "You came to the right place!",
-              "kind": "social_proof",
-              "file": "22.webp"
-            },
-            {
-              "n": 23,
-              "title": "Have you ever heard of a Mind Palace technique that Sherlock uses?",
-              "kind": "question",
-              "file": "23.webp"
-            },
-            {
-              "n": 24,
-              "title": "See how it works for yourself!",
-              "kind": "info",
-              "file": "24.webp"
-            },
-            {
-              "n": 25,
-              "title": "Do you believe that everyone can develop a great memory?",
-              "kind": "question",
-              "file": "25.webp"
-            },
-            {
-              "n": 26,
-              "title": "Meet the average “Joe” who perfected his memory",
-              "kind": "social_proof",
-              "file": "26.webp"
-            },
-            {
-              "n": 27,
-              "title": "You can achieve greatness too!",
-              "kind": "info",
-              "file": "27.webp"
-            },
-            {
-              "n": 28,
-              "title": "What type of learning do you prefer?",
-              "kind": "question",
-              "file": "28.webp"
-            },
-            {
-              "n": 29,
-              "title": "What motivates you to stick to a memory improvement routine?",
-              "kind": "question",
-              "file": "29.webp"
-            },
-            {
-              "n": 30,
-              "title": "Ready to embark on a journey to enhance your memory?",
-              "kind": "question",
-              "file": "30.webp"
-            },
-            {
-              "n": 31,
-              "title": "Set your daily commitment to develop a habit and stay motivated",
-              "kind": "question",
-              "file": "31.webp"
-            },
-            {
-              "n": 32,
-              "title": "Enter your email to get your memoryOS plan",
-              "kind": "email",
-              "file": "32.webp"
-            },
-            {
-              "n": 33,
-              "title": "How can we call you?",
-              "kind": "info",
-              "file": "33.webp"
-            },
-            {
-              "n": 34,
-              "title": "Your personal memory growth plan is ready",
-              "kind": "info",
-              "file": "34.webp"
-            },
             {
               "n": 35,
               "title": "0",
@@ -1968,212 +2348,216 @@
           "comparedWith": "start.memoryos.com/new-s",
           "prevDir": "funnels/memoryos/8df162c3ae21",
           "prevSteps": 35,
-          "status": [],
+          "status": [
+            {
+              "s": "same",
+              "prev": 1,
+              "why": "",
+              "prevFile": "01.webp"
+            },
+            {
+              "s": "same",
+              "prev": 2,
+              "why": "",
+              "prevFile": "02.webp"
+            },
+            {
+              "s": "same",
+              "prev": 3,
+              "why": "",
+              "prevFile": "03.webp"
+            },
+            {
+              "s": "same",
+              "prev": 4,
+              "why": "",
+              "prevFile": "04.webp"
+            },
+            {
+              "s": "same",
+              "prev": 5,
+              "why": "",
+              "prevFile": "05.webp"
+            },
+            {
+              "s": "same",
+              "prev": 6,
+              "why": "",
+              "prevFile": "06.webp"
+            },
+            {
+              "s": "same",
+              "prev": 7,
+              "why": "",
+              "prevFile": "07.webp"
+            },
+            {
+              "s": "same",
+              "prev": 8,
+              "why": "",
+              "prevFile": "08.webp"
+            },
+            {
+              "s": "same",
+              "prev": 9,
+              "why": "",
+              "prevFile": "09.webp"
+            },
+            {
+              "s": "same",
+              "prev": 10,
+              "why": "",
+              "prevFile": "10.webp"
+            },
+            {
+              "s": "same",
+              "prev": 11,
+              "why": "",
+              "prevFile": "11.webp"
+            },
+            {
+              "s": "same",
+              "prev": 12,
+              "why": "",
+              "prevFile": "12.webp"
+            },
+            {
+              "s": "same",
+              "prev": 13,
+              "why": "",
+              "prevFile": "13.webp"
+            },
+            {
+              "s": "same",
+              "prev": 14,
+              "why": "",
+              "prevFile": "14.webp"
+            },
+            {
+              "s": "same",
+              "prev": 15,
+              "why": "",
+              "prevFile": "15.webp"
+            },
+            {
+              "s": "same",
+              "prev": 16,
+              "why": "",
+              "prevFile": "16.webp"
+            },
+            {
+              "s": "same",
+              "prev": 17,
+              "why": "",
+              "prevFile": "17.webp"
+            },
+            {
+              "s": "same",
+              "prev": 18,
+              "why": "",
+              "prevFile": "18.webp"
+            },
+            {
+              "s": "same",
+              "prev": 19,
+              "why": "",
+              "prevFile": "19.webp"
+            },
+            {
+              "s": "same",
+              "prev": 20,
+              "why": "",
+              "prevFile": "20.webp"
+            },
+            {
+              "s": "same",
+              "prev": 21,
+              "why": "",
+              "prevFile": "21.webp"
+            },
+            {
+              "s": "same",
+              "prev": 22,
+              "why": "",
+              "prevFile": "22.webp"
+            },
+            {
+              "s": "same",
+              "prev": 23,
+              "why": "",
+              "prevFile": "23.webp"
+            },
+            {
+              "s": "same",
+              "prev": 24,
+              "why": "",
+              "prevFile": "24.webp"
+            },
+            {
+              "s": "same",
+              "prev": 25,
+              "why": "",
+              "prevFile": "25.webp"
+            },
+            {
+              "s": "same",
+              "prev": 26,
+              "why": "",
+              "prevFile": "26.webp"
+            },
+            {
+              "s": "same",
+              "prev": 27,
+              "why": "",
+              "prevFile": "27.webp"
+            },
+            {
+              "s": "same",
+              "prev": 28,
+              "why": "",
+              "prevFile": "28.webp"
+            },
+            {
+              "s": "same",
+              "prev": 29,
+              "why": "",
+              "prevFile": "29.webp"
+            },
+            {
+              "s": "same",
+              "prev": 30,
+              "why": "",
+              "prevFile": "30.webp"
+            },
+            {
+              "s": "same",
+              "prev": 31,
+              "why": "",
+              "prevFile": "31.webp"
+            },
+            {
+              "s": "same",
+              "prev": 32,
+              "why": "",
+              "prevFile": "32.webp"
+            },
+            {
+              "s": "same",
+              "prev": 33,
+              "why": "",
+              "prevFile": "33.webp"
+            },
+            {
+              "s": "same",
+              "prev": 34,
+              "why": "",
+              "prevFile": "34.webp"
+            },
+            {
+              "s": "new"
+            }
+          ],
           "removed": [
-            {
-              "n": 1,
-              "title": "Learn How To Train Your Memory After 50",
-              "kind": "loader",
-              "file": "01.webp"
-            },
-            {
-              "n": 2,
-              "title": "Your Age Range",
-              "kind": "question",
-              "file": "02.webp"
-            },
-            {
-              "n": 3,
-              "title": "Rated #1 by Adults Over 50",
-              "kind": "info",
-              "file": "03.webp"
-            },
-            {
-              "n": 4,
-              "title": "Select your gender",
-              "kind": "question",
-              "file": "04.webp"
-            },
-            {
-              "n": 5,
-              "title": "What would you use your superior memory for?",
-              "kind": "question",
-              "file": "05.webp"
-            },
-            {
-              "n": 6,
-              "title": "Glad you're here!",
-              "kind": "info",
-              "file": "06.webp"
-            },
-            {
-              "n": 7,
-              "title": "How often do you find yourself forgetting important information?",
-              "kind": "question",
-              "file": "07.webp"
-            },
-            {
-              "n": 8,
-              "title": "Weak memory is not your fault",
-              "kind": "info",
-              "file": "08.webp"
-            },
-            {
-              "n": 9,
-              "title": "Forgetting what frustrates you the most?",
-              "kind": "question",
-              "file": "09.webp"
-            },
-            {
-              "n": 10,
-              "title": "No worries! We got you!",
-              "kind": "info",
-              "file": "10.webp"
-            },
-            {
-              "n": 11,
-              "title": "Ever forget names right after an introduction?",
-              "kind": "question",
-              "file": "11.webp"
-            },
-            {
-              "n": 12,
-              "title": "You'll easily remember names",
-              "kind": "info",
-              "file": "12.webp"
-            },
-            {
-              "n": 13,
-              "title": "Is age-related memory decline or dementia a concern for you or your loved ones?",
-              "kind": "question",
-              "file": "13.webp"
-            },
-            {
-              "n": 14,
-              "title": "Does recalling family stories take effort?",
-              "kind": "question",
-              "file": "14.webp"
-            },
-            {
-              "n": 15,
-              "title": "We all want to remember happy moments with our loved ones",
-              "kind": "info",
-              "file": "15.webp"
-            },
-            {
-              "n": 16,
-              "title": "Which memory skills would you love to obtain?",
-              "kind": "question",
-              "file": "16.webp"
-            },
-            {
-              "n": 17,
-              "title": "How many languages do you speak?",
-              "kind": "question",
-              "file": "17.webp"
-            },
-            {
-              "n": 18,
-              "title": "Would a better memory help your career?",
-              "kind": "question",
-              "file": "18.webp"
-            },
-            {
-              "n": 19,
-              "title": "Do you associate regular brain and memory workouts with better performance at work?",
-              "kind": "question",
-              "file": "19.webp"
-            },
-            {
-              "n": 20,
-              "title": "Do you sometimes need a friendly push to keep moving forward?",
-              "kind": "question",
-              "file": "20.webp"
-            },
-            {
-              "n": 21,
-              "title": "A friendly push now and then can be a great motivator",
-              "kind": "loader",
-              "file": "21.webp"
-            },
-            {
-              "n": 22,
-              "title": "You came to the right place!",
-              "kind": "social_proof",
-              "file": "22.webp"
-            },
-            {
-              "n": 23,
-              "title": "Have you ever heard of a Mind Palace technique that Sherlock uses?",
-              "kind": "question",
-              "file": "23.webp"
-            },
-            {
-              "n": 24,
-              "title": "See how it works for yourself!",
-              "kind": "info",
-              "file": "24.webp"
-            },
-            {
-              "n": 25,
-              "title": "Do you believe that everyone can develop a great memory?",
-              "kind": "question",
-              "file": "25.webp"
-            },
-            {
-              "n": 26,
-              "title": "Meet the average “Joe” who perfected his memory",
-              "kind": "social_proof",
-              "file": "26.webp"
-            },
-            {
-              "n": 27,
-              "title": "You can achieve greatness too!",
-              "kind": "info",
-              "file": "27.webp"
-            },
-            {
-              "n": 28,
-              "title": "What type of learning do you prefer?",
-              "kind": "question",
-              "file": "28.webp"
-            },
-            {
-              "n": 29,
-              "title": "What motivates you to stick to a memory improvement routine?",
-              "kind": "question",
-              "file": "29.webp"
-            },
-            {
-              "n": 30,
-              "title": "Ready to embark on a journey to enhance your memory?",
-              "kind": "question",
-              "file": "30.webp"
-            },
-            {
-              "n": 31,
-              "title": "Set your daily commitment to develop a habit and stay motivated",
-              "kind": "question",
-              "file": "31.webp"
-            },
-            {
-              "n": 32,
-              "title": "Enter your email to get your memoryOS plan",
-              "kind": "email",
-              "file": "32.webp"
-            },
-            {
-              "n": 33,
-              "title": "How can we call you?",
-              "kind": "info",
-              "file": "33.webp"
-            },
-            {
-              "n": 34,
-              "title": "Your personal memory growth plan is ready",
-              "kind": "info",
-              "file": "34.webp"
-            },
             {
               "n": 35,
               "title": "0",
@@ -2223,452 +2607,468 @@
           "comparedWith": "quiz.get-chillio.app/qs/cleaning-game",
           "prevDir": "funnels/chillio/32c02a42bd3b",
           "prevSteps": 36,
-          "status": [],
-          "removed": [
+          "status": [
             {
-              "n": 1,
-              "title": "Turn your cleaning into a game",
-              "kind": "question",
-              "file": "01.webp"
+              "s": "same",
+              "prev": 1,
+              "why": "",
+              "prevFile": "01.webp"
             },
             {
-              "n": 2,
-              "title": "What is your age?",
-              "kind": "question",
-              "file": "02.webp"
+              "s": "same",
+              "prev": 2,
+              "why": "",
+              "prevFile": "02.webp"
             },
             {
-              "n": 3,
-              "title": "Over 250,000 people have chosen Chillio",
-              "kind": "social_proof",
-              "file": "03.webp"
+              "s": "same",
+              "prev": 3,
+              "why": "",
+              "prevFile": "03.webp"
             },
             {
-              "n": 4,
-              "title": "What's your main goal to achieve with Chillio?",
-              "kind": "question",
-              "file": "04.webp"
+              "s": "same",
+              "prev": 4,
+              "why": "",
+              "prevFile": "04.webp"
             },
             {
-              "n": 5,
-              "title": "Great, you just set your first goal! We'll help you manage your household on autopilot",
-              "kind": "info",
-              "file": "05.webp"
+              "s": "same",
+              "prev": 5,
+              "why": "",
+              "prevFile": "05.webp"
             },
             {
-              "n": 6,
-              "title": "What’s your current living situation?",
-              "kind": "question",
-              "file": "06.webp"
+              "s": "same",
+              "prev": 6,
+              "why": "",
+              "prevFile": "06.webp"
             },
             {
-              "n": 7,
-              "title": "How clean is your space right now?",
-              "kind": "question",
-              "file": "07.webp"
+              "s": "same",
+              "prev": 7,
+              "why": "",
+              "prevFile": "07.webp"
             },
             {
-              "n": 8,
-              "title": "How often do you feel overwhelmed by household tasks?",
-              "kind": "question",
-              "file": "08.webp"
+              "s": "same",
+              "prev": 8,
+              "why": "",
+              "prevFile": "08.webp"
             },
             {
-              "n": 9,
-              "title": "Which parts of running your home stress you out most?",
-              "kind": "question",
-              "file": "09.webp"
+              "s": "same",
+              "prev": 9,
+              "why": "",
+              "prevFile": "09.webp"
             },
             {
-              "n": 10,
-              "title": "What makes it hard for you to get started?",
-              "kind": "question",
-              "file": "10.webp"
+              "s": "same",
+              "prev": 10,
+              "why": "",
+              "prevFile": "10.webp"
             },
             {
-              "n": 11,
-              "title": "What’s the toughest part about keeping your home tidy?",
-              "kind": "question",
-              "file": "11.webp"
+              "s": "same",
+              "prev": 11,
+              "why": "",
+              "prevFile": "11.webp"
             },
             {
-              "n": 12,
-              "title": "Do you want to make your cleaning easier and more fun?",
-              "kind": "question",
-              "file": "12.webp"
+              "s": "same",
+              "prev": 12,
+              "why": "",
+              "prevFile": "12.webp"
             },
             {
-              "n": 13,
-              "title": "Chillio is built on evidence-based productivity methods",
-              "kind": "info",
-              "file": "13.webp"
+              "s": "same",
+              "prev": 13,
+              "why": "",
+              "prevFile": "13.webp"
             },
             {
-              "n": 14,
-              "title": "Do you relate to the statement below?",
-              "kind": "question",
-              "file": "14.webp"
+              "s": "same",
+              "prev": 14,
+              "why": "",
+              "prevFile": "14.webp"
             },
             {
-              "n": 15,
-              "title": "Do you relate to the statement below?",
-              "kind": "question",
-              "file": "15.webp"
+              "s": "same",
+              "prev": 15,
+              "why": "",
+              "prevFile": "15.webp"
             },
             {
-              "n": 16,
-              "title": "Do you relate to the statement below?",
-              "kind": "question",
-              "file": "16.webp"
+              "s": "same",
+              "prev": 16,
+              "why": "",
+              "prevFile": "16.webp"
             },
             {
-              "n": 17,
-              "title": "Do you relate to the statement below?",
-              "kind": "question",
-              "file": "17.webp"
+              "s": "same",
+              "prev": 17,
+              "why": "",
+              "prevFile": "17.webp"
             },
             {
-              "n": 18,
-              "title": "Do you relate to the statement below?",
-              "kind": "question",
-              "file": "18.webp"
+              "s": "same",
+              "prev": 18,
+              "why": "",
+              "prevFile": "18.webp"
             },
             {
-              "n": 19,
-              "title": "Do you relate to the statement below?",
-              "kind": "question",
-              "file": "19.webp"
+              "s": "same",
+              "prev": 19,
+              "why": "",
+              "prevFile": "19.webp"
             },
             {
-              "n": 20,
-              "title": "Summary of your Personality Profile",
-              "kind": "info",
-              "file": "20.webp"
+              "s": "same",
+              "prev": 20,
+              "why": "",
+              "prevFile": "20.webp"
             },
             {
-              "n": 21,
-              "title": "What habits would you like to start?",
-              "kind": "question",
-              "file": "21.webp"
+              "s": "same",
+              "prev": 21,
+              "why": "",
+              "prevFile": "21.webp"
             },
             {
-              "n": 22,
-              "title": "What habits would you like to break?",
-              "kind": "question",
-              "file": "22.webp"
+              "s": "same",
+              "prev": 22,
+              "why": "",
+              "prevFile": "22.webp"
             },
             {
-              "n": 23,
-              "title": "What would make your plan more fun or helpful?",
-              "kind": "question",
-              "file": "23.webp"
+              "s": "same",
+              "prev": 23,
+              "why": "",
+              "prevFile": "23.webp"
             },
             {
-              "n": 24,
-              "title": "Chillio is building a daily routine you’ll actually enjoy",
-              "kind": "loader",
-              "file": "24.webp"
+              "s": "same",
+              "prev": 24,
+              "why": "",
+              "prevFile": "24.webp"
             },
             {
-              "n": 25,
-              "title": "Move now! Become the best version of yourself",
-              "kind": "info",
-              "file": "25.webp"
+              "s": "same",
+              "prev": 25,
+              "why": "",
+              "prevFile": "25.webp"
             },
             {
-              "n": 26,
-              "title": "How do you want to feel at home?",
-              "kind": "question",
-              "file": "26.webp"
+              "s": "same",
+              "prev": 26,
+              "why": "",
+              "prevFile": "26.webp"
             },
             {
-              "n": 27,
-              "title": "How much time can you dedicate daily to achieve your goal?",
-              "kind": "question",
-              "file": "27.webp"
+              "s": "same",
+              "prev": 27,
+              "why": "",
+              "prevFile": "27.webp"
             },
             {
-              "n": 28,
-              "title": "The only app you need to keep your home running smoothly",
-              "kind": "info",
-              "file": "28.webp"
+              "s": "same",
+              "prev": 28,
+              "why": "",
+              "prevFile": "28.webp"
             },
             {
-              "n": 29,
-              "title": "We’re setting up your transformation...",
-              "kind": "social_proof",
-              "file": "29.webp"
+              "s": "same",
+              "prev": 29,
+              "why": "",
+              "prevFile": "29.webp"
             },
             {
-              "n": 30,
-              "title": "We’re setting up your transformation...",
-              "kind": "social_proof",
-              "file": "30.webp"
+              "s": "same",
+              "prev": 30,
+              "why": "",
+              "prevFile": "30.webp"
             },
             {
-              "n": 31,
-              "title": "We’re setting up your transformation...",
-              "kind": "loader",
-              "file": "31.webp"
+              "s": "same",
+              "prev": 31,
+              "why": "",
+              "prevFile": "31.webp"
             },
             {
-              "n": 32,
-              "title": "Enter your email to get your personalized plan",
-              "kind": "email",
-              "file": "32.webp"
+              "s": "same",
+              "prev": 32,
+              "why": "",
+              "prevFile": "32.webp"
             },
             {
-              "n": 33,
-              "title": "What is your first name? 👋",
-              "kind": "info",
-              "file": "33.webp"
+              "s": "same",
+              "prev": 33,
+              "why": "",
+              "prevFile": "33.webp"
             },
             {
-              "n": 34,
-              "title": "92% of Chillio users are building their routine from day one!",
-              "kind": "info",
-              "file": "34.webp"
+              "s": "same",
+              "prev": 34,
+              "why": "",
+              "prevFile": "34.webp"
             },
             {
-              "n": 35,
-              "title": "50%",
-              "kind": "info",
-              "file": "35.webp"
+              "s": "same",
+              "prev": 35,
+              "why": "",
+              "prevFile": "35.webp"
             },
             {
-              "n": 36,
-              "title": "Choose your plan",
-              "kind": "paywall",
-              "file": "36.webp"
+              "s": "changed",
+              "prev": 36,
+              "why": "text",
+              "prevFile": "36.webp",
+              "boxes": [
+                {
+                  "t": 96.14,
+                  "l": 5.38,
+                  "w": 89.23,
+                  "h": 3.53
+                }
+              ]
             }
-          ]
+          ],
+          "removed": []
         },
         "quiz.get-chillio.app/qs/house-ai": {
           "firstRun": false,
           "comparedWith": "quiz.get-chillio.app/qs/house-ai",
           "prevDir": "funnels/chillio/7b6db541533d",
           "prevSteps": 35,
-          "status": [],
-          "removed": [
+          "status": [
             {
-              "n": 1,
-              "title": "Let AI run your house",
-              "kind": "question",
-              "file": "01.webp"
+              "s": "same",
+              "prev": 1,
+              "why": "",
+              "prevFile": "01.webp"
             },
             {
-              "n": 2,
-              "title": "What is your age?",
-              "kind": "question",
-              "file": "02.webp"
+              "s": "same",
+              "prev": 2,
+              "why": "",
+              "prevFile": "02.webp"
             },
             {
-              "n": 3,
-              "title": "Over 250,000 people have chosen Chillio",
-              "kind": "social_proof",
-              "file": "03.webp"
+              "s": "same",
+              "prev": 3,
+              "why": "",
+              "prevFile": "03.webp"
             },
             {
-              "n": 4,
-              "title": "What's your main goal to achieve with AI assistant?",
-              "kind": "question",
-              "file": "04.webp"
+              "s": "same",
+              "prev": 4,
+              "why": "",
+              "prevFile": "04.webp"
             },
             {
-              "n": 5,
-              "title": "Great, you just set your first goal! We'll help you beat procrastination step by step",
-              "kind": "info",
-              "file": "05.webp"
+              "s": "same",
+              "prev": 5,
+              "why": "",
+              "prevFile": "05.webp"
             },
             {
-              "n": 6,
-              "title": "What’s your current living situation?",
-              "kind": "question",
-              "file": "06.webp"
+              "s": "same",
+              "prev": 6,
+              "why": "",
+              "prevFile": "06.webp"
             },
             {
-              "n": 7,
-              "title": "How clean is your space right now?",
-              "kind": "question",
-              "file": "07.webp"
+              "s": "same",
+              "prev": 7,
+              "why": "",
+              "prevFile": "07.webp"
             },
             {
-              "n": 8,
-              "title": "How often do you feel overwhelmed by household tasks?",
-              "kind": "question",
-              "file": "08.webp"
+              "s": "same",
+              "prev": 8,
+              "why": "",
+              "prevFile": "08.webp"
             },
             {
-              "n": 9,
-              "title": "Which parts of running your home stress you out most?",
-              "kind": "question",
-              "file": "09.webp"
+              "s": "same",
+              "prev": 9,
+              "why": "",
+              "prevFile": "09.webp"
             },
             {
-              "n": 10,
-              "title": "What makes it hard for you to get started?",
-              "kind": "question",
-              "file": "10.webp"
+              "s": "same",
+              "prev": 10,
+              "why": "",
+              "prevFile": "10.webp"
             },
             {
-              "n": 11,
-              "title": "What’s the toughest part about keeping your home tidy?",
-              "kind": "question",
-              "file": "11.webp"
+              "s": "same",
+              "prev": 11,
+              "why": "",
+              "prevFile": "11.webp"
             },
             {
-              "n": 12,
-              "title": "Chillio is built on evidence-based productivity methods",
-              "kind": "info",
-              "file": "12.webp"
+              "s": "same",
+              "prev": 12,
+              "why": "",
+              "prevFile": "12.webp"
             },
             {
-              "n": 13,
-              "title": "Do you relate to the statement below?",
-              "kind": "question",
-              "file": "13.webp"
+              "s": "same",
+              "prev": 13,
+              "why": "",
+              "prevFile": "13.webp"
             },
             {
-              "n": 14,
-              "title": "Do you relate to the statement below?",
-              "kind": "question",
-              "file": "14.webp"
+              "s": "same",
+              "prev": 14,
+              "why": "",
+              "prevFile": "14.webp"
             },
             {
-              "n": 15,
-              "title": "Do you relate to the statement below?",
-              "kind": "question",
-              "file": "15.webp"
+              "s": "same",
+              "prev": 15,
+              "why": "",
+              "prevFile": "15.webp"
             },
             {
-              "n": 16,
-              "title": "Do you relate to the statement below?",
-              "kind": "question",
-              "file": "16.webp"
+              "s": "same",
+              "prev": 16,
+              "why": "",
+              "prevFile": "16.webp"
             },
             {
-              "n": 17,
-              "title": "Do you relate to the statement below?",
-              "kind": "question",
-              "file": "17.webp"
+              "s": "same",
+              "prev": 17,
+              "why": "",
+              "prevFile": "17.webp"
             },
             {
-              "n": 18,
-              "title": "Do you relate to the statement below?",
-              "kind": "question",
-              "file": "18.webp"
+              "s": "same",
+              "prev": 18,
+              "why": "",
+              "prevFile": "18.webp"
             },
             {
-              "n": 19,
-              "title": "Summary of your Personality Profile",
-              "kind": "info",
-              "file": "19.webp"
+              "s": "same",
+              "prev": 19,
+              "why": "",
+              "prevFile": "19.webp"
             },
             {
-              "n": 20,
-              "title": "What habits would you like to start?",
-              "kind": "question",
-              "file": "20.webp"
+              "s": "same",
+              "prev": 20,
+              "why": "",
+              "prevFile": "20.webp"
             },
             {
-              "n": 21,
-              "title": "What habits would you like to break?",
-              "kind": "question",
-              "file": "21.webp"
+              "s": "same",
+              "prev": 21,
+              "why": "",
+              "prevFile": "21.webp"
             },
             {
-              "n": 22,
-              "title": "What would make your AI plan more fun or helpful?",
-              "kind": "question",
-              "file": "22.webp"
+              "s": "same",
+              "prev": 22,
+              "why": "",
+              "prevFile": "22.webp"
             },
             {
-              "n": 23,
-              "title": "AI is building a daily routine you'll actually enjoy",
-              "kind": "loader",
-              "file": "23.webp"
+              "s": "same",
+              "prev": 23,
+              "why": "",
+              "prevFile": "23.webp"
             },
             {
-              "n": 24,
-              "title": "Move now! Become the best version of yourself",
-              "kind": "info",
-              "file": "24.webp"
+              "s": "same",
+              "prev": 24,
+              "why": "",
+              "prevFile": "24.webp"
             },
             {
-              "n": 25,
-              "title": "How do you want to feel at home?",
-              "kind": "question",
-              "file": "25.webp"
+              "s": "same",
+              "prev": 25,
+              "why": "",
+              "prevFile": "25.webp"
             },
             {
-              "n": 26,
-              "title": "How much time can you dedicate daily to achieve your goal?",
-              "kind": "question",
-              "file": "26.webp"
+              "s": "same",
+              "prev": 26,
+              "why": "",
+              "prevFile": "26.webp"
             },
             {
-              "n": 27,
-              "title": "The only AI you need to keep your home running smoothly",
-              "kind": "info",
-              "file": "27.webp"
+              "s": "same",
+              "prev": 27,
+              "why": "",
+              "prevFile": "27.webp"
             },
             {
-              "n": 28,
-              "title": "We’re setting up your transformation...",
-              "kind": "social_proof",
-              "file": "28.webp"
+              "s": "same",
+              "prev": 28,
+              "why": "",
+              "prevFile": "28.webp"
             },
             {
-              "n": 29,
-              "title": "We’re setting up your transformation...",
-              "kind": "social_proof",
-              "file": "29.webp"
+              "s": "same",
+              "prev": 29,
+              "why": "",
+              "prevFile": "29.webp"
             },
             {
-              "n": 30,
-              "title": "We’re setting up your transformation...",
-              "kind": "loader",
-              "file": "30.webp"
+              "s": "same",
+              "prev": 30,
+              "why": "",
+              "prevFile": "30.webp"
             },
             {
-              "n": 31,
-              "title": "Enter your email to get your personalized plan",
-              "kind": "email",
-              "file": "31.webp"
+              "s": "same",
+              "prev": 31,
+              "why": "",
+              "prevFile": "31.webp"
             },
             {
-              "n": 32,
-              "title": "What is your first name? 👋",
-              "kind": "info",
-              "file": "32.webp"
+              "s": "same",
+              "prev": 32,
+              "why": "",
+              "prevFile": "32.webp"
             },
             {
-              "n": 33,
-              "title": "92% of Chillio users are building their routine from day one!",
-              "kind": "info",
-              "file": "33.webp"
+              "s": "same",
+              "prev": 33,
+              "why": "",
+              "prevFile": "33.webp"
             },
             {
-              "n": 34,
-              "title": "50%",
-              "kind": "info",
-              "file": "34.webp"
+              "s": "same",
+              "prev": 34,
+              "why": "",
+              "prevFile": "34.webp"
             },
             {
-              "n": 35,
-              "title": "Choose your plan",
-              "kind": "paywall",
-              "file": "35.webp"
+              "s": "changed",
+              "prev": 35,
+              "why": "text",
+              "prevFile": "35.webp",
+              "boxes": [
+                {
+                  "t": 96.14,
+                  "l": 5.38,
+                  "w": 89.23,
+                  "h": 3.53
+                }
+              ]
             }
-          ]
+          ],
+          "removed": []
         }
       }
     },
     "learna": {
       "ads": {
-        "active": 934,
+        "active": 944,
         "prevActive": 644,
-        "delta": 290,
+        "delta": 300,
         "newInWindow": 16,
         "newCreatives": 8
       },
@@ -2720,44 +3120,251 @@
           "comparedWith": "onboarding.ailearna.com/onboarding",
           "prevDir": "funnels/learna/8c5e7e4aa4f9",
           "prevSteps": 38,
-          "status": [],
+          "status": [
+            {
+              "s": "same",
+              "prev": 1,
+              "why": "",
+              "prevFile": "01.webp"
+            },
+            {
+              "s": "same",
+              "prev": 2,
+              "why": "",
+              "prevFile": "02.webp"
+            },
+            {
+              "s": "same",
+              "prev": 3,
+              "why": "",
+              "prevFile": "03.webp"
+            },
+            {
+              "s": "same",
+              "prev": 4,
+              "why": "",
+              "prevFile": "04.webp"
+            },
+            {
+              "s": "same",
+              "prev": 5,
+              "why": "",
+              "prevFile": "05.webp"
+            },
+            {
+              "s": "changed",
+              "prev": 6,
+              "why": "text",
+              "prevFile": "06.webp",
+              "boxes": [
+                {
+                  "t": 15.66,
+                  "l": 51.54,
+                  "w": 39.23,
+                  "h": 18.37
+                },
+                {
+                  "t": 15.66,
+                  "l": 5.38,
+                  "w": 35.38,
+                  "h": 18.37
+                },
+                {
+                  "t": 36.75,
+                  "l": 5.38,
+                  "w": 93.08,
+                  "h": 9.34
+                },
+                {
+                  "t": 48.8,
+                  "l": 5.38,
+                  "w": 89.23,
+                  "h": 6.33
+                }
+              ]
+            },
+            {
+              "s": "new"
+            },
+            {
+              "s": "same",
+              "prev": 8,
+              "why": "",
+              "prevFile": "08.webp"
+            },
+            {
+              "s": "same",
+              "prev": 9,
+              "why": "",
+              "prevFile": "09.webp"
+            },
+            {
+              "s": "same",
+              "prev": 10,
+              "why": "",
+              "prevFile": "10.webp"
+            },
+            {
+              "s": "same",
+              "prev": 11,
+              "why": "",
+              "prevFile": "11.webp"
+            },
+            {
+              "s": "same",
+              "prev": 12,
+              "why": "",
+              "prevFile": "12.webp"
+            },
+            {
+              "s": "same",
+              "prev": 13,
+              "why": "",
+              "prevFile": "13.webp"
+            },
+            {
+              "s": "same",
+              "prev": 14,
+              "why": "",
+              "prevFile": "14.webp"
+            },
+            {
+              "s": "same",
+              "prev": 15,
+              "why": "",
+              "prevFile": "15.webp"
+            },
+            {
+              "s": "same",
+              "prev": 16,
+              "why": "",
+              "prevFile": "16.webp"
+            },
+            {
+              "s": "same",
+              "prev": 17,
+              "why": "",
+              "prevFile": "17.webp"
+            },
+            {
+              "s": "same",
+              "prev": 18,
+              "why": "",
+              "prevFile": "18.webp"
+            },
+            {
+              "s": "same",
+              "prev": 19,
+              "why": "",
+              "prevFile": "19.webp"
+            },
+            {
+              "s": "same",
+              "prev": 20,
+              "why": "",
+              "prevFile": "20.webp"
+            },
+            {
+              "s": "same",
+              "prev": 21,
+              "why": "",
+              "prevFile": "21.webp"
+            },
+            {
+              "s": "same",
+              "prev": 22,
+              "why": "",
+              "prevFile": "22.webp"
+            },
+            {
+              "s": "same",
+              "prev": 23,
+              "why": "",
+              "prevFile": "23.webp"
+            },
+            {
+              "s": "same",
+              "prev": 24,
+              "why": "",
+              "prevFile": "24.webp"
+            },
+            {
+              "s": "same",
+              "prev": 25,
+              "why": "",
+              "prevFile": "25.webp"
+            },
+            {
+              "s": "same",
+              "prev": 26,
+              "why": "",
+              "prevFile": "26.webp"
+            },
+            {
+              "s": "same",
+              "prev": 27,
+              "why": "",
+              "prevFile": "27.webp"
+            },
+            {
+              "s": "same",
+              "prev": 28,
+              "why": "",
+              "prevFile": "28.webp"
+            },
+            {
+              "s": "same",
+              "prev": 29,
+              "why": "",
+              "prevFile": "29.webp"
+            },
+            {
+              "s": "same",
+              "prev": 30,
+              "why": "",
+              "prevFile": "30.webp"
+            },
+            {
+              "s": "same",
+              "prev": 31,
+              "why": "",
+              "prevFile": "31.webp"
+            },
+            {
+              "s": "same",
+              "prev": 32,
+              "why": "",
+              "prevFile": "32.webp"
+            },
+            {
+              "s": "same",
+              "prev": 33,
+              "why": "",
+              "prevFile": "33.webp"
+            },
+            {
+              "s": "same",
+              "prev": 35,
+              "why": "",
+              "prevFile": "35.webp"
+            },
+            {
+              "s": "same",
+              "prev": 36,
+              "why": "",
+              "prevFile": "36.webp"
+            },
+            {
+              "s": "same",
+              "prev": 37,
+              "why": "",
+              "prevFile": "37.webp"
+            },
+            {
+              "s": "new"
+            }
+          ],
           "removed": [
-            {
-              "n": 1,
-              "title": "Discover Your English Potential",
-              "kind": "question",
-              "file": "01.webp"
-            },
-            {
-              "n": 2,
-              "title": "What is your native language?",
-              "kind": "question",
-              "file": "02.webp"
-            },
-            {
-              "n": 3,
-              "title": "What is your English level?",
-              "kind": "question",
-              "file": "03.webp"
-            },
-            {
-              "n": 4,
-              "title": "80M+ people",
-              "kind": "social_proof",
-              "file": "04.webp"
-            },
-            {
-              "n": 5,
-              "title": "Why do you want to learn English?",
-              "kind": "question",
-              "file": "05.webp"
-            },
-            {
-              "n": 6,
-              "title": "What kind of work do you do?",
-              "kind": "question",
-              "file": "06.webp"
-            },
             {
               "n": 7,
               "title": "What's your main area in business or management?",
@@ -2765,184 +3372,10 @@
               "file": "07.webp"
             },
             {
-              "n": 8,
-              "title": "What level of English do you aim to achieve?",
-              "kind": "question",
-              "file": "08.webp"
-            },
-            {
-              "n": 9,
-              "title": "\"",
-              "kind": "info",
-              "file": "09.webp"
-            },
-            {
-              "n": 10,
-              "title": "When was the last time you learned a new language?",
-              "kind": "question",
-              "file": "10.webp"
-            },
-            {
-              "n": 11,
-              "title": "How did you try to learn?",
-              "kind": "question",
-              "file": "11.webp"
-            },
-            {
-              "n": 12,
-              "title": "How would you describe your previous English learning experiences?",
-              "kind": "question",
-              "file": "12.webp"
-            },
-            {
-              "n": 13,
-              "title": "We know life gets busy—that's why Learna fits into your schedule. You decide when to study, and we'll make every minute count.",
-              "kind": "info",
-              "file": "13.webp"
-            },
-            {
-              "n": 14,
-              "title": "I don't understand when fluent English is spoken.",
-              "kind": "question",
-              "file": "14.webp"
-            },
-            {
-              "n": 15,
-              "title": "I get stuck while speaking because I know too few words.",
-              "kind": "question",
-              "file": "15.webp"
-            },
-            {
-              "n": 16,
-              "title": "I always form sentences incorrectly when speaking.",
-              "kind": "question",
-              "file": "16.webp"
-            },
-            {
-              "n": 17,
-              "title": "I understand but can't speak.",
-              "kind": "question",
-              "file": "17.webp"
-            },
-            {
-              "n": 18,
-              "title": "I can speak English but need to be more fluent.",
-              "kind": "question",
-              "file": "18.webp"
-            },
-            {
-              "n": 19,
-              "title": "I don't have a friend to practice speaking with whenever I want.",
-              "kind": "question",
-              "file": "19.webp"
-            },
-            {
-              "n": 20,
-              "title": "I struggle when watching English movies.",
-              "kind": "question",
-              "file": "20.webp"
-            },
-            {
-              "n": 21,
-              "title": "What area would you like to improve?",
-              "kind": "question",
-              "file": "21.webp"
-            },
-            {
-              "n": 22,
-              "title": "Learna creates a personalized program for you!",
-              "kind": "info",
-              "file": "22.webp"
-            },
-            {
-              "n": 23,
-              "title": "Select all the words you know:",
-              "kind": "question",
-              "file": "23.webp"
-            },
-            {
-              "n": 24,
-              "title": "Select all the words you know:",
-              "kind": "question",
-              "file": "24.webp"
-            },
-            {
-              "n": 25,
-              "title": "Select all the words you know:",
-              "kind": "question",
-              "file": "25.webp"
-            },
-            {
-              "n": 26,
-              "title": "Let's answer a few more questions!",
-              "kind": "info",
-              "file": "26.webp"
-            },
-            {
-              "n": 27,
-              "title": "What's your personal interests?",
-              "kind": "question",
-              "file": "27.webp"
-            },
-            {
-              "n": 28,
-              "title": "Are there any occasions in your life you'd like to be prepared for?",
-              "kind": "question",
-              "file": "28.webp"
-            },
-            {
-              "n": 29,
-              "title": "When is the event planned?",
-              "kind": "loader",
-              "file": "29.webp"
-            },
-            {
-              "n": 30,
-              "title": "”",
-              "kind": "loader",
-              "file": "30.webp"
-            },
-            {
-              "n": 31,
-              "title": "”",
-              "kind": "loader",
-              "file": "31.webp"
-            },
-            {
-              "n": 32,
-              "title": "”",
-              "kind": "loader",
-              "file": "32.webp"
-            },
-            {
-              "n": 33,
-              "title": "Achieve your goals with Learna",
-              "kind": "email",
-              "file": "33.webp"
-            },
-            {
               "n": 34,
               "title": "Achieve your goals with Learna",
               "kind": "email",
               "file": "34.webp"
-            },
-            {
-              "n": 35,
-              "title": "Your vocabulary test result",
-              "kind": "loader",
-              "file": "35.webp"
-            },
-            {
-              "n": 36,
-              "title": "What's your name?",
-              "kind": "info",
-              "file": "36.webp"
-            },
-            {
-              "n": 37,
-              "title": "Alex, your personalized plan is ready!",
-              "kind": "info",
-              "file": "37.webp"
             },
             {
               "n": 38,
@@ -2969,218 +3402,222 @@
           "comparedWith": "app.copymind.me/welcome-quiz/gender",
           "prevDir": "funnels/copymind/2162dca161b4",
           "prevSteps": 36,
-          "status": [],
+          "status": [
+            {
+              "s": "same",
+              "prev": 1,
+              "why": "",
+              "prevFile": "01.webp"
+            },
+            {
+              "s": "same",
+              "prev": 2,
+              "why": "",
+              "prevFile": "02.webp"
+            },
+            {
+              "s": "same",
+              "prev": 3,
+              "why": "",
+              "prevFile": "03.webp"
+            },
+            {
+              "s": "same",
+              "prev": 4,
+              "why": "",
+              "prevFile": "04.webp"
+            },
+            {
+              "s": "same",
+              "prev": 5,
+              "why": "",
+              "prevFile": "05.webp"
+            },
+            {
+              "s": "same",
+              "prev": 6,
+              "why": "",
+              "prevFile": "06.webp"
+            },
+            {
+              "s": "same",
+              "prev": 7,
+              "why": "",
+              "prevFile": "07.webp"
+            },
+            {
+              "s": "same",
+              "prev": 8,
+              "why": "",
+              "prevFile": "08.webp"
+            },
+            {
+              "s": "same",
+              "prev": 9,
+              "why": "",
+              "prevFile": "09.webp"
+            },
+            {
+              "s": "same",
+              "prev": 10,
+              "why": "",
+              "prevFile": "10.webp"
+            },
+            {
+              "s": "same",
+              "prev": 11,
+              "why": "",
+              "prevFile": "11.webp"
+            },
+            {
+              "s": "same",
+              "prev": 12,
+              "why": "",
+              "prevFile": "12.webp"
+            },
+            {
+              "s": "same",
+              "prev": 13,
+              "why": "",
+              "prevFile": "13.webp"
+            },
+            {
+              "s": "same",
+              "prev": 14,
+              "why": "",
+              "prevFile": "14.webp"
+            },
+            {
+              "s": "same",
+              "prev": 15,
+              "why": "",
+              "prevFile": "15.webp"
+            },
+            {
+              "s": "same",
+              "prev": 16,
+              "why": "",
+              "prevFile": "16.webp"
+            },
+            {
+              "s": "same",
+              "prev": 17,
+              "why": "",
+              "prevFile": "17.webp"
+            },
+            {
+              "s": "same",
+              "prev": 18,
+              "why": "",
+              "prevFile": "18.webp"
+            },
+            {
+              "s": "same",
+              "prev": 19,
+              "why": "",
+              "prevFile": "19.webp"
+            },
+            {
+              "s": "same",
+              "prev": 20,
+              "why": "",
+              "prevFile": "20.webp"
+            },
+            {
+              "s": "same",
+              "prev": 21,
+              "why": "",
+              "prevFile": "21.webp"
+            },
+            {
+              "s": "same",
+              "prev": 22,
+              "why": "",
+              "prevFile": "22.webp"
+            },
+            {
+              "s": "same",
+              "prev": 23,
+              "why": "",
+              "prevFile": "23.webp"
+            },
+            {
+              "s": "same",
+              "prev": 24,
+              "why": "",
+              "prevFile": "24.webp"
+            },
+            {
+              "s": "same",
+              "prev": 25,
+              "why": "",
+              "prevFile": "25.webp"
+            },
+            {
+              "s": "same",
+              "prev": 26,
+              "why": "",
+              "prevFile": "26.webp"
+            },
+            {
+              "s": "same",
+              "prev": 27,
+              "why": "",
+              "prevFile": "27.webp"
+            },
+            {
+              "s": "same",
+              "prev": 28,
+              "why": "",
+              "prevFile": "28.webp"
+            },
+            {
+              "s": "same",
+              "prev": 29,
+              "why": "",
+              "prevFile": "29.webp"
+            },
+            {
+              "s": "same",
+              "prev": 30,
+              "why": "",
+              "prevFile": "30.webp"
+            },
+            {
+              "s": "same",
+              "prev": 31,
+              "why": "",
+              "prevFile": "31.webp"
+            },
+            {
+              "s": "same",
+              "prev": 32,
+              "why": "",
+              "prevFile": "32.webp"
+            },
+            {
+              "s": "same",
+              "prev": 33,
+              "why": "",
+              "prevFile": "33.webp"
+            },
+            {
+              "s": "same",
+              "prev": 34,
+              "why": "",
+              "prevFile": "34.webp"
+            },
+            {
+              "s": "same",
+              "prev": 35,
+              "why": "",
+              "prevFile": "35.webp"
+            },
+            {
+              "s": "new"
+            }
+          ],
           "removed": [
-            {
-              "n": 1,
-              "title": "MAKE THE RIGHT DECISIONS ON TIME",
-              "kind": "question",
-              "file": "01.webp"
-            },
-            {
-              "n": 2,
-              "title": "Select Your Age",
-              "kind": "question",
-              "file": "02.webp"
-            },
-            {
-              "n": 3,
-              "title": "Over 100 000 people",
-              "kind": "info",
-              "file": "03.webp"
-            },
-            {
-              "n": 4,
-              "title": "What worries you the most?",
-              "kind": "question",
-              "file": "04.webp"
-            },
-            {
-              "n": 5,
-              "title": "What is your relationship status?",
-              "kind": "question",
-              "file": "05.webp"
-            },
-            {
-              "n": 6,
-              "title": "What is your current work status?",
-              "kind": "question",
-              "file": "06.webp"
-            },
-            {
-              "n": 7,
-              "title": "How active are you during the day?",
-              "kind": "question",
-              "file": "07.webp"
-            },
-            {
-              "n": 8,
-              "title": "Do you usually know what you'll be doing in the near future?",
-              "kind": "question",
-              "file": "08.webp"
-            },
-            {
-              "n": 9,
-              "title": "Resolutions are Hard. Here's Proof",
-              "kind": "info",
-              "file": "09.webp"
-            },
-            {
-              "n": 10,
-              "title": "How satisfied are you with your life right now?",
-              "kind": "info",
-              "file": "10.webp"
-            },
-            {
-              "n": 11,
-              "title": "Have you ever thought it would be cool to have a clone?",
-              "kind": "question",
-              "file": "11.webp"
-            },
-            {
-              "n": 12,
-              "title": "Building Your AI Mind Begins Now!",
-              "kind": "loader",
-              "file": "12.webp"
-            },
-            {
-              "n": 13,
-              "title": "How often do you postpone on important decisions?",
-              "kind": "info",
-              "file": "13.webp"
-            },
-            {
-              "n": 14,
-              "title": "What are the main reasons you delay decisions?",
-              "kind": "question",
-              "file": "14.webp"
-            },
-            {
-              "n": 15,
-              "title": "How easily can you stay focused when making a decision?",
-              "kind": "info",
-              "file": "15.webp"
-            },
-            {
-              "n": 16,
-              "title": "How do you feel about keeping your home clean and organized?",
-              "kind": "question",
-              "file": "16.webp"
-            },
-            {
-              "n": 17,
-              "title": "How often do you dwell on past decisions?",
-              "kind": "info",
-              "file": "17.webp"
-            },
-            {
-              "n": 18,
-              "title": "What do you typically do when reflecting on past choices?",
-              "kind": "question",
-              "file": "18.webp"
-            },
-            {
-              "n": 19,
-              "title": "How much do others' opinions affect your decisions?",
-              "kind": "info",
-              "file": "19.webp"
-            },
-            {
-              "n": 20,
-              "title": "What external factor has the greatest impact on decision-making?",
-              "kind": "question",
-              "file": "20.webp"
-            },
-            {
-              "n": 21,
-              "title": "How often do you have trouble falling asleep due to replaying past unpleasant events?",
-              "kind": "info",
-              "file": "21.webp"
-            },
-            {
-              "n": 22,
-              "title": "Would you be satisfied if you could easily and quickly make the right decisions?",
-              "kind": "question",
-              "file": "22.webp"
-            },
-            {
-              "n": 23,
-              "title": "Summary of Your Decision-Making Profile",
-              "kind": "info",
-              "file": "23.webp"
-            },
-            {
-              "n": 24,
-              "title": "How extroverted are you?",
-              "kind": "info",
-              "file": "24.webp"
-            },
-            {
-              "n": 25,
-              "title": "How do you usually handle changes?",
-              "kind": "question",
-              "file": "25.webp"
-            },
-            {
-              "n": 26,
-              "title": "How do you cope with stress or tough situations?",
-              "kind": "question",
-              "file": "26.webp"
-            },
-            {
-              "n": 27,
-              "title": "How comfortable are you with taking risks?",
-              "kind": "info",
-              "file": "27.webp"
-            },
-            {
-              "n": 28,
-              "title": "What annoys you the most about people?",
-              "kind": "question",
-              "file": "28.webp"
-            },
-            {
-              "n": 29,
-              "title": "To consistently make the right decisions, what do you feel needs improvement?",
-              "kind": "question",
-              "file": "29.webp"
-            },
-            {
-              "n": 30,
-              "title": "Is there something special you wish to achieve?",
-              "kind": "question",
-              "file": "30.webp"
-            },
-            {
-              "n": 31,
-              "title": "Here's Your AI Mind Potential",
-              "kind": "info",
-              "file": "31.webp"
-            },
-            {
-              "n": 32,
-              "title": "Preparing Your AI Twin To Guide You",
-              "kind": "loader",
-              "file": "32.webp"
-            },
-            {
-              "n": 33,
-              "title": "Preparing Your AI Twin To Guide You",
-              "kind": "loader",
-              "file": "33.webp"
-            },
-            {
-              "n": 34,
-              "title": "Preparing Your AI Twin To Guide You",
-              "kind": "loader",
-              "file": "34.webp"
-            },
-            {
-              "n": 35,
-              "title": "Let's Make It Personal",
-              "kind": "email",
-              "file": "35.webp"
-            },
             {
               "n": 36,
               "title": "09",
@@ -3222,19 +3659,41 @@
           "comparedWith": "join-sing.hellosimply.com/welcome?campaign_type=web_to_app&platform=iOS",
           "prevDir": "funnels/simply-sing/6f241d946bf3",
           "prevSteps": 1,
-          "status": [],
-          "removed": [
+          "status": [
             {
-              "n": 1,
-              "title": "Start singing like you always wanted",
-              "kind": "question",
-              "file": "01.webp"
+              "s": "same",
+              "prev": 1,
+              "why": "",
+              "prevFile": "01.webp"
             }
-          ]
+          ],
+          "removed": []
         },
         "join-sing.hellosimply.com/start": {
           "firstRun": true,
-          "status": [],
+          "status": [
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            }
+          ],
           "removed": []
         }
       }
@@ -3278,14 +3737,39 @@
           "comparedWith": "yousician.com/",
           "prevDir": "funnels/yousician/1c0c131f25e6",
           "prevSteps": 2,
-          "status": [],
-          "removed": [
+          "status": [
             {
-              "n": 1,
-              "title": "Unleash your inner musician with Yousician",
-              "kind": "paywall",
-              "file": "01.webp"
+              "s": "same",
+              "prev": 1,
+              "why": "",
+              "prevFile": "01.webp"
             },
+            {
+              "s": "new"
+            },
+            {
+              "s": "new"
+            },
+            {
+              "s": "new"
+            },
+            {
+              "s": "new"
+            },
+            {
+              "s": "new"
+            },
+            {
+              "s": "new"
+            },
+            {
+              "s": "new"
+            },
+            {
+              "s": "new"
+            }
+          ],
+          "removed": [
             {
               "n": 2,
               "title": "eye",
@@ -3328,69 +3812,69 @@
           "comparedWith": "start.smartymeapp.com/quiz",
           "prevDir": "funnels/smartyme/5353a564ba54",
           "prevSteps": 10,
-          "status": [],
-          "removed": [
+          "status": [
             {
-              "n": 1,
-              "title": "BECOME FLUENT IN SMALL TALK",
-              "kind": "question",
-              "file": "01.webp"
+              "s": "same",
+              "prev": 1,
+              "why": "",
+              "prevFile": "01.webp"
             },
             {
-              "n": 2,
-              "title": "Select your age",
-              "kind": "question",
-              "file": "02.webp"
+              "s": "same",
+              "prev": 2,
+              "why": "",
+              "prevFile": "02.webp"
             },
             {
-              "n": 3,
-              "title": "You've come to the right place!",
-              "kind": "social_proof",
-              "file": "03.webp"
+              "s": "same",
+              "prev": 3,
+              "why": "",
+              "prevFile": "03.webp"
             },
             {
-              "n": 4,
-              "title": "What do you want to get better at?",
-              "kind": "question",
-              "file": "04.webp"
+              "s": "same",
+              "prev": 4,
+              "why": "",
+              "prevFile": "04.webp"
             },
             {
-              "n": 5,
-              "title": "You're making progress already!",
-              "kind": "info",
-              "file": "05.webp"
+              "s": "same",
+              "prev": 5,
+              "why": "",
+              "prevFile": "05.webp"
             },
             {
-              "n": 6,
-              "title": "How do you feel about your communication skills?",
-              "kind": "question",
-              "file": "06.webp"
+              "s": "same",
+              "prev": 6,
+              "why": "",
+              "prevFile": "06.webp"
             },
             {
-              "n": 7,
-              "title": "Confidence starts here",
-              "kind": "info",
-              "file": "07.webp"
+              "s": "same",
+              "prev": 7,
+              "why": "",
+              "prevFile": "07.webp"
             },
             {
-              "n": 8,
-              "title": "What do you consider yourself?",
-              "kind": "question",
-              "file": "08.webp"
+              "s": "same",
+              "prev": 8,
+              "why": "",
+              "prevFile": "08.webp"
             },
             {
-              "n": 9,
-              "title": "High five, team extrovert!",
-              "kind": "info",
-              "file": "09.webp"
+              "s": "same",
+              "prev": 9,
+              "why": "",
+              "prevFile": "09.webp"
             },
             {
-              "n": 10,
-              "title": "What are your blockers to growth?",
-              "kind": "question",
-              "file": "10.webp"
+              "s": "same",
+              "prev": 10,
+              "why": "",
+              "prevFile": "10.webp"
             }
-          ]
+          ],
+          "removed": []
         }
       }
     },
@@ -3418,27 +3902,27 @@
           "comparedWith": "join-draw.hellosimply.com/start?flow=baw",
           "prevDir": "funnels/simply-draw/ae1631c99eb6",
           "prevSteps": 3,
-          "status": [],
-          "removed": [
+          "status": [
             {
-              "n": 1,
-              "title": "Creativity that helps your child grow",
-              "kind": "info",
-              "file": "01.webp"
+              "s": "same",
+              "prev": 1,
+              "why": "",
+              "prevFile": "01.webp"
             },
             {
-              "n": 2,
-              "title": "Create your account to access your FREE 7 day trial!",
-              "kind": "email",
-              "file": "02.webp"
+              "s": "same",
+              "prev": 2,
+              "why": "",
+              "prevFile": "02.webp"
             },
             {
-              "n": 3,
-              "title": "Start your 7-day free trial",
-              "kind": "paywall",
-              "file": "03.webp"
+              "s": "same",
+              "prev": 3,
+              "why": "",
+              "prevFile": "03.webp"
             }
-          ]
+          ],
+          "removed": []
         }
       }
     }

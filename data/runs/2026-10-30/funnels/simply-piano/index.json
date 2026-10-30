@@ -8,16 +8,16 @@
     {
       "key": "join-piano.hellosimply.com/start",
       "dir": "funnels/simply-piano/81a94aaa84e1",
-      "stop": "error: Invalid URL",
-      "steps": 0,
+      "stop": "paywall",
+      "steps": 31,
       "why": "ad",
       "ads": 30
     },
     {
       "key": "hellosimply.com/family/esa",
       "dir": "funnels/simply-piano/684145bcfb5c",
-      "stop": "error: Invalid URL",
-      "steps": 0,
+      "stop": "paywall",
+      "steps": 32,
       "why": "ad",
       "ads": 5
     }

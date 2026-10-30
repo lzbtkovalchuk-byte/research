@@ -8,8 +8,8 @@
     {
       "key": "imprintapp.com/start-buddhism",
       "dir": "funnels/imprint/096bbf2386ae",
-      "stop": "error: Invalid URL",
-      "steps": 0,
+      "stop": "stuck",
+      "steps": 8,
       "why": "ad",
       "ads": 1
     }

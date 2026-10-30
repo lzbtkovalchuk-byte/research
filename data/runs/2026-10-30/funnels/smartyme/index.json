@@ -8,8 +8,8 @@
     {
       "key": "start.smartymeapp.com/quiz",
       "dir": "funnels/smartyme/5353a564ba54",
-      "stop": "error: Invalid URL",
-      "steps": 0,
+      "stop": "stuck",
+      "steps": 10,
       "why": "ad",
       "ads": 143
     }

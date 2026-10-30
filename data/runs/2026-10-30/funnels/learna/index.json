@@ -8,8 +8,8 @@
     {
       "key": "onboarding.ailearna.com/onboarding",
       "dir": "funnels/learna/8c5e7e4aa4f9",
-      "stop": "error: Invalid URL",
-      "steps": 0,
+      "stop": "paywall",
+      "steps": 37,
       "why": "seed",
       "ads": 0
     }

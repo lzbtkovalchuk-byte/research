@@ -8,16 +8,16 @@
     {
       "key": "join-sing.hellosimply.com/welcome?campaign_type=web_to_app&platform=iOS",
       "dir": "funnels/simply-sing/6f241d946bf3",
-      "stop": "error: Invalid URL",
-      "steps": 0,
+      "stop": "stuck",
+      "steps": 1,
       "why": "ad",
       "ads": 30
     },
     {
       "key": "join-sing.hellosimply.com/start",
       "dir": "funnels/simply-sing/228524b7bc31",
-      "stop": "error: Invalid URL",
-      "steps": 0,
+      "stop": "stuck",
+      "steps": 7,
       "why": "seed",
       "ads": 0
     }
