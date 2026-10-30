@@ -128,10 +128,26 @@ const skWC = `<ul class="wcl">${perApp.filter(p => p.app.skillsta).map(wcRow).jo
 
 const screensHTML = firstRun
   ? '<p class="empty-note">This is the first run, so there is nothing to compare yet. From the next run on, changed screens appear here side by side.</p>'
-  : (perApp.filter(p => p.screens).map(p => `<div class="comp" id="${p.app.id}" data-topic="${topicOf(p.app)}"><h3>${esc(p.app.name)} <span class="tags">${TAGS[topicOf(p.app)]}</span></h3>${p.ch.filter(c => c.count).map(c => `<p class="meta">${esc(short(c.f.key))} · captured from ${c.f.proxied || p.app.geo === 'US' ? (p.app.geo === 'GB' ? 'UK' : 'US') : 'US (no UK proxy yet)'}</p>${c.cards.join('')}`).join('')}</div>`).join('')
+  : (perApp.filter(p => p.screens).map(p => `<div class="comp" id="${p.app.id}" data-topic="${topicOf(p.app)}"><h3>${esc(p.app.name)} <span class="tags">${TAGS[topicOf(p.app)]}</span></h3>${p.ch.filter(c => c.count).map(c => `<p class="meta">${esc(short(c.f.key))} · captured from ${c.f.exitCountry ? ({ GB: 'UK' }[c.f.exitCountry] || c.f.exitCountry) + ' (proxy)' : c.f.proxied || p.app.geo === 'US' ? (p.app.geo === 'GB' ? 'UK' : 'US') : 'US (no UK proxy yet)'}</p>${c.cards.join('')}`).join('')}</div>`).join('')
     || '<p class="empty-note">No funnel screens changed since the previous run.</p>');
 
 const adRows = comps.map(a => { const x = dApp(a.id).ads; const dc = x?.delta > 0 ? 'up' : x?.delta < 0 ? 'down' : ''; return `<tr data-topic="${topicOf(a)}"><td>${esc(a.name)}</td><td><span class="tags">${TAGS[topicOf(a)]}</span></td><td>${a.geo === 'GB' ? 'UK' : 'US'}</td><td class="r">${x ? x.active.toLocaleString('en-US') : '—'}</td><td class="r ${dc}">${x?.delta == null ? '—' : (x.delta > 0 ? '+' : x.delta < 0 ? '−' : '') + Math.abs(x.delta)}</td><td class="r">${x?.newInWindow ?? '—'}</td></tr>`; }).join('');
+
+// ---------- top creative by impressions ----------
+const readAds = (dir, id) => readJSON(path.join(dir, 'ads', `${id}.json`), null);
+const daysBetween = (a, b) => Math.round((new Date(b + 'T00:00:00Z') - new Date(a + 'T00:00:00Z')) / 864e5);
+const topCards = comps.map(a => {
+  const ad = readAds(RUN, a.id); const t = ad?.top;
+  if (!t) return '';
+  const pt = PREV ? readAds(PREV, a.id)?.top : null;
+  const badge = !pt ? '<span class="badge c">First check</span>' : pt.id === t.id ? '<span class="badge">Same as last run</span>' : '<span class="badge n">New top ad</span>';
+  const src = t.shot && img(path.join(RUN, 'ads', t.shot));
+  const since = t.startedISO ? `Running since ${fmtDate(t.startedISO)} (${daysBetween(t.startedISO, date)} days)` : '';
+  const meta = [since, t.versions > 1 ? `${t.versions} versions` : '', t.video ? 'video' : ''].filter(Boolean).join(' · ');
+  const lead = t.store ? 'App store' : t.key ? short(t.key) : '—';
+  return `<article class="topc" data-topic="${topicOf(a)}">${src ? `<div class="frame"><img src="${src}" alt="Top ad of ${esc(a.name)}" loading="lazy" data-cap="${esc(a.name)} · top creative by impressions · Library ID ${esc(t.id)}"></div>` : '<div class="noimg">No screenshot</div>'}<div class="tb"><h4>${esc(a.name)} ${badge}</h4>${t.body ? `<p class="copy">${esc(t.body)}</p>` : ''}${meta ? `<p>${esc(meta)}</p>` : ''}<p>Leads to <code>${esc(lead)}</code></p><p><a href="https://www.facebook.com/ads/library/?id=${esc(t.id)}" target="_blank" rel="noopener">Open in Meta Ad Library</a></p></div></article>`;
+}).join('');
+const topsHTML = topCards ? `<h3 style="margin-top:28px">Top creative by impressions</h3><p class="sub">The first ad in Meta’s Ad Library sorted by impressions, high to low, in each app’s geo. Meta doesn’t publish the numbers for these ads, only the order.</p><div class="tops">${topCards}</div>` : '';
 
 const allLinks = apps.flatMap(a => linkChanges(a.id).map(l => ({ ...l, a })));
 const linkRows = allLinks.map(l => `<tr data-topic="${topicOf(l.a)}"><td>${esc(l.a.name)}</td><td><span class="badge ${{ new: 'n', changed: 'c', removed: 'x' }[l.status]}">${l.status[0].toUpperCase() + l.status.slice(1)}</span></td><td class="lk">${l.status === 'changed' ? `<del>${esc(l.from)}</del> <ins>${esc(l.key)}</ins>` : l.status === 'removed' ? `<del>${esc(l.key)}</del>` : `<ins>${esc(l.key)}</ins>`}</td><td class="r">${l.ads ?? l.prevAds ?? 0}</td></tr>`).join('');
@@ -184,7 +200,7 @@ const html = `<!doctype html>
 <div class="legend"><span>Funnel screens changed</span><span class="minor">Links or ads changed</span></div></section>
 <section id="screens"><h2>Changed screens</h2><p class="sub">Previous on the left, current on the right. Yellow boxes mark what changed; tap a screen to enlarge.</p>${screensHTML}</section>
 <section id="ads"><h2>Meta ads activity</h2><p class="sub">Active ads now, change since ${fmtDate(diff.previous)}, and ads started in the window. Counts are Meta’s estimates; each app uses its own geo.</p>
-<div class="tbl"><table><thead><tr><th>App</th><th>Topic</th><th>Geo</th><th class="r">Active</th><th class="r">Δ</th><th class="r">New</th></tr></thead><tbody>${adRows}</tbody></table></div></section>
+<div class="tbl"><table><thead><tr><th>App</th><th>Topic</th><th>Geo</th><th class="r">Active</th><th class="r">Δ</th><th class="r">New</th></tr></thead><tbody>${adRows}</tbody></table></div>${topsHTML}</section>
 <section id="links"><h2>Funnel link changes</h2><p class="sub">Only new, changed or removed links. Tracking parameters are ignored.</p>${linksHTML}</section>
 <section id="skillsta"><h2>Skillsta funnels</h2>${ampHTML}<div class="wcbox" style="margin-top:14px">${skWC}</div></section>
 ${ideas ? `<section id="ideas"><h2>Ideas from this update</h2><div class="hyp"><ol>${ideas}</ol></div></section>` : ''}

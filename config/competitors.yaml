@@ -98,6 +98,7 @@ competitors:
     name: Yousician
     topics: [vocal]
     geo: US
+    allow_signup: true   # test account with TEST_ACCOUNT_PASSWORD (paywall is after sign-up)
     ads: { page_ids: ["245680685625507"] }
     seeds: ["https://yousician.com/?utm_source=facebook"]
     paywall_urls: ["https://account.yousician.com/plans", "https://yousician.com/pricing"]   # behind account creation; opened directly

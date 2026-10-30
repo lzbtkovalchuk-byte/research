@@ -383,6 +383,12 @@ async function walk(browser, app, entry, dir, idx = 0, ctl = {}) {
   ctl.ctx = ctx;
   const page = await ctx.newPage();
   page.setDefaultTimeout(15000);
+  // With a proxy, record which country the funnel actually sees us from.
+  let exitCountry = null;
+  if (proxy) {
+    exitCountry = await page.request.get('https://ipapi.co/country/', { timeout: 15000 }).then(r => r.ok() ? r.text() : null).then(t => (t || '').trim().slice(0, 3) || null).catch(() => null);
+    log(app.id, `proxy ${app.geo}: exit country ${exitCountry || 'unknown'}`);
+  }
   const steps = [];
   const seen = new Map();
   let stop = 'max_steps', lastKey = '', prevScreen = null, popups = 0, emailNote = null;
@@ -667,7 +673,7 @@ async function walk(browser, app, entry, dir, idx = 0, ctl = {}) {
     } catch {}
   }
   await ctx.close().catch(() => {});
-  return { steps, stop, proxied: !!proxy, email: EMAIL, emailNote, signedUp, restartUrl, finalUrl: page.url?.() || null };
+  return { steps, stop, proxied: !!proxy, email: EMAIL, emailNote, signedUp, restartUrl, finalUrl: page.url?.() || null, exitCountry };
 }
 
 /** Structural features used for the Skillsta comparison table (no AI needed). */
@@ -727,7 +733,7 @@ async function main() {
       const t0 = Date.now();
       const r = await walk(await browserFor(app), app, e.url, fdir, ei, ctl).catch(err => ({ steps: [], stop: 'error: ' + String(err.message || err).slice(0, 160), proxied: false, email: null }));
       clearTimeout(timer);
-      const f = { ...e, dir: path.relative(RUN, fdir), stop: r.stop, proxied: r.proxied, email: r.email, emailNote: r.emailNote, signedUp: r.signedUp || null, restartUrl: r.restartUrl || null, finalUrl: r.finalUrl || null, steps: r.steps, features: features(r.steps, r.stop) };
+      const f = { ...e, dir: path.relative(RUN, fdir), stop: r.stop, proxied: r.proxied, email: r.email, emailNote: r.emailNote, signedUp: r.signedUp || null, restartUrl: r.restartUrl || null, finalUrl: r.finalUrl || null, exitCountry: r.exitCountry || null, steps: r.steps, features: features(r.steps, r.stop) };
       writeJSON(path.join(fdir, 'steps.json'), f);
       index.funnels.push({ key: e.key, dir: f.dir, stop: r.stop, steps: r.steps.length, why: e.why, ads: e.ads });
       log('✓', app.id, `${r.steps.length} screens, stop=${r.stop}, ${Math.round((Date.now() - t0) / 1000)}s${r.emailNote ? ` (email step: ${r.emailNote})` : ''}`);

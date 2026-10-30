@@ -28,13 +28,13 @@ async function dismissCookies(page) {
 }
 
 /** Scrolls the results list and returns parsed ad cards. */
-async function scrape(page, url) {
+async function scrape(page, url, maxScrolls = 60) {
   await page.goto(url, { waitUntil: 'domcontentloaded', timeout: 60000 });
   await sleep(3000);
   await dismissCookies(page);
   let last = -1;
   let flat = 0;
-  for (let i = 0; i < 60 && flat < 3; i++) {
+  for (let i = 0; i < maxScrolls && flat < 3; i++) {
     const n = await page.evaluate(() => document.body.innerText.split('Library ID: ').length - 1);
     flat = n === last ? flat + 1 : 0;
     last = n;
@@ -145,6 +145,27 @@ async function main() {
           g.shot = file; g.shotAd = newest.id;
         } catch {}
       }
+    }
+    // Top creative by impressions: Meta's Ad Library can sort by impressions (high to low) but doesn't publish
+    // the numbers, so we keep the first ad in that order (first source that has one; domain searches filtered to the app).
+    for (const src of srcs) {
+      if (out.top) break;
+      const url = libUrl(app.geo, src) + '&sort_data[direction]=desc&sort_data[mode]=total_impressions';
+      try {
+        const r = await scrape(page, url, 1);
+        const own = r.cards.filter(c => src.type !== 'domain' || (c.link && new URL(c.link).hostname.endsWith(src.value.replace(/^www\./, ''))));
+        const c = own[0]; if (!c) continue;
+        const n = c.link ? normalizeUrl(c.link) : null;
+        out.top = { ...c, startedISO: toISO(c.started), key: n?.key || null, store: n ? isStoreOrSocial(n.host) : null, url };
+        const loc = page.locator(`[data-cfw-id="${c.id}"]`);
+        if (await loc.count()) {
+          await loc.scrollIntoViewIfNeeded().catch(() => {});
+          await loc.evaluate(el => el.querySelectorAll('video').forEach(v => { if (!v.poster) return; const img = document.createElement('img'); img.src = v.poster; img.style.cssText = 'width:100%;height:auto;display:block'; v.replaceWith(img); })).catch(() => {});
+          await sleep(1500);
+          const buf = await loc.screenshot({ timeout: 15000 }).catch(() => null);
+          if (buf) { const file = `${app.id}-top.webp`; await sharp(buf).resize({ width: 600, withoutEnlargement: true }).webp({ quality: 72 }).toFile(path.join(OUT, file)); out.top.shot = file; }
+        }
+      } catch (e) { out.topError = String(e).slice(0, 160); }
     }
     // Page result counts are Meta's estimates; for domain searches use the filtered count.
     // Domain searches can match other advertisers; trust Meta's total only when nearly all parsed ads were the app's own.
