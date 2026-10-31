@@ -196,6 +196,39 @@ steps=37 stop=paywall email@33 paywall@37 popups=0 prices=$1.00 $30.00 $11.66 $2
 
 ### copymind — Copymind [vocal+drawing] — app.copymind.me/welcome-quiz/gender
 steps=36 stop=paywall email@35 paywall@36 popups=0 prices=$9.99 $39.99 $19.99 $79.99 discount=— timer=true trial=false moneyBack=true (captured from US, no UK proxy yet)
+- [CHANGED] screen 1 question "MAKE THE RIGHT DECISIONS ON TIME" (1 changed regions): data/runs/2026-10-21/funnels/copymind/2162dca161b4/01.webp → data/runs/2026-10-30/funnels/copymind/2162dca161b4/01.webp
+- [CHANGED] screen 2 question "Select Your Age" (1 changed regions): data/runs/2026-10-21/funnels/copymind/2162dca161b4/02.webp → data/runs/2026-10-30/funnels/copymind/2162dca161b4/02.webp
+- [CHANGED] screen 3 info "Over 100 000 people" (2 changed regions): data/runs/2026-10-21/funnels/copymind/2162dca161b4/03.webp → data/runs/2026-10-30/funnels/copymind/2162dca161b4/03.webp
+- [CHANGED] screen 5 question "What is your relationship status?" (2 changed regions): data/runs/2026-10-21/funnels/copymind/2162dca161b4/05.webp → data/runs/2026-10-30/funnels/copymind/2162dca161b4/05.webp
+- [CHANGED] screen 6 question "What is your current work status?" (2 changed regions): data/runs/2026-10-21/funnels/copymind/2162dca161b4/06.webp → data/runs/2026-10-30/funnels/copymind/2162dca161b4/06.webp
+- [CHANGED] screen 7 question "How active are you during the day?" (4 changed regions): data/runs/2026-10-21/funnels/copymind/2162dca161b4/07.webp → data/runs/2026-10-30/funnels/copymind/2162dca161b4/07.webp
+- [CHANGED] screen 8 question "Do you usually know what you'll be doing in the near future?" (3 changed regions): data/runs/2026-10-21/funnels/copymind/2162dca161b4/08.webp → data/runs/2026-10-30/funnels/copymind/2162dca161b4/08.webp
+- [CHANGED] screen 9 info "Resolutions are Hard. Here's Proof" (4 changed regions): data/runs/2026-10-21/funnels/copymind/2162dca161b4/09.webp → data/runs/2026-10-30/funnels/copymind/2162dca161b4/09.webp
+- [CHANGED] screen 10 info "How satisfied are you with your life right now?" (3 changed regions): data/runs/2026-10-21/funnels/copymind/2162dca161b4/10.webp → data/runs/2026-10-30/funnels/copymind/2162dca161b4/10.webp
+- [CHANGED] screen 11 question "Have you ever thought it would be cool to have a clone?" (3 changed regions): data/runs/2026-10-21/funnels/copymind/2162dca161b4/11.webp → data/runs/2026-10-30/funnels/copymind/2162dca161b4/11.webp
+- [CHANGED] screen 12 loader "Building Your AI Mind Begins Now!" (4 changed regions): data/runs/2026-10-21/funnels/copymind/2162dca161b4/12.webp → data/runs/2026-10-30/funnels/copymind/2162dca161b4/12.webp
+- [CHANGED] screen 13 info "How often do you postpone on important decisions?" (3 changed regions): data/runs/2026-10-21/funnels/copymind/2162dca161b4/13.webp → data/runs/2026-10-30/funnels/copymind/2162dca161b4/13.webp
+- [CHANGED] screen 15 info "How easily can you stay focused when making a decision?" (3 changed regions): data/runs/2026-10-21/funnels/copymind/2162dca161b4/15.webp → data/runs/2026-10-30/funnels/copymind/2162dca161b4/15.webp
+- [CHANGED] screen 16 question "How do you feel about keeping your home clean and organized?" (3 changed regions): data/runs/2026-10-21/funnels/copymind/2162dca161b4/16.webp → data/runs/2026-10-30/funnels/copymind/2162dca161b4/16.webp
+- [CHANGED] screen 17 info "How often do you dwell on past decisions?" (3 changed regions): data/runs/2026-10-21/funnels/copymind/2162dca161b4/17.webp → data/runs/2026-10-30/funnels/copymind/2162dca161b4/17.webp
+- [CHANGED] screen 18 question "What do you typically do when reflecting on past choices?" (3 changed regions): data/runs/2026-10-21/funnels/copymind/2162dca161b4/18.webp → data/runs/2026-10-30/funnels/copymind/2162dca161b4/18.webp
+- [CHANGED] screen 19 info "How much do others' opinions affect your decisions?" (3 changed regions): data/runs/2026-10-21/funnels/copymind/2162dca161b4/19.webp → data/runs/2026-10-30/funnels/copymind/2162dca161b4/19.webp
+- [CHANGED] screen 20 question "What external factor has the greatest impact on decision-mak" (3 changed regions): data/runs/2026-10-21/funnels/copymind/2162dca161b4/20.webp → data/runs/2026-10-30/funnels/copymind/2162dca161b4/20.webp
+- [CHANGED] screen 21 info "How often do you have trouble falling asleep due to replayin" (2 changed regions): data/runs/2026-10-21/funnels/copymind/2162dca161b4/21.webp → data/runs/2026-10-30/funnels/copymind/2162dca161b4/21.webp
+- [CHANGED] screen 22 question "Would you be satisfied if you could easily and quickly make " (1 changed regions): data/runs/2026-10-21/funnels/copymind/2162dca161b4/22.webp → data/runs/2026-10-30/funnels/copymind/2162dca161b4/22.webp
+- [CHANGED] screen 23 info "Summary of Your Decision-Making Profile" (4 changed regions): data/runs/2026-10-21/funnels/copymind/2162dca161b4/23.webp → data/runs/2026-10-30/funnels/copymind/2162dca161b4/23.webp
+- [CHANGED] screen 24 info "How extroverted are you?" (3 changed regions): data/runs/2026-10-21/funnels/copymind/2162dca161b4/24.webp → data/runs/2026-10-30/funnels/copymind/2162dca161b4/24.webp
+- [CHANGED] screen 25 question "How do you usually handle changes?" (1 changed regions): data/runs/2026-10-21/funnels/copymind/2162dca161b4/25.webp → data/runs/2026-10-30/funnels/copymind/2162dca161b4/25.webp
+- [CHANGED] screen 26 question "How do you cope with stress or tough situations?" (4 changed regions): data/runs/2026-10-21/funnels/copymind/2162dca161b4/26.webp → data/runs/2026-10-30/funnels/copymind/2162dca161b4/26.webp
+- [CHANGED] screen 27 info "How comfortable are you with taking risks?" (3 changed regions): data/runs/2026-10-21/funnels/copymind/2162dca161b4/27.webp → data/runs/2026-10-30/funnels/copymind/2162dca161b4/27.webp
+- [CHANGED] screen 28 question "What annoys you the most about people?" (4 changed regions): data/runs/2026-10-21/funnels/copymind/2162dca161b4/28.webp → data/runs/2026-10-30/funnels/copymind/2162dca161b4/28.webp
+- [CHANGED] screen 29 question "To consistently make the right decisions, what do you feel n" (4 changed regions): data/runs/2026-10-21/funnels/copymind/2162dca161b4/29.webp → data/runs/2026-10-30/funnels/copymind/2162dca161b4/29.webp
+- [CHANGED] screen 30 question "Is there something special you wish to achieve?" (4 changed regions): data/runs/2026-10-21/funnels/copymind/2162dca161b4/30.webp → data/runs/2026-10-30/funnels/copymind/2162dca161b4/30.webp
+- [CHANGED] screen 31 info "Here's Your AI Mind Potential" (3 changed regions): data/runs/2026-10-21/funnels/copymind/2162dca161b4/31.webp → data/runs/2026-10-30/funnels/copymind/2162dca161b4/31.webp
+- [CHANGED] screen 32 loader "Preparing Your AI Twin To Guide You" (2 changed regions): data/runs/2026-10-21/funnels/copymind/2162dca161b4/32.webp → data/runs/2026-10-30/funnels/copymind/2162dca161b4/32.webp
+- [CHANGED] screen 33 loader "Preparing Your AI Twin To Guide You" (2 changed regions): data/runs/2026-10-21/funnels/copymind/2162dca161b4/33.webp → data/runs/2026-10-30/funnels/copymind/2162dca161b4/33.webp
+- [CHANGED] screen 34 loader "Preparing Your AI Twin To Guide You" (2 changed regions): data/runs/2026-10-21/funnels/copymind/2162dca161b4/34.webp → data/runs/2026-10-30/funnels/copymind/2162dca161b4/34.webp
+- [CHANGED] screen 35 email "Let's Make It Personal" (3 changed regions): data/runs/2026-10-21/funnels/copymind/2162dca161b4/35.webp → data/runs/2026-10-30/funnels/copymind/2162dca161b4/35.webp
 - [NEW] screen 36 paywall "09": data/runs/2026-10-30/funnels/copymind/2162dca161b4/36.webp
 - [REMOVED] previous screen 36 paywall "09": data/runs/2026-10-21/funnels/copymind/2162dca161b4/36.webp
 

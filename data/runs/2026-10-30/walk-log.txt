@@ -1,0 +1,5 @@
+11:02:14 walking 1 apps, 3 at a time
+11:02:14 PROXY_UK: set but not understood, walking without it
+11:02:14 PROXY_US: set but not understood, walking without it
+11:02:14 → copymind app.copymind.me/welcome-quiz/gender
+11:13:29 ✓ copymind 36 screens, stop=paywall, 676s
