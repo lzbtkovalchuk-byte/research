@@ -8,3 +8,9 @@
 11:15:30 PROXY_US: set but not understood (shape: word://word:numberword@word:<word word> (84 chars)), walking without it
 11:15:30 → copymind app.copymind.me/welcome-quiz/gender
 11:26:34 ✓ copymind 36 screens, stop=paywall, 665s
+12:10:04 walking 1 apps, 3 at a time
+12:10:04 PROXY_UK: set, http://…:823
+12:10:04 PROXY_US: set, http://…:823
+12:10:04 → copymind app.copymind.me/welcome-quiz/gender
+12:10:06 copymind proxy GB: exit country US
+12:22:02 ✓ copymind 36 screens, stop=paywall, 717s

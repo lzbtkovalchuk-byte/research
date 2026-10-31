@@ -195,7 +195,8 @@ steps=37 stop=paywall email@33 paywall@37 popups=0 prices=$1.00 $30.00 $11.66 $2
 - [REMOVED] previous screen 38 paywall "10.00": data/runs/2026-10-21/funnels/learna/8c5e7e4aa4f9/38.webp
 
 ### copymind — Copymind [vocal+drawing] — app.copymind.me/welcome-quiz/gender
-steps=36 stop=paywall email@35 paywall@36 popups=0 prices=$9.99 $39.99 $19.99 $79.99 discount=— timer=true trial=false moneyBack=true (captured from US, no UK proxy yet)
+steps=36 stop=paywall email@35 paywall@36 popups=0 prices=€9.99 €39.99 €43.32 €19.99 €79.99 €28.89 discount=— timer=true trial=false moneyBack=true
+- [CHANGED] screen 1 loader "MAKE THE RIGHT DECISIONS ON TIME" (3 changed regions): data/runs/2026-10-21/funnels/copymind/2162dca161b4/01.webp → data/runs/2026-10-30/funnels/copymind/2162dca161b4/01.webp
 - [NEW] screen 36 paywall "09": data/runs/2026-10-30/funnels/copymind/2162dca161b4/36.webp
 - [REMOVED] previous screen 36 paywall "09": data/runs/2026-10-21/funnels/copymind/2162dca161b4/36.webp
 

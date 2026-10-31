@@ -7,24 +7,24 @@
   "adId": null,
   "dir": "funnels/copymind/2162dca161b4",
   "stop": "paywall",
-  "proxied": false,
-  "email": "yelyzavetabazyla+fw2610301115copymind1@gmail.com",
+  "proxied": true,
+  "email": "yelyzavetabazyla+fw2610301210copymind1@gmail.com",
   "emailNote": null,
   "signedUp": null,
   "restartUrl": null,
   "finalUrl": "https://app.copymind.me/welcome-quiz/paywall/decision-making?variant=",
-  "exitCountry": null,
+  "exitCountry": "US",
   "steps": [
     {
       "n": 1,
       "file": "01.webp",
-      "url": "https://app.copymind.me/welcome-quiz/gender",
-      "path": "/welcome-quiz/gender",
+      "url": "https://app.copymind.me/welcome-quiz",
+      "path": "/welcome-quiz",
       "title": "MAKE THE RIGHT DECISIONS ON TIME",
-      "kind": "question",
-      "text": "MAKE THE RIGHT DECISIONS ON TIME\nPass this quiz to personalize your subscription\nMale\nFemale\nBy clicking \"Male\" or \"Female\" you agree with the Terms of Service, Privacy Policy, Cookie Policy (e.g. Meta Pixel), Subscription Terms and Progress-Based Refund Options. Please review before continuing\nCOPYMIND product by Antipadia Enterprises Limited.\nVasili Michailidi, 9, 3026, Limassol, Cyprus\n2025 ©All Rights Reserved.",
-      "textHash": "f599360a0365",
-      "dhash": "0011011100110011001011010000101100110011010100010010111100010111",
+      "kind": "loader",
+      "text": "MAKE THE RIGHT DECISIONS ON TIME\nPass this quiz to personalize your subscription\nMale\nFemale\nBy clicking \"Male\" or \"Female\" you agree with the Terms of Service, Privacy Policy, Cookie Policy (e.g. Meta Pixel), Subscription Terms and Progress-Based Refund Options. Please review before continuing\nCOPYMIND product by FT SICH FZCO.\nIFZA Business Park, DDP, Building A2, 21379-001, Dubai, United Arab Emirates\n2025 ©All Rights Reserved.",
+      "textHash": "784d1aa969f7",
+      "dhash": "0000000000000000000000000000000000000000000000000000000000000000",
       "h": 844,
       "prices": [],
       "action": {
@@ -40,7 +40,7 @@
       "kind": "question",
       "text": "Select Your Age\n18-29\n30-39\n40-49\n50+",
       "textHash": "7377a198ef5e",
-      "dhash": "1100111000110011001100110011001100110011010101011000101000000000",
+      "dhash": "1000111000110011001100110011001100110011010101011000101000000000",
       "h": 844,
       "prices": [],
       "action": {
@@ -72,7 +72,7 @@
       "kind": "question",
       "text": "What worries you the most?\nChoose all that apply\n💔\nRelationship problems\n💰\nFinancial problems\n💼\nCareer problems\n🎯\nFear of failure\n⏰\nProcrastination\n🔥\nBurnout\n🧠\nFeeling overwhelmed\n⏳\nAnxiety about the future\n👥\nFear of missing out\n😟\nLack of confidence\n❓\nOther\nNext",
       "textHash": "42c575a6e890",
-      "dhash": "0100110100001111001111010001110101011001011110010110110101001101",
+      "dhash": "0100111100001111001111010001110101011001011110010110110101001101",
       "h": 1206,
       "prices": [],
       "action": {
@@ -581,7 +581,7 @@
       "action": {
         "filled": true,
         "cta": "Continue",
-        "email": "yelyzavetabazyla+fw2610301115copymind1@gmail.com"
+        "email": "yelyzavetabazyla+fw2610301210copymind1@gmail.com"
       }
     },
     {
@@ -591,15 +591,17 @@
       "path": "/welcome-quiz/paywall/decision-making",
       "title": "09",
       "kind": "paywall",
-      "text": "Discount expires in\n09\nmin\n:\n57\nsec\nSUBSCRIBE\nNow\nWith COPYMIND*\nStress Level\nConfidence Level\nDecision Quality\nStress Level\nConfidence Level\nDecision Quality\n* Individual results may vary.\nWhat's holding you back?\nIntuition\nYour Plan Is Set!\nDiscount expires in 09:57 min\nYour promo code applied!\nSave on your first purchase\n09:57\nMinutes • Seconds\nyelyzavetabazyla+fw2610301115copymind1_oct26\nThinking Pattern\nBalanced\nGoal\nBuy a House\n1-WEEK PLAN\n$9.99 for the first week, then auto-renews at $39.99 every 4 weeks\n$9.99\nMost Recommended by Us\n4-WEEK PLAN\n$19.99 for the first 4 weeks, then auto-renews at $39.99 every 4 weeks\n$19.99\n$39.99\n12-WEEK PLAN\n$39.99 for the first 12 weeks, then auto-renews at $79.99 every 12 weeks\n$39.99\n$79.99\nSUBSCRIBE\nWhat You Get\nDesider\nBreaks down tough choices into simple, clear steps.\nAchiever\nKeeps you focused and on track with your goals.\nAI Twin\nAsk anything, reflect deeply, and get real-time support.\nMindCores\nVisualize your thoughts and uncover hidden patterns.\nAnd More\nPersonalized content, guided reflections, and powerful AI tools to support your growth every day.\nPeople Just Like You\nFind Clarity\nWith AI Twin\n48%\n73%\n87%\nMany users report meaningful improvements over 4-8 weeks of regular use\nMany Copymind users come seeking clarity in decision-making\nMany users notice clearer thought patterns after just a few sessions\nProgress-Based Refund Options\nWe believe in our service so much that we're offering a 30-day full refund if you don't see ",
-      "textHash": "f0e1554ce6d9",
+      "text": "Discount expires in\n09\nmin\n:\n58\nsec\nSUBSCRIBE\nNow\nWith COPYMIND*\nStress Level\nConfidence Level\nDecision Quality\nStress Level\nConfidence Level\nDecision Quality\n* Individual results may vary.\nWhat's holding you back?\nIntuition\nYour Plan Is Set!\nDiscount expires in 09:58 min\nYour promo code applied!\nSave on your first purchase\n09:58\nMinutes • Seconds\nyelyzavetabazyla+fw2610301210copymind1_oct26\nThinking Pattern\nBalanced\nGoal\nBuy a House\n1-WEEK PLAN\n€9.99/1 week. Renews at €39.99/4 weeks (≈ €43.32 / month)\n€9.99\nMost Recommended by Us\n4-WEEK PLAN\n€19.99/4 weeks. Renews at €39.99/4 weeks (≈ €43.32 / month)\n€19.99\n€39.99\n12-WEEK PLAN\n€39.99/12 weeks. Renews at €79.99/12 weeks (≈ €28.89 / month)\n€39.99\n€79.99\nSUBSCRIBE\nWhat You Get\nDesider\nBreaks down tough choices into simple, clear steps.\nAchiever\nKeeps you focused and on track with your goals.\nAI Twin\nAsk anything, reflect deeply, and get real-time support.\nMindCores\nVisualize your thoughts and uncover hidden patterns.\nAnd More\nPersonalized content, guided reflections, and powerful AI tools to support your growth every day.\nPeople Just Like You\nFind Clarity\nWith AI Twin\n48%\n73%\n87%\nMany users report meaningful improvements over 4-8 weeks of regular use\nMany Copymind users come seeking clarity in decision-making\nMany users notice clearer thought patterns after just a few sessions\nProgress-Based Refund Options\nWe believe in our service so much that we're offering a 30-day full refund if you don't see initial results—just show us th",
+      "textHash": "c2c1a47b4bfa",
       "dhash": "0110001100111011001100110011001101100111011100110011001100110111",
-      "h": 5911,
+      "h": 5933,
       "prices": [
-        "$9.99",
-        "$39.99",
-        "$19.99",
-        "$79.99"
+        "€9.99",
+        "€39.99",
+        "€43.32",
+        "€19.99",
+        "€79.99",
+        "€28.89"
       ]
     }
   ],
@@ -608,15 +610,17 @@
     "stop": "paywall",
     "emailStep": 35,
     "paywallStep": 36,
-    "questions": 18,
+    "questions": 17,
     "socialProof": 0,
     "popups": 0,
     "loader": true,
     "prices": [
-      "$9.99",
-      "$39.99",
-      "$19.99",
-      "$79.99"
+      "€9.99",
+      "€39.99",
+      "€43.32",
+      "€19.99",
+      "€79.99",
+      "€28.89"
     ],
     "discount": null,
     "timer": true,
