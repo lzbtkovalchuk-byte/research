@@ -107,5 +107,8 @@ export function shapeOf(raw) {
   return String(raw || '').trim().replace(/[A-Za-z][A-Za-z0-9_.\-]*/g, 'word').replace(/\d+/g, 'number').slice(0, 80) + ` (${String(raw || '').trim().length} chars)`;
 }
 export function proxyFor(geo) {
-  return parseProxy(geo === 'GB' ? process.env.PROXY_UK : process.env.PROXY_US);
+  const p = parseProxy(geo === 'GB' ? process.env.PROXY_UK : process.env.PROXY_US);
+  // DataImpulse picks a random country from the plan's list unless the login asks for one: add __cr.<cc>.
+  if (p && /dataimpulse\.com/i.test(p.server) && p.username && !/__cr\./.test(p.username)) p.username += `__cr.${geo === 'GB' ? 'gb' : geo.toLowerCase()}`;
+  return p;
 }
