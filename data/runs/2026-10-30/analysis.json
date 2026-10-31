@@ -1,0 +1,340 @@
+{
+ "headline": "Simply Piano rebuilt its funnel for parents buying for a child, and Learna switched to a $1 7-day trial. Breeze lowered its smallest trial amount to $0.99.",
+ "what_changed": {
+  "imprint": "No screen changes. The ad link to start-history was removed; this run’s start-buddhism quiz stopped before the paywall (see Coverage).",
+  "breeze": "Paywall: the smallest “choose any amount” option is now $0.99 instead of $1, and the “No charge on this page” small print is gone.",
+  "simply-piano": "Funnel rebuilt for parents: every question now asks about the child (age, experience, how they learn); about 20 adult-learner screens removed. Paywall unchanged.",
+  "memoryos": "No changes (only the paywall timer differs). 1 funnel link removed (mos_cfg=read003b).",
+  "chillio": "Paywall unchanged; support email moved to your-chillio.com, matching its new funnel address. 1 new funnel link (nutrition-ai).",
+  "learna": "Paywall rebuilt: $1 for a 7-day trial, then $19.99/month, plus 3- and 6-month plans (was 1 week $10 / 1 month $30 / 1 year $100). One work question reworded.",
+  "copymind": "No changes (only the paywall timer differs).",
+  "simply-sing": "No screen changes; the walk still stops at its voice test. Ad link to the singyourheartout page removed.",
+  "yousician": "Paywall captured for the first time after a test sign-up: 7-day free trial, then $159.99/year ($13.33/month). New ad link to yousician.com.",
+  "smartyme": "No screen changes. Ads: 64 new in two weeks.",
+  "simply-draw": "No changes.",
+  "skillsta-vocal-2": "No screen changes. After the email code our test lands on /quiz/standard-rate/new_vocal, which shows the quiz’s first screen again.",
+  "skillsta-vocal-scanner": "No screen changes. After the email code our test lands on a blank screen.",
+  "skillsta-drawing": "No screen changes. After the email code our test lands on /quiz/standard-rate/drawing, which shows the quiz’s first screen again."
+ },
+ "screens": [
+  {
+   "app": "breeze",
+   "funnel": "try-breeze.com/funnel/childhood",
+   "n": 11,
+   "ignore": true
+  },
+  {
+   "app": "breeze",
+   "funnel": "try-breeze.com/funnel/childhood",
+   "n": 39,
+   "title": "Smallest trial amount lowered to $0.99",
+   "notes": [
+    "The lowest “choose any amount” option is now $0.99 instead of $1; $2, $10 and $17.34 stay.",
+    "The small print “No charge on this page… Please review conditions at the next screen” was removed; the line “It costs us $17.34 to provide this trial offer…” is back in its place."
+   ]
+  },
+  {
+   "app": "breeze",
+   "funnel": "try-breeze.com/childhood",
+   "n": 11,
+   "ignore": true
+  },
+  {
+   "app": "breeze",
+   "funnel": "try-breeze.com/childhood",
+   "n": 39,
+   "title": "Smallest trial amount lowered to $0.99",
+   "notes": [
+    "The lowest “choose any amount” option is now $0.99 instead of $1; $2, $10 and $17.34 stay.",
+    "The small print “No charge on this page… Please review conditions at the next screen” was removed; the line “It costs us $17.34 to provide this trial offer…” is back in its place."
+   ]
+  },
+  {
+   "app": "memoryos",
+   "funnel": "start.memoryos.com/new-h2?thm=light",
+   "n": 35,
+   "ignore": true
+  },
+  {
+   "app": "memoryos",
+   "funnel": "start.memoryos.com/new-h2?thm=light",
+   "n": 35,
+   "removed": true,
+   "ignore": true
+  },
+  {
+   "app": "memoryos",
+   "funnel": "start.memoryos.com/new-s",
+   "n": 35,
+   "ignore": true
+  },
+  {
+   "app": "memoryos",
+   "funnel": "start.memoryos.com/new-s",
+   "n": 35,
+   "removed": true,
+   "ignore": true
+  },
+  {
+   "app": "copymind",
+   "funnel": "app.copymind.me/welcome-quiz/gender",
+   "n": 36,
+   "ignore": true
+  },
+  {
+   "app": "copymind",
+   "funnel": "app.copymind.me/welcome-quiz/gender",
+   "n": 36,
+   "removed": true,
+   "ignore": true
+  },
+  {
+   "app": "chillio",
+   "funnel": "quiz.get-chillio.app/qs/cleaning-game",
+   "n": 36,
+   "title": "Paywall unchanged; support email moved to your-chillio.com",
+   "notes": [
+    "Plans and prices are the same (1-week trial $10.50, 4 weeks $19.99, 12 weeks $34.99, all 50% off).",
+    "Only the support address in the terms changed from support@my-chillio.com to support@your-chillio.com, matching the funnel’s new your-chillio.com address."
+   ]
+  },
+  {
+   "app": "chillio",
+   "funnel": "quiz.get-chillio.app/qs/house-ai",
+   "n": 35,
+   "title": "Paywall unchanged; support email moved to your-chillio.com",
+   "notes": [
+    "Plans and prices are the same (1-week trial $10.50, 4 weeks $19.99, 12 weeks $34.99, all 50% off).",
+    "Only the support address in the terms changed from support@my-chillio.com to support@your-chillio.com, matching the funnel’s new your-chillio.com address."
+   ]
+  },
+  {
+   "app": "simply-piano",
+   "funnel": "join-piano.hellosimply.com/start",
+   "n": 1,
+   "title": "Opening question now speaks to parents",
+   "notes": [
+    "Same question, “What motivates you to play the piano?”, with answers reworded for a parent choosing for a child."
+   ]
+  },
+  {
+   "app": "simply-piano",
+   "funnel": "join-piano.hellosimply.com/start",
+   "n": 3,
+   "title": "New: “What is your child’s age?”",
+   "notes": [
+    "The funnel now asks about the child instead of the user (“What is your age?” is gone).",
+    "From here on every question is about the child: previous experience, favourite styles, how they learn, how involved the parent wants to be."
+   ]
+  },
+  {
+   "app": "simply-piano",
+   "funnel": "join-piano.hellosimply.com/start",
+   "n": 31,
+   "ignore": true
+  },
+  {
+   "app": "simply-piano",
+   "funnel": "hellosimply.com/family/esa",
+   "n": 2,
+   "title": "Opening question now speaks to parents",
+   "notes": [
+    "Same question, “What motivates you to play the piano?”, with answers reworded for a parent choosing for a child."
+   ]
+  },
+  {
+   "app": "simply-piano",
+   "funnel": "hellosimply.com/family/esa",
+   "n": 4,
+   "title": "New: “What is your child’s age?”",
+   "notes": [
+    "The funnel now asks about the child instead of the user (“What is your age?” is gone).",
+    "From here on every question is about the child: previous experience, favourite styles, how they learn, how involved the parent wants to be."
+   ]
+  },
+  {
+   "app": "simply-piano",
+   "funnel": "hellosimply.com/family/esa",
+   "n": 32,
+   "ignore": true
+  },
+  {
+   "app": "learna",
+   "funnel": "onboarding.ailearna.com/onboarding",
+   "n": 6,
+   "title": "Work question reworded",
+   "notes": [
+    "“What kind of work do you do?” has a different set of answers; the follow-up now asks about a role in education instead of business or management."
+   ]
+  },
+  {
+   "app": "learna",
+   "funnel": "onboarding.ailearna.com/onboarding",
+   "n": 7,
+   "title": "Follow-up now about education",
+   "notes": [
+    "“What best describes your current role in education?” replaces “What’s your main area in business or management?”."
+   ]
+  },
+  {
+   "app": "learna",
+   "funnel": "onboarding.ailearna.com/onboarding",
+   "n": 37,
+   "title": "Paywall switched to a $1 trial",
+   "notes": [
+    "Was: 1 week $10, 1 month $30, 1 year $100 (60% off), billed weekly at $24.99 after the first week.",
+    "Now: “7 Days Full Access” for $1.00, then $19.99 per month; 3 months $11.66/mo and 6 months $10.00/mo (60% off)."
+   ]
+  },
+  {
+   "app": "learna",
+   "funnel": "onboarding.ailearna.com/onboarding",
+   "n": 34,
+   "removed": true,
+   "ignore": true
+  },
+  {
+   "app": "yousician",
+   "funnel": "yousician.com/",
+   "n": 8,
+   "title": "Sign-up before the paywall",
+   "notes": [
+    "“Create your account” comes right before the paywall; our test account used that run’s plus-address."
+   ]
+  },
+  {
+   "app": "yousician",
+   "funnel": "yousician.com/",
+   "n": 9,
+   "title": "Paywall captured for the first time",
+   "notes": [
+    "“Start your 7-day free trial”: Yearly plan $13.33/month ($159.99/year), “Save 50%”; card form, PayPal and Google Pay on the same screen."
+   ]
+  },
+  {
+   "app": "yousician",
+   "funnel": "yousician.com/",
+   "n": 2,
+   "removed": true,
+   "ignore": true
+  }
+ ],
+ "amplitude": [
+  {
+   "funnel": "Vocal 2.0",
+   "topic": "vocal",
+   "period": "16–29 Oct",
+   "prev_period": "2–15 Oct",
+   "steps": [
+    {
+     "label": "Quiz start",
+     "n": 41918,
+     "prev_n": 23505
+    },
+    {
+     "label": "Loader",
+     "n": 6372,
+     "prev_n": 3856
+    },
+    {
+     "label": "Email",
+     "n": 966,
+     "prev_n": 459
+    },
+    {
+     "label": "Paywall",
+     "n": 276,
+     "prev_n": 103
+    },
+    {
+     "label": "Purchase",
+     "n": 51,
+     "prev_n": 26
+    }
+   ]
+  },
+  {
+   "funnel": "Vocal Scanner",
+   "topic": "vocal",
+   "period": "16–29 Oct",
+   "prev_period": "2–15 Oct",
+   "steps": [
+    {
+     "label": "Quiz start",
+     "n": 11936,
+     "prev_n": 7182
+    },
+    {
+     "label": "Loader",
+     "n": 2511,
+     "prev_n": 1576
+    },
+    {
+     "label": "Email",
+     "n": 777,
+     "prev_n": 507
+    },
+    {
+     "label": "Paywall",
+     "n": 766,
+     "prev_n": 502
+    },
+    {
+     "label": "Purchase",
+     "n": 142,
+     "prev_n": 67
+    }
+   ]
+  },
+  {
+   "funnel": "Drawing",
+   "topic": "drawing",
+   "period": "16–29 Oct",
+   "prev_period": "2–15 Oct",
+   "steps": [
+    {
+     "label": "Quiz start",
+     "n": 7570,
+     "prev_n": 13748
+    },
+    {
+     "label": "Loader",
+     "n": 1198,
+     "prev_n": 2430
+    },
+    {
+     "label": "Email",
+     "n": 171,
+     "prev_n": 289
+    },
+    {
+     "label": "Paywall",
+     "n": 40,
+     "prev_n": 55
+    },
+    {
+     "label": "Purchase",
+     "n": 5,
+     "prev_n": 14
+    }
+   ]
+  }
+ ],
+ "ideas": [
+  {
+   "title": "Test a $1 7-day trial as the default plan on the Vocal 2.0 and Drawing paywalls.",
+   "detail": "Should move Paywall → Purchase, which fell to 18.5% in Vocal 2.0 (from 25%) and 12.5% in Drawing (from 25.5%).",
+   "seen_in": "Learna paywall"
+  },
+  {
+   "title": "Check what Vocal 2.0 and Drawing show right after the email code.",
+   "detail": "In our test the code led back to the quiz start (/quiz/standard-rate/…). If real users see the same, it would explain Email → Paywall of 29% and 23% against 99% in the Scanner.",
+   "seen_in": "Skillsta test walk"
+  },
+  {
+   "title": "Test a “for my child” branch at the start of the Drawing quiz.",
+   "detail": "Simply Piano now builds the whole quiz around the child, and Simply Draw already targets kids.",
+   "seen_in": "Simply Piano funnel"
+  }
+ ]
+}

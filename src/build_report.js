@@ -68,6 +68,8 @@ function changes(app, f) {
     items.push({ type: 'New', cur: s });
   });
   for (const r of removed) items.push({ type: 'Removed', prev: r });
+  // The analysis can mark a detected change as noise (timer, animation frame): drop it.
+  for (let i = items.length - 1; i >= 0; i--) { const it = items[i]; if (noteFor(app.id, f.key, (it.cur || it.prev).n, it.type === 'Removed')?.ignore) items.splice(i, 1); }
   const label = it => `${KIND[(it.cur || it.prev).kind] || 'Screen'}, step ${(it.cur || it.prev).n}`;
   const cards = items.slice(0, MAX_CARDS).map(it => {
     const n = noteFor(app.id, f.key, (it.cur || it.prev).n, it.type === 'Removed');
