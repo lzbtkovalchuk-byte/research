@@ -7,7 +7,7 @@
   "memoryos": "No changes (only the paywall timer differs). 1 funnel link removed (mos_cfg=read003b).",
   "chillio": "Paywall unchanged; support email moved to your-chillio.com, matching its new funnel address. 1 new funnel link (nutrition-ai).",
   "learna": "Paywall rebuilt: $1 for a 7-day trial, then $19.99/month, plus 3- and 6-month plans (was 1 week $10 / 1 month $30 / 1 year $100). One work question reworded.",
-  "copymind": "No changes (only the paywall timer differs). Captured from the US this run: the UK proxy couldn’t be used yet.",
+  "copymind": "First capture from the UK (proxy confirmed GB): same paywall, priced in euros — 1 week €9.99, then €39.99 every 4 weeks (≈ €43.32/month). Quiz screens aren’t compared this time because the last run was from the US.",
   "simply-sing": "No screen changes; the walk still stops at its voice test. Ad link to the singyourheartout page removed.",
   "yousician": "Paywall captured for the first time after a test sign-up: 7-day free trial, then $159.99/year ($13.33/month). New ad link to yousician.com.",
   "smartyme": "No screen changes. Ads: 64 new in two weeks.",
@@ -72,19 +72,6 @@
    "app": "memoryos",
    "funnel": "start.memoryos.com/new-s",
    "n": 35,
-   "removed": true,
-   "ignore": true
-  },
-  {
-   "app": "copymind",
-   "funnel": "app.copymind.me/welcome-quiz/gender",
-   "n": 36,
-   "ignore": true
-  },
-  {
-   "app": "copymind",
-   "funnel": "app.copymind.me/welcome-quiz/gender",
-   "n": 36,
    "removed": true,
    "ignore": true
   },
@@ -217,6 +204,233 @@
    "n": 2,
    "removed": true,
    "ignore": true
+  },
+  {
+   "app": "copymind",
+   "funnel": "app.copymind.me/welcome-quiz/gender",
+   "n": 1,
+   "ignore": true
+  },
+  {
+   "app": "copymind",
+   "funnel": "app.copymind.me/welcome-quiz/gender",
+   "n": 2,
+   "ignore": true
+  },
+  {
+   "app": "copymind",
+   "funnel": "app.copymind.me/welcome-quiz/gender",
+   "n": 3,
+   "ignore": true
+  },
+  {
+   "app": "copymind",
+   "funnel": "app.copymind.me/welcome-quiz/gender",
+   "n": 4,
+   "ignore": true
+  },
+  {
+   "app": "copymind",
+   "funnel": "app.copymind.me/welcome-quiz/gender",
+   "n": 5,
+   "ignore": true
+  },
+  {
+   "app": "copymind",
+   "funnel": "app.copymind.me/welcome-quiz/gender",
+   "n": 6,
+   "ignore": true
+  },
+  {
+   "app": "copymind",
+   "funnel": "app.copymind.me/welcome-quiz/gender",
+   "n": 7,
+   "ignore": true
+  },
+  {
+   "app": "copymind",
+   "funnel": "app.copymind.me/welcome-quiz/gender",
+   "n": 8,
+   "ignore": true
+  },
+  {
+   "app": "copymind",
+   "funnel": "app.copymind.me/welcome-quiz/gender",
+   "n": 9,
+   "ignore": true
+  },
+  {
+   "app": "copymind",
+   "funnel": "app.copymind.me/welcome-quiz/gender",
+   "n": 10,
+   "ignore": true
+  },
+  {
+   "app": "copymind",
+   "funnel": "app.copymind.me/welcome-quiz/gender",
+   "n": 11,
+   "ignore": true
+  },
+  {
+   "app": "copymind",
+   "funnel": "app.copymind.me/welcome-quiz/gender",
+   "n": 12,
+   "ignore": true
+  },
+  {
+   "app": "copymind",
+   "funnel": "app.copymind.me/welcome-quiz/gender",
+   "n": 13,
+   "ignore": true
+  },
+  {
+   "app": "copymind",
+   "funnel": "app.copymind.me/welcome-quiz/gender",
+   "n": 14,
+   "ignore": true
+  },
+  {
+   "app": "copymind",
+   "funnel": "app.copymind.me/welcome-quiz/gender",
+   "n": 15,
+   "ignore": true
+  },
+  {
+   "app": "copymind",
+   "funnel": "app.copymind.me/welcome-quiz/gender",
+   "n": 16,
+   "ignore": true
+  },
+  {
+   "app": "copymind",
+   "funnel": "app.copymind.me/welcome-quiz/gender",
+   "n": 17,
+   "ignore": true
+  },
+  {
+   "app": "copymind",
+   "funnel": "app.copymind.me/welcome-quiz/gender",
+   "n": 18,
+   "ignore": true
+  },
+  {
+   "app": "copymind",
+   "funnel": "app.copymind.me/welcome-quiz/gender",
+   "n": 19,
+   "ignore": true
+  },
+  {
+   "app": "copymind",
+   "funnel": "app.copymind.me/welcome-quiz/gender",
+   "n": 20,
+   "ignore": true
+  },
+  {
+   "app": "copymind",
+   "funnel": "app.copymind.me/welcome-quiz/gender",
+   "n": 21,
+   "ignore": true
+  },
+  {
+   "app": "copymind",
+   "funnel": "app.copymind.me/welcome-quiz/gender",
+   "n": 22,
+   "ignore": true
+  },
+  {
+   "app": "copymind",
+   "funnel": "app.copymind.me/welcome-quiz/gender",
+   "n": 23,
+   "ignore": true
+  },
+  {
+   "app": "copymind",
+   "funnel": "app.copymind.me/welcome-quiz/gender",
+   "n": 24,
+   "ignore": true
+  },
+  {
+   "app": "copymind",
+   "funnel": "app.copymind.me/welcome-quiz/gender",
+   "n": 25,
+   "ignore": true
+  },
+  {
+   "app": "copymind",
+   "funnel": "app.copymind.me/welcome-quiz/gender",
+   "n": 26,
+   "ignore": true
+  },
+  {
+   "app": "copymind",
+   "funnel": "app.copymind.me/welcome-quiz/gender",
+   "n": 27,
+   "ignore": true
+  },
+  {
+   "app": "copymind",
+   "funnel": "app.copymind.me/welcome-quiz/gender",
+   "n": 28,
+   "ignore": true
+  },
+  {
+   "app": "copymind",
+   "funnel": "app.copymind.me/welcome-quiz/gender",
+   "n": 29,
+   "ignore": true
+  },
+  {
+   "app": "copymind",
+   "funnel": "app.copymind.me/welcome-quiz/gender",
+   "n": 30,
+   "ignore": true
+  },
+  {
+   "app": "copymind",
+   "funnel": "app.copymind.me/welcome-quiz/gender",
+   "n": 31,
+   "ignore": true
+  },
+  {
+   "app": "copymind",
+   "funnel": "app.copymind.me/welcome-quiz/gender",
+   "n": 32,
+   "ignore": true
+  },
+  {
+   "app": "copymind",
+   "funnel": "app.copymind.me/welcome-quiz/gender",
+   "n": 33,
+   "ignore": true
+  },
+  {
+   "app": "copymind",
+   "funnel": "app.copymind.me/welcome-quiz/gender",
+   "n": 34,
+   "ignore": true
+  },
+  {
+   "app": "copymind",
+   "funnel": "app.copymind.me/welcome-quiz/gender",
+   "n": 35,
+   "ignore": true
+  },
+  {
+   "app": "copymind",
+   "funnel": "app.copymind.me/welcome-quiz/gender",
+   "n": 36,
+   "ignore": true
+  },
+  {
+   "app": "copymind",
+   "funnel": "app.copymind.me/welcome-quiz/gender",
+   "n": 37,
+   "title": "First UK capture: same paywall, priced in euros",
+   "notes": [
+    "Captured through the UK proxy this time (last run came from the US).",
+    "Same offer and layout: 1-week plan €9.99, then €39.99 every 4 weeks, now shown as “≈ €43.32 / month” (the US version showed $9.99 then $39.99).",
+    "Promo code auto-applied with a 10-minute timer, as before."
+   ]
   }
  ],
  "amplitude": [
