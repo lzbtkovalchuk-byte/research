@@ -4,7 +4,7 @@ import fs from 'node:fs';
 import path from 'node:path';
 import { chromium, devices } from 'playwright';
 import sharp from 'sharp';
-import { loadConfig, allApps, runDir, readJSON, writeJSON, normalizeUrl, isStoreOrSocial, normText, sleep, sha, proxyFor, ROOT } from './lib.js';
+import { loadConfig, allApps, runDir, readJSON, writeJSON, normalizeUrl, isStoreOrSocial, normText, sleep, sha, proxyFor, shapeOf, ROOT } from './lib.js';
 import { waitForCode } from './mail.js';
 
 const RUN = runDir();
@@ -745,7 +745,7 @@ async function main() {
   const queue = apps.filter(a => !only || only.includes(a.id));
   log(`walking ${queue.length} apps, ${PARALLEL} at a time`);
   for (const [g, k] of [['GB', 'PROXY_UK'], ['US', 'PROXY_US']]) if (!process.env[k]) log(`${k}: not set (empty in this run)`);
-  for (const [g, k] of [['GB', 'PROXY_UK'], ['US', 'PROXY_US']]) if (process.env[k]) log(`${k}: ${proxyFor(g) ? 'set, ' + proxyFor(g).server.replace(/\/\/.*:/, '//…:') : 'set but not understood, walking without it'}`);
+  for (const [g, k] of [['GB', 'PROXY_UK'], ['US', 'PROXY_US']]) if (process.env[k]) log(`${k}: ${proxyFor(g) ? 'set, ' + proxyFor(g).server.replace(/\/\/.*:/, '//…:') : `set but not understood (shape: ${shapeOf(process.env[k])}), walking without it`}`);
   await Promise.all(Array.from({ length: Math.min(PARALLEL, queue.length) }, async () => { while (queue.length) await runApp(queue.shift()); }));
   await browser.close();
   if (headedBrowser) await headedBrowser.close();
