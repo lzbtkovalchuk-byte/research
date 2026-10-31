@@ -14,3 +14,9 @@
 12:10:04 → copymind app.copymind.me/welcome-quiz/gender
 12:10:06 copymind proxy GB: exit country US
 12:22:02 ✓ copymind 36 screens, stop=paywall, 717s
+12:31:04 walking 1 apps, 3 at a time
+12:31:04 PROXY_UK: set, http://…:823
+12:31:04 PROXY_US: set, http://…:823
+12:31:04 → copymind app.copymind.me/welcome-quiz/gender
+12:31:05 copymind proxy GB: exit country GB
+12:43:26 ✓ copymind 37 screens, stop=paywall, 742s
