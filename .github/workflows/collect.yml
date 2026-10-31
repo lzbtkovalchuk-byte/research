@@ -47,8 +47,8 @@ jobs:
           TEST_EMAIL: ${{ secrets.TEST_EMAIL }}
           GMAIL_APP_PASSWORD: ${{ secrets.GMAIL_APP_PASSWORD }}
           TEST_ACCOUNT_PASSWORD: ${{ secrets.TEST_ACCOUNT_PASSWORD }}
-          PROXY_UK: ${{ secrets.PROXY_UK }}
-          PROXY_US: ${{ secrets.PROXY_US }}
+          PROXY_UK: ${{ secrets.PROXY_UK || vars.PROXY_UK }}
+          PROXY_US: ${{ secrets.PROXY_US || vars.PROXY_US }}
         run: if command -v xvfb-run >/dev/null; then xvfb-run -a node src/walk_funnels.js; else node src/walk_funnels.js; fi   # virtual display for apps marked headed: true
       - name: Diff + draft report
         if: always() && steps.due.outputs.run == 'true' && steps.install.outcome == 'success'

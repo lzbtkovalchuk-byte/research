@@ -14,7 +14,7 @@ const BASE_EMAIL = process.env[S.test_email_env || 'TEST_EMAIL'] || S.test_email
 const FUNNEL_MAX_MS = (S.funnel_max_minutes || 14) * 60e3; // hard cap per funnel
 const PARALLEL = Number(process.env.PARALLEL || S.parallel || 3);
 // Progress log saved with the run data (walk.log), so a run can be followed from the repo.
-const LOG = path.join(RUN, 'walk.log');
+const LOG = path.join(RUN, 'walk-log.txt');
 const log = (...a) => { const line = `${new Date().toISOString().slice(11, 19)} ${a.join(' ')}`; console.log(line); try { fs.appendFileSync(LOG, line + '\n'); } catch {} };
 const SIGNUP_PASSWORD = process.env.TEST_ACCOUNT_PASSWORD || '';
 const CAN_READ_CODES = !!(process.env.GMAIL_APP_PASSWORD || process.env.CODE_OVERRIDE);
@@ -744,6 +744,7 @@ async function main() {
   // Walk several apps at once (each in its own browser context).
   const queue = apps.filter(a => !only || only.includes(a.id));
   log(`walking ${queue.length} apps, ${PARALLEL} at a time`);
+  for (const [g, k] of [['GB', 'PROXY_UK'], ['US', 'PROXY_US']]) if (!process.env[k]) log(`${k}: not set (empty in this run)`);
   for (const [g, k] of [['GB', 'PROXY_UK'], ['US', 'PROXY_US']]) if (process.env[k]) log(`${k}: ${proxyFor(g) ? 'set, ' + proxyFor(g).server.replace(/\/\/.*:/, '//…:') : 'set but not understood, walking without it'}`);
   await Promise.all(Array.from({ length: Math.min(PARALLEL, queue.length) }, async () => { while (queue.length) await runApp(queue.shift()); }));
   await browser.close();
