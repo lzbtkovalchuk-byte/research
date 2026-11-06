@@ -31,6 +31,8 @@ const q=new URLSearchParams(location.search);
 if(q.get('signup')) S.splice(7,0,()=>`<h1>Create your account</h1><input type="email" placeholder="Email" value=""><input type="password" placeholder="Password"><label><input type="checkbox" id="t"> I agree to the Terms</label><button onclick="if(document.querySelector('[type=password]').value&&document.getElementById('t').checked)go()">Create account</button>`);
 if(q.get('code')) S.splice(7,0,()=>`<h1>Enter verification code</h1><p>We've sent a code to your email</p><div>${[0,1,2,3,4,5].map(k=>`<input class="d" maxlength="1" inputmode="numeric" style="width:30px" oninput="if(this.value&&this.nextElementSibling)this.nextElementSibling.focus()">`).join('')}</div><p id="cerr"></p><button onclick="const v=[...document.querySelectorAll('.d')].map(x=>x.value).join('');v==='123456'?go():document.getElementById('cerr').textContent='Wrong code'">Verify</button>`);
 function go(){ i++; render(); }
+// shuffle=1: options appear in reverse order (to test that the walker picks the same answer by label).
+if(q.get('shuffle')) new MutationObserver(()=>{ const os=[...document.querySelectorAll('.opt')]; if(os.length>1 && !os[0].parentElement.dataset.sh){ const p=os[0].parentElement; p.dataset.sh=1; os.reverse().forEach(o=>p.appendChild(o)); } }).observe(document.body,{childList:true,subtree:true});
 function emailGo(){ const v=document.querySelector('input').value; if(!v) return;
   if(q.get('strict') && !v.includes('+')){ document.getElementById('err').textContent='An account already exists with this email.'; if(q.get('strict')==='loop') setTimeout(()=>{i=0;render();},2500); return; }
   go(); }

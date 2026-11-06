@@ -6,6 +6,8 @@
 # seeds: funnel links to walk even if no ad currently points there.
 # allow_signup: true = may create a test account (password from the TEST_ACCOUNT_PASSWORD secret).
 # headed: true = walk in a full (non-headless) browser.
+# variants: walk each funnel once per variant, with fixed answers ({ q: question regex, a: answer regex }); each is its own funnel.
+# Every other question gets the same answer as in the previous run (matched by its label, not its position).
 # max_funnels: how many distinct funnel variants (by link) to walk per run.
 
 settings:
@@ -55,6 +57,10 @@ competitors:
     name: Simply Piano
     topics: [vocal, drawing]
     geo: US
+    # Two branches walked as separate funnels (first answer fixed): parent buying for a child, and adult learner.
+    variants:
+      - { id: child, answers: [{ q: "motivates you to play", a: "introduce my child" }] }
+      - { id: adult, answers: [{ q: "motivates you to play", a: "grow my musical skills" }] }
     ads: { page_ids: ["130724596952924"] }
     seeds: ["https://join-piano.hellosimply.com/start/motivationsIntro?exp=selfer&sitelink=rated&utm_source=facebook"]
 

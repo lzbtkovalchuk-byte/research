@@ -50,42 +50,63 @@ function phone(file, cap, side, label, boxes = [], h = 844) {
 
 const noteFor = (appId, key, n, removed = false) => (A.screens || []).find(x => x.app === appId && (!x.funnel || x.funnel === key) && x.n === n && !!x.removed === removed);
 
-/** Builds the change cards for one funnel. */
+/** Change items for one funnel (rendered later, grouped across funnels of the same app). */
 function changes(app, f) {
   const df = diff.apps[app.id]?.funnels?.[f.key];
-  if (!df || df.firstRun || !PREV) return { cards: [], count: 0 };
+  if (!df || df.firstRun || !PREV) return [];
   const curDir = path.join(RUN, f.dir), prevDir = path.join(PREV, df.prevDir || '');
+  const prevSteps = readJSON(path.join(prevDir, 'steps.json'), { steps: [] }).steps;
+  const ph = file => prevSteps.find(x => x.file === file)?.textHash || file;
   const removed = [...(df.removed || [])];
   const items = [];
   f.steps.forEach((s, j) => {
     const st = df.status[j]; if (!st || st.s === 'same') return;
     if (st.s === 'changed') { items.push({ type: 'Changed', cur: s, prev: { n: st.prev, file: st.prevFile, title: '' }, boxes: st.boxes }); return; }
-    if (s.kind === 'popup') { const behind = f.steps.find(x => x.n === s.behind); items.push({ type: 'Popup', cur: s, behind }); return; }
-    // A new screen where a previous one was removed at the same place = replaced.
+    if (s.kind === 'popup') { items.push({ type: 'Popup', cur: s, behind: f.steps.find(x => x.n === s.behind) }); return; }
     const before = j ? df.status[j - 1]?.prev : 0;
     const ri = removed.findIndex(r => before != null && r.n === (before || 0) + 1);
     if (ri >= 0) { items.push({ type: 'Replaced', cur: s, prev: removed[ri] }); removed.splice(ri, 1); return; }
     items.push({ type: 'New', cur: s });
   });
   for (const r of removed) items.push({ type: 'Removed', prev: r });
-  // The analysis can mark a detected change as noise (timer, animation frame): drop it.
-  for (let i = items.length - 1; i >= 0; i--) { const it = items[i]; if (noteFor(app.id, f.key, (it.cur || it.prev).n, it.type === 'Removed')?.ignore) items.splice(i, 1); }
-  const label = it => `${KIND[(it.cur || it.prev).kind] || 'Screen'}, step ${(it.cur || it.prev).n}`;
-  const cards = items.slice(0, MAX_CARDS).map(it => {
-    const n = noteFor(app.id, f.key, (it.cur || it.prev).n, it.type === 'Removed');
-    const tt = s => (s?.title || 'untitled screen').slice(0, 70);
-    const title = n?.title || ({ Changed: () => `“${tt(it.cur)}” changed`, Replaced: () => `New screen “${tt(it.cur)}” replaces “${tt(it.prev)}”`, New: () => `New screen: “${tt(it.cur)}”`, Removed: () => `Screen removed: “${tt(it.prev)}”`, Popup: () => `Popup: “${tt(it.cur)}”` })[it.type]();
-    const notes = n?.notes?.length ? n.notes : [({ Changed: () => 'Changed areas are boxed in yellow.', Replaced: () => 'The screen at this point of the funnel is different.', New: () => 'This screen was not in the previous run.', Removed: () => 'This screen is no longer in the funnel.', Popup: () => `Closed automatically (${it.cur?.closed || 'closed'}) and the screen behind it was captured.` })[it.type]()];
-    const cap = (s, when) => `${app.name} · ${when} · ${s.n}. ${s.title || ''}`;
-    let pair;
-    if (it.type === 'Popup') pair = `<div class="pair">${phone(path.join(curDir, it.cur.file), cap(it.cur, 'popup'), 'cur', 'Popup', [], it.cur.h)}${it.behind ? phone(path.join(curDir, it.behind.file), cap(it.behind, 'behind the popup'), 'prev', 'Behind the popup', [], it.behind.h) : ''}</div>`;
-    else if (it.type === 'New') pair = `<div class="pair single">${phone(path.join(curDir, it.cur.file), cap(it.cur, fmtDate(date)), 'cur', `New · ${fmtDate(date)}`, [], it.cur.h)}</div>`;
-    else if (it.type === 'Removed') pair = `<div class="pair single">${phone(path.join(prevDir, it.prev.file), cap(it.prev, fmtDate(diff.previous)), 'prev', `Removed · was there on ${fmtDate(diff.previous)}`)}</div>`;
-    else pair = `<div class="pair">${phone(path.join(prevDir, it.prev.file), cap(it.prev, fmtDate(diff.previous)), 'prev', `Previous · ${fmtDate(diff.previous)}`)}${phone(path.join(curDir, it.cur.file), cap(it.cur, fmtDate(date)), 'cur', `Current · ${fmtDate(date)}`, it.boxes, it.cur.h)}</div>`;
-    return `<article class="chg"><header><span class="st ${it.type === 'Replaced' ? 'changed' : it.type.toLowerCase()}">${it.type}</span><h4>${esc(title)}</h4><span class="step">${esc(label(it))}</span></header>${pair}<div class="note"><p class="who">What changed</p><ul>${notes.map(x => `<li>${esc(x)}</li>`).join('')}</ul></div></article>`;
-  });
-  if (items.length > MAX_CARDS) cards.push(`<p class="more">${items.length - MAX_CARDS} more changed screens: see <code>data/runs/${date}/${esc(f.dir)}/</code>. This funnel looks substantially redesigned.</p>`);
-  return { cards, count: items.length, kinds: [...new Set(items.map(it => (it.cur || it.prev).kind))] };
+  return items
+    .filter(it => !noteFor(app.id, f.key, (it.cur || it.prev).n, it.type === 'Removed')?.ignore)
+    .map(it => ({ ...it, key: f.key, f, curDir, prevDir,
+      // Same change in two funnels (same screens before and after) = one card.
+      sig: `${it.type}|${it.cur?.textHash || ''}|${it.prev ? ph(it.prev.file) : ''}` }));
+}
+
+/** Renders one change card; `keys` = every funnel (ad link) where this exact change was seen. */
+function card(app, it, keys) {
+  const n = keys.map(k => noteFor(app.id, k, (it.cur || it.prev).n, it.type === 'Removed')).find(Boolean);
+  const tt = s => (s?.title || 'untitled screen').slice(0, 70);
+  const title = n?.title || ({ Changed: () => `“${tt(it.cur)}” changed`, Replaced: () => `New screen “${tt(it.cur)}” replaces “${tt(it.prev)}”`, New: () => `New screen: “${tt(it.cur)}”`, Removed: () => `Screen removed: “${tt(it.prev)}”`, Popup: () => `Popup: “${tt(it.cur)}”` })[it.type]();
+  const notes = n?.notes?.length ? n.notes : [({ Changed: () => 'Changed areas are boxed in yellow.', Replaced: () => 'The screen at this point of the funnel is different.', New: () => 'This screen was not in the previous run.', Removed: () => 'This screen is no longer in the funnel.', Popup: () => `Closed automatically (${it.cur?.closed || 'closed'}) and the screen behind it was captured.` })[it.type]()];
+  const label = `${KIND[(it.cur || it.prev).kind] || 'Screen'}, step ${(it.cur || it.prev).n}`;
+  const cap = (s, when) => `${app.name} · ${when} · ${s.n}. ${s.title || ''}`;
+  let pair;
+  if (it.type === 'Popup') pair = `<div class="pair">${phone(path.join(it.curDir, it.cur.file), cap(it.cur, 'popup'), 'cur', 'Popup', [], it.cur.h)}${it.behind ? phone(path.join(it.curDir, it.behind.file), cap(it.behind, 'behind the popup'), 'prev', 'Behind the popup', [], it.behind.h) : ''}</div>`;
+  else if (it.type === 'New') pair = `<div class="pair single">${phone(path.join(it.curDir, it.cur.file), cap(it.cur, fmtDate(date)), 'cur', `New · ${fmtDate(date)}`, [], it.cur.h)}</div>`;
+  else if (it.type === 'Removed') pair = `<div class="pair single">${phone(path.join(it.prevDir, it.prev.file), cap(it.prev, fmtDate(diff.previous)), 'prev', `Removed · was there on ${fmtDate(diff.previous)}`)}</div>`;
+  else pair = `<div class="pair">${phone(path.join(it.prevDir, it.prev.file), cap(it.prev, fmtDate(diff.previous)), 'prev', `Previous · ${fmtDate(diff.previous)}`)}${phone(path.join(it.curDir, it.cur.file), cap(it.cur, fmtDate(date)), 'cur', `Current · ${fmtDate(date)}`, it.boxes, it.cur.h)}</div>`;
+  const where = keys.length > 1 ? `<p class="links-in">Same in ${keys.length} ad links: ${keys.map(k => `<code>${esc(short(k))}</code>`).join(' ')}</p>` : '';
+  const st = n?.unconfirmed ? 'unconfirmed' : it.type === 'Replaced' ? 'changed' : it.type.toLowerCase();
+  return `<article class="chg"><header><span class="st ${st}">${n?.unconfirmed ? 'Unconfirmed' : it.type}</span><h4>${esc(title)}</h4><span class="step">${esc(label)}</span></header>${pair}<div class="note"><p class="who">What changed</p><ul>${notes.map(x => `<li>${esc(x)}</li>`).join('')}</ul>${where}</div></article>`;
+}
+
+/** All change cards for an app: identical changes across its funnels are merged into one card. */
+function appCards(app, list) {
+  const groups = new Map();
+  for (const f of list) for (const it of changes(app, f)) {
+    const g = groups.get(it.sig) || { it, keys: [] };
+    if (!g.keys.includes(it.key)) g.keys.push(it.key);
+    groups.set(it.sig, g);
+  }
+  const all = [...groups.values()];
+  const cards = all.slice(0, MAX_CARDS * 2).map(g => card(app, g.it, g.keys));
+  if (all.length > MAX_CARDS * 2) cards.push(`<p class="more">${all.length - MAX_CARDS * 2} more changed screens: see <code>data/runs/${date}/funnels/${app.id}/</code>.</p>`);
+  const keys = [...new Set(all.flatMap(g => g.keys))];
+  return { cards, count: all.length, keys, kinds: [...new Set(all.map(g => (g.it.cur || g.it.prev).kind))] };
 }
 
 const firstRun = !PREV;
@@ -97,8 +118,9 @@ const adsNotable = x => x && (x.newInWindow >= 20 || (x.delta != null && Math.ab
 // ---------- per-app changes ----------
 const perApp = apps.map(app => {
   const list = loadFunnels(RUN, app.id);
-  const ch = list.map(f => ({ f, ...changes(app, f) }));
-  const screens = ch.reduce((s, c) => s + c.count, 0);
+  const ac = appCards(app, list);
+  const ch = [{ kinds: ac.kinds }];
+  const screens = ac.count;
   const links = linkChanges(app.id);
   const ads = dApp(app.id).ads;
   const noPaywall = list.filter(f => !f.steps.some(s => s.kind === 'paywall'));
@@ -130,7 +152,7 @@ const skWC = `<ul class="wcl">${perApp.filter(p => p.app.skillsta).map(wcRow).jo
 
 const screensHTML = firstRun
   ? '<p class="empty-note">This is the first run, so there is nothing to compare yet. From the next run on, changed screens appear here side by side.</p>'
-  : (perApp.filter(p => p.screens).map(p => `<div class="comp" id="${p.app.id}" data-topic="${topicOf(p.app)}"><h3>${esc(p.app.name)} <span class="tags">${TAGS[topicOf(p.app)]}</span></h3>${p.ch.filter(c => c.count).map(c => `<p class="meta">${esc(short(c.f.key))} · captured from ${c.f.exitCountry ? ({ GB: 'UK' }[c.f.exitCountry] || c.f.exitCountry) + ' (proxy)' : c.f.proxied || p.app.geo === 'US' ? (p.app.geo === 'GB' ? 'UK' : 'US') : 'US (no UK proxy yet)'}</p>${c.cards.join('')}`).join('')}</div>`).join('')
+  : (perApp.filter(p => p.screens).map(p => { const ac = appCards(p.app, p.list); const f0 = p.list.find(f => ac.keys.includes(f.key)) || p.list[0]; const from = f0?.exitCountry ? ({ GB: 'UK' }[f0.exitCountry] || f0.exitCountry) + ' (proxy)' : (p.app.geo === 'GB' ? 'UK' : 'US'); return `<div class="comp" id="${p.app.id}" data-topic="${topicOf(p.app)}"><h3>${esc(p.app.name)} <span class="tags">${TAGS[topicOf(p.app)]}</span></h3><p class="meta">${ac.keys.map(k => esc(short(k))).join(' · ')} · captured from ${from}</p>${ac.cards.join('')}</div>`; }).join('')
     || '<p class="empty-note">No funnel screens changed since the previous run.</p>');
 
 const adRows = comps.map(a => { const x = dApp(a.id).ads; const dc = x?.delta > 0 ? 'up' : x?.delta < 0 ? 'down' : ''; return `<tr data-topic="${topicOf(a)}"><td>${esc(a.name)}</td><td><span class="tags">${TAGS[topicOf(a)]}</span></td><td>${a.geo === 'GB' ? 'UK' : 'US'}</td><td class="r">${x ? x.active.toLocaleString('en-US') : '—'}</td><td class="r ${dc}">${x?.delta == null ? '—' : (x.delta > 0 ? '+' : x.delta < 0 ? '−' : '') + Math.abs(x.delta)}</td><td class="r">${x?.newInWindow ?? '—'}</td></tr>`; }).join('');

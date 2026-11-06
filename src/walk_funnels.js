@@ -4,7 +4,7 @@ import fs from 'node:fs';
 import path from 'node:path';
 import { chromium, devices } from 'playwright';
 import sharp from 'sharp';
-import { loadConfig, allApps, runDir, readJSON, writeJSON, normalizeUrl, isStoreOrSocial, normText, sleep, sha, proxyFor, shapeOf, ROOT } from './lib.js';
+import { loadConfig, allApps, runDir, readJSON, writeJSON, normalizeUrl, isStoreOrSocial, normText, sleep, sha, proxyFor, shapeOf, ROOT, RUNS } from './lib.js';
 import { waitForCode } from './mail.js';
 
 const RUN = runDir();
@@ -12,6 +12,7 @@ const cfg = loadConfig();
 const S = cfg.settings || {};
 const BASE_EMAIL = process.env[S.test_email_env || 'TEST_EMAIL'] || S.test_email || '';
 const FUNNEL_MAX_MS = (S.funnel_max_minutes || 14) * 60e3; // hard cap per funnel
+let MEMORY = new Map();
 const PARALLEL = Number(process.env.PARALLEL || S.parallel || 3);
 // Progress log saved with the run data (walk.log), so a run can be followed from the repo.
 const LOG = path.join(RUN, 'walk-log.txt');
@@ -122,7 +123,15 @@ async function inspect(page) {
       el.setAttribute('data-cfw', 'c' + n);
       const r = el.getBoundingClientRect();
       const disabled = el.disabled || el.getAttribute('aria-disabled') === 'true' || getComputedStyle(el).opacity < 0.5;
-      const item = { sel: `[data-cfw="c${n}"]`, text: t.slice(0, 80), top: Math.round(r.top), disabled };
+      // Full label of the option card: climb while the parent is still a small clickable card (emoji and text often sit apart).
+      let card = el, lt = t;
+      for (let k = 0; k < 4 && card.parentElement; k++) {
+        const pe = card.parentElement, pt = (pe.innerText || '').trim().replace(/\s+/g, ' ');
+        if (!pt || pt.length > 80 || pe === document.body || pe.querySelectorAll('button,[role=button],[role=radio],[role=option],label').length > 1) break;
+        if (getComputedStyle(pe).cursor !== 'pointer' && !pe.matches('button,[role=button],[role=radio],[role=option],label,li')) break;
+        card = pe; lt = pt;
+      }
+      const item = { sel: `[data-cfw="c${n}"]`, text: t.slice(0, 80), label: (lt || t).slice(0, 80), top: Math.round(r.top), disabled };
       if (CTA.test(t) && t.length <= 32 && !/receive|news|updates|offers|marketing/i.test(t)) ctas.push(item);
       else if (t && t.length <= 60) opts.push(item);
       else if (!t) opts.push({ ...item, icon: true });
@@ -177,6 +186,44 @@ function multiCount(text) {
   const m = text.match(/(?:choose|select|pick)\s+(?:your\s+)?(?:top\s+|at least\s+|up to\s+)?(\d)/i);
   if (m) return Number(m[1]);
   return /(all that apply|select all|choose all|multiple answers|select one or more|choose one or more)/i.test(text) ? 1 : 0;
+}
+
+// ---------- same answers every run ----------
+const normAns = x => String(x || '').toLowerCase().replace(/[^\p{L}\p{N}]+/gu, ' ').trim();
+const normQ = x => normAns(x).slice(0, 120);
+/** Answers chosen in the previous run, per funnel key and per app (question → option label). */
+function loadMemory() {
+  const mem = new Map();
+  // The first answer ever recorded for a question wins, so every run follows the same branch as the first report.
+  const runs = fs.existsSync(RUNS) ? fs.readdirSync(RUNS).filter(d => /^\d{4}-\d{2}-\d{2}$/.test(d) && d < path.basename(RUN)).sort() : [];
+  for (const prev of runs) {
+  if (!fs.existsSync(path.join(RUNS, prev, 'funnels'))) continue;
+  for (const app of fs.readdirSync(path.join(RUNS, prev, 'funnels')).filter(Boolean)) {
+    const idx = readJSON(path.join(RUNS, prev, 'funnels', app, 'index.json'), null); if (!idx) continue;
+    for (const f of idx.funnels) {
+      const st = readJSON(path.join(RUNS, prev, f.dir, 'steps.json'), null); if (!st) continue;
+      for (const x of st.steps) {
+        const a = x.action?.opt; if (!a || x.kind !== 'question') continue;
+        const q = normQ(x.title);
+        if (!q) continue;
+        if (!mem.has(`${app}|${f.key}|${q}`)) mem.set(`${app}|${f.key}|${q}`, a);
+        if (!mem.has(`${app}||${q}`)) mem.set(`${app}||${q}`, a);
+      }
+    }
+  }
+  }
+  log(`answer memory: ${mem.size} answers from ${runs.length} earlier runs`);
+  return mem;
+}
+/** Option matching a wanted answer, wherever it is on the screen. */
+function findAnswer(opts, wanted, regex = false) {
+  const o = opts.filter(x => !x.disabled);
+  if (regex) { const re = new RegExp(wanted, 'i'); return o.find(x => re.test(x.label || x.text)) || null; }
+  const w = String(wanted).trim(), wn = normAns(w);
+  return o.find(x => (x.label || x.text) === w) || o.find(x => x.text === w)
+    || (wn && o.find(x => normAns(x.label || x.text) === wn))
+    || o.find(x => w && (x.label || x.text).startsWith(w)) // stored as emoji only in older runs
+    || (wn && wn.length > 3 && o.find(x => normAns(x.label || x.text).includes(wn))) || null;
 }
 
 function pickOption(s) {
@@ -370,7 +417,7 @@ async function emailError(page) {
   }, EMAIL_ERR.source).catch(() => null);
 }
 
-async function walk(browser, app, entry, dir, idx = 0, ctl = {}) {
+async function walk(browser, app, entry, dir, idx = 0, ctl = {}, variant = null, key = '') {
   let EMAIL = emailFor(app, idx);
   let restartUrl = null, triedDots = false;
   const proxy = proxyFor(app.geo);
@@ -617,12 +664,23 @@ async function walk(browser, app, entry, dir, idx = 0, ctl = {}) {
         if (!moved) {
           const multi = multiCount(s.text);
           if (multi) {
-            const picks = s.opts.filter(x => !x.disabled && !/prefer not|^other$|^none/i.test(x.text)).slice(0, multi);
+            const remM = MEMORY.get(`${app.id}|${key}|${normQ(s.title)}`) || MEMORY.get(`${app.id}||${normQ(s.title)}`);
+            const fromMem = remM ? remM.split(' + ').map(w => findAnswer(s.opts, w)).filter(Boolean) : [];
+            const picks = fromMem.length ? fromMem : s.opts.filter(x => !x.disabled && !/prefer not|^other$|^none/i.test(x.text)).slice(0, multi);
+            act.answerSource = fromMem.length ? 'previous run' : 'default';
             for (const p of picks) { await click(p.sel, true); await sleep(350); }
-            act.opt = picks.map(p => p.text).join(' + ');
+            act.opt = picks.map(p => p.label || p.text).join(' + ');
           } else {
-            const opt = pickOption(s);
-            if (opt) { await click(opt.sel); act.opt = opt.text; await sleep(900); }
+            // Same answer as in the previous run (by label, not position); fixed answers for a variant come first.
+            const q = normQ(s.title);
+            const fixed = (variant?.answers || []).find(a => new RegExp(a.q, 'i').test(s.title + ' ' + s.text.slice(0, 300)));
+            const remembered = MEMORY.get(`${app.id}|${key}|${q}`) || MEMORY.get(`${app.id}||${q}`);
+            let opt = fixed ? findAnswer(s.opts, fixed.a, true) : remembered ? findAnswer(s.opts, remembered) : null;
+            if (fixed && !opt) act.answerMissing = `wanted “${fixed.a}”`;
+            else if (!fixed && remembered && !opt) act.answerMissing = `last run chose “${remembered}”, not on screen now`;
+            act.answerSource = opt ? (fixed ? 'variant' : 'previous run') : 'default';
+            opt ||= pickOption(s);
+            if (opt) { await click(opt.sel); act.opt = opt.label || opt.text; await sleep(900); }
           }
           answered = !!act.opt;
           const after = await inspect(page);
@@ -713,6 +771,7 @@ async function main() {
     headedBrowser ||= await chromium.launch({ headless: false, args });
     return headedBrowser;
   };
+  MEMORY = loadMemory();
   const runApp = async app => {
     const ads = readJSON(path.join(RUN, 'ads', `${app.id}.json`), null);
     const entries = [];
@@ -724,14 +783,15 @@ async function main() {
     const appDir = path.join(RUN, 'funnels', app.id);
     fs.mkdirSync(appDir, { recursive: true });
     const index = { id: app.id, name: app.name, geo: app.geo, skillsta: !!app.skillsta, storeOnly, funnels: [] };
-    for (const [ei, e] of chosen.entries()) {
+    const walks = chosen.flatMap((e, ei) => (app.variants?.length ? app.variants : [null]).map((v, vi) => ({ e: v ? { ...e, key: `${e.key}#${v.id}`, variant: v.id, baseKey: e.key } : e, v, ei: ei * 10 + vi })));
+    for (const { e, v, ei } of walks) {
       const fdir = path.join(appDir, sha(e.key));
       fs.mkdirSync(fdir, { recursive: true });
       log('→', app.id, e.key);
       const ctl = {};
       const timer = setTimeout(() => { ctl.timedOut = true; log(app.id, `time limit (${FUNNEL_MAX_MS / 60e3} min) reached, closing`); ctl.ctx?.close().catch(() => {}); }, FUNNEL_MAX_MS);
       const t0 = Date.now();
-      const r = await walk(await browserFor(app), app, e.url, fdir, ei, ctl).catch(err => ({ steps: [], stop: 'error: ' + String(err.message || err).slice(0, 160), proxied: false, email: null }));
+      const r = await walk(await browserFor(app), app, e.url, fdir, ei, ctl, v, e.key).catch(err => ({ steps: [], stop: 'error: ' + String(err.message || err).slice(0, 160), proxied: false, email: null }));
       clearTimeout(timer);
       const f = { ...e, dir: path.relative(RUN, fdir), stop: r.stop, proxied: r.proxied, email: r.email, emailNote: r.emailNote, signedUp: r.signedUp || null, restartUrl: r.restartUrl || null, finalUrl: r.finalUrl || null, exitCountry: r.exitCountry || null, steps: r.steps, features: features(r.steps, r.stop) };
       writeJSON(path.join(fdir, 'steps.json'), f);

@@ -130,3 +130,6 @@ dialog{max-height:92vh;overflow:auto}
 .topc .tb p{margin:0;color:var(--muted)}
 .topc .tb .copy{color:var(--ink);display:-webkit-box;-webkit-line-clamp:4;-webkit-box-orient:vertical;overflow:hidden}
 .topc .tb code{white-space:normal;word-break:break-all}
+.st.unconfirmed{background:var(--surface);color:var(--muted);border:1px dashed var(--muted)}
+.links-in{margin:6px 0 0;font-size:13px;color:var(--muted)}
+.links-in code{white-space:normal;word-break:break-all}
