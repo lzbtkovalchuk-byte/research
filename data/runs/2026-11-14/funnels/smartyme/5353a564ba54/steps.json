@@ -1,0 +1,235 @@
+{
+  "url": "https://start.smartymeapp.com/quiz",
+  "key": "start.smartymeapp.com/quiz",
+  "why": "ad",
+  "ads": 148,
+  "adShot": "smartyme-5353a564ba54.webp",
+  "adId": "1516356663675672",
+  "dir": "funnels/smartyme/5353a564ba54",
+  "stop": "stuck",
+  "proxied": true,
+  "email": "yelyzavetabazyla+fw2611141007smartyme1@gmail.com",
+  "emailNote": null,
+  "signedUp": null,
+  "restartUrl": null,
+  "finalUrl": "https://start.smartymeapp.com/get-plan",
+  "exitCountry": "US",
+  "steps": [
+    {
+      "n": 1,
+      "file": "01.webp",
+      "url": "https://start.smartymeapp.com/quiz",
+      "path": "/quiz",
+      "title": "MASTER THE ART OF SMALL TALK WITH ENGAGING GAMES!",
+      "kind": "question",
+      "text": "MASTER THE ART OF SMALL TALK WITH ENGAGING GAMES!\nGet your personal communication plan\nHow do you identify?\nBy continuing, you confirm and guarantee that you have read, understood, and agreed to our Terms of Use and Privacy Policy.\nKinyra, 1 KINYRAS TOWER, 3rd floor, Flat/Office 301 Agios Andreas, 1102, Nicosia, Cyprus",
+      "textHash": "ee13ea055665",
+      "dhash": "1110000010100010110111001100111010101010000100000000100000000000",
+      "h": 844,
+      "prices": [],
+      "action": {
+        "answerSource": "default",
+        "opt": ""
+      }
+    },
+    {
+      "n": 2,
+      "file": "02.webp",
+      "url": "https://start.smartymeapp.com/quiz",
+      "path": "/quiz",
+      "title": "Select your age",
+      "kind": "question",
+      "text": "Select your age",
+      "textHash": "d608740d04a1",
+      "dhash": "0110100011001100110011001100110011001100101010100000000010001000",
+      "h": 844,
+      "prices": [],
+      "action": {
+        "answerSource": "default",
+        "opt": ""
+      }
+    },
+    {
+      "n": 3,
+      "file": "03.webp",
+      "url": "https://start.smartymeapp.com/quiz",
+      "path": "/quiz",
+      "title": "You've come to the right place!",
+      "kind": "social_proof",
+      "text": "You've come to the right place!\n176,372 men aged 18–34 are already building real speaking skills by playing, practicing, and progressing. Learn to speak — without the boredom!\nContinue",
+      "textHash": "4bec4a3632eb",
+      "dhash": "1110100010110010110111001101000010100100000000001000101010001110",
+      "h": 862,
+      "prices": [],
+      "action": {
+        "cta": "Continue"
+      }
+    },
+    {
+      "n": 4,
+      "file": "04.webp",
+      "url": "https://start.smartymeapp.com/quiz",
+      "path": "/quiz",
+      "title": "Have you ever learned through games?",
+      "kind": "question",
+      "text": "Profile\n✓\nHave you ever learned through games?\nNo\nYes",
+      "textHash": "864f403e1bea",
+      "dhash": "0001010011101000101010001000011000000000100000000000000000000000",
+      "h": 862,
+      "prices": [],
+      "action": {
+        "answerSource": "default",
+        "opt": "Yes"
+      }
+    },
+    {
+      "n": 5,
+      "file": "05.webp",
+      "url": "https://start.smartymeapp.com/quiz",
+      "path": "/quiz",
+      "title": "Level up your speaking skills by learning while you play.",
+      "kind": "info",
+      "text": "Level up your speaking skills by learning while you play.\nAnswer a few quick questions so we can tailor your program — ready?\nContinue",
+      "textHash": "3f9ac7223241",
+      "dhash": "0110000010110010011100101011010010100110110000101000101010001110",
+      "h": 862,
+      "prices": [],
+      "action": {
+        "answerSource": "default",
+        "cta": "Continue"
+      }
+    },
+    {
+      "n": 6,
+      "file": "06.webp",
+      "url": "https://start.smartymeapp.com/quiz",
+      "path": "/quiz",
+      "title": "What do you want to get better at?",
+      "kind": "question",
+      "text": "Profile\n✓\nWhat do you want to get better at?\nSelect all that apply\nSmall talk & conversations\nRelationships & emotions\nConfidence & personal growth\nLeadership & influence\nPublic speaking & meetings\nContinue",
+      "textHash": "cb2bab0e5f07",
+      "dhash": "0001001010101010111100101001001010100010101000101000001010101110",
+      "h": 862,
+      "prices": [],
+      "action": {
+        "answerSource": "default",
+        "opt": "Small talk & conversations",
+        "cta": "Continue"
+      }
+    },
+    {
+      "n": 7,
+      "file": "07.webp",
+      "url": "https://start.smartymeapp.com/quiz",
+      "path": "/quiz",
+      "title": "You're making progress already!",
+      "kind": "info",
+      "text": "You're making progress already!\nScience shows that setting clear goals makes you 3x more likely to meet them. Give yourself a mini-high five.\nContinue",
+      "textHash": "51ea621517a4",
+      "dhash": "0110000001110000011010001001000010010110000000001000101010001110",
+      "h": 862,
+      "prices": [],
+      "action": {
+        "cta": "Continue"
+      }
+    },
+    {
+      "n": 8,
+      "file": "08.webp",
+      "url": "https://start.smartymeapp.com/quiz",
+      "path": "/quiz",
+      "title": "How do you feel about your communication skills?",
+      "kind": "question",
+      "text": "Profile\n✓\nHow do you feel about your communication skills?\nI struggle a lot\nCould be better\nPretty confident",
+      "textHash": "e9513d13f885",
+      "dhash": "0011000010001010100000101100100011000000000000000000000000000000",
+      "h": 862,
+      "prices": [],
+      "action": {
+        "answerSource": "previous run",
+        "opt": "I struggle a lot"
+      }
+    },
+    {
+      "n": 9,
+      "file": "09.webp",
+      "url": "https://start.smartymeapp.com/quiz",
+      "path": "/quiz",
+      "title": "Confidence starts here",
+      "kind": "info",
+      "text": "Confidence starts here\nYou’re already ahead — most people never take the first step. With SmartyMe, you’ll build tools to communicate clearly, lead with impact, and reach your goals faster with short, game-like practice that fits into real life.\nContinue",
+      "textHash": "248cf13cb1d9",
+      "dhash": "0110000001100100011010001011000010010100000000001000101010001110",
+      "h": 862,
+      "prices": [],
+      "action": {
+        "cta": "Continue"
+      }
+    },
+    {
+      "n": 10,
+      "file": "10.webp",
+      "url": "https://start.smartymeapp.com/quiz",
+      "path": "/quiz",
+      "title": "What do you consider yourself?",
+      "kind": "question",
+      "text": "Profile\n✓\nWhat do you consider yourself?\nExtrovert\nIntrovert\nMix",
+      "textHash": "755688037e29",
+      "dhash": "0001000010110000100100101000110010100000000000000000000000000000",
+      "h": 862,
+      "prices": [],
+      "action": {
+        "answerSource": "previous run",
+        "opt": "Extrovert"
+      }
+    },
+    {
+      "n": 11,
+      "file": "11.webp",
+      "url": "https://start.smartymeapp.com/quiz",
+      "path": "/quiz",
+      "title": "High five, team extrovert!",
+      "kind": "info",
+      "text": "High five, team extrovert!\nYou thrive on energy, connection, and momentum, and we’ve got just the plan to match your vibe.\nContinue",
+      "textHash": "3d74fdfb3acf",
+      "dhash": "0110100010110000011100010111000010010110000000001000101010001110",
+      "h": 862,
+      "prices": [],
+      "action": {
+        "cta": "Continue"
+      }
+    },
+    {
+      "n": 12,
+      "file": "12.webp",
+      "url": "https://start.smartymeapp.com/quiz",
+      "path": "/quiz",
+      "title": "What are your blockers to growth?",
+      "kind": "question",
+      "text": "Challenges\n✓\n✓\nWhat are your blockers to growth?\nContinue\nI procrastinate\nMy schedule is packed\nI don’t know where to start\nI lose interest\nI don’t practice enough\nI fear judgment\nMy routine is messy\nOther",
+      "textHash": "071dcea4462f",
+      "dhash": "0101000011101000110000111001001010000010110100101000001010001110",
+      "h": 1015,
+      "prices": [],
+      "action": {
+        "answerSource": "previous run",
+        "opt": "I procrastinate"
+      }
+    }
+  ],
+  "features": {
+    "totalSteps": 12,
+    "stop": "stuck",
+    "emailStep": null,
+    "paywallStep": null,
+    "questions": 7,
+    "socialProof": 1,
+    "popups": 0,
+    "loader": false,
+    "prices": [],
+    "discount": null,
+    "timer": false,
+    "trial": false,
+    "moneyBack": false
+  }
+}

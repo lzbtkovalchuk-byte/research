@@ -1,0 +1,25 @@
+{
+  "id": "learna",
+  "name": "Learna",
+  "geo": "US",
+  "skillsta": false,
+  "storeOnly": false,
+  "funnels": [
+    {
+      "key": "onboarding.ailearna.com/onboarding-x5j8n9p2k7m4",
+      "dir": "funnels/learna/005ac8f96154",
+      "stop": "paywall",
+      "steps": 32,
+      "why": "ad",
+      "ads": 19
+    },
+    {
+      "key": "onboarding.ailearna.com/onboarding",
+      "dir": "funnels/learna/8c5e7e4aa4f9",
+      "stop": "paywall",
+      "steps": 37,
+      "why": "seed",
+      "ads": 0
+    }
+  ]
+}

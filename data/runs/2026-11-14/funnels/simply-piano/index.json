@@ -1,0 +1,41 @@
+{
+  "id": "simply-piano",
+  "name": "Simply Piano",
+  "geo": "US",
+  "skillsta": false,
+  "storeOnly": false,
+  "funnels": [
+    {
+      "key": "join-piano.hellosimply.com/start#child",
+      "dir": "funnels/simply-piano/8074f436bd33",
+      "stop": "stuck",
+      "steps": 31,
+      "why": "ad",
+      "ads": 31
+    },
+    {
+      "key": "join-piano.hellosimply.com/start#adult",
+      "dir": "funnels/simply-piano/23f2641d15bf",
+      "stop": "stuck",
+      "steps": 32,
+      "why": "ad",
+      "ads": 31
+    },
+    {
+      "key": "hellosimply.com/family/esa#child",
+      "dir": "funnels/simply-piano/c84f9c9dcb20",
+      "stop": "stuck",
+      "steps": 6,
+      "why": "ad",
+      "ads": 4
+    },
+    {
+      "key": "hellosimply.com/family/esa#adult",
+      "dir": "funnels/simply-piano/4bde23745a7b",
+      "stop": "stuck",
+      "steps": 6,
+      "why": "ad",
+      "ads": 4
+    }
+  ]
+}

@@ -1,0 +1,74 @@
+10:08:00 answer memory: 629 answers from 3 earlier runs
+10:08:00 walking 14 apps, 3 at a time
+10:08:00 PROXY_UK: set, http://…:823
+10:08:00 PROXY_US: set, http://…:823
+10:08:00 → skillsta-vocal-2 getskillnow.com/quiz
+10:08:00 → skillsta-vocal-scanner getskillnow.com/quiz/voice_assessment/voice_assessment
+10:08:00 → skillsta-drawing start.getskillnow.com/quiz
+10:08:00 skillsta-vocal-scanner proxy US: exit country US
+10:08:00 skillsta-vocal-2 proxy US: exit country US
+10:08:01 skillsta-drawing proxy US: exit country US
+10:16:40 ✓ skillsta-vocal-scanner 31 screens, stop=paywall, 520s
+10:16:40 → breeze try-breeze.com/funnel/childhood
+10:16:41 breeze proxy US: exit country US
+10:18:09 ✓ skillsta-vocal-2 33 screens, stop=email_loop, 610s
+10:18:09 → simply-piano join-piano.hellosimply.com/start#child
+10:18:11 simply-piano proxy US: exit country US
+10:18:22 ✓ skillsta-drawing 34 screens, stop=email_loop, 623s
+10:18:22 → memoryos start.memoryos.com/new-h2?thm=light
+10:18:23 memoryos proxy US: exit country US
+10:28:11 ✓ breeze 39 screens, stop=paywall, 691s
+10:28:11 → breeze try-breeze.com/childhood
+10:28:12 breeze proxy US: exit country US
+10:28:27 simply-piano popup "Welcome Freebie!" → close button
+10:28:34 memoryos plus-address rejected, retrying with yelyzavet.aba.zyla@gmail.com
+10:29:31 ✓ memoryos 36 screens, stop=paywall, 669s
+10:29:31 → memoryos start.memoryos.com/new-s
+10:29:33 memoryos proxy US: exit country US
+10:29:39 ✓ simply-piano 31 screens, stop=stuck, 690s
+10:29:39 → simply-piano join-piano.hellosimply.com/start#adult
+10:29:40 simply-piano proxy US: exit country US
+10:39:23 memoryos plus-address rejected, retrying with ye.ly.zavetabazyla@gmail.com
+10:39:33 simply-piano popup "Welcome Freebie!" → close button
+10:39:52 ✓ breeze 39 screens, stop=paywall, 701s
+10:39:52 → chillio quiz.get-chillio.app/qs/cleaning-game
+10:39:53 chillio proxy US: exit country US
+10:40:22 ✓ memoryos 35 screens, stop=paywall, 651s
+10:40:22 → learna onboarding.ailearna.com/onboarding-x5j8n9p2k7m4
+10:40:23 learna proxy US: exit country US
+10:40:47 ✓ simply-piano 32 screens, stop=stuck, 668s
+10:40:47 → simply-piano hellosimply.com/family/esa#child
+10:40:49 simply-piano proxy US: exit country US
+10:44:44 ✓ simply-piano 6 screens, stop=stuck, 237s
+10:44:44 → simply-piano hellosimply.com/family/esa#adult
+10:44:44 simply-piano proxy US: exit country US
+10:48:26 ✓ simply-piano 6 screens, stop=stuck, 222s
+10:48:26 → copymind app.copymind.me/welcome-quiz/gender
+10:48:27 copymind proxy GB: exit country GB
+10:49:26 ✓ learna 32 screens, stop=paywall, 543s
+10:49:26 → learna onboarding.ailearna.com/onboarding
+10:49:26 learna proxy US: exit country US
+10:49:42 ✓ chillio 37 screens, stop=stuck+paywall_direct, 590s
+10:49:42 → chillio quiz.get-chillio.app/qs/house-ai
+10:49:42 chillio proxy US: exit country US
+10:58:48 ✓ chillio 35 screens, stop=stuck+paywall_direct, 545s
+10:58:48 → simply-sing join-sing.hellosimply.com/welcome?campaign_type=web_to_app&platform=iOS
+10:58:49 simply-sing proxy US: exit country US
+11:00:29 ✓ copymind 37 screens, stop=paywall, 724s
+11:00:29 → yousician yousician.com/black-friday/guitar
+11:00:32 yousician proxy US: exit country US
+11:00:58 ✓ yousician 2 screens, stop=paywall, 28s
+11:00:58 → yousician yousician.com/
+11:00:58 yousician proxy US: exit country US
+11:01:25 ✓ learna 37 screens, stop=paywall, 719s
+11:01:25 → smartyme start.smartymeapp.com/quiz
+11:01:25 smartyme proxy US: exit country US
+11:01:41 ✓ yousician 1 screens, stop=stuck, 43s
+11:01:41 → simply-draw join-draw.hellosimply.com/start?flow=baw
+11:01:41 simply-draw proxy US: exit country US
+11:02:26 ✓ simply-sing 1 screens, stop=stuck, 218s
+11:02:26 → simply-sing join-sing.hellosimply.com/start
+11:02:28 simply-sing proxy US: exit country US
+11:04:08 ✓ simply-draw 3 screens, stop=stuck, 147s
+11:06:15 ✓ simply-sing 7 screens, stop=stuck, 229s
+11:06:19 ✓ smartyme 12 screens, stop=stuck, 295s

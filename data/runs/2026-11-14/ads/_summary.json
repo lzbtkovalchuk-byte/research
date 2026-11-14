@@ -1,0 +1,79 @@
+[
+  {
+    "id": "imprint",
+    "active": 920,
+    "newInWindow": 0,
+    "landings": 2,
+    "errors": 0
+  },
+  {
+    "id": "breeze",
+    "active": 28,
+    "newInWindow": 0,
+    "landings": 2,
+    "errors": 0
+  },
+  {
+    "id": "simply-piano",
+    "active": 570,
+    "newInWindow": 6,
+    "landings": 4,
+    "errors": 0
+  },
+  {
+    "id": "memoryos",
+    "active": 8,
+    "newInWindow": 2,
+    "landings": 2,
+    "errors": 0
+  },
+  {
+    "id": "chillio",
+    "active": 26,
+    "newInWindow": 8,
+    "landings": 2,
+    "errors": 0
+  },
+  {
+    "id": "learna",
+    "active": 452,
+    "newInWindow": 88,
+    "landings": 5,
+    "errors": 0
+  },
+  {
+    "id": "copymind",
+    "active": 0,
+    "newInWindow": 0,
+    "landings": 0,
+    "errors": 0
+  },
+  {
+    "id": "simply-sing",
+    "active": 79,
+    "newInWindow": 11,
+    "landings": 1,
+    "errors": 0
+  },
+  {
+    "id": "yousician",
+    "active": 33,
+    "newInWindow": 32,
+    "landings": 3,
+    "errors": 0
+  },
+  {
+    "id": "smartyme",
+    "active": 153,
+    "newInWindow": 112,
+    "landings": 2,
+    "errors": 0
+  },
+  {
+    "id": "simply-draw",
+    "active": 6,
+    "newInWindow": 0,
+    "landings": 1,
+    "errors": 0
+  }
+]

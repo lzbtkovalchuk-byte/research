@@ -1,0 +1,70 @@
+{
+  "url": "https://yousician.com/black-friday/guitar?utm_medium=display&utm_source=facebook&utm_campaign=Yousician_CONV_META_ADV _Web_Multi_T1T2T3T4_20261110_Black-Friday-2026",
+  "key": "yousician.com/black-friday/guitar",
+  "why": "ad",
+  "ads": 1,
+  "adShot": "yousician-cdbb1f2900a7.webp",
+  "adId": "4078363422472816",
+  "dir": "funnels/yousician/cdbb1f2900a7",
+  "stop": "paywall",
+  "proxied": true,
+  "email": "yelyzavetabazyla+fw2611141007yousician1@gmail.com",
+  "emailNote": null,
+  "signedUp": null,
+  "restartUrl": null,
+  "finalUrl": "https://yousician.com/",
+  "exitCountry": "US",
+  "steps": [
+    {
+      "n": 1,
+      "file": "01.webp",
+      "url": "https://yousician.com/black-friday/guitar?utm_medium=display&utm_source=facebook&utm_campaign=Yousician_CONV_META_ADV%20_Web_Multi_T1T2T3T4_20261110_Black-Friday-2026",
+      "path": "/black-friday/guitar",
+      "title": "profile",
+      "kind": "question",
+      "text": "Get the app\nHelp\nLanguages\nchevron_down\nEnglish\nFrançais\nDeutsch\nEspañol\nItaliano\nPortuguês\nРусский\n日本語\n简体中文\n繁體中文\nprofile\nLogin",
+      "textHash": "97923bd68379",
+      "dhash": "0011000010000001000000000000110000001100000000000000000000000000",
+      "h": 844,
+      "prices": [],
+      "action": {
+        "answerSource": "default",
+        "opt": "Yousician_Logo"
+      }
+    },
+    {
+      "n": 2,
+      "file": "02.webp",
+      "url": "https://yousician.com/",
+      "path": "/",
+      "title": "Unleash your inner musician with Yousician",
+      "kind": "paywall",
+      "text": "BLACK FRIDAY DEAL\nSPECIAL PRICE ON PREMIUM+\nSee offer now\nInstruments\nBlog\nFamily plan\nHelp\nLanguages\nLog in\nLet's get started\nUnleash your inner musician with Yousician\nThe first step of learning to play an instrument? Wanting to play. Explore your love of music with us, whether you’re a complete beginner or a seasoned pro. Let’s play!\nLet’s get started\nGuitar\nPiano\nBass\nUkulele\nSinging\nFUN & EASY\nLearn to play music at home, at your own pace\nYousician makes learning to play an instrument fun and easy, no matter your skill level.\nFollow lesson plans created by real music teachers, learn fast with interactive tutorials, and stay motivated with goals and progress tracking.\nOur award-winning technology listens to you play and gives instant feedback on your accuracy and timing. You always know when you’re hitting the right notes.\n20M+\nYousician and GuitarTuna monthly active users\n17 min\nAverage session length\n2000+\nNumber of songs\n9000+\nNumber of lessons\n\"Yousician raises $28M to make music education more accessible\"\nRead more\n\"Want Guitar Lessons From Metallica? Music education platform Yousician is launching its first-ever artist partnership series with lessons by Metallica, Jason Mraz and Juanes.\"\nRead more\n\"It’s All In The Game—Growing A $50 Million Music Education Business In A Crowded Market\"\nRead more\nPLAY\nFun, easy-to-follow lessons\nPlay along with the app and get instant feedback on your precision and timing. Earn rewards, beat high scores, and level up as you learn new",
+      "textHash": "e7b6851c8371",
+      "dhash": "0000011110010111101000011100000011010110101000001010000010000000",
+      "h": 6000,
+      "prices": [
+        "$28",
+        "$50"
+      ]
+    }
+  ],
+  "features": {
+    "totalSteps": 2,
+    "stop": "paywall",
+    "emailStep": null,
+    "paywallStep": 2,
+    "questions": 1,
+    "socialProof": 0,
+    "popups": 0,
+    "loader": false,
+    "prices": [
+      "$28",
+      "$50"
+    ],
+    "discount": null,
+    "timer": false,
+    "trial": false,
+    "moneyBack": false
+  }
+}

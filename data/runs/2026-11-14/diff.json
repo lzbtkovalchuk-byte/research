@@ -1,0 +1,4563 @@
+{
+  "date": "2026-11-14",
+  "previous": "2026-10-30",
+  "apps": {
+    "skillsta-vocal-2": {
+      "ads": null,
+      "links": [],
+      "funnels": {
+        "getskillnow.com/quiz": {
+          "firstRun": false,
+          "comparedWith": "getskillnow.com/quiz",
+          "prevDir": "funnels/skillsta-vocal-2/4ad23ce9af85",
+          "prevSteps": 33,
+          "status": [
+            {
+              "s": "same",
+              "prev": 1,
+              "why": "",
+              "prevFile": "01.webp"
+            },
+            {
+              "s": "same",
+              "prev": 2,
+              "why": "",
+              "prevFile": "02.webp"
+            },
+            {
+              "s": "same",
+              "prev": 3,
+              "why": "",
+              "prevFile": "03.webp"
+            },
+            {
+              "s": "same",
+              "prev": 4,
+              "why": "",
+              "prevFile": "04.webp"
+            },
+            {
+              "s": "same",
+              "prev": 5,
+              "why": "",
+              "prevFile": "05.webp"
+            },
+            {
+              "s": "same",
+              "prev": 6,
+              "why": "",
+              "prevFile": "06.webp"
+            },
+            {
+              "s": "same",
+              "prev": 7,
+              "why": "",
+              "prevFile": "07.webp"
+            },
+            {
+              "s": "same",
+              "prev": 8,
+              "why": "",
+              "prevFile": "08.webp"
+            },
+            {
+              "s": "same",
+              "prev": 9,
+              "why": "",
+              "prevFile": "09.webp"
+            },
+            {
+              "s": "same",
+              "prev": 10,
+              "why": "",
+              "prevFile": "10.webp"
+            },
+            {
+              "s": "same",
+              "prev": 11,
+              "why": "",
+              "prevFile": "11.webp"
+            },
+            {
+              "s": "same",
+              "prev": 12,
+              "why": "",
+              "prevFile": "12.webp"
+            },
+            {
+              "s": "same",
+              "prev": 13,
+              "why": "",
+              "prevFile": "13.webp"
+            },
+            {
+              "s": "same",
+              "prev": 14,
+              "why": "",
+              "prevFile": "14.webp"
+            },
+            {
+              "s": "same",
+              "prev": 15,
+              "why": "",
+              "prevFile": "15.webp"
+            },
+            {
+              "s": "same",
+              "prev": 16,
+              "why": "",
+              "prevFile": "16.webp"
+            },
+            {
+              "s": "same",
+              "prev": 17,
+              "why": "",
+              "prevFile": "17.webp"
+            },
+            {
+              "s": "same",
+              "prev": 18,
+              "why": "",
+              "prevFile": "18.webp"
+            },
+            {
+              "s": "same",
+              "prev": 19,
+              "why": "",
+              "prevFile": "19.webp"
+            },
+            {
+              "s": "same",
+              "prev": 20,
+              "why": "",
+              "prevFile": "20.webp"
+            },
+            {
+              "s": "same",
+              "prev": 21,
+              "why": "",
+              "prevFile": "21.webp"
+            },
+            {
+              "s": "same",
+              "prev": 22,
+              "why": "",
+              "prevFile": "22.webp"
+            },
+            {
+              "s": "same",
+              "prev": 23,
+              "why": "",
+              "prevFile": "23.webp"
+            },
+            {
+              "s": "same",
+              "prev": 24,
+              "why": "",
+              "prevFile": "24.webp"
+            },
+            {
+              "s": "same",
+              "prev": 25,
+              "why": "",
+              "prevFile": "25.webp"
+            },
+            {
+              "s": "same",
+              "prev": 26,
+              "why": "",
+              "prevFile": "26.webp"
+            },
+            {
+              "s": "same",
+              "prev": 27,
+              "why": "",
+              "prevFile": "27.webp"
+            },
+            {
+              "s": "same",
+              "prev": 28,
+              "why": "",
+              "prevFile": "28.webp"
+            },
+            {
+              "s": "same",
+              "prev": 29,
+              "why": "",
+              "prevFile": "29.webp"
+            },
+            {
+              "s": "same",
+              "prev": 30,
+              "why": "",
+              "prevFile": "30.webp"
+            },
+            {
+              "s": "same",
+              "prev": 31,
+              "why": "",
+              "prevFile": "31.webp"
+            },
+            {
+              "s": "same",
+              "prev": 32,
+              "why": "",
+              "prevFile": "32.webp"
+            },
+            {
+              "s": "same",
+              "prev": 33,
+              "why": "",
+              "prevFile": "33.webp"
+            }
+          ],
+          "removed": []
+        }
+      }
+    },
+    "skillsta-vocal-scanner": {
+      "ads": null,
+      "links": [],
+      "funnels": {
+        "getskillnow.com/quiz/voice_assessment/voice_assessment": {
+          "firstRun": false,
+          "comparedWith": "getskillnow.com/quiz/voice_assessment/voice_assessment",
+          "prevDir": "funnels/skillsta-vocal-scanner/64e78223efd7",
+          "prevSteps": 31,
+          "status": [
+            {
+              "s": "same",
+              "prev": 1,
+              "why": "",
+              "prevFile": "01.webp"
+            },
+            {
+              "s": "same",
+              "prev": 2,
+              "why": "",
+              "prevFile": "02.webp"
+            },
+            {
+              "s": "same",
+              "prev": 3,
+              "why": "",
+              "prevFile": "03.webp"
+            },
+            {
+              "s": "same",
+              "prev": 4,
+              "why": "",
+              "prevFile": "04.webp"
+            },
+            {
+              "s": "same",
+              "prev": 5,
+              "why": "",
+              "prevFile": "05.webp"
+            },
+            {
+              "s": "same",
+              "prev": 6,
+              "why": "",
+              "prevFile": "06.webp"
+            },
+            {
+              "s": "same",
+              "prev": 7,
+              "why": "",
+              "prevFile": "07.webp"
+            },
+            {
+              "s": "same",
+              "prev": 8,
+              "why": "",
+              "prevFile": "08.webp"
+            },
+            {
+              "s": "same",
+              "prev": 9,
+              "why": "",
+              "prevFile": "09.webp"
+            },
+            {
+              "s": "same",
+              "prev": 10,
+              "why": "",
+              "prevFile": "10.webp"
+            },
+            {
+              "s": "same",
+              "prev": 11,
+              "why": "",
+              "prevFile": "11.webp"
+            },
+            {
+              "s": "same",
+              "prev": 12,
+              "why": "",
+              "prevFile": "12.webp"
+            },
+            {
+              "s": "same",
+              "prev": 13,
+              "why": "",
+              "prevFile": "13.webp"
+            },
+            {
+              "s": "same",
+              "prev": 14,
+              "why": "",
+              "prevFile": "14.webp"
+            },
+            {
+              "s": "same",
+              "prev": 15,
+              "why": "",
+              "prevFile": "15.webp"
+            },
+            {
+              "s": "same",
+              "prev": 16,
+              "why": "",
+              "prevFile": "16.webp"
+            },
+            {
+              "s": "same",
+              "prev": 17,
+              "why": "",
+              "prevFile": "17.webp"
+            },
+            {
+              "s": "same",
+              "prev": 18,
+              "why": "",
+              "prevFile": "18.webp"
+            },
+            {
+              "s": "same",
+              "prev": 19,
+              "why": "",
+              "prevFile": "19.webp"
+            },
+            {
+              "s": "same",
+              "prev": 20,
+              "why": "",
+              "prevFile": "20.webp"
+            },
+            {
+              "s": "same",
+              "prev": 21,
+              "why": "",
+              "prevFile": "21.webp"
+            },
+            {
+              "s": "same",
+              "prev": 22,
+              "why": "",
+              "prevFile": "22.webp"
+            },
+            {
+              "s": "same",
+              "prev": 23,
+              "why": "",
+              "prevFile": "23.webp"
+            },
+            {
+              "s": "same",
+              "prev": 24,
+              "why": "",
+              "prevFile": "24.webp"
+            },
+            {
+              "s": "same",
+              "prev": 25,
+              "why": "",
+              "prevFile": "25.webp"
+            },
+            {
+              "s": "same",
+              "prev": 26,
+              "why": "",
+              "prevFile": "26.webp"
+            },
+            {
+              "s": "same",
+              "prev": 27,
+              "why": "",
+              "prevFile": "27.webp"
+            },
+            {
+              "s": "same",
+              "prev": 28,
+              "why": "",
+              "prevFile": "28.webp"
+            },
+            {
+              "s": "same",
+              "prev": 29,
+              "why": "",
+              "prevFile": "29.webp"
+            },
+            {
+              "s": "same",
+              "prev": 30,
+              "why": "",
+              "prevFile": "30.webp"
+            },
+            {
+              "s": "new"
+            }
+          ],
+          "removed": [
+            {
+              "n": 31,
+              "title": "",
+              "kind": "info",
+              "file": "31.webp"
+            }
+          ]
+        }
+      }
+    },
+    "skillsta-drawing": {
+      "ads": null,
+      "links": [],
+      "funnels": {
+        "start.getskillnow.com/quiz": {
+          "firstRun": false,
+          "comparedWith": "start.getskillnow.com/quiz",
+          "prevDir": "funnels/skillsta-drawing/953d129ce40c",
+          "prevSteps": 34,
+          "status": [
+            {
+              "s": "same",
+              "prev": 1,
+              "why": "",
+              "prevFile": "01.webp"
+            },
+            {
+              "s": "same",
+              "prev": 2,
+              "why": "",
+              "prevFile": "02.webp"
+            },
+            {
+              "s": "same",
+              "prev": 3,
+              "why": "",
+              "prevFile": "03.webp"
+            },
+            {
+              "s": "same",
+              "prev": 4,
+              "why": "",
+              "prevFile": "04.webp"
+            },
+            {
+              "s": "same",
+              "prev": 5,
+              "why": "",
+              "prevFile": "05.webp"
+            },
+            {
+              "s": "same",
+              "prev": 6,
+              "why": "",
+              "prevFile": "06.webp"
+            },
+            {
+              "s": "same",
+              "prev": 7,
+              "why": "",
+              "prevFile": "07.webp"
+            },
+            {
+              "s": "same",
+              "prev": 8,
+              "why": "",
+              "prevFile": "08.webp"
+            },
+            {
+              "s": "same",
+              "prev": 9,
+              "why": "",
+              "prevFile": "09.webp"
+            },
+            {
+              "s": "same",
+              "prev": 10,
+              "why": "",
+              "prevFile": "10.webp"
+            },
+            {
+              "s": "same",
+              "prev": 11,
+              "why": "",
+              "prevFile": "11.webp"
+            },
+            {
+              "s": "same",
+              "prev": 12,
+              "why": "",
+              "prevFile": "12.webp"
+            },
+            {
+              "s": "same",
+              "prev": 13,
+              "why": "",
+              "prevFile": "13.webp"
+            },
+            {
+              "s": "same",
+              "prev": 14,
+              "why": "",
+              "prevFile": "14.webp"
+            },
+            {
+              "s": "same",
+              "prev": 15,
+              "why": "",
+              "prevFile": "15.webp"
+            },
+            {
+              "s": "same",
+              "prev": 16,
+              "why": "",
+              "prevFile": "16.webp"
+            },
+            {
+              "s": "same",
+              "prev": 17,
+              "why": "",
+              "prevFile": "17.webp"
+            },
+            {
+              "s": "same",
+              "prev": 18,
+              "why": "",
+              "prevFile": "18.webp"
+            },
+            {
+              "s": "same",
+              "prev": 19,
+              "why": "",
+              "prevFile": "19.webp"
+            },
+            {
+              "s": "same",
+              "prev": 20,
+              "why": "",
+              "prevFile": "20.webp"
+            },
+            {
+              "s": "same",
+              "prev": 21,
+              "why": "",
+              "prevFile": "21.webp"
+            },
+            {
+              "s": "same",
+              "prev": 22,
+              "why": "",
+              "prevFile": "22.webp"
+            },
+            {
+              "s": "same",
+              "prev": 23,
+              "why": "",
+              "prevFile": "23.webp"
+            },
+            {
+              "s": "same",
+              "prev": 24,
+              "why": "",
+              "prevFile": "24.webp"
+            },
+            {
+              "s": "same",
+              "prev": 25,
+              "why": "",
+              "prevFile": "25.webp"
+            },
+            {
+              "s": "same",
+              "prev": 26,
+              "why": "",
+              "prevFile": "26.webp"
+            },
+            {
+              "s": "same",
+              "prev": 27,
+              "why": "",
+              "prevFile": "27.webp"
+            },
+            {
+              "s": "same",
+              "prev": 28,
+              "why": "",
+              "prevFile": "28.webp"
+            },
+            {
+              "s": "same",
+              "prev": 29,
+              "why": "",
+              "prevFile": "29.webp"
+            },
+            {
+              "s": "same",
+              "prev": 30,
+              "why": "",
+              "prevFile": "30.webp"
+            },
+            {
+              "s": "same",
+              "prev": 31,
+              "why": "",
+              "prevFile": "31.webp"
+            },
+            {
+              "s": "same",
+              "prev": 32,
+              "why": "",
+              "prevFile": "32.webp"
+            },
+            {
+              "s": "same",
+              "prev": 33,
+              "why": "",
+              "prevFile": "33.webp"
+            },
+            {
+              "s": "same",
+              "prev": 34,
+              "why": "",
+              "prevFile": "34.webp"
+            }
+          ],
+          "removed": []
+        }
+      }
+    },
+    "imprint": {
+      "ads": {
+        "active": 920,
+        "prevActive": 1000,
+        "delta": -80,
+        "newInWindow": 0,
+        "newCreatives": 0
+      },
+      "links": [
+        {
+          "status": "same",
+          "key": "itunes.apple.com/app/id1482780647",
+          "ads": 79,
+          "prevAds": 65,
+          "first": "2026-09-24",
+          "store": true
+        },
+        {
+          "status": "same",
+          "key": "play.google.com/store/apps/details?id=com.polywise.lucid",
+          "ads": 1,
+          "prevAds": 1,
+          "first": "2026-09-24",
+          "store": true
+        },
+        {
+          "status": "removed",
+          "key": "imprintapp.com/start-buddhism",
+          "prevAds": 1,
+          "lastSeen": "2026-07-29",
+          "store": false
+        }
+      ],
+      "funnels": {}
+    },
+    "breeze": {
+      "ads": {
+        "active": 28,
+        "prevActive": 29,
+        "delta": -1,
+        "newInWindow": 0,
+        "newCreatives": 0
+      },
+      "links": [
+        {
+          "status": "same",
+          "key": "try-breeze.com/funnel/childhood",
+          "ads": 77,
+          "prevAds": 51,
+          "first": "2026-06-26",
+          "store": false
+        },
+        {
+          "status": "same",
+          "key": "try-breeze.com/childhood",
+          "ads": 8,
+          "prevAds": 2,
+          "first": "2026-07-24",
+          "store": false
+        }
+      ],
+      "funnels": {
+        "try-breeze.com/funnel/childhood": {
+          "firstRun": false,
+          "comparedWith": "try-breeze.com/funnel/childhood",
+          "prevDir": "funnels/breeze/1e1f86ca9474",
+          "prevSteps": 39,
+          "status": [
+            {
+              "s": "same",
+              "prev": 1,
+              "why": "",
+              "prevFile": "01.webp"
+            },
+            {
+              "s": "same",
+              "prev": 2,
+              "why": "",
+              "prevFile": "02.webp"
+            },
+            {
+              "s": "same",
+              "prev": 3,
+              "why": "",
+              "prevFile": "03.webp"
+            },
+            {
+              "s": "same",
+              "prev": 4,
+              "why": "",
+              "prevFile": "04.webp"
+            },
+            {
+              "s": "same",
+              "prev": 5,
+              "why": "",
+              "prevFile": "05.webp"
+            },
+            {
+              "s": "same",
+              "prev": 6,
+              "why": "",
+              "prevFile": "06.webp"
+            },
+            {
+              "s": "same",
+              "prev": 7,
+              "why": "",
+              "prevFile": "07.webp"
+            },
+            {
+              "s": "same",
+              "prev": 8,
+              "why": "",
+              "prevFile": "08.webp"
+            },
+            {
+              "s": "same",
+              "prev": 9,
+              "why": "",
+              "prevFile": "09.webp"
+            },
+            {
+              "s": "same",
+              "prev": 10,
+              "why": "",
+              "prevFile": "10.webp"
+            },
+            {
+              "s": "same",
+              "prev": 11,
+              "why": "",
+              "prevFile": "11.webp"
+            },
+            {
+              "s": "same",
+              "prev": 12,
+              "why": "",
+              "prevFile": "12.webp"
+            },
+            {
+              "s": "same",
+              "prev": 13,
+              "why": "",
+              "prevFile": "13.webp"
+            },
+            {
+              "s": "same",
+              "prev": 14,
+              "why": "",
+              "prevFile": "14.webp"
+            },
+            {
+              "s": "same",
+              "prev": 15,
+              "why": "",
+              "prevFile": "15.webp"
+            },
+            {
+              "s": "same",
+              "prev": 16,
+              "why": "",
+              "prevFile": "16.webp"
+            },
+            {
+              "s": "same",
+              "prev": 17,
+              "why": "",
+              "prevFile": "17.webp"
+            },
+            {
+              "s": "same",
+              "prev": 18,
+              "why": "",
+              "prevFile": "18.webp"
+            },
+            {
+              "s": "changed",
+              "prev": 19,
+              "why": "text",
+              "prevFile": "19.webp",
+              "boxes": [
+                {
+                  "t": 34.52,
+                  "l": 9.23,
+                  "w": 66.15,
+                  "h": 5.69
+                }
+              ]
+            },
+            {
+              "s": "same",
+              "prev": 20,
+              "why": "",
+              "prevFile": "20.webp"
+            },
+            {
+              "s": "same",
+              "prev": 21,
+              "why": "",
+              "prevFile": "21.webp"
+            },
+            {
+              "s": "same",
+              "prev": 22,
+              "why": "",
+              "prevFile": "22.webp"
+            },
+            {
+              "s": "same",
+              "prev": 23,
+              "why": "",
+              "prevFile": "23.webp"
+            },
+            {
+              "s": "same",
+              "prev": 24,
+              "why": "",
+              "prevFile": "24.webp"
+            },
+            {
+              "s": "same",
+              "prev": 25,
+              "why": "",
+              "prevFile": "25.webp"
+            },
+            {
+              "s": "same",
+              "prev": 26,
+              "why": "",
+              "prevFile": "26.webp"
+            },
+            {
+              "s": "same",
+              "prev": 27,
+              "why": "",
+              "prevFile": "27.webp"
+            },
+            {
+              "s": "new"
+            },
+            {
+              "s": "same",
+              "prev": 29,
+              "why": "",
+              "prevFile": "29.webp"
+            },
+            {
+              "s": "same",
+              "prev": 30,
+              "why": "",
+              "prevFile": "30.webp"
+            },
+            {
+              "s": "same",
+              "prev": 31,
+              "why": "",
+              "prevFile": "31.webp"
+            },
+            {
+              "s": "same",
+              "prev": 32,
+              "why": "",
+              "prevFile": "32.webp"
+            },
+            {
+              "s": "same",
+              "prev": 33,
+              "why": "",
+              "prevFile": "33.webp"
+            },
+            {
+              "s": "same",
+              "prev": 34,
+              "why": "",
+              "prevFile": "34.webp"
+            },
+            {
+              "s": "same",
+              "prev": 35,
+              "why": "",
+              "prevFile": "35.webp"
+            },
+            {
+              "s": "same",
+              "prev": 36,
+              "why": "",
+              "prevFile": "36.webp"
+            },
+            {
+              "s": "same",
+              "prev": 37,
+              "why": "",
+              "prevFile": "37.webp"
+            },
+            {
+              "s": "same",
+              "prev": 38,
+              "why": "",
+              "prevFile": "38.webp"
+            },
+            {
+              "s": "changed",
+              "prev": 39,
+              "why": "text",
+              "prevFile": "39.webp",
+              "boxes": [
+                {
+                  "t": 0,
+                  "l": 0,
+                  "w": 100,
+                  "h": 3.38
+                },
+                {
+                  "t": 5.67,
+                  "l": 9.23,
+                  "w": 81.54,
+                  "h": 9.38
+                },
+                {
+                  "t": 15.49,
+                  "l": 5.38,
+                  "w": 89.23,
+                  "h": 6.11
+                },
+                {
+                  "t": 25.85,
+                  "l": 1.54,
+                  "w": 96.92,
+                  "h": 2.29
+                }
+              ]
+            }
+          ],
+          "removed": [
+            {
+              "n": 28,
+              "title": "How much time are you willing to dedicate to a personalized plan for exploring your childhood experiences?",
+              "kind": "question",
+              "file": "28.webp"
+            }
+          ]
+        },
+        "try-breeze.com/childhood": {
+          "firstRun": false,
+          "comparedWith": "try-breeze.com/childhood",
+          "prevDir": "funnels/breeze/cdffb5cb8655",
+          "prevSteps": 39,
+          "status": [
+            {
+              "s": "same",
+              "prev": 1,
+              "why": "",
+              "prevFile": "01.webp"
+            },
+            {
+              "s": "same",
+              "prev": 2,
+              "why": "",
+              "prevFile": "02.webp"
+            },
+            {
+              "s": "same",
+              "prev": 3,
+              "why": "",
+              "prevFile": "03.webp"
+            },
+            {
+              "s": "same",
+              "prev": 4,
+              "why": "",
+              "prevFile": "04.webp"
+            },
+            {
+              "s": "same",
+              "prev": 5,
+              "why": "",
+              "prevFile": "05.webp"
+            },
+            {
+              "s": "same",
+              "prev": 6,
+              "why": "",
+              "prevFile": "06.webp"
+            },
+            {
+              "s": "same",
+              "prev": 7,
+              "why": "",
+              "prevFile": "07.webp"
+            },
+            {
+              "s": "same",
+              "prev": 8,
+              "why": "",
+              "prevFile": "08.webp"
+            },
+            {
+              "s": "same",
+              "prev": 9,
+              "why": "",
+              "prevFile": "09.webp"
+            },
+            {
+              "s": "same",
+              "prev": 10,
+              "why": "",
+              "prevFile": "10.webp"
+            },
+            {
+              "s": "same",
+              "prev": 11,
+              "why": "",
+              "prevFile": "11.webp"
+            },
+            {
+              "s": "same",
+              "prev": 12,
+              "why": "",
+              "prevFile": "12.webp"
+            },
+            {
+              "s": "same",
+              "prev": 13,
+              "why": "",
+              "prevFile": "13.webp"
+            },
+            {
+              "s": "same",
+              "prev": 14,
+              "why": "",
+              "prevFile": "14.webp"
+            },
+            {
+              "s": "same",
+              "prev": 15,
+              "why": "",
+              "prevFile": "15.webp"
+            },
+            {
+              "s": "same",
+              "prev": 16,
+              "why": "",
+              "prevFile": "16.webp"
+            },
+            {
+              "s": "same",
+              "prev": 17,
+              "why": "",
+              "prevFile": "17.webp"
+            },
+            {
+              "s": "same",
+              "prev": 18,
+              "why": "",
+              "prevFile": "18.webp"
+            },
+            {
+              "s": "changed",
+              "prev": 19,
+              "why": "text",
+              "prevFile": "19.webp",
+              "boxes": [
+                {
+                  "t": 34.52,
+                  "l": 9.23,
+                  "w": 66.15,
+                  "h": 5.69
+                }
+              ]
+            },
+            {
+              "s": "same",
+              "prev": 20,
+              "why": "",
+              "prevFile": "20.webp"
+            },
+            {
+              "s": "same",
+              "prev": 21,
+              "why": "",
+              "prevFile": "21.webp"
+            },
+            {
+              "s": "same",
+              "prev": 22,
+              "why": "",
+              "prevFile": "22.webp"
+            },
+            {
+              "s": "same",
+              "prev": 23,
+              "why": "",
+              "prevFile": "23.webp"
+            },
+            {
+              "s": "same",
+              "prev": 24,
+              "why": "",
+              "prevFile": "24.webp"
+            },
+            {
+              "s": "same",
+              "prev": 25,
+              "why": "",
+              "prevFile": "25.webp"
+            },
+            {
+              "s": "same",
+              "prev": 26,
+              "why": "",
+              "prevFile": "26.webp"
+            },
+            {
+              "s": "same",
+              "prev": 27,
+              "why": "",
+              "prevFile": "27.webp"
+            },
+            {
+              "s": "new"
+            },
+            {
+              "s": "same",
+              "prev": 29,
+              "why": "",
+              "prevFile": "29.webp"
+            },
+            {
+              "s": "same",
+              "prev": 30,
+              "why": "",
+              "prevFile": "30.webp"
+            },
+            {
+              "s": "same",
+              "prev": 31,
+              "why": "",
+              "prevFile": "31.webp"
+            },
+            {
+              "s": "same",
+              "prev": 32,
+              "why": "",
+              "prevFile": "32.webp"
+            },
+            {
+              "s": "same",
+              "prev": 33,
+              "why": "",
+              "prevFile": "33.webp"
+            },
+            {
+              "s": "same",
+              "prev": 34,
+              "why": "",
+              "prevFile": "34.webp"
+            },
+            {
+              "s": "same",
+              "prev": 35,
+              "why": "",
+              "prevFile": "35.webp"
+            },
+            {
+              "s": "same",
+              "prev": 36,
+              "why": "",
+              "prevFile": "36.webp"
+            },
+            {
+              "s": "same",
+              "prev": 37,
+              "why": "",
+              "prevFile": "37.webp"
+            },
+            {
+              "s": "same",
+              "prev": 38,
+              "why": "",
+              "prevFile": "38.webp"
+            },
+            {
+              "s": "changed",
+              "prev": 39,
+              "why": "text",
+              "prevFile": "39.webp",
+              "boxes": [
+                {
+                  "t": 5.67,
+                  "l": 9.23,
+                  "w": 81.54,
+                  "h": 9.38
+                },
+                {
+                  "t": 15.49,
+                  "l": 20.77,
+                  "w": 73.85,
+                  "h": 5.56
+                },
+                {
+                  "t": 25.85,
+                  "l": 1.54,
+                  "w": 96.92,
+                  "h": 2.29
+                }
+              ]
+            }
+          ],
+          "removed": [
+            {
+              "n": 28,
+              "title": "How much time are you willing to dedicate to a personalized plan for exploring your childhood experiences?",
+              "kind": "question",
+              "file": "28.webp"
+            }
+          ]
+        }
+      }
+    },
+    "simply-piano": {
+      "ads": {
+        "active": 570,
+        "prevActive": 530,
+        "delta": 40,
+        "newInWindow": 6,
+        "newCreatives": 2
+      },
+      "links": [
+        {
+          "status": "same",
+          "key": "hellosimply.com/family/esa",
+          "ads": 4,
+          "prevAds": 5,
+          "first": "2026-09-14",
+          "store": false
+        },
+        {
+          "status": "same",
+          "key": "join-piano.hellosimply.com/start",
+          "ads": 31,
+          "prevAds": 30,
+          "first": "2026-06-09",
+          "store": false
+        },
+        {
+          "status": "same",
+          "key": "join-piano.hellosimply.com/start?flow=tea",
+          "ads": 3,
+          "prevAds": 4,
+          "first": "2026-08-04",
+          "store": false
+        },
+        {
+          "status": "same",
+          "key": "itunes.apple.com/app/id1019442026",
+          "ads": 6,
+          "prevAds": 4,
+          "first": "2026-10-14",
+          "store": true
+        }
+      ],
+      "funnels": {
+        "join-piano.hellosimply.com/start#child": {
+          "firstRun": false,
+          "comparedWith": "join-piano.hellosimply.com/start",
+          "prevDir": "funnels/simply-piano/81a94aaa84e1",
+          "prevSteps": 31,
+          "status": [
+            {
+              "s": "changed",
+              "prev": 1,
+              "why": "text",
+              "prevFile": "01.webp",
+              "boxes": [
+                {
+                  "t": 27.4,
+                  "l": 13.08,
+                  "w": 35.38,
+                  "h": 12.81
+                },
+                {
+                  "t": 27.4,
+                  "l": 51.54,
+                  "w": 39.23,
+                  "h": 12.81
+                },
+                {
+                  "t": 43.42,
+                  "l": 13.08,
+                  "w": 35.38,
+                  "h": 12.81
+                }
+              ]
+            },
+            {
+              "s": "same",
+              "prev": 2,
+              "why": "",
+              "prevFile": "02.webp"
+            },
+            {
+              "s": "same",
+              "prev": 3,
+              "why": "",
+              "prevFile": "03.webp"
+            },
+            {
+              "s": "same",
+              "prev": 4,
+              "why": "",
+              "prevFile": "04.webp"
+            },
+            {
+              "s": "same",
+              "prev": 5,
+              "why": "",
+              "prevFile": "05.webp"
+            },
+            {
+              "s": "same",
+              "prev": 6,
+              "why": "",
+              "prevFile": "06.webp"
+            },
+            {
+              "s": "same",
+              "prev": 7,
+              "why": "",
+              "prevFile": "07.webp"
+            },
+            {
+              "s": "changed",
+              "prev": 8,
+              "why": "text",
+              "prevFile": "08.webp",
+              "boxes": []
+            },
+            {
+              "s": "same",
+              "prev": 9,
+              "why": "",
+              "prevFile": "09.webp"
+            },
+            {
+              "s": "same",
+              "prev": 10,
+              "why": "",
+              "prevFile": "10.webp"
+            },
+            {
+              "s": "same",
+              "prev": 11,
+              "why": "",
+              "prevFile": "11.webp"
+            },
+            {
+              "s": "same",
+              "prev": 12,
+              "why": "",
+              "prevFile": "12.webp"
+            },
+            {
+              "s": "same",
+              "prev": 13,
+              "why": "",
+              "prevFile": "13.webp"
+            },
+            {
+              "s": "same",
+              "prev": 14,
+              "why": "",
+              "prevFile": "14.webp"
+            },
+            {
+              "s": "same",
+              "prev": 15,
+              "why": "",
+              "prevFile": "15.webp"
+            },
+            {
+              "s": "changed",
+              "prev": 16,
+              "why": "text",
+              "prevFile": "16.webp",
+              "boxes": [
+                {
+                  "t": 55.67,
+                  "l": 28.46,
+                  "w": 50.77,
+                  "h": 5.33
+                },
+                {
+                  "t": 62.33,
+                  "l": 13.08,
+                  "w": 70,
+                  "h": 13.67
+                },
+                {
+                  "t": 77.33,
+                  "l": 13.08,
+                  "w": 58.46,
+                  "h": 5.33
+                }
+              ]
+            },
+            {
+              "s": "same",
+              "prev": 17,
+              "why": "",
+              "prevFile": "17.webp"
+            },
+            {
+              "s": "same",
+              "prev": 18,
+              "why": "",
+              "prevFile": "18.webp"
+            },
+            {
+              "s": "same",
+              "prev": 19,
+              "why": "",
+              "prevFile": "19.webp"
+            },
+            {
+              "s": "same",
+              "prev": 20,
+              "why": "",
+              "prevFile": "20.webp"
+            },
+            {
+              "s": "changed",
+              "prev": 21,
+              "why": "text",
+              "prevFile": "21.webp",
+              "boxes": []
+            },
+            {
+              "s": "changed",
+              "prev": 22,
+              "why": "text",
+              "prevFile": "22.webp",
+              "boxes": []
+            },
+            {
+              "s": "same",
+              "prev": 23,
+              "why": "",
+              "prevFile": "23.webp"
+            },
+            {
+              "s": "same",
+              "prev": 24,
+              "why": "",
+              "prevFile": "24.webp"
+            },
+            {
+              "s": "same",
+              "prev": 25,
+              "why": "",
+              "prevFile": "25.webp"
+            },
+            {
+              "s": "changed",
+              "prev": 26,
+              "why": "text",
+              "prevFile": "26.webp",
+              "boxes": [
+                {
+                  "t": 17.96,
+                  "l": 5.38,
+                  "w": 89.23,
+                  "h": 63.27
+                }
+              ]
+            },
+            {
+              "s": "changed",
+              "prev": 27,
+              "why": "text",
+              "prevFile": "27.webp",
+              "boxes": [
+                {
+                  "t": 18.51,
+                  "l": 28.46,
+                  "w": 43.08,
+                  "h": 25.27
+                }
+              ]
+            },
+            {
+              "s": "same",
+              "prev": 28,
+              "why": "",
+              "prevFile": "28.webp"
+            },
+            {
+              "s": "same",
+              "prev": 29,
+              "why": "",
+              "prevFile": "29.webp"
+            },
+            {
+              "s": "same",
+              "prev": 30,
+              "why": "",
+              "prevFile": "30.webp"
+            },
+            {
+              "s": "changed",
+              "prev": 31,
+              "why": "text",
+              "prevFile": "31.webp",
+              "boxes": [
+                {
+                  "t": 0.7,
+                  "l": 0,
+                  "w": 100,
+                  "h": 17.77
+                },
+                {
+                  "t": 19.86,
+                  "l": 9.23,
+                  "w": 81.54,
+                  "h": 10.8
+                },
+                {
+                  "t": 32.06,
+                  "l": 0,
+                  "w": 96.92,
+                  "h": 50.87
+                },
+                {
+                  "t": 86.06,
+                  "l": 0,
+                  "w": 100,
+                  "h": 14.98
+                }
+              ]
+            }
+          ],
+          "removed": []
+        },
+        "join-piano.hellosimply.com/start#adult": {
+          "firstRun": false,
+          "comparedWith": "join-piano.hellosimply.com/start",
+          "prevDir": "funnels/simply-piano/81a94aaa84e1",
+          "prevSteps": 31,
+          "status": [
+            {
+              "s": "changed",
+              "prev": 1,
+              "why": "text",
+              "prevFile": "01.webp",
+              "boxes": [
+                {
+                  "t": 27.4,
+                  "l": 51.54,
+                  "w": 35.38,
+                  "h": 12.81
+                },
+                {
+                  "t": 43.42,
+                  "l": 13.08,
+                  "w": 35.38,
+                  "h": 14.59
+                },
+                {
+                  "t": 43.42,
+                  "l": 51.54,
+                  "w": 35.38,
+                  "h": 14.59
+                }
+              ]
+            },
+            {
+              "s": "new"
+            },
+            {
+              "s": "new"
+            },
+            {
+              "s": "same",
+              "prev": 4,
+              "why": "",
+              "prevFile": "04.webp"
+            },
+            {
+              "s": "new"
+            },
+            {
+              "s": "new"
+            },
+            {
+              "s": "new"
+            },
+            {
+              "s": "new"
+            },
+            {
+              "s": "new"
+            },
+            {
+              "s": "new"
+            },
+            {
+              "s": "new"
+            },
+            {
+              "s": "new"
+            },
+            {
+              "s": "new"
+            },
+            {
+              "s": "new"
+            },
+            {
+              "s": "new"
+            },
+            {
+              "s": "new"
+            },
+            {
+              "s": "changed",
+              "prev": 17,
+              "why": "text",
+              "prevFile": "17.webp",
+              "boxes": [
+                {
+                  "t": 16.73,
+                  "l": 13.08,
+                  "w": 77.69,
+                  "h": 9.25
+                },
+                {
+                  "t": 38.08,
+                  "l": 20.77,
+                  "w": 54.62,
+                  "h": 23.49
+                },
+                {
+                  "t": 73.67,
+                  "l": 5.38,
+                  "w": 89.23,
+                  "h": 12.81
+                }
+              ]
+            },
+            {
+              "s": "new"
+            },
+            {
+              "s": "new"
+            },
+            {
+              "s": "new"
+            },
+            {
+              "s": "new"
+            },
+            {
+              "s": "new"
+            },
+            {
+              "s": "new"
+            },
+            {
+              "s": "new"
+            },
+            {
+              "s": "changed",
+              "prev": 22,
+              "why": "text",
+              "prevFile": "22.webp",
+              "boxes": [
+                {
+                  "t": 18.51,
+                  "l": 20.77,
+                  "w": 70,
+                  "h": 14.59
+                }
+              ]
+            },
+            {
+              "s": "new"
+            },
+            {
+              "s": "new"
+            },
+            {
+              "s": "changed",
+              "prev": 27,
+              "why": "text",
+              "prevFile": "27.webp",
+              "boxes": [
+                {
+                  "t": 14.95,
+                  "l": 9.23,
+                  "w": 81.54,
+                  "h": 28.83
+                }
+              ]
+            },
+            {
+              "s": "changed",
+              "prev": 28,
+              "why": "text",
+              "prevFile": "28.webp",
+              "boxes": [
+                {
+                  "t": 48.75,
+                  "l": 5.38,
+                  "w": 43.08,
+                  "h": 12.81
+                },
+                {
+                  "t": 48.75,
+                  "l": 51.54,
+                  "w": 43.08,
+                  "h": 12.81
+                }
+              ]
+            },
+            {
+              "s": "new"
+            },
+            {
+              "s": "same",
+              "prev": 30,
+              "why": "",
+              "prevFile": "30.webp"
+            },
+            {
+              "s": "changed",
+              "prev": 31,
+              "why": "text",
+              "prevFile": "31.webp",
+              "boxes": [
+                {
+                  "t": 0.7,
+                  "l": 0,
+                  "w": 100,
+                  "h": 17.77
+                },
+                {
+                  "t": 19.86,
+                  "l": 9.23,
+                  "w": 81.54,
+                  "h": 10.8
+                },
+                {
+                  "t": 32.06,
+                  "l": 0,
+                  "w": 96.92,
+                  "h": 50.87
+                },
+                {
+                  "t": 86.06,
+                  "l": 0,
+                  "w": 100,
+                  "h": 14.98
+                }
+              ]
+            }
+          ],
+          "removed": [
+            {
+              "n": 2,
+              "title": "You’re in good hands with Simply Piano!",
+              "kind": "info",
+              "file": "02.webp"
+            },
+            {
+              "n": 3,
+              "title": "What is your child’s age?",
+              "kind": "question",
+              "file": "03.webp"
+            },
+            {
+              "n": 5,
+              "title": "Great! Simply piano works with any piano or keyboard",
+              "kind": "info",
+              "file": "05.webp"
+            },
+            {
+              "n": 6,
+              "title": "Does your child have any previous experience playing piano?",
+              "kind": "question",
+              "file": "06.webp"
+            },
+            {
+              "n": 7,
+              "title": "No worries - no previous experience is needed!",
+              "kind": "info",
+              "file": "07.webp"
+            },
+            {
+              "n": 8,
+              "title": "Which styles would they be excited to play?",
+              "kind": "question",
+              "file": "08.webp"
+            },
+            {
+              "n": 9,
+              "title": "Great choices! Our 5000+ song catalog is at their disposal",
+              "kind": "info",
+              "file": "09.webp"
+            },
+            {
+              "n": 10,
+              "title": "How does your child usually learn best?",
+              "kind": "question",
+              "file": "10.webp"
+            },
+            {
+              "n": 11,
+              "title": "Got it! We adapt to how your child learns",
+              "kind": "info",
+              "file": "11.webp"
+            },
+            {
+              "n": 12,
+              "title": "How familiar is this feeling?",
+              "kind": "question",
+              "file": "12.webp"
+            },
+            {
+              "n": 13,
+              "title": "We get it - screen time should count!",
+              "kind": "info",
+              "file": "13.webp"
+            },
+            {
+              "n": 14,
+              "title": "How can we help your child stay excited about learning?",
+              "kind": "question",
+              "file": "14.webp"
+            },
+            {
+              "n": 15,
+              "title": "Practice time becomes play time!",
+              "kind": "info",
+              "file": "15.webp"
+            },
+            {
+              "n": 16,
+              "title": "What would you love them to get out of piano learning?",
+              "kind": "question",
+              "file": "16.webp"
+            },
+            {
+              "n": 18,
+              "title": "How involved do you like to be when your child is learning something new?",
+              "kind": "question",
+              "file": "18.webp"
+            },
+            {
+              "n": 19,
+              "title": "Got it! You can count on us every step",
+              "kind": "info",
+              "file": "19.webp"
+            },
+            {
+              "n": 20,
+              "title": "How often do you estimate they will play?",
+              "kind": "question",
+              "file": "20.webp"
+            },
+            {
+              "n": 21,
+              "title": "Based on your answers, we're creating your child a personalized plan",
+              "kind": "loader",
+              "file": "21.webp"
+            },
+            {
+              "n": 23,
+              "title": "Inside the Simply Piano app",
+              "kind": "info",
+              "file": "23.webp"
+            },
+            {
+              "n": 24,
+              "title": "Will anyone else at home want to learn piano too?",
+              "kind": "question",
+              "file": "24.webp"
+            },
+            {
+              "n": 25,
+              "title": "Great - let’s start with your child’s piano journey",
+              "kind": "info",
+              "file": "25.webp"
+            },
+            {
+              "n": 26,
+              "title": "Choose the first song they'll learn to play",
+              "kind": "question",
+              "file": "26.webp"
+            },
+            {
+              "n": 29,
+              "title": "You’re making a great choice!",
+              "kind": "info",
+              "file": "29.webp"
+            }
+          ]
+        },
+        "hellosimply.com/family/esa#child": {
+          "firstRun": false,
+          "comparedWith": "hellosimply.com/family/esa",
+          "prevDir": "funnels/simply-piano/684145bcfb5c",
+          "prevSteps": 32,
+          "status": [
+            {
+              "s": "changed",
+              "prev": 1,
+              "why": "text",
+              "prevFile": "01.webp",
+              "boxes": [
+                {
+                  "t": 1.1,
+                  "l": 5.38,
+                  "w": 85.38,
+                  "h": 0.8
+                },
+                {
+                  "t": 4.1,
+                  "l": 9.23,
+                  "w": 81.54,
+                  "h": 5.55
+                },
+                {
+                  "t": 14.85,
+                  "l": 0,
+                  "w": 100,
+                  "h": 44.55
+                },
+                {
+                  "t": 59.85,
+                  "l": 0,
+                  "w": 100,
+                  "h": 40.3
+                }
+              ]
+            },
+            {
+              "s": "new"
+            },
+            {
+              "s": "new"
+            },
+            {
+              "s": "new"
+            },
+            {
+              "s": "new"
+            },
+            {
+              "s": "new"
+            }
+          ],
+          "removed": [
+            {
+              "n": 2,
+              "title": "What motivates you to play the piano?",
+              "kind": "question",
+              "file": "02.webp"
+            },
+            {
+              "n": 3,
+              "title": "You’re in good hands with Simply Piano!",
+              "kind": "info",
+              "file": "03.webp"
+            },
+            {
+              "n": 4,
+              "title": "What is your child’s age?",
+              "kind": "question",
+              "file": "04.webp"
+            },
+            {
+              "n": 5,
+              "title": "Do you have a piano or keyboard?",
+              "kind": "question",
+              "file": "05.webp"
+            },
+            {
+              "n": 6,
+              "title": "Great! Simply piano works with any piano or keyboard",
+              "kind": "info",
+              "file": "06.webp"
+            },
+            {
+              "n": 7,
+              "title": "Does your child have any previous experience playing piano?",
+              "kind": "question",
+              "file": "07.webp"
+            },
+            {
+              "n": 8,
+              "title": "No worries - no previous experience is needed!",
+              "kind": "info",
+              "file": "08.webp"
+            },
+            {
+              "n": 9,
+              "title": "Which styles would they be excited to play?",
+              "kind": "question",
+              "file": "09.webp"
+            },
+            {
+              "n": 10,
+              "title": "Great choices! Our 5000+ song catalog is at their disposal",
+              "kind": "info",
+              "file": "10.webp"
+            },
+            {
+              "n": 11,
+              "title": "How does your child usually learn best?",
+              "kind": "question",
+              "file": "11.webp"
+            },
+            {
+              "n": 12,
+              "title": "Got it! We adapt to how your child learns",
+              "kind": "info",
+              "file": "12.webp"
+            },
+            {
+              "n": 13,
+              "title": "How familiar is this feeling?",
+              "kind": "question",
+              "file": "13.webp"
+            },
+            {
+              "n": 14,
+              "title": "We get it - screen time should count!",
+              "kind": "info",
+              "file": "14.webp"
+            },
+            {
+              "n": 15,
+              "title": "How can we help your child stay excited about learning?",
+              "kind": "question",
+              "file": "15.webp"
+            },
+            {
+              "n": 16,
+              "title": "Practice time becomes play time!",
+              "kind": "info",
+              "file": "16.webp"
+            },
+            {
+              "n": 17,
+              "title": "What would you love them to get out of piano learning?",
+              "kind": "question",
+              "file": "17.webp"
+            },
+            {
+              "n": 18,
+              "title": "Awesome choices!",
+              "kind": "info",
+              "file": "18.webp"
+            },
+            {
+              "n": 19,
+              "title": "How involved do you like to be when your child is learning something new?",
+              "kind": "question",
+              "file": "19.webp"
+            },
+            {
+              "n": 20,
+              "title": "Got it! You can count on us every step",
+              "kind": "info",
+              "file": "20.webp"
+            },
+            {
+              "n": 21,
+              "title": "How often do you estimate they will play?",
+              "kind": "question",
+              "file": "21.webp"
+            },
+            {
+              "n": 22,
+              "title": "Based on your answers, we're creating your child a personalized plan",
+              "kind": "loader",
+              "file": "22.webp"
+            },
+            {
+              "n": 23,
+              "title": "Read and play sheet music in 29 days",
+              "kind": "info",
+              "file": "23.webp"
+            },
+            {
+              "n": 24,
+              "title": "Inside the Simply Piano app",
+              "kind": "info",
+              "file": "24.webp"
+            },
+            {
+              "n": 25,
+              "title": "Will anyone else at home want to learn piano too?",
+              "kind": "question",
+              "file": "25.webp"
+            },
+            {
+              "n": 26,
+              "title": "Great - let’s start with your child’s piano journey",
+              "kind": "info",
+              "file": "26.webp"
+            },
+            {
+              "n": 27,
+              "title": "Choose the first song they'll learn to play",
+              "kind": "question",
+              "file": "27.webp"
+            },
+            {
+              "n": 28,
+              "title": "Great choice!",
+              "kind": "info",
+              "file": "28.webp"
+            },
+            {
+              "n": 29,
+              "title": "Achieve your goals with Simply Piano",
+              "kind": "email",
+              "file": "29.webp"
+            },
+            {
+              "n": 30,
+              "title": "You’re making a great choice!",
+              "kind": "info",
+              "file": "30.webp"
+            },
+            {
+              "n": 31,
+              "title": "Welcome Freebie!",
+              "kind": "popup",
+              "file": "31.webp"
+            },
+            {
+              "n": 32,
+              "title": "Start your 7-day free trial",
+              "kind": "paywall",
+              "file": "32.webp"
+            }
+          ]
+        },
+        "hellosimply.com/family/esa#adult": {
+          "firstRun": false,
+          "comparedWith": "hellosimply.com/family/esa",
+          "prevDir": "funnels/simply-piano/684145bcfb5c",
+          "prevSteps": 32,
+          "status": [
+            {
+              "s": "changed",
+              "prev": 1,
+              "why": "text",
+              "prevFile": "01.webp",
+              "boxes": [
+                {
+                  "t": 1.1,
+                  "l": 5.38,
+                  "w": 85.38,
+                  "h": 0.8
+                },
+                {
+                  "t": 4.1,
+                  "l": 9.23,
+                  "w": 81.54,
+                  "h": 5.55
+                },
+                {
+                  "t": 14.85,
+                  "l": 0,
+                  "w": 100,
+                  "h": 44.55
+                },
+                {
+                  "t": 59.85,
+                  "l": 0,
+                  "w": 100,
+                  "h": 40.3
+                }
+              ]
+            },
+            {
+              "s": "new"
+            },
+            {
+              "s": "new"
+            },
+            {
+              "s": "new"
+            },
+            {
+              "s": "new"
+            },
+            {
+              "s": "new"
+            }
+          ],
+          "removed": [
+            {
+              "n": 2,
+              "title": "What motivates you to play the piano?",
+              "kind": "question",
+              "file": "02.webp"
+            },
+            {
+              "n": 3,
+              "title": "You’re in good hands with Simply Piano!",
+              "kind": "info",
+              "file": "03.webp"
+            },
+            {
+              "n": 4,
+              "title": "What is your child’s age?",
+              "kind": "question",
+              "file": "04.webp"
+            },
+            {
+              "n": 5,
+              "title": "Do you have a piano or keyboard?",
+              "kind": "question",
+              "file": "05.webp"
+            },
+            {
+              "n": 6,
+              "title": "Great! Simply piano works with any piano or keyboard",
+              "kind": "info",
+              "file": "06.webp"
+            },
+            {
+              "n": 7,
+              "title": "Does your child have any previous experience playing piano?",
+              "kind": "question",
+              "file": "07.webp"
+            },
+            {
+              "n": 8,
+              "title": "No worries - no previous experience is needed!",
+              "kind": "info",
+              "file": "08.webp"
+            },
+            {
+              "n": 9,
+              "title": "Which styles would they be excited to play?",
+              "kind": "question",
+              "file": "09.webp"
+            },
+            {
+              "n": 10,
+              "title": "Great choices! Our 5000+ song catalog is at their disposal",
+              "kind": "info",
+              "file": "10.webp"
+            },
+            {
+              "n": 11,
+              "title": "How does your child usually learn best?",
+              "kind": "question",
+              "file": "11.webp"
+            },
+            {
+              "n": 12,
+              "title": "Got it! We adapt to how your child learns",
+              "kind": "info",
+              "file": "12.webp"
+            },
+            {
+              "n": 13,
+              "title": "How familiar is this feeling?",
+              "kind": "question",
+              "file": "13.webp"
+            },
+            {
+              "n": 14,
+              "title": "We get it - screen time should count!",
+              "kind": "info",
+              "file": "14.webp"
+            },
+            {
+              "n": 15,
+              "title": "How can we help your child stay excited about learning?",
+              "kind": "question",
+              "file": "15.webp"
+            },
+            {
+              "n": 16,
+              "title": "Practice time becomes play time!",
+              "kind": "info",
+              "file": "16.webp"
+            },
+            {
+              "n": 17,
+              "title": "What would you love them to get out of piano learning?",
+              "kind": "question",
+              "file": "17.webp"
+            },
+            {
+              "n": 18,
+              "title": "Awesome choices!",
+              "kind": "info",
+              "file": "18.webp"
+            },
+            {
+              "n": 19,
+              "title": "How involved do you like to be when your child is learning something new?",
+              "kind": "question",
+              "file": "19.webp"
+            },
+            {
+              "n": 20,
+              "title": "Got it! You can count on us every step",
+              "kind": "info",
+              "file": "20.webp"
+            },
+            {
+              "n": 21,
+              "title": "How often do you estimate they will play?",
+              "kind": "question",
+              "file": "21.webp"
+            },
+            {
+              "n": 22,
+              "title": "Based on your answers, we're creating your child a personalized plan",
+              "kind": "loader",
+              "file": "22.webp"
+            },
+            {
+              "n": 23,
+              "title": "Read and play sheet music in 29 days",
+              "kind": "info",
+              "file": "23.webp"
+            },
+            {
+              "n": 24,
+              "title": "Inside the Simply Piano app",
+              "kind": "info",
+              "file": "24.webp"
+            },
+            {
+              "n": 25,
+              "title": "Will anyone else at home want to learn piano too?",
+              "kind": "question",
+              "file": "25.webp"
+            },
+            {
+              "n": 26,
+              "title": "Great - let’s start with your child’s piano journey",
+              "kind": "info",
+              "file": "26.webp"
+            },
+            {
+              "n": 27,
+              "title": "Choose the first song they'll learn to play",
+              "kind": "question",
+              "file": "27.webp"
+            },
+            {
+              "n": 28,
+              "title": "Great choice!",
+              "kind": "info",
+              "file": "28.webp"
+            },
+            {
+              "n": 29,
+              "title": "Achieve your goals with Simply Piano",
+              "kind": "email",
+              "file": "29.webp"
+            },
+            {
+              "n": 30,
+              "title": "You’re making a great choice!",
+              "kind": "info",
+              "file": "30.webp"
+            },
+            {
+              "n": 31,
+              "title": "Welcome Freebie!",
+              "kind": "popup",
+              "file": "31.webp"
+            },
+            {
+              "n": 32,
+              "title": "Start your 7-day free trial",
+              "kind": "paywall",
+              "file": "32.webp"
+            }
+          ]
+        }
+      }
+    },
+    "memoryos": {
+      "ads": {
+        "active": 8,
+        "prevActive": 6,
+        "delta": 2,
+        "newInWindow": 2,
+        "newCreatives": 1
+      },
+      "links": [
+        {
+          "status": "same",
+          "key": "start.memoryos.com/new-h2?thm=light",
+          "ads": 11,
+          "prevAds": 6,
+          "first": "2026-10-19",
+          "store": false
+        },
+        {
+          "status": "same",
+          "key": "start.memoryos.com/new-s",
+          "ads": 1,
+          "prevAds": 1,
+          "first": "2026-10-20",
+          "store": false
+        }
+      ],
+      "funnels": {
+        "start.memoryos.com/new-h2?thm=light": {
+          "firstRun": false,
+          "comparedWith": "start.memoryos.com/new-h2?thm=light",
+          "prevDir": "funnels/memoryos/7488926e110a",
+          "prevSteps": 35,
+          "status": [
+            {
+              "s": "new"
+            },
+            {
+              "s": "same",
+              "prev": 1,
+              "why": "",
+              "prevFile": "01.webp"
+            },
+            {
+              "s": "same",
+              "prev": 2,
+              "why": "",
+              "prevFile": "02.webp"
+            },
+            {
+              "s": "same",
+              "prev": 3,
+              "why": "",
+              "prevFile": "03.webp"
+            },
+            {
+              "s": "same",
+              "prev": 4,
+              "why": "",
+              "prevFile": "04.webp"
+            },
+            {
+              "s": "same",
+              "prev": 5,
+              "why": "",
+              "prevFile": "05.webp"
+            },
+            {
+              "s": "same",
+              "prev": 6,
+              "why": "",
+              "prevFile": "06.webp"
+            },
+            {
+              "s": "same",
+              "prev": 7,
+              "why": "",
+              "prevFile": "07.webp"
+            },
+            {
+              "s": "same",
+              "prev": 8,
+              "why": "",
+              "prevFile": "08.webp"
+            },
+            {
+              "s": "same",
+              "prev": 9,
+              "why": "",
+              "prevFile": "09.webp"
+            },
+            {
+              "s": "same",
+              "prev": 10,
+              "why": "",
+              "prevFile": "10.webp"
+            },
+            {
+              "s": "same",
+              "prev": 11,
+              "why": "",
+              "prevFile": "11.webp"
+            },
+            {
+              "s": "same",
+              "prev": 12,
+              "why": "",
+              "prevFile": "12.webp"
+            },
+            {
+              "s": "same",
+              "prev": 13,
+              "why": "",
+              "prevFile": "13.webp"
+            },
+            {
+              "s": "same",
+              "prev": 14,
+              "why": "",
+              "prevFile": "14.webp"
+            },
+            {
+              "s": "same",
+              "prev": 15,
+              "why": "",
+              "prevFile": "15.webp"
+            },
+            {
+              "s": "same",
+              "prev": 16,
+              "why": "",
+              "prevFile": "16.webp"
+            },
+            {
+              "s": "same",
+              "prev": 17,
+              "why": "",
+              "prevFile": "17.webp"
+            },
+            {
+              "s": "same",
+              "prev": 18,
+              "why": "",
+              "prevFile": "18.webp"
+            },
+            {
+              "s": "same",
+              "prev": 19,
+              "why": "",
+              "prevFile": "19.webp"
+            },
+            {
+              "s": "same",
+              "prev": 20,
+              "why": "",
+              "prevFile": "20.webp"
+            },
+            {
+              "s": "same",
+              "prev": 21,
+              "why": "",
+              "prevFile": "21.webp"
+            },
+            {
+              "s": "same",
+              "prev": 22,
+              "why": "",
+              "prevFile": "22.webp"
+            },
+            {
+              "s": "same",
+              "prev": 23,
+              "why": "",
+              "prevFile": "23.webp"
+            },
+            {
+              "s": "same",
+              "prev": 24,
+              "why": "",
+              "prevFile": "24.webp"
+            },
+            {
+              "s": "same",
+              "prev": 25,
+              "why": "",
+              "prevFile": "25.webp"
+            },
+            {
+              "s": "same",
+              "prev": 26,
+              "why": "",
+              "prevFile": "26.webp"
+            },
+            {
+              "s": "same",
+              "prev": 27,
+              "why": "",
+              "prevFile": "27.webp"
+            },
+            {
+              "s": "same",
+              "prev": 28,
+              "why": "",
+              "prevFile": "28.webp"
+            },
+            {
+              "s": "same",
+              "prev": 29,
+              "why": "",
+              "prevFile": "29.webp"
+            },
+            {
+              "s": "same",
+              "prev": 30,
+              "why": "",
+              "prevFile": "30.webp"
+            },
+            {
+              "s": "same",
+              "prev": 31,
+              "why": "",
+              "prevFile": "31.webp"
+            },
+            {
+              "s": "same",
+              "prev": 32,
+              "why": "",
+              "prevFile": "32.webp"
+            },
+            {
+              "s": "same",
+              "prev": 33,
+              "why": "",
+              "prevFile": "33.webp"
+            },
+            {
+              "s": "same",
+              "prev": 34,
+              "why": "",
+              "prevFile": "34.webp"
+            },
+            {
+              "s": "new"
+            }
+          ],
+          "removed": [
+            {
+              "n": 35,
+              "title": "0",
+              "kind": "paywall",
+              "file": "35.webp"
+            }
+          ]
+        },
+        "start.memoryos.com/new-s": {
+          "firstRun": false,
+          "comparedWith": "start.memoryos.com/new-s",
+          "prevDir": "funnels/memoryos/8df162c3ae21",
+          "prevSteps": 35,
+          "status": [
+            {
+              "s": "same",
+              "prev": 1,
+              "why": "",
+              "prevFile": "01.webp"
+            },
+            {
+              "s": "same",
+              "prev": 2,
+              "why": "",
+              "prevFile": "02.webp"
+            },
+            {
+              "s": "same",
+              "prev": 3,
+              "why": "",
+              "prevFile": "03.webp"
+            },
+            {
+              "s": "same",
+              "prev": 4,
+              "why": "",
+              "prevFile": "04.webp"
+            },
+            {
+              "s": "same",
+              "prev": 5,
+              "why": "",
+              "prevFile": "05.webp"
+            },
+            {
+              "s": "same",
+              "prev": 6,
+              "why": "",
+              "prevFile": "06.webp"
+            },
+            {
+              "s": "same",
+              "prev": 7,
+              "why": "",
+              "prevFile": "07.webp"
+            },
+            {
+              "s": "same",
+              "prev": 8,
+              "why": "",
+              "prevFile": "08.webp"
+            },
+            {
+              "s": "same",
+              "prev": 9,
+              "why": "",
+              "prevFile": "09.webp"
+            },
+            {
+              "s": "same",
+              "prev": 10,
+              "why": "",
+              "prevFile": "10.webp"
+            },
+            {
+              "s": "same",
+              "prev": 11,
+              "why": "",
+              "prevFile": "11.webp"
+            },
+            {
+              "s": "same",
+              "prev": 12,
+              "why": "",
+              "prevFile": "12.webp"
+            },
+            {
+              "s": "same",
+              "prev": 13,
+              "why": "",
+              "prevFile": "13.webp"
+            },
+            {
+              "s": "same",
+              "prev": 14,
+              "why": "",
+              "prevFile": "14.webp"
+            },
+            {
+              "s": "same",
+              "prev": 15,
+              "why": "",
+              "prevFile": "15.webp"
+            },
+            {
+              "s": "same",
+              "prev": 16,
+              "why": "",
+              "prevFile": "16.webp"
+            },
+            {
+              "s": "same",
+              "prev": 17,
+              "why": "",
+              "prevFile": "17.webp"
+            },
+            {
+              "s": "same",
+              "prev": 18,
+              "why": "",
+              "prevFile": "18.webp"
+            },
+            {
+              "s": "same",
+              "prev": 19,
+              "why": "",
+              "prevFile": "19.webp"
+            },
+            {
+              "s": "same",
+              "prev": 20,
+              "why": "",
+              "prevFile": "20.webp"
+            },
+            {
+              "s": "same",
+              "prev": 21,
+              "why": "",
+              "prevFile": "21.webp"
+            },
+            {
+              "s": "same",
+              "prev": 22,
+              "why": "",
+              "prevFile": "22.webp"
+            },
+            {
+              "s": "same",
+              "prev": 23,
+              "why": "",
+              "prevFile": "23.webp"
+            },
+            {
+              "s": "same",
+              "prev": 24,
+              "why": "",
+              "prevFile": "24.webp"
+            },
+            {
+              "s": "same",
+              "prev": 25,
+              "why": "",
+              "prevFile": "25.webp"
+            },
+            {
+              "s": "same",
+              "prev": 26,
+              "why": "",
+              "prevFile": "26.webp"
+            },
+            {
+              "s": "same",
+              "prev": 27,
+              "why": "",
+              "prevFile": "27.webp"
+            },
+            {
+              "s": "same",
+              "prev": 28,
+              "why": "",
+              "prevFile": "28.webp"
+            },
+            {
+              "s": "same",
+              "prev": 29,
+              "why": "",
+              "prevFile": "29.webp"
+            },
+            {
+              "s": "same",
+              "prev": 30,
+              "why": "",
+              "prevFile": "30.webp"
+            },
+            {
+              "s": "same",
+              "prev": 31,
+              "why": "",
+              "prevFile": "31.webp"
+            },
+            {
+              "s": "same",
+              "prev": 32,
+              "why": "",
+              "prevFile": "32.webp"
+            },
+            {
+              "s": "same",
+              "prev": 33,
+              "why": "",
+              "prevFile": "33.webp"
+            },
+            {
+              "s": "same",
+              "prev": 34,
+              "why": "",
+              "prevFile": "34.webp"
+            },
+            {
+              "s": "new"
+            }
+          ],
+          "removed": [
+            {
+              "n": 35,
+              "title": "0",
+              "kind": "paywall",
+              "file": "35.webp"
+            }
+          ]
+        }
+      }
+    },
+    "chillio": {
+      "ads": {
+        "active": 26,
+        "prevActive": 24,
+        "delta": 2,
+        "newInWindow": 8,
+        "newCreatives": 7
+      },
+      "links": [
+        {
+          "status": "same",
+          "key": "quiz.get-chillio.app/qs/cleaning-game",
+          "ads": 27,
+          "prevAds": 28,
+          "first": "2026-09-21",
+          "store": false
+        },
+        {
+          "status": "same",
+          "key": "quiz.get-chillio.app/qs/house-ai",
+          "ads": 1,
+          "prevAds": 4,
+          "first": "2026-10-27",
+          "store": false
+        },
+        {
+          "status": "removed",
+          "key": "quiz.get-chillio.app/qs/nutrition-ai",
+          "prevAds": 2,
+          "lastSeen": "2026-10-17",
+          "store": false
+        }
+      ],
+      "funnels": {
+        "quiz.get-chillio.app/qs/cleaning-game": {
+          "firstRun": false,
+          "comparedWith": "quiz.get-chillio.app/qs/cleaning-game",
+          "prevDir": "funnels/chillio/32c02a42bd3b",
+          "prevSteps": 36,
+          "status": [
+            {
+              "s": "same",
+              "prev": 1,
+              "why": "",
+              "prevFile": "01.webp"
+            },
+            {
+              "s": "same",
+              "prev": 2,
+              "why": "",
+              "prevFile": "02.webp"
+            },
+            {
+              "s": "same",
+              "prev": 3,
+              "why": "",
+              "prevFile": "03.webp"
+            },
+            {
+              "s": "same",
+              "prev": 4,
+              "why": "",
+              "prevFile": "04.webp"
+            },
+            {
+              "s": "same",
+              "prev": 5,
+              "why": "",
+              "prevFile": "05.webp"
+            },
+            {
+              "s": "same",
+              "prev": 6,
+              "why": "",
+              "prevFile": "06.webp"
+            },
+            {
+              "s": "same",
+              "prev": 7,
+              "why": "",
+              "prevFile": "07.webp"
+            },
+            {
+              "s": "same",
+              "prev": 8,
+              "why": "",
+              "prevFile": "08.webp"
+            },
+            {
+              "s": "same",
+              "prev": 9,
+              "why": "",
+              "prevFile": "09.webp"
+            },
+            {
+              "s": "new"
+            },
+            {
+              "s": "same",
+              "prev": 10,
+              "why": "",
+              "prevFile": "10.webp"
+            },
+            {
+              "s": "same",
+              "prev": 11,
+              "why": "",
+              "prevFile": "11.webp"
+            },
+            {
+              "s": "same",
+              "prev": 12,
+              "why": "",
+              "prevFile": "12.webp"
+            },
+            {
+              "s": "same",
+              "prev": 13,
+              "why": "",
+              "prevFile": "13.webp"
+            },
+            {
+              "s": "same",
+              "prev": 14,
+              "why": "",
+              "prevFile": "14.webp"
+            },
+            {
+              "s": "same",
+              "prev": 15,
+              "why": "",
+              "prevFile": "15.webp"
+            },
+            {
+              "s": "same",
+              "prev": 16,
+              "why": "",
+              "prevFile": "16.webp"
+            },
+            {
+              "s": "same",
+              "prev": 17,
+              "why": "",
+              "prevFile": "17.webp"
+            },
+            {
+              "s": "same",
+              "prev": 18,
+              "why": "",
+              "prevFile": "18.webp"
+            },
+            {
+              "s": "same",
+              "prev": 19,
+              "why": "",
+              "prevFile": "19.webp"
+            },
+            {
+              "s": "same",
+              "prev": 20,
+              "why": "",
+              "prevFile": "20.webp"
+            },
+            {
+              "s": "same",
+              "prev": 21,
+              "why": "",
+              "prevFile": "21.webp"
+            },
+            {
+              "s": "same",
+              "prev": 22,
+              "why": "",
+              "prevFile": "22.webp"
+            },
+            {
+              "s": "same",
+              "prev": 23,
+              "why": "",
+              "prevFile": "23.webp"
+            },
+            {
+              "s": "same",
+              "prev": 24,
+              "why": "",
+              "prevFile": "24.webp"
+            },
+            {
+              "s": "same",
+              "prev": 25,
+              "why": "",
+              "prevFile": "25.webp"
+            },
+            {
+              "s": "same",
+              "prev": 26,
+              "why": "",
+              "prevFile": "26.webp"
+            },
+            {
+              "s": "same",
+              "prev": 27,
+              "why": "",
+              "prevFile": "27.webp"
+            },
+            {
+              "s": "same",
+              "prev": 28,
+              "why": "",
+              "prevFile": "28.webp"
+            },
+            {
+              "s": "same",
+              "prev": 29,
+              "why": "",
+              "prevFile": "29.webp"
+            },
+            {
+              "s": "same",
+              "prev": 30,
+              "why": "",
+              "prevFile": "30.webp"
+            },
+            {
+              "s": "same",
+              "prev": 31,
+              "why": "",
+              "prevFile": "31.webp"
+            },
+            {
+              "s": "same",
+              "prev": 32,
+              "why": "",
+              "prevFile": "32.webp"
+            },
+            {
+              "s": "same",
+              "prev": 33,
+              "why": "",
+              "prevFile": "33.webp"
+            },
+            {
+              "s": "same",
+              "prev": 34,
+              "why": "",
+              "prevFile": "34.webp"
+            },
+            {
+              "s": "new"
+            },
+            {
+              "s": "changed",
+              "prev": 36,
+              "why": "text",
+              "prevFile": "36.webp",
+              "boxes": [
+                {
+                  "t": 96.78,
+                  "l": 5.38,
+                  "w": 89.23,
+                  "h": 3.55
+                }
+              ]
+            }
+          ],
+          "removed": [
+            {
+              "n": 35,
+              "title": "50%",
+              "kind": "info",
+              "file": "35.webp"
+            }
+          ]
+        },
+        "quiz.get-chillio.app/qs/house-ai": {
+          "firstRun": false,
+          "comparedWith": "quiz.get-chillio.app/qs/house-ai",
+          "prevDir": "funnels/chillio/7b6db541533d",
+          "prevSteps": 35,
+          "status": [
+            {
+              "s": "same",
+              "prev": 1,
+              "why": "",
+              "prevFile": "01.webp"
+            },
+            {
+              "s": "same",
+              "prev": 2,
+              "why": "",
+              "prevFile": "02.webp"
+            },
+            {
+              "s": "same",
+              "prev": 3,
+              "why": "",
+              "prevFile": "03.webp"
+            },
+            {
+              "s": "same",
+              "prev": 4,
+              "why": "",
+              "prevFile": "04.webp"
+            },
+            {
+              "s": "same",
+              "prev": 5,
+              "why": "",
+              "prevFile": "05.webp"
+            },
+            {
+              "s": "same",
+              "prev": 6,
+              "why": "",
+              "prevFile": "06.webp"
+            },
+            {
+              "s": "same",
+              "prev": 7,
+              "why": "",
+              "prevFile": "07.webp"
+            },
+            {
+              "s": "same",
+              "prev": 8,
+              "why": "",
+              "prevFile": "08.webp"
+            },
+            {
+              "s": "same",
+              "prev": 9,
+              "why": "",
+              "prevFile": "09.webp"
+            },
+            {
+              "s": "same",
+              "prev": 10,
+              "why": "",
+              "prevFile": "10.webp"
+            },
+            {
+              "s": "same",
+              "prev": 11,
+              "why": "",
+              "prevFile": "11.webp"
+            },
+            {
+              "s": "same",
+              "prev": 12,
+              "why": "",
+              "prevFile": "12.webp"
+            },
+            {
+              "s": "same",
+              "prev": 13,
+              "why": "",
+              "prevFile": "13.webp"
+            },
+            {
+              "s": "same",
+              "prev": 14,
+              "why": "",
+              "prevFile": "14.webp"
+            },
+            {
+              "s": "same",
+              "prev": 15,
+              "why": "",
+              "prevFile": "15.webp"
+            },
+            {
+              "s": "same",
+              "prev": 16,
+              "why": "",
+              "prevFile": "16.webp"
+            },
+            {
+              "s": "same",
+              "prev": 17,
+              "why": "",
+              "prevFile": "17.webp"
+            },
+            {
+              "s": "same",
+              "prev": 18,
+              "why": "",
+              "prevFile": "18.webp"
+            },
+            {
+              "s": "same",
+              "prev": 19,
+              "why": "",
+              "prevFile": "19.webp"
+            },
+            {
+              "s": "same",
+              "prev": 20,
+              "why": "",
+              "prevFile": "20.webp"
+            },
+            {
+              "s": "same",
+              "prev": 21,
+              "why": "",
+              "prevFile": "21.webp"
+            },
+            {
+              "s": "same",
+              "prev": 22,
+              "why": "",
+              "prevFile": "22.webp"
+            },
+            {
+              "s": "same",
+              "prev": 23,
+              "why": "",
+              "prevFile": "23.webp"
+            },
+            {
+              "s": "same",
+              "prev": 24,
+              "why": "",
+              "prevFile": "24.webp"
+            },
+            {
+              "s": "same",
+              "prev": 25,
+              "why": "",
+              "prevFile": "25.webp"
+            },
+            {
+              "s": "same",
+              "prev": 26,
+              "why": "",
+              "prevFile": "26.webp"
+            },
+            {
+              "s": "same",
+              "prev": 27,
+              "why": "",
+              "prevFile": "27.webp"
+            },
+            {
+              "s": "same",
+              "prev": 28,
+              "why": "",
+              "prevFile": "28.webp"
+            },
+            {
+              "s": "same",
+              "prev": 29,
+              "why": "",
+              "prevFile": "29.webp"
+            },
+            {
+              "s": "same",
+              "prev": 30,
+              "why": "",
+              "prevFile": "30.webp"
+            },
+            {
+              "s": "same",
+              "prev": 31,
+              "why": "",
+              "prevFile": "31.webp"
+            },
+            {
+              "s": "same",
+              "prev": 32,
+              "why": "",
+              "prevFile": "32.webp"
+            },
+            {
+              "s": "same",
+              "prev": 33,
+              "why": "",
+              "prevFile": "33.webp"
+            },
+            {
+              "s": "new"
+            },
+            {
+              "s": "same",
+              "prev": 35,
+              "why": "",
+              "prevFile": "35.webp"
+            }
+          ],
+          "removed": [
+            {
+              "n": 34,
+              "title": "50%",
+              "kind": "info",
+              "file": "34.webp"
+            }
+          ]
+        }
+      }
+    },
+    "learna": {
+      "ads": {
+        "active": 452,
+        "prevActive": 944,
+        "delta": -492,
+        "newInWindow": 88,
+        "newCreatives": 61
+      },
+      "links": [
+        {
+          "status": "same",
+          "key": "play.google.com/store/apps/details?id=com.codeway.aitutor",
+          "ads": 33,
+          "prevAds": 3,
+          "first": "2026-10-22",
+          "store": true
+        },
+        {
+          "status": "same",
+          "key": "instagram.com/_u/minienglishstories",
+          "ads": 3,
+          "prevAds": 7,
+          "first": "2026-10-20",
+          "store": true
+        },
+        {
+          "status": "same",
+          "key": "itunes.apple.com/app/id6478287397",
+          "ads": 17,
+          "prevAds": 1,
+          "first": "2026-09-26",
+          "store": true
+        },
+        {
+          "status": "same",
+          "key": "apps.codeway.co/learna-ai",
+          "ads": 36,
+          "prevAds": 103,
+          "first": "2026-10-29",
+          "store": true
+        },
+        {
+          "status": "new",
+          "key": "onboarding.ailearna.com/onboarding-x5j8n9p2k7m4",
+          "ads": 19,
+          "first": "2026-11-09",
+          "store": false
+        },
+        {
+          "status": "removed",
+          "key": "instagram.com/_u/carmen.aprendeingles",
+          "prevAds": 14,
+          "lastSeen": "2026-10-20",
+          "store": true
+        }
+      ],
+      "funnels": {
+        "onboarding.ailearna.com/onboarding-x5j8n9p2k7m4": {
+          "firstRun": true,
+          "status": [
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            }
+          ],
+          "removed": []
+        },
+        "onboarding.ailearna.com/onboarding": {
+          "firstRun": false,
+          "comparedWith": "onboarding.ailearna.com/onboarding",
+          "prevDir": "funnels/learna/8c5e7e4aa4f9",
+          "prevSteps": 37,
+          "status": [
+            {
+              "s": "same",
+              "prev": 1,
+              "why": "",
+              "prevFile": "01.webp"
+            },
+            {
+              "s": "same",
+              "prev": 2,
+              "why": "",
+              "prevFile": "02.webp"
+            },
+            {
+              "s": "same",
+              "prev": 3,
+              "why": "",
+              "prevFile": "03.webp"
+            },
+            {
+              "s": "same",
+              "prev": 4,
+              "why": "",
+              "prevFile": "04.webp"
+            },
+            {
+              "s": "same",
+              "prev": 5,
+              "why": "",
+              "prevFile": "05.webp"
+            },
+            {
+              "s": "changed",
+              "prev": 6,
+              "why": "text",
+              "prevFile": "06.webp",
+              "boxes": [
+                {
+                  "t": 15.66,
+                  "l": 51.54,
+                  "w": 39.23,
+                  "h": 18.37
+                },
+                {
+                  "t": 15.66,
+                  "l": 5.38,
+                  "w": 35.38,
+                  "h": 18.37
+                },
+                {
+                  "t": 36.75,
+                  "l": 5.38,
+                  "w": 43.08,
+                  "h": 27.41
+                },
+                {
+                  "t": 36.75,
+                  "l": 55.38,
+                  "w": 43.08,
+                  "h": 27.41
+                }
+              ]
+            },
+            {
+              "s": "new"
+            },
+            {
+              "s": "same",
+              "prev": 8,
+              "why": "",
+              "prevFile": "08.webp"
+            },
+            {
+              "s": "same",
+              "prev": 9,
+              "why": "",
+              "prevFile": "09.webp"
+            },
+            {
+              "s": "same",
+              "prev": 10,
+              "why": "",
+              "prevFile": "10.webp"
+            },
+            {
+              "s": "same",
+              "prev": 11,
+              "why": "",
+              "prevFile": "11.webp"
+            },
+            {
+              "s": "same",
+              "prev": 12,
+              "why": "",
+              "prevFile": "12.webp"
+            },
+            {
+              "s": "same",
+              "prev": 13,
+              "why": "",
+              "prevFile": "13.webp"
+            },
+            {
+              "s": "same",
+              "prev": 14,
+              "why": "",
+              "prevFile": "14.webp"
+            },
+            {
+              "s": "same",
+              "prev": 15,
+              "why": "",
+              "prevFile": "15.webp"
+            },
+            {
+              "s": "same",
+              "prev": 16,
+              "why": "",
+              "prevFile": "16.webp"
+            },
+            {
+              "s": "same",
+              "prev": 17,
+              "why": "",
+              "prevFile": "17.webp"
+            },
+            {
+              "s": "same",
+              "prev": 18,
+              "why": "",
+              "prevFile": "18.webp"
+            },
+            {
+              "s": "same",
+              "prev": 19,
+              "why": "",
+              "prevFile": "19.webp"
+            },
+            {
+              "s": "same",
+              "prev": 20,
+              "why": "",
+              "prevFile": "20.webp"
+            },
+            {
+              "s": "same",
+              "prev": 21,
+              "why": "",
+              "prevFile": "21.webp"
+            },
+            {
+              "s": "same",
+              "prev": 22,
+              "why": "",
+              "prevFile": "22.webp"
+            },
+            {
+              "s": "same",
+              "prev": 23,
+              "why": "",
+              "prevFile": "23.webp"
+            },
+            {
+              "s": "same",
+              "prev": 24,
+              "why": "",
+              "prevFile": "24.webp"
+            },
+            {
+              "s": "same",
+              "prev": 25,
+              "why": "",
+              "prevFile": "25.webp"
+            },
+            {
+              "s": "same",
+              "prev": 26,
+              "why": "",
+              "prevFile": "26.webp"
+            },
+            {
+              "s": "new"
+            },
+            {
+              "s": "same",
+              "prev": 28,
+              "why": "",
+              "prevFile": "28.webp"
+            },
+            {
+              "s": "same",
+              "prev": 29,
+              "why": "",
+              "prevFile": "29.webp"
+            },
+            {
+              "s": "same",
+              "prev": 30,
+              "why": "",
+              "prevFile": "30.webp"
+            },
+            {
+              "s": "same",
+              "prev": 31,
+              "why": "",
+              "prevFile": "31.webp"
+            },
+            {
+              "s": "same",
+              "prev": 32,
+              "why": "",
+              "prevFile": "32.webp"
+            },
+            {
+              "s": "same",
+              "prev": 33,
+              "why": "",
+              "prevFile": "33.webp"
+            },
+            {
+              "s": "new"
+            },
+            {
+              "s": "same",
+              "prev": 35,
+              "why": "",
+              "prevFile": "35.webp"
+            },
+            {
+              "s": "same",
+              "prev": 36,
+              "why": "",
+              "prevFile": "36.webp"
+            },
+            {
+              "s": "new"
+            }
+          ],
+          "removed": [
+            {
+              "n": 7,
+              "title": "What best describes your current role in education?",
+              "kind": "question",
+              "file": "07.webp"
+            },
+            {
+              "n": 27,
+              "title": "What's your personal interests?",
+              "kind": "question",
+              "file": "27.webp"
+            },
+            {
+              "n": 34,
+              "title": "Your vocabulary test result",
+              "kind": "loader",
+              "file": "34.webp"
+            },
+            {
+              "n": 37,
+              "title": "Get Unlimited Access",
+              "kind": "paywall",
+              "file": "37.webp"
+            }
+          ]
+        }
+      }
+    },
+    "copymind": {
+      "ads": {
+        "active": 0,
+        "prevActive": 0,
+        "delta": 0,
+        "newInWindow": 0,
+        "newCreatives": 0
+      },
+      "links": [],
+      "funnels": {
+        "app.copymind.me/welcome-quiz/gender": {
+          "firstRun": false,
+          "comparedWith": "app.copymind.me/welcome-quiz/gender",
+          "prevDir": "funnels/copymind/2162dca161b4",
+          "prevSteps": 37,
+          "status": [
+            {
+              "s": "changed",
+              "prev": 1,
+              "why": "visual",
+              "prevFile": "01.webp",
+              "boxes": [
+                {
+                  "t": 0.71,
+                  "l": 1.54,
+                  "w": 89.23,
+                  "h": 30.6
+                },
+                {
+                  "t": 29.18,
+                  "l": 32.31,
+                  "w": 31.54,
+                  "h": 16.37
+                },
+                {
+                  "t": 46.98,
+                  "l": 1.54,
+                  "w": 96.92,
+                  "h": 44.84
+                }
+              ]
+            },
+            {
+              "s": "same",
+              "prev": 2,
+              "why": "",
+              "prevFile": "02.webp"
+            },
+            {
+              "s": "same",
+              "prev": 3,
+              "why": "",
+              "prevFile": "03.webp"
+            },
+            {
+              "s": "same",
+              "prev": 4,
+              "why": "",
+              "prevFile": "04.webp"
+            },
+            {
+              "s": "same",
+              "prev": 5,
+              "why": "",
+              "prevFile": "05.webp"
+            },
+            {
+              "s": "same",
+              "prev": 6,
+              "why": "",
+              "prevFile": "06.webp"
+            },
+            {
+              "s": "same",
+              "prev": 7,
+              "why": "",
+              "prevFile": "07.webp"
+            },
+            {
+              "s": "same",
+              "prev": 8,
+              "why": "",
+              "prevFile": "08.webp"
+            },
+            {
+              "s": "same",
+              "prev": 9,
+              "why": "",
+              "prevFile": "09.webp"
+            },
+            {
+              "s": "same",
+              "prev": 10,
+              "why": "",
+              "prevFile": "10.webp"
+            },
+            {
+              "s": "same",
+              "prev": 11,
+              "why": "",
+              "prevFile": "11.webp"
+            },
+            {
+              "s": "same",
+              "prev": 12,
+              "why": "",
+              "prevFile": "12.webp"
+            },
+            {
+              "s": "same",
+              "prev": 13,
+              "why": "",
+              "prevFile": "13.webp"
+            },
+            {
+              "s": "same",
+              "prev": 14,
+              "why": "",
+              "prevFile": "14.webp"
+            },
+            {
+              "s": "same",
+              "prev": 15,
+              "why": "",
+              "prevFile": "15.webp"
+            },
+            {
+              "s": "same",
+              "prev": 16,
+              "why": "",
+              "prevFile": "16.webp"
+            },
+            {
+              "s": "same",
+              "prev": 17,
+              "why": "",
+              "prevFile": "17.webp"
+            },
+            {
+              "s": "same",
+              "prev": 18,
+              "why": "",
+              "prevFile": "18.webp"
+            },
+            {
+              "s": "same",
+              "prev": 19,
+              "why": "",
+              "prevFile": "19.webp"
+            },
+            {
+              "s": "same",
+              "prev": 20,
+              "why": "",
+              "prevFile": "20.webp"
+            },
+            {
+              "s": "same",
+              "prev": 21,
+              "why": "",
+              "prevFile": "21.webp"
+            },
+            {
+              "s": "same",
+              "prev": 22,
+              "why": "",
+              "prevFile": "22.webp"
+            },
+            {
+              "s": "same",
+              "prev": 23,
+              "why": "",
+              "prevFile": "23.webp"
+            },
+            {
+              "s": "same",
+              "prev": 24,
+              "why": "",
+              "prevFile": "24.webp"
+            },
+            {
+              "s": "same",
+              "prev": 25,
+              "why": "",
+              "prevFile": "25.webp"
+            },
+            {
+              "s": "same",
+              "prev": 26,
+              "why": "",
+              "prevFile": "26.webp"
+            },
+            {
+              "s": "same",
+              "prev": 27,
+              "why": "",
+              "prevFile": "27.webp"
+            },
+            {
+              "s": "same",
+              "prev": 28,
+              "why": "",
+              "prevFile": "28.webp"
+            },
+            {
+              "s": "same",
+              "prev": 29,
+              "why": "",
+              "prevFile": "29.webp"
+            },
+            {
+              "s": "same",
+              "prev": 30,
+              "why": "",
+              "prevFile": "30.webp"
+            },
+            {
+              "s": "same",
+              "prev": 31,
+              "why": "",
+              "prevFile": "31.webp"
+            },
+            {
+              "s": "same",
+              "prev": 32,
+              "why": "",
+              "prevFile": "32.webp"
+            },
+            {
+              "s": "same",
+              "prev": 33,
+              "why": "",
+              "prevFile": "33.webp"
+            },
+            {
+              "s": "same",
+              "prev": 34,
+              "why": "",
+              "prevFile": "34.webp"
+            },
+            {
+              "s": "same",
+              "prev": 35,
+              "why": "",
+              "prevFile": "35.webp"
+            },
+            {
+              "s": "same",
+              "prev": 36,
+              "why": "",
+              "prevFile": "36.webp"
+            },
+            {
+              "s": "new"
+            }
+          ],
+          "removed": [
+            {
+              "n": 37,
+              "title": "09",
+              "kind": "paywall",
+              "file": "37.webp"
+            }
+          ]
+        }
+      }
+    },
+    "simply-sing": {
+      "ads": {
+        "active": 79,
+        "prevActive": 82,
+        "delta": -3,
+        "newInWindow": 11,
+        "newCreatives": 11
+      },
+      "links": [
+        {
+          "status": "same",
+          "key": "join-sing.hellosimply.com/welcome?campaign_type=web_to_app&platform=iOS",
+          "ads": 30,
+          "prevAds": 30,
+          "first": "2026-02-15",
+          "store": false
+        }
+      ],
+      "funnels": {
+        "join-sing.hellosimply.com/welcome?campaign_type=web_to_app&platform=iOS": {
+          "firstRun": false,
+          "comparedWith": "join-sing.hellosimply.com/welcome?campaign_type=web_to_app&platform=iOS",
+          "prevDir": "funnels/simply-sing/6f241d946bf3",
+          "prevSteps": 1,
+          "status": [
+            {
+              "s": "same",
+              "prev": 1,
+              "why": "",
+              "prevFile": "01.webp"
+            }
+          ],
+          "removed": []
+        },
+        "join-sing.hellosimply.com/start": {
+          "firstRun": false,
+          "comparedWith": "join-sing.hellosimply.com/start",
+          "prevDir": "funnels/simply-sing/228524b7bc31",
+          "prevSteps": 7,
+          "status": [
+            {
+              "s": "same",
+              "prev": 1,
+              "why": "",
+              "prevFile": "01.webp"
+            },
+            {
+              "s": "same",
+              "prev": 2,
+              "why": "",
+              "prevFile": "02.webp"
+            },
+            {
+              "s": "changed",
+              "prev": 3,
+              "why": "text",
+              "prevFile": "03.webp",
+              "boxes": [
+                {
+                  "t": 29.18,
+                  "l": 32.31,
+                  "w": 50.77,
+                  "h": 5.69
+                }
+              ]
+            },
+            {
+              "s": "same",
+              "prev": 4,
+              "why": "",
+              "prevFile": "04.webp"
+            },
+            {
+              "s": "changed",
+              "prev": 5,
+              "why": "text",
+              "prevFile": "05.webp",
+              "boxes": []
+            },
+            {
+              "s": "same",
+              "prev": 6,
+              "why": "",
+              "prevFile": "06.webp"
+            },
+            {
+              "s": "same",
+              "prev": 7,
+              "why": "",
+              "prevFile": "07.webp"
+            }
+          ],
+          "removed": []
+        }
+      }
+    },
+    "yousician": {
+      "ads": {
+        "active": 33,
+        "prevActive": 28,
+        "delta": 5,
+        "newInWindow": 32,
+        "newCreatives": 20
+      },
+      "links": [
+        {
+          "status": "same",
+          "key": "play.google.com/store/apps/details?id=com.yousician.yousician",
+          "ads": 25,
+          "prevAds": 18,
+          "first": "2026-11-11",
+          "store": true
+        },
+        {
+          "status": "same",
+          "key": "itunes.apple.com/app/id959883039",
+          "ads": 6,
+          "prevAds": 4,
+          "first": "2026-11-11",
+          "store": true
+        },
+        {
+          "status": "new",
+          "key": "yousician.com/black-friday/guitar",
+          "ads": 1,
+          "first": "2026-11-10",
+          "store": false
+        },
+        {
+          "status": "removed",
+          "key": "yousician.com/",
+          "prevAds": 6,
+          "lastSeen": "2026-10-26",
+          "store": false
+        }
+      ],
+      "funnels": {
+        "yousician.com/black-friday/guitar": {
+          "firstRun": true,
+          "status": [
+            {
+              "s": "baseline"
+            },
+            {
+              "s": "baseline"
+            }
+          ],
+          "removed": []
+        },
+        "yousician.com/": {
+          "firstRun": false,
+          "comparedWith": "yousician.com/",
+          "prevDir": "funnels/yousician/1c0c131f25e6",
+          "prevSteps": 9,
+          "status": [
+            {
+              "s": "new"
+            }
+          ],
+          "removed": [
+            {
+              "n": 1,
+              "title": "Unleash your inner musician with Yousician",
+              "kind": "paywall",
+              "file": "01.webp"
+            },
+            {
+              "n": 2,
+              "title": "Choose your instrument",
+              "kind": "question",
+              "file": "02.webp"
+            },
+            {
+              "n": 3,
+              "title": "What’s your current level?",
+              "kind": "question",
+              "file": "03.webp"
+            },
+            {
+              "n": 4,
+              "title": "Pick 1 or more you’d like to play",
+              "kind": "question",
+              "file": "04.webp"
+            },
+            {
+              "n": 5,
+              "title": "What practice suits you?",
+              "kind": "question",
+              "file": "05.webp"
+            },
+            {
+              "n": 6,
+              "title": "Great choice!",
+              "kind": "info",
+              "file": "06.webp"
+            },
+            {
+              "n": 7,
+              "title": "How your free trial works",
+              "kind": "social_proof",
+              "file": "07.webp"
+            },
+            {
+              "n": 8,
+              "title": "Create your account",
+              "kind": "account",
+              "file": "08.webp"
+            },
+            {
+              "n": 9,
+              "title": "Start your 7-day free trial",
+              "kind": "paywall",
+              "file": "09.webp"
+            }
+          ]
+        }
+      }
+    },
+    "smartyme": {
+      "ads": {
+        "active": 153,
+        "prevActive": 168,
+        "delta": -15,
+        "newInWindow": 112,
+        "newCreatives": 32
+      },
+      "links": [
+        {
+          "status": "same",
+          "key": "smartymeapp.onelink.me/gdRe?deep_link_value=smartyme-a20",
+          "ads": 18,
+          "prevAds": 22,
+          "first": "2026-10-21",
+          "store": true
+        },
+        {
+          "status": "same",
+          "key": "start.smartymeapp.com/quiz",
+          "ads": 148,
+          "prevAds": 143,
+          "first": "2026-09-21",
+          "store": false
+        }
+      ],
+      "funnels": {
+        "start.smartymeapp.com/quiz": {
+          "firstRun": false,
+          "comparedWith": "start.smartymeapp.com/quiz",
+          "prevDir": "funnels/smartyme/5353a564ba54",
+          "prevSteps": 10,
+          "status": [
+            {
+              "s": "new"
+            },
+            {
+              "s": "same",
+              "prev": 2,
+              "why": "",
+              "prevFile": "02.webp"
+            },
+            {
+              "s": "changed",
+              "prev": 3,
+              "why": "text",
+              "prevFile": "03.webp",
+              "boxes": [
+                {
+                  "t": 49.48,
+                  "l": 1.54,
+                  "w": 96.92,
+                  "h": 14.29
+                }
+              ]
+            },
+            {
+              "s": "new"
+            },
+            {
+              "s": "new"
+            },
+            {
+              "s": "changed",
+              "prev": 4,
+              "why": "text",
+              "prevFile": "04.webp",
+              "boxes": [
+                {
+                  "t": 28.57,
+                  "l": 1.54,
+                  "w": 62.31,
+                  "h": 7.32
+                },
+                {
+                  "t": 37.28,
+                  "l": 5.38,
+                  "w": 54.62,
+                  "h": 7.32
+                },
+                {
+                  "t": 45.99,
+                  "l": 5.38,
+                  "w": 93.08,
+                  "h": 9.06
+                },
+                {
+                  "t": 56.45,
+                  "l": 1.54,
+                  "w": 93.08,
+                  "h": 19.51
+                }
+              ]
+            },
+            {
+              "s": "same",
+              "prev": 5,
+              "why": "",
+              "prevFile": "05.webp"
+            },
+            {
+              "s": "same",
+              "prev": 6,
+              "why": "",
+              "prevFile": "06.webp"
+            },
+            {
+              "s": "changed",
+              "prev": 7,
+              "why": "text",
+              "prevFile": "07.webp",
+              "boxes": [
+                {
+                  "t": 47.74,
+                  "l": 1.54,
+                  "w": 96.92,
+                  "h": 12.54
+                }
+              ]
+            },
+            {
+              "s": "same",
+              "prev": 8,
+              "why": "",
+              "prevFile": "08.webp"
+            },
+            {
+              "s": "changed",
+              "prev": 9,
+              "why": "visual",
+              "prevFile": "09.webp",
+              "boxes": [
+                {
+                  "t": 9.41,
+                  "l": 1.54,
+                  "w": 96.92,
+                  "h": 52.61
+                }
+              ]
+            },
+            {
+              "s": "same",
+              "prev": 10,
+              "why": "",
+              "prevFile": "10.webp"
+            }
+          ],
+          "removed": [
+            {
+              "n": 1,
+              "title": "BECOME FLUENT IN SMALL TALK",
+              "kind": "question",
+              "file": "01.webp"
+            }
+          ]
+        }
+      }
+    },
+    "simply-draw": {
+      "ads": {
+        "active": 6,
+        "prevActive": 9,
+        "delta": -3,
+        "newInWindow": 0,
+        "newCreatives": 0
+      },
+      "links": [
+        {
+          "status": "same",
+          "key": "join-draw.hellosimply.com/start?flow=baw",
+          "ads": 6,
+          "prevAds": 9,
+          "first": "2026-06-09",
+          "store": false
+        }
+      ],
+      "funnels": {
+        "join-draw.hellosimply.com/start?flow=baw": {
+          "firstRun": false,
+          "comparedWith": "join-draw.hellosimply.com/start?flow=baw",
+          "prevDir": "funnels/simply-draw/ae1631c99eb6",
+          "prevSteps": 3,
+          "status": [
+            {
+              "s": "same",
+              "prev": 1,
+              "why": "",
+              "prevFile": "01.webp"
+            },
+            {
+              "s": "same",
+              "prev": 2,
+              "why": "",
+              "prevFile": "02.webp"
+            },
+            {
+              "s": "changed",
+              "prev": 3,
+              "why": "text",
+              "prevFile": "03.webp",
+              "boxes": [
+                {
+                  "t": 2.44,
+                  "l": 13.08,
+                  "w": 73.85,
+                  "h": 7.32
+                },
+                {
+                  "t": 11.15,
+                  "l": 13.08,
+                  "w": 73.85,
+                  "h": 10.8
+                },
+                {
+                  "t": 23.34,
+                  "l": 0,
+                  "w": 100,
+                  "h": 71.78
+                },
+                {
+                  "t": 96.52,
+                  "l": 0,
+                  "w": 100,
+                  "h": 4.53
+                }
+              ]
+            }
+          ],
+          "removed": []
+        }
+      }
+    }
+  }
+}

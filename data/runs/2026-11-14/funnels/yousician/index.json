@@ -1,0 +1,25 @@
+{
+  "id": "yousician",
+  "name": "Yousician",
+  "geo": "US",
+  "skillsta": false,
+  "storeOnly": false,
+  "funnels": [
+    {
+      "key": "yousician.com/black-friday/guitar",
+      "dir": "funnels/yousician/cdbb1f2900a7",
+      "stop": "paywall",
+      "steps": 2,
+      "why": "ad",
+      "ads": 1
+    },
+    {
+      "key": "yousician.com/",
+      "dir": "funnels/yousician/1c0c131f25e6",
+      "stop": "stuck",
+      "steps": 1,
+      "why": "seed",
+      "ads": 0
+    }
+  ]
+}
