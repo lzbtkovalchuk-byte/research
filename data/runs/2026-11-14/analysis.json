@@ -1,0 +1,1486 @@
+{
+ "headline": "Our test reached the Skillsta Scanner paywall for the first time ($0.99 for 3 days, then $42.99 every 4 weeks), while Scanner traffic almost quadrupled and its purchases halved; Breeze started an early Black Friday offer.",
+ "what_changed": {
+  "imprint": "No web funnel captured; the start-buddhism ad link was removed. Ads: 920 active (−80).",
+  "breeze": "Early Black Friday offer on the paywall (banner + badge); smallest trial amount back to $1 from $0.99. Last question now talks about healing trauma.",
+  "simply-piano": "ESA page rebuilt into a shop with a Direct Pay invoice form (annual $169.90, bundle $209.90). Child and adult branches walked separately for the first time; both paywalls stayed on a loading spinner, so prices weren’t captured.",
+  "memoryos": "No changes (only the paywall timer and an empty first screen differ). 2 new ads.",
+  "chillio": "New question “What would you like help with first?” in cleaning-game; paywall unchanged. nutrition-ai ad link removed.",
+  "learna": "New ad link onboarding-x5j8n9p2k7m4 (19 ads) with a $1 7-day trial, then $19.99/month. Main funnel took yet another branch and showed 1 week $10 / month $30 / year $100 (unconfirmed). Active ads 452 (−492), 88 new.",
+  "copymind": "No changes (first screen didn’t render in our capture; paywall same).",
+  "simply-sing": "No changes (answer order only); walk still stops at the voice test.",
+  "yousician": "New Black Friday ad link (yousician.com/black-friday/guitar) with a “Special price on Premium+” banner. yousician.com returned a 403 error to our capture, so its paywall wasn’t reached. 32 new ads.",
+  "smartyme": "Quiz reframed around games: new headline, a “Have you ever learned through games?” question and a shorter goal list. 112 new ads.",
+  "simply-draw": "No confirmed changes: the paywall stayed on a loading spinner this run.",
+  "skillsta-vocal-2": "No screen changes. After the email code our test still lands back on the quiz start (/quiz/standard-rate/new_vocal).",
+  "skillsta-vocal-scanner": "After the email code our test now reaches the paywall (last run: blank screen): 3-day trial for $0.99, then $42.99 every 4 weeks.",
+  "skillsta-drawing": "No screen changes. After the email code our test still lands back on the quiz start (/quiz/standard-rate/drawing)."
+ },
+ "screens": [
+  {
+   "app": "skillsta-vocal-scanner",
+   "funnel": "getskillnow.com/quiz/voice_assessment/voice_assessment",
+   "n": 31,
+   "title": "Our test now reaches the Scanner paywall after the email code",
+   "notes": [
+    "Last run the screen after the email code was blank; this run it is the paywall “Your full vocal report is ready”.",
+    "Three locked cards (Vocal score, Star vocal match, Voice potential) with blurred content and unlock buttons.",
+    "“Try Skillsta for 3 days”: total due today $0.99 instead of $42.99 (“You just saved 98% off”), then $42.99 every 4 weeks; Apple Pay and Card buttons."
+   ]
+  },
+  {
+   "app": "skillsta-vocal-scanner",
+   "funnel": "getskillnow.com/quiz/voice_assessment/voice_assessment",
+   "n": 31,
+   "removed": true,
+   "ignore": true
+  },
+  {
+   "app": "breeze",
+   "funnel": "try-breeze.com/funnel/childhood",
+   "n": 19,
+   "title": "Answer wording shortened",
+   "notes": [
+    "The answer “Easily open after knowing someone” now reads “Open up easily”."
+   ]
+  },
+  {
+   "app": "breeze",
+   "funnel": "try-breeze.com/funnel/childhood",
+   "n": 28,
+   "title": "Last question now talks about healing trauma",
+   "notes": [
+    "“…a personalized plan for exploring your childhood experiences?” became “…a personalized plan to heal your trauma?”; the options (2 weeks to 6 months) are the same."
+   ]
+  },
+  {
+   "app": "breeze",
+   "funnel": "try-breeze.com/funnel/childhood",
+   "n": 28,
+   "removed": true,
+   "ignore": true
+  },
+  {
+   "app": "breeze",
+   "funnel": "try-breeze.com/childhood",
+   "n": 19,
+   "title": "Answer wording shortened",
+   "notes": [
+    "The answer “Easily open after knowing someone” now reads “Open up easily”."
+   ]
+  },
+  {
+   "app": "breeze",
+   "funnel": "try-breeze.com/childhood",
+   "n": 28,
+   "title": "Last question now talks about healing trauma",
+   "notes": [
+    "“…a personalized plan for exploring your childhood experiences?” became “…a personalized plan to heal your trauma?”; the options (2 weeks to 6 months) are the same."
+   ]
+  },
+  {
+   "app": "breeze",
+   "funnel": "try-breeze.com/childhood",
+   "n": 28,
+   "removed": true,
+   "ignore": true
+  },
+  {
+   "app": "breeze",
+   "funnel": "try-breeze.com/funnel/childhood",
+   "n": 39,
+   "title": "Early Black Friday offer: smallest trial back to $1",
+   "notes": [
+    "New “⚡ EARLY BLACK FRIDAY OFFER” bar at the top and a “BLACK FRIDAY SPECIAL” badge on the smallest amount.",
+    "The smallest “choose any amount” option is $1 again (was $0.99); $2, $10 and $17.34 stay.",
+    "The “It costs us $17.34…” line was replaced by “No charge on this page… Please review conditions at the next screen.”"
+   ]
+  },
+  {
+   "app": "breeze",
+   "funnel": "try-breeze.com/childhood",
+   "n": 39,
+   "title": "Smallest trial back to $1",
+   "notes": [
+    "The smallest “choose any amount” option is $1 again (was $0.99); $2, $10 and $17.34 stay.",
+    "The “It costs us $17.34…” line was replaced by “No charge on this page… Please review conditions at the next screen.”"
+   ]
+  },
+  {
+   "app": "simply-piano",
+   "funnel": "join-piano.hellosimply.com/start#child",
+   "n": 1,
+   "ignore": true
+  },
+  {
+   "app": "simply-piano",
+   "funnel": "join-piano.hellosimply.com/start#child",
+   "n": 8,
+   "ignore": true
+  },
+  {
+   "app": "simply-piano",
+   "funnel": "join-piano.hellosimply.com/start#child",
+   "n": 16,
+   "ignore": true
+  },
+  {
+   "app": "simply-piano",
+   "funnel": "join-piano.hellosimply.com/start#child",
+   "n": 21,
+   "ignore": true
+  },
+  {
+   "app": "simply-piano",
+   "funnel": "join-piano.hellosimply.com/start#child",
+   "n": 26,
+   "ignore": true
+  },
+  {
+   "app": "simply-piano",
+   "funnel": "join-piano.hellosimply.com/start#child",
+   "n": 27,
+   "ignore": true
+  },
+  {
+   "app": "simply-piano",
+   "funnel": "join-piano.hellosimply.com/start#child",
+   "n": 31,
+   "unconfirmed": true,
+   "title": "Paywall didn’t finish loading in our capture",
+   "notes": [
+    "The screenshot shows only the header and a loading spinner, so plans and prices weren’t captured this run. Not a confirmed change."
+   ]
+  },
+  {
+   "app": "simply-piano",
+   "funnel": "join-piano.hellosimply.com/start#adult",
+   "n": 1,
+   "unconfirmed": true,
+   "title": "First walk of the adult branch (not comparable)",
+   "notes": [
+    "This run walks the adult answers of “What motivates you to play the piano?” as its own funnel; last run walked the kids branch, so the screens after this one are a different branch, not changes.",
+    "The adult branch adds a piano-level check (“Do you feel comfortable playing these notes?” ×3) and promises “Read and play sheet music in 18 days” (kids branch: 29 days)."
+   ]
+  },
+  {
+   "app": "simply-piano",
+   "funnel": "join-piano.hellosimply.com/start#adult",
+   "n": 2,
+   "ignore": true
+  },
+  {
+   "app": "simply-piano",
+   "funnel": "join-piano.hellosimply.com/start#adult",
+   "n": 3,
+   "ignore": true
+  },
+  {
+   "app": "simply-piano",
+   "funnel": "join-piano.hellosimply.com/start#adult",
+   "n": 5,
+   "ignore": true
+  },
+  {
+   "app": "simply-piano",
+   "funnel": "join-piano.hellosimply.com/start#adult",
+   "n": 6,
+   "ignore": true
+  },
+  {
+   "app": "simply-piano",
+   "funnel": "join-piano.hellosimply.com/start#adult",
+   "n": 7,
+   "ignore": true
+  },
+  {
+   "app": "simply-piano",
+   "funnel": "join-piano.hellosimply.com/start#adult",
+   "n": 8,
+   "ignore": true
+  },
+  {
+   "app": "simply-piano",
+   "funnel": "join-piano.hellosimply.com/start#adult",
+   "n": 9,
+   "ignore": true
+  },
+  {
+   "app": "simply-piano",
+   "funnel": "join-piano.hellosimply.com/start#adult",
+   "n": 10,
+   "ignore": true
+  },
+  {
+   "app": "simply-piano",
+   "funnel": "join-piano.hellosimply.com/start#adult",
+   "n": 11,
+   "ignore": true
+  },
+  {
+   "app": "simply-piano",
+   "funnel": "join-piano.hellosimply.com/start#adult",
+   "n": 12,
+   "ignore": true
+  },
+  {
+   "app": "simply-piano",
+   "funnel": "join-piano.hellosimply.com/start#adult",
+   "n": 13,
+   "ignore": true
+  },
+  {
+   "app": "simply-piano",
+   "funnel": "join-piano.hellosimply.com/start#adult",
+   "n": 14,
+   "ignore": true
+  },
+  {
+   "app": "simply-piano",
+   "funnel": "join-piano.hellosimply.com/start#adult",
+   "n": 15,
+   "ignore": true
+  },
+  {
+   "app": "simply-piano",
+   "funnel": "join-piano.hellosimply.com/start#adult",
+   "n": 16,
+   "ignore": true
+  },
+  {
+   "app": "simply-piano",
+   "funnel": "join-piano.hellosimply.com/start#adult",
+   "n": 17,
+   "ignore": true
+  },
+  {
+   "app": "simply-piano",
+   "funnel": "join-piano.hellosimply.com/start#adult",
+   "n": 18,
+   "ignore": true
+  },
+  {
+   "app": "simply-piano",
+   "funnel": "join-piano.hellosimply.com/start#adult",
+   "n": 19,
+   "ignore": true
+  },
+  {
+   "app": "simply-piano",
+   "funnel": "join-piano.hellosimply.com/start#adult",
+   "n": 20,
+   "ignore": true
+  },
+  {
+   "app": "simply-piano",
+   "funnel": "join-piano.hellosimply.com/start#adult",
+   "n": 21,
+   "ignore": true
+  },
+  {
+   "app": "simply-piano",
+   "funnel": "join-piano.hellosimply.com/start#adult",
+   "n": 22,
+   "ignore": true
+  },
+  {
+   "app": "simply-piano",
+   "funnel": "join-piano.hellosimply.com/start#adult",
+   "n": 23,
+   "ignore": true
+  },
+  {
+   "app": "simply-piano",
+   "funnel": "join-piano.hellosimply.com/start#adult",
+   "n": 24,
+   "ignore": true
+  },
+  {
+   "app": "simply-piano",
+   "funnel": "join-piano.hellosimply.com/start#adult",
+   "n": 25,
+   "ignore": true
+  },
+  {
+   "app": "simply-piano",
+   "funnel": "join-piano.hellosimply.com/start#adult",
+   "n": 26,
+   "ignore": true
+  },
+  {
+   "app": "simply-piano",
+   "funnel": "join-piano.hellosimply.com/start#adult",
+   "n": 27,
+   "ignore": true
+  },
+  {
+   "app": "simply-piano",
+   "funnel": "join-piano.hellosimply.com/start#adult",
+   "n": 28,
+   "ignore": true
+  },
+  {
+   "app": "simply-piano",
+   "funnel": "join-piano.hellosimply.com/start#adult",
+   "n": 29,
+   "ignore": true
+  },
+  {
+   "app": "simply-piano",
+   "funnel": "join-piano.hellosimply.com/start#adult",
+   "n": 30,
+   "ignore": true
+  },
+  {
+   "app": "simply-piano",
+   "funnel": "join-piano.hellosimply.com/start#adult",
+   "n": 32,
+   "unconfirmed": true,
+   "title": "Paywall didn’t finish loading in our capture",
+   "notes": [
+    "Only the header and a loading spinner were captured. Not a confirmed change."
+   ]
+  },
+  {
+   "app": "simply-piano",
+   "funnel": "join-piano.hellosimply.com/start#adult",
+   "n": 2,
+   "removed": true,
+   "ignore": true
+  },
+  {
+   "app": "simply-piano",
+   "funnel": "join-piano.hellosimply.com/start#adult",
+   "n": 3,
+   "removed": true,
+   "ignore": true
+  },
+  {
+   "app": "simply-piano",
+   "funnel": "join-piano.hellosimply.com/start#adult",
+   "n": 5,
+   "removed": true,
+   "ignore": true
+  },
+  {
+   "app": "simply-piano",
+   "funnel": "join-piano.hellosimply.com/start#adult",
+   "n": 6,
+   "removed": true,
+   "ignore": true
+  },
+  {
+   "app": "simply-piano",
+   "funnel": "join-piano.hellosimply.com/start#adult",
+   "n": 7,
+   "removed": true,
+   "ignore": true
+  },
+  {
+   "app": "simply-piano",
+   "funnel": "join-piano.hellosimply.com/start#adult",
+   "n": 8,
+   "removed": true,
+   "ignore": true
+  },
+  {
+   "app": "simply-piano",
+   "funnel": "join-piano.hellosimply.com/start#adult",
+   "n": 9,
+   "removed": true,
+   "ignore": true
+  },
+  {
+   "app": "simply-piano",
+   "funnel": "join-piano.hellosimply.com/start#adult",
+   "n": 10,
+   "removed": true,
+   "ignore": true
+  },
+  {
+   "app": "simply-piano",
+   "funnel": "join-piano.hellosimply.com/start#adult",
+   "n": 11,
+   "removed": true,
+   "ignore": true
+  },
+  {
+   "app": "simply-piano",
+   "funnel": "join-piano.hellosimply.com/start#adult",
+   "n": 12,
+   "removed": true,
+   "ignore": true
+  },
+  {
+   "app": "simply-piano",
+   "funnel": "join-piano.hellosimply.com/start#adult",
+   "n": 13,
+   "removed": true,
+   "ignore": true
+  },
+  {
+   "app": "simply-piano",
+   "funnel": "join-piano.hellosimply.com/start#adult",
+   "n": 14,
+   "removed": true,
+   "ignore": true
+  },
+  {
+   "app": "simply-piano",
+   "funnel": "join-piano.hellosimply.com/start#adult",
+   "n": 15,
+   "removed": true,
+   "ignore": true
+  },
+  {
+   "app": "simply-piano",
+   "funnel": "join-piano.hellosimply.com/start#adult",
+   "n": 16,
+   "removed": true,
+   "ignore": true
+  },
+  {
+   "app": "simply-piano",
+   "funnel": "join-piano.hellosimply.com/start#adult",
+   "n": 18,
+   "removed": true,
+   "ignore": true
+  },
+  {
+   "app": "simply-piano",
+   "funnel": "join-piano.hellosimply.com/start#adult",
+   "n": 19,
+   "removed": true,
+   "ignore": true
+  },
+  {
+   "app": "simply-piano",
+   "funnel": "join-piano.hellosimply.com/start#adult",
+   "n": 20,
+   "removed": true,
+   "ignore": true
+  },
+  {
+   "app": "simply-piano",
+   "funnel": "join-piano.hellosimply.com/start#adult",
+   "n": 21,
+   "removed": true,
+   "ignore": true
+  },
+  {
+   "app": "simply-piano",
+   "funnel": "join-piano.hellosimply.com/start#adult",
+   "n": 23,
+   "removed": true,
+   "ignore": true
+  },
+  {
+   "app": "simply-piano",
+   "funnel": "join-piano.hellosimply.com/start#adult",
+   "n": 24,
+   "removed": true,
+   "ignore": true
+  },
+  {
+   "app": "simply-piano",
+   "funnel": "join-piano.hellosimply.com/start#adult",
+   "n": 25,
+   "removed": true,
+   "ignore": true
+  },
+  {
+   "app": "simply-piano",
+   "funnel": "join-piano.hellosimply.com/start#adult",
+   "n": 26,
+   "removed": true,
+   "ignore": true
+  },
+  {
+   "app": "simply-piano",
+   "funnel": "join-piano.hellosimply.com/start#adult",
+   "n": 29,
+   "removed": true,
+   "ignore": true
+  },
+  {
+   "app": "simply-piano",
+   "funnel": "hellosimply.com/family/esa#child",
+   "n": 1,
+   "title": "ESA page rebuilt: shop and invoice request instead of the quiz",
+   "notes": [
+    "New headline “Use ESA funds to bring piano learning home”, a “New states added!” link, and an email form for families whose state isn’t covered yet.",
+    "The step-by-step Odyssey/ClassWallet instructions were replaced by a list of “Simply plans available through ESA programs”."
+   ]
+  },
+  {
+   "app": "simply-piano",
+   "funnel": "hellosimply.com/family/esa#child",
+   "n": 2,
+   "title": "Product page: Simply Piano USD 169.90",
+   "notes": [
+    "Shop page with “← Back to shop”, Simply Piano at USD 169.90 and copy positioning it as a home-school music curriculum."
+   ]
+  },
+  {
+   "app": "simply-piano",
+   "funnel": "hellosimply.com/family/esa#child",
+   "n": 3,
+   "title": "“Request Your Direct Pay Invoice” form",
+   "notes": [
+    "Form that emails a PDF invoice for the state’s Direct Pay program: Simply Piano 3-month $56.60, annual $169.90; Simply Bundle (Piano, Guitar, Sing, Draw) 3-month $69.90, annual $209.90.",
+    "A 2% ClassWallet fee is added (e.g. $173.37 total for the annual plan); fields for state, parent and student name and address."
+   ]
+  },
+  {
+   "app": "simply-piano",
+   "funnel": "hellosimply.com/family/esa#child",
+   "n": 4,
+   "ignore": true
+  },
+  {
+   "app": "simply-piano",
+   "funnel": "hellosimply.com/family/esa#child",
+   "n": 5,
+   "ignore": true
+  },
+  {
+   "app": "simply-piano",
+   "funnel": "hellosimply.com/family/esa#child",
+   "n": 6,
+   "ignore": true
+  },
+  {
+   "app": "simply-piano",
+   "funnel": "hellosimply.com/family/esa#child",
+   "n": 2,
+   "removed": true,
+   "ignore": true
+  },
+  {
+   "app": "simply-piano",
+   "funnel": "hellosimply.com/family/esa#child",
+   "n": 3,
+   "removed": true,
+   "ignore": true
+  },
+  {
+   "app": "simply-piano",
+   "funnel": "hellosimply.com/family/esa#child",
+   "n": 4,
+   "removed": true,
+   "ignore": true
+  },
+  {
+   "app": "simply-piano",
+   "funnel": "hellosimply.com/family/esa#child",
+   "n": 5,
+   "removed": true,
+   "ignore": true
+  },
+  {
+   "app": "simply-piano",
+   "funnel": "hellosimply.com/family/esa#child",
+   "n": 6,
+   "removed": true,
+   "ignore": true
+  },
+  {
+   "app": "simply-piano",
+   "funnel": "hellosimply.com/family/esa#child",
+   "n": 7,
+   "removed": true,
+   "ignore": true
+  },
+  {
+   "app": "simply-piano",
+   "funnel": "hellosimply.com/family/esa#child",
+   "n": 8,
+   "removed": true,
+   "ignore": true
+  },
+  {
+   "app": "simply-piano",
+   "funnel": "hellosimply.com/family/esa#child",
+   "n": 9,
+   "removed": true,
+   "ignore": true
+  },
+  {
+   "app": "simply-piano",
+   "funnel": "hellosimply.com/family/esa#child",
+   "n": 10,
+   "removed": true,
+   "ignore": true
+  },
+  {
+   "app": "simply-piano",
+   "funnel": "hellosimply.com/family/esa#child",
+   "n": 11,
+   "removed": true,
+   "ignore": true
+  },
+  {
+   "app": "simply-piano",
+   "funnel": "hellosimply.com/family/esa#child",
+   "n": 12,
+   "removed": true,
+   "ignore": true
+  },
+  {
+   "app": "simply-piano",
+   "funnel": "hellosimply.com/family/esa#child",
+   "n": 13,
+   "removed": true,
+   "ignore": true
+  },
+  {
+   "app": "simply-piano",
+   "funnel": "hellosimply.com/family/esa#child",
+   "n": 14,
+   "removed": true,
+   "ignore": true
+  },
+  {
+   "app": "simply-piano",
+   "funnel": "hellosimply.com/family/esa#child",
+   "n": 15,
+   "removed": true,
+   "ignore": true
+  },
+  {
+   "app": "simply-piano",
+   "funnel": "hellosimply.com/family/esa#child",
+   "n": 16,
+   "removed": true,
+   "ignore": true
+  },
+  {
+   "app": "simply-piano",
+   "funnel": "hellosimply.com/family/esa#child",
+   "n": 17,
+   "removed": true,
+   "ignore": true
+  },
+  {
+   "app": "simply-piano",
+   "funnel": "hellosimply.com/family/esa#child",
+   "n": 18,
+   "removed": true,
+   "ignore": true
+  },
+  {
+   "app": "simply-piano",
+   "funnel": "hellosimply.com/family/esa#child",
+   "n": 19,
+   "removed": true,
+   "ignore": true
+  },
+  {
+   "app": "simply-piano",
+   "funnel": "hellosimply.com/family/esa#child",
+   "n": 20,
+   "removed": true,
+   "ignore": true
+  },
+  {
+   "app": "simply-piano",
+   "funnel": "hellosimply.com/family/esa#child",
+   "n": 21,
+   "removed": true,
+   "ignore": true
+  },
+  {
+   "app": "simply-piano",
+   "funnel": "hellosimply.com/family/esa#child",
+   "n": 22,
+   "removed": true,
+   "ignore": true
+  },
+  {
+   "app": "simply-piano",
+   "funnel": "hellosimply.com/family/esa#child",
+   "n": 23,
+   "removed": true,
+   "ignore": true
+  },
+  {
+   "app": "simply-piano",
+   "funnel": "hellosimply.com/family/esa#child",
+   "n": 24,
+   "removed": true,
+   "ignore": true
+  },
+  {
+   "app": "simply-piano",
+   "funnel": "hellosimply.com/family/esa#child",
+   "n": 25,
+   "removed": true,
+   "ignore": true
+  },
+  {
+   "app": "simply-piano",
+   "funnel": "hellosimply.com/family/esa#child",
+   "n": 26,
+   "removed": true,
+   "ignore": true
+  },
+  {
+   "app": "simply-piano",
+   "funnel": "hellosimply.com/family/esa#child",
+   "n": 27,
+   "removed": true,
+   "ignore": true
+  },
+  {
+   "app": "simply-piano",
+   "funnel": "hellosimply.com/family/esa#child",
+   "n": 28,
+   "removed": true,
+   "ignore": true
+  },
+  {
+   "app": "simply-piano",
+   "funnel": "hellosimply.com/family/esa#child",
+   "n": 29,
+   "removed": true,
+   "ignore": true
+  },
+  {
+   "app": "simply-piano",
+   "funnel": "hellosimply.com/family/esa#child",
+   "n": 30,
+   "removed": true,
+   "ignore": true
+  },
+  {
+   "app": "simply-piano",
+   "funnel": "hellosimply.com/family/esa#child",
+   "n": 31,
+   "removed": true,
+   "ignore": true
+  },
+  {
+   "app": "simply-piano",
+   "funnel": "hellosimply.com/family/esa#child",
+   "n": 32,
+   "removed": true,
+   "ignore": true
+  },
+  {
+   "app": "simply-piano",
+   "funnel": "hellosimply.com/family/esa#adult",
+   "n": 1,
+   "title": "ESA page rebuilt: shop and invoice request instead of the quiz",
+   "notes": [
+    "New headline “Use ESA funds to bring piano learning home”, a “New states added!” link, and an email form for families whose state isn’t covered yet.",
+    "The step-by-step Odyssey/ClassWallet instructions were replaced by a list of “Simply plans available through ESA programs”."
+   ]
+  },
+  {
+   "app": "simply-piano",
+   "funnel": "hellosimply.com/family/esa#adult",
+   "n": 2,
+   "title": "Product page: Simply Piano USD 169.90",
+   "notes": [
+    "Shop page with “← Back to shop”, Simply Piano at USD 169.90 and copy positioning it as a home-school music curriculum."
+   ]
+  },
+  {
+   "app": "simply-piano",
+   "funnel": "hellosimply.com/family/esa#adult",
+   "n": 3,
+   "title": "“Request Your Direct Pay Invoice” form",
+   "notes": [
+    "Form that emails a PDF invoice for the state’s Direct Pay program: Simply Piano 3-month $56.60, annual $169.90; Simply Bundle (Piano, Guitar, Sing, Draw) 3-month $69.90, annual $209.90.",
+    "A 2% ClassWallet fee is added (e.g. $173.37 total for the annual plan); fields for state, parent and student name and address."
+   ]
+  },
+  {
+   "app": "simply-piano",
+   "funnel": "hellosimply.com/family/esa#adult",
+   "n": 4,
+   "ignore": true
+  },
+  {
+   "app": "simply-piano",
+   "funnel": "hellosimply.com/family/esa#adult",
+   "n": 5,
+   "ignore": true
+  },
+  {
+   "app": "simply-piano",
+   "funnel": "hellosimply.com/family/esa#adult",
+   "n": 6,
+   "ignore": true
+  },
+  {
+   "app": "simply-piano",
+   "funnel": "hellosimply.com/family/esa#adult",
+   "n": 2,
+   "removed": true,
+   "ignore": true
+  },
+  {
+   "app": "simply-piano",
+   "funnel": "hellosimply.com/family/esa#adult",
+   "n": 3,
+   "removed": true,
+   "ignore": true
+  },
+  {
+   "app": "simply-piano",
+   "funnel": "hellosimply.com/family/esa#adult",
+   "n": 4,
+   "removed": true,
+   "ignore": true
+  },
+  {
+   "app": "simply-piano",
+   "funnel": "hellosimply.com/family/esa#adult",
+   "n": 5,
+   "removed": true,
+   "ignore": true
+  },
+  {
+   "app": "simply-piano",
+   "funnel": "hellosimply.com/family/esa#adult",
+   "n": 6,
+   "removed": true,
+   "ignore": true
+  },
+  {
+   "app": "simply-piano",
+   "funnel": "hellosimply.com/family/esa#adult",
+   "n": 7,
+   "removed": true,
+   "ignore": true
+  },
+  {
+   "app": "simply-piano",
+   "funnel": "hellosimply.com/family/esa#adult",
+   "n": 8,
+   "removed": true,
+   "ignore": true
+  },
+  {
+   "app": "simply-piano",
+   "funnel": "hellosimply.com/family/esa#adult",
+   "n": 9,
+   "removed": true,
+   "ignore": true
+  },
+  {
+   "app": "simply-piano",
+   "funnel": "hellosimply.com/family/esa#adult",
+   "n": 10,
+   "removed": true,
+   "ignore": true
+  },
+  {
+   "app": "simply-piano",
+   "funnel": "hellosimply.com/family/esa#adult",
+   "n": 11,
+   "removed": true,
+   "ignore": true
+  },
+  {
+   "app": "simply-piano",
+   "funnel": "hellosimply.com/family/esa#adult",
+   "n": 12,
+   "removed": true,
+   "ignore": true
+  },
+  {
+   "app": "simply-piano",
+   "funnel": "hellosimply.com/family/esa#adult",
+   "n": 13,
+   "removed": true,
+   "ignore": true
+  },
+  {
+   "app": "simply-piano",
+   "funnel": "hellosimply.com/family/esa#adult",
+   "n": 14,
+   "removed": true,
+   "ignore": true
+  },
+  {
+   "app": "simply-piano",
+   "funnel": "hellosimply.com/family/esa#adult",
+   "n": 15,
+   "removed": true,
+   "ignore": true
+  },
+  {
+   "app": "simply-piano",
+   "funnel": "hellosimply.com/family/esa#adult",
+   "n": 16,
+   "removed": true,
+   "ignore": true
+  },
+  {
+   "app": "simply-piano",
+   "funnel": "hellosimply.com/family/esa#adult",
+   "n": 17,
+   "removed": true,
+   "ignore": true
+  },
+  {
+   "app": "simply-piano",
+   "funnel": "hellosimply.com/family/esa#adult",
+   "n": 18,
+   "removed": true,
+   "ignore": true
+  },
+  {
+   "app": "simply-piano",
+   "funnel": "hellosimply.com/family/esa#adult",
+   "n": 19,
+   "removed": true,
+   "ignore": true
+  },
+  {
+   "app": "simply-piano",
+   "funnel": "hellosimply.com/family/esa#adult",
+   "n": 20,
+   "removed": true,
+   "ignore": true
+  },
+  {
+   "app": "simply-piano",
+   "funnel": "hellosimply.com/family/esa#adult",
+   "n": 21,
+   "removed": true,
+   "ignore": true
+  },
+  {
+   "app": "simply-piano",
+   "funnel": "hellosimply.com/family/esa#adult",
+   "n": 22,
+   "removed": true,
+   "ignore": true
+  },
+  {
+   "app": "simply-piano",
+   "funnel": "hellosimply.com/family/esa#adult",
+   "n": 23,
+   "removed": true,
+   "ignore": true
+  },
+  {
+   "app": "simply-piano",
+   "funnel": "hellosimply.com/family/esa#adult",
+   "n": 24,
+   "removed": true,
+   "ignore": true
+  },
+  {
+   "app": "simply-piano",
+   "funnel": "hellosimply.com/family/esa#adult",
+   "n": 25,
+   "removed": true,
+   "ignore": true
+  },
+  {
+   "app": "simply-piano",
+   "funnel": "hellosimply.com/family/esa#adult",
+   "n": 26,
+   "removed": true,
+   "ignore": true
+  },
+  {
+   "app": "simply-piano",
+   "funnel": "hellosimply.com/family/esa#adult",
+   "n": 27,
+   "removed": true,
+   "ignore": true
+  },
+  {
+   "app": "simply-piano",
+   "funnel": "hellosimply.com/family/esa#adult",
+   "n": 28,
+   "removed": true,
+   "ignore": true
+  },
+  {
+   "app": "simply-piano",
+   "funnel": "hellosimply.com/family/esa#adult",
+   "n": 29,
+   "removed": true,
+   "ignore": true
+  },
+  {
+   "app": "simply-piano",
+   "funnel": "hellosimply.com/family/esa#adult",
+   "n": 30,
+   "removed": true,
+   "ignore": true
+  },
+  {
+   "app": "simply-piano",
+   "funnel": "hellosimply.com/family/esa#adult",
+   "n": 31,
+   "removed": true,
+   "ignore": true
+  },
+  {
+   "app": "simply-piano",
+   "funnel": "hellosimply.com/family/esa#adult",
+   "n": 32,
+   "removed": true,
+   "ignore": true
+  },
+  {
+   "app": "memoryos",
+   "funnel": "start.memoryos.com/new-h2?thm=light",
+   "n": 1,
+   "ignore": true
+  },
+  {
+   "app": "memoryos",
+   "funnel": "start.memoryos.com/new-h2?thm=light",
+   "n": 36,
+   "ignore": true
+  },
+  {
+   "app": "memoryos",
+   "funnel": "start.memoryos.com/new-h2?thm=light",
+   "n": 35,
+   "removed": true,
+   "ignore": true
+  },
+  {
+   "app": "memoryos",
+   "funnel": "start.memoryos.com/new-s",
+   "n": 35,
+   "ignore": true
+  },
+  {
+   "app": "memoryos",
+   "funnel": "start.memoryos.com/new-s",
+   "n": 35,
+   "removed": true,
+   "ignore": true
+  },
+  {
+   "app": "chillio",
+   "funnel": "quiz.get-chillio.app/qs/cleaning-game",
+   "n": 10,
+   "title": "New question: “What would you like help with first?”",
+   "notes": [
+    "Options: get my home back in order, keep everyday mess under control, get one area sorted, make cleaning feel manageable."
+   ]
+  },
+  {
+   "app": "chillio",
+   "funnel": "quiz.get-chillio.app/qs/cleaning-game",
+   "n": 36,
+   "ignore": true
+  },
+  {
+   "app": "chillio",
+   "funnel": "quiz.get-chillio.app/qs/cleaning-game",
+   "n": 35,
+   "removed": true,
+   "ignore": true
+  },
+  {
+   "app": "chillio",
+   "funnel": "quiz.get-chillio.app/qs/cleaning-game",
+   "n": 37,
+   "ignore": true
+  },
+  {
+   "app": "chillio",
+   "funnel": "quiz.get-chillio.app/qs/house-ai",
+   "n": 34,
+   "ignore": true
+  },
+  {
+   "app": "chillio",
+   "funnel": "quiz.get-chillio.app/qs/house-ai",
+   "n": 34,
+   "removed": true,
+   "ignore": true
+  },
+  {
+   "app": "learna",
+   "funnel": "onboarding.ailearna.com/onboarding",
+   "n": 6,
+   "unconfirmed": true,
+   "title": "Answer order changed again",
+   "notes": [
+    "“What kind of work do you do?” lists its answers in a different order, so our walk took a third branch (creative work) this time."
+   ]
+  },
+  {
+   "app": "learna",
+   "funnel": "onboarding.ailearna.com/onboarding",
+   "n": 7,
+   "unconfirmed": true,
+   "title": "Different follow-up because of a different answer",
+   "notes": [
+    "“What type of creative work do you do?” is the creative branch’s follow-up, not a replacement of the education question."
+   ]
+  },
+  {
+   "app": "learna",
+   "funnel": "onboarding.ailearna.com/onboarding",
+   "n": 27,
+   "title": "Question typo fixed",
+   "notes": [
+    "“What's your personal interests?” now reads “What are your personal interests?”."
+   ]
+  },
+  {
+   "app": "learna",
+   "funnel": "onboarding.ailearna.com/onboarding",
+   "n": 34,
+   "unconfirmed": true,
+   "title": "Email screen where the vocabulary result was",
+   "notes": [
+    "Step 34 is now “Enter your email to learn your english level”; last run it showed the vocabulary test result."
+   ]
+  },
+  {
+   "app": "learna",
+   "funnel": "onboarding.ailearna.com/onboarding",
+   "n": 37,
+   "unconfirmed": true,
+   "title": "Paywall back to 1 week / 1 month / 1 year",
+   "notes": [
+    "1 week $10 (then $24.99/week), 1 month $30, 1 year $100, all “Save 60%” with a 10-minute timer — the same plans our business-branch walk saw two runs ago.",
+    "The $1 7-day trial seen last run (education branch) appears in the new ad link onboarding-x5j8n9p2k7m4 instead."
+   ]
+  },
+  {
+   "app": "learna",
+   "funnel": "onboarding.ailearna.com/onboarding",
+   "n": 7,
+   "removed": true,
+   "ignore": true
+  },
+  {
+   "app": "learna",
+   "funnel": "onboarding.ailearna.com/onboarding",
+   "n": 27,
+   "removed": true,
+   "ignore": true
+  },
+  {
+   "app": "learna",
+   "funnel": "onboarding.ailearna.com/onboarding",
+   "n": 34,
+   "removed": true,
+   "ignore": true
+  },
+  {
+   "app": "learna",
+   "funnel": "onboarding.ailearna.com/onboarding",
+   "n": 37,
+   "removed": true,
+   "ignore": true
+  },
+  {
+   "app": "copymind",
+   "funnel": "app.copymind.me/welcome-quiz/gender",
+   "n": 1,
+   "ignore": true
+  },
+  {
+   "app": "copymind",
+   "funnel": "app.copymind.me/welcome-quiz/gender",
+   "n": 37,
+   "ignore": true
+  },
+  {
+   "app": "copymind",
+   "funnel": "app.copymind.me/welcome-quiz/gender",
+   "n": 37,
+   "removed": true,
+   "ignore": true
+  },
+  {
+   "app": "simply-sing",
+   "funnel": "join-sing.hellosimply.com/start",
+   "n": 3,
+   "ignore": true
+  },
+  {
+   "app": "simply-sing",
+   "funnel": "join-sing.hellosimply.com/start",
+   "n": 5,
+   "ignore": true
+  },
+  {
+   "app": "yousician",
+   "funnel": "yousician.com/",
+   "n": 1,
+   "title": "Site returned a 403 error to our capture",
+   "notes": [
+    "The page showed a CloudFront “403 ERROR – Request blocked” message, so the quiz and paywall weren’t captured this run."
+   ]
+  },
+  {
+   "app": "yousician",
+   "funnel": "yousician.com/",
+   "n": 1,
+   "removed": true,
+   "ignore": true
+  },
+  {
+   "app": "yousician",
+   "funnel": "yousician.com/",
+   "n": 2,
+   "removed": true,
+   "ignore": true
+  },
+  {
+   "app": "yousician",
+   "funnel": "yousician.com/",
+   "n": 3,
+   "removed": true,
+   "ignore": true
+  },
+  {
+   "app": "yousician",
+   "funnel": "yousician.com/",
+   "n": 4,
+   "removed": true,
+   "ignore": true
+  },
+  {
+   "app": "yousician",
+   "funnel": "yousician.com/",
+   "n": 5,
+   "removed": true,
+   "ignore": true
+  },
+  {
+   "app": "yousician",
+   "funnel": "yousician.com/",
+   "n": 6,
+   "removed": true,
+   "ignore": true
+  },
+  {
+   "app": "yousician",
+   "funnel": "yousician.com/",
+   "n": 7,
+   "removed": true,
+   "ignore": true
+  },
+  {
+   "app": "yousician",
+   "funnel": "yousician.com/",
+   "n": 8,
+   "removed": true,
+   "ignore": true
+  },
+  {
+   "app": "yousician",
+   "funnel": "yousician.com/",
+   "n": 9,
+   "removed": true,
+   "ignore": true
+  },
+  {
+   "app": "smartyme",
+   "funnel": "start.smartymeapp.com/quiz",
+   "n": 1,
+   "title": "Headline now sells learning through games",
+   "notes": [
+    "“BECOME FLUENT IN SMALL TALK” became “MASTER THE ART OF SMALL TALK WITH ENGAGING GAMES!”; gender choice below is the same."
+   ]
+  },
+  {
+   "app": "smartyme",
+   "funnel": "start.smartymeapp.com/quiz",
+   "n": 1,
+   "removed": true,
+   "ignore": true
+  },
+  {
+   "app": "smartyme",
+   "funnel": "start.smartymeapp.com/quiz",
+   "n": 3,
+   "title": "Social proof copy mentions playing",
+   "notes": [
+    "“…already improving their public speaking skills with us” became “…already building real speaking skills by playing, practicing, and progressing. Learn to speak — without the boredom!”"
+   ]
+  },
+  {
+   "app": "smartyme",
+   "funnel": "start.smartymeapp.com/quiz",
+   "n": 4,
+   "title": "New question: “Have you ever learned through games?”",
+   "notes": [
+    "Yes / No."
+   ]
+  },
+  {
+   "app": "smartyme",
+   "funnel": "start.smartymeapp.com/quiz",
+   "n": 5,
+   "title": "New intro screen about learning while you play",
+   "notes": [
+    "“Level up your speaking skills by learning while you play. Answer a few quick questions so we can tailor your program — ready?”"
+   ]
+  },
+  {
+   "app": "smartyme",
+   "funnel": "start.smartymeapp.com/quiz",
+   "n": 6,
+   "title": "Goal list cut from 14 options to 4 groups",
+   "notes": [
+    "Now: Small talk & conversations, Relationships & emotions, Confidence & personal growth, Public speaking & meetings."
+   ]
+  },
+  {
+   "app": "smartyme",
+   "funnel": "start.smartymeapp.com/quiz",
+   "n": 9,
+   "title": "Copy adds “short, game-like practice”",
+   "notes": [
+    "The body text now ends with building tools “…with short, game-like practice”."
+   ]
+  },
+  {
+   "app": "smartyme",
+   "funnel": "start.smartymeapp.com/quiz",
+   "n": 11,
+   "title": "New illustration",
+   "notes": [
+    "“High five, team extrovert!” uses a different, larger character illustration; text unchanged."
+   ]
+  },
+  {
+   "app": "simply-draw",
+   "funnel": "join-draw.hellosimply.com/start?flow=baw",
+   "n": 3,
+   "unconfirmed": true,
+   "title": "Paywall didn’t finish loading in our capture",
+   "notes": [
+    "Only the header “Start your 7-day free trial” and a loading spinner were captured, so plans and prices aren’t compared this run. Not a confirmed change."
+   ]
+  }
+ ],
+ "amplitude": [
+  {
+   "funnel": "Vocal 2.0",
+   "topic": "vocal",
+   "period": "31 Oct – 13 Nov",
+   "prev_period": "17–30 Oct",
+   "steps": [
+    {
+     "label": "Quiz start",
+     "n": 47879,
+     "prev_n": 44190
+    },
+    {
+     "label": "Loader",
+     "n": 7289,
+     "prev_n": 6748
+    },
+    {
+     "label": "Email",
+     "n": 1089,
+     "prev_n": 1032
+    },
+    {
+     "label": "Paywall",
+     "n": 302,
+     "prev_n": 302
+    },
+    {
+     "label": "Purchase",
+     "n": 47,
+     "prev_n": 51
+    }
+   ]
+  },
+  {
+   "funnel": "Vocal Scanner",
+   "topic": "vocal",
+   "period": "31 Oct – 13 Nov",
+   "prev_period": "17–30 Oct",
+   "steps": [
+    {
+     "label": "Quiz start",
+     "n": 44373,
+     "prev_n": 11459
+    },
+    {
+     "label": "Loader",
+     "n": 4296,
+     "prev_n": 2137
+    },
+    {
+     "label": "Email",
+     "n": 870,
+     "prev_n": 600
+    },
+    {
+     "label": "Paywall",
+     "n": 858,
+     "prev_n": 590
+    },
+    {
+     "label": "Purchase",
+     "n": 47,
+     "prev_n": 99
+    }
+   ]
+  },
+  {
+   "funnel": "Drawing",
+   "topic": "drawing",
+   "period": "31 Oct – 13 Nov",
+   "prev_period": "17–30 Oct",
+   "steps": [
+    {
+     "label": "Quiz start",
+     "n": 15556,
+     "prev_n": 8150
+    },
+    {
+     "label": "Loader",
+     "n": 2547,
+     "prev_n": 1290
+    },
+    {
+     "label": "Email",
+     "n": 282,
+     "prev_n": 182
+    },
+    {
+     "label": "Paywall",
+     "n": 69,
+     "prev_n": 45
+    },
+    {
+     "label": "Purchase",
+     "n": 10,
+     "prev_n": 6
+    }
+   ]
+  }
+ ],
+ "ideas": [
+  {
+   "title": "Find out why Scanner paywall → purchase fell from 17% to 5.5%.",
+   "detail": "Quiz starts went from 11,459 to 44,373 while purchases went from 99 to 47, although paywall views rose from 590 to 858. Check whether the new traffic or the paywall itself ($0.99 for 3 days, then $42.99 every 4 weeks) changed in this window.",
+   "seen_in": "Skillsta Scanner paywall + Amplitude"
+  },
+  {
+   "title": "Test a Black Friday label on the Skillsta trial price.",
+   "detail": "Breeze added an “Early Black Friday offer” bar and a “Black Friday special” badge on its $1 trial, and Yousician runs a Black Friday ad page. A seasonal badge on the paywall price should move Paywall → Purchase.",
+   "seen_in": "Breeze paywall, Yousician Black Friday page"
+  },
+  {
+   "title": "Fix where Vocal 2.0 and Drawing go after the email code.",
+   "detail": "Our test again landed back on the quiz start after the email code, and Email → Paywall stays at 28% (Vocal 2.0) and about 25% (Drawing) against 99% in the Scanner, which now reaches its paywall.",
+   "seen_in": "Skillsta test walk"
+  }
+ ]
+}
