@@ -477,6 +477,8 @@ async function walk(browser, app, entry, dir, idx = 0, ctl = {}, variant = null,
       let s = await inspect(page);
       const host = new URL(s.url).hostname;
       let kind = classify(s);
+      // Apps whose real paywall comes after sign-up (landing pages with promo prices aren't it).
+      if (kind === 'paywall' && app.paywall_after_signup && !signedUp) kind = 'info';
       // A paywall whose plans are still loading (header and trial wording, no prices yet): wait for the plans.
       let plansMissing = false;
       PRICE.lastIndex = 0;
