@@ -110,3 +110,14 @@ Call log:
   - taking page screenshot
   - waiting for fonts to load...
 , 115s
+11:23:22 answer memory: 629 answers from 3 earlier runs
+11:23:22 walking 1 apps, 3 at a time
+11:23:22 PROXY_UK: set, http://…:823
+11:23:22 PROXY_US: set, http://…:823
+11:23:22 → simply-draw join-draw.hellosimply.com/start?flow=baw
+11:23:23 simply-draw proxy US: exit country US
+11:24:15 simply-draw paywall without prices yet, waiting up to 60s for the plans
+11:25:16 simply-draw plans did not load
+11:25:16 simply-draw plans did not load through the proxy, retrying without it
+11:26:22 simply-draw retry without proxy: stop=paywall
+11:26:22 ✓ simply-draw 3 screens, stop=paywall, 180s
