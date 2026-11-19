@@ -209,7 +209,8 @@ function loadMemory() {
     for (const f of idx.funnels) {
       const st = readJSON(path.join(RUNS, prev, f.dir, 'steps.json'), null); if (!st) continue;
       for (const x of st.steps) {
-        const a = x.action?.opt; if (!a || x.kind !== 'question') continue;
+        // Any screen where an option was chosen (quiz answers, but also landing-page choices like “Let’s get started”).
+        const a = x.action?.opt; if (!a || /logo/i.test(a)) continue;
         const q = normQ(x.title);
         if (!q) continue;
         if (!mem.has(`${app}|${f.key}|${q}`)) mem.set(`${app}|${f.key}|${q}`, a);
