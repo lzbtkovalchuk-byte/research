@@ -11,7 +11,7 @@
   "simply-sing": "No changes (answer order only); walk still stops at the voice test.",
   "yousician": "New Black Friday ad link (yousician.com/black-friday/guitar) with a “Special price on Premium+” banner. yousician.com returned a 403 error to our capture, so its paywall wasn’t reached. 32 new ads.",
   "smartyme": "Quiz reframed around games: new headline, a “Have you ever learned through games?” question and a shorter goal list. 112 new ads.",
-  "simply-draw": "No confirmed changes: the paywall stayed on a loading spinner this run.",
+  "simply-draw": "Paywall prices went up: $89.99 and $7.50 last run, $120.00 and $10.00 now ($14.99 in both).",
   "skillsta-vocal-2": "No screen changes. After the email code our test still lands back on the quiz start (/quiz/standard-rate/new_vocal).",
   "skillsta-vocal-scanner": "After the email code our test now reaches the paywall (last run: blank screen): 3-day trial for $0.99, then $42.99 every 4 weeks.",
   "skillsta-drawing": "No screen changes. After the email code our test still lands back on the quiz start (/quiz/standard-rate/drawing)."
@@ -1356,9 +1356,10 @@
    "app": "simply-draw",
    "funnel": "join-draw.hellosimply.com/start?flow=baw",
    "n": 3,
-   "title": "Paywall prices differ from last run",
+   "title": "Paywall prices went up",
    "notes": [
-    "This run: $120.00, $10.00, $14.99, $0.00. Last run: $89.99, $7.50, $15.00, $14.99."
+    "Last run the paywall showed $89.99 and $7.50; this run it shows $120.00 and $10.00. $14.99 appears in both runs, and a $0.00 trial line is shown.",
+    "Captured on a retry without the proxy: through the proxy, the plans didn’t load."
    ]
   }
  ],
