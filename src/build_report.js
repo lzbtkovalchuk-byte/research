@@ -23,12 +23,12 @@ const fmtDate = d => d ? new Date(d + 'T00:00:00Z').toLocaleDateString('en-GB', 
 const fmtLong = d => d ? new Date(d + 'T00:00:00Z').toLocaleDateString('en-GB', { day: 'numeric', month: 'short', year: 'numeric', timeZone: 'UTC' }) : '—';
 const topicOf = a => a.topics.includes('vocal') && a.topics.includes('drawing') ? 'both' : a.topics[0];
 const TAGS = { both: '<span class="tp v">Vocal</span><span class="tp d">Drawing</span>', vocal: '<span class="tp v">Vocal</span>', drawing: '<span class="tp d">Drawing</span>' };
-const KIND = { question: 'Question', info: 'Info', social_proof: 'Social proof', loader: 'Loader', email: 'Email', paywall: 'Paywall', account: 'Create account', payment: 'Payment', popup: 'Popup' };
+const KIND = { blocked: 'Block page', question: 'Question', info: 'Info', social_proof: 'Social proof', loader: 'Loader', email: 'Email', paywall: 'Paywall', account: 'Create account', payment: 'Payment', popup: 'Popup' };
 const STOP = {
   paywall: 'reached the paywall', account_creation: 'stops at account creation (needs a password)', payment_form: 'stops at the payment form',
   email_gate: 'stops at the email gate (no test email set)', email_verification: 'stops at the email verification code', app_store: 'sends people to the app store',
   stuck: 'the automatic walk got stuck', looped_to_start: 'goes back to its first screen (account needed to go further)',
-  email_loop: 'goes back to its first screen after the email', paywall_incomplete: 'reached the paywall, but its plans didn’t load', email_code_not_received: 'the email code did not arrive in the test inbox', email_rejected: 'rejects the test email', popup_blocked: 'a popup could not be closed',
+  email_loop: 'goes back to its first screen after the email', blocked: 'the site blocked our capture (a 403 / “request blocked” page)', paywall_incomplete: 'reached the paywall, but its plans didn’t load', email_code_not_received: 'the email code did not arrive in the test inbox', email_rejected: 'rejects the test email', popup_blocked: 'a popup could not be closed',
   timeout: 'the walk timed out', max_steps: 'step limit reached',
 };
 const stopText = f => { const [s0, extra] = String(f.stop).split('+'); const t = STOP[s0] || (s0.startsWith('error') ? 'the page failed to load' : s0); return extra === 'paywall_direct' ? `${t}; paywall opened directly` : t; };

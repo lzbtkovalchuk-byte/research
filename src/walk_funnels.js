@@ -167,6 +167,9 @@ function inputValue(i, EMAIL) {
   return null;
 }
 
+// Block pages from a CDN or bot filter (often triggered by proxy IPs): not part of the funnel.
+const BLOCKED = /(^|\n)\s*(403 error|403 forbidden|access denied|request blocked|the request could not be satisfied|attention required|verify you are human|checking your browser|sorry, you have been blocked)/i;
+
 // Paywall wording that shows before the plans themselves have loaded.
 const PAYWALL_HINT = /(start your \d+[- ]day (free )?trial|discount ends|choose your plan|offer (ends|is reserved)|save \d+\s?%)/i;
 
@@ -517,6 +520,12 @@ async function walk(browser, app, entry, dir, idx = 0, ctl = {}, variant = null,
           break;
         }
       }
+      // A block page instead of the funnel: stop (the funnel is retried without the proxy).
+      if (BLOCKED.test(s.text) && s.text.length < 1500) {
+        if (steps.length && steps[steps.length - 1].textHash === sha(normText(s.text).slice(0, 2000) + '|' + s.alts)) steps[steps.length - 1].kind = 'blocked';
+        log(app.id, 'site returned a block page:', s.text.split('\n').slice(0, 2).join(' ').slice(0, 80));
+        stop = 'blocked'; break;
+      }
       seen.set(nkey, (seen.get(nkey) || 0) + 1);
       if (seen.get(nkey) > 4) { stop = 'stuck'; break; }
       if (isStoreOrSocial(host)) { stop = 'app_store'; break; }
@@ -815,8 +824,8 @@ async function main() {
       let r = await walk(await browserFor(app), app, e.url, fdir, ei, ctl, v, e.key).catch(err => ({ steps: [], stop: 'error: ' + String(err.message || err).slice(0, 160), proxied: false, email: null }));
       clearTimeout(timer);
       // Plans didn't load through the proxy: walk the funnel once more without it (US apps only — the runner is in the US).
-      if ((r.stop === 'paywall_incomplete' || (/^error/.test(r.stop) && r.steps.length < 3)) && proxyFor(app.geo) && app.geo !== 'GB') {
-        log(app.id, 'plans did not load through the proxy, retrying without it');
+      if ((r.stop === 'paywall_incomplete' || r.stop === 'blocked' || (/^error/.test(r.stop) && r.steps.length < 3)) && proxyFor(app.geo) && app.geo !== 'GB') {
+        log(app.id, r.stop === 'blocked' ? 'site blocked the proxy, retrying without it' : 'plans did not load through the proxy, retrying without it');
         for (const x of fs.readdirSync(fdir)) if (/\.webp$|stuck\.html$/.test(x)) fs.rmSync(path.join(fdir, x));
         const ctl2 = { noProxy: true };
         const timer2 = setTimeout(() => { ctl2.timedOut = true; ctl2.ctx?.close().catch(() => {}); }, FUNNEL_MAX_MS);
