@@ -167,6 +167,9 @@ function inputValue(i, EMAIL) {
   return null;
 }
 
+// Paywall wording that shows before the plans themselves have loaded.
+const PAYWALL_HINT = /(start your \d+[- ]day (free )?trial|discount ends|choose your plan|offer (ends|is reserved)|save \d+\s?%)/i;
+
 function classify(s) {
   const prices = (s.text.match(PRICE) || []);
   const payWords = /(per (day|week|month|year)|\/\s?(day|week|wk|month|mo|year|yr)|billed|subscription|plan|trial|money.back|guarantee|discount|% off)/i.test(s.text);
@@ -420,7 +423,7 @@ async function emailError(page) {
 async function walk(browser, app, entry, dir, idx = 0, ctl = {}, variant = null, key = '') {
   let EMAIL = emailFor(app, idx);
   let restartUrl = null, triedDots = false;
-  const proxy = proxyFor(app.geo);
+  const proxy = ctl.noProxy ? undefined : proxyFor(app.geo);
   const ctx = await browser.newContext({
     permissions: ['microphone', 'camera'],
     ...devices['iPhone 13'], viewport: { width: 390, height: 844 }, deviceScaleFactor: 2,
@@ -470,7 +473,25 @@ async function walk(browser, app, entry, dir, idx = 0, ctl = {}, variant = null,
       }
       let s = await inspect(page);
       const host = new URL(s.url).hostname;
-      const kind = classify(s);
+      let kind = classify(s);
+      // A paywall whose plans are still loading (header and trial wording, no prices yet): wait for the plans.
+      let plansMissing = false;
+      PRICE.lastIndex = 0;
+      // Only screens without form fields (an email or sign-up screen is never a loading paywall).
+      if (kind !== 'paywall' && ['question', 'info', 'loader', 'social_proof'].includes(kind) && steps.length > 1
+          && !s.inputs.some(i => i.type !== 'checkbox') && PAYWALL_HINT.test(s.text) && !(s.text.match(PRICE) || []).length) {
+        log(app.id, 'paywall without prices yet, waiting up to 60s for the plans');
+        for (let w = 0; w < 30; w++) {
+          await sleep(2000);
+          const t = await page.evaluate(() => document.body?.innerText || '').catch(() => '');
+          PRICE.lastIndex = 0;
+          if ((t.match(PRICE) || []).length >= 2) break;
+        }
+        await settle(page, 2000);
+        s = await inspect(page); kind = classify(s);
+        if (kind !== 'paywall') { kind = 'paywall'; plansMissing = true; log(app.id, 'plans did not load'); }
+        else log(app.id, 'plans loaded');
+      }
       const nkey = normText(s.text).slice(0, 2000) + '|' + s.imgs.slice(0, 600); // image-only screens (statement cards) differ only by picture
       // The screen behind a popup: link it to the popup (it may be a screen recorded just before).
       const lastStep = steps[steps.length - 1];
@@ -480,7 +501,7 @@ async function walk(browser, app, entry, dir, idx = 0, ctl = {}, variant = null,
         const n = steps.length + 1;
         const file = String(n).padStart(2, '0') + '.webp';
         const { dhash, h } = await shot(page, path.join(dir, file));
-        steps.push({ n, file, url: s.url, path: new URL(s.url).pathname, title: s.title, kind, text: s.text.slice(0, 1500), textHash: sha(normText(s.text).slice(0, 2000) + '|' + s.alts), dhash, h, prices: [...new Set(s.text.match(PRICE) || [])].slice(0, 12) });
+        steps.push({ n, file, url: s.url, path: new URL(s.url).pathname, title: s.title, kind, text: s.text.slice(0, 1500), textHash: sha(normText(s.text).slice(0, 2000) + '|' + s.alts), dhash, h, prices: [...new Set(s.text.match(PRICE) || [])].slice(0, 12), ...(plansMissing ? { plansMissing: true } : {}) });
         lastKey = nkey;
         // Funnel sent us back to its start (e.g. after the email or sign-up): drop that screen and stop.
         const early = new Set(steps.slice(0, 3).map(x => x.path));
@@ -499,7 +520,7 @@ async function walk(browser, app, entry, dir, idx = 0, ctl = {}, variant = null,
       seen.set(nkey, (seen.get(nkey) || 0) + 1);
       if (seen.get(nkey) > 4) { stop = 'stuck'; break; }
       if (isStoreOrSocial(host)) { stop = 'app_store'; break; }
-      if (kind === 'paywall' && steps.length > 1) { stop = 'paywall'; break; }
+      if (kind === 'paywall' && steps.length > 1) { stop = plansMissing ? 'paywall_incomplete' : 'paywall'; break; }
       if (kind === 'payment') { stop = 'payment_form'; break; }
       // Email verification code: read it from the test inbox (only mail to this funnel's plus-address).
       if (VERIFY.test(s.text) && kind !== 'account') {
@@ -791,9 +812,20 @@ async function main() {
       const ctl = {};
       const timer = setTimeout(() => { ctl.timedOut = true; log(app.id, `time limit (${FUNNEL_MAX_MS / 60e3} min) reached, closing`); ctl.ctx?.close().catch(() => {}); }, FUNNEL_MAX_MS);
       const t0 = Date.now();
-      const r = await walk(await browserFor(app), app, e.url, fdir, ei, ctl, v, e.key).catch(err => ({ steps: [], stop: 'error: ' + String(err.message || err).slice(0, 160), proxied: false, email: null }));
+      let r = await walk(await browserFor(app), app, e.url, fdir, ei, ctl, v, e.key).catch(err => ({ steps: [], stop: 'error: ' + String(err.message || err).slice(0, 160), proxied: false, email: null }));
       clearTimeout(timer);
-      const f = { ...e, dir: path.relative(RUN, fdir), stop: r.stop, proxied: r.proxied, email: r.email, emailNote: r.emailNote, signedUp: r.signedUp || null, restartUrl: r.restartUrl || null, finalUrl: r.finalUrl || null, exitCountry: r.exitCountry || null, steps: r.steps, features: features(r.steps, r.stop) };
+      // Plans didn't load through the proxy: walk the funnel once more without it (US apps only — the runner is in the US).
+      if (r.stop === 'paywall_incomplete' && r.proxied && app.geo !== 'GB') {
+        log(app.id, 'plans did not load through the proxy, retrying without it');
+        for (const x of fs.readdirSync(fdir)) if (/\.webp$|stuck\.html$/.test(x)) fs.rmSync(path.join(fdir, x));
+        const ctl2 = { noProxy: true };
+        const timer2 = setTimeout(() => { ctl2.timedOut = true; ctl2.ctx?.close().catch(() => {}); }, FUNNEL_MAX_MS);
+        const r2 = await walk(await browserFor(app), app, e.url, fdir, ei + 5, ctl2, v, e.key).catch(err => ({ steps: [], stop: 'error: ' + String(err.message || err).slice(0, 160), proxied: false }));
+        clearTimeout(timer2);
+        r = { ...r2, retriedWithoutProxy: true, firstStop: r.stop };
+        log(app.id, `retry without proxy: stop=${r.stop}`);
+      }
+      const f = { ...e, dir: path.relative(RUN, fdir), stop: r.stop, proxied: r.proxied, email: r.email, emailNote: r.emailNote, signedUp: r.signedUp || null, restartUrl: r.restartUrl || null, finalUrl: r.finalUrl || null, exitCountry: r.exitCountry || null, retriedWithoutProxy: !!r.retriedWithoutProxy, steps: r.steps, features: features(r.steps, r.stop) };
       writeJSON(path.join(fdir, 'steps.json'), f);
       index.funnels.push({ key: e.key, dir: f.dir, stop: r.stop, steps: r.steps.length, why: e.why, ads: e.ads });
       log('✓', app.id, `${r.steps.length} screens, stop=${r.stop}, ${Math.round((Date.now() - t0) / 1000)}s${r.emailNote ? ` (email step: ${r.emailNote})` : ''}`);

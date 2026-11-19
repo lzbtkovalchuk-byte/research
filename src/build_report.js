@@ -28,7 +28,7 @@ const STOP = {
   paywall: 'reached the paywall', account_creation: 'stops at account creation (needs a password)', payment_form: 'stops at the payment form',
   email_gate: 'stops at the email gate (no test email set)', email_verification: 'stops at the email verification code', app_store: 'sends people to the app store',
   stuck: 'the automatic walk got stuck', looped_to_start: 'goes back to its first screen (account needed to go further)',
-  email_loop: 'goes back to its first screen after the email', email_code_not_received: 'the email code did not arrive in the test inbox', email_rejected: 'rejects the test email', popup_blocked: 'a popup could not be closed',
+  email_loop: 'goes back to its first screen after the email', paywall_incomplete: 'reached the paywall, but its plans didn’t load', email_code_not_received: 'the email code did not arrive in the test inbox', email_rejected: 'rejects the test email', popup_blocked: 'a popup could not be closed',
   timeout: 'the walk timed out', max_steps: 'step limit reached',
 };
 const stopText = f => { const [s0, extra] = String(f.stop).split('+'); const t = STOP[s0] || (s0.startsWith('error') ? 'the page failed to load' : s0); return extra === 'paywall_direct' ? `${t}; paywall opened directly` : t; };
@@ -82,7 +82,7 @@ function card(app, it, keys) {
   const tt = s => (s?.title || 'untitled screen').slice(0, 70);
   const title = n?.title || ({ Changed: () => `“${tt(it.cur)}” changed`, Replaced: () => `New screen “${tt(it.cur)}” replaces “${tt(it.prev)}”`, New: () => `New screen: “${tt(it.cur)}”`, Removed: () => `Screen removed: “${tt(it.prev)}”`, Popup: () => `Popup: “${tt(it.cur)}”` })[it.type]();
   const notes = n?.notes?.length ? n.notes : [({ Changed: () => 'Changed areas are boxed in yellow.', Replaced: () => 'The screen at this point of the funnel is different.', New: () => 'This screen was not in the previous run.', Removed: () => 'This screen is no longer in the funnel.', Popup: () => `Closed automatically (${it.cur?.closed || 'closed'}) and the screen behind it was captured.` })[it.type]()];
-  const label = `${KIND[(it.cur || it.prev).kind] || 'Screen'}, step ${(it.cur || it.prev).n}`;
+  const label = `${(it.cur || it.prev).plansMissing ? 'Paywall (plans didn’t load)' : KIND[(it.cur || it.prev).kind] || 'Screen'}, step ${(it.cur || it.prev).n}`;
   const cap = (s, when) => `${app.name} · ${when} · ${s.n}. ${s.title || ''}`;
   let pair;
   if (it.type === 'Popup') pair = `<div class="pair">${phone(path.join(it.curDir, it.cur.file), cap(it.cur, 'popup'), 'cur', 'Popup', [], it.cur.h)}${it.behind ? phone(path.join(it.curDir, it.behind.file), cap(it.behind, 'behind the popup'), 'prev', 'Behind the popup', [], it.behind.h) : ''}</div>`;
@@ -123,7 +123,7 @@ const perApp = apps.map(app => {
   const screens = ac.count;
   const links = linkChanges(app.id);
   const ads = dApp(app.id).ads;
-  const noPaywall = list.filter(f => !f.steps.some(s => s.kind === 'paywall'));
+  const noPaywall = list.filter(f => !f.steps.some(s => s.kind === 'paywall' && !s.plansMissing));
   let line = A.what_changed?.[app.id];
   if (!line) {
     if (firstRun) line = 'First capture.';

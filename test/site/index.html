@@ -19,6 +19,9 @@ const S=[
  ()=>`<h1>What's your name?</h1><input placeholder="Name"><button onclick="go()">Continue</button>`,
  ()=>{ const pay=`<h1>Your plan is ready! 60% off</h1><p>Offer ends in 09:59</p><div class="opt">4 week plan $15.19 then $38.99 per 4 weeks</div><div class="opt">12 week plan $31.99</div><p>28-day money-back guarantee</p><button>Get my plan</button>`;
    // tall=1: the paywall scrolls inside a fixed-height container (full-page capture must expand it)
+   // slowplans=N: the paywall shows its header first and the plans after N seconds (slowplans=never: plans never load).
+   if (q.get('slowplans')) { const n=q.get('slowplans'); if (n!=='never') setTimeout(()=>{ const d=document.getElementById('plans'); if(d) d.outerHTML=pay; }, Number(n)*1000);
+     return `<h1>Start your 7-day free trial</h1><p>Your 50% discount ends soon</p><div id="plans">⟳</div>`; }
    const body = q.get('tall') ? `<div id="scroller" style="position:fixed;inset:0;overflow-y:auto;padding:16px;background:#fff">${pay}${Array.from({length:14},(_,k)=>`<p class="opt">Review ${k+1}: great app, I sing every day now.</p>`).join('')}<p id="bottom">What you get: 200 lessons, money-back guarantee, cancel anytime.</p></div>` : pay;
    // popup=1: a gift popup over the paywall
    if (q.get('popup')) setTimeout(()=>{ const d=document.createElement('div'); d.id='gift'; d.style.cssText='position:fixed;inset:0;z-index:50;background:rgba(0,0,0,.6);display:flex;align-items:center;justify-content:center';
