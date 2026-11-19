@@ -6,13 +6,13 @@
   "adShot": null,
   "adId": null,
   "dir": "funnels/yousician/1c0c131f25e6",
-  "stop": "paywall",
+  "stop": "stuck",
   "proxied": true,
-  "email": "yelyzavetabazyla+fw2611141144yousician11@gmail.com",
+  "email": "yelyzavetabazyla+fw2611141147yousician11@gmail.com",
   "emailNote": null,
   "signedUp": null,
   "restartUrl": null,
-  "finalUrl": "https://yousician.com/black-friday",
+  "finalUrl": "https://yousician.com/get-plan",
   "exitCountry": "US",
   "retriedWithoutProxy": false,
   "steps": [
@@ -22,7 +22,7 @@
       "url": "https://yousician.com/?utm_source=facebook",
       "path": "/",
       "title": "Unleash your inner musician with Yousician",
-      "kind": "paywall",
+      "kind": "info",
       "text": "BLACK FRIDAY DEAL\nSPECIAL PRICE ON PREMIUM+\nSee offer now\nInstruments\nBlog\nFamily plan\nHelp\nLanguages\nLog in\nLet's get started\nUnleash your inner musician with Yousician\nThe first step of learning to play an instrument? Wanting to play. Explore your love of music with us, whether you’re a complete beginner or a seasoned pro. Let’s play!\nLet’s get started\nGuitar\nPiano\nBass\nUkulele\nSinging\nFUN & EASY\nLearn to play music at home, at your own pace\nYousician makes learning to play an instrument fun and easy, no matter your skill level.\nFollow lesson plans created by real music teachers, learn fast with interactive tutorials, and stay motivated with goals and progress tracking.\nOur award-winning technology listens to you play and gives instant feedback on your accuracy and timing. You always know when you’re hitting the right notes.\n20M+\nYousician and GuitarTuna monthly active users\n17 min\nAverage session length\n2000+\nNumber of songs\n9000+\nNumber of lessons\n\"Yousician raises $28M to make music education more accessible\"\nRead more\n\"Want Guitar Lessons From Metallica? Music education platform Yousician is launching its first-ever artist partnership series with lessons by Metallica, Jason Mraz and Juanes.\"\nRead more\n\"It’s All In The Game—Growing A $50 Million Music Education Business In A Crowded Market\"\nRead more\nPLAY\nFun, easy-to-follow lessons\nPlay along with the app and get instant feedback on your precision and timing. Earn rewards, beat high scores, and level up as you learn new",
       "textHash": "e7b6851c8371",
       "dhash": "0000011110010111101000011100000011010110101000001010000010000000",
@@ -42,7 +42,7 @@
       "url": "https://yousician.com/black-friday",
       "path": "/black-friday",
       "title": "− 78%",
-      "kind": "paywall",
+      "kind": "info",
       "text": "Get the app\nHelp\nLanguages\nchevron_down\nEnglish\nFrançais\nDeutsch\nEspañol\nItaliano\nPortuguês\nРусский\n日本語\n简体中文\n繁體中文\nprofile\nLogin\nBlack Friday Deal\n−\n78%\nLimited offer\n12 months\n1 account\n$89.90\n$359.88\n14-day money-back guarantee\nSee all plans\n*Price compared to the total cost of recurring 1-month subscription over 12 months. Renews at $159.99. Cancel anytime.\nFor every\nskill level\nPersonalized\nlearning path\nReal-time\nfeedback\nProgress in only\n10 min / day\nLearning with\nsongs you love\nChoose your instrument\nLearn guitar, piano, ukulele, bass guitar and singing with Yousician! Master one or explore them all with lessons for all five instruments. Play your real instrument and follow the learning path created by music experts to learn and level up.\nFollow step-by-step tutorials\nYousician’s bite-sized tutorials make learning to play an instrument fun and easy. Make real progress while learning essential skills like chords, melodies and more with interactive lessons and real-time feedback.\nAccess to all songs, courses & exercises\nLearn to play your favorite songs by artists you love with unlimited access to our library of 10,000+ popular songs and lessons. Complete challenges, earn badges, track your progress and more!\n“Yousician is easy to follow and offers helpful visual feedback ... its extensive lessons on technique and music theory make it clear that Yousician is no toy.”\n“It’s the closest you’ll get to a real-instrument version of Guitar Hero.”\n“If you’re looking for an engag",
       "textHash": "dee1d39cdb0f",
       "dhash": "0000011100001011001110010011001100000101010010010101010100000001",
@@ -51,26 +51,165 @@
         "$89.90",
         "$359.88",
         "$159.99"
+      ],
+      "action": {
+        "answerSource": "default",
+        "opt": "Yousician_Logo"
+      }
+    },
+    {
+      "n": 3,
+      "file": "03.webp",
+      "url": "https://yousician.com/",
+      "path": "/",
+      "title": "Unleash your inner musician with Yousician",
+      "kind": "info",
+      "text": "BLACK FRIDAY DEAL\nSPECIAL PRICE ON PREMIUM+\nSee offer now\nInstruments\nBlog\nFamily plan\nHelp\nLanguages\nLog in\nLet's get started\nUnleash your inner musician with Yousician\nThe first step of learning to play an instrument? Wanting to play. Explore your love of music with us, whether you’re a complete beginner or a seasoned pro. Let’s play!\nLet’s get started\nGuitar\nPiano\nBass\nUkulele\nSinging\nFUN & EASY\nLearn to play music at home, at your own pace\nYousician makes learning to play an instrument fun and easy, no matter your skill level.\nFollow lesson plans created by real music teachers, learn fast with interactive tutorials, and stay motivated with goals and progress tracking.\nOur award-winning technology listens to you play and gives instant feedback on your accuracy and timing. You always know when you’re hitting the right notes.\n20M+\nYousician and GuitarTuna monthly active users\n17 min\nAverage session length\n2000+\nNumber of songs\n9000+\nNumber of lessons\n\"Yousician raises $28M to make music education more accessible\"\nRead more\n\"Want Guitar Lessons From Metallica? Music education platform Yousician is launching its first-ever artist partnership series with lessons by Metallica, Jason Mraz and Juanes.\"\nRead more\n\"It’s All In The Game—Growing A $50 Million Music Education Business In A Crowded Market\"\nRead more\nPLAY\nFun, easy-to-follow lessons\nPlay along with the app and get instant feedback on your precision and timing. Earn rewards, beat high scores, and level up as you learn new",
+      "textHash": "e7b6851c8371",
+      "dhash": "0000011110010111101000011100000011010110101000001010000010000000",
+      "h": 6000,
+      "prices": [
+        "$28",
+        "$50"
+      ],
+      "action": {
+        "answerSource": "default",
+        "opt": "See offer now"
+      }
+    },
+    {
+      "n": 4,
+      "file": "04.webp",
+      "url": "https://yousician.com/black-friday",
+      "path": "/black-friday",
+      "title": "− 78%",
+      "kind": "info",
+      "text": "Get the app\nHelp\nLanguages\nchevron_down\nEnglish\nFrançais\nDeutsch\nEspañol\nItaliano\nPortuguês\nРусский\n日本語\n简体中文\n繁體中文\nprofile\nLogin\nBlack Friday Deal\n−\n78%\nLimited offer\n12 months\n1 account\n$89.90\n$359.88\n14-day money-back guarantee\nSee all plans\n*Price compared to the total cost of recurring 1-month subscription over 12 months. Renews at $159.99. Cancel anytime.\nFor every\nskill level\nPersonalized\nlearning path\nReal-time\nfeedback\nProgress in only\n10 min / day\nLearning with\nsongs you love\nChoose your instrument\nLearn guitar, piano, ukulele, bass guitar and singing with Yousician! Master one or explore them all with lessons for all five instruments. Play your real instrument and follow the learning path created by music experts to learn and level up.\nFollow step-by-step tutorials\nYousician’s bite-sized tutorials make learning to play an instrument fun and easy. Make real progress while learning essential skills like chords, melodies and more with interactive lessons and real-time feedback.\nAccess to all songs, courses & exercises\nLearn to play your favorite songs by artists you love with unlimited access to our library of 10,000+ popular songs and lessons. Complete challenges, earn badges, track your progress and more!\n“Yousician is easy to follow and offers helpful visual feedback ... its extensive lessons on technique and music theory make it clear that Yousician is no toy.”\n“It’s the closest you’ll get to a real-instrument version of Guitar Hero.”\n“If you’re looking for an engag",
+      "textHash": "dee1d39cdb0f",
+      "dhash": "0000011100001011001110010011001100000101010010010101010100000001",
+      "h": 6000,
+      "prices": [
+        "$89.90",
+        "$359.88",
+        "$159.99"
+      ],
+      "action": {
+        "answerSource": "default",
+        "opt": "Yousician_Logo"
+      }
+    },
+    {
+      "n": 5,
+      "file": "05.webp",
+      "url": "https://yousician.com/",
+      "path": "/",
+      "title": "Unleash your inner musician with Yousician",
+      "kind": "info",
+      "text": "BLACK FRIDAY DEAL\nSPECIAL PRICE ON PREMIUM+\nSee offer now\nInstruments\nBlog\nFamily plan\nHelp\nLanguages\nLog in\nLet's get started\nUnleash your inner musician with Yousician\nThe first step of learning to play an instrument? Wanting to play. Explore your love of music with us, whether you’re a complete beginner or a seasoned pro. Let’s play!\nLet’s get started\nGuitar\nPiano\nBass\nUkulele\nSinging\nFUN & EASY\nLearn to play music at home, at your own pace\nYousician makes learning to play an instrument fun and easy, no matter your skill level.\nFollow lesson plans created by real music teachers, learn fast with interactive tutorials, and stay motivated with goals and progress tracking.\nOur award-winning technology listens to you play and gives instant feedback on your accuracy and timing. You always know when you’re hitting the right notes.\n20M+\nYousician and GuitarTuna monthly active users\n17 min\nAverage session length\n2000+\nNumber of songs\n9000+\nNumber of lessons\n\"Yousician raises $28M to make music education more accessible\"\nRead more\n\"Want Guitar Lessons From Metallica? Music education platform Yousician is launching its first-ever artist partnership series with lessons by Metallica, Jason Mraz and Juanes.\"\nRead more\n\"It’s All In The Game—Growing A $50 Million Music Education Business In A Crowded Market\"\nRead more\nPLAY\nFun, easy-to-follow lessons\nPlay along with the app and get instant feedback on your precision and timing. Earn rewards, beat high scores, and level up as you learn new",
+      "textHash": "e7b6851c8371",
+      "dhash": "0000011110010111101000011100000011010110101000001010000010000000",
+      "h": 6000,
+      "prices": [
+        "$28",
+        "$50"
+      ],
+      "action": {
+        "answerSource": "default",
+        "opt": "See offer now"
+      }
+    },
+    {
+      "n": 6,
+      "file": "06.webp",
+      "url": "https://yousician.com/black-friday",
+      "path": "/black-friday",
+      "title": "− 78%",
+      "kind": "info",
+      "text": "Get the app\nHelp\nLanguages\nchevron_down\nEnglish\nFrançais\nDeutsch\nEspañol\nItaliano\nPortuguês\nРусский\n日本語\n简体中文\n繁體中文\nprofile\nLogin\nBlack Friday Deal\n−\n78%\nLimited offer\n12 months\n1 account\n$89.90\n$359.88\n14-day money-back guarantee\nSee all plans\n*Price compared to the total cost of recurring 1-month subscription over 12 months. Renews at $159.99. Cancel anytime.\nFor every\nskill level\nPersonalized\nlearning path\nReal-time\nfeedback\nProgress in only\n10 min / day\nLearning with\nsongs you love\nChoose your instrument\nLearn guitar, piano, ukulele, bass guitar and singing with Yousician! Master one or explore them all with lessons for all five instruments. Play your real instrument and follow the learning path created by music experts to learn and level up.\nFollow step-by-step tutorials\nYousician’s bite-sized tutorials make learning to play an instrument fun and easy. Make real progress while learning essential skills like chords, melodies and more with interactive lessons and real-time feedback.\nAccess to all songs, courses & exercises\nLearn to play your favorite songs by artists you love with unlimited access to our library of 10,000+ popular songs and lessons. Complete challenges, earn badges, track your progress and more!\n“Yousician is easy to follow and offers helpful visual feedback ... its extensive lessons on technique and music theory make it clear that Yousician is no toy.”\n“It’s the closest you’ll get to a real-instrument version of Guitar Hero.”\n“If you’re looking for an engag",
+      "textHash": "dee1d39cdb0f",
+      "dhash": "0000011100001011001110010011001100000101010010010101010100000001",
+      "h": 6000,
+      "prices": [
+        "$89.90",
+        "$359.88",
+        "$159.99"
+      ],
+      "action": {
+        "answerSource": "default",
+        "opt": "Yousician_Logo"
+      }
+    },
+    {
+      "n": 7,
+      "file": "07.webp",
+      "url": "https://yousician.com/",
+      "path": "/",
+      "title": "Unleash your inner musician with Yousician",
+      "kind": "info",
+      "text": "BLACK FRIDAY DEAL\nSPECIAL PRICE ON PREMIUM+\nSee offer now\nInstruments\nBlog\nFamily plan\nHelp\nLanguages\nLog in\nLet's get started\nUnleash your inner musician with Yousician\nThe first step of learning to play an instrument? Wanting to play. Explore your love of music with us, whether you’re a complete beginner or a seasoned pro. Let’s play!\nLet’s get started\nGuitar\nPiano\nBass\nUkulele\nSinging\nFUN & EASY\nLearn to play music at home, at your own pace\nYousician makes learning to play an instrument fun and easy, no matter your skill level.\nFollow lesson plans created by real music teachers, learn fast with interactive tutorials, and stay motivated with goals and progress tracking.\nOur award-winning technology listens to you play and gives instant feedback on your accuracy and timing. You always know when you’re hitting the right notes.\n20M+\nYousician and GuitarTuna monthly active users\n17 min\nAverage session length\n2000+\nNumber of songs\n9000+\nNumber of lessons\n\"Yousician raises $28M to make music education more accessible\"\nRead more\n\"Want Guitar Lessons From Metallica? Music education platform Yousician is launching its first-ever artist partnership series with lessons by Metallica, Jason Mraz and Juanes.\"\nRead more\n\"It’s All In The Game—Growing A $50 Million Music Education Business In A Crowded Market\"\nRead more\nPLAY\nFun, easy-to-follow lessons\nPlay along with the app and get instant feedback on your precision and timing. Earn rewards, beat high scores, and level up as you learn new",
+      "textHash": "e7b6851c8371",
+      "dhash": "0000011110010111101000011100000011010110101000001010000010000000",
+      "h": 6000,
+      "prices": [
+        "$28",
+        "$50"
+      ],
+      "action": {
+        "answerSource": "default",
+        "opt": "See offer now"
+      }
+    },
+    {
+      "n": 8,
+      "file": "08.webp",
+      "url": "https://yousician.com/black-friday",
+      "path": "/black-friday",
+      "title": "− 78%",
+      "kind": "info",
+      "text": "Get the app\nHelp\nLanguages\nchevron_down\nEnglish\nFrançais\nDeutsch\nEspañol\nItaliano\nPortuguês\nРусский\n日本語\n简体中文\n繁體中文\nprofile\nLogin\nBlack Friday Deal\n−\n78%\nLimited offer\n12 months\n1 account\n$89.90\n$359.88\n14-day money-back guarantee\nSee all plans\n*Price compared to the total cost of recurring 1-month subscription over 12 months. Renews at $159.99. Cancel anytime.\nFor every\nskill level\nPersonalized\nlearning path\nReal-time\nfeedback\nProgress in only\n10 min / day\nLearning with\nsongs you love\nChoose your instrument\nLearn guitar, piano, ukulele, bass guitar and singing with Yousician! Master one or explore them all with lessons for all five instruments. Play your real instrument and follow the learning path created by music experts to learn and level up.\nFollow step-by-step tutorials\nYousician’s bite-sized tutorials make learning to play an instrument fun and easy. Make real progress while learning essential skills like chords, melodies and more with interactive lessons and real-time feedback.\nAccess to all songs, courses & exercises\nLearn to play your favorite songs by artists you love with unlimited access to our library of 10,000+ popular songs and lessons. Complete challenges, earn badges, track your progress and more!\n“Yousician is easy to follow and offers helpful visual feedback ... its extensive lessons on technique and music theory make it clear that Yousician is no toy.”\n“It’s the closest you’ll get to a real-instrument version of Guitar Hero.”\n“If you’re looking for an engag",
+      "textHash": "dee1d39cdb0f",
+      "dhash": "0000011100001011001110010011001100000101010010010101010100000001",
+      "h": 6000,
+      "prices": [
+        "$89.90",
+        "$359.88",
+        "$159.99"
+      ],
+      "action": {
+        "answerSource": "default",
+        "opt": "Yousician_Logo"
+      }
+    },
+    {
+      "n": 9,
+      "file": "09.webp",
+      "url": "https://yousician.com/",
+      "path": "/",
+      "title": "Unleash your inner musician with Yousician",
+      "kind": "info",
+      "text": "BLACK FRIDAY DEAL\nSPECIAL PRICE ON PREMIUM+\nSee offer now\nInstruments\nBlog\nFamily plan\nHelp\nLanguages\nLog in\nLet's get started\nUnleash your inner musician with Yousician\nThe first step of learning to play an instrument? Wanting to play. Explore your love of music with us, whether you’re a complete beginner or a seasoned pro. Let’s play!\nLet’s get started\nGuitar\nPiano\nBass\nUkulele\nSinging\nFUN & EASY\nLearn to play music at home, at your own pace\nYousician makes learning to play an instrument fun and easy, no matter your skill level.\nFollow lesson plans created by real music teachers, learn fast with interactive tutorials, and stay motivated with goals and progress tracking.\nOur award-winning technology listens to you play and gives instant feedback on your accuracy and timing. You always know when you’re hitting the right notes.\n20M+\nYousician and GuitarTuna monthly active users\n17 min\nAverage session length\n2000+\nNumber of songs\n9000+\nNumber of lessons\n\"Yousician raises $28M to make music education more accessible\"\nRead more\n\"Want Guitar Lessons From Metallica? Music education platform Yousician is launching its first-ever artist partnership series with lessons by Metallica, Jason Mraz and Juanes.\"\nRead more\n\"It’s All In The Game—Growing A $50 Million Music Education Business In A Crowded Market\"\nRead more\nPLAY\nFun, easy-to-follow lessons\nPlay along with the app and get instant feedback on your precision and timing. Earn rewards, beat high scores, and level up as you learn new",
+      "textHash": "e7b6851c8371",
+      "dhash": "0000011110010111101000011100000011010110101000001010000010000000",
+      "h": 6000,
+      "prices": [
+        "$28",
+        "$50"
       ]
     }
   ],
   "features": {
-    "totalSteps": 2,
-    "stop": "paywall",
+    "totalSteps": 9,
+    "stop": "stuck",
     "emailStep": null,
-    "paywallStep": 2,
+    "paywallStep": null,
     "questions": 0,
     "socialProof": 0,
     "popups": 0,
     "loader": false,
-    "prices": [
-      "$89.90",
-      "$359.88",
-      "$159.99"
-    ],
+    "prices": [],
     "discount": null,
     "timer": false,
     "trial": false,
-    "moneyBack": true
+    "moneyBack": false
   }
 }

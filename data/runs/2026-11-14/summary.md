@@ -263,13 +263,20 @@ steps=7 stop=stuck email@— paywall@— popups=0 prices=— discount=— timer=
 - [CHANGED] screen 5 question "What kinds of songs do you like to sing?" (0 changed regions): data/runs/2026-10-30/funnels/simply-sing/228524b7bc31/05.webp → data/runs/2026-11-14/funnels/simply-sing/228524b7bc31/05.webp
 
 ### yousician — Yousician [vocal] — yousician.com/black-friday/guitar
-steps=2 stop=paywall email@— paywall@2 popups=0 prices=$28 $50 discount=— timer=false trial=false moneyBack=false
+steps=10 stop=stuck email@— paywall@— popups=0 prices=— discount=— timer=false trial=false moneyBack=false
 first capture of this funnel (no comparison)
 
 ### yousician — Yousician [vocal] — yousician.com/
-steps=2 stop=paywall email@— paywall@2 popups=0 prices=$89.90 $359.88 $159.99 discount=— timer=false trial=false moneyBack=true
-- [CHANGED] screen 1 paywall "Unleash your inner musician with Yousician" (4 changed regions): data/runs/2026-10-30/funnels/yousician/1c0c131f25e6/01.webp → data/runs/2026-11-14/funnels/yousician/1c0c131f25e6/01.webp
-- [NEW] screen 2 paywall "− 78%": data/runs/2026-11-14/funnels/yousician/1c0c131f25e6/02.webp
+steps=9 stop=stuck email@— paywall@— popups=0 prices=— discount=— timer=false trial=false moneyBack=false
+- [CHANGED] screen 1 info "Unleash your inner musician with Yousician" (4 changed regions): data/runs/2026-10-30/funnels/yousician/1c0c131f25e6/01.webp → data/runs/2026-11-14/funnels/yousician/1c0c131f25e6/01.webp
+- [NEW] screen 2 info "− 78%": data/runs/2026-11-14/funnels/yousician/1c0c131f25e6/02.webp
+- [NEW] screen 3 info "Unleash your inner musician with Yousician": data/runs/2026-11-14/funnels/yousician/1c0c131f25e6/03.webp
+- [NEW] screen 4 info "− 78%": data/runs/2026-11-14/funnels/yousician/1c0c131f25e6/04.webp
+- [NEW] screen 5 info "Unleash your inner musician with Yousician": data/runs/2026-11-14/funnels/yousician/1c0c131f25e6/05.webp
+- [NEW] screen 6 info "− 78%": data/runs/2026-11-14/funnels/yousician/1c0c131f25e6/06.webp
+- [NEW] screen 7 info "Unleash your inner musician with Yousician": data/runs/2026-11-14/funnels/yousician/1c0c131f25e6/07.webp
+- [NEW] screen 8 info "− 78%": data/runs/2026-11-14/funnels/yousician/1c0c131f25e6/08.webp
+- [NEW] screen 9 info "Unleash your inner musician with Yousician": data/runs/2026-11-14/funnels/yousician/1c0c131f25e6/09.webp
 - [REMOVED] previous screen 2 question "Choose your instrument": data/runs/2026-10-30/funnels/yousician/1c0c131f25e6/02.webp
 - [REMOVED] previous screen 3 question "What’s your current level?": data/runs/2026-10-30/funnels/yousician/1c0c131f25e6/03.webp
 - [REMOVED] previous screen 4 question "Pick 1 or more you’d like to play": data/runs/2026-10-30/funnels/yousician/1c0c131f25e6/04.webp

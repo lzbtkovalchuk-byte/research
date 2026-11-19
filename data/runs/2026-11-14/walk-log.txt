@@ -131,3 +131,13 @@ Call log:
 11:45:12 → yousician yousician.com/
 11:45:13 yousician proxy US: exit country US
 11:45:38 ✓ yousician 2 screens, stop=paywall, 26s
+11:47:27 answer memory: 629 answers from 3 earlier runs
+11:47:27 walking 1 apps, 3 at a time
+11:47:27 PROXY_UK: set, http://…:823
+11:47:27 PROXY_US: set, http://…:823
+11:47:27 → yousician yousician.com/black-friday/guitar
+11:47:29 yousician proxy US: exit country US
+11:50:39 ✓ yousician 10 screens, stop=stuck, 192s
+11:50:39 → yousician yousician.com/
+11:50:39 yousician proxy US: exit country US
+11:53:33 ✓ yousician 9 screens, stop=stuck, 175s
