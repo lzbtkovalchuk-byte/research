@@ -121,3 +121,13 @@ Call log:
 11:25:16 simply-draw plans did not load through the proxy, retrying without it
 11:26:22 simply-draw retry without proxy: stop=paywall
 11:26:22 ✓ simply-draw 3 screens, stop=paywall, 180s
+11:44:43 answer memory: 629 answers from 3 earlier runs
+11:44:43 walking 1 apps, 3 at a time
+11:44:43 PROXY_UK: set, http://…:823
+11:44:43 PROXY_US: set, http://…:823
+11:44:43 → yousician yousician.com/black-friday/guitar
+11:44:44 yousician proxy US: exit country US
+11:45:12 ✓ yousician 2 screens, stop=paywall, 29s
+11:45:12 → yousician yousician.com/
+11:45:13 yousician proxy US: exit country US
+11:45:38 ✓ yousician 2 screens, stop=paywall, 26s

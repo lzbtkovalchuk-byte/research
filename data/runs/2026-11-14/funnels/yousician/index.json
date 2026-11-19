@@ -11,13 +11,13 @@
       "stop": "paywall",
       "steps": 2,
       "why": "ad",
-      "ads": 1
+      "ads": 12
     },
     {
       "key": "yousician.com/",
       "dir": "funnels/yousician/1c0c131f25e6",
-      "stop": "stuck",
-      "steps": 1,
+      "stop": "paywall",
+      "steps": 2,
       "why": "seed",
       "ads": 0
     }

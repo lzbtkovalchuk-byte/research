@@ -14,7 +14,7 @@ screenshot paths to open (previous → current). Open only those.
 | Learna | vocal+drawing | US | 452 | -492 | 88 |
 | Copymind | vocal+drawing | GB | 0 | 0 | 0 |
 | Simply Sing | vocal | US | 79 | -3 | 11 |
-| Yousician | vocal | US | 33 | 5 | 32 |
+| Yousician | vocal | US | 38 | 10 | 30 |
 | SmartyMe | drawing | US | 153 | -15 | 112 |
 | Simply Draw | drawing | US | 6 | -3 | 0 |
 
@@ -23,7 +23,7 @@ screenshot paths to open (previous → current). Open only those.
 - chillio (Chillio): removed quiz.get-chillio.app/qs/nutrition-ai (2 ads)
 - learna (Learna): new onboarding.ailearna.com/onboarding-x5j8n9p2k7m4 (19 ads)
 - learna (Learna): removed instagram.com/_u/carmen.aprendeingles (14 ads)
-- yousician (Yousician): new yousician.com/black-friday/guitar (1 ads)
+- yousician (Yousician): new yousician.com/black-friday/guitar (12 ads)
 - yousician (Yousician): removed yousician.com/ (6 ads)
 
 ## Funnels
@@ -267,9 +267,9 @@ steps=2 stop=paywall email@— paywall@2 popups=0 prices=$28 $50 discount=— ti
 first capture of this funnel (no comparison)
 
 ### yousician — Yousician [vocal] — yousician.com/
-steps=1 stop=stuck email@— paywall@— popups=0 prices=— discount=— timer=false trial=false moneyBack=false
-- [NEW] screen 1 info "403 ERROR": data/runs/2026-11-14/funnels/yousician/1c0c131f25e6/01.webp
-- [REMOVED] previous screen 1 paywall "Unleash your inner musician with Yousician": data/runs/2026-10-30/funnels/yousician/1c0c131f25e6/01.webp
+steps=2 stop=paywall email@— paywall@2 popups=0 prices=$89.90 $359.88 $159.99 discount=— timer=false trial=false moneyBack=true
+- [CHANGED] screen 1 paywall "Unleash your inner musician with Yousician" (4 changed regions): data/runs/2026-10-30/funnels/yousician/1c0c131f25e6/01.webp → data/runs/2026-11-14/funnels/yousician/1c0c131f25e6/01.webp
+- [NEW] screen 2 paywall "− 78%": data/runs/2026-11-14/funnels/yousician/1c0c131f25e6/02.webp
 - [REMOVED] previous screen 2 question "Choose your instrument": data/runs/2026-10-30/funnels/yousician/1c0c131f25e6/02.webp
 - [REMOVED] previous screen 3 question "What’s your current level?": data/runs/2026-10-30/funnels/yousician/1c0c131f25e6/03.webp
 - [REMOVED] previous screen 4 question "Pick 1 or more you’d like to play": data/runs/2026-10-30/funnels/yousician/1c0c131f25e6/04.webp

@@ -4175,17 +4175,17 @@
     },
     "yousician": {
       "ads": {
-        "active": 33,
+        "active": 38,
         "prevActive": 28,
-        "delta": 5,
-        "newInWindow": 32,
-        "newCreatives": 20
+        "delta": 10,
+        "newInWindow": 30,
+        "newCreatives": 24
       },
       "links": [
         {
           "status": "same",
           "key": "play.google.com/store/apps/details?id=com.yousician.yousician",
-          "ads": 25,
+          "ads": 12,
           "prevAds": 18,
           "first": "2026-11-11",
           "store": true
@@ -4195,13 +4195,13 @@
           "key": "itunes.apple.com/app/id959883039",
           "ads": 6,
           "prevAds": 4,
-          "first": "2026-11-11",
+          "first": "2026-11-16",
           "store": true
         },
         {
           "status": "new",
           "key": "yousician.com/black-friday/guitar",
-          "ads": 1,
+          "ads": 12,
           "first": "2026-11-10",
           "store": false
         },
@@ -4233,16 +4233,42 @@
           "prevSteps": 9,
           "status": [
             {
+              "s": "changed",
+              "prev": 1,
+              "why": "text",
+              "prevFile": "01.webp",
+              "boxes": [
+                {
+                  "t": 0,
+                  "l": 0,
+                  "w": 100,
+                  "h": 45.05
+                },
+                {
+                  "t": 45.6,
+                  "l": 1.54,
+                  "w": 93.08,
+                  "h": 29.05
+                },
+                {
+                  "t": 77.35,
+                  "l": 1.54,
+                  "w": 93.08,
+                  "h": 6.8
+                },
+                {
+                  "t": 86.85,
+                  "l": 1.54,
+                  "w": 96.92,
+                  "h": 8.05
+                }
+              ]
+            },
+            {
               "s": "new"
             }
           ],
           "removed": [
-            {
-              "n": 1,
-              "title": "Unleash your inner musician with Yousician",
-              "kind": "paywall",
-              "file": "01.webp"
-            },
             {
               "n": 2,
               "title": "Choose your instrument",
