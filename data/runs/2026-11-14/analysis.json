@@ -1335,16 +1335,6 @@
    ]
   },
   {
-   "app": "simply-draw",
-   "funnel": "join-draw.hellosimply.com/start?flow=baw",
-   "n": 3,
-   "unconfirmed": true,
-   "title": "Paywall didn’t finish loading in our capture",
-   "notes": [
-    "Only the header “Start your 7-day free trial” and a loading spinner were captured, so plans and prices aren’t compared this run. Not a confirmed change."
-   ]
-  },
-  {
    "app": "simply-piano",
    "funnel": "join-piano.hellosimply.com/start#child",
    "n": 22,
@@ -1361,6 +1351,15 @@
    "funnel": "join-piano.hellosimply.com/start#adult",
    "n": 32,
    "ignore": true
+  },
+  {
+   "app": "simply-draw",
+   "funnel": "join-draw.hellosimply.com/start?flow=baw",
+   "n": 3,
+   "title": "Paywall prices differ from last run",
+   "notes": [
+    "This run: $120.00, $10.00, $14.99, $0.00. Last run: $89.99, $7.50, $15.00, $14.99."
+   ]
   }
  ],
  "amplitude": [
