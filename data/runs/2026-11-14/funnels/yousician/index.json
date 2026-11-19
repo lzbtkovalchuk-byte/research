@@ -8,15 +8,15 @@
     {
       "key": "yousician.com/black-friday/guitar",
       "dir": "funnels/yousician/cdbb1f2900a7",
-      "stop": "stuck",
-      "steps": 10,
+      "stop": "paywall",
+      "steps": 11,
       "why": "ad",
       "ads": 12
     },
     {
       "key": "yousician.com/",
       "dir": "funnels/yousician/1c0c131f25e6",
-      "stop": "stuck",
+      "stop": "paywall",
       "steps": 9,
       "why": "seed",
       "ads": 0

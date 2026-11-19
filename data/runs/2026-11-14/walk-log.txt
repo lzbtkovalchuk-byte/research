@@ -141,3 +141,15 @@ Call log:
 11:50:39 → yousician yousician.com/
 11:50:39 yousician proxy US: exit country US
 11:53:33 ✓ yousician 9 screens, stop=stuck, 175s
+11:59:49 answer memory: 683 answers from 3 earlier runs
+11:59:49 walking 1 apps, 3 at a time
+11:59:49 PROXY_UK: set, http://…:823
+11:59:49 PROXY_US: set, http://…:823
+11:59:49 → yousician yousician.com/black-friday/guitar
+11:59:50 yousician proxy US: exit country CA
+12:02:08 yousician signed up as yelyzavetabazyla+fw2611141159yousician1@gmail.com
+12:02:17 ✓ yousician 11 screens, stop=paywall, 148s
+12:02:17 → yousician yousician.com/
+12:02:17 yousician proxy US: exit country US
+12:04:14 yousician signed up as yelyzavetabazyla+fw2611141159yousician11@gmail.com
+12:04:21 ✓ yousician 9 screens, stop=paywall, 124s

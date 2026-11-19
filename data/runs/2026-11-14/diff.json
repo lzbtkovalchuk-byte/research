@@ -4246,6 +4246,9 @@
             },
             {
               "s": "baseline"
+            },
+            {
+              "s": "baseline"
             }
           ],
           "removed": []
@@ -4289,80 +4292,69 @@
               ]
             },
             {
-              "s": "new"
+              "s": "same",
+              "prev": 2,
+              "why": "",
+              "prevFile": "02.webp"
             },
             {
-              "s": "new"
+              "s": "same",
+              "prev": 3,
+              "why": "",
+              "prevFile": "03.webp"
             },
             {
-              "s": "new"
+              "s": "same",
+              "prev": 4,
+              "why": "",
+              "prevFile": "04.webp"
             },
             {
-              "s": "new"
+              "s": "same",
+              "prev": 5,
+              "why": "",
+              "prevFile": "05.webp"
             },
             {
-              "s": "new"
+              "s": "same",
+              "prev": 6,
+              "why": "",
+              "prevFile": "06.webp"
             },
             {
-              "s": "new"
+              "s": "same",
+              "prev": 7,
+              "why": "",
+              "prevFile": "07.webp"
             },
             {
-              "s": "new"
+              "s": "same",
+              "prev": 8,
+              "why": "",
+              "prevFile": "08.webp"
             },
             {
-              "s": "new"
+              "s": "changed",
+              "prev": 9,
+              "why": "text",
+              "prevFile": "09.webp",
+              "boxes": [
+                {
+                  "t": 42.86,
+                  "l": 9.23,
+                  "w": 81.54,
+                  "h": 9.22
+                },
+                {
+                  "t": 70.89,
+                  "l": 5.38,
+                  "w": 89.23,
+                  "h": 29.66
+                }
+              ]
             }
           ],
-          "removed": [
-            {
-              "n": 2,
-              "title": "Choose your instrument",
-              "kind": "question",
-              "file": "02.webp"
-            },
-            {
-              "n": 3,
-              "title": "What’s your current level?",
-              "kind": "question",
-              "file": "03.webp"
-            },
-            {
-              "n": 4,
-              "title": "Pick 1 or more you’d like to play",
-              "kind": "question",
-              "file": "04.webp"
-            },
-            {
-              "n": 5,
-              "title": "What practice suits you?",
-              "kind": "question",
-              "file": "05.webp"
-            },
-            {
-              "n": 6,
-              "title": "Great choice!",
-              "kind": "info",
-              "file": "06.webp"
-            },
-            {
-              "n": 7,
-              "title": "How your free trial works",
-              "kind": "social_proof",
-              "file": "07.webp"
-            },
-            {
-              "n": 8,
-              "title": "Create your account",
-              "kind": "account",
-              "file": "08.webp"
-            },
-            {
-              "n": 9,
-              "title": "Start your 7-day free trial",
-              "kind": "paywall",
-              "file": "09.webp"
-            }
-          ]
+          "removed": []
         }
       }
     },
