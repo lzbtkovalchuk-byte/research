@@ -3,7 +3,7 @@
  "what_changed": {
   "imprint": "No web funnel captured; the start-buddhism ad link was removed. Ads: 920 active (−80).",
   "breeze": "Early Black Friday offer on the paywall (banner + badge); smallest trial amount back to $1 from $0.99. Last question now talks about healing trauma.",
-  "simply-piano": "ESA page rebuilt into a shop with a Direct Pay invoice form (annual $169.90, bundle $209.90). Child and adult branches walked separately for the first time; both paywalls stayed on a loading spinner, so prices weren’t captured.",
+  "simply-piano": "ESA page rebuilt into a shop with a Direct Pay invoice form (annual $169.90, bundle $209.90). Child and adult branches walked separately for the first time; both reach the same paywall as before: Family $17.49/mo ($209.90/year), Individual $14.16/mo ($169.90/year), 7-day free trial.",
   "memoryos": "No changes (only the paywall timer and an empty first screen differ). 2 new ads.",
   "chillio": "New question “What would you like help with first?” in cleaning-game; paywall unchanged. nutrition-ai ad link removed.",
   "learna": "New ad link onboarding-x5j8n9p2k7m4 (19 ads) with a $1 7-day trial, then $19.99/month. Main funnel took yet another branch and showed 1 week $10 / month $30 / year $100 (unconfirmed). Active ads 452 (−492), 88 new.",
@@ -141,16 +141,6 @@
    "funnel": "join-piano.hellosimply.com/start#child",
    "n": 27,
    "ignore": true
-  },
-  {
-   "app": "simply-piano",
-   "funnel": "join-piano.hellosimply.com/start#child",
-   "n": 31,
-   "unconfirmed": true,
-   "title": "Paywall didn’t finish loading in our capture",
-   "notes": [
-    "The screenshot shows only the header and a loading spinner, so plans and prices weren’t captured this run. Not a confirmed change."
-   ]
   },
   {
    "app": "simply-piano",
@@ -330,16 +320,6 @@
    "funnel": "join-piano.hellosimply.com/start#adult",
    "n": 30,
    "ignore": true
-  },
-  {
-   "app": "simply-piano",
-   "funnel": "join-piano.hellosimply.com/start#adult",
-   "n": 32,
-   "unconfirmed": true,
-   "title": "Paywall didn’t finish loading in our capture",
-   "notes": [
-    "Only the header and a loading spinner were captured. Not a confirmed change."
-   ]
   },
   {
    "app": "simply-piano",
@@ -1363,6 +1343,24 @@
    "notes": [
     "Only the header “Start your 7-day free trial” and a loading spinner were captured, so plans and prices aren’t compared this run. Not a confirmed change."
    ]
+  },
+  {
+   "app": "simply-piano",
+   "funnel": "join-piano.hellosimply.com/start#child",
+   "n": 22,
+   "ignore": true
+  },
+  {
+   "app": "simply-piano",
+   "funnel": "join-piano.hellosimply.com/start#child",
+   "n": 31,
+   "ignore": true
+  },
+  {
+   "app": "simply-piano",
+   "funnel": "join-piano.hellosimply.com/start#adult",
+   "n": 32,
+   "ignore": true
   }
  ],
  "amplitude": [
