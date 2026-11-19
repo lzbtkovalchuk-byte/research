@@ -9,7 +9,7 @@
   "learna": "New ad link onboarding-x5j8n9p2k7m4 (19 ads) with a $1 7-day trial, then $19.99/month. Main funnel took yet another branch and showed 1 week $10 / month $30 / year $100 (unconfirmed). Active ads 452 (−492), 88 new.",
   "copymind": "No changes (first screen didn’t render in our capture; paywall same).",
   "simply-sing": "No changes (answer order only); walk still stops at the voice test.",
-  "yousician": "New Black Friday ad link (yousician.com/black-friday/guitar) with a “Special price on Premium+” banner. yousician.com returned a 403 error to our capture, so its paywall wasn’t reached. 32 new ads.",
+  "yousician": "Black Friday: the homepage now leads with “See offer now”, and the Black Friday ad link (yousician.com/black-friday/guitar) ends on its own paywall at $39.99/year ($3.33/month) after sign-up. The regular paywall is unchanged at $159.99/year ($13.33/month). 32 new ads.",
   "smartyme": "Quiz reframed around games: new headline, a “Have you ever learned through games?” question and a shorter goal list. 112 new ads.",
   "simply-draw": "Paywall prices went up: $89.99 and $7.50 last run, $120.00 and $10.00 now ($14.99 in both).",
   "skillsta-vocal-2": "No screen changes. After the email code our test still lands back on the quiz start (/quiz/standard-rate/new_vocal).",
@@ -1193,78 +1193,6 @@
    "ignore": true
   },
   {
-   "app": "yousician",
-   "funnel": "yousician.com/",
-   "n": 1,
-   "title": "Site returned a 403 error to our capture",
-   "notes": [
-    "The page showed a CloudFront “403 ERROR – Request blocked” message, so the quiz and paywall weren’t captured this run."
-   ]
-  },
-  {
-   "app": "yousician",
-   "funnel": "yousician.com/",
-   "n": 1,
-   "removed": true,
-   "ignore": true
-  },
-  {
-   "app": "yousician",
-   "funnel": "yousician.com/",
-   "n": 2,
-   "removed": true,
-   "ignore": true
-  },
-  {
-   "app": "yousician",
-   "funnel": "yousician.com/",
-   "n": 3,
-   "removed": true,
-   "ignore": true
-  },
-  {
-   "app": "yousician",
-   "funnel": "yousician.com/",
-   "n": 4,
-   "removed": true,
-   "ignore": true
-  },
-  {
-   "app": "yousician",
-   "funnel": "yousician.com/",
-   "n": 5,
-   "removed": true,
-   "ignore": true
-  },
-  {
-   "app": "yousician",
-   "funnel": "yousician.com/",
-   "n": 6,
-   "removed": true,
-   "ignore": true
-  },
-  {
-   "app": "yousician",
-   "funnel": "yousician.com/",
-   "n": 7,
-   "removed": true,
-   "ignore": true
-  },
-  {
-   "app": "yousician",
-   "funnel": "yousician.com/",
-   "n": 8,
-   "removed": true,
-   "ignore": true
-  },
-  {
-   "app": "yousician",
-   "funnel": "yousician.com/",
-   "n": 9,
-   "removed": true,
-   "ignore": true
-  },
-  {
    "app": "smartyme",
    "funnel": "start.smartymeapp.com/quiz",
    "n": 1,
@@ -1360,6 +1288,25 @@
    "notes": [
     "Last run the paywall showed $89.99 and $7.50; this run it shows $120.00 and $10.00. $14.99 appears in both runs, and a $0.00 trial line is shown.",
     "Captured on a retry without the proxy: through the proxy, the plans didn’t load."
+   ]
+  },
+  {
+   "app": "yousician",
+   "funnel": "yousician.com/",
+   "n": 1,
+   "title": "Landing page leads with a Black Friday offer",
+   "notes": [
+    "The main button is now “See offer now” (Black Friday); “Let’s get started”, which leads into the quiz and sign-up, is still there.",
+    "Our walk took “Let’s get started”, the same path as last run."
+   ]
+  },
+  {
+   "app": "yousician",
+   "funnel": "yousician.com/",
+   "n": 9,
+   "title": "Paywall after sign-up: same price",
+   "notes": [
+    "Still a 7-day free trial, then $159.99/year ($13.33/month), as last run. Other differences on the page are boxed in yellow."
    ]
   }
  ],
