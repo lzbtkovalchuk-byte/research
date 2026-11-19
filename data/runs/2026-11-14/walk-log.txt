@@ -72,3 +72,30 @@
 11:04:08 ✓ simply-draw 3 screens, stop=stuck, 147s
 11:06:15 ✓ simply-sing 7 screens, stop=stuck, 229s
 11:06:19 ✓ smartyme 12 screens, stop=stuck, 295s
+10:07:51 answer memory: 629 answers from 3 earlier runs
+10:07:51 walking 1 apps, 3 at a time
+10:07:51 PROXY_UK: set, http://…:823
+10:07:51 PROXY_US: set, http://…:823
+10:07:51 → simply-piano join-piano.hellosimply.com/start#child
+10:07:51 simply-piano proxy US: exit country US
+10:18:12 simply-piano paywall without prices yet, waiting up to 60s for the plans
+10:19:14 simply-piano plans did not load
+10:19:14 simply-piano plans did not load through the proxy, retrying without it
+10:29:07 simply-piano popup "Welcome Freebie!" → close button
+10:29:12 simply-piano retry without proxy: stop=paywall
+10:29:12 ✓ simply-piano 31 screens, stop=paywall, 1282s
+10:29:12 → simply-piano join-piano.hellosimply.com/start#adult
+10:29:13 simply-piano proxy US: exit country US
+10:39:05 simply-piano popup "Welcome Freebie!" → close button
+10:39:08 simply-piano paywall without prices yet, waiting up to 60s for the plans
+10:40:10 simply-piano plans did not load
+10:40:10 simply-piano plans did not load through the proxy, retrying without it
+10:50:18 simply-piano popup "Welcome Freebie!" → close button
+10:50:23 simply-piano retry without proxy: stop=paywall
+10:50:23 ✓ simply-piano 32 screens, stop=paywall, 1271s
+10:50:23 → simply-piano hellosimply.com/family/esa#child
+10:50:30 simply-piano proxy US: exit country US
+10:54:25 ✓ simply-piano 6 screens, stop=stuck, 242s
+10:54:25 → simply-piano hellosimply.com/family/esa#adult
+10:54:26 simply-piano proxy US: exit country US
+10:58:13 ✓ simply-piano 6 screens, stop=stuck, 228s

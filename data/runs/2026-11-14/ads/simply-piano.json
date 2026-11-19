@@ -2,16 +2,16 @@
   "id": "simply-piano",
   "name": "Simply Piano",
   "geo": "US",
-  "collected": "2026-11-14",
+  "collected": "2026-11-19",
   "windowStart": "2026-10-30",
   "sources": [
     {
       "type": "page",
       "value": "130724596952924",
       "url": "https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=US&media_type=all&search_type=page&view_all_page_id=130724596952924",
-      "results": 570,
-      "parsed": 25,
-      "kept": 25
+      "results": 530,
+      "parsed": 26,
+      "kept": 26
     }
   ],
   "ads": [
@@ -21,21 +21,6 @@
       "versions": 1,
       "page": "Simply Piano",
       "body": "Simply Piano is now available through the Texas Education Freedom Accounts marketplace, giving eligible Texas families a new way to fund piano learning at home.",
-      "caption": "HELLOSIMPLY.COM",
-      "headline": "Texas Education Freedom Accounts-approved in the state of Texas.",
-      "cta": "Texas Education Freedom Accounts-approved in the state of Texas.",
-      "video": false,
-      "link": "https://www.hellosimply.com/family/esa?utm_source=facebook&utm_medium={{adset.id}}&utm_campaign={{campaign.id}}&utm_content={{ad.name}}&placement={{placement}}&sitesource={{site_source_name}}&ad_id={{ad.id}}",
-      "startedISO": "2026-09-14",
-      "key": "hellosimply.com/family/esa",
-      "store": false
-    },
-    {
-      "id": "2233356774115324",
-      "started": "Sep 14, 2026",
-      "versions": 1,
-      "page": "Simply Piano",
-      "body": "Great news for Texas homeschool families: eligible families can now use TEFA funds for Simply Piano through the Odyssey marketplace.",
       "caption": "HELLOSIMPLY.COM",
       "headline": "Texas Education Freedom Accounts-approved in the state of Texas.",
       "cta": "Texas Education Freedom Accounts-approved in the state of Texas.",
@@ -61,6 +46,21 @@
       "store": false
     },
     {
+      "id": "2233356774115324",
+      "started": "Sep 14, 2026",
+      "versions": 1,
+      "page": "Simply Piano",
+      "body": "Great news for Texas homeschool families: eligible families can now use TEFA funds for Simply Piano through the Odyssey marketplace.",
+      "caption": "HELLOSIMPLY.COM",
+      "headline": "Texas Education Freedom Accounts-approved in the state of Texas.",
+      "cta": "Texas Education Freedom Accounts-approved in the state of Texas.",
+      "video": false,
+      "link": "https://www.hellosimply.com/family/esa?utm_source=facebook&utm_medium={{adset.id}}&utm_campaign={{campaign.id}}&utm_content={{ad.name}}&placement={{placement}}&sitesource={{site_source_name}}&ad_id={{ad.id}}",
+      "startedISO": "2026-09-14",
+      "key": "hellosimply.com/family/esa",
+      "store": false
+    },
+    {
       "id": "1030287903124738",
       "started": "Aug 4, 2026",
       "versions": 1,
@@ -76,9 +76,24 @@
       "store": false
     },
     {
-      "id": "1365649455648496",
-      "started": "Oct 6, 2026",
-      "versions": 7,
+      "id": "1620735179791606",
+      "started": "Oct 21, 2026",
+      "versions": 2,
+      "page": "Simply Piano",
+      "body": "Master the piano in no time! 🎶 Join millions of learners on Simply Piano and start playing today! 🎹✨",
+      "caption": null,
+      "headline": "",
+      "cta": "",
+      "video": false,
+      "link": "http://itunes.apple.com/app/id1019442026",
+      "startedISO": "2026-10-21",
+      "key": "itunes.apple.com/app/id1019442026",
+      "store": true
+    },
+    {
+      "id": "1883769499449103",
+      "started": "Nov 9, 2026",
+      "versions": 3,
       "page": "Simply Piano",
       "body": "Master the piano in no time! 🎶 Join millions of learners on Simply Piano and start playing today! 🎹✨",
       "caption": null,
@@ -86,7 +101,7 @@
       "cta": "",
       "video": false,
       "link": "https://join-piano.hellosimply.com/start?utm_source=facebook&utm_medium={{adset.id}}&utm_campaign={{campaign.id}}&utm_content={{ad.name}}&placement={{placement}}&sitesource={{site_source_name}}&ad_id={{ad.id}}",
-      "startedISO": "2026-10-06",
+      "startedISO": "2026-11-09",
       "key": "join-piano.hellosimply.com/start",
       "store": false
     },
@@ -121,24 +136,9 @@
       "store": false
     },
     {
-      "id": "1620735179791606",
-      "started": "Oct 21, 2026",
+      "id": "1482234574004365",
+      "started": "Nov 3, 2026",
       "versions": 1,
-      "page": "Simply Piano",
-      "body": "Master the piano in no time! 🎶 Join millions of learners on Simply Piano and start playing today! 🎹✨",
-      "caption": "ITUNES.APPLE.COM",
-      "headline": "Learn Piano - fast and fun!",
-      "cta": "temp-desc",
-      "video": false,
-      "link": "http://itunes.apple.com/app/id1019442026",
-      "startedISO": "2026-10-21",
-      "key": "itunes.apple.com/app/id1019442026",
-      "store": true
-    },
-    {
-      "id": "1883769499449103",
-      "started": "Nov 9, 2026",
-      "versions": 5,
       "page": "Simply Piano",
       "body": "Master the piano in no time! 🎶 Join millions of learners on Simply Piano and start playing today! 🎹✨",
       "caption": null,
@@ -146,7 +146,7 @@
       "cta": "",
       "video": false,
       "link": "https://join-piano.hellosimply.com/start?utm_source=facebook&utm_medium={{adset.id}}&utm_campaign={{campaign.id}}&utm_content={{ad.name}}&placement={{placement}}&sitesource={{site_source_name}}&ad_id={{ad.id}}",
-      "startedISO": "2026-11-09",
+      "startedISO": "2026-11-03",
       "key": "join-piano.hellosimply.com/start",
       "store": false
     },
@@ -166,21 +166,6 @@
       "store": false
     },
     {
-      "id": "1482234574004365",
-      "started": "Nov 3, 2026",
-      "versions": 1,
-      "page": "Simply Piano",
-      "body": "Master the piano in no time! 🎶 Join millions of learners on Simply Piano and start playing today! 🎹✨",
-      "caption": null,
-      "headline": "",
-      "cta": "",
-      "video": false,
-      "link": "https://join-piano.hellosimply.com/start?utm_source=facebook&utm_medium={{adset.id}}&utm_campaign={{campaign.id}}&utm_content={{ad.name}}&placement={{placement}}&sitesource={{site_source_name}}&ad_id={{ad.id}}",
-      "startedISO": "2026-11-03",
-      "key": "join-piano.hellosimply.com/start",
-      "store": false
-    },
-    {
       "id": "1601062321627717",
       "started": "Jul 13, 2026",
       "versions": 3,
@@ -192,6 +177,21 @@
       "video": false,
       "link": "https://join-piano.hellosimply.com/start?utm_source=facebook&utm_medium={{adset.id}}&utm_campaign={{campaign.id}}&utm_content={{ad.name}}&placement={{placement}}&sitesource={{site_source_name}}&ad_id={{ad.id}}",
       "startedISO": "2026-07-13",
+      "key": "join-piano.hellosimply.com/start",
+      "store": false
+    },
+    {
+      "id": "1432878325278211",
+      "started": "Nov 15, 2026",
+      "versions": 4,
+      "page": "Simply Piano",
+      "body": "Master the piano in no time! 🎶 Join millions of learners on Simply Piano and start playing today! 🎹✨",
+      "caption": null,
+      "headline": "",
+      "cta": "",
+      "video": false,
+      "link": "https://join-piano.hellosimply.com/start?utm_source=facebook&utm_medium={{adset.id}}&utm_campaign={{campaign.id}}&utm_content={{ad.name}}&placement={{placement}}&sitesource={{site_source_name}}&ad_id={{ad.id}}",
+      "startedISO": "2026-11-15",
       "key": "join-piano.hellosimply.com/start",
       "store": false
     },
@@ -211,34 +211,34 @@
       "store": false
     },
     {
-      "id": "1620184949606297",
-      "started": "Oct 14, 2026",
-      "versions": 1,
+      "id": "1757756745431793",
+      "started": "Oct 1, 2026",
+      "versions": 4,
       "page": "Simply Piano",
-      "body": "Start Today - Includes Courses For Different Musical Tastes And Playing Levels. Start learning with Simply Piano and achieve your musical dreams. Fast progress. All genres. Easy piano songs.",
+      "body": "Master the piano in no time! 🎶 Join millions of learners on Simply Piano and start playing today! 🎹✨",
       "caption": null,
       "headline": "",
       "cta": "",
       "video": false,
-      "link": "http://itunes.apple.com/app/id1019442026",
-      "startedISO": "2026-10-14",
-      "key": "itunes.apple.com/app/id1019442026",
-      "store": true
+      "link": "https://join-piano.hellosimply.com/start?utm_source=facebook&utm_medium={{adset.id}}&utm_campaign={{campaign.id}}&utm_content={{ad.name}}&placement={{placement}}&sitesource={{site_source_name}}&ad_id={{ad.id}}",
+      "startedISO": "2026-10-01",
+      "key": "join-piano.hellosimply.com/start",
+      "store": false
     },
     {
-      "id": "2202410280680579",
-      "started": "Oct 14, 2026",
+      "id": "2262484624589527",
+      "started": "Sep 6, 2026",
       "versions": 1,
       "page": "Simply Piano",
-      "body": "Start Today - Includes Courses For Different Musical Tastes And Playing Levels. Start learning with Simply Piano and achieve your musical dreams. Fast progress. All genres. Easy piano songs.",
+      "body": "Master the piano in no time! 🎶 Join millions of learners on Simply Piano and start playing today! 🎹✨",
       "caption": null,
       "headline": "",
       "cta": "",
       "video": false,
-      "link": "http://itunes.apple.com/app/id1019442026",
-      "startedISO": "2026-10-14",
-      "key": "itunes.apple.com/app/id1019442026",
-      "store": true
+      "link": "https://join-piano.hellosimply.com/start?utm_source=facebook&utm_medium={{adset.id}}&utm_campaign={{campaign.id}}&utm_content={{ad.name}}&placement={{placement}}&sitesource={{site_source_name}}&ad_id={{ad.id}}",
+      "startedISO": "2026-09-06",
+      "key": "join-piano.hellosimply.com/start",
+      "store": false
     },
     {
       "id": "1404452721770337",
@@ -253,36 +253,6 @@
       "link": "https://www.hellosimply.com/family/esa?utm_source=facebook&utm_medium={{adset.id}}&utm_campaign={{campaign.id}}&utm_content={{ad.name}}&placement={{placement}}&sitesource={{site_source_name}}&ad_id={{ad.id}}",
       "startedISO": "2026-09-14",
       "key": "hellosimply.com/family/esa",
-      "store": false
-    },
-    {
-      "id": "28818960637721150",
-      "started": "Oct 6, 2026",
-      "versions": 2,
-      "page": "Simply Piano",
-      "body": "Master the piano in no time! 🎶 Join millions of learners on Simply Piano and start playing today! 🎹✨",
-      "caption": null,
-      "headline": "",
-      "cta": "",
-      "video": false,
-      "link": "https://join-piano.hellosimply.com/start?utm_source=facebook&utm_medium={{adset.id}}&utm_campaign={{campaign.id}}&utm_content={{ad.name}}&placement={{placement}}&sitesource={{site_source_name}}&ad_id={{ad.id}}",
-      "startedISO": "2026-10-06",
-      "key": "join-piano.hellosimply.com/start",
-      "store": false
-    },
-    {
-      "id": "1757756745431793",
-      "started": "Oct 1, 2026",
-      "versions": 4,
-      "page": "Simply Piano",
-      "body": "Master the piano in no time! 🎶 Join millions of learners on Simply Piano and start playing today! 🎹✨",
-      "caption": null,
-      "headline": "",
-      "cta": "",
-      "video": false,
-      "link": "https://join-piano.hellosimply.com/start?utm_source=facebook&utm_medium={{adset.id}}&utm_campaign={{campaign.id}}&utm_content={{ad.name}}&placement={{placement}}&sitesource={{site_source_name}}&ad_id={{ad.id}}",
-      "startedISO": "2026-10-01",
-      "key": "join-piano.hellosimply.com/start",
       "store": false
     },
     {
@@ -316,34 +286,79 @@
       "store": false
     },
     {
-      "id": "1817484926268451",
-      "started": "Oct 6, 2026",
-      "versions": 2,
-      "page": "Unstoppable Mama with Simply Piano",
-      "body": "Screen time you can actually feel good about 🎹 Simply Piano makes piano fun for kids!",
+      "id": "1088259114038900",
+      "started": "Nov 6, 2026",
+      "versions": 1,
+      "page": "Simply Piano",
+      "body": "Master the piano in no time! 🎶 Join millions of learners on Simply Piano and start playing today! 🎹✨",
       "caption": null,
       "headline": "",
       "cta": "",
       "video": false,
       "link": "https://join-piano.hellosimply.com/start?utm_source=facebook&utm_medium={{adset.id}}&utm_campaign={{campaign.id}}&utm_content={{ad.name}}&placement={{placement}}&sitesource={{site_source_name}}&ad_id={{ad.id}}",
-      "startedISO": "2026-10-06",
+      "startedISO": "2026-11-06",
       "key": "join-piano.hellosimply.com/start",
       "store": false
     },
     {
-      "id": "28546084401751569",
-      "started": "Oct 14, 2026",
-      "versions": 3,
+      "id": "1692206562476945",
+      "started": "Nov 9, 2026",
+      "versions": 6,
       "page": "Simply Piano",
-      "body": "Start Today - Includes Courses For Different Musical Tastes And Playing Levels. Start learning with Simply Piano and achieve your musical dreams. Fast progress. All genres. Easy piano songs.",
+      "body": "Master the piano in no time! 🎶 Join millions of learners on Simply Piano and start playing today! 🎹✨",
       "caption": null,
       "headline": "",
       "cta": "",
       "video": false,
-      "link": "http://itunes.apple.com/app/id1019442026",
-      "startedISO": "2026-10-14",
-      "key": "itunes.apple.com/app/id1019442026",
-      "store": true
+      "link": "https://join-piano.hellosimply.com/start?utm_source=facebook&utm_medium={{adset.id}}&utm_campaign={{campaign.id}}&utm_content={{ad.name}}&placement={{placement}}&sitesource={{site_source_name}}&ad_id={{ad.id}}",
+      "startedISO": "2026-11-09",
+      "key": "join-piano.hellosimply.com/start",
+      "store": false
+    },
+    {
+      "id": "1467685628511578",
+      "started": "Oct 1, 2026",
+      "versions": 6,
+      "page": "Simply Piano",
+      "body": "Master the piano in no time! 🎶 Join millions of learners on Simply Piano and start playing today! 🎹✨",
+      "caption": null,
+      "headline": "",
+      "cta": "",
+      "video": false,
+      "link": "https://join-piano.hellosimply.com/start?utm_source=facebook&utm_medium={{adset.id}}&utm_campaign={{campaign.id}}&utm_content={{ad.name}}&placement={{placement}}&sitesource={{site_source_name}}&ad_id={{ad.id}}",
+      "startedISO": "2026-10-01",
+      "key": "join-piano.hellosimply.com/start",
+      "store": false
+    },
+    {
+      "id": "2238504696976753",
+      "started": "Jun 9, 2026",
+      "versions": 1,
+      "page": "Simply Piano",
+      "body": "Master the piano in no time! 🎶 Join millions of learners on Simply Piano and start playing today! 🎹✨",
+      "caption": null,
+      "headline": "",
+      "cta": "",
+      "video": false,
+      "link": "https://join-piano.hellosimply.com/start?utm_source=facebook&utm_medium={{adset.id}}&utm_campaign={{campaign.id}}&utm_content={{ad.name}}&placement={{placement}}&sitesource={{site_source_name}}&ad_id={{ad.id}}",
+      "startedISO": "2026-06-09",
+      "key": "join-piano.hellosimply.com/start",
+      "store": false
+    },
+    {
+      "id": "1430808325710402",
+      "started": "Jul 13, 2026",
+      "versions": 6,
+      "page": "Simply Piano",
+      "body": "Master the piano in no time! 🎶 Join millions of learners on Simply Piano and start playing today! 🎹✨",
+      "caption": null,
+      "headline": "",
+      "cta": "",
+      "video": false,
+      "link": "https://join-piano.hellosimply.com/start?utm_source=facebook&utm_medium={{adset.id}}&utm_campaign={{campaign.id}}&utm_content={{ad.name}}&placement={{placement}}&sitesource={{site_source_name}}&ad_id={{ad.id}}",
+      "startedISO": "2026-07-13",
+      "key": "join-piano.hellosimply.com/start",
+      "store": false
     },
     {
       "id": "2369068986833280",
@@ -361,8 +376,8 @@
       "store": false
     },
     {
-      "id": "2262484624589527",
-      "started": "Sep 6, 2026",
+      "id": "1115818147652263",
+      "started": "Oct 1, 2026",
       "versions": 1,
       "page": "Simply Piano",
       "body": "Master the piano in no time! 🎶 Join millions of learners on Simply Piano and start playing today! 🎹✨",
@@ -371,22 +386,22 @@
       "cta": "",
       "video": false,
       "link": "https://join-piano.hellosimply.com/start?utm_source=facebook&utm_medium={{adset.id}}&utm_campaign={{campaign.id}}&utm_content={{ad.name}}&placement={{placement}}&sitesource={{site_source_name}}&ad_id={{ad.id}}",
-      "startedISO": "2026-09-06",
+      "startedISO": "2026-10-01",
       "key": "join-piano.hellosimply.com/start",
       "store": false
     },
     {
-      "id": "2238504696976753",
-      "started": "Jun 9, 2026",
+      "id": "1458748652795463",
+      "started": "Oct 22, 2026",
       "versions": 1,
       "page": "Simply Piano",
       "body": "Master the piano in no time! 🎶 Join millions of learners on Simply Piano and start playing today! 🎹✨",
-      "caption": null,
-      "headline": "",
-      "cta": "",
+      "caption": "JOIN-PIANO.HELLOSIMPLY.COM",
+      "headline": "Start Learning Today!",
+      "cta": "Start Today — Includes Courses For Different Musical Tastes And Playing Levels. Start learning with Simply Piano and achieve your musical dreams. Fast progress. All genres. Easy piano songs.",
       "video": false,
       "link": "https://join-piano.hellosimply.com/start?utm_source=facebook&utm_medium={{adset.id}}&utm_campaign={{campaign.id}}&utm_content={{ad.name}}&placement={{placement}}&sitesource={{site_source_name}}&ad_id={{ad.id}}",
-      "startedISO": "2026-06-09",
+      "startedISO": "2026-10-22",
       "key": "join-piano.hellosimply.com/start",
       "store": false
     }
@@ -413,28 +428,32 @@
       "key": "join-piano.hellosimply.com/start",
       "sample": "https://join-piano.hellosimply.com/start?utm_source=facebook&utm_medium={{adset.id}}&utm_campaign={{campaign.id}}&utm_content={{ad.name}}&placement={{placement}}&sitesource={{site_source_name}}&ad_id={{ad.id}}",
       "store": false,
-      "ads": 31,
-      "creatives": 14,
+      "ads": 43,
+      "creatives": 18,
       "first": "2026-06-09",
-      "last": "2026-11-09",
+      "last": "2026-11-15",
       "adIds": [
         "1102175812775841",
-        "1365649455648496",
-        "1305757331669953",
         "1883769499449103",
-        "1095583810015111",
+        "1305757331669953",
         "1482234574004365",
+        "1095583810015111",
         "1601062321627717",
-        "28818960637721150",
+        "1432878325278211",
         "1757756745431793",
-        "28754544520841610",
-        "1817484926268451",
-        "2369068986833280",
         "2262484624589527",
-        "2238504696976753"
+        "28754544520841610",
+        "1088259114038900",
+        "1692206562476945",
+        "1467685628511578",
+        "2238504696976753",
+        "1430808325710402",
+        "2369068986833280",
+        "1115818147652263",
+        "1458748652795463"
       ],
       "shot": "simply-piano-81a94aaa84e1.webp",
-      "shotAd": "1883769499449103"
+      "shotAd": "1432878325278211"
     },
     "join-piano.hellosimply.com/start?flow=tea": {
       "key": "join-piano.hellosimply.com/start?flow=tea",
@@ -456,15 +475,12 @@
       "key": "itunes.apple.com/app/id1019442026",
       "sample": "http://itunes.apple.com/app/id1019442026",
       "store": true,
-      "ads": 6,
-      "creatives": 4,
-      "first": "2026-10-14",
+      "ads": 2,
+      "creatives": 1,
+      "first": "2026-10-21",
       "last": "2026-10-21",
       "adIds": [
-        "1620735179791606",
-        "1620184949606297",
-        "2202410280680579",
-        "28546084401751569"
+        "1620735179791606"
       ],
       "shot": "simply-piano-68507879f3ac.webp",
       "shotAd": "1620735179791606"
@@ -472,8 +488,7 @@
   },
   "pageIds": {
     "Simply Piano": "130724596952924",
-    "Celena Kinsey": "326079241069484",
-    "Unstoppable Mama": "105147654556447"
+    "Celena Kinsey": "326079241069484"
   },
   "top": {
     "id": "27386408547702561",
@@ -492,8 +507,8 @@
     "url": "https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=US&media_type=all&search_type=page&view_all_page_id=130724596952924&sort_data[direction]=desc&sort_data[mode]=total_impressions",
     "shot": "simply-piano-top.webp"
   },
-  "activeEstimate": 570,
-  "parsedCreatives": 25,
-  "newInWindow": 6,
-  "newCreativesInWindow": 2
+  "activeEstimate": 530,
+  "parsedCreatives": 26,
+  "newInWindow": 15,
+  "newCreativesInWindow": 5
 }

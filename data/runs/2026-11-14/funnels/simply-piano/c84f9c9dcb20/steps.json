@@ -16,6 +16,7 @@
   "restartUrl": null,
   "finalUrl": "https://educhoiceusa.com/get-plan",
   "exitCountry": "US",
+  "retriedWithoutProxy": false,
   "steps": [
     {
       "n": 1,
@@ -36,7 +37,7 @@
     {
       "n": 2,
       "file": "02.webp",
-      "url": "https://educhoiceusa.com/product/simply-piano?clickid=bc880aa0-49e8-4f29-8dea-f7c2d2352d8a",
+      "url": "https://educhoiceusa.com/product/simply-piano?clickid=3e154585-f3ef-4dcc-a73e-329b8f351503",
       "path": "/product/simply-piano",
       "title": "Simply Piano",
       "kind": "question",

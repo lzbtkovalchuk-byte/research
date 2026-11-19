@@ -8,7 +8,7 @@ screenshot paths to open (previous → current). Open only those.
 |---|---|---|---|---|---|
 | Imprint | vocal+drawing | US | 920 | -80 | 0 |
 | Breeze | vocal+drawing | US | 28 | -1 | 0 |
-| Simply Piano | vocal+drawing | US | 570 | 40 | 6 |
+| Simply Piano | vocal+drawing | US | 530 | 0 | 15 |
 | MemoryOS | vocal+drawing | US | 8 | 2 | 2 |
 | Chillio | vocal+drawing | US | 26 | 2 | 8 |
 | Learna | vocal+drawing | US | 452 | -492 | 88 |
@@ -58,19 +58,18 @@ steps=39 stop=paywall email@35 paywall@39 popups=0 prices=$1 $2 $10 $17.34 $39.9
 - [REMOVED] previous screen 28 question "How much time are you willing to dedicate to a personalized ": data/runs/2026-10-30/funnels/breeze/cdffb5cb8655/28.webp
 
 ### simply-piano — Simply Piano [vocal+drawing] — join-piano.hellosimply.com/start#child
-steps=31 stop=stuck email@28 paywall@— popups=1 prices=— discount=— timer=false trial=false moneyBack=false
-- [CHANGED] screen 1 question "What motivates you to play the piano?" (3 changed regions): data/runs/2026-10-30/funnels/simply-piano/81a94aaa84e1/01.webp → data/runs/2026-11-14/funnels/simply-piano/8074f436bd33/01.webp
+steps=31 stop=paywall email@28 paywall@31 popups=1 prices=$17.49 $34.99 $209.90 $14.16 $24.99 $169.90 $0.00 discount=50 timer=true trial=true moneyBack=false
+- [CHANGED] screen 1 question "What motivates you to play the piano?" (4 changed regions): data/runs/2026-10-30/funnels/simply-piano/81a94aaa84e1/01.webp → data/runs/2026-11-14/funnels/simply-piano/8074f436bd33/01.webp
 - [CHANGED] screen 8 question "Which styles would they be excited to play?" (0 changed regions): data/runs/2026-10-30/funnels/simply-piano/81a94aaa84e1/08.webp → data/runs/2026-11-14/funnels/simply-piano/8074f436bd33/08.webp
-- [CHANGED] screen 16 question "What would you love them to get out of piano learning?" (3 changed regions): data/runs/2026-10-30/funnels/simply-piano/81a94aaa84e1/16.webp → data/runs/2026-11-14/funnels/simply-piano/8074f436bd33/16.webp
+- [CHANGED] screen 16 question "What would you love them to get out of piano learning?" (1 changed regions): data/runs/2026-10-30/funnels/simply-piano/81a94aaa84e1/16.webp → data/runs/2026-11-14/funnels/simply-piano/8074f436bd33/16.webp
 - [CHANGED] screen 21 loader "Based on your answers, we're creating your child a personali" (0 changed regions): data/runs/2026-10-30/funnels/simply-piano/81a94aaa84e1/21.webp → data/runs/2026-11-14/funnels/simply-piano/8074f436bd33/21.webp
 - [CHANGED] screen 22 info "Read and play sheet music in 29 days" (0 changed regions): data/runs/2026-10-30/funnels/simply-piano/81a94aaa84e1/22.webp → data/runs/2026-11-14/funnels/simply-piano/8074f436bd33/22.webp
-- [CHANGED] screen 26 question "Choose the first song they'll learn to play" (1 changed regions): data/runs/2026-10-30/funnels/simply-piano/81a94aaa84e1/26.webp → data/runs/2026-11-14/funnels/simply-piano/8074f436bd33/26.webp
+- [CHANGED] screen 26 question "Choose the first song they'll learn to play" (2 changed regions): data/runs/2026-10-30/funnels/simply-piano/81a94aaa84e1/26.webp → data/runs/2026-11-14/funnels/simply-piano/8074f436bd33/26.webp
 - [CHANGED] screen 27 info "Great choice!" (1 changed regions): data/runs/2026-10-30/funnels/simply-piano/81a94aaa84e1/27.webp → data/runs/2026-11-14/funnels/simply-piano/8074f436bd33/27.webp
-- [CHANGED] screen 31 question "Start your 7-day free trial" (4 changed regions): data/runs/2026-10-30/funnels/simply-piano/81a94aaa84e1/31.webp → data/runs/2026-11-14/funnels/simply-piano/8074f436bd33/31.webp
 
 ### simply-piano — Simply Piano [vocal+drawing] — join-piano.hellosimply.com/start#adult
-steps=32 stop=stuck email@29 paywall@— popups=1 prices=— discount=— timer=false trial=false moneyBack=false
-- [CHANGED] screen 1 question "What motivates you to play the piano?" (3 changed regions): data/runs/2026-10-30/funnels/simply-piano/81a94aaa84e1/01.webp → data/runs/2026-11-14/funnels/simply-piano/23f2641d15bf/01.webp
+steps=32 stop=paywall email@29 paywall@32 popups=1 prices=$17.49 $34.99 $209.90 $14.16 $24.99 $169.90 $0.00 discount=50 timer=true trial=true moneyBack=false
+- [CHANGED] screen 1 question "What motivates you to play the piano?" (2 changed regions): data/runs/2026-10-30/funnels/simply-piano/81a94aaa84e1/01.webp → data/runs/2026-11-14/funnels/simply-piano/23f2641d15bf/01.webp
 - [NEW] screen 2 info "You're in good hands!": data/runs/2026-11-14/funnels/simply-piano/23f2641d15bf/02.webp
 - [NEW] screen 3 question "What is your age?": data/runs/2026-11-14/funnels/simply-piano/23f2641d15bf/03.webp
 - [NEW] screen 5 question "Have you played piano before?": data/runs/2026-11-14/funnels/simply-piano/23f2641d15bf/05.webp
@@ -99,7 +98,7 @@ steps=32 stop=stuck email@29 paywall@— popups=1 prices=— discount=— timer=
 - [CHANGED] screen 28 info "Great choice!" (1 changed regions): data/runs/2026-10-30/funnels/simply-piano/81a94aaa84e1/27.webp → data/runs/2026-11-14/funnels/simply-piano/23f2641d15bf/28.webp
 - [CHANGED] screen 29 email "Achieve your goals with Simply Piano" (2 changed regions): data/runs/2026-10-30/funnels/simply-piano/81a94aaa84e1/28.webp → data/runs/2026-11-14/funnels/simply-piano/23f2641d15bf/29.webp
 - [NEW] screen 30 info "We’ll guide you every step of the way": data/runs/2026-11-14/funnels/simply-piano/23f2641d15bf/30.webp
-- [CHANGED] screen 32 question "Start your 7-day free trial" (4 changed regions): data/runs/2026-10-30/funnels/simply-piano/81a94aaa84e1/31.webp → data/runs/2026-11-14/funnels/simply-piano/23f2641d15bf/32.webp
+- [CHANGED] screen 32 paywall "Start your 7-day free trial" (4 changed regions): data/runs/2026-10-30/funnels/simply-piano/81a94aaa84e1/31.webp → data/runs/2026-11-14/funnels/simply-piano/23f2641d15bf/32.webp
 - [REMOVED] previous screen 2 info "You’re in good hands with Simply Piano!": data/runs/2026-10-30/funnels/simply-piano/81a94aaa84e1/02.webp
 - [REMOVED] previous screen 3 question "What is your child’s age?": data/runs/2026-10-30/funnels/simply-piano/81a94aaa84e1/03.webp
 - [REMOVED] previous screen 5 info "Great! Simply piano works with any piano or keyboard": data/runs/2026-10-30/funnels/simply-piano/81a94aaa84e1/05.webp

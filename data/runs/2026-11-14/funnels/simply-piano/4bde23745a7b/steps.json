@@ -16,6 +16,7 @@
   "restartUrl": null,
   "finalUrl": "https://educhoiceusa.com/get-plan",
   "exitCountry": "US",
+  "retriedWithoutProxy": false,
   "steps": [
     {
       "n": 1,
@@ -26,7 +27,7 @@
       "kind": "social_proof",
       "text": "Skip to main content\nSkip to footer\nGET STARTED\nNew states added! View ESA instructions →\nESA funds for\npiano learning\nFIND YOUR STATE\nUse ESA funds to bring piano learning home\nEducation Savings Accounts (ESA) allow families to customize their child’s learning journey and make the most of their education funds.\nNow that Simply Piano is available to eligible families through ESA programs in select states, you can use your state funds to bring a complete music curriculum into your home. Simply Piano offers a structured learning path, real-time feedback, and practice that fits around homeschooling, charter school, tutoring, or family routines.\nTrusted by\nFind your state’s ESA instructions\nESA rules are different in every state. Find your state below to see what to check before using ESA funds for Simply Piano. We are currently available in Texas, Louisiana, Utah, Wyoming, South Carolina, Arizona, Alabama, Arkansas, Missouri, New Hampshire, New York.\nMore states are coming soon, so stay tuned.\nIs your state not available yet?\nLeave your email and we'll let you know if an ESA payment option for Simply products becomes available in your state.\nName\nEmail\nSUBMIT\nSimply plans available through ESA programs\nExplore the subscription plans available through your state’s ESA program, then choose what fits your learning goals.\nSimply Piano\nStructured piano curriculum with real-time feedback. Covers technique, music theory, and sight-reading. One of the most widely used music education ap",
       "textHash": "dcf7535061fd",
-      "dhash": "0001100101101101011011010110110100011001001100000011001000000010",
+      "dhash": "0001100101101101011011010111010100011001001100000011001000000010",
       "h": 6000,
       "prices": [],
       "action": {
@@ -36,7 +37,7 @@
     {
       "n": 2,
       "file": "02.webp",
-      "url": "https://educhoiceusa.com/product/simply-piano?clickid=81105010-edb1-473a-97b1-e2cc20421116",
+      "url": "https://educhoiceusa.com/product/simply-piano?clickid=bf243706-fe8c-4eab-ba68-4fe43e0309e9",
       "path": "/product/simply-piano",
       "title": "Simply Piano",
       "kind": "question",
