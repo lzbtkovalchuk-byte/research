@@ -815,7 +815,7 @@ async function main() {
       let r = await walk(await browserFor(app), app, e.url, fdir, ei, ctl, v, e.key).catch(err => ({ steps: [], stop: 'error: ' + String(err.message || err).slice(0, 160), proxied: false, email: null }));
       clearTimeout(timer);
       // Plans didn't load through the proxy: walk the funnel once more without it (US apps only — the runner is in the US).
-      if (r.stop === 'paywall_incomplete' && r.proxied && app.geo !== 'GB') {
+      if ((r.stop === 'paywall_incomplete' || (/^error/.test(r.stop) && r.steps.length < 3)) && proxyFor(app.geo) && app.geo !== 'GB') {
         log(app.id, 'plans did not load through the proxy, retrying without it');
         for (const x of fs.readdirSync(fdir)) if (/\.webp$|stuck\.html$/.test(x)) fs.rmSync(path.join(fdir, x));
         const ctl2 = { noProxy: true };
