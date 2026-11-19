@@ -6,71 +6,20 @@
   "adShot": "simply-draw-ae1631c99eb6.webp",
   "adId": "911664181882213",
   "dir": "funnels/simply-draw/ae1631c99eb6",
-  "stop": "stuck",
+  "stop": "error: page.screenshot: Timeout 15000ms exceeded.\nCall log:\n  - taking page screenshot\n  - waiting for fonts to load...\n",
   "proxied": true,
-  "email": "yelyzavetabazyla+fw2611141007simplydraw1@gmail.com",
+  "email": "yelyzavetabazyla+fw2611141119simplydraw1@gmail.com",
   "emailNote": null,
   "signedUp": null,
   "restartUrl": null,
   "finalUrl": "https://join-draw.hellosimply.com/get-plan",
   "exitCountry": "US",
-  "steps": [
-    {
-      "n": 1,
-      "file": "01.webp",
-      "url": "https://join-draw.hellosimply.com/start/drawOnePagerIntro?flow=baw&utm_source=facebook&utm_medium={{adset.id}}&utm_campaign={{campaign.id}}&utm_content={{ad.name}}&placement={{placement}}&sitesource={{site_source_name}}&ad_id={{ad.id}}",
-      "path": "/start/drawOnePagerIntro",
-      "title": "Creativity that helps your child grow",
-      "kind": "info",
-      "text": "Step 1 of 4\nCreativity that helps your child grow\nEasy, step-by-step lessons kids love\nChild safe with no ads\nLearn to draw with a real pencil and paper\nCreated with love by teachers & artists\nGrow Your Child’s Skills",
-      "textHash": "c5fa739bf7bd",
-      "dhash": "0000011000001111011011110101101100111100110011100101011111001101",
-      "h": 844,
-      "prices": [],
-      "action": {
-        "cta": "Grow Your Child’s Skills"
-      }
-    },
-    {
-      "n": 2,
-      "file": "02.webp",
-      "url": "https://join-draw.hellosimply.com/start/drawCreateAccount?flow=baw&utm_source=facebook&utm_medium={{adset.id}}&utm_campaign={{campaign.id}}&utm_content={{ad.name}}&placement={{placement}}&sitesource={{site_source_name}}&ad_id={{ad.id}}",
-      "path": "/start/drawCreateAccount",
-      "title": "Create your account to access your FREE 7 day trial!",
-      "kind": "email",
-      "text": "Step 2 of 4\nStep 2 of 4\nCreate your account to access your FREE 7 day trial!\nCREATE FREE ACCOUNT",
-      "textHash": "7626bae67429",
-      "dhash": "0111011100001111000010110011001100110011110010000010001000000000",
-      "h": 844,
-      "prices": [],
-      "action": {
-        "filled": true,
-        "email": "yelyzavetabazyla+fw2611141007simplydraw1@gmail.com",
-        "fallback": "CREATE FREE ACCOUNT"
-      }
-    },
-    {
-      "n": 3,
-      "file": "03.webp",
-      "url": "https://join-draw.hellosimply.com/start/drawSubscribe?flow=baw&utm_source=facebook&utm_medium={{adset.id}}&utm_campaign={{campaign.id}}&utm_content={{ad.name}}&placement={{placement}}&sitesource={{site_source_name}}&ad_id={{ad.id}}",
-      "path": "/start/drawSubscribe",
-      "title": "Start your 7-day free trial",
-      "kind": "info",
-      "text": "Step 3 of 4\nStart your 7-day free trial",
-      "textHash": "1823caa4eb1f",
-      "dhash": "0010101100010111100101100000110000001100000100000000000000000000",
-      "h": 862,
-      "prices": [],
-      "action": {
-        "answerSource": "default",
-        "opt": "Step 3 of 4 Start your 7-day free trial"
-      }
-    }
-  ],
+  "retriedWithoutProxy": false,
+  "steps": [],
   "features": {
-    "totalSteps": 3,
-    "stop": "stuck",
-    "emailStep": 2,
+    "totalSteps": 0,
+    "stop": "error: page.screenshot: Timeout 15000ms exceeded.\nCall log:\n  - taking page screenshot\n  - waiting for fonts to load...\n",
+    "emailStep": null,
     "paywallStep": null,
     "questions": 0,
     "socialProof": 0,

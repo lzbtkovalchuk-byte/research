@@ -8,8 +8,8 @@
     {
       "key": "join-draw.hellosimply.com/start?flow=baw",
       "dir": "funnels/simply-draw/ae1631c99eb6",
-      "stop": "stuck",
-      "steps": 3,
+      "stop": "error: page.screenshot: Timeout 15000ms exceeded.\nCall log:\n  - taking page screenshot\n  - waiting for fonts to load...\n",
+      "steps": 0,
       "why": "ad",
       "ads": 6
     }

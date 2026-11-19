@@ -291,5 +291,11 @@ steps=12 stop=stuck email@— paywall@— popups=0 prices=— discount=— timer
 - [REMOVED] previous screen 1 question "BECOME FLUENT IN SMALL TALK": data/runs/2026-10-30/funnels/smartyme/5353a564ba54/01.webp
 
 ### simply-draw — Simply Draw [drawing] — join-draw.hellosimply.com/start?flow=baw
-steps=3 stop=stuck email@2 paywall@— popups=0 prices=— discount=— timer=false trial=false moneyBack=false
-- [CHANGED] screen 3 info "Start your 7-day free trial" (4 changed regions): data/runs/2026-10-30/funnels/simply-draw/ae1631c99eb6/03.webp → data/runs/2026-11-14/funnels/simply-draw/ae1631c99eb6/03.webp
+steps=0 stop=error: page.screenshot: Timeout 15000ms exceeded.
+Call log:
+  - taking page screenshot
+  - waiting for fonts to load...
+ email@— paywall@— popups=0 prices=— discount=— timer=false trial=false moneyBack=false
+- [REMOVED] previous screen 1 info "Creativity that helps your child grow": data/runs/2026-10-30/funnels/simply-draw/ae1631c99eb6/01.webp
+- [REMOVED] previous screen 2 email "Create your account to access your FREE 7 day trial!": data/runs/2026-10-30/funnels/simply-draw/ae1631c99eb6/02.webp
+- [REMOVED] previous screen 3 paywall "Start your 7-day free trial": data/runs/2026-10-30/funnels/simply-draw/ae1631c99eb6/03.webp

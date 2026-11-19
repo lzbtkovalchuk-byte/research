@@ -4477,53 +4477,27 @@
           "comparedWith": "join-draw.hellosimply.com/start?flow=baw",
           "prevDir": "funnels/simply-draw/ae1631c99eb6",
           "prevSteps": 3,
-          "status": [
+          "status": [],
+          "removed": [
             {
-              "s": "same",
-              "prev": 1,
-              "why": "",
-              "prevFile": "01.webp"
+              "n": 1,
+              "title": "Creativity that helps your child grow",
+              "kind": "info",
+              "file": "01.webp"
             },
             {
-              "s": "same",
-              "prev": 2,
-              "why": "",
-              "prevFile": "02.webp"
+              "n": 2,
+              "title": "Create your account to access your FREE 7 day trial!",
+              "kind": "email",
+              "file": "02.webp"
             },
             {
-              "s": "changed",
-              "prev": 3,
-              "why": "text",
-              "prevFile": "03.webp",
-              "boxes": [
-                {
-                  "t": 2.44,
-                  "l": 13.08,
-                  "w": 73.85,
-                  "h": 7.32
-                },
-                {
-                  "t": 11.15,
-                  "l": 13.08,
-                  "w": 73.85,
-                  "h": 10.8
-                },
-                {
-                  "t": 23.34,
-                  "l": 0,
-                  "w": 100,
-                  "h": 71.78
-                },
-                {
-                  "t": 96.52,
-                  "l": 0,
-                  "w": 100,
-                  "h": 4.53
-                }
-              ]
+              "n": 3,
+              "title": "Start your 7-day free trial",
+              "kind": "paywall",
+              "file": "03.webp"
             }
-          ],
-          "removed": []
+          ]
         }
       }
     }

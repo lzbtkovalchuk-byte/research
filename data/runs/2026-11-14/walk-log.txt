@@ -99,3 +99,14 @@
 10:54:25 → simply-piano hellosimply.com/family/esa#adult
 10:54:26 simply-piano proxy US: exit country US
 10:58:13 ✓ simply-piano 6 screens, stop=stuck, 228s
+11:19:33 answer memory: 629 answers from 3 earlier runs
+11:19:33 walking 1 apps, 3 at a time
+11:19:33 PROXY_UK: set, http://…:823
+11:19:33 PROXY_US: set, http://…:823
+11:19:33 → simply-draw join-draw.hellosimply.com/start?flow=baw
+11:19:34 simply-draw proxy US: exit country US
+11:21:28 ✓ simply-draw 0 screens, stop=error: page.screenshot: Timeout 15000ms exceeded.
+Call log:
+  - taking page screenshot
+  - waiting for fonts to load...
+, 115s
